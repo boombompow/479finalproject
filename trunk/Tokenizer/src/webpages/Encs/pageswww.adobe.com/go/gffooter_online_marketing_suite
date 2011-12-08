@@ -1,0 +1,590 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//en" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en">
+<head>
+	<title>Web Analytics,Conversion,Optimisation | Digital Marketing Suite - Adobe powered by Omniture</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=8" />
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="Adobe's Digital Marketing Suite powered by Omniture includes a suite of Analytics and Conversion tools, including Multi-Channel Analytics, Social Analytics, and Mobile Analytics." />
+	<meta name="keywords" content="web analytics, website analysis, website optimisation, website analytics" />
+	<meta name="category" content="Product" />
+	<meta name="verticals" content="" />
+	<meta name="personas" content="" />
+	<meta name="tags" content="web 2.0, web optimization, web two point oh, social networking, blog analytics, blogs, blog value, rich internet applications, dynamic search, visitor interaction profiling" />
+	<meta name="verify-v1" content="T5wn84R+6GRfeeLpvX8NHaowkKpDXFwYZmkEBhkD9V4=" />
+	
+	<link rel="alternate" type="application/rss+xml" title="Insight. Action. Uplift. The Omniture Blog." href="http://feeds.feedburner.com/omniture/blogs/all" />
+	<link rel="shortcut icon" href="http://assets.omniture.com/global/images/general/favicon.ico" />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://style.omniture.com/stylesheet.css?lang=en&section=products&ignore_skin=0" />
+</head>
+<body id="products" class=" en products digital_marketing_suite ">
+
+<!-- aggregrated js -->
+<script language="javascript" type="text/javascript" src="http://scripts.omniture.com/javascript.js"></script>
+	
+<!-- Test&Target Presets -->
+<script language="javascript" type="text/javascript" src="http://scripts.omniture.com/global/scripts/targeting/dyn_prop.php"></script>
+
+<!-- MAIN CONTENT -->
+
+<!-- WRAPPER START -->
+<div id="wrapper">
+	
+	<div id="header">
+		<a id="logo" href="http://www.omniture.com/en/" alt="Omniture - A leader in Online Business Optimization"></a>
+		<span id="main-navigation" class="ui-helper-hidden">
+        
+<ul id="nav_L1">
+	<li id="nav_L1_0">
+		<a class="main" href="http://www.omniture.com/en/products/online_business_optimization" title="Products">Products</a>
+		<ul>
+			<li><a href="http://www.omniture.com/en/products/online-business-optimisation" title="Online Business Optimization">Online Business Optimization</a></li>
+			<li><a href="http://www.omniture.com/en/products/digital-marketing-suite" title="Digital Marketing Suite">Digital Marketing Suite</a></li>
+			<li><a href="http://www.omniture.com/en/products/social" title="Social" class="daddy">Social</a>
+		<ul>
+			<li><a href="http://www.omniture.com/en/products/social-analytics" title="SocialAnalytics">SocialAnalytics</a></li>
+		</ul></li>
+			<li><a href="http://www.omniture.com/en/products/mobile-analytics" title="Mobile">Mobile</a></li>
+			<li><a href="http://www.omniture.com/en/products/advertising" title="Advertising" class="daddy">Advertising</a>
+		<ul>
+			<li><a href="http://www.omniture.com/en/products/advertising/searchcenter" title="SearchCenter+">SearchCenter+</a></li>
+			<li><a href="http://www.omniture.com/en/products/advertising/audience-manager" title="AudienceManager">AudienceManager</a></li>
+		</ul></li>
+			<li><a href="http://www.omniture.com/en/products/conversion" title="Conversion" class="daddy">Conversion</a>
+		<ul>
+			<li><a href="http://www.omniture.com/en/products/conversion/merchandising" title="Merchandising">Merchandising</a></li>
+			<li><a href="http://www.omniture.com/en/products/conversion/publish" title="Publish">Publish</a></li>
+			<li><a href="http://www.omniture.com/en/products/conversion/recommendations" title="Recommendations">Recommendations</a></li>
+			<li><a href="http://www.omniture.com/en/products/conversion/scene7" title="Scene7">Scene7</a></li>
+			<li><a href="http://www.omniture.com/en/products/conversion/search-and-promote" title="Search&Promote">Search&Promote</a></li>
+			<li><a href="http://www.omniture.com/en/products/conversion/test-and-target" title="Test&Target">Test&Target</a></li>
+			<li><a href="http://www.omniture.com/en/products/conversion/test-and-target11" title="Test&Target1:1">Test&Target1:1</a></li>
+		</ul></li>
+			<li><a href="http://www.omniture.com/en/products/analytics" title="Analytics" class="daddy">Analytics</a>
+		<ul>
+			<li><a href="http://www.omniture.com/en/products/analytics/sitecatalyst" title="SiteCatalyst">SiteCatalyst</a></li>
+			<li><a href="http://www.omniture.com/en/products/analytics/survey" title="Survey">Survey</a></li>
+			<li><a href="http://www.omniture.com/en/products/analytics/discover" title="Discover">Discover</a></li>
+		</ul></li>
+			<li><a href="http://www.omniture.com/en/products/multi-channel-analytics" title="Multichannel" class="daddy">Multichannel</a>
+		<ul>
+			<li><a href="http://www.omniture.com/en/products/multi-channel-analytics/insight" title="Insight">Insight</a></li>
+			<li><a href="http://www.omniture.com/en/products/multi-channel-analytics/insight-retail" title="Insight for Retail">Insight for Retail</a></li>
+		</ul></li>
+			<li><a href="http://www.omniture.com/en/products/platform" title="Platform" class="daddy">Platform</a>
+		<ul>
+			<li><a href="http://www.omniture.com/en/products/platform/genesis" title="Genesis">Genesis</a></li>
+			<li><a href="http://www.omniture.com/en/products/platform/closed-loop-marketing" title="Closed Loop Marketing">Closed Loop Marketing</a></li>
+			<li><a href="http://www.omniture.com/en/products/platform/tag-manager" title="TagManager">TagManager</a></li>
+			<li><a href="http://www.omniture.com/en/products/platform/data-warehouse" title="DataWarehouse">DataWarehouse</a></li>
+		</ul></li>
+			<li><a href="http://www.omniture.com/en/products/tours" title="Product Tours">Product Tours</a></li>
+		</ul>
+	</li>
+	<li id="nav_L1_1">
+		<a class="main" href="http://www.omniture.com/en/services" title="Services">Services</a>
+		<ul>
+			<li><a href="http://www.omniture.com/en/services/consulting" title="Consulting Services">Consulting Services</a></li>
+			<li><a href="http://www.omniture.com/en/education" title="Education" class="daddy">Education</a>
+		<ul>
+			<li><a href="http://www.omniture.com/en/education/courses" title="Course Information" class="daddy">Course Information</a>
+		<ul>
+			<li><a href="http://www.omniture.com/en/education/courses/sbu" title="SiteCatalyst">SiteCatalyst</a></li>
+			<li><a href="http://www.omniture.com/en/education/courses/testandtarget" title="Test&Target">Test&Target</a></li>
+			<li><a href="http://www.omniture.com/en/education/courses/discover" title="Discover">Discover</a></li>
+			<li><a href="http://www.omniture.com/en/education/courses/dop_analyst" title="Insight">Insight</a></li>
+			<li><a href="http://www.omniture.com/en/education/courses/searchcenter" title="SearchCenter">SearchCenter</a></li>
+			<li><a href="http://www.omniture.com/en/education/courses/merchandising" title="Merchandising">Merchandising</a></li>
+			<li><a href="http://www.omniture.com/en/education/courses/online_marketing_suite" title="Online Marketing Suite">Online Marketing Suite</a></li>
+			<li><a href="http://www.omniture.com/en/education/courses/sitesearch" title="SiteSearch">SiteSearch</a></li>
+			<li><a href="http://www.omniture.com/en/education/courses/survey" title="Survey">Survey</a></li>
+		</ul></li>
+			<li><a href="http://www.omniture.com/en/education/certification" title="Certification Program" class="daddy">Certification Program</a>
+		<ul>
+			<li><a href="http://www.omniture.com/en/education/certification/implementation" title="Implementation">Implementation</a></li>
+			<li><a href="http://www.omniture.com/en/education/certification/insight_analyst" title="Insight Analyst">Insight Analyst</a></li>
+			<li><a href="http://www.omniture.com/en/education/certification/insight_architect" title="Insight Architect">Insight Architect</a></li>
+			<li><a href="http://www.omniture.com/en/education/certification/search_center" title="SearchCenter+">SearchCenter+</a></li>
+			<li><a href="http://www.omniture.com/en/education/certification/site_catalyst" title="SiteCatalyst">SiteCatalyst</a></li>
+			<li><a href="http://www.omniture.com/en/education/certification/support" title="Support">Support</a></li>
+			<li><a href="http://www.omniture.com/en/education/certification/test_target" title="Test&Target">Test&Target</a></li>
+		</ul></li>
+			<li><a href="http://www.omniture.com/en/education/academic_initiative" title="Academic Initiative">Academic Initiative</a></li>
+		</ul></li>
+			<li><a href="http://www.omniture.com/en/services/es" title="Engineering Services Group">Engineering Services Group</a></li>
+		</ul>
+	</li>
+	<li id="nav_L1_2">
+		<a class="main" href="http://www.omniture.com/en/community" title="Community">Community</a>
+		<ul>
+			<li><a href="http://www.omniture.com/en/ideas" title="Idea Exchange">Idea Exchange</a></li>
+			<li><a href="http://www.omniture.com/en/community/developer" title="Developer Connection">Developer Connection</a></li>
+			<li><a href="http://www.omniture.com/en/community/blogs" title="Blogs">Blogs</a></li>
+			<li><a href="http://www.omniture.com/en/community/customers.omniture.com" title="Customers.Omniture.com">Customers.Omniture.com</a></li>
+			<li><a href="http://www.omniture.com/en/community/events" title="Events">Events</a></li>
+			<li><a href="http://www.omniture.com/en/community/usergroups" title="User Groups">User Groups</a></li>
+			<li><a href="http://www.omniture.com/en/community/beta" title="Beta Test Program">Beta Test Program</a></li>
+			<li><a href="http://www.omniture.com/en/community/uig" title="User Insight Group">User Insight Group</a></li>
+		</ul>
+	</li>
+	<li id="nav_L1_3">
+		<a class="main" href="http://www.omniture.com/en/resources" title="Resources">Resources</a>
+		<ul>
+			<li><a href="http://www.omniture.com/en/resources/guides" title="Guides">Guides</a></li>
+			<li><a href="http://www.omniture.com/en/resources/webinars" title="Webinars">Webinars</a></li>
+			<li><a href="http://www.omniture.com/en/resources/case_studies" title="Success Stories">Success Stories</a></li>
+			<li><a href="http://www.omniture.com/en/surveys" title="Surveys">Surveys</a></li>
+			<li><a href="http://www.omniture.com/en/resources/testimonials" title="Testimonials">Testimonials</a></li>
+			<li><a href="http://www.omniture.com/en/resources/articles" title="Articles">Articles</a></li>
+			<li><a href="http://www.omniture.com/en/resources/cmo.com" title="CMO.com">CMO.com</a></li>
+		</ul>
+	</li>
+	<li id="nav_L1_4">
+		<a class="main" href="http://www.omniture.com/en/partners" title="Partners">Partners</a>
+		<ul>
+			<li><a href="http://www.omniture.com/en/partners/showcase" title="Partner Showcase">Partner Showcase</a></li>
+			<li><a href="http://www.omniture.com/en/partners/portal" title="Partner Portal">Partner Portal</a></li>
+			<li><a href="http://www.omniture.com/en/partners/apply" title="Become a Partner">Become a Partner</a></li>
+		</ul>
+	</li>
+	<li id="nav_L1_5">
+		<a class="main" href="http://www.omniture.com/en/company" title="Company">Company</a>
+		<ul>
+			<li><a href="http://www.omniture.com/en/aboutadobe" title="About Adobe">About Adobe</a></li>
+			<li><a href="http://www.omniture.com/en/company/adobe_faq" title="Acquisition by Adobe FAQ">Acquisition by Adobe FAQ</a></li>
+			<li><a href="http://www.omniture.com/en/investors" title="Investor Relations">Investor Relations</a></li>
+			<li><a href="http://www.omniture.com/en/company/press_room" title="Press Room" class="daddy">Press Room</a>
+		<ul>
+			<li><a href="http://www.omniture.com/en/company/press_room/press_releases" title="Press Releases">Press Releases</a></li>
+			<li><a href="http://www.omniture.com/en/company/press_room/awards" title="Awards">Awards</a></li>
+		</ul></li>
+			<li><a href="http://www.omniture.com/en/company/customers" title="Customer Showcase">Customer Showcase</a></li>
+			<li><a href="http://www.omniture.com/en/company/analyst_insight" title="Analyst Insight">Analyst Insight</a></li>
+			<li><a href="http://www.omniture.com/en/privacy" title="Privacy Center" class="daddy">Privacy Center</a>
+		<ul>
+			<li><a href="http://www.omniture.com/en/privacy/policy" title="Privacy Policy">Privacy Policy</a></li>
+			<li><a href="http://www.omniture.com/en/privacy/product" title="Products and Services Privacy Statement">Products and Services Privacy Statement</a></li>
+			<li><a href="http://www.omniture.com/en/privacy/2o7" title="2o7.net Explained">2o7.net Explained</a></li>
+			<li><a href="http://www.omniture.com/en/privacy/audience-manager" title="AudienceManager">AudienceManager</a></li>
+			<li><a href="http://www.omniture.com/en/privacy/visualsciences" title="VisualSciences Privacy Center" class="daddy">VisualSciences Privacy Center</a>
+		<ul>
+			<li><a href="http://www.omniture.com/en/privacy/visualsciences/policy" title="Privacy Policy">Privacy Policy</a></li>
+			<li><a href="http://www.omniture.com/en/privacy/visualsciences/resources" title="Additional Resources">Additional Resources</a></li>
+			<li><a href="http://www.omniture.com/en/privacy/visualsciences/terms" title="Terms of Use">Terms of Use</a></li>
+		</ul></li>
+		</ul></li>
+			<li><a href="http://www.omniture.com/en/careers" title="Careers">Careers</a></li>
+		</ul>
+	</li>
+	<li id="nav_L1_6">
+		<a class="main" href="http://www.omniture.com/en/contact" title="Contact">Contact</a>
+		<ul>
+			<li><a href="http://www.omniture.com/en/contact/support" title="Client Care">Client Care</a></li>
+			<li><a href="http://www.omniture.com/en/contact/sales" title="Sales">Sales</a></li>
+			<li><a href="http://www.omniture.com/en/contact/feedback" title="Feedback">Feedback</a></li>
+			<li><a href="http://www.omniture.com/en/contact/offices" title="Office Locations">Office Locations</a></li>
+			<li><a href="http://www.omniture.com/en/contact/email" title="General Inquiry">General Inquiry</a></li>
+			<li><a href="http://www.omniture.com/en/contact/company" title="Company Information">Company Information</a></li>
+		</ul>
+	</li>
+</ul>
+        </span>
+		<div id='izone_652'><div id="sitesearch" style="">
+	<form name="searchform" action="http://search.omniture.com" method="get">
+		<input type="image" class="button" src="http://assets.omniture.com/en/images/skins/default/transformation/002251.global.background.search-box.18x18.png" name="" />
+		<input type="text" class="text" name="q" id="q" value="" autocomplete="off" tabindex="1" />
+		<div id="autocomplete"></div>
+		<input type="hidden" value="en" name="lang">
+	</form>
+</div></div>
+	</div>
+	<div id="login">
+		<div id='izone_289'><a id="logininto" href="http://my.omniture.com" title="Click here to login to Omniture applications">Click here to login to Omniture applications</a>
+<!--
+<a id="logininto" onclick="javascript: Effect.Combo('loginmenu', {duration: 0.2}); Effect.CloseIfOpen('internationalmenu', {duration: 0.1})" title="Click here to login to Omniture applications">Click here to login to Omniture applications</a>
+<div id="loginmenu" style="display: none">
+	<ul>
+		<li><a href="http://my.omniture.com">Omniture SiteCatalyst</a></li>
+		<li><a href="http://my.omniture.com">Omniture Discover</a></li>
+		<li><a href="http://my.omniture.com">Omniture SearchCenter</a></li>
+		<li><a href="http://my.omniture.com">Omniture Targeting</a></li>
+		<li><a href="http://admin.offermatica.com">Omniture Testing</a></li>
+		<li><a href="http://omniture.com/en/company/acquisitions/visualsciences/login">Omniture SiteCatalyst HBX</a></li>
+		<li><a href="http://omniture.com/en/company/acquisitions/visualsciences/login">Omniture SiteSearch</a></li>
+		<li><a href="http://omniture.com/en/company/acquisitions/visualsciences/login">Omniture Publish</a></li>
+	</ul>
+	<a href="http://my.omniture.com" id="loginmenu_sitecatalyst" class="loginmenu_item"></a>
+	<a href="http://my.omniture.com" id="loginmenu_searchcenter" class="loginmenu_item"></a>
+	<a href="http://my.omniture.com" id="loginmenu_discover" class="loginmenu_item"></a>
+	<a href="http://my.omniture.com" id="loginmenu_testtarget" class="loginmenu_item"></a>
+</div>
+-->
+<a id="international" onclick="javascript: Effect.Combo('internationalmenu', {duration: 0.2}); Effect.CloseIfOpen('loginmenu', {duration: 0.1})" title="Click here to select your language preference">Click here to select your language preference</a>
+<div id="internationalmenu" style="display: none"">
+	
+	<ul>
+	<li class=" selected"><a href="http://www.omniture.com/en">English</a></li>
+	<li class=""><a href="http://www.omniture.com/de">Deutsch</a></li>
+	<li class=""><a href="http://www.omniture.com/es">EspaÃ±ol</a></li>
+	<li class=""><a href="http://www.omniture.com/fr">FranÃ§ais</a></li>
+	<li class=""><a href="http://www.omniture.com/zh">ç®¬ä½ä¸­æ!</a></li>
+	<li class=""><a href="http://www.omniture.com/jp">æ¥æS¬èª~</a></li>
+	<li class=""><a href="http://www.omniture.com/ko">í"Sêµ­ì´</a></li>
+</ul>
+</div>
+
+<a id="slogan" href="http://www.omniture.com/en/products" title="Click here to learn more about Online Business Optimization">Click here to learn more about Online Business Optimization</a></div>
+	</div>
+	<div id="container">
+		<div id="middle">
+			
+<script type="text/javascript">
+	$j = jQuery.noConflict();
+	$j("document").ready(function(){
+		$j("#key-feature-list").accordion({ autoHeight: false, collapsible : true });
+	});
+</script>
+<style type="text/css">
+table#oms-reasons {background: url(http://assets.omniture.com/en/images/sections/products/001699.products_oms_layer_bg.540x189.jpg) no-repeat; border-collapse: collapse; border: none; margin: 0; padding: 0; width: 540px;}
+table#oms-reasons tr {height: 63px;}
+table#oms-reasons td {font-size: 14px; line-height: 16px; padding: 0; vertical-align: middle;}
+table#oms-reasons td.need {padding: 0 55px 0 18px; width: 311px;}
+table#oms-reasons td.product {width: 174px;}
+</style>
+<div id="col_right">
+	<div class="feature">
+		<img src="http://assets.omniture.com/en/images/sections/products/2510_ocom_evolution_750x150_en_banner_5.jpg">
+	</div>
+	
+	
+	
+	<!-- Feature Tabs -->
+	<!-- <div class="feature"> -->
+
+		<!-- <div id="success-story"> -->
+			<!-- Feature Item One -->
+    		<!--
+<div class='mboxDefault'> 
+				<a href=http://www.omniture.com/press/652 target="_blank" title=""><img src='http://assets.omniture.com/en/images/sections/products/001699_obo_successstory_msherpa_748x148_en.jpg' /></a>
+			</div> 
+			<script language='javascript'>
+				mboxCreate('productpage_feature','product_key=oms','billboard_type=successstory');
+			</script>
+-->
+			<!-- End Feature Item One -->
+		<!--
+</div> 
+		<div id="analyst-report" class="ui-helper-hidden">
+-->
+			<!-- Feature Item Two -->
+			<!--
+<div class="mboxDefault">
+				<a href='http://www.omniture.com/offer/158' target="_blank" title=""><img src='http://assets.omniture.com/en/images/sections/products/001699_obo_quote_forrester_748x148_en.jpg' /></a>
+			</div>		
+			<script type="text/javascript">
+				 mboxCreate("productpage_feature","product_key=oms","billboard_type=analystreport");
+			</script>
+-->
+			<!-- End Feature Item Two -->				
+		<!--
+</div>
+		<div class="feature-tabs">
+			<div class="jump-left"><</div>
+			<ul>
+				<li><a class="tab-success-story" href="#success-story" title="Success Story">Success Story</a></li>
+				<li><a class="tab-analyst-report" href="#analyst-report" title="Analyst Report">Analyst Report</a></li>
+			</ul>
+			<div class="jump-right">></div>
+		</div>
+		<div class="feature-tab-backdrop"></div>
+	</div>
+-->
+	<!-- End Feature Tabs -->
+	<div class="sidebar">
+		<div id='izone_690'><div class="first">
+	<div class='mboxDefault'>
+	<div class="sidebar_block requestlivedemo">
+		<h4>Contact Us</h4>
+		<ul>
+			<li><a href="http://www.omniture.com/contact"><img style="margin: 4px 0" width="135" height="22" src="http://omnituremarketing.tt.omtrdc.net/m2/omnituremarketing/ubox/image?mbox=sidebar_ph_pic&mboxDefault=http%3A%2F%2Fs7d5.scene7.com%2Fis%2Fimage%2FOmnitureMarketing%2FSalesPhoneNumber%3F%24fsize%3D34%26%24spnum%3D877.722.7088%26layer%3Dcomp%26wid%3D135%26hei%3D22" /></a></li>
+			<li><a href="http://www.omniture.com/contact/request">Schedule meeting</a></li>
+			<li><a href="http://www.omniture.com/contact/email">Send feedback</a></li>
+		</ul>
+	</div>
+	</div>
+	<script language="javascript" type="text/javascript">
+		mboxCreate('sidebar_global_phone');
+	</script>
+</div></div>
+		<div id='izone_707'><div class="first">
+	<div class="sidebar_block datasheets">
+		<h4>Product Overview</h4>
+		<ul>
+			<li><a href="http://www.omniture.com/go/39107" target="_blank"> Adobe Digital Marketing Suite Product Overview</a></li>
+		</ul>
+	</div>
+	<div class="sidebar_block bestpracticeguides">
+		<h4>Best Practice Guide</h4>
+		<ul>
+			<li><a href="http://www.omniture.com/go/39108">Stay ahead of the changing digital landscape</a></li>
+		</ul>
+	</div>
+	<div class="sidebar_block casestudies">
+		<h4>Success Story</h4>
+		<ul>
+			<li><a href="http://www.omniture.com/go/39109">E*Trade</a></li>
+		</ul>
+	</div>
+	<div class="sidebar_block viewwebinar">
+		<h4>On-demand Webinar</h4>
+		<ul>
+			<li><a href="http://www.omniture.com/go/39110">From data paralysis to actionable analysis</a></li>
+		</ul>
+	</div>
+</div></div>
+	</div>
+	<div class="copy">
+<h1 class="top">AdobeÂ® Digital Marketing Suite, powered by OmnitureÂ®</h1>
+<h2>Description</h2>
+<p>The Adobe Digital Marketing Suite is a collection of web analytics and website optimization products that provide insight into the performance of online marketing initiatives, empowering organizations to make informed decisions, and ensure the success of online marketing programs.</p>
+<h2>Business challenge</h2>
+<p>Consumers today can interact with businesses across multiple channels and devices, and it is up to businesses to figure out how to best attract, engage, and retain customers in a world where the reach and quality of experiences directly impact success. Marketing executives need to know that their investment is optimizing consumers' experiences and delivering the greatest return on their marketing spend. Online marketing goals must map clearly to overarching business objectives, and marketing executives are expected to demonstrate the success of their programs using solid metrics. In this environment, gleaning insight in real time across channels is essential.</p>
+<h2>Solution</h2>
+<p>The Adobe Digital Marketing Suite, which includes powerful web analytics and website optimization products, allows marketers to increase ROI from online marketing programs by delivering actionable, real-time data and insights that drive successful online initiatives. The result is significantly greater returns from online marketing spend.</p>
+		<img src="http://assets.omniture.com/en/images/sections/products/2510_products_dms_suitediagram.jpg" alt="Digital Marketing Suite Diagram" />
+   <!-- Info Tabs -->
+        <div class="info-box">
+            <ul>
+                <li><a class="tab-benefits" href="http://www.omniture.com/en/products/digital-marketing-suite#fragment-1" title="benefits">Benefits</a></li>
+                <li><a class="tab-keyfeatures" href="http://www.omniture.com/en/products/digital-marketing-suite#fragment-2" title="key features">Key Features</a></li>
+            </ul>
+            <div id="fragment-1">
+               	<!-- Tab One Content -->
+                <ul>
+					<li>
+					<h4>Align online marketing initiatives </h4>
+Align online marketing initiatives with overarching business objectives and demonstrate the success of online marketing programs using solid metrics with the Adobe Digital Marketing Suite.
+</li>
+<li>
+  <h4>Bring data together</h4>
+  The Adobe Digital Marketing Suite manages, collects, and brings data together from multiple systems into a flexible, integrated platform.</li>
+<li>
+  <h4>Gain real-time insights</h4>
+  Through real-time segmentation, dashboards, and reports, managers can use the Adobe Digital Marketing Suite to gain a complete picture of how consumers are interacting with the business.</li>
+<li>
+  <h4>Monetize and share data</h4>
+  Through audience optimization capabilities in the Adobe Digital Marketing Suite, publishers can quickly identify audiences that match the profiles that advertisers are demanding â¬ and maximize the value of their digital assets.</li>
+<li>
+  <h4>Optimize ad spend</h4>
+  The Adobe Digital Marketing Suite maximizes the impact of a company's advertising spend across and within channels â¬ including mobile, social media, traditional web, and in-store â¬ to yield the greatest returns.</li>
+<li>
+  <h4>Leverage insights</h4>
+  Deliver relevant and engaging digital content that boosts key performance metrics, whether it is a customer purchase, engagement, a download, form completion, or other desired outcome with the Adobe Digital Marketing Suite.</li>
+</ul>
+              	<!-- End Tab One Content -->
+            </div>
+            <div id="fragment-2">
+               	<!-- Tab Two Content -->
+					<div id="key-feature-list">
+						<h3><a href="http://www.omniture.com/en/products/digital-marketing-suite#">A Platform for Success</a></h3>
+<div>
+  <ul>
+    <li>A flexible, integrated platform responsible for data collection and management across online and enterprise systems. </li>
+    <li>The ability to enable businesses to build custom, integrated solutions that link to data from enterprise systems (e.g. email, ad serving, survey, and CRM) </li>
+    <li>Over 200 integration partners across more than 30 digital marketing categories that offer pre-built integrations or connectors. </li>
+  </ul>
+</div>
+<h3><a href="http://www.omniture.com/en/products/digital-marketing-suite#">Measure Everything, Maximize ROI</a></h3>
+<div>
+  <ul>
+    <li>Make sense of huge volumes of complex data captured online and from enterprise systems. </li>
+    <li>Through real-time segmentation, dashboards, and reports, gain a complete picture of how consumers are interacting with the business. </li>
+    <li>Better understand the impact of one channel over another or how multiple channels combine to shape customer demand and experiences and drive purchases.</li>
+    <li>Insights and resulting strategies can be analyzed and shared easily across teams to clearly understand the impact of all marketing programs.</li>
+  </ul>
+</div>
+<h3><a href="http://www.omniture.com/en/products/digital-marketing-suite#">Optimize Every Digital Interaction</a></h3>
+<div>
+The Adobe Digital Marketing Suite can support critical business goals and automate essential online initiatives, empowering marketers to make better decisions and execute on them faster.
+<ul>
+  <li>
+    <h4>Audience Optimization</h4>
+    Enable advertisers and publishers to maximize their online ad returns. Through audience optimization capabilities in the Adobe Digital Marketing Suite, publishers can quickly identify the audiences that match the profiles that advertisers are demanding â¬ and maximize the value of their digital assets.</li>
+  <li>
+    <h4>Advertising Optimization</h4>
+    Maximize the impact of a company's advertising spend within a channel, or across channels â¬ including mobile, social media, traditional web, and in-store â¬ to yield the greatest returns.</li>
+  <li>
+    <h4>Conversion Optimization</h4>
+    Deliver relevant and engaging digital content that boosts key performance metrics, whether it is a customer purchase, engagement, a download, form completion, or other desired outcome. </li>
+</ul>
+					  </div>
+						
+					
+				</div>			
+            </div>
+    </div>			
+	<!-- End Info Tabs -->
+	
+  </div>
+</div>
+<div id="col_left">
+	<!-- SIDE NAVIGATION -->
+	
+<div id="leftNav">
+	<a class="section_name" href="http://www.omniture.com/en/products/online_business_optimization" title="Products">Products</a>
+<div class='top'>&nbsp;</div>
+	<ul>
+		<li><a href="http://www.omniture.com/en/products/online-business-optimisation" title="Online Business Optimization">Online Business Optimization</a>
+		<li><a href="http://www.omniture.com/en/products/digital-marketing-suite" title="Digital Marketing Suite" class="selected">Digital Marketing Suite</a>
+		<li><a href="http://www.omniture.com/en/products/social" title="Social">Social</a>
+	<ul>
+		<li><a href="http://www.omniture.com/en/products/social-analytics" title="SocialAnalytics">SocialAnalytics</a>
+	</ul>
+		<li><a href="http://www.omniture.com/en/products/mobile-analytics" title="Mobile">Mobile</a>
+		<li><a href="http://www.omniture.com/en/products/advertising" title="Advertising">Advertising</a>
+	<ul>
+		<li><a href="http://www.omniture.com/en/products/advertising/searchcenter" title="SearchCenter+">SearchCenter+</a>
+		<li><a href="http://www.omniture.com/en/products/advertising/audience-manager" title="AudienceManager">AudienceManager</a>
+	</ul>
+		<li><a href="http://www.omniture.com/en/products/conversion" title="Conversion">Conversion</a>
+	<ul>
+		<li><a href="http://www.omniture.com/en/products/conversion/merchandising" title="Merchandising">Merchandising</a>
+		<li><a href="http://www.omniture.com/en/products/conversion/publish" title="Publish">Publish</a>
+		<li><a href="http://www.omniture.com/en/products/conversion/recommendations" title="Recommendations">Recommendations</a>
+		<li><a href="http://www.omniture.com/en/products/conversion/scene7" title="Scene7">Scene7</a>
+		<li><a href="http://www.omniture.com/en/products/conversion/search-and-promote" title="Search&Promote">Search&Promote</a>
+		<li><a href="http://www.omniture.com/en/products/conversion/test-and-target" title="Test&Target">Test&Target</a>
+		<li><a href="http://www.omniture.com/en/products/conversion/test-and-target11" title="Test&Target1:1">Test&Target1:1</a>
+	</ul>
+		<li><a href="http://www.omniture.com/en/products/analytics" title="Analytics">Analytics</a>
+	<ul>
+		<li><a href="http://www.omniture.com/en/products/analytics/sitecatalyst" title="SiteCatalyst">SiteCatalyst</a>
+		<li><a href="http://www.omniture.com/en/products/analytics/survey" title="Survey">Survey</a>
+		<li><a href="http://www.omniture.com/en/products/analytics/discover" title="Discover">Discover</a>
+	</ul>
+		<li><a href="http://www.omniture.com/en/products/multi-channel-analytics" title="Multichannel">Multichannel</a>
+	<ul>
+		<li><a href="http://www.omniture.com/en/products/multi-channel-analytics/insight" title="Insight">Insight</a>
+		<li><a href="http://www.omniture.com/en/products/multi-channel-analytics/insight-retail" title="Insight for Retail">Insight for Retail</a>
+	</ul>
+		<li><a href="http://www.omniture.com/en/products/platform" title="Platform">Platform</a>
+	<ul>
+		<li><a href="http://www.omniture.com/en/products/platform/genesis" title="Genesis">Genesis</a>
+		<li><a href="http://www.omniture.com/en/products/platform/closed-loop-marketing" title="Closed Loop Marketing">Closed Loop Marketing</a>
+		<li><a href="http://www.omniture.com/en/products/platform/tag-manager" title="TagManager">TagManager</a>
+		<li><a href="http://www.omniture.com/en/products/platform/data-warehouse" title="DataWarehouse">DataWarehouse</a>
+	</ul>
+		<li><a href="http://www.omniture.com/en/products/tours" title="Product Tours">Product Tours</a>
+	</ul>
+	<div class='bottom'>&nbsp;</div>
+</div>
+	<div id='izone_'></div>
+</div>
+<!-- Conversion Pixel - Adobe Internal Rtg Conversion Pixel - DO NOT MODIFY -->
+<script src="http://ib.adnxs.com/px?id=23073&seg=188431&t=1" type="text/javascript"></script>
+<!-- End of Conversion Pixel -->
+			<div id="bottom"></div>
+		</div>
+	</div>
+	<div id="container_bottom"></div>
+	<!-- End Main Content -->
+	<!-- Start footer Content -->
+	<div id="footer">
+		<div id="copyright">
+			Omniture has been acquired by Adobe. <a href="http://www.omniture.com/en/company/adobe_faq">Learn more ></a>
+<br />Copyright 1996-2011. Adobe Systems Incorporated. All rights reserved.<span class="delimiter">|</span><a href="http://www.omniture.com/privacy">Privacy Center</a>
+<br />OmnitureÂ® is a registered trademark of Adobe Systems Incorporated in the United States, Japan, & European Community.
+<br /> Omniture products and services are licensed under the following Netratings patents: 
+<br /> 5,675,510, 5,796,952, 6,115,680, 6,108,637, 6,138,155, 6,643,696, and 6,763,386
+		</div>
+	</div>
+	<!-- End footer Content -->
+	
+</div>
+<!-- WRAPPER END -->
+
+<!-- END MAIN CONTENT -->
+
+<!-- SITECATALYST CODE -->
+
+		<!-- TNT FOOTER -->
+		<div class="mboxDefault"></div>
+		<!-- TNT FOOTER END -->
+		
+		<script language="javascript" type="text/javascript">
+		<!-- 
+			/* Copyright 1997-2011 Omniture, Inc. */
+			
+			// ELQ GUID 
+			if(!s.c_r('elqCustomerGUID')) {
+				d=new Date;
+				d.setTime(d.getTime()+(365*24*60*60*1000));
+				s.c_w('elqCustomerGUID',GetElqCustomerGUID(),d);
+			}
+				
+			/* PAGE SPECIFIC */
+			
+			s.pageName='Products: Digital Marketing Suite';
+			s.channel='Products';
+			s.prop6='English';
+			
+			
+			/*TNT FOOTER CONTINUED */
+			if(typeof mboxCreate == 'function') {
+				
+				var epi_offer_name;
+				var epi_offer_product;
+				var epi_offer_centricity;
+				var epi_offer_type;
+				
+				if(s.pageName==undefined)
+					s.pageName=window.location;
+				mboxCreate('global_page_vars','pageinfo_name='+s.pageName,'pageinfo_section='+s.channel,'pageinfo_url='+window.location,'pageinfo_offer_name='+epi_offer_name,'pageinfo_offer_product='+epi_offer_product,'pageinfo_offer_centricity='+epi_offer_centricity,'pageinfo_offer_type='+epi_offer_type);
+			}
+			/*TNT FOOTER END AGAIN */
+			
+			mboxLoadSCPlugin(s);
+		</script>
+		
+		
+		<!-- SiteCatalyst code version: H.23.4.
+		Copyright 1996-2011 Adobe, Inc. All Rights Reserved
+		More info available at http://www.omniture.com -->
+		<script language="JavaScript" type="text/javascript">
+			<!--
+			/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+			var s_code=s.t();if(s_code)document.write(s_code)
+			if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'!-'+'-')
+			//-->
+		</script>
+		<noscript>
+			<img src="http://omnituremarketing.d1.sc.omtrdc.net/b/ss/omniturecom,omniturecom-2011/1/H.23.4--NS/0" height="1" width="1" border="0" alt="" />
+		</noscript>
+		<!--/DO NOT REMOVE/-->
+		<!-- End SiteCatalyst code version: H.23.4. -->
+		
+		<!-- POWER INC INCLUDE -->
+		<!-- banner_track, isol, eloqua -->
+		<script language="javascript" type="text/javascript" src="http://scripts.omniture.com/javascript-footer.js"></script>
+		
+		<!-- demandbase -->
+		<script type="text/javascript"> 
+			var domainy = location.protocol == "https:" ? "https://leads.demandbase.com" : "http://leads.demandbase.com"; 
+			document.write(unescape("%3Cscript src='" + domainy +"/204595.js' type='text/javascript'%3E%3C/script%3E"));
+		</script> 
+		<noscript>
+			<img alt="Demandbase Connect" width="1" height="1" src="http://leads.demandbase.com/204595ns.gif" /> 
+		</noscript> 
+		<!-- end demandbase -->
+<!-- END SITECATALYST CODE -->
+
+
+
+</body>
+</html>
+
+
+<!-- enproductsdigitalmarketingsuite cached on 1 December 2011 at 01:48:05 PST (3c3cc578a4848511830752379cf4b9d4) -->
+
+

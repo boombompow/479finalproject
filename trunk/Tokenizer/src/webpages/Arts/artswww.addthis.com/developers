@@ -1,0 +1,269 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Developers - AddThis</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="en-us" />
+    <meta name="title" content="AddThis - Developers" />
+    <meta name="description" content="Customize AddThis for your site using our powerful APIs, Flash SDK, iOS SDK or Android SDKs." />
+    <meta name="keywords" content="bookmarking, sharing, bookmark, share, bookmarking button, sharing button, service directory, browser plugin, blog plugin, flash, social APIs, facebook, twitter, myspace, digg, delicious, stumbleupon, reddit, blogger, technorati, aim share, orkut, viadeo" />
+    <meta name="robots" content="all" />
+    <meta name="viewport" content="width=960" />
+    <meta http-equiv="imagetoolbar" content="false" />
+    <meta name="copyright" content="Copyright (c) 2011 Add This, LLC" />
+        <link rel="image_src" href="http://s7.addthis.com/static/t00/logo100100.png" />
+    <link rel="alternate" type="application/rss+xml" href="http://www.addthis.com/blog/?feed=rss2" title="AddThis Blog Feed" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://cache.addthiscdn.com/site/core/css/core-1.0.0.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://cache.addthiscdn.com/www/20111123101657/style/site.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://cache.addthiscdn.com/www/20111123101657/style/common.css" />
+
+
+
+
+
+
+
+    <link rel="alternate" type="application/rss+xml" href="http://blog.addthis.com/?feed=rss2" title="AddThis Blog Feed" />
+    <!--[if lt IE 7]><script type="text/javascript" src="/js/topnav.js"></script><![endif]-->
+</head>
+
+<body>
+
+<a id="top" name="top"></a>
+
+<a href="http://www.addthis.com/developers#maincontent" class="skipNavLink">Skip Main Site Navigation</a>
+<h1><a href="" title="AddThis Homepage">AddThis</a></h1>
+<div id="header"> 
+	<div class="container_12">
+		<div class="grid_12">
+			
+						<div id="header-links">
+				<a href="careers">We're Hiring!</a> <span class="pipe">|</span> <a href="http://www.addthis.com/forum/">Forum</a> <span class="pipe">|</span> <a href="help">Help</a>
+			</div>
+					</div>	
+	</div>	
+</div>
+
+<div id="header-menu">	
+	<div id="header-menu-inner">
+			<ul class="header-submenu-nav">
+			<li><a href="http://www.addthis.com/get" title="Get AddThis">Get AddThis</a></li>	
+			<li><a href="features" title="AddThis Features">Features</a></li>
+			<li><a href="analytics" title="Analytics">Analytics</a></li>
+			<li><a class="mlink topnav-active" onclick="void(0);" ><span>More</span></a>
+				<ul>					
+					<li><a href="developers" title="Developer Resources">Developers</a></li>
+					<li><a href="http://www.addthis.com/services" title="Service Directory">Service Directory</a></li>
+					<li><a href="http://www.addthis.com/languages" title="Language Database">Language Database</a></li>					
+					<li><a href="http://www.addthis.com/tools" title="Browser Tools">Browser Tools</a></li>
+				</ul>
+			</li>
+		</ul>
+					<div class="topuser">
+				<a href="http://www.addthis.com/register" title="Join Now">Join Now</a> <span class="mrl5">or</span> <a href="http://www.addthis.com/login" title="Sign In">Sign In</a>			
+			</div>		
+		        <form id="search_box" action="http://www.addthis.com/search" onsubmit="if(this.q.value=='')return false;">
+            <input id="search_text" name="q" type="text" value="" maxlength="120" onfocus="this.value=''" />
+        </form>	
+		</div>
+</div>			
+<div class="clear"></div>
+
+
+
+<div id="header-fade"></div>
+<div id="maincontent">
+
+
+	<link rel="stylesheet" type="text/css" href="http://cache.addthiscdn.com/www/20111123101657/style/developers.css" />
+	<div class="banner">
+	    <div class="container_12">
+	        <div class="grid_12">	
+			<h2>Developers</h2>
+			<div class="addthis_toolbox addthis_default_style">
+				<a class="addthis_button_preferred_1"></a>
+				<a class="addthis_button_preferred_2"></a>
+				<a class="addthis_button_preferred_3"></a>
+				<a class="addthis_button_compact"></a>
+				<a class="addthis_counter addthis_bubble_style"></a>
+			</div>
+	        </div>
+	        <div class="clear"></div>
+	    </div>
+	</div>		
+	<div class="content-main">		    		
+	    <div class="container_12">
+	    	<div class="grid_5">                
+                	<div class="sub-banner"></div>
+                </div>	
+                <div class="grid_7">
+                	<h2 class="helv mt40">Build. Share. Track.</h2>
+	                <p class="bigtext blk">
+	                    AddThis's powerful APIs make it easy for you to integrate sharing and create your own social experience. Drive growth 
+	                    and engagement on your website or app. Best of all, track your audience with our analytics.
+	                </p>                
+                </div>
+                <div class="clear"></div>
+                <div class="mb50"></div>
+	    	
+	    	<div class="grid_12">
+	    		<h2 class="bold">APIs</h2>
+	    	</div>
+	    	<div class="clear"></div>
+	    	
+	    	
+	    	<div class="grid_4">
+    			<a class="bold" href="http://www.addthis.com/help/api-overview">API Overview</a><br/>
+    			The overview includes summaries of each API and provides code examples, definitions, and the situations in which to use them.
+		</div>
+		
+		<div class="grid_4">
+    			<a class="bold" href="http://www.addthis.com/help/services-api">Services API</a><br/>
+    			The Services API provides a list of our supported sharing services, along with their icons and service metadata in JSON, JSONP and XML formats.
+		</div>
+		
+		<div class="grid_4">
+    			<a class="bold" href="http://www.addthis.com/help/client-api">Client API</a><br/>
+    			The Client API is a client-side JavaScript API that allows you to customize the appearance and behavior of AddThis tools on your pages &ndash; with analytics.
+		</div>
+		<div class="clear"></div>
+		<div class="mb40"></div>
+		
+		
+		<div class="grid_4">
+    			<a class="bold" href="http://www.addthis.com/help/analytics-api">Analytics API</a><br/>
+    			The Analytics API is a set of web services that give you programatic access to your analytics data.  Integrate our metrics into your own tools and workflow.
+		</div>
+		
+		<div class="grid_4">
+    			<a class="bold" href="http://www.addthis.com/help/sharing-api">Sharing Endpoints</a><br/>
+    			This is a set of simple oExchange <a href="http://www.addthis.com/help/sharing-api">URL endpoints</a> you can use to initiate sharing to any web site <a href="http://www.addthis.com/services/list">supported</a> by the AddThis platform. 
+		</div>
+		
+		<div class="grid_4">
+    			<a class="bold" href="http://www.addthis.com/help/services-api">Web Service Framework</a><br/>
+    			This document describes common properties of all web services available on http://api.addthis.com.
+		</div>
+		<div class="clear"></div>
+		<div class="mb40"></div>
+			
+			
+	    	<div class="grid_4">
+	    		<h2 class="bold">Flash</h2>
+	                <div class="mb5"><a href="http://www.addthis.com/help/flash-overview">Overview</a></div>
+			<div class="mb5"><a href="http://www.addthis.com/help/flash-installation">Flash Installation</a></div>
+			<div class="mb5"><a href="http://www.addthis.com/help/widget-sharing">Widget Sharing</a></div>
+			<div class="mb5"><a href="http://www.addthis.com/help/flash-overlay">Flash Compatibility</a></div>
+			<div class="mb5"><a href="http://www.addthis.com/help/flash-examples">Flash Examples</a></div>
+		</div>			
+		<div class="grid_4">
+    			<h2 class="bold">Mobile</h2>
+			<div class="mb5"><a href="mobile">AddThis Mobile Overview</a></div>
+			<div class="mb5"><a href="http://www.addthis.com/help/ios-quickstart">iOS SDK</a></div>
+			<div class="mb5"><a href="http://www.addthis.com/help/android-quickstart" class="new">Android SDK</a></div>
+		</div>			
+		<div class="grid_4">
+	    		<h2 class="bold">Troubleshoot</h2>
+			<div class="mb5"><a href="http://www.addthis.com/help/account-questions">Account Questions</a></div>
+	        	<div class="mb5"><a href="http://www.addthis.com/help/facebook-images">Facebook Previews</a></div>
+	        	<div class="mb5"><a href="http://www.addthis.com/help/ssl">HTTPS/SSL Support</a></div>
+	        	<div class="mb5"><a href="http://www.addthis.com/help/code-caching">Code Caching</a></div>
+		</div>
+		<div class="clear"></div>
+		<div class="mb50"></div>
+                		
+		
+	    </div>	    
+	</div>
+
+<script type="text/javascript">
+if (!window.addthis_config) var addthis_config = {};
+addthis_config.data_ga_tracker = "gaPageTracker";
+addthis_config.data_track_addressbar = true;
+</script>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pub=AddThis"></script>
+
+
+
+
+ 	
+</div>
+<div id="footer">
+	<div class="container_12">
+		<div class="grid_2">
+			<h5>Get AddThis</h5>
+			<a href="http://www.addthis.com/get-addthis">Sharing Tools</a><br/>
+			<a href="http://www.addthis.com/help/api-overview">APIs</a><br/>
+			<a href="http://www.addthis.com/help/ios-quickstart">iOS SDK</a><br/>
+			<a href="http://www.addthis.com/help/android-quickstart">Android SDK</a>				
+		</div>
+		<div class="grid_2">
+			<h5>Explore</h5>
+			<a href="http://www.addthis.com/blog/category/whats-new/">What's New?</a><br/>
+			<a href="features">Features</a><br/>
+			<a href="http://www.addthis.com/services">Service Directory</a><br/>
+			<a href="http://www.addthis.com/languages">Language Database</a><br/>
+			<a href="http://www.addthis.com/labs">Labs</a>
+		</div>
+		<div class="grid_2">
+			<h5>Support</h5>
+			<a href="http://www.addthis.com/help/faq">FAQ</a><br/>
+			<a href="help">Help</a><br/>
+			<a href="http://www.addthis.com/forum">Forum</a><br/>
+			<a href="http://status.addthis.com/">Platform Status</a><br/>
+			<a href="http://www.addthis.com/search">Search</a>
+		</div>
+		<div class="grid_2">
+			<h5>Company</h5>
+			<a href="http://www.addthis.com/about">About Us</a><br/>
+			<a href="http://www.addthis.com/contact">Contact</a><br/>
+			<a href="careers">Careers</a><br/>
+			<a href="http://www.addthis.com/logos">Logos</a><br/>
+			<a href="http://www.addthis.com/blog">Blog</a>
+		</div>
+		<div class="grid_2">
+			<h5>Browser Tools</h5>
+                <div id="bookmarklet"> 
+        <a class="ats" href="http://www.addthis.com/developers#">Share</a> 
+        <div id="bookmarklet-text"> 
+            <strong>Drag me</strong> into your bookmark toolbar. 
+        </div> 
+    </div>   
+    <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_bookmarklet.js"></script> 		</div>
+		<div class="grid_2">
+			<div class="followaddthis">
+				<h5>Get Social with Us!</h5>
+				<p><a class="follow-twitter" href="http://twitter.com/addthis" onclick="window.open('https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fwww.addthis.com%2Fregistered&region=follow&screen_name=addthis&source=followbutton&variant=1.0','FollowAddThis','width=520,height=520');return false;">Follow @addthis</a></p>
+				<a class="follow-facebook" href="http://www.facebook.com/AddThis" target="_blank">Follow AddThis on Facebook</a> 
+			</div>	
+		</div>
+		<div class="clear"></div>
+		<div class="mb40"></div>
+		
+		<div class="grid_12 alpha omega copyright">
+			&copy; 2011 <a href="">Add This</a>, LLC - A <a href="http://www.clearspring.com/" title="Go to Clearspring.com">Clearspring</a> Company <span class="pipe">|</span> <a href="privacy">Privacy</a> <span class="pipe">|</span> <a href="http://www.addthis.com/tos">Terms of Service</a><br/>
+			Don't want to receive targeted advertising? Go to our <a href="http://www.addthis.com/advertising-choices">opt-out</a> page.<br/>
+			<a class="athome" href="">AddThis Homepage</a>
+		</div>
+		<div class="clear"></div>
+		
+	</div>
+</div>	
+<div id="lb"></div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+var u = "/developers";
+if (window._gat) {
+    var gaPageTracker = _gat._getTracker("UA-1170033-1");
+    gaPageTracker._setDomainName("www.addthis.com");
+    gaPageTracker._trackPageview(u);
+}
+</script>
+
+</body>
+</html>
+
+

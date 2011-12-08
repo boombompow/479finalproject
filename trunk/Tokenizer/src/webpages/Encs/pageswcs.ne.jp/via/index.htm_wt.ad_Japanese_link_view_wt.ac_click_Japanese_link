@@ -1,0 +1,553 @@
+<html>
+
+<head>
+
+<title>VIAS¹</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+
+<meta name="keywords" content="’J’i’_,VIAS¹,S¹,å¤0¡f,å¤0¡fS¹,ñ}Ô,å¤0¡fñ}Ô,RðÊ,·ýs,S¹·ýs,S¹Ì·,ýQäñ}Ô,Á9}ñ}Ô,ÜHýü,’J’i’f’B’A’,’J’i’f’B’A’ý ,’Iý[’V’’’,’V’’’9ý[’R,’u’0’hý[,’R’`’hý[,’o’’Ný[’oý[,’W’’’X’pý[,’G’h’’’g’,’g’ý’’g,’E’B’j’y’O,’’’g’`’Iý[’9,’P’x’b’N,’K’V’y,’n’`’t’@’b’N’X,’’’N’g’,’Iý[’ý’0,’V’h’jý[,’X’mý[’g’R’C’,’V’9’oý[ý"’u’9ý[,VIA,Rail,VIA,VIA Rail,via,railway,train,express,train trip,tourism,station,Vancouver,Jasper,Edmonton,Winnipeg,Toronto,Montreal,Quebec,Gaspe,Halifax,Moncton Silver and Blue,Canadian,Skeena,Ocean,Chaleur,Hadson Bay,Corridor,Bras d'OR,Sydney">
+
+<meta name="description" content="VIAS¹Rö}®’zý[’¬’yý[’WýB’J’i’_SyðÔ&·éVIAS¹Ì·×ÄðýÐ0îµÜ·ýB}~ýý"\ýA\ñýA­RãýX"Ìýî"ñà±¿ç©çýB">
+
+<script language="JavaScript">
+<!--
+function MM_timelinePlay(tmLnName, myID) { //v1.2
+
+  //Copyright 1997 Macromedia, Inc. All rights reserved.
+
+  var i,j,tmLn,props,keyFrm,sprite,numKeyFr,firstKeyFr,propNum,theObj,firstTime=false;
+
+  if (document.MM_Time == null) MM_initTimelines(); //if *very* 1st time
+
+  tmLn = document.MM_Time[tmLnName];
+
+  if (myID == null) { myID = ++tmLn.ID; firstTime=true;}//if new call, incr ID
+
+  if (myID == tmLn.ID) { //if Im newest
+
+    setTimeout('MM_timelinePlay("'+tmLnName+'",'+myID+')',tmLn.delay);
+
+    fNew = ++tmLn.curFrame;
+
+    for (i=0; i<tmLn.length; i++) {
+
+      sprite = tmLn[i];
+
+      if (sprite.charAt(0) == 's') {
+
+        if (sprite.obj) {
+
+          numKeyFr = sprite.keyFrames.length; firstKeyFr = sprite.keyFrames[0];
+
+          if (fNew >= firstKeyFr && fNew <= sprite.keyFrames[numKeyFr-1]) {//in range
+
+            keyFrm=1;
+
+            for (j=0; j<sprite.values.length; j++) {
+
+              props = sprite.values[j]; 
+
+              if (numKeyFr != props.length) {
+
+                if (props.prop2 == null) sprite.obj[props.prop] = props[fNew-firstKeyFr];
+
+                else        sprite.obj[props.prop2][props.prop] = props[fNew-firstKeyFr];
+
+              } else {
+
+                while (keyFrm<numKeyFr && fNew>=sprite.keyFrames[keyFrm]) keyFrm++;
+
+                if (firstTime || fNew==sprite.keyFrames[keyFrm-1]) {
+
+                  if (props.prop2 == null) sprite.obj[props.prop] = props[keyFrm-1];
+
+                  else        sprite.obj[props.prop2][props.prop] = props[keyFrm-1];
+
+        } } } } }
+
+      } else if (sprite.charAt(0)=='b' && fNew == sprite.frame) eval(sprite.value);
+
+      if (fNew > tmLn.lastFrame) tmLn.ID = 0;
+
+  } }
+
+}
+
+
+
+function MM_timelineGoto(tmLnName, fNew, numGotos) { //v2.0
+
+  //Copyright 1997 Macromedia, Inc. All rights reserved.
+
+  var i,j,tmLn,props,keyFrm,sprite,numKeyFr,firstKeyFr,lastKeyFr,propNum,theObj;
+
+  if (document.MM_Time == null) MM_initTimelines(); //if *very* 1st time
+
+  tmLn = document.MM_Time[tmLnName];
+
+  if (numGotos != null)
+
+    if (tmLn.gotoCount == null) tmLn.gotoCount = 1;
+
+    else if (tmLn.gotoCount++ >= numGotos) {tmLn.gotoCount=0; return}
+
+  jmpFwd = (fNew > tmLn.curFrame);
+
+  for (i = 0; i < tmLn.length; i++) {
+
+    sprite = (jmpFwd)? tmLn[i] : tmLn[(tmLn.length-1)-i]; //count bkwds if jumping back
+
+    if (sprite.charAt(0) == "s") {
+
+      numKeyFr = sprite.keyFrames.length;
+
+      firstKeyFr = sprite.keyFrames[0];
+
+      lastKeyFr = sprite.keyFrames[numKeyFr - 1];
+
+      if ((jmpFwd && fNew<firstKeyFr) || (!jmpFwd && lastKeyFr<fNew)) continue; //skip if untouchd
+
+      for (keyFrm=1; keyFrm<numKeyFr && fNew>=sprite.keyFrames[keyFrm]; keyFrm++);
+
+      for (j=0; j<sprite.values.length; j++) {
+
+        props = sprite.values[j];
+
+        if (numKeyFr == props.length) propNum = keyFrm-1 //keyframes only
+
+        else propNum = Math.min(Math.max(0,fNew-firstKeyFr),props.length-1); //or keep in legal range
+
+        if (sprite.obj != null) {
+
+          if (props.prop2 == null) sprite.obj[props.prop] = props[propNum];
+
+          else        sprite.obj[props.prop2][props.prop] = props[propNum];
+
+      } }
+
+    } else if (sprite.charAt(0)=='b' && fNew == sprite.frame) eval(sprite.value);
+
+  }
+
+  tmLn.curFrame = fNew;
+
+  if (tmLn.ID == 0) eval('MM_timelinePlay(tmLnName)');
+
+}
+
+function MM_initTimelines() { //v4.0
+    //MM_initTimelines() Copyright 1997 Macromedia, Inc. All rights reserved.
+    var ns = navigator.appName == "Netscape";
+    var ns4 = (ns && parseInt(navigator.appVersion) == 4);
+    var ns5 = (ns && parseInt(navigator.appVersion) > 4);
+    var macIE5 = (navigator.platform ? (navigator.platform == "MacPPC") : false) && (navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 4);
+    document.MM_Time = new Array(1);
+    document.MM_Time[0] = new Array(1);
+    document.MM_Time["Timeline1"] = document.MM_Time[0];
+    document.MM_Time[0].MM_Name = "Timeline1";
+    document.MM_Time[0].fps = 15;
+    document.MM_Time[0][0] = new String("behavior");
+    document.MM_Time[0][0].frame = 61;
+    document.MM_Time[0][0].value = "MM_timelineGoto('Timeline1','1')";
+    document.MM_Time[0].lastFrame = 61;
+    for (i=0; i<document.MM_Time.length; i++) {
+        document.MM_Time[i].ID = null;
+        document.MM_Time[i].curFrame = 0;
+        document.MM_Time[i].delay = 1000/document.MM_Time[i].fps;
+    }
+}
+//-->
+</script>
+		<csscriptdict>
+			<script><!--
+CSInit = new Array;
+function CSScriptInit() {
+if(typeof(skipPage) != "undefined") { if(skipPage) return; }
+idxArray = new Array;
+for(var i=0;i<CSInit.length;i++)
+	idxArray[i] = i;
+CSAction2(CSInit, idxArray);}
+CSAg = window.navigator.userAgent; CSBVers = parseInt(CSAg.charAt(CSAg.indexOf("/")+1),10);
+function IsIE() { return CSAg.indexOf("MSIE") > 0;}
+function CSIEStyl(s) { return document.all.tags("div")[s].style; }
+function CSNSStyl(s) { return CSFindElement(s,0); }
+function CSFindElement(n,ly) { if (CSBVers < 4) return document[n];
+	var curDoc = ly ? ly.document : document; var elem = curDoc[n];
+	if (!elem) { for (var i=0;i<curDoc.layers.length;i++) {
+		elem = CSFindElement(n,curDoc.layers[i]); if (elem) return elem; }}
+	return elem;
+}
+
+function CSClickReturn () {
+	var bAgent = window.navigator.userAgent; 
+	var bAppName = window.navigator.appName;
+	if ((bAppName.indexOf("Explorer") >= 0) && (bAgent.indexOf("Mozilla/3") >= 0) && (bAgent.indexOf("Mac") >= 0))
+		return true; // dont follow link
+	else return false; // dont follow link
+}
+
+function CSButtonReturn () {
+	var bAgent = window.navigator.userAgent; 
+	var bAppName = window.navigator.appName;
+	if ((bAppName.indexOf("Explorer") >= 0) && (bAgent.indexOf("Mozilla/3") >= 0) && (bAgent.indexOf("Mac") >= 0))
+		return false; // follow link
+	else return true; // follow link
+}
+
+CSIm = new Object();
+function CSIShow(n,i) {
+	if (document.images) {
+		if (CSIm[n]) {
+			var img = (!IsIE()) ? CSFindElement(n,0) : document[n];
+			if (img && typeof(CSIm[n][i].src) != "undefined") {img.src = CSIm[n][i].src;}
+			if(i != 0)
+				self.status = CSIm[n][3];
+			else
+				self.status = " ";
+			return true;
+		}
+	}
+	return false;
+}
+function CSILoad(action) {
+	im = action[1];
+	if (document.images) {
+		CSIm[im] = new Object();
+		for (var i=2;i<5;i++) {
+			if (action[i] != '') { CSIm[im][i-2] = new Image(); CSIm[im][i-2].src = action[i]; }
+			else CSIm[im][i-2] = 0;
+		}
+		CSIm[im][3] = action[5];
+	}
+}
+CSStopExecution = false;
+function CSAction(array) { 
+	return CSAction2(CSAct, array);
+}
+function CSAction2(fct, array) { 
+	var result;
+	for (var i=0;i<array.length;i++) {
+		if(CSStopExecution) return false; 
+		var actArray = fct[array[i]];
+		if(actArray == null) return false; 
+		var tempArray = new Array;
+		for(var j=1;j<actArray.length;j++) {
+			if((actArray[j] != null) && (typeof(actArray[j]) == "object") && (actArray[j].length == 2)) {
+				if(actArray[j][0] == "VAR") {
+					tempArray[j] = CSStateArray[actArray[j][1]];
+				}
+				else {
+					if(actArray[j][0] == "ACT") {
+						tempArray[j] = CSAction(new Array(new String(actArray[j][1])));
+					}
+				else
+					tempArray[j] = actArray[j];
+				}
+			}
+			else
+				tempArray[j] = actArray[j];
+		}			
+		result = actArray[0](tempArray);
+	}
+	return result;
+}
+CSAct = new Object;
+
+
+// --></script>
+		</csscriptdict>
+		<csactiondict>
+			<script><!--
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button',/*URL*/'index/bkiso.gif',/*URL*/'index/ykiso.gif',/*URL*/'','VIAS¹Ì`îbm}¯');
+
+// --></script>
+		</csactiondict>
+		
+<script language="JavaScript">
+<!--
+//
+function jump_1(my_url)
+{window.open(my_url,"","width=550,height=250,scrollbars=no");}
+function jump_2(my_url)
+{window.open(my_url,"","width=550,height=300,scrollbars=no");}
+function jump_3(my_url)
+{window.open(my_url,"","width=550,height=350,scrollbars=no");}
+function jump_4(my_url)
+{window.open(my_url,"","width=550,height=400,scrollbars=no");}
+function jump_5(my_url)
+{window.open(my_url,"","width=570,height=450,scrollbars=no");}
+function jump_6(my_url)
+{window.open(my_url,"","width=400,height=550,scrollbars=yes");}
+function jump_7(my_url)
+{window.open(my_url,"","width=660,height=450,scrollbars=yes");}
+function jump_8(my_url)
+{window.open(my_url,"","width=660,height=550,scrollbars=yes");}
+function jump_9(my_url)
+{window.open(my_url,"","width=900,height=600,scrollbars=yes");}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+
+
+
+<body bgcolor="#FFFFFF" onLoad="CSScriptInit();MM_timelinePlay('Timeline1');MM_preloadImages('index/y_b1.gif','index/y_b3.gif','index/y_b4.gif','index/y_b5.gif','index/y_btour.gif')">
+
+		<table border="0" align="center">
+<tr>
+
+				<td colspan="4">
+
+					
+      <div align="center"> <img src="http://wcs.ne.jp/via/index/wtvia.gif" width="550" height="49" border="0" alt="’J’i’_å¤0¡fS¹ý@VIAS¹Öæ¤±»"></div>				</td>
+			</tr>
+			<tr> 
+
+    <td rowspan="12" valign="top" align="center"><p><img src="http://wcs.ne.jp/via/index/WEST4098.jpg" alt="’C’ýý[’W’t’H’g" width="300" height="450" border="0"></p>
+      <p></p>
+<table border="0" cellpadding="2" cellspacing="0" bgcolor="navy">
+
+						<tr>
+
+							<td>
+
+								<table border="0" cellpadding="4" cellspacing="0" width="270">
+
+									<tr>
+
+										<td bgcolor="navy" align="center"><font color="white"><b>VIAS¹’j’&ý[’X</b></font></td>
+									</tr>
+
+									<tr>
+										<td bgcolor="#e6e6fa"><!--start-->
+										  <p><b><font size="-1"><a href="http://www.bs4.jp/classic_hotel/index.html" target="_blank">BSú’e’Rýu’z’e’9}~`Ô·ýs ý`’N’0’V’b’N’z’e’9²SÛý`ýv</a></font></b></p>
+										  <p><font size="-1"><a href="http://www.bs4.jp/classic_hotel/index.html" target="_blank"><img src="http://wcs.ne.jp/via/index/hoteljikanryokou.gif" alt="’z’e’9}~`Ô·ýs’o’iý[" width="168" height="53" border="0" align="right"></a>BSú’e’RÅ"ú Ì’R’M’&’0ý[Ôgýw’z’e’9}~`Ô·ýsý`’N’0’V’b’N’z’e’9²SÛý`ýxÉÄýAVIAS¹ªýÐ0î³êÜ·ýB<br>
+¯ÔgÍýAý¢`E`eý»ê¼êÌ9ó`ÔÅ}~ãðR©ÂßÄ«½’N’0’V’b’N’z’e’9ª}åðÆÈéýAýV`´`oÌ’m’’t’B’N’V’!’ÔgýB<br>’g’ý’’gÌVIAS¹â}Ô0wýA’ ’j’I’0wÌÚÌOÉ é’z’e’9ýA’t’F’A’’’gýE’ý’C’’9ýE’Æý[’NðÁýW·é0ñÅýAVIAS¹àýÐ0î³êÜ·ýB<br>
+                                          <br>
+									      BSú’e’Rýw’z’e’9}~`Ô·ýsý`’N’0’V’b’N’z’e’9²SÛý`ýx ’I’’^’`’IýBý@’ý’C’’9ýE’Æý[’N"Ò<br>
+									      "úú 12R}2ú(9à)<br>
+									      "ú}~`Ô 21:00ý`21:54<br>
+									      ýÚý×Í<a href="http://www.bs4.jp/classic_hotel/index.html" target="_blank">±¿ç</a>ýB </font></p>
+										  <p><font size="-1">2011/NOVEMBER</font></p>
+										  <hr>
+										  <p><b><font size="-1"><a href="http://wcs.ne.jp/via/index/sleeperplus.pdf" target="_blank">ýQä}Ô’c’Aý[’N’0’Xª¼ýÌ"ÏýX</a></font></b></p>
+										  <p><font size="-1">VIAS¹Ì’Iý[’V’’’ý Æ’J’i’f’B’A’ý ÌýQä}Ô’c’Aý[’N’0’XªýA9R}29ú©çýQä}Ô’v’0’XÉ¼ýÌ"ÏýXÉÈèÜµ½ýB<br/>
+ýQä}Ô’v’0’XÍýA’Iý[’V’’’ý Æ’J’i’f’B’A’ý 9¤É}ÔàÅÌýH}"t«’N’0’XÅ·ýB</font></p>
+										  <p><font size="-1">2011/OCTOBER</font></p>
+										  <hr>
+										  <p><font size="-1"><font size="-1"><a href="http://wcs.ne.jp/via/pastnews.htm">0ß9}Ì9L}</a></font></font><br>
+									  </p>									  </td>
+							    </tr>
+									<tr>
+									  <td bgcolor="#e6e6fa"></td>
+								  </tr>
+						  </table>							</td>
+						</tr>
+					</table>
+
+			  <font size="1"></font></td>
+
+    <td colspan="2" valign="middle"> 
+
+      <center>
+						<img src="http://wcs.ne.jp/via/index/tkiso.gif" width="42" height="42" border="0"></center>    </td>
+
+    <td valign="middle"><csobj w="181" h="23" t="Button" ht="index/ykiso.gif"><a href="http://wcs.ne.jp/via/reservation/kiso.htm" onmouseover="return CSIShow(/*CMP*/'button',1)" onmouseout="return CSIShow(/*CMP*/'button',0)" onclick="return CSButtonReturn()"><img src="http://wcs.ne.jp/via/index/bkiso.gif" width="181" height="23" name="button" border="0" alt="VIAS¹Ì`îbm}¯"></a></csobj></td>
+  </tr>
+			<tr>
+				<td valign="middle" colspan="2">
+					
+      <div align="center"> <img src="http://wcs.ne.jp/via/index/t_b1.gif" width="42" height="42"></div>				</td>
+				
+    <td valign="middle"><a href="http://wcs.ne.jp/via/map_all.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image19','','index/y_b1.gif',1)"><img name="Image19" border="0" src="http://wcs.ne.jp/via/index/b_b1.gif" width="181" height="23" alt="}åvÜHýüý}&’t’H’g’M’’’0’`ý["></a></td>
+		  </tr>
+			
+			<tr> 
+
+    <td colspan="2" valign="middle"> 
+
+      <center>
+        <img src="http://wcs.ne.jp/via/index/t_b3.gif" width="42" height="42"> 
+      </center>    </td>
+
+    <td valign="middle"><a href="http://wcs.ne.jp/via/reservation.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image21','','index/y_b3.gif',1)"><img name="Image21" border="0" src="http://wcs.ne.jp/via/index/b_b3.gif" width="181" height="23" alt="\ñÌ²ÆÄà"></a></td>
+  </tr>
+
+  <tr> 
+
+    <td colspan="2" valign="middle"> 
+
+
+      <center>
+        <img src="http://wcs.ne.jp/via/index/t_b4.gif" width="42" height="42"> 
+      </center>    </td>
+
+    <td valign="middle"><a href="http://wcs.ne.jp/via/trains.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image23','','index/y_b4.gif',1)"><img name="Image23" border="0" src="http://wcs.ne.jp/via/index/b_b4.gif" width="181" height="23" alt="ñ}ÔÌ²ÆÄàýE¿9à"></a></td>
+  </tr>
+
+  <tr> 
+
+    <td valign="middle" colspan="2"> 
+
+      <center>
+        <img src="http://wcs.ne.jp/via/index/t_b5.gif" width="42" height="42"> 
+      </center>    </td>
+    <td valign="middle"><a href="http://wcs.ne.jp/via/pass.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image24','','index/y_b5.gif',1)"><img name="Image24" border="0" src="http://wcs.ne.jp/via/index/b_b5.gif" width="181" height="23" alt="}üVRÌ²ÆÄà"></a></td>
+  </tr>
+  <tr>
+    <td valign="middle" colspan="2"><img src="http://wcs.ne.jp/via/index/ttour.gif" width="42" height="42"></td>
+    <td valign="middle"><a href="http://wcs.ne.jp/cgi-bin/via/db/toursearch.html" target="_blank" onmouseover="MM_swapImage('Image28','','index/y_btour.gif',1)" onmouseout="MM_swapImgRestore()"><img src="http://wcs.ne.jp/via/index/b_btour.gif" alt="VIAS¹Üp’c’Aý[Rxýõ" name="Image28" width="181" height="23" border="0"></a></td>
+    </tr>
+			<tr>
+
+				<td colspan="3" valign="middle">
+
+					<div align="center">
+
+						<table border="0" cellpadding="0" cellspacing="2">
+
+							<tr valign="bottom" align="center">
+
+								
+            <td><a href="http://www.viarail.ca/en_index.html" target="_blank"><img src="http://wcs.ne.jp/via/index/earth.gif" width="46" height="46" border="0" alt="0pRêÅTopPage"></a></td>
+
+								
+            <td><a href="http://www.viarail.ca/reservation" target="_blank"><img src="http://wcs.ne.jp/via/index/res-botan.gif" width="80" height="62" border="0" alt="’_’C’R’N’g\ñ"></a></td>
+
+								
+            <td><img src="http://wcs.ne.jp/via/index/pass-botan.gif" width="50" height="54" border="0"></td>
+						  </tr>
+
+							<tr align="center">
+
+								<td><font size="1" color="#666666">ýi0pRêÅTopPageýj</font></td>
+
+								<td><font size="1" color="#666666">’_’C’R’N’g\ñ<br>
+
+										
+
+									ýi0pRêÅýj</font></td>
+
+								<td><font size="1" color="#666666">}üVRÆÄà<br>
+
+										
+
+									ýi0pRêÅýj<br>
+
+										[ý¬õ ]</font></td>
+							</tr>
+						</table>
+				  </div>				</td>
+			</tr>
+
+			<tr>
+
+				<td valign="middle" colspan="2"></td>
+
+				<td valign="middle">&nbsp;</td>
+		  </tr>
+
+			<tr>
+
+
+				
+    <td colspan="3"></td>
+			</tr>
+
+			<tr>
+
+				
+    <td colspan="3"><table width="250" border="0">
+      <tr>
+        <td><font size="-1">’C’M’`’XÌ}á}ÒñýlýA’W’!ý[Æ’}’b’N’XªVIAS¹ÉýæÁÄ}ÔàÌl}qðýÐ0îµÜ·ýB}Ô9©çÌ­ßâ’x’b’g’9ý[’¬ýA’_’C’j’’O’Jý[ýA’pý[’N’Jý[ÈÇ}ÔàÌ9÷ýXÜÅð’R’|ý[’gýi0pRêýjýB}ÀýÛÉýæ}ÔµÄ¢é9C"ªÉÈé0fSÍ"KR©Å·ýI</font><br>
+          <img src="http://wcs.ne.jp/via/index/joe-max.jpg" alt="’W’!ý[Æ’}’b’N’XÌVIA’R’|ý[’g" width="250" height="183"></td>
+      </tr>
+      <tr>
+        <td><p><a href="http://www.youtube.com/user/GottaGoPromo#p/u/3/1bugK7OhCNc" target="_blank"><font size="-1">’Iý[’V’’’ý ýi’n’`’t’@’b’N’Xý`’’’g’`’Iý[’9</font></a><font size="-1">ýj<br>
+              <a href="http://www.youtube.com/user/GottaGoPromo#p/u/2/tZ32Z-4VLfA" target="_blank">R"9ß9£Á9}ýi’R’`’hý[ýjýi’’’g’`’Iý[’9ý`’g’ý’’gýj</a><br>
+              <a href="http://www.youtube.com/user/GottaGoPromo#p/u/1/axkIFbroI8A" target="_blank">’J’i’f’B’A’ý ýi’g’ý’’gý`’o’’Ný[’oý[ýj1</a><br>
+              <a href="http://www.youtube.com/user/GottaGoPromo#p/u/0/XjWEEHPVC_s" target="_blank">’J’i’f’B’A’ý ýi’g’ý’’gý`’o’’Ný[’oý[ýj2</a><br>
+            </font></p>          </td>
+      </tr>
+    </table>      </td>
+		  </tr>
+
+			<tr>
+
+				
+    <td colspan="3" valign="bottom"><div align="right">
+      <p><font size="-2"><img src="http://wcs.ne.jp/via/index/via-map.gif" alt="VIAS¹" width="246" height="121"><br>
+          <br>
+          <br>
+          <img src="http://wcs.ne.jp/via/index/via_logo.gif" alt="VIAS¹" width="220" height="100"></font></p>
+      <p><font size="-2">ýÅýIýXýVúýF2011N11R}26ú</font></p>
+    </div></td>
+		  </tr>
+		</table>
+
+<BR>
+
+		<DIV ALIGN="CENTER"><FONT COLOR="navy" SIZE="2">ý¦’zý[’¬’yý[’WÉ9LýÚ³êÄ¢éàeÍ\ýý³­"ÏýX³êé}ª²´¢Ü·ÌÅýA\ß²¹ý³0º³¢ýB</FONT></DIV>
+
+		
+<DIV align="center"><img src="http://wcs.ne.jp/via/train_top/line_bar.gif" width="660" height="6"></DIV>
+
+<table width="600" border="0" align="center">
+
+  <tr> 
+
+    <td colspan="3"><font size="1">±Ì’zý[’¬’yý[’WÍýA’l’b’g’X’Pý[’v’i’r’Qý[’^ý[4.0Í’C’’^ý[’l’b’g’G’N’X’v’ýý[’0ý[4.0ÆÈýãÅ²­¾³¢ýB»êÆÈ0ºÌ’oý[’W’!’ð²}gpÌ"ûÍýA’R’C’A’E’g"\}¦ÈÇÉýêªý¶¶éýêý!ª èÜ·ýB0º9L’{’^’æèýÅýV’oý[’W’!’Ì’u’0’E’Uª’_’E’’ýý[’hÅ«Ü·ýBýA0º9L0E[Ìýurgnbjv`udýv’{’^’æèýA®0æðýÄý¶·é’cý[’9ð’_’E’’ýý[’h·é±ÆªÅ«Ü·ýB</font></td>
+
+  </tr>
+
+  <tr> 
+
+    <td colspan="3"> 
+
+      <center>
+
+        <a href="http://home.netscape.com/ja/download/index.html?cp=ijahdwn" target="_blank"><img src="http://wcs.ne.jp/via/index/ns.gif" width="90" height="30" border="0" alt="’l’b’g’X’Pý[’vÌ’_’E’’ýý[’h"></a>ý@ý@<a href="http://www.microsoft.com/japan/ie" target="_blank"><img src="http://wcs.ne.jp/via/index/ie.gif" width="88" height="31" border="0" alt="’C’’^ý[’l’b’g’G’N’X’v’ýý[’0ý[Ì’_’E’’ýý[’h"></a>ý@ý@<a href="http://www.macromedia.com/jp/shockwave/download/" target="_blank"><img src="http://wcs.ne.jp/via/index/shockwave.gif" width="88" height="31" border="0" alt="’V’!’b’N’E’Fý[’uÌ’_’E’’ýý[’h"></a> 
+
+      </center>
+
+    </td>
+
+  </tr>
+
+</table>
+ý@
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-5127165-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+
+</html>

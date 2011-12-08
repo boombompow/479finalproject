@@ -1,0 +1,530 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" >
+<head>
+	  <base />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="Bachelor of Commerce, Bachelor of Administration, MBA, Executive MBA, Career Management, Career Placement, Investment Management, FirstClass, First Class" />
+  <meta name="title" content="JMSB News & Events" />
+  <meta name="author" content="Anna Gunaratnam" />
+  <meta name="description" content="John Molson School of Business at Concordia University has a long tradition as a successful Canadian Business school. AACSB Accredited. Bachelor of Commerce, MBA, MSc, PhD. Apply Today!" />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title>JMSB News &amp; Events</title>
+  <link href="http://johnmolson.concordia.ca/templates/jmsb_joomla_template/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="stylesheet" href="http://johnmolson.concordia.ca/plugins/system/jceutilities/css/jceutilities-160.css" type="text/css" />
+  <link rel="stylesheet" href="http://johnmolson.concordia.ca/media/system/css/modal.css" type="text/css" />
+  <script type="text/javascript" src="http://johnmolson.concordia.ca/plugins/system/jceutilities/js/jquery-123.js"></script>
+  <script type="text/javascript" src="http://johnmolson.concordia.ca/plugins/system/jceutilities/js/jceutilities-160.js"></script>
+  <script type="text/javascript" src="http://johnmolson.concordia.ca/plugins/system/jceutilities/js/embed.js"></script>
+  <script type="text/javascript" src="http://johnmolson.concordia.ca/media/system/js/mootools.js"></script>
+  <script type="text/javascript" src="http://johnmolson.concordia.ca/media/system/js/caption.js"></script>
+  <script type="text/javascript" src="http://johnmolson.concordia.ca/components/com_jcalpro/lib/shajax.js"></script>
+  <script type="text/javascript" src="http://johnmolson.concordia.ca/media/system/js/modal.js"></script>
+  <script type="text/javascript">
+	var jcexhtmlembed=1;jQuery(document).ready(function(){jceutilities({'lightbox':{'legacy':0,'convert':0,'resize':1,'icons':0,'overlay':1,'overlayopacity':0.8,'overlaycolor':"#000000",'fadespeed':500,'scalespeed':500},'tootlip':{'classname':"tooltip",'opacity':1,'speed':150,'position':"br",'offsets':"{'x': 16, 'y': 16}"},'imgpath':"plugins/system/jceutilities/img/",'pngfix':0});});/* default values for unobtrusive ajax function of shajax */
+<!--/*--><![CDATA[//><!--
+shajax.shajaxProgressImage = '<img src="http://johnmolson.concordia.ca/components/com_jcalpro/images/ajax-loader.gif" border="0"  alt="progress" style="vertical-align: middle" hspace="2"/>';
+shajax.shajaxLiveSiteUrl = 'http://johnmolson.concordia.ca/';
+//--><!]]>
+<!--
+/*
+ **********************************************
+ Copyright (c) 2006-2009 Anything-Digital.com
+ **********************************************
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ This header must not be removed. Additional contributions/changes
+ may be added to this header as long as no information is deleted.
+ **********************************************
+ $Id: template.js 312 2009-06-01 18:19:26Z shumisha $
+ */
+
+document.imageArray = new Array(10);
+preloadImage(0, 'http://johnmolson.concordia.ca/components/com_jcalpro/themes/default/images/addsign.gif',
+  'http://johnmolson.concordia.ca/components/com_jcalpro/themes/default/images/addsign_a.gif');
+
+function preloadImage() {
+  var args = preloadImage.arguments;
+  document.imageArray[args[0]] = new Array(args.length - 1);
+
+  for ( var i = 1; i < args.length; i++) {
+    document.imageArray[args[0]][i - 1] = new Image;
+    document.imageArray[args[0]][i - 1].src = args[i];
+  }
+}
+
+function showOnBar(Str) {
+  window.status = Str;
+  return true;
+}
+
+function cOn(myObject, color) {
+  if (document.getElementById || (document.all && !(document.getElementById))) {
+    if (!color)
+      color = "#6187E5"
+
+    myObject.style.backgroundColor = color;
+  }
+}
+
+function cOut(myObject, color) {
+  if (document.getElementById || (document.all && !(document.getElementById))) {
+    if (!color)
+      color = "#5177C5"
+
+    myObject.style.backgroundColor = color;
+  }
+}
+
+function cal_switchImage(imgName, imgSrc) {
+  if (document.images) {
+    if (imgSrc != "none") {
+      document.images[imgName].src = imgSrc;
+    }
+  }
+}
+
+function verify(msg) {
+  if (!msg)
+    msg = "Are you absolutely sure that you want to delete this item?";
+
+  // all we have to do is return the return value of the confirm() method
+  return confirm(msg);
+}
+
+function jclGetElement(psID) {
+  if (document.all) {
+    return document.all[psID];
+  }
+
+  else if (document.getElementById) {
+    return document.getElementById(psID);
+  }
+
+  else {
+    for (iLayer = 1; iLayer < document.layers.length; iLayer++) {
+      if (document.layers[iLayer].id == psID)
+        return document.layers[iLayer];
+    }
+  }
+
+  return Null;
+}
+
+/*
+ * returns a cookie variable with the given name.
+ */
+function jclGetCookie(name) {
+  var dc = document.cookie;
+  var prefix = extcal_cookie_id + '_' + name + "=";
+  var begin = dc.indexOf("; " + prefix);
+
+  if (begin == -1) {
+    begin = dc.indexOf(prefix);
+
+    if (begin != 0)
+      return null;
+  }
+
+  else {
+    begin += 2;
+  }
+
+  var end = document.cookie.indexOf(";", begin);
+
+  if (end == -1) {
+    end = dc.length;
+  }
+
+  return unescape(dc.substring(begin + prefix.length, end));
+}
+
+/*
+ * Sets a Cookie with the given name and value.
+ */
+function jclSetCookie(name, value, persistent) {
+  var today = new Date();
+  var expiry = new Date(today.getTime() + 364 * 24 * 60 * 60 * 1000); // 364
+  // days
+  var expires = "";
+  var domain = extcal_cookie_domain;
+  var path = extcal_cookie_path;
+  var secure = false;
+  var prefix = extcal_cookie_id + '_' + name + "=";
+
+  if (persistent) {
+    expires = "; expires = " + expiry.toGMTString();
+  }
+
+  document.cookie = prefix + escape(value) + ((expires) ? expires : "")
+  + ((path) ? "; path=" + path : "")
+  + ((domain) ? "; domain=" + domain : "")
+  + ((secure) ? "; secure" : "") + ';';
+}
+
+// ==========================================
+// Set DIV ID to hide
+// ==========================================
+
+function jcl_hide_div(itm) {
+  if (!itm)
+    return;
+
+  itm.style.display = "none";
+}
+
+// ==========================================
+// Set DIV ID to show
+// ==========================================
+
+function jcl_show_div(itm) {
+  if (!itm)
+    return;
+
+  itm.style.display = "";
+}
+
+// ==========================================
+// Toggle category
+// ==========================================
+
+function togglecategory(fid, add) {
+  saved = new Array();
+  clean = new Array();
+
+  // ==========================================
+  // Get any saved info
+  // ==========================================
+
+  if (tmp = jclGetCookie('collapseprefs')) {
+    saved = tmp.split(",");
+  }
+
+  // ==========================================
+  // Remove bit if exists
+  // ==========================================
+
+  for (i = 0; i < saved.length; i++) {
+    if (saved[i] != fid && saved[i] != "") {
+      clean[clean.length] = saved[i];
+    }
+  }
+
+  // ==========================================
+  // Add?
+  // ==========================================
+
+  if (add) {
+    clean[clean.length] = fid;
+    jcl_show_div(jclGetElement(fid + '_close'));
+    jcl_hide_div(jclGetElement(fid + '_open'));
+  }
+
+  else {
+    jcl_show_div(jclGetElement(fid + '_open'));
+    jcl_hide_div(jclGetElement(fid + '_close'));
+  }
+
+  jclSetCookie('hidden_display', clean.join(','), 1);
+}
+
+// sets dynamically the content of a given html tag id
+function jclSetText(id, value) {
+  var label = jclGetElement(id);
+  label.firstChild.nodeValue = value;
+}
+
+//sets dynamically the content of an element
+function jclSetChecked(id, value) {
+  var element = jclGetElement(id);
+  element.checked = value;
+}
+
+// shows recurrence options div, hiding all others
+function jclShowRecOptions(id) {
+  var divs = new Array('jcl_rec_none_options', 'jcl_rec_daily_options',
+    'jcl_rec_weekly_options', 'jcl_rec_monthly_options',
+    'jcl_rec_yearly_options');
+  var target = '';
+  if (id) {
+    target = 'jcl_rec_' + id + '_options';
+  }
+  for (i = 0; i < divs.length; i++) {
+    if (divs[i] == target) {
+      jcl_show_div(jclGetElement(divs[i]));
+    } else {
+      jcl_hide_div(jclGetElement(divs[i]));
+    }
+  }
+}
+
+function printDocument() {
+  self.focus();
+  self.print();
+}
+
+       var recurEventMsg = "This event is set to repeat";
+       var noRecurEventMsg = "This event does not repeat";
+
+       // cookie variables
+       var extcal_cookie_id = "jcalpro1";
+       var extcal_cookie_path = "/";
+      var extcal_cookie_domain = "";
+
+      
+//-->
+		window.addEvent('domready', function() {
+
+			SqueezeBox.initialize({ size: { x: 600, y: 600}});
+
+			$$('a.jcal_modal').each(function(el) {
+				el.addEvent('click', function(e) {
+					new Event(e).stop();
+					SqueezeBox.fromElement(el);
+				});
+			});
+		});
+  </script>
+  <link href="http://johnmolson.concordia.ca/en/component/jlord_rss/feed/2" rel="alternate" type="application/rss+xml" title="Subscribe to JMSB News" />
+  <style type="text/css">
+ul#jlord-rss {margin:0;padding:0;} 
+ul#jlord-rss li {margin:0;padding:0;list-style:none;} 
+ul#jlord-rss li a {color: #000000;text-decoration: none;} 
+ul#jlord-rss li a:hover {color: #922338;text-decoration: underline;} 
+ul#jlord-rss li span {}
+ul#jlord-rss li img {border: 0 none;margin:0;padding:0;}
+</style>
+  <link href="http://johnmolson.concordia.ca/components/com_jcalpro/themes/default/style.css" rel="stylesheet" type="text/css" />
+  <!--[if IE 6]><link href='http://johnmolson.concordia.ca/components/com_jcalpro/themes/default/styleie6.css' rel='stylesheet' type='text/css' /><![endif]-->
+  <!--[if IE 7]><link href='http://johnmolson.concordia.ca/components/com_jcalpro/themes/default/styleie7.css' rel='stylesheet' type='text/css' /><![endif]-->
+
+	<meta name="verify-v1" content="xbZEsKJGjPvh1dGVfdEDhzCtz+hR8kpyP0kcqJHA6QY=" />
+	<link rel="stylesheet" href="http://johnmolson.concordia.ca/templates/system/css/system.css" type="text/css" />
+	<link rel="stylesheet" href="http://johnmolson.concordia.ca/templates/system/css/general.css" type="text/css" />
+	<link rel="stylesheet" href="http://johnmolson.concordia.ca/templates/jmsb_joomla_template/css/default.css" type="text/css" />
+	<link rel="stylesheet" href="http://johnmolson.concordia.ca/templates/jmsb_joomla_template/css/content_elements.css" type="text/css" />
+	<link rel="stylesheet" href="http://johnmolson.concordia.ca/templates/jmsb_joomla_template/css/main_layout.css" type="text/css" />
+	<link rel="stylesheet" href="http://johnmolson.concordia.ca/templates/jmsb_joomla_template/css/template.css" type="text/css" />
+	<link rel="stylesheet" href="http://johnmolson.concordia.ca/templates/jmsb_joomla_template/css/header.css" type="text/css" />
+	<link rel="stylesheet" href="http://johnmolson.concordia.ca/templates/jmsb_joomla_template/css/menu_level1.css" type="text/css" />
+	<link rel="stylesheet" href="http://johnmolson.concordia.ca/templates/jmsb_joomla_template/css/menu_level2.css" type="text/css" />
+	<link rel="stylesheet" href="http://johnmolson.concordia.ca/templates/jmsb_joomla_template/css/menu_level3_and_lower.css" type="text/css" />
+	<link rel="stylesheet" href="http://johnmolson.concordia.ca/templates/jmsb_joomla_template/css/footer.css" type="text/css" />
+	<link rel="stylesheet" href="http://globalmk.concordia.ca/style.php?owner=jmsb&mod=search" type="text/css" media="all" />
+	
+	<!--<script type="text/javascript" src="/templates/jmsb_joomla_template/js/prototype.lite.js" charset="UTF-8"></script>
+	<script type="text/javascript" src="/templates/jmsb_joomla_template/js/moo.fx.js" charset="UTF-8"></script>
+	<script type="text/javascript" src="/templates/jmsb_joomla_template/js/litebox-1.0.js" charset="UTF-8"></script>-->
+        <script type="text/javascript" src="http://johnmolson.concordia.ca/templates/jmsb_joomla_template/js/styleswitcher.js" charset="UTF-8"></script>
+        <script type="text/javascript" src="http://globalmk.concordia.ca/js.php?owner=jmsb&mod=search"></script>
+
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+         _gaq.push(
+             ['_setAccount', 'UA-3240406-1'],
+             ['_trackPageview'],
+             ['b._setAccount', 'UA-2729211-1'],
+             ['b._trackPageview']
+         );
+        </script>
+        <script type="text/javascript">
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();
+</script>
+<script type="text/javascript" src="http://johnmolson.concordia.ca/templates/jmsb_joomla_template/js/gaAddons.js"></script>
+        <script src="http://assets.percentmobile.com/percent_mobile.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<!--<body onload="initLightbox()">-->
+<body>
+<script type="text/javascript">js_init();</script>
+<a name="globaltools"></a>
+
+<div id="globalToolContainers">
+<div id="globaltools">
+<div class="linktools"><a href="../../pageswww.concordia.ca/index.html" accesskey="cu">Concordia University</a><img src="http://johnmolson.concordia.ca/images/stories/general_imgs/globaltoolbar_arrow_white.gif" alt="globaltoolbar_arrow_white.gif" title="globaltoolbar_arrow_white.gif" height="6" width="6" /><a href="../index.php" accesskey="h">John Molson School of Business</a></div>
+<div class="textsizetools"><a title="MyConcordia Portal" href="https://www.myconcordia.ca/">MyConcordia</a> | <a title="Contact us | Concordia University Directory" href="../../pageswww.concordia.ca/about/contact/index.html">Contact us</a> | <a title="Concordia Campus Maps - MB building" href="../../pageswww.concordia.ca/about/contact/campus-map/_markers_maps_markers.php_referer_www.concordia.ca_api_maps.canvas_centermap_MB">Maps</a> | <a title="Concordia Shuttle bus schedule" href="../../pageswww.concordia.ca/about/contact/campus-map/shuttle-bus-schedule">Shuttle</a> |  <!--<a href="#content" mce_href="#content"  accesskey="s">Skip to Content</a>--> Text-Size: <a href="../index.php" onclick="changeFontSize(1);return false;" title="Increase Text Size" class="resizeicon">A+</a> <a href="../index.php" onclick="changeFontSize(-1);return false;" title="Decrease Text Size" class="resizeicon">A-</a> <a href="../index.php" onclick="revertStyles(); return false;" title="Revert text styles to default" class="resizeicon">R</a></div>
+</div>
+</div>
+
+<div id="lwrap">
+<div id="rwrap">
+<div id="container">
+
+	<div id="top">
+		<div id="logo"><div class="toplogo"><ul><li><a href="../index.php" title="John Molson School of Business" alt="John Molson School of Business" accesskey="1">&nbsp;</a></li></ul></div></div>
+		<div id="searchContainer">
+						<div id="conuni_top_searchpanel">
+<ul class="search-tabs">
+<li><a class="s" id="thissite" href="http://johnmolson.concordia.ca/news-events#"><span style="font-size: 12px;">JMSB</span></a></li>
+<li><a class="m" id="entire" href="http://johnmolson.concordia.ca/news-events#"><span style="font-size: 12px;">All of Concordia</span></a></li>
+<li><a class="s" id="directory" href="http://johnmolson.concordia.ca/news-events#"><span style="font-size: 12px;">Staff &amp; Faculty Directory</span></a></li>
+</ul>
+<!-- tab "panes" -->
+<div class="search-panes"><form method="post" action="http://johnmolson.concordia.ca/news-events#" id="conuni_search" name="conuni_search"> <input class="search_field" id="query" name="query" type="text" /> <input value="Search" class="search_button" id="conuni_search" name="conuni_search" type="submit" /> </form></div>
+</div>
+		</div>
+				<div id="pillmenu">
+				<ul  id="mainlevel"><li><a href="about" class="mainlevel">About</a></li></ul><ul  id="mainlevel"><li><a href="undergrad" class="mainlevel">Undergraduate Programs</a></li></ul><ul  id="mainlevel"><li><a href="graduate-programs" class="mainlevel">Graduate Programs</a></li></ul><ul  id="mainlevel"><li><a href="career-services" class="mainlevel">Career Services</a></li></ul><ul  id="mainlevel"><li><a href="faculty-research" class="mainlevel">Faculty & Research</a></li></ul><ul  id="mainlevel"><li><a href="executive-education" class="mainlevel">Executive Education</a></li></ul><ul  id="mainlevel"><li><a href="community-a-alumni" class="mainlevel">Community & Alumni</a></li></ul><ul  id="mainlevel"><li><a href="news-events" class="mainlevel_current" id="active_menu">News & Events</a></li></ul>
+		</div>
+					<div id="pillmenu2">
+				<ul  id="mainlevel"><li><a href="http://johnmolson.concordia.ca/en/news-events/jmsb-news" class="mainlevel">JMSB News</a></li><li><a href="http://johnmolson.concordia.ca/en/news-events/media" class="mainlevel">Media</a></li><li><a href="http://johnmolson.concordia.ca/en/news-events/events/1861?view=calendar" class="mainlevel">Events</a></li><li><a href="http://johnmolson.concordia.ca/en/news-events/social-media" class="mainlevel">Social Media</a></li></ul>
+			</div>
+			</div>
+
+	<div style="clear: both; height: 2px;">&nbsp;</div>
+
+										<div id="bodyContainer">
+				<div id="leftMenuContainer">
+					<div id="leftnav">
+								<div class="module_menu">
+			<div>
+				<div>
+					<div>
+																</div>
+				</div>
+			</div>
+		</div>
+	
+					</div>
+				</div>
+
+				<div id="mainBodyContainer_with_leftContainer">
+<div class="addthis_toolbox addthis_default_style " style="float: right">
+        <a href="../../pageswww.addthis.com/bookmark.php_v_250_pubid_ra-4dc481a85646a144" class="addthis_button_compact">Share</a>
+        <span class="addthis_separator">|</span>
+		<a class="addthis_button_facebook" style="cursor:pointer"></a>
+		<a class="addthis_button_twitter" style="cursor:pointer"></a>
+		<a class="addthis_button_email" style="cursor:pointer"></a>
+		<a class="addthis_button_print" style="cursor:pointer">&nbsp;Print</a>
+        </div>
+											<div id="pathway">
+							<span class="breadcrumbs pathway">
+<a href="../" class="pathway">Home</a> <img src="http://johnmolson.concordia.ca/templates/jmsb_joomla_template/images/arrow.png" alt="" /> </span>
+
+						</div>
+										<a name="content"></a>
+										<div class="contentpaneopen">
+	
+		
+		
+		<h1>			JMSB News &amp; Events				</h1>
+		
+		
+	<div style="text-align: right; margin-top: -15px;border-bottom: 1px solid #ccc;margin-bottom:10px; width: 100%;">
+					
+		
+							</div>
+</div>
+
+
+
+
+<div class="contentpaneopen">
+</div>
+
+
+
+<div>
+<div class="mainContainer">Enjoy up to date news and events information about the John Molson School of Business.<br /><br />
+<h2><a title="JMSB News" href="http://johnmolson.concordia.ca/en/news-events/jmsb-news/143-jmsb-news">JMSB News</a></h2>
+<!-- slick rss http://joomla.daveslist.co.nz -->
+<div class="slick-rss-container" style="direction: ltr; text-align: left">
+<ul class="slick-rss-list" style="margin-left:0px;padding-left:0px;">
+
+        <p class="slick-rss-item">
+        <a href="http://johnmolson.concordia.ca/en/component/content/article/96-jmsb-news/2134-jmsb-takes-second-at-brock-university-accounting-conference" title="" class="slickTip" target="_self">JMSB Takes Second at Brock University Accounting Conference</a><div class="slick-rss-item-desc"></div></p>
+        <p class="slick-rss-item">
+        <a href="http://johnmolson.concordia.ca/en/component/content/article/96-jmsb-news/2133-from-passion-to-profit-a-big-league-success" title="" class="slickTip" target="_self">From Passion to Profit - A Big League Success</a><div class="slick-rss-item-desc"></div></p>
+        <p class="slick-rss-item">
+        <a href="http://johnmolson.concordia.ca/en/component/content/article/96-jmsb-news/2105-jmsb-wins-second-place-at-hr-symposium-case-competition" title="" class="slickTip" target="_self">JMSB wins second place at HR symposium case competition</a><div class="slick-rss-item-desc"></div></p>
+        <p class="slick-rss-item">
+        <a href="http://johnmolson.concordia.ca/en/component/content/article/96-jmsb-news/2096-annual-event-offers-graduates-students-a-rare-opportunity-to-receive-feedback-on-their-work" title="" class="slickTip" target="_self">Annual Event Offers Graduates Students A Rare Opportunity To Receive Feedback on Their Work</a><div class="slick-rss-item-desc"></div></p>
+        <p class="slick-rss-item">
+        <a href="http://johnmolson.concordia.ca/en/component/content/article/96-jmsb-news/2094-women-in-busines-club-kicks-off-new-year-of-mentorship" title="" class="slickTip" target="_self">Women in Busines Club kicks off new year of mentorship</a><div class="slick-rss-item-desc"></div></p></ul>
+</div>
+<!-- /slick-rss --> <br /><ul id="jlord-rss" class="mod_jlord_rss">		<li><a href="http://johnmolson.concordia.ca/en/component/jlord_rss/feed/2"><img src="http://johnmolson.concordia.ca/images/M_images/livemarks.png" alt="Subscribe to JMSB News" title="Subscribe to JMSB News" width="16" height="16" align="top" /></a>&nbsp;<a href="http://johnmolson.concordia.ca/en/component/jlord_rss/feed/2" title="Subscribe to JMSB News">Subscribe to JMSB News</a>
+			
+					</li>
+	</ul>
+
+
+<br /><br /><br type="_moz" />
+<h2><a title="JMSB in the Media" href="http://johnmolson.concordia.ca/en/news-events/media/jmsb-in-the-media">JMSB â¬ In the Media</a></h2>
+JMSB â¬ In the Media is a summary of all current JMSB media coverage<br /><br /></div>
+<div class="rightRailContainer">
+<h2 class="rightrail_heading">Upcoming Events<br /></h2>
+<ul class="eventslist"><li><a href="http://johnmolson.concordia.ca/en/news-events/events/calendar-of-events/view/736/2047?tmpl=component" class="jcal_modal" rel="{handler: 'iframe'}">Kimberly D. Elsbach presents Shared Values as a Basis for Organizational Identification</a>
+<br /><span class="eventsdate">December 02, 2011</span>
+</li>
+<li><a href="http://johnmolson.concordia.ca/en/news-events/events/calendar-of-events/view/770/2047?tmpl=component" class="jcal_modal" rel="{handler: 'iframe'}">MSc in Administration Online Information Session</a>
+<br /><span class="eventsdate">December 08, 2011</span>
+</li>
+<li><a href="http://johnmolson.concordia.ca/en/news-events/events/calendar-of-events/view/283/2047?tmpl=component" class="jcal_modal" rel="{handler: 'iframe'}">MSc in Administration Information Session</a>
+<br /><span class="eventsdate">January 09, 2012</span>
+</li>
+<li><a href="http://johnmolson.concordia.ca/en/news-events/events/calendar-of-events/view/715/2047?tmpl=component" class="jcal_modal" rel="{handler: 'iframe'}">Executive MBA Information Session</a>
+<br /><span class="eventsdate">January 10, 2012</span>
+</li>
+<li><a href="http://johnmolson.concordia.ca/en/news-events/events/calendar-of-events/view/752/2047?tmpl=component" class="jcal_modal" rel="{handler: 'iframe'}">Goodman Institute/Investment Management MBA Information Session</a>
+<br /><span class="eventsdate">January 17, 2012</span>
+</li>
+</ul>
+<br /> <img style="vertical-align: bottom; margin: -5px -3px;" title="Click to view the event calendar - John Molson School of Business" alt="Click to view the event calendar - John Molson School of Business" src="http://johnmolson.concordia.ca/images/stories/home/imgs/icon-daily_calendar-16x16.jpg" height="16" width="16" /> <a title="Events calendar - John Molson School of Business" href="http://johnmolson.concordia.ca/en/undergrad/bachelor-degrees/events-calendar/1870?view=calendar"><strong>See the events calendar</strong></a><br /><br />
+<h2 class="rightrail_heading">Media Relations</h2>
+Please contact External Affairs for additional assistance or to set up interviews with the relevant expert;
+Tel: (514) 848-2424 ext. 7598 Email: 
+ <script language='JavaScript' type='text/javascript'>
+ <!--
+ var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+ var path = 'hr' + 'ef' + '=';
+ var addy64658 = 'w&#101;b' + '&#64;';
+ addy64658 = addy64658 + 'jmsb' + '&#46;' + 'c&#111;nc&#111;rd&#105;&#97;' + '&#46;' + 'c&#97;';
+ document.write( '<a ' + path + '\'' + prefix + ':' + addy64658 + '\'>' );
+ document.write( addy64658 );
+ document.write( '<\/a>' );
+ //-->\n </script> <script language='JavaScript' type='text/javascript'>
+ <!--
+ document.write( '<span style=\'display: none;\'>' );
+ //-->
+ </script>This e-mail address is being protected from spambots. You need JavaScript enabled to view it
+ <script language='JavaScript' type='text/javascript'>
+ <!--
+ document.write( '</' );
+ document.write( 'span>' );
+ //-->
+ </script><br /><br /> For more communications and media resources, see <a href="../../pagesvoip.concordia.ca/" title="Concordia University Media Relations website" target="_blank">Concordia University's Media Relations website</a>.<br /><br />
+<h2 class="rightrail_heading">Concordia News &amp; Events</h2>
+<a href="../../pagesvoip.concordia.ca/" title="Concordia News & Events" target="_blank">Concordia News &amp; Events </a><br /><br /> <a href="../../pagesvoip.concordia.ca/" title="Concordia Journal" target="_blank">Concordia Journal </a><br /><br /> <a href="../../pageswww.concordia.ca/" title="Concordia University Magazine" target="_blank">Concordia University Magazine</a> <br /><br />
+<h2 style="text-align: left;" class="rightrail_heading">JOIN JMSB</h2>
+<a title="Join JMSBConcordia on Facebook!" href="http://facebook.com/JMSBConcordia"><img title="Join JMSBConcordia on Facebook!" alt="Join JMSBConcordia on Facebook!" src="http://johnmolson.concordia.ca/images/stories/icon-facebook.png" height="16" width="16" /></a><a title="Join JMSBConcordia on Twitter!" href="http://twitter.com/JMSBConcordia"><img title="Join JMSBConcordia on Twitter!" alt="Join JMSBConcordia on Twitter!" src="http://johnmolson.concordia.ca/images/stories/icon-twitter.png" height="16" width="16" /></a><a title="Join the John Molson School of Business on LinkedIn" href="http://www.linkedin.com/groups?about=&gid=3007842&trk=anet_ug_grppro"><img title="Join JMSB on LinkedIn" alt="Join JMSB on LinkedIn" src="http://johnmolson.concordia.ca/images/stories/icon-linkedin.png" height="16" width="16" /></a><a title="Check out the John Molson School of Business Flickr group!" href="http://www.flickr.com/photos/jmsbconcordia"><img title="Join JMSB on Flickr!" alt="Join JMSB on Flickr!" src="http://johnmolson.concordia.ca/images/stories/icon-flickr.png" height="16" width="16" /></a><a title="Join Concordia on Foursquare and check-in to the MB building!" href="https://foursquare.com/concordiamtl"><img title="Join Concordia on Foursquare and check-in to the MB building!" alt="Join Concordia on Foursquare and check-in to the MB building!" src="http://johnmolson.concordia.ca/images/stories/icon-foursquare.png" height="16" width="16" /></a> <a title="Check out JMSB's playlist on the Concordia Uni YouTube channel" href="http://www.youtube.com/concordiauni#p/c/FB4FAF8D6F8E4EF7"><img title="Check out JMSB's playlist on the Concordia Uni YouTube channel" alt="Check out JMSB's playlist on the Concordia Uni YouTube channel" src="http://johnmolson.concordia.ca/images/stories/icon-youtube.png" height="16" width="16" /></a><a title="Check out Concordia on iTunesU!" href="http://www.concordia.ca/about/contact/social/itunesu"><img title="Check out Concordia on iTunesU!" alt="Check out Concordia on iTunesU!" src="http://johnmolson.concordia.ca/images/stories/icon-itunesu.png" height="16" width="16" /></a><br type="_moz" /></div></div>
+
+<span class="article_separator">&nbsp;</span>
+
+				</div>
+				</div>
+					
+	
+	<div style="clear: both; height: 15px;">&nbsp;</div>
+
+		<div id="footer">
+				<div id="upperpart"><ul id="mainlevel"><li><a href="../../pageswww.concordia.ca/az/index.html" class="mainlevel">A-Z Index</a></li><li><a href="../../pageswww.concordia.ca/about/contact/index.html" class="mainlevel">Contact us</a></li><li><a href="../../pageswww.concordia.ca/about/contact/campus-map/_markers_maps_markers.php_referer_www.concordia.ca_api_maps.canvas_centermap_MB" class="mainlevel">Maps</a></li><li><a href="../../pageswww.concordia.ca/about/contact/campus-map/shuttle-bus-schedule/index.html" class="mainlevel">Shuttle</a></li><li><a href="https://www.myconcordia.ca/" class="mainlevel">MyConcordia</a></li><li><a href="http://johnmolson.concordia.ca/en/faculty-research/it-resources/jmsb-email-systems/jmsb-alumni-email-login" class="mainlevel">JMSB Alumni Email</a></li><li><a href="http://library.concordia.ca/" class="mainlevel">Libraries</a></li><li><a href="http://johnmolson.concordia.ca/component/xmap/?sitemap=1" class="mainlevel">Site Map</a></li><li><a href="../../pageswww.concordia.ca/index.html" class="mainlevel">Giving</a></li></ul></div>
+		<div id="bottomlogo"><a href="../../pageswww.concordia.ca/"><img alt="concordialogo_bottom.gif" src="http://nirvana.concordia.ca/april/images/stories/home/imgs/concordialogo_bottom.gif" title="concordialogo_bottom.gif" height="30" width="126" /></a></div>
+<div id="backtotop"><a href="http://nirvana.concordia.ca/april/#globaltools">Back to Top</a></div>
+<div id="contactinfo"><a href="../../pageswww.concordia.ca/" style="font-weight: bold;">Concordia University</a> - <a href="http://nirvana.concordia.ca/april/index.php" style="font-weight: bold;">John Molson School of Business</a><br /> <span style="font-size: x-small;"><strong>Civic address:</strong> 1450 Guy St., Montreal, Quebec, Canada H3H 0A1<br /><strong>Mailing address:</strong> 1455 De Maisonneuve Blvd. West, Montreal, Quebec, Canada H3G 1M8<br /> Tel. 514-848-2424<br /><a href="../../pageswww.concordia.ca/about/contact/index.html"> Contact Us</a> | <a href="http://nirvana.concordia.ca/april/index.php?option=com_content&view=article&id=495:about-this-site&catid=57:home&Itemid=467">About This Site</a> | <a href="http://nirvana.concordia.ca/april/index.php?option=com_content&view=article&id=502:feedback&catid=57:home&Itemid=474">Website feedback</a><br /> Copyright Â© 2011 John Molson School of Business | <a href="http://nirvana.concordia.ca/april/index.php?option=com_content&view=article&id=496:legal-notice&catid=57:home&Itemid=468">Legal Notice</a></span></div>
+<div id="bottompart"></div>
+	</div>
+
+</div>
+</div>
+</div>
+<script type="text/javascript">var addthis_config = {"data_track_clickback":true};</script>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4dc481a85646a144"></script>
+
+</body>
+</html>

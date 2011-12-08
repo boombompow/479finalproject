@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><HTML><HEAD><TITLE>Voice Services at Concordia - Service Charge Rates</TITLE><META http-equiv="Content-Type" content="text/html; charset=iso-8859-1"><link rel="stylesheet" type="text/css" href="http://voip.concordia.ca/includes/css/voip.css"><script src="http://voip.concordia.ca/scripts/dom.js" type="text/javascript" language="Javascript" charset="iso-8859-1"></script><style type="text/css" media="all">@import "/includes/css/sidemenu.css";</style><style type="text/css"><!-- div#sidemenu ul#navmenu li#index-menu  { 	display: list-item; }ul#navmenu li#index-menu li { 	display: list-item; }ul#navmenu li#index-menu li ul#billing {	display: list-item; }// .style1 {font-size: 9px}.style1 {font-size: 9px}--></style></HEAD><BODY onLoad="init()"><TABLE bgcolor="#2D4277" width="100%" border="0" cellspacing="0" cellpadding="0">  <TR>     <TD width="310" valign="top" background="/images/piece2.gif"><img src="http://voip.concordia.ca/images/voice_serv_revsm.jpg" alt="voiceservices" width="310" height="46"></TD>    <TD width="35" background="/images/piece2.gif"><img src="http://voip.concordia.ca/images/spacer.gif" alt="spacer" width="35" height="8"></TD>    <TD width="90" background="/images/piece2.gif"><img src="http://voip.concordia.ca/images/spacer.gif" alt="spacer" width="90" height="9"></TD>    <TD width="80" background="/images/piece2.gif"><img src="http://voip.concordia.ca/images/spacer.gif" alt="spacer" width="80" height="8"></TD>        <TD width="140" valign="top" background="/images/piece2.gif"><img src="http://voip.concordia.ca/images/concordia_new.gif" alt="spacer" width="140" height="46" border="0" usemap="#Map"></TD>    <TD width="100%" valign="top" background="/images/piece2.gif">&nbsp;</TD>  </TR>  
+<TR>     <TD width="268" valign="top" bgcolor="#000000"><img src="http://voip.concordia.ca/images/level2photo2.gif" alt='""' width="268" height="29"></TD>    <TD align="right" valign="middle" bgcolor="#000000"><a class="white" href="../../index.html"><img src="http://voip.concordia.ca/images/spacer.gif" alt="spacer" width="5" height="1" border="0">Home</A></TD>    <TD align="center" valign="middle" bgcolor="#000000"><a class="white" href="../../index.html"><img src="http://voip.concordia.ca/images/spacer.gif" alt="spacer" width="5" height="1" border="0">       </A><a class="white" href="../../"><img src="http://voip.concordia.ca/images/spacer.gif" alt="spacer" width="20" height="1" border="0">News</A></TD>     <TD align="center" valign="middle" bgcolor="#000000"><a class="white" href="../../voicemail/messaging/faqs.shtml">FAQs</A></TD>         <TD colspan="2" bgcolor="#000000"></TD>  </TR></TABLE><map name="Map">  <area shape="rect" coords="6,4,133,41" href="../../../pageswww.concordia.ca/index.html" alt="concordia" target="blank"></map><TABLE border="0" cellspacing="0" cellpadding="0">  <TR>     <TD width="155"  valign="top" bgcolor="#FFFFFF">       <div id="sidemenu">
+<ul id="navmenu">
+  <li id="index-menu">&nbsp;
+    <ul>
+      <li><a href="http://voip.concordia.ca/billing/service_charge/voip.shtml#" onclick="showSearch('vm','index-menu'); return false;">Telephones
+&amp; Features</a>
+        <ul id="vm" class="sub">
+          <li><a href="../../voicemail/accessories/index.html">Telephone
+System Features</a></li>
+          <li><a href="../../voicemail/otherservices/sets.shtml">Telephone
+Sets</a></li>
+          <li><a href="../../voicemail/otherservices/headsets.shtml">Telephone
+Accessories</a></li>
+          <li><a href="../../voicemail/otherservices/configure.shtml">Configure
+Phone from Portal</a></li>
+          <li><a href="../../help/whotocontact/index2.shtml">Service
+Requests</a></li>
+          <li><a href="../../voicemail/otherservices/equipment.shtml">To
+Purchase Equipment</a></li>
+        </ul>
+      </li>
+      <li><a href="http://voip.concordia.ca/billing/service_charge/voip.shtml#" onclick="showSearch('unify','index-menu'); return false;">Unity
+Connection</a>
+        <ul id="unify" class="sub">
+          <li><a href="../../voicemail/messaging/setup.shtml">Setup
+Voice Mailbox</a></li>
+          <li><a href="../../voicemail/messaging/accessing.shtml">Accessing
+Voice Mail</a></li>
+          <li><a href="../../help/refmaterials/index2.shtml">User
+Guides</a></li>
+          <li><a href="../../voicemail/messaging/sample.shtml">Sample
+Greetings</a></li>
+          <li><a href="../../voicemail/messaging/managing.shtml">Managing
+your Mailbox</a></li>
+          <li><a href="../../voicemail/messaging/faqs.shtml">FAQ's</a></li>
+        </ul>
+      </li>
+      <li><a href="http://voip.concordia.ca/billing/service_charge/voip.shtml#" onclick="showSearch('directory','index-menu'); return false;">Directory
+Services</a>
+        <ul id="directory" class="sub">
+          <li><a href="../../directory/directories/index.html">Directories</a></li>
+          <li><a href="../../directory/operator/index.html">Operators</a></li>
+          <li><a href="../../directory/form/update.shtml">Directory
+Update Form </a></li>
+        </ul>
+      </li>
+      <li><a href="http://voip.concordia.ca/billing/service_charge/voip.shtml#" onclick="showSearch('howto','index-menu'); return false;">Dial
+Calls/Long Distance</a>
+        <ul id="howto" class="sub">
+          <li><a href="http://www.kropla.com/dialcode.htm" target="_blank">Area &amp; Country Codes</a></li>
+          <li><a href="../../how_to/dial_calls/index.html">Dialing
+Calls</a></li>
+          <li><a href="../../../pageswwp.greenwichmeantime.com/index.html" target="_blank">International Time Zones</a></li>
+          <li><a href="../../how_to/access/index.html">Long
+Distance Access</a></li>
+          <li><a href="../../how_to/rates/index.html">Long
+Distance Rates</a></li>
+        </ul>
+      </li>
+      <li><a href="http://voip.concordia.ca/billing/service_charge/voip.shtml#" onclick="showSearch('conferencecalls','index-menu'); return false;">Conference
+Calls</a>
+        <ul id="conferencecalls" class="sub">
+          <li><a href="../../conference/conference_calls/index.html">Conference
+Calls</a></li>
+          <li><a href="../../conference/equipment/">Rent
+Conference Call Equipment</a></li>
+        </ul>
+      </li>
+      <li><a href="http://voip.concordia.ca/billing/service_charge/voip.shtml#" onclick="showSearch('billing','index-menu'); return false;">Service
+Package &amp; Rates</a>
+        <ul id="billing" class="sub">
+          <li><a href="../billedservices/index.html">Service
+Package</a></li>
+          <li><a href="../inquiries/index.html">Billing
+Inquiries Form</a></li>
+          <li><a href="http://voip.concordia.ca/billing/longdistance/">Long
+Distance Rates</a></li>
+          <li><a href="index.html">Service
+Charge Rates</a></li>
+        </ul>
+      </li>
+      <li><a href="http://voip.concordia.ca/billing/license/licensing.shtml">Licensing</a></li>
+      <li><a href="../../help/refmaterials/index2.shtml">User
+Guides &amp; Tutorials</a></li>
+      <li><a href="../../help/whotocontact/index2.shtml">Who to
+contact for help?</a></li>
+      <br>
+      <br>
+    </ul>
+  </li>
+</ul>
+</div>
+    </TD>    <TD width="1" bgcolor="#999999"><img src="http://voip.concordia.ca/images/spacer.gif" width="1" height="1"></TD>    <TD valign="top" width="23" bgcolor="#FFFFFF"><img src="http://voip.concordia.ca/images/spacer.gif" width="23" height="8"></TD>    <TD width="1" valign="top" bgcolor="#ffffff"><img src="http://voip.concordia.ca/images/spacer.gif" width="1" height="1"></TD>    <TD width="100%" align="left" valign="top" bgcolor="#FFFFFF"> <P class="newstext">&nbsp;</P>      <TABLE width="100%" border="0" cellspacing="0" cellpadding="0">        <TR>           <TD width="35" height="22" bgcolor="#FFFFFF"><img src="http://voip.concordia.ca/images/spacer.gif" width="38" height="8"></TD>          <TD class="contentheader"> Service Charge Rates &nbsp;-&nbsp; VoIP </TD>        </TR>      </TABLE>      <div id="container">         <p style="margin-top:0;margin-bottom:0;"><strong>To Add a New IP Service</strong> <br>          Install single-line telephone or fax line <span class="style1"><ins>1</ins></span> (port activation, configuration and deployment): $50<br>          Install multi-line telephone1 (port activation, configuration and deployment): $60<br>          Install add-On Module (configuration and deployment): $35<br>          Install Voice Mail: $25<br>          Menu system planning and installation: $25/box<br>          Long Distance Authorization Code (programming): $25<br>          Activate temporary VoIP jack (48 hour maximum): $25<br>          Activate temporary VoIP jack (more than 48 hours less than 1 month): $55          <br>        </p>        <p style="margin-bottom: 0;"><strong>To Add New Features or Software Changes</strong><br>          Feature changes for 1 to 5 telephone lines: $25<br>          Add second line on a multi-line set (after installation): $25.00 <span class="style1"><ins>2</ins></span>        <br>  <br>  <strong>To Change Telephone Set Types (Upgrade) </strong></p>        <p style="margin-top:0;">Single-line set:  $25<br>        Multi-line set:    $35</p>        <p><strong>To Move a Phone or Fax </strong><br>          Telephone or fax move:   $25        <br>  <br>  <strong>To Disconnect or Removal a Service </strong><br>  No charge for removal of a VoIP phone line or voice mail</p>        <p><strong>VoIP MONTHLY RENTAL RATES </strong>*<br>          Phone, analogue phone or device (fax, interact, etc): $30.00<br>          Second phone same extension: $30.00<br>          Second line on multi-line set $5.00<br>          Voice Mail: $7<br>          Menu System: $10 per box to a maximum of 150$<br>          Conference Unit 7935: $25/day<br>          7940: $20/day</p>        <p style="margin-top:0;margin-bottom:0;"><br>          <span class="style1"><ins>1</ins></span> Telephone equipment may be purchased through the Concordia Computer Store.  For more information on ordering telephone equipment, please consult <a href="../../voicemail/otherservices/equipment.shtml">Purchase Equipment</a>.<br>          <span class="style1"><ins>2</ins></span> Monthly rates are charged for services not covered by the Telephone Policy.  For more information see <a href="../billedservices/index.html">Service Package</a> </p>        <p style="margin-bottom: 0;">&nbsp;</p>      </div>	  	  	  	              <p>&nbsp;</p></TD>    <TD class="col" width="1" valign="top"></TD>    <TD width="27" valign="top" bgcolor="#2d4277"></TD>    <TD class="photocredit" width="26" valign="top" bgcolor="#2d4277"><img src="http://voip.concordia.ca/images/spacer.gif" width="120" height="8">	<TABLE border="0" cellpadding="0" cellspacing="0">  <TR>     <TD width="1" valign="top" bgcolor="#FFFFFF"></TD>    </TR></TABLE>       <BR> <img src="http://voip.concordia.ca/images/spacer.gif" width="26" height="8"><BR> <BR>     </TD>    <TD width="158" valign="top" bgcolor="#000000"><img src="http://voip.concordia.ca/images/spacer.gif" width="50" height="1"></TD>  </TR>  <TR>     <TD class="copyright" colspan="5"  valign="top" bgcolor="#E1E1E1"> <img src="http://voip.concordia.ca/images/spacer.gif" width="10" height="8" alt="spacer">&copy; Copyright 
+<script type="text/javascript" language="JavaScript">
+<!--
+var curdate = new Date()
+var year = (curdate.getYear() + 1900);
+document.write(year);
+// -->
+</script>, <a class="copyrightlink" href="../../../pageswww.concordia.ca/index.html">Concordia University</A></TD>    <TD valign="top" bgcolor="#E1E1E1">&nbsp;</TD>    <TD valign="top" bgcolor="#22335E">&nbsp;</TD>    <TD valign="top" bgcolor="#22335E">&nbsp;</TD>    <TD valign="top" bgcolor="#000000">&nbsp;</TD>  </TR></TABLE></BODY></HTML>

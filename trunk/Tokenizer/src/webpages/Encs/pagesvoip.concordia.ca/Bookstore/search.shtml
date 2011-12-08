@@ -1,0 +1,500 @@
+<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+	<link rel="SHORTCUT ICON" href="http://web2.concordia.ca/Bookstore/favicon.ico" />
+	<title>Concordia Bookstore - Search</title>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+	<meta name="Keywords" content="concordia university campus bookstore academic textbooks office supplies sir george williams loyola montreal quebec canada student booklist faculty staff" />
+	<meta name="description" content="You can find the books you're looking for through a variety of search options: Student Booklist, Course Booklist, and a Book Search on Title/Author/ISBN."/>
+	<script src="http://web2.concordia.ca/Bookstore/style/main.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="http://web2.concordia.ca/Bookstore/style/default_gray.css" type="text/css" />
+	<link rel="stylesheet" href="http://web2.concordia.ca/Bookstore/style/toptenlists.css" type="text/css" />
+ 	<link rel="stylesheet" href="http://web2.concordia.ca/Bookstore/style/search.css" type="text/css" />
+
+<!--[if lte IE 7]>
+	<link rel="stylesheet" href="style/ie.css" type="text/css" />
+<![endif]-->
+
+	 <link rel="alternate" type="application/rss+xml" title="Bookstore Top Ten General Books" href="http://bkstore.concordia.ca/rss/TopTenGeneral.aspx" />
+	 <link rel="alternate" type="application/rss+xml" title="Bookstore Latest Additions" href="http://bkstore.concordia.ca/rss/NewTrade.aspx" />
+	 <link rel="alternate" type="application/rss+xml" title="Bookstore Upcoming Titles" href="http://bkstore.concordia.ca/rss/UpcomingTrade.aspx" />
+	 <link rel="alternate" type="application/rss+xml" title="Bookstore Promotions and Sales" href="http://bkstore.concordia.ca/rss/rss_promos.asp" />
+
+	 <link title="Concordia Bookstore Search" rel="search" type="application/opensearchdescription+xml" href="http://web2.concordia.ca/Bookstore/plugins/ConcordiaBookstore.xml" />
+	 <link title="Concordia Customized Student Booklist" rel="search" type="application/opensearchdescription+xml" href="http://web2.concordia.ca/Bookstore/plugins/ConcordiaStudentBooklist.xml" />
+
+
+	<script type="text/javascript" src="http://web2.concordia.ca/Bookstore/style/cfform.js"></script>
+	<script type="text/javascript">
+	<!--
+
+		function  _CF_checkCFForm_1(_CF_this)
+		{
+			if  (!_CF_hasValue(_CF_this.ISBN, "TEXT" ))
+			{
+				if  (!_CF_onError(_CF_this, _CF_this.ISBN, _CF_this.ISBN.value, "You must enter an ISBN."))
+				{
+					return false;
+				}
+			}
+
+			return true;
+		}
+
+
+	//-->
+	</script>
+
+</head>
+
+
+<body>
+
+
+<!-- Primary Container -->
+<div id="main">
+
+
+	<!-- Header Block -->
+	<div id="header">
+	 	<!--[if lte IE 7]>
+			<style>
+					#searchButton {
+						position: relative;
+						top: 1px;
+					}
+					#keyword {
+						height: 20px;
+					}
+
+			</style>
+		<![endif]-->
+
+	   	<form method="get" id="searchForm" name="searchForm" action="http://bkstore.concordia.ca/services/search.asp">
+			<input type="text" size="35" maxlength="40" value="" title="Bookstore Search" name="KEYWORD" id="KEYWORD" class="input" style="border: 1px solid #ffeeee; padding: 2px;"/><input type="image" name="submit" src="img/button.search.gif" title="Search" alt="Search" align="top" id="searchButton" />&nbsp;<br/>
+			<input type="hidden" value="3" name="CAT" id="CAT" />
+			<input type="hidden" value="Y" name="IMG" id="IMG" />
+		</form>
+
+		<a href="index.html"><img src="http://web2.concordia.ca/Bookstore/img/logo.bookstore.jpg" alt="Bookstore Logo" title="Concordia University Bookstore" height="90" width="158" border="0" usemap="#LOGO" /></a><br/>
+
+
+	</div>
+
+
+
+	<!-- Navigation: Top Tabs, and sub-tabs -->
+	<table id="maintabs"><tr>
+		<td class="blankmaintableft">&nbsp;</td>
+		<td class="maintab"><a href="index.html">Home</a></td>
+		<td class="maintab"><a href="textbooks.shtml">Textbooks</a></td>
+		<td class="maintab"><a href="usedbooks.shtml">Used Books</a></td>
+		<td class="maintab"><a href="generalbooks.jsp">General Books</a></td>
+		<td class="maintab"><a href="merchandise.shtml">Merchandise</a></td>
+		<td class="maintab"><a href="faculty.shtml">Faculty &amp; Staff</a></td>
+		<td class="maintab"><a href="promotions.shtml">Promotions</a></td>
+		<td class="maintab" id="maincurrent"><a href="search.shtml">Search</a></td>
+		<td class="maintab"><a href="../../pageswww.concordia.ca/">Computer Store</a></td>
+		<td class="blankmaintabright">&nbsp;</td>		
+	</tr></table>
+
+	<table id="subtabs"><tr>
+		<td class="blanksubtab">&nbsp;</td>
+	</tr></table>
+
+
+
+	<!-- Multi-column Body area -->
+	<table id="threecolumns" width="100%" cellpadding="0" cellspacing="0" style="clear:both;">
+	<tr>
+		<td valign="top" id="left">
+			<ul>
+				<li class="quicklink"><a href="http://web2.concordia.ca/Bookstore/textbooks.booklist.shtml">Student Booklist</a></li>
+				<li class="quicklink"><a href="textbooks.shtml">Textbooks</a></li>
+				<li class="quicklink"><a href="usedbooks.shtml">Used Books</a></li>
+				<li class="quicklink"><a href="generalbooks.jsp">General Books</a></li>
+				<li class="quicklink"><a href="merchandise.shtml">Merchandise</a></li>
+				<li class="quicklink" style="margin-top:15px;"><a href="http://web2.concordia.ca/Bookstore/home.buyonline.shtml">Buy Online</a></li>
+				<li class="quicklink"><a href="home.hours.html">Store Hours</a></li>
+				<li class="quicklink"><a href="http://web2.concordia.ca/Bookstore/home.contact.html">Contact Us</a></li>
+			</ul>
+
+			<br/><br/>
+			<p align="center">
+				<a href="http://www.concordia.ca/?refererID=bookstore"><img src="http://web2.concordia.ca/Bookstore/img/concordia.bw.gif" alt="Concordia Home" title="Concordia University Home" border="0" width="125" height="31" /></a>
+			</p>
+
+		</td>
+
+		<td valign="top" id="middle">
+		<!-- BEGIN BODY TEXT -->
+
+		<a href="http://bkstore.concordia.ca/services/search.asp?sale=Y"><img src="http://web2.concordia.ca/Bookstore/pics/button.onsale.gif" alt="On Sale!" title="Show me all on-sale products!" border="0" align="right" width="112" height="96" /></a>
+
+		<table border=0 align=center width="70%" cellpadding=5>
+		<tr>
+			<td valign=top>
+				<img src="http://web2.concordia.ca/Bookstore/pics/logos.search.jpg" alt="Search" border="0" align="left" width="100" height="135" />&nbsp;
+			</td>
+			<td valign=top>
+				<h2 class='title' align=center>Search the Bookstore &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h2>
+
+				<br/>
+				<p class='specialstext2'>You can find the books you're looking for through a
+				 variety of search options: Student Booklist, Course Booklist, and a
+				 Book Search on Title/Author/ISBN. You can also search our online
+				 Merchandise Catalogues (clothing &amp; gifts).</p>
+				<p>Or <a href="http://web2.concordia.ca/Bookstore/search.google.html">search our site with google</a></p>
+			</td>
+		</tr>
+		</table>
+
+
+		 <table width="98%" border=0 cellpadding=5 cellspacing=1 align=center>
+		 <tr>
+		   <td valign=top width="50%">
+
+		  <div id="prodsearch">
+			<p class='specialstext2'>
+			 <span style="color: #664400;">Product Search</span><br/><br/>
+
+			  Search through all of our Books and our Merchandise Catalogues by keyword.
+			</p>
+
+			<form method="get" id="form1" name="form1" style="position: relative; top: 5px; font-size: 8pt;" action="http://bkstore.concordia.ca/services/search.asp">
+			  <p align=center>
+
+				<input type="text" size="35" maxlength="40" value="" name="KEYWORD" id="KEYWORD2" class='input' title="Bookstore Product Search"/>
+				<input type="hidden" value=3 name="CAT" />
+				<input type="hidden" value="Y" name="IMG" />
+				<input type="submit" name="submit" value="Search" class='input submit' title='Search the Bookstore'/>&nbsp;<br/>
+				<span class="smallprint" style="color: #888855;">
+				<input type="radio" value="Y" name="ALL" id="allYes" checked /> <label for="allYes">Match ALL Keywords</label> &nbsp; &nbsp;
+				<input type="radio" value="N" name="ALL" id="allNo" /> <label for="allNo">Match ANY Keyword</label>
+
+				</span>
+			  </p>
+			</form>
+
+				<p>Enter the book's <i class='red'>Title</i>, the <i class='red'>Author's last name</i>, or the <i class='red'>ISBN</i>,
+				   or a merchandise keyword (ie. "sweatshirt") that you want to search for in this space.</p>
+
+				<p><img src="http://web2.concordia.ca/Bookstore/plugins/rss.gif" align="top" width="16" height="16" /> The results from the Product Search can be saved as an RSS feed.
+				   Use with your favourite feed reader to keep track of books of interest to you.</p>
+
+			</div>
+				<br/>
+				<br/>
+
+
+		  <div id="booklistform">
+
+			  <p class='specialstext2'>
+
+				 <span style="color: #000055;">Customized Student Booklist</span><br/><br/>
+
+				 Enter in your Student ID to list the books which have been requested for your registered courses.
+			  </p>
+
+			  <form name="BOOKLIST" id="BOOKLIST" method="post" action="http://bkstore.concordia.ca/services/booklist.asp">
+			   <p align="center">
+				Student ID:
+				<input type="text" size="8" maxlength="7" value="" name="SID" id="SID" title="Enter your Student ID to get your Booklist"/>
+				<input type="submit" name='submit' class='submit' value='List Books' title='Generate your Booklist'/>&nbsp; &nbsp;<br/><br/>
+
+				<span style="color: gray; font-size: 9pt;"><input type="checkbox" name="IMG" value="Y" CHECKED></input> Check to show book covers (if available).</span>
+			   </p>
+
+			   <p class='smallprint'>Note that Continuing Education &amp; other non-credit classes are not listed here. Not applicable to QAA or Marianopolis students.</p>
+			   <p class='smallprint' style="color: darkred;"><a href="http://bkstore.concordia.ca/services/booklist_subscribe.asp"><img src="http://web2.concordia.ca/Bookstore/pics/email.gif" border="0" align="left" title="Sign up for Emailed Booklists" width="20" height="25" /></a>Do you want to receive your <b>Student Booklist by email</b>
+				  at the beginning of each semester? <a href="http://bkstore.concordia.ca/services/booklist_subscribe.asp"><b>Subscribe here</b></a>.</p>
+
+			  </form>
+
+		  </div>
+
+			<br/>
+			<br/>
+
+			<div class="notice">
+				<p><a href="http://web2.concordia.ca/Bookstore/promotions.geeky.html" style="z-index:1000;"><img src="http://web2.concordia.ca/Bookstore/plugins/firefox.gif" align="left" border="0" title="Firefox Search Extensions" style="padding: 5px; z-index:1000;" width="25" height="25" /></a>
+			      Do you use Internet Explorer 7/8 or Firefox as your web browser?</p>
+				<p>You can add Concordia Bookstore searches to your browser as
+			      Search Extensions.</p>
+
+				<p> Get them <a href="http://web2.concordia.ca/Bookstore/promotions.geeky.html">here</a>.</p>
+
+				<p>You can also subscribe to <a href="http://web2.concordia.ca/Bookstore/promotions.geeky.html">RSS Webfeeds</a> of Bookstore bestsellers,
+				upcoming titles, or newly received books.</p>
+				&nbsp;
+			</div>
+
+		<!--
+				<br/>
+
+				<hr width="67%" align=center>
+
+				<br/>
+
+			<form name="BOOKSEARCH" id="BOOKSEARCH" method="GET" action="http://bkstore.concordia.ca/services/booksearch.asp">
+				<table border=0 align=center>
+				 <tr><td class="specialstext2" colspan=2>
+					   <span style="color: #770000;">Book Search</span><br/>
+					Enter the book's <i class='red'>Title</i>, the <i class='red'>Author's last name</i>, or the <i class='red'>ISBN</i>
+					you want to search for in this space.<br/><br/>
+					 </td>
+				 </tr>
+				<tr><td style="font-size:10pt;" align=right>Find : </td><td style="font-size:10pt;">
+					<input type="text" size="30" maxlength="80" value="" name="KEYWORD" id="KEYWORD"></tr>
+				<tr><td class='text' style="font-size:10pt;" align=right>Search in : </td><td class='text' style="font-size:9pt;">
+					<input type="radio" name="CAT" value="1"> Textbooks &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+					<input type="radio" name="CAT" value="3" CHECKED> Both <br/>
+					<input type="radio" name="CAT" value="2" > General Books (trade & reference)
+					</td>
+				</tr>
+				<tr><td style="font-size:10pt;" align=right>
+					   <input type="checkbox" name="IMG" value="Y" CHECKED></input>
+					</td>
+					<td style="font-size:10pt;">
+					   <span class='text' style="color: gray; font-size: 9pt;">Check to show book covers (if available).</span>
+
+					</td>
+				<tr>
+					<td align=right colspan=2>
+						<input type="submit" name='submit' value='List Books'> &nbsp; &nbsp;
+					</td>
+				</tr>
+				 <tr><td colspan=2 class='smallprint'><br/>
+						 Note that this search will only return items
+						 that are currently in stock or on order.</td></tr>
+				</table>
+			</form>
+
+				<br/>
+
+				<hr width="67%" align=center>
+
+				<br/>
+
+			 <form name="CATALOG" id="CATALOG" method="GET" action="http://bkstore.concordia.ca/services/cataloguesearch.asp">
+			 <table border=0 align=center>
+			 <tr><td class="specialstext2" colspan=2>
+			 <span style="color: #770000;">Merchandise Catalogue Search</span><br/>
+				 Find items in our Merchandise Catalogues with this Keyword Search:</td>
+			 </tr>
+			 <tr><td style="font-size:10pt;">
+				<input type="text" size="40" maxlength="45" value="" name="SEARCH" id="SEARCH">
+				<input type="submit" name='submit' value='Search'></tr>
+			 </td></tr>
+			 <tr><td>
+				<span class='text' style="color: gray; font-size: 9pt;"><input type="radio" name="ALL" value="Y" CHECKED></input> Match ALL Keywords &nbsp; &nbsp; <input type="radio" name="ALL" value="N"></input> Match ANY Keyword</span>
+			 </td></tr>
+				 <tr><td colspan=2 class='smallprint'><br/>
+						 Note that this search will only return Clothing &amp; Memorabilia
+						 items that are available through the <a href='http://bookstore.concordia.ca/cubkstr/merch_main.asp'>online store</a>.
+						 A wider selection is available at the
+						 Sir George Williams Bookstore.</td></tr>
+			 </table>
+
+			 </form>
+		-->
+
+		   </td>
+		   <td valign=top width="50%">
+
+			<div id="courseform">
+				 <p class='specialstext2'>
+					<span style="color: #004400;">Course Booklist</span><br/><br/>
+
+					Enter a course code below to see what textbooks have been requested for it.
+				  </p>
+
+				<form name="COURSELIST" id="COURSELIST" method="get" action="http://bkstore.concordia.ca/services/coursebook.asp">
+
+				  <p class='smallprint'>Enter a Department, Course Number, and Section <br/>(ie. SPAN-200 / 51 or DESC-381 / A) to view course materials:</p>
+
+				  <p align=center>
+				  <input type="text" size="6" maxlength="14" value="" name="DEP" id="DEP" title="Department"/> -
+				  <input type="text" size="7" maxlength="15" value="" name="CRS" id="CRS" title="Course"/> /
+				  <input type="text" size="3" maxlength="5" value="" name="SEC" id="SEC" title="Section"/>
+				  &nbsp; <input type="submit" name='submit' class='submit' value='List Books' title='List books assigned to these courses'/><br/>
+
+				  <i class='smallprint'>DEPT &nbsp; - &nbsp; COURSE # &nbsp; / &nbsp; SECTION</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/><br/>
+
+				  <span class='text' style="color: gray; font-size: 9pt;"><input type="checkbox" name="IMG" value="Y" CHECKED></input> Check to show book covers (if available).</span>
+
+				  </p>
+
+				  <ul class='smallprint'>
+					 <li>Leaving the Section blank will return all sections for the course (ie. all sections for ECON-201)</li>
+					 <li>Using a partial Course Code will return all partial matches (ie. MATH-2 will return all 200-level Math courses)</li>
+				  <!--   <li>Leaving the Course Code blank will return all courses for the Department (ie. all ARTH courses)</li> -->
+					 <li style="color: #770022;">For Continuing Education, use "CONT" as the department</li>
+
+					 <li style="color: #220088;">For Marianopolis College, you may use the 3-letter department codes, and the 3-character Course/Prof Code as the Course #</li>
+					 <li style="color: #AA0077;">For Queen of Angels Academy, use "QAA" as the department, and "SEC ONE" / "SEC TWO" / etc for the Course #, and leave the Section blank</li>
+					 <li style="color: #7700aa;">For North Star Academy, use "NSA" as the department, and "SEC ONE" / "SEC TWO" / etc for the Course #, and leave the Section blank</li>
+				  </ul>
+				  <p class='smallprint'>Note that courses for which we have no recommended text on
+					 file will not be listed.</p>
+				</form>
+
+			</div>
+				<br/>
+
+				<br/>
+
+			<div id="icbbform">
+				<p class='specialstext2'>
+					<span style="color: #660022;">Used Book Price Check</span><br/><br/>
+
+					This will search a database of several Canadian Campus Bookstores (including Concordia)
+					for the best price currently being offered for your used textbook.
+				</p>
+
+					<br/>
+
+				<form name="CFForm_1" action="http://icbb.sellmytextbooks.org/members/18/index.cfm?index=REVIEW" method="post" onsubmit="return _CF_checkCFForm_1(this)" enctype="application/x-www-form-urlencoded">
+					<table width="96%" border="0" align=center>
+					<tr>
+						<td align="right" class='text' style="font-size:10pt;" >Used Book ISBN Number :</td>
+						<td align=center><input type="text" name="ISBN" maxlength="15" value="" title="Enter ISBN for Buyback Price"/></td>
+					</tr>
+					<tr>
+						<td colspan=2 align="right" class='text' style="color: gray; font-size: 9pt;">(Please omit dashes and spaces)</td>
+
+					</tr>
+					<tr>
+						<td colspan="2" align="right"><br/><input type="submit" name="Submit" class='submit' value="Get Current Price!" title='Look up the current Buyback price'/></td>
+					</tr>
+					</table>
+				</form>
+				&nbsp;
+			</div>
+
+		   </td>
+
+		 </tr>
+
+
+		<tr>
+			<td colspan=2 align=center>
+				<br/>
+
+				<!-- Google CSE Search Box Begins  -->
+				  <form id="searchbox_015596505661999943327:cghcrqqoklc" action="http://www.google.com/search">
+					<input type="hidden" name="cx" value="015596505661999943327:cghcrqqoklc" />
+					<input type="hidden" name="cof" value="FORID:0" />
+
+					<input name="q" type="text" size="40" />
+					<input type="submit" name="sa" value="Search" />
+					<img src="http://www.google.com/coop/images/google_custom_search_smnar.gif" alt="Google Custom Search" />
+				  </form>
+				<!-- Google CSE Search Box Ends -->
+
+
+				<!--
+				<form action="http://www.google.com/u/concordiau" method="GET" >
+
+					<input type=text size=35 maxlength=50 name="q" user> &nbsp;
+					<input type=submit name="btnG" value="Site Search"> &nbsp;
+					<b class='notes'>Powered by <a href="http://www.google.ca"><img src="pics/poweredby_google.gif" title="Powered by Google" border=0 align=top></a></b>
+
+					<input type=hidden name="num" value="15">
+					<input type=hidden name="hl" value="en">
+					<input type=hidden name="ie" value="ISO-8859-1">
+					<input type=hidden name="as_sitesearch" value="web2.concordia.ca/bookstore">
+
+				</form>
+				-->
+
+			</td>
+
+		</tr>
+
+		 </table>
+
+
+
+
+		<!-- END BODY TEXT -->
+
+
+			<a name="address"></a><br/>
+
+			<p align="center">
+				<br/>
+				<a href="http://web2.concordia.ca/Bookstore/home.contact.html"><img src="http://web2.concordia.ca/Bookstore/img/text.address.gif" alt="SGW Campus: 1400 de Maisonneuve Blvd West, Library Building, Montreal, Quebec H3G 1M6; Loyola Campus: 7141 Sherbrooke St. West, Communications and Journalism Building, Montreal, Quebec H4B 1R6" width="389" height="120" border="0" /></a><br/>
+			</p>
+
+
+			<div class="footerlinks">
+				<a href="index.html">Home</a> |
+				<a href="textbooks.shtml">Textbooks</a> |
+				<a href="usedbooks.shtml">Used Books</a> |
+				<a href="generalbooks.jsp">General Books</a> |
+				<a href="merchandise.shtml">Merchandise</a> |
+				<a href="faculty.shtml">Faculty &amp; Staff</a> |
+				<a href="promotions.shtml">Promotions</a> |
+				<a href="search.shtml">Search</a>
+			</div>
+			<div style="text-align: right; font-size: 9pt; padding-top: 5px;">
+				Questions? Suggestions? <a href="http://web2.concordia.ca/Bookstore/home.contact.html">Contact Us</a>.
+			</div>
+
+
+		</td><!-- End "middle" -->
+
+	</tr>
+	</table><!-- End Columns -->
+
+
+</div>
+
+
+
+<!-- Footer -->
+<div id="footer">
+	<a href="http://www.concordia.ca/?refererID=bookstore"><img src="http://web2.concordia.ca/Bookstore/img/logo.conu.watermark.jpg" alt="Concordia University" border="0" align="right" /></a>
+	Copyright &copy; 2011 Concordia University
+</div>
+
+<br style="clear:both;"/>
+<br/>
+
+
+
+
+
+<map name="LOGO">
+	<area href="http://web2.concordia.ca/Bookstore" shape="rect" coords="1,1,158,70" alt="Bookstore Home" title="Concordia Bookstore Home" />
+	<area href="../../pageswww.concordia.ca/index.html" shape="rect" coords="14,74,142,90" alt="Concordia Home" title="Concordia University Home" />
+</map>
+
+
+
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-8958207-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+
+
+</body>
+</html>

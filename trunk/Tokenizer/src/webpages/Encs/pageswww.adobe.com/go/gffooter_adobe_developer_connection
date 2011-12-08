@@ -1,0 +1,2121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="EN" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Language" content="en" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta http-equiv="Cache-Control" content="public" />
+    <title>Adobe Developer Connection</title><meta name="robots" content="noodp" />
+    <meta name="keywords" content="housead_edge,housead_fpmobile_sitesubmit,housead_RSS_feeds,housead_follow_ADC_on_twitter,housead_sony_contest,housead_write_and_give" />
+<meta name="description" content="Learn to build expressive applications and content for mobile, web, and the desktop using Adobe developer technologies." /><meta name="creationDate" content="2011-11-29 @ 13:55:40" />
+    <meta name="lastModifiedDate" content="2011-11-29 @ 13:55:40" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="area" content="devnet" /><link rel="icon" href="http://wwwimages.adobe.com/www.adobe.com/include/img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="http://wwwimages.adobe.com/www.adobe.com/include/img/favicon.ico" type="image/x-icon" />
+	<script type="text/javascript">
+	function createNs ( ns )
+	{
+		var o, a;			
+		a = ns.split(".");			
+		o = window[a[0]] = window[a[0]] || {};			
+		for(i=1; i < a.length; i++)
+		{
+			o = o[a[i]] = o[a[i]] || {};	
+		}
+		return o;		
+	}
+
+	createNs("Adobe.PageInfo");
+	createNs("Adobe.Tokens");
+	createNs("Adobe.UserInfo");
+	Adobe.PageInfo.AuthenticatedState = false;
+	Adobe.PageInfo.localeCode = "en";
+	Adobe.PageInfo.accountPageName = "";
+	Adobe.PageInfo.productKey = "";
+	Adobe.PageInfo.catalogName = "";
+	Adobe.PageInfo.countryCode = "US";
+	Adobe.PageInfo.marketSegment = "COM";
+	Adobe.PageInfo.akamaiURLPrefix = "http://wwwimages.adobe.com/www.adobe.com";
+	Adobe.PageInfo.pageLevel = "4";
+</script>
+
+<link rel="stylesheet" href="http://wwwimages.adobe.com/www.adobe.com/include/style/adobe-light-compressed.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" media="screen,print" href="http://wwwimages.adobe.com/www.adobe.com/include/style/compressed.css" />
+			<script type="text/javascript" src="http://wwwimages.adobe.com/www.adobe.com/include/script/compressed.js"></script>
+			<script type="text/javascript" src="http://wwwimages.adobe.com/www.adobe.com/uber/js/omniture/mbox.js"></script>
+		
+
+<script type="text/javascript" src="http://wwwimages.adobe.com/www.adobe.com/include/script/Typekit.js"></script>
+            <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <!--[if IE 6]>
+    <script type="text/jscript">
+        try{
+             void(document.execCommand("BackgroundImageCache",false,true));
+        } catch(e) {
+            //uncaught exception
+        }
+    </script>
+    <![endif]-->
+    
+	<script type="text/javascript">
+		
+		//<![CDATA[
+		var info = getCategoriesInfo();
+
+		$(window).bind("hashchange load", adobe.fn.focusHashElement);
+
+		cart = new adobe.ui.CartFacade("cart-dialog", "cart-dialog-flash");
+		cart.setRequiredFlashVersion("9.0.115");
+		cart.setDefaultCountry("");
+		cart.setDomain(".adobe.com"); // set this to ".adobe.com"
+		cart.setContextPath(""); // set this to empty when web context is '/'
+		
+		// Possibly add the .edu selector or override market segment
+		Adobe.Product.Controller.CPod.EduController.processLocation(true);
+		
+		if(cart.isOverlaySupported()) {
+			var PromoIDReport = new Array();
+			var prmid = window.location.search.match(/\bpromoid\=([^&#$]+)/);
+			if(prmid) {
+				prmid[1]=prmid[1].toUpperCase();
+				cart.setEmailTrackingId(prmid[1]);
+			}
+			// if a promo code is pass thru the URL, set the promo in the cart and the cookie
+			prmid = window.location.search.match(/\bpromocode\=([^&#$]+)/) || null;
+			if(prmid) {
+				if (Adobe && Adobe.Cart && Adobe.Cart.Models && Adobe.Cart.Models.Cart) {
+					var cart = Adobe.Cart.Models.Cart;
+					var marketSegment = cart.getMarketSegment() || Adobe.Product.Controller.CPod.EduController.COM;
+					cart.addPromotion({code:prmid[1], marketSegment:marketSegment});
+					cart.savePromoCode(prmid[1]);
+				}
+			}
+		}
+		//]]>
+	</script>
+	<script type="text/javascript">
+		var hash = location.hash;
+		var deepLinkMap = new Object();
+		if(hash != null && hash != '') {
+			$(document).ready(function() {
+				var deepLink = deepLinkMap[hash];
+				if(deepLink != undefined && deepLink != '') {
+					$('#' + deepLinkMap[hash] + ' a[name=' + deepLinkMap[hash] + ']').click();
+				}
+			});
+		}
+	</script>
+
+    </head>
+
+
+
+<body class="Text TextMedium Link">
+<div class="LayoutGrid LayoutCenter LayoutWideGrid LayoutP">
+    
+
+
+
+
+
+    <script type="text/javascript">
+       //<![CDATA[
+         var gridCSSFile = "/include/style/grid/Grid.cols.-169,169,169,169,349,220.gutter.-11.margin.-10.name.-LayoutWideGrid.css";
+       //]]>     
+    </script>
+    <script type="text/javascript">
+    //<![CDATA[
+    adobe.fn.initReflow(gridCSSFile);
+    //]]>
+</script>
+
+<div class="PrintLayoutHide">
+        <!--googleon: all--><div class="sitenav">
+
+
+
+
+
+
+
+<script type="text/javascript">
+    //<![CDATA[
+    $(document).ready(adobe.fn.initGlobalNav);
+    //]]>
+</script>
+
+
+
+<!--googleoff: index-->
+<!-- $Id: globalnav_ssi.html,v 1.20.2.4 2011/11/19 01:10:05 dgasior Exp $ -->
+<form id="globalnav-search" class="searchbuddy" name="globalnav-search" method="get" action="gnav_search" accept-charset="utf-8">
+    <div id="SiteHeader" class="SiteHeader Text TextSmall">
+        <span id="globalnav"></span>
+        <a href="gnav_adobe_logo_en_us" id="shHome" class="SiteHeaderHome">Adobe</a>
+        <div class="SiteHeaderBar" id="shBar">
+            <div class="SiteHeaderDropdownLink SiteHeaderBarItem SiteHeaderBarItemFirst" id="shProducts">
+                <a href="http://www.adobe.com/go/gnav_products_en_us" id="shProductsLink" class="SiteHeaderBarLink">Products</a>
+                <div class="SiteHeaderDropPanel" id="ProductsPanel">
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shProducts1">
+                        <span class="SiteHeaderPanelHeader"><a href="http://www.adobe.com/go/gnavtray_products_creativesuite_en_us">Creative Suite</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shProducts2">
+                        <span class="SiteHeaderPanelHeader"><a href="http://www.adobe.com/go/gnavtray_products_photoshop_en_us">Photoshop Family</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shProducts3">
+                        <span class="SiteHeaderPanelHeader"><a href="http://www.adobe.com/go/gnavtray_products_acrobat_en_us">Acrobat Family</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shProducts4">
+                        <span class="SiteHeaderPanelHeader"><a href="gnavtray_products_flashplatform_en_us">Flash Platform</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shProducts5">
+                        <span class="SiteHeaderPanelHeader"><a href="gnavtray_products_onlinemarketingsuite_en_us">Digital Marketing Suite</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shProducts6">
+                        <span class="SiteHeaderPanelHeader"><a href="gnavtray_products_digitalenterpriseplatform_en_us">Digital Enterprise Platform</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shProducts7">
+                        <span class="SiteHeaderPanelHeader"><a href="http://www.adobe.com/go/gnavtray_products_digitalpublishingsuite_en_us">Digital Publishing Suite</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLinkNoBar" id="shProducts8">
+                        <a href="http://www.adobe.com/go/gnavtray_products_moreproducts_en_us">More products</a>
+                    </div>
+                </div>
+            </div>
+            <div class="SiteHeaderDropdownLink SiteHeaderBarItem SiteHeaderBarItemFirst" id="shSolutions">
+                <a href="gnav_solutions_en_us" id="shSolutionsLink" class="SiteHeaderBarLink">Solutions</a>
+                <div class="SiteHeaderDropPanel" id="SolutionsPanel">
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shSolutions1">
+                        <span class="SiteHeaderPanelHeader"><a href="gnavtray_solutions_contentauthoring_en_us">Content authoring</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shSolutions2">
+                        <span class="SiteHeaderPanelHeader"><a href="gnavtray_solutions_education_en_us">Education</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shSolutions3">
+                        <span class="SiteHeaderPanelHeader"><a href="gnavtray_solutions_financialservices_en_us">Financial services</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shSolutions4">
+                        <span class="SiteHeaderPanelHeader"><a href="gnavtray_solutions_government_en_us">Government</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shSolutions5">
+                        <span class="SiteHeaderPanelHeader"><a href="gnavtray_solutions_onlinemarketing_en_us">Digital marketing solutions</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLinkNoBar" id="shSolutions6">
+                        <a href="gnavtray_solutions_moresolutions_en_us">More solutions</a>
+                    </div>
+                </div>
+            </div>
+            <a href="gnav_learning_en_us" id="shLearning" class="SiteHeaderBarItem SiteHeaderBarLink">Learning</a>
+            <a href="gnav_help_en_us" id="shHelp" class="SiteHeaderBarItem SiteHeaderBarLink">Help</a>
+            <a href="gnav_downloads_en_us" id="shDownloads" class="SiteHeaderBarItem SiteHeaderBarLink">Downloads</a>
+            <a href="gnav_company_en_us" id="shCompany" class="SiteHeaderBarItem SiteHeaderBarLink">Company</a>
+            <div class="SiteHeaderDropdownLink SiteHeaderBarItem" id="shStore">
+                <a href="gnav_store_en_us" class="SiteHeaderBarLink" id="shStoreLink">Store</a>
+                <div class="SiteHeaderDropPanel" id="StorePanel">
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shStore1">
+                        <span class="SiteHeaderPanelHeader"><a href="gnavtray_store_en_us">Adobe Store</a></span>
+                        for home and home office
+                    </div>
+
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shStore2">
+                        <span class="SiteHeaderPanelHeader"><a href="gnavtray_store_education_en_us">Education Store</a></span>
+                        for students, educators, and staff
+                    </div>
+
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shStore3">
+                        <span class="SiteHeaderPanelHeader"><a href="gnavtray_store_business_en_us">Business Store</a></span>
+                        for small and medium businesses
+                    </div>
+
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shStore4">
+                        <span class="SiteHeaderPanelHeader"><a href="gnavtray_store_otherwaystobuy_en_us">Other ways to buy</a></span>
+                    </div>
+                </div>
+            </div>
+            <a href="gnav_search" id="shSearchButton" class="SiteHeaderBarItem SiteHeaderSearchButton" style="display: none;">Search</a>
+            <div class="SiteHeaderBarItem SiteHeaderBarItemLast">&nbsp;</div>
+            <div id="site-search" class="SiteHeaderSearch">
+                <input title="Search" type="text" id="search-input" name="term" maxlength="1000" />
+                <input type="hidden" id="searchbuddy-loc" name="loc" value="en_us" />
+                <button type="submit" id="search-submit" class="icon-replace search">Search</button>
+            </div>
+        </div>
+        <div class="SiteHeaderUser">
+            <div id="shSignInBlock" class="Link">
+                <a id="shInfo" class="SiteHeaderUserItem SiteHeaderInfo">Info</a>
+                <a href="http://www.adobe.com/cfusion/membership/index.cfm?loc=en_us&nl=1" id="shSignIn" class="SiteHeaderUserItem LinkStrong">Sign in</a>
+            </div>
+            <a href="http://www.adobe.com/cfusion/membership/index.cfm?loc=en_us&nl=1" id="shWelcome" class="SiteHeaderUserItem SiteHeaderArrow LinkStrong" style="display: none;">Welcome, <span id="screenName"></span></a>
+            <div id="MyCartLinkContainer">
+                <a href="gnav_mycart_en_us" id="shMyCart" class="SiteHeaderUserItem SiteHeaderCart">My cart<span id="cartQuantity"></span></a>
+            </div>
+            <a href="http://www.adobe.com/go/gnav_myorders_en_us" id="shMyOrders" class="SiteHeaderUserItem">My orders</a>
+            <a href="http://www.adobe.com/go/gnav_myadobe_en_us" id="shMyAdobe" class="SiteHeaderUserItem">My Adobe</a>
+        </div>
+        <div class="SiteHeaderPopPanelShadow width-150" id="WelcomePanelShadow" style="display: none;"></div>
+        <div class="SiteHeaderPopPanel width-150" id="WelcomePanel" style="display: none;">
+            <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shMyAccount">
+                <a class="SiteHeaderPanelHeader" href="http://www.adobe.com/go/gnavtray_myadobe_en_us">My Adobe</a>
+            </div>
+            <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shMyOrders2">
+                <a class="SiteHeaderPanelHeader" href="http://www.adobe.com/go/gnavtray_myadobe_myorders_en_us">My orders</a>
+            </div>
+            <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shMyInformation">
+                <a class="SiteHeaderPanelHeader" href="http://www.adobe.com/go/gnavtray_myadobe_myinformation_en_us">My information</a>
+            </div>
+            <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shMyPreferences">
+                <a class="SiteHeaderPanelHeader" href="http://www.adobe.com/go/gnavtray_myadobe_mypreferences_en_us">My preferences</a>
+            </div>
+            <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shSignOut">
+                <a class="SiteHeaderPanelHeader" href="../cfusion/membership/logout.cfm">Sign out</a>
+            </div>
+        </div>
+        <div class="SiteHeaderPopPanelShadow width-250" id="InfoPanelShadow" style="display: none;"></div>
+        <div class="SiteHeaderPopPanel width-250" id="InfoPanel" style="display: none;">
+            <div class="SiteHeaderPanelRow">
+                <span class="SiteHeaderPanelHeader">Why sign in?</span>
+                Sign in to manage your account and access trial downloads, product extensions, community areas, and more.
+            </div>
+        </div>
+    </div>
+</form>
+
+<div id="SiteHeaderMobile" class="SiteHeaderMobile Text TextSmall" style="display: none;">
+	<a href="gnav_adobe_logo_en_us" id="shHomeMobile" class="SiteHeaderHome SiteHeaderHomeMobile">Adobe</a>
+    
+    <div class="SiteHeaderBar SiteHeaderBarMobile" id="shBarMobile">
+    	<span class="SiteHeaderBarItemMobile SiteHeaderBarItemMobileNoLeftBorder" id="shProductsMobileSpan"><a href="http://www.adobe.com/go/gnav_products_en_us" id="shProductsMobile" class="SiteHeaderBarLink">Products</a></span>
+        <span class="SiteHeaderBarItemMobile" id="shSectionsMobileSpan"><a href="http://www.adobe.com/devnet.html#" id="shSectionsMobile" class="SiteHeaderArrowMobile SiteHeaderBarLink">Sections</a></span>
+        <span class="SiteHeaderBarItemMobile SiteHeaderBarItemMobileNoRightBorder">&nbsp;</span>
+        <span class="SiteHeaderBarItemMobile SiteHeaderBarItemMobileNoRightBorder SiteHeaderBarItemFloatRight" id="shSearchMobileSpan"><a href="gnav_search" id="shSearchMobile" class="SiteHeaderSearchButtonMobile">Search</a></span>
+        <span class="SiteHeaderBarItemMobile SiteHeaderBarItemMobileNoLeftBorder SiteHeaderBarItemFloatRight">&nbsp;</span>
+    </div>
+    <div class="SiteHeaderBarMobileExtend" id="shBarExtend">
+    	<div id="shBarExtendSections" style="display: none;">
+        	<div id="shBarExtendSections1" class="SiteHeaderBarMobileExtendSections">
+            	<a href="gnav_solutions_en_us" id="shSectionsSolutionsMobile" class="SiteHeaderBarExtendSectionsItem SiteHeaderBarLink">Solutions</a>
+            	<a href="gnav_company_en_us" id="shSectionsCompanyMobile" class="SiteHeaderBarExtendSectionsItem SiteHeaderBarLink">Company</a>
+            </div>
+        	<div id="shBarExtendSections2" class="SiteHeaderBarMobileExtendSections">
+            	<a href="gnav_help_en_us" id="shSectionsHelpMobile" class="SiteHeaderBarExtendSectionsItem SiteHeaderBarLink">Help</a>
+            	<a href="gnav_learning_en_us" id="shSectionsLearningMobile" class="SiteHeaderBarExtendSectionsItem SiteHeaderBarLink">Learning</a>
+            </div>
+        </div>
+    	<div id="shBarExtendSearch" style="display: none;">
+            <form id="globalnav-search-mobile" class="SiteHeaderSearchMobileForm" name="globalnav-search-mobile" method="get" action="gnav_search" accept-charset="utf-8">
+                <input title="Search" type="text" id="search-input-mobile" name="term" maxlength="1000" />
+                <button type="submit" id="search-submit-mobile">Search</button>
+            </form>
+        </div>
+    </div>
+    <div class="SiteHeaderUser">
+		<a href="http://www.adobe.com/cfusion/membership/index.cfm?loc=en_us&nl=1" id="shSignInMobile" class="SiteHeaderUserItem SiteHeaderUserItemMobile SiteHeaderInfoMobile LinkStrong">Sign in</a>
+        <a href="http://www.adobe.com/cfusion/membership/index.cfm?loc=en_us&nl=1" id="shWelcomeMobile" class="SiteHeaderUserItem SiteHeaderUserItemMobile SiteHeaderArrow LinkStrong" style="display: none;">Welcome, <span id="screenName"></span></a>
+        <a href="http://www.adobe.com/go/gnav_myorders_en_us" id="shMyOrdersMobile" class="SiteHeaderUserItem SiteHeaderUserItemMobile">My orders</a>
+        <a href="http://www.adobe.com/go/gnav_myadobe_en_us" id="shMyAdobeMobile" class="SiteHeaderUserItem SiteHeaderUserItemMobile">My Adobe</a>
+    </div>
+</div>
+<!--googleon: index-->
+<div class="hovercart">
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div id="HoverCartModal">
+		<div class="CartHeaderPopPanelShadow HoverCartwidth" id="CartPanelShadow" style="display: none;">
+		<div class="CartHeaderPopPanel HoverCart" id="CartPanel">
+			<div id="HoverCartItem" class="RuleHBottom HoverCart-1-3 LayoutBigRowTop" style="display: none">
+				<div class="LayoutBreakAfter">
+					<div class="HoverCart-1 LayoutHItem">
+						<div style="padding-left:60px;">
+							<div id="HoverCartBoxShotxyz" class="HoverCartBoxShot">
+								
+								
+									<a href="http://www.adobe.com/devnet.html">
+										<img src="http://www.adobe.com/devnet.html" class="LayoutImage" alt="" />
+									</a>
+								
+							</div>
+							<div style="float:left;width:100%" class="CPodCostCell">
+							    <span class="TextStrong ProductName" id="HoverCartHeaderxyz"> 
+							    	<a href="http://www.adobe.com/devnet.html#">
+							        	 
+									</a>
+							    </span>
+								<div class="LayoutBigRowBottom" id="HoverCartDescriptionxyz">
+									
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="LayoutHItem HoverCart-2">
+						<div class="HoverCartQty">
+							Qty: 
+							<span id="HoverCartQtyxyz">
+								 
+							</span>
+						</div>
+					</div>
+					<div class="HoverCart-3">
+						<div class="CheckoutCostDark LayoutRight">
+							<span id="HoverCartPricexyz"> 
+							
+								
+								
+									</span>
+								
+							
+							<span id="HoverCartSubscriptionxyz" class="CheckoutSubscription"> 
+								 
+							</span>						
+						</div>
+					</div>
+					
+				</div>
+				<div class="HoverCartEDUMessage LayoutBigCellBottom">Purchase requires verification of academic eligibility</div>
+			</div>
+			<div id="HoverCartContainer" class="LayoutBreakAfter" style=""></div>
+			<a id="HoverCartMoreItems" class="LayoutBreakAfter" style="text-align: center;" href="http://www.adobe.com/cart.html"></a>
+			<div  id="HoverCartButtons" class="HoverCart-1-3">					
+				<div class="HoverCart-2-3 LayoutRight LayoutSmallRow LayoutBreakAfter">
+					<div class="HoverCart-2">
+						<div class="TextRight HoverCartSubTotal">Subtotal</div>
+					</div>
+					<div class="HoverCart-3 LayoutRight">
+						<div class="LayoutRight TextRight">
+							<div class="CheckoutCostDark">
+								<span id="HoverCartSubTotal">
+								
+									
+									
+										</span>
+									
+								
+							</div>
+						</div>
+					</div>
+				</div>		
+				
+				<div class="LayoutBreak"></div>		
+				
+				<div class="HoverCart-1-3 LayoutRight LayoutCellTop LayoutBreakAfter">
+						
+						<a href="http://www.adobe.com/cart.html" id="HoverCartCheckOut" class="CartButtonYellow CartShopCheckOut LayoutRight"><span class="CartBuyIconText">Review and Checkout</span></a>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+
+
+<script type="text/javascript">
+	/*global jQuery,adobe*/
+	jQuery.createNs("Adobe.Cart.ShoppingCart");
+
+	Adobe.Cart.ShoppingCart.HoverCart = {
+			
+		MaxItems: "4",
+
+		DisplayTime: "5000",
+
+		MoreItemsTextSingular: "() more item in your cart",
+
+		MoreItemsTextPlural: "() more items in your cart",
+
+		MonthToMonthText: "per month",
+
+		YearlyText: "per year"
+			
+	};
+
+	Adobe.Cart.ShoppingCart.GlobalVars = {
+			
+		CountryCode: 			"US",
+
+		MarketSegment: 			"COM",
+
+		AkamaiURLPrefix: 		"http://wwwimages.adobe.com/www.adobe.com",
+
+		PriceMonthText:			"per month",
+
+		PriceYearText:			"per year",
+
+		FullSubMonthText:		"Month-to-month",
+
+		FullSubYearText:		"One-year",
+
+		SubMonthText:			"Monthly",
+
+		SubYearText:			"Annual",
+
+		SubscriptionItemText:	"NONE",
+
+		TermTypeMonth:			"MONTH",
+
+		TermTypeYear:			"YEAR",
+
+		BackupDVDParent:		"_PARENT",
+		/*
+			params: {
+				cart,
+				price,
+				categoryPath,
+				originalPrice,
+				storeName,
+				locale,
+				usePrecision,
+				type,
+				taxCode,
+				delimiter,
+				showCentDelim,
+				distributionMethod
+			}
+		*/
+		getPriceLabel: function(params) {
+			var currency = params.cart.currency;
+			var params = {
+				storeName: params.storeName,
+				locale: params.locale,
+				productKey: params.categoryPath,
+				priceObject: {
+					price: {
+						orginalPriceWithoutTax: params.originalPrice,
+						priceWithoutTax: params.price,
+						taxCode: params.taxCode || ""
+					},
+					priceTypeKey: params.distributionMethod
+				},
+				currencyObject: {
+					delimiter: params.delimiter || ",",
+					formatString: currency.FORMATSTRING,
+					iso3Code: currency.CODE,
+					symbol: currency.SYMBOL,
+					usePrecision: params.usePrecision
+				},
+				showCentDelim : params.showCentDelim || false,
+				type: params.type
+			};
+			return params;
+		},
+
+		isSubscription: function(serviceCommitment, termType) {
+			return (serviceCommitment == this.SubscriptionItemText && 
+					(termType == this.TermTypeMonth || termType == this.TermTypeYear));
+		},
+
+		subscriptionItem: function(serviceCommitment, termType) {
+			return (termType == this.TermTypeMonth && 
+					(serviceCommitment == this.TermTypeMonth || serviceCommitment == this.TermTypeYear));
+		},
+
+		getSubscriptionText: function(serviceCommitment, termType) {
+			if (this.isSubscription(serviceCommitment, termType)) {
+				if (termType === this.TermTypeMonth) {
+					return this.SubMonthText;
+				} else if (termType === this.TermTypeYear) {
+					return this.SubYearText;
+				}	
+			} else if (this.subscriptionItem(serviceCommitment, termType)) {
+				if (serviceCommitment === this.TermTypeMonth) {
+					return this.FullSubMonthText;
+				} else if (serviceCommitment === this.TermTypeYear) {
+					return this.FullSubYearText;
+				}	
+			}
+			return "";
+		},
+
+		getSubscriptionPriceText: function(serviceCommitment, termType) {
+			if (this.isSubscription(serviceCommitment, termType)) {
+				if (termType === this.TermTypeMonth) {
+					return this.PriceMonthText;
+				} else if (termType === this.TermTypeYear) {
+					return this.PriceYearText;
+				}	
+			} else if (this.subscriptionItem(serviceCommitment, termType)) {
+				return this.PriceMonthText;	
+			}
+			return "";
+		}
+		
+	};
+</script>
+</div>
+
+<div id="modalContent" style="display:none;"></div>
+
+</div>
+<!--googleoff: all--></div>
+    <div class="Link" id="top">
+    <div class="parbase compbase breadcrumb"><div class="LayoutCellSides LinkStrong LayoutH IconAlign">
+	</div>
+</div>
+<div class="LayoutH">
+        <img title="" alt="" class="LayoutHItem Icon LayoutSmallGutterRight" src="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/images/adc/adc_logo.png" /><h1 id="subcrumb" class="TextH1 LayoutCellSides LayoutSmallCellVSides">
+        	Adobe Developer Connection</h1>
+    </div>
+</div>
+
+
+<div class="Link LayoutBreakAfter">
+	<div class="LayoutGrid-1-4">
+    	<div class="bodycontent1 parsys"><div id="bodycontent1">
+<div class="parbase marqueetext compbase section">
+
+
+
+    
+        
+            
+            
+            	
+            
+        
+    
+    
+<div style="width:100%; background-color:#000000;overflow:hidden" class="LayoutP LayoutRow CQMarqueeImageHeight">
+            <div class="LayoutPLeft LayoutPTop CQMarqueeImageAnchor">
+            <img title="" alt="" class="cq-dd-image" src="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/sharedpromo/banner/2010-09-27_flex_migration/flex-migration_m.jpg" /></div>
+    <div style="overflow:hidden;" class="LayoutPLeft LayoutPBottom CQMarqueeOverlayWidth CQMarqueeOverlayAnchor">
+            <div style="height:1000px;width:1000px; background-color:#000000" class="LayoutPLeft LayoutPTop Vis7">
+            </div>
+    <div class="LayoutP LayoutBigCell">
+                            <div class="TextMedium TextInvertWeak TextLight LinkStrong SemanticPhrase LinkInvert" style="z-index:1"><p><a href="http://www.adobe.com/devnet/flex/articles/introducing-flex46sdk.html">Introducing Adobe Flex 4.6 SDK</a> and <a href="http://www.adobe.com/devnet/flash-builder/articles/whatsnew-flashbuilder-46.html">Flash Builder 4.6</a><br>
+ <span class="Apple-style-span" style="font-size: 12px;">Read more </span><a href="http://www.adobe.com/devnet/features.html" style="font-family: tahoma,arial,helvetica,sans-serif; font-size: 12px;">featured stories Â»</a></p>
+</div></div>
+                    </div>
+    </div>
+    
+
+
+
+    
+        
+            
+            
+            	
+            
+            
+    
+    
+
+<script type="text/javascript">
+    //<![CDATA[
+        var dispatcher = adobe.reflow.getDispatcherByName("width"),
+            head = document.getElementsByTagName("head")[0];
+            new adobe.dom.CSSStyleSheet("/content/dotcom/en/devnet/_jcr_content/bodycontent1/marqueetext.css").enable(head);
+        
+    //]]>
+</script>
+</div>
+<div class="parbase xdheading compbase section"><div pathToMoreText="" class="LayoutRow LayoutBreakAfter TextH5" linkboxcolor="RouterMore">
+    <table style="width: 100%;">
+        <tbody>
+            <tr>
+                <td class="LayoutCellSides LayoutSmallCellVSides PanelFillDark">
+                    <h2 class="TextH5">
+                        Developer Centers by project</h2>
+                </td>
+                </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+<br clear="all" class="LayoutZero" /><div class="LayoutBreakAfter VerticalBarOverflow"><div class="LayoutGrid-1-2"><div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-devnet-jcr-content-bodycontent1-ttt_6" style="padding-left:69px;" class="LayoutBreakAfter"><div style="width:58px;float:left;clear:left;position:relative;left:-69px;margin-right:-69px">
+        <div>
+    	                    <a href="http://www.adobe.com/devnet/devices.html"><img title="" alt="" class="cq-dd-image ImageShadow LayoutRow LayoutImage" src="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/authors/small/p/project_mobile_sm.jpg.adimg.mw.58.png" /></a></div>
+                    </div>
+    <div style="float:left;width:100%" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	<a href="http://www.adobe.com/devnet/devices.html" title="Mobile">Mobile</a></h3>
+        <div class="LayoutSmallRow">
+                <p>Build and<b> </b>optimize content, apps, video, and websites for mobile devices and tablets.</p>
+</div>
+        </div>
+</div>
+</div>
+</div></div>
+<div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-devnet-jcr-content-bodycontent1-ttt_9" style="padding-left:69px;" class="LayoutBreakAfter"><div style="width:58px;float:left;clear:left;position:relative;left:-69px;margin-right:-69px">
+        <div>
+    	                    <a href="http://www.adobe.com/devnet/games.html"><img title="Gaming" alt="Gaming" class="cq-dd-image ImageShadow LayoutRow LayoutImage" src="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/authors/small/p/project_gaming_sm.jpg.adimg.mw.58.png" /></a></div>
+                    </div>
+    <div style="float:left;width:100%" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	<a href="http://www.adobe.com/devnet/games.html" title="Gaming">Gaming</a></h3>
+        <div class="LayoutSmallRow">
+                <p>Author high-impact game content that is rich with feedback, response, and media.<br>
+</p>
+</div>
+        </div>
+</div>
+</div>
+</div></div>
+<div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-devnet-jcr-content-bodycontent1-ttt_25" style="padding-left:69px;" class="LayoutBreakAfter"><div style="width:58px;float:left;clear:left;position:relative;left:-69px;margin-right:-69px">
+        <div>
+    	                    <a href="http://www.adobe.com/devnet/enterprise-platform/solutions/customer-experience.html"><img title="Customer and Web experience management" alt="Customer and Web experience management" class="cq-dd-image ImageShadow LayoutRow LayoutImage" src="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/authors/small/p/project-wem-sm.jpg.adimg.mw.58.png" /></a></div>
+                    </div>
+    <div style="float:left;width:100%" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	<a href="http://www.adobe.com/devnet/enterprise-platform/solutions/customer-experience.html" title="Customer and web experience management">Customer and web experience management</a></h3>
+        <div class="LayoutSmallRow">
+                <p>Improve online customer interactions and content management for large-scale websites. <br>
+ </p>
+ </div>
+        </div>
+</div>
+</div>
+</div></div>
+</div><div class="LayoutGrid-3-4"><div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-devnet-jcr-content-bodycontent1-ttt_8" style="padding-left:69px;" class="LayoutBreakAfter"><div style="width:58px;float:left;clear:left;position:relative;left:-69px;margin-right:-69px">
+        <div>
+    	                    <a href="http://www.adobe.com/devnet/html5.html"><img title="HTML5 and CSS3" alt="HTML5 and CSS3" class="cq-dd-image ImageShadow LayoutRow LayoutImage" src="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/html5/images/html-58x43.jpg.adimg.mw.58.png" /></a></div>
+                    </div>
+    <div style="float:left;width:100%" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	<a href="http://www.adobe.com/devnet/html5.html" title="HTML5 and CSS3">HTML5 and CSS3</a></h3>
+        <div class="LayoutSmallRow">
+                <p>Design and build standards-based websites and other browser-based experiences.<br>
+ </p>
+ </div>
+        </div>
+</div>
+</div>
+</div></div>
+<div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-devnet-jcr-content-bodycontent1-ttt_7" style="padding-left:69px;" class="LayoutBreakAfter"><div style="width:58px;float:left;clear:left;position:relative;left:-69px;margin-right:-69px">
+        <div>
+    	                    <a href="http://www.adobe.com/devnet/ria.html"><img title="RIA" alt="RIA" class="cq-dd-image ImageShadow LayoutRow LayoutImage" src="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/authors/small/p/project_ria_sm.jpg.adimg.mw.58.png" /></a></div>
+                    </div>
+    <div style="float:left;width:100%" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	<a href="http://www.adobe.com/devnet/ria.html" title="RIA">RIA</a></h3>
+        <div class="LayoutSmallRow">
+                <p>Develop richer, more engaging applications for multiple devices and platforms.</p>
+</div>
+        </div>
+</div>
+</div>
+</div></div>
+<div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-devnet-jcr-content-bodycontent1-ttt_20" style="padding-left:69px;" class="LayoutBreakAfter"><div style="width:58px;float:left;clear:left;position:relative;left:-69px;margin-right:-69px">
+        <div>
+    	                    <a href="http://www.adobe.com/devnet/video.html"><img title="Video on the web" alt="Video on the web" class="cq-dd-image ImageShadow LayoutRow LayoutImage" src="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/authors/small/p/project_video_sm.jpg.adimg.mw.58.png" /></a></div>
+                    </div>
+    <div style="float:left;width:100%" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	<a href="http://www.adobe.com/devnet/video.html" title="Video on the web">Video on the web</a></h3>
+        <div class="LayoutSmallRow">
+                <p>Learn to produce and encode web video to deliver great experiences to your audience.<br>
+</p>
+</div>
+        </div>
+</div>
+</div>
+</div></div>
+</div></div><div class="parbase xdheading compbase section"><div pathToMoreText="moreLink/linkText" class="LayoutRow LayoutBreakAfter TextH5" linkboxcolor="RouterMore">
+    <table style="width: 100%;">
+        <tbody>
+            <tr>
+                <td class="LayoutCellSides LayoutSmallCellVSides PanelFillDark">
+                    <h2 class="TextH5">
+                        Developer Centers</h2>
+                </td>
+                <td class="LayoutCellSides LayoutSmallCellVSides RouterButton RouterMore" style="width: 190px">
+						<a class="RouterLink" href="http://www.adobe.com/devnet/products.html">All products and technologies</a>
+							</td>
+                </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+<div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-devnet-jcr-content-bodycontent1-ttt_15" class="LayoutBreakAfter"><div style="" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	<a href="http://www.adobe.com/devnet/flashplatform.html" title="Flash Platform">Flash Platform</a></h3>
+        <div class="LayoutSmallRow">
+                <p>The Adobe Flash Platform is an integrated set of technologies that provide everything you need to create and deliver the most compelling and expressive applications, rich media content, and video to the world.</p>
+</div>
+        </div>
+</div>
+</div>
+</div></div>
+<br clear="all" class="LayoutZero" /><div class="LayoutBreakAfter VerticalBarOverflow"><div class="LayoutGrid-1-4ByFive-1"><div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-devnet-jcr-content-bodycontent1-ttt" class="LayoutBreakAfter"><div style="" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	Runtimes</h3>
+        <ol class="LayoutRow" >
+                    <li>
+                        <a href="http://www.adobe.com/devnet/flashplayer.html" title="Flash Player">Flash Player</a></li>
+                    <li>
+                        <a href="http://www.adobe.com/devnet/air.html" title="Adobe AIR">Adobe AIR</a></li>
+                    </ol>
+                    </div>
+</div>
+</div>
+</div></div>
+</div><div class="LayoutGrid-1-4ByFive-2"><div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-devnet-jcr-content-bodycontent1-ttt_0" class="LayoutBreakAfter"><div style="" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	Tools</h3>
+        <ol class="LayoutRow" >
+                    <li>
+                        <a href="http://www.adobe.com/devnet/flash.html" title="Flash Professional">Flash Professional</a></li>
+                    <li>
+                        <a href="http://www.adobe.com/devnet/flashcatalyst.html" title="Flash Catalyst">Flash Catalyst</a></li>
+                    <li>
+                        <a href="http://www.adobe.com/devnet/flash-builder.html" title="Flash Builder">Flash Builder</a></li>
+                    </ol>
+                    </div>
+</div>
+</div>
+</div></div>
+</div><div class="LayoutGrid-1-4ByFive-3"><div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-devnet-jcr-content-bodycontent1-ttt_1" class="LayoutBreakAfter"><div style="" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	Frameworks</h3>
+        <ol class="LayoutRow" >
+                    <li>
+                        <a href="http://www.adobe.com/devnet/flex.html" title="Flex">Flex</a></li>
+                    <li>
+                        <a href="http://www.adobe.com/devnet/actionscript.html" title="ActionScript">ActionScript</a></li>
+                    </ol>
+                    </div>
+</div>
+</div>
+</div></div>
+</div><div class="LayoutGrid-1-4ByFive-4"><div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-devnet-jcr-content-bodycontent1-ttt_2" class="LayoutBreakAfter"><div style="" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	Servers</h3>
+        <ol class="LayoutRow" >
+                    <li>
+                        <a href="http://www.adobe.com/devnet/flashmediaserver.html" title="Flash Media Server">Flash Media Server</a></li>
+                    <li>
+                        <a href="http://www.adobe.com/devnet/enterprise-platform.html" title="Adobe Digital Enterprise Platform">Adobe Digital Enterprise Platform</a></li>
+                    </ol>
+                    </div>
+</div>
+</div>
+</div></div>
+</div><div class="LayoutGrid-1-4ByFive-5"><div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-devnet-jcr-content-bodycontent1-ttt_3" class="LayoutBreakAfter"><div style="" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	Integration</h3>
+        <ol class="LayoutRow" >
+                    <li>
+                        <a href="http://www.adobe.com/devnet/flashplatform/services/collaboration.html" title="Collaboration">Collaboration</a></li>
+                    <li>
+                        <a href="http://www.adobe.com/devnet/flex/flex_java.html" title="Flex and Java">Flex and Java</a></li>
+                    <li>
+                        <a href="http://www.adobe.com/devnet/flex/flex_php.html" title="Flex and PHP">Flex and PHP</a></li>
+                    </ol>
+                    </div>
+</div>
+</div>
+</div></div>
+</div></div><br clear="all" class="LayoutZero" /><div class="LayoutBreakAfter VerticalBarOverflow"><div class="LayoutGrid-1-4ByFive-1-2"><div class="hr section">
+
+
+
+
+
+
+
+
+	<div class="LayoutRow RuleH"></div>
+
+</div>
+<div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-devnet-jcr-content-bodycontent1-ttt_5" class="LayoutBreakAfter"><div style="" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	Enterprise solutions</h3>
+        <div class="LayoutSmallRow">
+                <p>Improve customer experience while streamlining business process management with Adobe business solutions.<br>
+</p>
+</div>
+        </div>
+</div>
+</div>
+</div></div>
+</div><div class="LayoutGrid-1-4ByFive-3-5"><div class="hr section">
+
+
+
+
+
+
+
+
+	<div class="LayoutRow RuleH"></div>
+
+</div>
+<div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-devnet-jcr-content-bodycontent1-ttt_4" class="LayoutBreakAfter"><div style="" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	Creative Suite</h3>
+        <div class="LayoutSmallRow">
+                <p>Create visually rich, engaging content for any media and rapidly develop, debug, and deploy applications that enhance and extend Creative Suite products using tools, sample code, demos, and tutorials.</p>
+</div>
+        </div>
+</div>
+</div>
+</div></div>
+</div></div><br clear="all" class="LayoutZero" /><div class="LayoutBreakAfter VerticalBarOverflow"><div class="LayoutGrid-1-4ByFive-1"><div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-devnet-jcr-content-bodycontent1-ttt_10" class="LayoutBreakAfter"><div style="" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	Servers</h3>
+        <ol class="LayoutRow" >
+                    <li>
+                        <a href="http://www.adobe.com/devnet/enterprise-platform.html" title="Adobe Digital Enterprise Platform">Adobe Digital Enterprise Platform</a></li>
+                    <li>
+                        <a href="http://www.adobe.com/devnet/livecycle.html" title="LiveCycle">LiveCycle</a></li>
+                    <li>
+                        <a href="http://dev.day.com" title="CQ5 & CRX" target="_blank">CQ5 & CRX</a></li>
+                    <li>
+                        <a href="http://www.adobe.com/devnet/coldfusion.html" title="ColdFusion">ColdFusion</a></li>
+                    </ol>
+                    </div>
+</div>
+</div>
+</div></div>
+</div><div class="LayoutGrid-1-4ByFive-2"><div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-devnet-jcr-content-bodycontent1-ttt_11" class="LayoutBreakAfter"><div style="" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	Communications</h3>
+        <ol class="LayoutRow" >
+                    <li>
+                        <a href="http://developer.omniture.com" title="Omniture" target="_blank">Omniture</a></li>
+                    <li>
+                        <a href="http://www.adobe.com/devnet/adobeconnect.html" title="Adobe Connect">Adobe Connect</a></li>
+                    <li>
+                        <a href="http://www.adobe.com/devnet/acrobat.html" title="Acrobat SDK">Acrobat SDK</a></li>
+                    </ol>
+                    </div>
+</div>
+</div>
+</div></div>
+</div><div class="LayoutGrid-1-4ByFive-3"><div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-devnet-jcr-content-bodycontent1-ttt_12" class="LayoutBreakAfter"><div style="" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	Web development</h3>
+        <ol class="LayoutRow" >
+                    <li>
+                        <a href="http://www.adobe.com/devnet/dreamweaver.html" title="Dreamweaver">Dreamweaver</a></li>
+                    <li>
+                        <a href="http://www.adobe.com/devnet/html5.html" title="HTML5">HTML5</a></li>
+                    <li>
+                        <a href="http://www.adobe.com/devnet/businesscatalyst.html" title="Business Catalyst">Business Catalyst</a></li>
+                    </ol>
+                    </div>
+</div>
+</div>
+</div></div>
+</div><div class="LayoutGrid-1-4ByFive-4"><div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-devnet-jcr-content-bodycontent1-ttt_13" class="LayoutBreakAfter"><div style="" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	Tools</h3>
+        <ol class="LayoutRow" >
+                    <li>
+                        <a href="http://www.adobe.com/devnet/creativesuite/cs-extension-builder.html" title="CS Extension Builder">CS Extension Builder</a></li>
+                    <li>
+                        <a href="http://www.adobe.com/devnet/fireworks.html" title="Fireworks">Fireworks</a></li>
+                    </ol>
+                    </div>
+</div>
+</div>
+</div></div>
+</div><div class="LayoutGrid-1-4ByFive-5"><div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-devnet-jcr-content-bodycontent1-ttt_14" class="LayoutBreakAfter"><div style="" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	SDKs</h3>
+        <ol class="LayoutRow" >
+                    <li>
+                        <a href="http://www.adobe.com/devnet/creativesuite.html" title="Creative Suite SDK">Creative Suite SDK</a></li>
+                    <li>
+                        <a href="http://www.adobe.com/devnet/photoshop.html" title="Photoshop SDK">Photoshop SDK</a></li>
+                    <li>
+                        <a href="http://www.adobe.com/devnet/indesign.html" title="InDesign SDK">InDesign SDK</a></li>
+                    </ol>
+                    </div>
+</div>
+</div>
+</div></div>
+</div></div><br clear="all" class="LayoutZero" /><div class="LayoutBreakAfter VerticalBarOverflow"><div class="LayoutGrid-1-2"><div class="parbase xdheading compbase section"><div pathToMoreText="moreLink/linkText" class="LayoutRow LayoutBreakAfter TextH5" linkboxcolor="RouterMore">
+    <table style="width: 100%;">
+        <tbody>
+            <tr>
+                <td class="LayoutCellSides LayoutSmallCellVSides PanelFillDark">
+                    <h2 class="TextH5">
+                        Cookbooks and code samples</h2>
+                </td>
+                <td class="LayoutCellSides LayoutSmallCellVSides RouterButton RouterMore" style="width: 40px">
+						<a class="RouterLink" href="http://cookbooks.adobe.com" target="_blank">More</a>
+							</td>
+                </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+</div><div class="LayoutGrid-3-4"><div class="parbase xdheading compbase section"><div pathToMoreText="moreLink/linkText" class="LayoutRow LayoutBreakAfter TextH5" linkboxcolor="RouterMore">
+    <table style="width: 100%;">
+        <tbody>
+            <tr>
+                <td class="LayoutCellSides LayoutSmallCellVSides PanelFillDark">
+                    <h2 class="TextH5">
+                        Adobe Labs</h2>
+                </td>
+                <td class="LayoutCellSides LayoutSmallCellVSides RouterButton RouterMore" style="width: 40px">
+						<a class="RouterLink" href="http://labs.adobe.com/" target="_blank">More</a>
+							</td>
+                </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+</div></div><br clear="all" class="LayoutZero" /><div class="LayoutBreakAfter VerticalBarOverflow"><div class="LayoutGrid-1"><div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-devnet-jcr-content-bodycontent1-ttt_19" class="LayoutBreakAfter"><div style="" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	<a href="http://www.adobe.com/devnet/flex/tourdeflex.html" title="Tour de Flex">Tour de Flex</a></h3>
+        <div class="LayoutSmallRow">
+                <p>Explore running code samples of components, data integration, and other common Flex tasks.</p>
+</div>
+        </div>
+</div>
+</div>
+</div></div>
+<div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-devnet-jcr-content-bodycontent1-ttt_22" class="LayoutBreakAfter"><div style="" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	<a href="http://m.flash.com" title="Adobe Flash showcase for mobile" target="_blank">Adobe Flash showcase for mobile</a></h3>
+        <div class="LayoutSmallRow">
+                <p>Browse rich mobile experiences with your Flash Player 10.1â¬enabled mobile device.<br>
+</p>
+</div>
+        </div>
+</div>
+</div>
+</div></div>
+</div><div class="LayoutGrid-2"><div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-devnet-jcr-content-bodycontent1-ttt_18" class="LayoutBreakAfter"><div style="" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	<a href="http://cookbooks.adobe.com" title="Cookbooks">Cookbooks</a></h3>
+        <div class="LayoutSmallRow">
+                <p>Find and share code recipes.<br>
+</p>
+</div>
+        <ol class="LayoutRow" >
+                    <li>
+                        <a href="http://cookbooks.adobe.com/flex/" title="Flex cookbook">Flex cookbook</a></li>
+                    <li>
+                        <a href="http://cookbooks.adobe.com/dreamweaver" title="Dreamweaver cookbook">Dreamweaver cookbook</a></li>
+                    <li>
+                        <a href="http://cookbooks.adobe.com/coldfusion" title="ColdFusion cookbook">ColdFusion cookbook</a></li>
+                    <li>
+                        <a href="http://cookbooks.adobe.com/air/" title="AIR cookbook">AIR cookbook</a></li>
+                    </ol>
+                    </div>
+</div>
+</div>
+</div></div>
+<div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-devnet-jcr-content-bodycontent1-ttt_23" class="LayoutBreakAfter"><div style="" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	Related</h3>
+        <ol class="LayoutRow" >
+                    <li>
+                        <a href="http://flex.org/showcase" title="Flex.org showcase" target="_blank">Flex.org showcase</a></li>
+                    <li>
+                        <a href="http://www.adobe.com/showcase/" title="Customer showcase">Customer showcase</a></li>
+                    </ol>
+                    </div>
+</div>
+</div>
+</div></div>
+</div><div class="LayoutGrid-3"><div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-devnet-jcr-content-bodycontent1-ttt_17" class="LayoutBreakAfter"><div style="" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	<a href="http://labs.adobe.com/technologies/adep_dataservices_jee/" title="ADEP Data Services for JEE 4.6" target="_blank">ADEP Data Services for JEE 4.6</a></h3>
+        <div class="LayoutSmallRow">
+                <p>(Oct 3) Enables the development of powerful, data-driven RIA and mobile applications.</p>
+ </div>
+        </div>
+</div>
+</div>
+</div></div>
+<div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-devnet-jcr-content-bodycontent1-ttt_16" class="LayoutBreakAfter"><div style="" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	<a href="http://labs.adobe.com/technologies/proscenium/" title="Proscenium" target="_blank">Proscenium</a></h3>
+        <div class="LayoutSmallRow">
+                <p>(Oct 3) An ActionScript 3 code library built on top of the <a href="http://www.adobe.com/devnet/flashplayer/stage3d.html">Stage3D APIs</a> for rapid development of interactive 3D content.</p>
+ </div>
+        </div>
+</div>
+</div>
+</div></div>
+</div><div class="LayoutGrid-4"><div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-devnet-jcr-content-bodycontent1-ttt_24" class="LayoutBreakAfter"><div style="" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	<a href="http://labs.adobe.com/technologies/edge/" title="Adobe Edge preview" target="_blank">Adobe Edge preview</a></h3>
+        <div class="LayoutSmallRow">
+                <p>(Oct 3) A new web motion and interaction design tool using web standards like HTML5, JavaScript, and CSS3.</p>
+ </div>
+        </div>
+</div>
+</div>
+</div></div>
+<div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-devnet-jcr-content-bodycontent1-ttt_21" class="LayoutBreakAfter"><div style="" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	<a href="http://labs.adobe.com/technologies/pixelbender3d/" title="Pixel Bender 3D preview" target="_blank">Pixel Bender 3D preview</a></h3>
+        <div class="LayoutSmallRow">
+                <p>(Apr 27) A version of the Pixel Bender kernel language that allows you to produce 3D vertex and fragment shaders.</p>
+ </div>
+        </div>
+</div>
+</div>
+</div></div>
+</div></div><div class="manualarticlelist section">
+
+
+
+
+    
+    
+        
+        
+    
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+    
+
+
+
+
+    
+    
+    
+    
+    
+       	
+       		
+       		
+       			<div class="LayoutCellSides">
+		            <div class="LayoutBreakAfter LayoutRow">
+		                
+		            </div>
+
+	            </div>
+       		
+       	
+    
+
+
+</div>
+
+</div></div>
+
+        <div class="taglist">
+
+
+
+
+
+
+
+     
+ 	 
+
+
+
+    
+        
+        
+        
+        		
+		
+    
+    
+		
+</div>
+
+    </div>
+	<div class="LayoutGrid-5 LayoutRight LayoutWideRight">
+		<div class="parsys pocketcontentAdobe display">
+
+
+
+
+
+
+    
+        
+            
+            
+            	
+            
+        
+    
+    
+
+
+
+
+    
+    
+        
+                
+            
+            
+            
+
+			
+
+            
+            
+            
+            
+            
+                
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                
+				
+
+                
+                
+                    
+                    
+                    
+                
+            
+        
+            
+            
+    
+        
+
+        
+
+        
+        
+            
+        
+            
+        
+            
+        
+            
+        
+        
+        
+        
+         
+        
+        
+        
+	         
+        
+        
+        
+        
+        
+        
+        
+            <div class="LayoutRow">
+                <div class="ttt"><a href="http://feeds.feedburner.com/developer_center_tutorials" target="_blank"><img title="" alt="" class="cq-dd-image LayoutImage LayoutRow LayoutCenter" src="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/sharedpromo/header/adc_rss_ad.jpg.adimg.mh.220.mw.220.png" /></a></div>
+
+            </div>
+        
+            <div class="LayoutRow">
+                <div class="ttt"><a href="http://twitter.com/ADC_Adobe" target="_blank"><img title="" alt="" class="cq-dd-image LayoutImage LayoutRow LayoutCenter" src="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/sharedpromo/header/follow_the_adc_on_twitter.gif.adimg.mh.220.mw.220.png" /></a></div>
+
+            </div>
+        
+            <div class="LayoutRow">
+                <div class="ttt"><div class="LayoutRowBottom PanelFillDark PanelFillDarkGlow PanelBevelTop PanelBevelBottom">
+                    <div class="PanelBevelLeft">
+                        <div class="PanelBevelRight">
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        
+            <div class="LayoutRow">
+                <div class="ttt"><div class="LayoutRowBottom PanelFillDark PanelFillDarkGlow PanelBevelTop PanelBevelBottom">
+                    <div class="PanelBevelLeft">
+                        <div class="PanelBevelRight">
+                            <a href="http://www.adobe.com/newsletters/inspire/" target="_blank"><img title="Adobe Inspire Magazine" alt="Adobe Inspire Magazine" class="cq-dd-image LayoutImage LayoutCenter" src="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/sharedpromo/header/inspire-ha.png.adimg.mh.220.mw.220.png" /></a>
+
+
+
+
+<div class="LayoutBigCell TextSmall">
+                                    <h3 class="TextH5">
+                                            <a href="http://www.adobe.com/newsletters/inspire/" title="Adobe Inspire Magazine" target="_blank">Adobe Inspire Magazine</a></h3>
+                                    <div>
+                                            <div class="TextSmall">
+                                                    <p>The Edge newsletter is now Inspire Magazine! Read original content geared toward informing, enlightening, and inspiring web designers and developers.</p>
+</div>
+                                            </div>
+                                    </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        
+            <div class="LayoutRow">
+                
+            </div>
+        
+    
+
+
+
+
+
+    
+        
+            
+            
+            	
+            
+            
+    
+    
+
+
+</div>
+
+		<div class="ttt houseAdttt"></div>
+         
+   		
+		<div class="rrrelatedproducts relatedproducts">
+
+
+
+</div>
+
+    </div>
+    <div class="LayoutWideNoBreak LayoutGrid-1-4 LayoutWideGrid-6">
+        <div class="bodycontent2 parsys parsys_reflow">
+
+
+
+<div id="bodycontent2">
+<div class="LayoutBreakAfter"><div class="LayoutGrid-1-2 LayoutWideColumnBreak"><div class="parbase manuallinklist compbase section">
+
+
+
+
+
+
+
+    <div pathToMoreText="moreLink/linkText" class="LayoutRow LayoutBreakAfter TextH5" linkboxcolor="RouterMore">
+    <table style="width: 100%;">
+        <tbody>
+            <tr>
+                <td class="LayoutCellSides LayoutSmallCellVSides PanelFillDark">
+                    <h2 class="TextH5">
+                        Forums</h2>
+                </td>
+                <td class="LayoutCellSides LayoutSmallCellVSides RouterButton RouterMore" style="width: 40px">
+						<a class="RouterLink" href="http://forums.adobe.com/" target="_blank">More</a>
+							</td>
+                </tr>
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	    
+	        <div class="LayoutBreakAfter LayoutRowBottom">
+	            <div class="LayoutGrid-1">
+	                <ul class="LayoutCellSides TextSmall">
+	                    
+	                        
+	                        <li class="">
+                               	<a href="http://forums.adobe.com/community/flex" title="Flex" target="_blank">Flex</a>
+	                        </li>
+	                    
+	                        
+	                        <li class="">
+                               	<a href="http://forums.adobe.com/community/livecycle" title="LiveCycle" target="_blank">LiveCycle</a>
+	                        </li>
+	                    
+	                        
+	                        <li class="">
+                               	<a href="http://forums.adobe.com/community/flash" title="Flash" target="_blank">Flash</a>
+	                        </li>
+	                    
+	                        
+	                        <li class="">
+                               	<a href="http://forums.adobe.com/community/dreamweaver" title="Dreamweaver" target="_blank">Dreamweaver</a>
+	                        </li>
+	                    
+	                        
+	                        <li class="">
+                               	<a href="http://forums.adobe.com/community/coldfusion" title="ColdFusion" target="_blank">ColdFusion</a>
+	                        </li>
+	                    
+	                        
+	                        <li class="">
+                               	<a href="http://forums.adobe.com/community/webplayers/flash_player" title="Flash Player" target="_blank">Flash Player</a>
+	                        </li>
+	                    
+	                </ul>
+	            </div>
+	            <div class="LayoutGrid-2">
+	                <ul class="LayoutCellSides TextSmall">
+	                    
+	                        
+	                        <li class="">
+                               	<a href="http://forums.adobe.com/community/acrobat" title="Acrobat" target="_blank">Acrobat</a>
+	                        </li>
+	                    
+	                        
+	                        <li class="">
+                               	<a href="http://forums.adobe.com/community/photoshop" title="Photoshop" target="_blank">Photoshop</a>
+	                        </li>
+	                    
+	                        
+	                        <li class="">
+                               	<a href="https://developer.omniture.com/forum" title="Omniture" target="_blank">Omniture</a>
+	                        </li>
+	                    
+	                        
+	                        <li class="">
+                               	<a href="http://forums.adobe.com/community/flashcatalyst" title="Flash Catalyst" target="_blank">Flash Catalyst</a>
+	                        </li>
+	                    
+	                        
+	                        <li class="">
+                               	<a href="http://forums.adobe.com/community/flash/flash_media_server" title="Flash Media Server" target="_blank">Flash Media Server</a>
+	                        </li>
+	                    
+	                        
+	                        <li class="">
+                               	<a href="http://forums.adobe.com/community/air" title="Adobe AIR" target="_blank">Adobe AIR</a>
+	                        </li>
+	                    
+	                </ul>
+	            </div>
+	        </div>
+	    
+	    
+	
+
+
+
+</div>
+</div><div class="LayoutGrid-3-4 LayoutWideColumnBreak"><div class="parbase xdheading compbase section"><div pathToMoreText="moreLink/linkText" class="LayoutRow LayoutBreakAfter TextH5" linkboxcolor="RouterMore">
+    <table style="width: 100%;">
+        <tbody>
+            <tr>
+                <td class="LayoutCellSides LayoutSmallCellVSides PanelFillDark">
+                    <h2 class="TextH5">
+                        Events</h2>
+                </td>
+                <td class="LayoutCellSides LayoutSmallCellVSides RouterButton RouterMore" style="width: 40px">
+						<a class="RouterLink" href="http://www.adobe.com/devnet/events.html" target="_self">More</a>
+							</td>
+                </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+<div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-devnet-jcr-content-bodycontent2-ttt" class="LayoutBreakAfter"><div style="" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	</h3>
+        <ol class="LayoutRow" >
+                    <li>
+                        12/05 San Francisco, Calif.:&nbsp;<a href="http://html5nowandnext.eventbrite.com/" title="HTML5 Now and Next" target="_blank">HTML5 Now and Next</a></li>
+                    <li>
+                        12/07 Santa Clara, Calif.:&nbsp;<a href="http://html5.tmcnet.com/conference/california/" title="DevCon 5" target="_blank">DevCon 5</a></li>
+                    <li>
+                        02/01 Miami, Fla.:&nbsp;<a href="http://html5.tmcnet.com/conference/miami/" title="HTML5 Summit" target="_blank">HTML5 Summit</a></li>
+                    <li>
+                        02/27 Amsterdam, Netherlands:&nbsp;<a href="http://www.fitc.ca/events/about/?event=125" title="FITC Amsterdam 2012" target="_blank">FITC Amsterdam 2012</a></li>
+                    <li>
+                        02/27 Barcelona, Spain:&nbsp;<a href="http://www.mobileworldcongress.com/" title="Mobile World Congress 2012" target="_blank">Mobile World Congress 2012</a></li>
+                    <li>
+                        03/04 San Francisco, Calif.:&nbsp;<a href="http://www.flashgamingsummit.com/" title="Flash Gaming Summit" target="_blank">Flash Gaming Summit</a></li>
+                    <li>
+                        03/05 San Francisco, Calif.:&nbsp;<a href="http://www.gdconf.com/" title="GDC 2012">GDC 2012</a></li>
+                    <li>
+                        04/15 Denver, Colo.:&nbsp;<a href="http://www.360flex.com/" title="360|Flex 2012" target="_blank">360|Flex 2012</a></li>
+                    </ol>
+                    </div>
+</div>
+</div>
+</div></div>
+</div></div><div class="LayoutBreakAfter"><div class="LayoutGrid-1-2 LayoutWideColumnBreak"><div class="parbase xdheading compbase section"><div pathToMoreText="moreLink/linkText" class="LayoutRow LayoutBreakAfter TextH5" linkboxcolor="RouterMore">
+    <table style="width: 100%;">
+        <tbody>
+            <tr>
+                <td class="LayoutCellSides LayoutSmallCellVSides PanelFillDark">
+                    <h2 class="TextH5">
+                        Exchange</h2>
+                </td>
+                <td class="LayoutCellSides LayoutSmallCellVSides RouterButton RouterMore" style="width: 40px">
+						<a class="RouterLink" href="http://www.adobe.com/exchange/">More</a>
+							</td>
+                </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+<div class="rss section"><div id="rss-feed-1287378673467" class="RSSFeed ">
+        <h2 class="TextH5 LayoutCellSides">
+								<a href="http://www.adobe.com/exchange/" title="Flex Exchange" class="">Flex Exchange</a></h2>
+						<div class="LayoutRowBottom LayoutCellSides TextSmall">
+							<table>
+								<tr>
+											<td>
+														<a class="" href="http://www.adobe.com/cfusion/exchange/index.cfm?event=extensionDetail&extid=1048510" target="_self">SpringGraph Flex Component</a>
+													</td>
+												</tr>
+									<tr>
+											<td>
+														<a class="" href="http://www.adobe.com/cfusion/exchange/index.cfm?event=extensionDetail&extid=1035406" target="_self">Spring and Flex Integration</a>
+													</td>
+												</tr>
+									<tr>
+											<td>
+														<a class="" href="http://www.adobe.com/cfusion/exchange/index.cfm?event=extensionDetail&extid=1721530" target="_self">Flex AutoComplete</a>
+													</td>
+												</tr>
+									<tr>
+											<td>
+														<a class="" href="http://www.adobe.com/cfusion/exchange/index.cfm?event=extensionDetail&extid=1034708" target="_self">Visualization Component</a>
+													</td>
+												</tr>
+									</table>
+						</div>
+					</div>
+</div>
+<div class="rss section"><div id="rss-feed-1287378681458" class="RSSFeed ">
+        <h2 class="TextH5 LayoutCellSides">
+								<a href="http://www.adobe.com/exchange/" title="Flash Exchange" class="">Flash Exchange</a></h2>
+						<div class="LayoutRowBottom LayoutCellSides TextSmall">
+							<table>
+								<tr>
+											<td>
+														<a class="" href="http://www.adobe.com/cfusion/exchange/index.cfm?event=extensionDetail&extid=1031187" target="_self">Slide Show Menu Fla</a>
+													</td>
+												</tr>
+									<tr>
+											<td>
+														<a class="" href="http://www.adobe.com/cfusion/exchange/index.cfm?event=extensionDetail&extid=1013970" target="_self">Micro Menu XML (listing 7)</a>
+													</td>
+												</tr>
+									<tr>
+											<td>
+														<a class="" href="http://www.adobe.com/cfusion/exchange/index.cfm?event=extensionDetail&extid=1030026" target="_self">5 Star Rating System</a>
+													</td>
+												</tr>
+									<tr>
+											<td>
+														<a class="" href="http://www.adobe.com/cfusion/exchange/index.cfm?event=extensionDetail&extid=1183529" target="_self">TNT Photo Gallery (listing 12)</a>
+													</td>
+												</tr>
+									</table>
+						</div>
+					</div>
+</div>
+</div><div class="LayoutGrid-3-4 LayoutWideColumnBreak"><div class="parbase manuallinklist compbase section">
+
+
+
+
+
+
+
+    <div pathToMoreText="moreLink/linkText" class="LayoutRow LayoutBreakAfter TextH5" linkboxcolor="RouterMore">
+    <table style="width: 100%;">
+        <tbody>
+            <tr>
+                <td class="LayoutCellSides LayoutSmallCellVSides PanelFillDark">
+                    <h2 class="TextH5">
+                        User groups</h2>
+                </td>
+                <td class="LayoutCellSides LayoutSmallCellVSides RouterButton RouterMore" style="width: 40px">
+						<a class="RouterLink" href="http://groups.adobe.com/index.cfm?event=page.maps" target="_blank">More</a>
+							</td>
+                </tr>
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+	
+	
+	    
+	    
+	        <ul class="LayoutCellSides TextSmall LayoutRow">
+	            
+	                
+	                <li class="">
+                       	<a href="http://laflash.groups.adobe.com/" title="Los Angeles Flash User Group" target="_blank">Los Angeles Flash User Group</a>
+	                </li>
+	            
+	                
+	                <li class="">
+                       	<a href="http://creativesuitesanjose.groups.adobe.com/" title="San Jose Creative Suite User Group" target="_blank">San Jose Creative Suite User Group</a>
+	                </li>
+	            
+	                
+	                <li class="">
+                       	<a href="http://www.rmaug.com/" title="Rocky Mountain Adobe User Group" target="_blank">Rocky Mountain Adobe User Group</a>
+	                </li>
+	            
+	                
+	                <li class="">
+                       	<a href="http://www.lightroomtampabay.com/" title="Lightroom Tampa Bay User Group" target="_blank">Lightroom Tampa Bay User Group</a>
+	                </li>
+	            
+	                
+	                <li class="">
+                       	<a href="http://raug.groups.adobe.com/" title="Richmond Adobe User Group " target="_blank">Richmond Adobe User Group </a>
+	                </li>
+	            
+	                
+	                <li class="">
+                       	<a href="http://olcug.groups.adobe.com/" title="Ottawa LiveCycle User Group" target="_blank">Ottawa LiveCycle User Group</a>
+	                </li>
+	            
+	        </ul>
+	    
+	
+
+
+
+</div>
+</div></div><div class="LayoutBreakAfter"><div class="LayoutGrid-1-2 LayoutWideColumnBreak"><div class="rss section"><div id="rss-feed-1320175020410" class="RSSFeed ">
+        <div pathToMoreText="moreText" class="LayoutRow LayoutBreakAfter TextH5">
+    <table style="width: 100%;">
+        <tbody>
+            <tr>
+                <td class="LayoutCellSides LayoutSmallCellVSides PanelFillDark">
+                    <h2 class="TextH5">
+                        Evangelist blogs</h2>
+                </td>
+                <td class="LayoutCellSides LayoutSmallCellVSides RouterButton RouterMore" style="width: 40px">
+						<a class="RouterLink" href="http://feeds.feedburner.com/AdobeEvangelists" target="_self">More</a>
+							</td>
+                </tr>
+        </tbody>
+    </table>
+</div>
+<div class="LayoutRowBottom LayoutCellSides TextSmall">
+							<table>
+								<tr>
+											<td>
+														<a class="" href="http://www.riagora.com/2011/11/flex-4-6-is-out/" target="_self">Flex 4.6 is out!</a>
+													</td>
+												</tr>
+									<tr>
+											<td>
+														<a class="" href="http://devgirl.org/2011/11/29/flex-mobile-development-flex-4-6-cool-new-soft-keyboard-features-sample-w-source/" target="_self">Flex Mobile Development â¬ Flex 4.6 Cool New Soft Keyboard Features â¬ sample w/ source!</a>
+													</td>
+												</tr>
+									<tr>
+											<td>
+														<a class="" href="http://www.riagora.com/2011/11/flex-is-open/" target="_self">Flexcursion with Apache</a>
+													</td>
+												</tr>
+									<tr>
+											<td>
+														<a class="" href="http://devgirl.org/2011/11/17/flex-is-alive/" target="_self">Flex is Alive!</a>
+													</td>
+												</tr>
+									</table>
+						</div>
+					</div>
+</div>
+</div><div class="LayoutGrid-3-4 LayoutWideColumnBreak"><div class="rss section"><div id="rss-feed-1287373384260" class="RSSFeed ">
+        <div pathToMoreText="moreText" class="LayoutRow LayoutBreakAfter TextH5">
+    <table style="width: 100%;">
+        <tbody>
+            <tr>
+                <td class="LayoutCellSides LayoutSmallCellVSides PanelFillDark">
+                    <h2 class="TextH5">
+                        Adobe Cookbook recipes</h2>
+                </td>
+                <td class="LayoutCellSides LayoutSmallCellVSides RouterButton RouterMore" style="width: 40px">
+						<a class="RouterLink" href="http://cookbooks.adobe.com" target="_self">More</a>
+							</td>
+                </tr>
+        </tbody>
+    </table>
+</div>
+<div class="LayoutRowBottom LayoutCellSides TextSmall">
+							<table>
+								<tr>
+											<td>
+														<a class="" href="http://cookbooks.adobe.com/post_Button_compatibility_with_NativeComboBox-19515.html" target="_self">Button compatibility with NativeComboBox</a>
+													</td>
+												</tr>
+									<tr>
+											<td>
+														<a class="" href="http://cookbooks.adobe.com/post_Create_a_Flip_Image_Effect_for_Digital_Publishing-19509.html" target="_self">Create a Flip Image Effect for Digital Publishing</a>
+													</td>
+												</tr>
+									<tr>
+											<td>
+														<a class="" href="http://cookbooks.adobe.com/post_Skinning_custom_ActionScript_UI_components_in_Flas-19504.html" target="_self">Skinning custom ActionScript UI components in Flash Catalyst</a>
+													</td>
+												</tr>
+									<tr>
+											<td>
+														<a class="" href="http://cookbooks.adobe.com/post_ExifTool___making_it_scream_-19501.html" target="_self">ExifTool - making it scream!</a>
+													</td>
+												</tr>
+									</table>
+						</div>
+					</div>
+</div>
+</div></div>
+</div></div>
+
+    </div>
+</div>
+<div class="ModalTip"></div>
+<div class="PrintLayoutHide">
+        <!--googleon: all-->
+
+
+
+
+
+
+<script type="text/javascript">
+	var hideEvidon = false;
+	
+    $(document).ready(adobe.fn.initGlobalFooter);
+    changeRegion = adobe.fn.changeRegionFooter;
+</script>
+
+
+
+<!--googleoff: index-->
+<!-- $Id: globalfooter_ssi.html,v 1.18.2.2 2011/11/03 20:23:44 dgasior Exp $ -->
+<div id="SiteFooter" class="SiteFooter Text TextSmall TextInvert Link LayoutBreak">
+    <div class="LayoutBreakAfter">
+        <div class="LayoutGrid-1 LinkInvert">
+        	<div class="LayoutCellSides LayoutCellTop">
+                <h4><a href="http://www.adobe.com/go/gffooter_products">Products</a></h4>
+                <ul class="SiteFooterLinkList">
+                    <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconCS" href="http://www.adobe.com/go/gffooter_creative_suite">Creative Suite</a></li>
+                    <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconPS" href="http://www.adobe.com/go/gffooter_photoshop_family">Photoshop Family</a></li>
+                    <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="http://www.adobe.com/go/gffooter_acrobat_family">Acrobat Family</a></li>
+                    <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconPlatform" href="gffooter_flash_platform">Flash Platform</a></li>
+                    <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconOMS" href="gffooter_online_marketing_suite">Digital Marketing Suite</a></li>
+                    <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconDES" href="gffooter_digital_enterprise_suite">Digital Enterprise Suite</a></li>
+                    <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconDPS" href="http://www.adobe.com/go/gffooter_digital_publishing_suite">Digital Publishing Suite</a></li>
+                    <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconMobile" href="gffooter_mobile_apps">Mobile apps</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="LayoutGrid-2 LinkInvert">
+        	<div class="LayoutCellSides LayoutCellTop">
+                <h4><a href="gffooter_solutions">Solutions</a></h4>
+                <ul class="SiteFooterLinkList">
+                    <li><a href="gffooter_customer_experience_management">Customer experience management</a></li>
+                    <li><a href="gffooter_content_authoring">Content authoring</a></li>
+                    <li><a href="gffooter_online_marketing">Digital marketing</a></li>
+                </ul>
+                
+                <h4><a href="gffooter_industries">Industries</a></h4>
+                <ul class="SiteFooterLinkList SiteFooterLinkListBottom">
+                    <li><a href="gffooter_education">Education</a></li>
+                    <li><a href="gffooter_financial_services">Financial services</a></li>
+                    <li><a href="gffooter_government">Government</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="LayoutGrid-3 LinkInvert">
+        	<div class="LayoutCellSides LayoutCellTop">
+                <h4><a href="gffooter_help">Help</a></h4>
+                <ul class="SiteFooterLinkList">
+                    <li><a href="gffooter_product_help_centers">Product help centers</a></li>
+                    <li><a href="gffooter_order_return">Orders and returns</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_download_install">Downloading and installing</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_myadobe">My Adobe</a></li>
+                </ul>
+    
+                <h4><a href="gffooter_learning">Learning</a></h4>
+                <ul class="SiteFooterLinkList SiteFooterLinkListBottom">
+                    <li><a href="gffooter_adobe_developer_connection">Adobe Developer Connection</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_adobetv">Adobe TV</a></li>
+                    <li><a href="gffooter_training_certification">Training and certification</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_forums">Forums</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_design_center">Design Center</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="LayoutGrid-4 LinkInvert">
+        	<div class="LayoutCellSides LayoutCellTop">
+                <h4><a href="http://www.adobe.com/go/gffooter_buy">Ways to buy</a></h4>
+                <ul class="SiteFooterLinkList">
+                    <li><a href="http://www.adobe.com/go/gffooter_adobe_store">Adobe Store</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_students_store">For students and educators</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_small_medium_business">For small and medium businesses</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_for_enterprises">For enterprises</a></li>
+                </ul>
+    
+                <h4><a href="http://www.adobe.com/go/gffooter_downloads">Downloads</a></h4>
+                <ul class="SiteFooterLinkList SiteFooterLinkListBottom">
+                    <li><a href="http://www.adobe.com/go/gffooter_adobe_reader">Adobe Reader</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_adobe_flashplayer">Adobe Flash Player</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_adobe_air">Adobe AIR</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_adobe_shockwave_player">Adobe Shockwave Player</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="LayoutGrid-5 LinkInvert">
+        	<div class="LayoutCellSides LayoutCellTop">
+                <h4><a href="http://www.adobe.com/go/gffooter_company">Company</a></h4>
+                <ul class="SiteFooterLinkList">
+                    <li><a href="http://www.adobe.com/go/gffooter_news_room">News room</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_partner_programs">Partner programs</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_corporate_social_responsibility">Corporate social responsibility</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_career_opportunities">Career opportunities</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_investor_relation">Investor Relations</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_events">Events</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_legal">Legal</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_contact_adobe">Contact Adobe</a></li>
+                </ul>
+            </div>
+        </div>
+        
+		<div class="LayoutGridBreak">
+        	<div class="LayoutCellSides LayoutCellBottom">
+                <div class="SiteFooterRegionSelector TextInvert LinkInvert LinkStrong">
+                    <a href="http://www.adobe.com/go/gffooter_choose_region" id="sfRegion" class="SiteFooterMenuItemIcon SiteFooterMenuItemIconRegionBlue">Choose your region</a>
+                    <span id="sfRegionSet" class="SiteFooterMenuItemIcon SiteFooterMenuItemIconRegionBlack" style="display: none;">United States <a href="http://www.adobe.com/go/gffooter_choose_region" id="sfRegionChange">(Change)</a></span>
+                </div>
+                <div class="SiteFooterRegionPanel SiteFooterRegionPanelEvidon" id="RegionPanel" style="display: none;">
+                    <div class="SiteFooterRegionPanelHeader">
+                        <span class="SiteFooterMenuItemIcon SiteFooterMenuItemIconRegionBlack">Choose your region</span>
+                        <a id="sfRegionClose" class="SiteFooterRegionPanelHeaderClose">Close</a>
+                    </div>
+                    <div class="Column">
+                        <div class="Column-1">
+                            <p class="SiteFooterRegionPanelRegionHeader">North America</p>
+                        </div>
+                        <div class="Column-2-3">
+                            <p class="SiteFooterRegionPanelRegionHeader">Europe, Middle East and Africa</p>
+                        </div>
+                        <div class="Column-4">
+                            <p class="SiteFooterRegionPanelRegionHeader">Asia Pacific</p>
+                        </div>
+                        <div class="Column-1">
+                            <ul>
+                                <li lang="en"><a onclick="changeRegion('ca');">Canada - English</a></li>
+                                <li lang="fr"><a onclick="changeRegion('ca_fr');">Canada - Fran&ccedil;ais</a></li>
+                                <li lang="es"><a onclick="changeRegion('la');">Latinoam&eacute;rica</a></li>
+                                <li lang="es"><a onclick="changeRegion('mx');">M&eacute;xico</a></li>
+                                <li lang="en"><a onclick="changeRegion('us');">United States</a></li>
+                            </ul>
+            
+                            <p class="SiteFooterRegionPanelRegionHeader">South America</p>
+                            <ul>
+                                <li lang="pt"><a onclick="changeRegion('br');">Brasil</a></li>
+                            </ul>
+                        </div>
+                        <div class="Column-2">
+                            <ul>
+                                <li lang="en"><a onclick="changeRegion('africa');">Africa - English</a></li>
+                                <li lang="de"><a onclick="changeRegion('at');">&Ouml;sterreich - Deutsch</a></li>
+                                <li lang="en"><a onclick="changeRegion('be_en');">Belgium - English</a></li>
+                                <li lang="fr"><a onclick="changeRegion('be_fr');">Belgique - Fran&ccedil;ais</a></li>
+                                <li lang="nl"><a onclick="changeRegion('be_nl');">Belgi&euml; - Nederlands</a></li>
+                                <li lang="bg"><a onclick="changeRegion('bg');">ÐÑ`Ð»Ð³Ð°Ñ¬Ð¸Ñý</a></li>
+                                <li lang="hr"><a onclick="changeRegion('hr');">Hrvatska</a></li>
+                                <li lang="cs"><a onclick="changeRegion('cz');">ÄResk&aacute; republika</a></li>
+                                <li lang="da"><a onclick="changeRegion('dk');">Danmark</a></li>
+                                <li lang="en"><a onclick="changeRegion('eeurope');">Eastern Europe - English</a></li>
+                                <li lang="et"><a onclick="changeRegion('ee');">Eesti</a></li>
+                                <li lang="fi"><a onclick="changeRegion('fi');">Suomi</a></li>
+                                <li lang="fr"><a onclick="changeRegion('fr');">France</a></li>
+                                <li lang="de"><a onclick="changeRegion('de');">Deutschland</a></li>
+                                <li lang="hu"><a onclick="changeRegion('hu');">Magyarorsz&aacute;g</a></li>
+                                <li lang="en"><a onclick="changeRegion('ie');">Ireland</a></li>
+                                <li lang="en"><a onclick="changeRegion('il_en');">Israel - English</a></li>
+                                <li lang="it"><a onclick="changeRegion('it');">Italia</a></li>
+                                <li lang="lv"><a onclick="changeRegion('lv');">Latvija</a></li>
+                                <li lang="lt"><a onclick="changeRegion('lt');">Lietuva</a></li>
+                                <li lang="de"><a onclick="changeRegion('lu_de');">Luxembourg - Deutsch</a></li>
+                            </ul>
+                        </div>
+                        <div class="Column-3">
+                            <ul>
+                                <li lang="en"><a onclick="changeRegion('lu_en');">Luxembourg - English</a></li>
+                                <li lang="fr"><a onclick="changeRegion('lu_fr');">Luxembourg - Fran&ccedil;ais</a></li>
+                                <li lang="en"><a onclick="changeRegion('mena');">Middle East and North Africa - English</a></li>
+                                <li lang="nl"><a onclick="changeRegion('nl');">Nederland</a></li>
+                                <li lang="no"><a onclick="changeRegion('no');">Norge</a></li>
+                                <li lang="pl"><a onclick="changeRegion('pl');">Polska</a></li>
+                                <li lang="pt"><a onclick="changeRegion('pt');">Portugal</a></li>
+                                <li lang="ro"><a onclick="changeRegion('ro');">Rom&acirc;nia</a></li>
+                                <li lang="ru"><a onclick="changeRegion('ru');">Ð Ð¾ÑýÑýÐ¸Ñý</a></li>
+                                <li lang="sr"><a onclick="changeRegion('rs');">Srbija</a></li>
+                                <li lang="sk"><a onclick="changeRegion('sk');">Slovensko</a></li>
+                                <li lang="sl"><a onclick="changeRegion('si');">Slovenija</a></li>
+                                <li lang="es"><a onclick="changeRegion('es');">Espa&ntilde;a</a></li>
+                                <li lang="sv"><a onclick="changeRegion('se');">Sverige</a></li>
+                                <li lang="de"><a onclick="changeRegion('ch_de');">Schweiz - Deutsch</a></li>
+                                <li lang="fr"><a onclick="changeRegion('ch_fr');">Suisse - Fran&ccedil;ais</a></li>
+                                <li lang="it"><a onclick="changeRegion('ch_it');">Svizzera - Italiano</a></li>
+                                <li lang="tr"><a onclick="changeRegion('tr');">T&uuml;rkiye</a></li>
+                                <li lang="uk"><a onclick="changeRegion('ua');">Ð£ÐºÑ¬Ð°ÑÐ½Ð°</a></li>
+                                <li lang="en"><a onclick="changeRegion('uk');">United Kingdom</a></li>
+                            </ul>
+                        </div>
+                        <div class="Column-4">
+                            <ul>
+                                <li lang="en"><a onclick="changeRegion('au');">Australia</a></li>
+                                <li lang="zh"><a onclick="changeRegion('cn');">ä¸­å:½</a></li>
+                                <li lang="zh"><a onclick="changeRegion('hk_zh');">ä¸­åS9é¦"æ¸¯ç0¹åÆ¥è¡Ræ¿åý¬</a></li>
+                                <li lang="en"><a onclick="changeRegion('hk_en');">Hong Kong S.A.R. of China</a></li>
+                                <li lang="en"><a onclick="changeRegion('in');">India - English</a></li>
+                                <li lang="ja"><a onclick="changeRegion('jp');">æ¥æS¬</a></li>
+                                <li lang="ko"><a onclick="changeRegion('kr');">í"Sêµ­</a></li>
+                                <li lang="en"><a onclick="changeRegion('nz');">New Zealand</a></li>
+                                <li lang="en"><a onclick="changeRegion('ap');">Pacific - English</a></li>
+                                <li lang="zh"><a onclick="changeRegion('tw');">åý°çý£</a></li>
+                            </ul>
+            
+                            <p class="SiteFooterRegionPanelRegionHeader">Southeast Asia</p>
+                            <ul>
+                                <li lang="en"><a onclick="changeRegion('sea');">Includes Indonesia, Malaysia, Philippines, Singapore, Thailand, and Vietnam - English</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+		<div class="LayoutGridBreak">
+        	<div class="LayoutCellSides">
+                <hr />
+            </div>
+        </div>
+    
+        <div class="LayoutGrid-1-4 LinkInvert LinkStrong">
+        	<div class="LayoutCellSides LayoutCellBottom LinkInvert">
+                <p class="SiteFooterRow TextSmall">Copyright &copy; 2011 Adobe Systems Incorporated.  All rights reserved.</p>
+                <p class="SiteFooterRow TextSmall">Use of this website signifies your agreement to the <a href="http://www.adobe.com/go/gffooter_terms_of_use">Terms of Use</a> and <a href="http://www.adobe.com/go/gffooter_online_privacy_policy">Online Privacy Policy</a> <em>(updated 07-14-2009)</em>.</p>
+                <p class="SiteFooterRow SiteFooterRowTop"><a href="http://www.adobe.com/devnet.html#" id="_bapw-link" class="TextSmall icon Icon SiteFooterMenuItemIconEvidon" style="display:none;">Ad Choices</a></p>
+            </div>
+        </div>
+        <div class="LayoutGrid-5">
+        	<div class="LayoutCell">
+                <p class="TextRight"><a href="http://www.adobe.com/go/gffooter_trust_icon"><img alt="Reviewed by TRUSTe: site privacy statement" src="http://www.adobe.com/include/img/truste_seal_eu.gif" /></a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--googleon: index-->
+<!--googleoff: all--></div>
+    
+<div class="parsys templatembox bottomofbodymbox">
+
+
+    
+        
+                <div class="mboxDefault">
+                    
+                    
+                    
+                </div>
+                
+                
+                    <script type="text/javascript">
+                            mboxCreate('defaultmboxname');
+                    </script>
+                
+        
+    
+    
+
+</div>
+
+<div class="parsys doubleclickfloodlight">
+
+
+    
+        
+                
+        
+    
+    
+
+</div>
+
+<!-- SiteCatalyst Copyright 2002 Omniture, Inc. More info available at http://www.omniture.com -->
+<script language="JavaScript" type="text/javascript">
+<!--
+	var s_code = " ";
+	var s_Host = window.location.hostname.toLowerCase();
+	var s_account = "mxmacromedia";
+	var scJsHost = (("https:" == document.location.protocol) ? "https://www.adobe.com" : "http://wwwimages.adobe.com");
+	document.write(unescape("%3Cscript src='" + scJsHost + "/uber/js/omniture_s_code.js' type='text/javascript'%3E%3C/script%3E"));
+//-->
+</script>
+<script language="JavaScript" type="text/javascript">
+<!--
+	s.channel = "DevNet";
+	s.server = "Day WCMS";
+
+	/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+	//var s_code=s.t();if(s_code)document.write(s_code);
+//-->
+</script>
+<script language="JavaScript" type="text/javascript">
+<!--
+	if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-');
+//-->
+</script>
+<noscript>
+        <img src="http://stats.adobe.com/b/ss/mxmacromedia/1/H.22--NS/0?pageName=WCMS%3A%20Noscript&g=http%3A//www.adobe.com/&ch=WCMS%3A%20noscript&server=WCMS" height="1" width="1" border="0" alt="" />
+</noscript>
+
+<!-- End Omniture SiteCatalyst code -->
+<!-- End SiteCatalyst code version: H.20.3 -->
+
+<script type="text/javascript">
+            //<![CDATA[
+            if (isDesktop()) {
+                var scJsHost = (("https:" == document.location.protocol) ? "https://www.adobe.com" : "http://wwwimages.adobe.com");
+                document.write(unescape("%3Cscript src='" + scJsHost + "/include/script/foresee/foresee-trigger.js' type='text/javascript'%3E%3C/script%3E"));
+            }
+            //]]>
+
+        </script>
+    </div>
+</body>
+</html>

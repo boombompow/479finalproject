@@ -1,0 +1,488 @@
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr-ca">
+<head><link id="EktronRegisteredCss" rel="stylesheet" type="text/css" href="http://amt.qc.ca/workarea/csslib/ektronCss.ashx?id=EktronModalCss" /><meta http-equiv="content-language" content="fr-ca"/><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="google-site-verification" content="94dJnrw2_htLre8zTfKse-Sj0KIXcO3iHzbfWKdvpaY" /><link href="http://amt.qc.ca/css/style.css" rel="stylesheet" type="text/css" /><link href="http://amt.qc.ca/css/client.css" rel="stylesheet" type="text/css" /><link href="http://amt.qc.ca/css/client_design.css" rel="stylesheet" type="text/css" />
+
+    
+    <script type="text/javascript" src="https://jqueryjs.googlecode.com/files/jquery-1.2.5.min.js"></script>
+    <script language="javascript" type="text/javascript" src="http://amt.qc.ca/js/taille_texte.js"></script>
+    <script src="http://amt.qc.ca/js/modal_fd.js" type="text/javascript"></script>
+    <script src="http://amt.qc.ca/js/dimension_fd.js" type="text/javascript"></script>
+    <script src="http://amt.qc.ca/js/toggle_fd.js" type="text/javascript"></script>
+    
+    
+    <script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-16086161-1");
+		pageTracker._setDomainName(".amt.qc.ca");
+		pageTracker._trackPageview();
+		} catch (err) { }
+	</script>
+
+
+<script language='JavaScript' type='text/javascript'>
+<!--
+
+    var page = window.location.pathname;
+    var site_language = 3084;
+
+    //alert(page.toLowerCase());
+    if (((page.toLowerCase() == "/recherche.aspx" || page.toLowerCase() == "/recherche_corp.aspx")) && (site_language == 3084)) {
+        $(document).ready(function() {
+            //alert("here");
+            $("#ecmDefaultAdvText").val("Recherche avancée");
+            $("#basicTermsAnchor").html("Recherche de base")
+            $("#advancedTermsAnchor").html("Recherche avancée")
+            $("#scopeAll").text("Site")
+            $("#scopeHtml").text("HTML")
+            $("#scopeDocuments").text("Documents")
+            $("#scopeImages").text("Images")
+            $("#scopeMultimedia").text("Multimédia")
+            $("#scopeForums").text("Forums")
+            $("#parentForFiltersError").text("Erreur: Impossible d'ajouter dans les filtres du recherches avancées.");
+
+            jQuery.each($("label"), function() {
+                //alert($(this).html());
+                $(this).html($(this).html().replace("with <B>all</B> of the words", "avec <B>tous</B> les mots"));
+                $(this).html($(this).html().replace("advanced search <B>exact phrase</B>", "recherche avancée <B>expression exacte</B>"));
+                $(this).html($(this).html().replace("<B>at least one</B> of the words", "<B>au moins</B> un des mots"));
+                $(this).html($(this).html().replace("<B>without</B> the words", "<B>sans</B> les mots"));
+                
+                  $(this).html($(this).html().replace("with <b>all</b> of the words", "avec <b>tous</b> les mots"));
+                $(this).html($(this).html().replace("advanced search <b>exact phrase</b>", "recherche avancée <b>expression exacte</b>"));
+                $(this).html($(this).html().replace("<b>at least one</b> of the words", "<b>au moins</b> un des mots"));
+                $(this).html($(this).html().replace("<b>without</b> the words", "<B>sans</B> les mots"));
+                
+            });
+
+
+            $("legend:first").text("Trouver des résultats par");
+            $("legend:last").text("Filtrer les résultats");
+            $(".addFilter").val("Ajouter le filtre");
+
+        });
+    }  
+//-->
+</script>
+   
+<title>
+	AMT - Service à la clientèle
+</title></head>
+<body id="BodyContent" style="background:white;">
+
+    <span id="ctl00_LanguageAPI1"></span>
+    <form name="aspnetForm" method="post" action="http://amt.qc.ca/service_clientele/" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTMwNDA2NjEyOQ9kFgJmD2QWBGYPZBYEAgMPFgIeBFRleHQFNTxtZXRhIGh0dHAtZXF1aXY9ImNvbnRlbnQtbGFuZ3VhZ2UiIGNvbnRlbnQ9ImZyLWNhIi8+ZAIKDxYCHwAFGXZhciBzaXRlX2xhbmd1YWdlID0gMzA4NDtkAgIQZGQWKGYPFgIfAAWSAjxhIGNsYXNzPSJtZW51X3NlY29uZGFpcmVfbGlua19zZWxlY3RlZCIgaHJlZj0iL1dvcmtBcmVhL2xpbmtpdC5hc3B4P0xpbmtJZGVudGlmaWVyPUlEJmFtcDtJdGVtSUQ9MTYwMCI+U2VydmljZSDDoCBsYSBjbGllbnTDqGxlPC9hPjxzcGFuIHN0eWxlPSJjb2xvcjogIzViNzhhNTsgcGFkZGluZzogMHB4IDEycHggMHB4IDEycHg7Ij58PC9zcGFuPjxhIGNsYXNzPSJtZW51X3NlY29uZGFpcmVfbGlua19zZWxlY3RlZCIgaHJlZj0iL2hvbWUuYXNweCI+RXNwYWNlIENsaWVudDwvYT5kAgEPDxYCHwAFCiBSZWNoZXJjaGUWBh4Fc3R5bGUFGG1hcmdpbjowcHg7IGJvcmRlcjpub25lOx4Hb25jbGljawUMQ2xlYXJGb3JtKCk7HgZvbmJsdXIFEkNoZWNrU3RhdHVzKDMwODQpO2QCAw8PFgIfAAV1PGEgY2xhc3M9Im1lbnVfc2Vjb25kYWlyZV9saW5rX3NlbGVjdGVkIiBocmVmPSIvV29ya0FyZWEvbGlua2l0LmFzcHg/TGlua0lkZW50aWZpZXI9SUQmYW1wO0l0ZW1JRD0zNTYiPkNvcnBvcmF0aWY8L2E+ZGQCBA8PFgIeC05hdmlnYXRlVXJsBSovY29udGVudF9zaW1wbGUuYXNweD9pZD0xNjAwJkxhbmdUeXBlPTEwMzNkFgJmDw8WBB8ABQdFbmdsaXNoHgdUb29sVGlwZWRkAgUPFgIfAAWkAjxhIG9ubW91c2VvdmVyPSJzaG93aGlkZV9tZW51KCdtZW51MTEnLCdtZW51MScsMSAsICdvdmVyJykiIG9ubW91c2VvdXQ9InNob3doaWRlX21lbnUoJ21lbnUxJywnbWVudTExJywxLCAnb3V0JykiIGhyZWY9Ii90cmFpbi9kZXV4LW1vbnRhZ25lcy5hc3B4Ij48aW1nIGlkPSJtZW51MSIgc3JjPSIvaW1hZ2VzL2hlYWRlci9mci9idG5fdHJhaW4uZ2lmIiAvPjxpbWcgaWQ9Im1lbnUxMSIgc3JjPSIvaW1hZ2VzL2hlYWRlci9mci9idG5fdHJhaW5fb3Zlci5naWYiIHN0eWxlPSJkaXNwbGF5Om5vbmU7IiAvPjwvYT5kAgYPFgIfAAWVAjxhIG9ubW91c2VvdmVyPSJzaG93aGlkZV9tZW51KCdtZW51MjInLCdtZW51MicsMiwgJ292ZXInKSIgb25tb3VzZW91dD0ic2hvd2hpZGVfbWVudSgnbWVudTInLCdtZW51MjInLDIsICdvdXQnKSIgaHJlZj0iL2F1dG9idXMvIj48aW1nIGlkPSJtZW51MiIgc3JjPSIvaW1hZ2VzL2hlYWRlci9mci9idG5fYXV0b2J1cy5naWYiIC8+PGltZyBpZD0ibWVudTIyIiBzcmM9Ii9pbWFnZXMvaGVhZGVyL2ZyL2J0bl9hdXRvYnVzX292ZXIuZ2lmIiBzdHlsZT0iZGlzcGxheTpub25lOyIvPjwvYT5kAgcPFgIfAAWQAjxhIG9ubW91c2VvdmVyPSJzaG93aGlkZV9tZW51KCdtZW51MzMnLCdtZW51MycsMywgJ292ZXInKSIgb25tb3VzZW91dD0ic2hvd2hpZGVfbWVudSgnbWVudTMnLCdtZW51MzMnLDMsICdvdXQnKSIgaHJlZj0iL21ldHJvLyI+PGltZyBpZD0ibWVudTMiIHNyYz0iL2ltYWdlcy9oZWFkZXIvZnIvYnRuX21ldHJvLmdpZiIgLz48aW1nIGlkPSJtZW51MzMiIHNyYz0iL2ltYWdlcy9oZWFkZXIvZnIvYnRuX21ldHJvX292ZXIuZ2lmIiBzdHlsZT0iZGlzcGxheTpub25lOyIgLz48L2E+ZAIIDxYCHwAFmgI8YSBvbm1vdXNlb3Zlcj0ic2hvd2hpZGVfbWVudSgnbWVudTQ0JywnbWVudTQnLDQsICdvdmVyJykiIG9ubW91c2VvdXQ9InNob3doaWRlX21lbnUoJ21lbnU0JywnbWVudTQ0Jyw0LCAnb3V0JykiIGhyZWY9Ii90aXRyZXNfdGFyaWZzLyI+PGltZyBpZD0ibWVudTQiIHNyYz0iL2ltYWdlcy9oZWFkZXIvZnIvYnRuX3Rhcmlmcy5naWYiIC8+PGltZyBpZD0ibWVudTQ0IiBzcmM9Ii9pbWFnZXMvaGVhZGVyL2ZyL2J0bl90YXJpZnNfb3Zlci5naWYiIHN0eWxlPSJkaXNwbGF5Om5vbmU7IiAvPjwvYT5kAgkPFgIfAAWHAjxhIG9ubW91c2VvdmVyPSJzaG93aGlkZV9tZW51KCdtZW51NTUnLCdtZW51NScsNSwgJ292ZXInKSIgb25tb3VzZW91dD0ic2hvd2hpZGVfbWVudSgnbWVudTUnLCdtZW51NTUnLDUsICdvdXQnKSIgaHJlZj0iL3RhLyI+PGltZyBpZD0ibWVudTUiIHNyYz0iL2ltYWdlcy9oZWFkZXIvZnIvYnRuX3RhLmdpZiIgLz48aW1nIGlkPSJtZW51NTUiIHNyYz0iL2ltYWdlcy9oZWFkZXIvZnIvYnRuX3RhX292ZXIuZ2lmIiBzdHlsZT0iZGlzcGxheTpub25lOyIgLz48L2E+ZAIKDxYCHwAFogI8YSBvbm1vdXNlb3Zlcj0ic2hvd2hpZGVfbWVudSgnbWVudTY2JywnbWVudTYnLDYsICdvdmVyJykiIG9ubW91c2VvdXQ9InNob3doaWRlX21lbnUoJ21lbnU2JywnbWVudTY2Jyw2LCAnb3V0JykiIGhyZWY9Ii9jb3ZvaXR1cmFnZS8iPjxpbWcgaWQ9Im1lbnU2IiBzcmM9Ii9pbWFnZXMvaGVhZGVyL2ZyL2J0bl9jb3ZvaXR1cmFnZS5naWYiIC8+PGltZyBpZD0ibWVudTY2IiBzcmM9Ii9pbWFnZXMvaGVhZGVyL2ZyL2J0bl9jb3ZvaXR1cmFnZV9vdmVyLmdpZiIgc3R5bGU9ImRpc3BsYXk6bm9uZTsiIC8+PC9hPmQCDA8PFgIeCEltYWdlVXJsBSMvaW1hZ2VzL3dpZGdldHMvZnIvaW1nX3dpZGdldF8xLmpwZ2RkAg0PDxYCHwYFIy9pbWFnZXMvd2lkZ2V0cy9mci9pbWdfd2lkZ2V0XzIuanBnZGQCDg8PFgIfBgUkL2ltYWdlcy93aWRnZXRzL2ZyL2ltZ193aWRnZXRfM1YuanBnZGQCDw8WAh4Dc3JjBRUvT3V0aWxfQXZpcy9BdmlzLmFzcHhkAhEPZBYCAgEPFgIeB1Zpc2libGVnFgJmD2QWBGYPZBYCZg9kFgICAQ8PFgIfAAVfPGltZyBib3JkZXI9IjAiIHNyYz0iL3VwbG9hZGVkSW1hZ2VzL0FNVC9NZW51X3NlY29uZGFpcmUvTm91c19qb2luZHJlL05vdXNKb2luZHJlLmpwZz9uPTk2OSIgLz5kZAIBD2QWAgIBD2QWAgICDxYCHwAFzAw8dGFibGUgYm9yZGVyPSIwIiBjZWxscGFkZGluZz0iMCIgY2VsbHNwYWNpbmc9IjAiIHdpZHRoPSIxMDAlIj48dHI+PHRkIGNsYXNzPSJ0YWJsZV9tZW51IiBzdHlsZT0iIj48ZGl2IHN0eWxlPSJ2ZXJ0aWNhbC1hbGlnbjptaWRkbGU7Ij48YSAgaHJlZj0iL3NlcnZpY2VfY2xpZW50ZWxlL2F2aXMuYXNweCIgY2xhc3M9Im1lbnVfdGV4dF9ibGV1IiBzdHlsZT0idGV4dC10cmFuc2Zvcm06dXBwZXJjYXNlOyI+QXZpcyDDoCBsYSBjbGllbnTDqGxlPC9hPjwvZGl2PjwvdGQ+PC90cj48L3RhYmxlPjx0YWJsZSBib3JkZXI9IjAiIGNlbGxwYWRkaW5nPSIwIiBjZWxsc3BhY2luZz0iMCIgd2lkdGg9IjEwMCUiPjx0cj48dGQgY2xhc3M9InRhYmxlX21lbnUiIHN0eWxlPSIiPjxkaXYgc3R5bGU9InZlcnRpY2FsLWFsaWduOm1pZGRsZTsiPjxhICBocmVmPSIvc2VydmljZXNtb2JpbGVzLyIgY2xhc3M9Im1lbnVfdGV4dF9ibGV1IiBzdHlsZT0idGV4dC10cmFuc2Zvcm06dXBwZXJjYXNlOyI+U2VydmljZXMgbW9iaWxlczwvYT48L2Rpdj48L3RkPjwvdHI+PC90YWJsZT48dGFibGUgYm9yZGVyPSIwIiBjZWxscGFkZGluZz0iMCIgY2VsbHNwYWNpbmc9IjAiIHdpZHRoPSIxMDAlIj48dHI+PHRkIGNsYXNzPSJ0YWJsZV9tZW51IiBzdHlsZT0iIj48ZGl2IHN0eWxlPSJ2ZXJ0aWNhbC1hbGlnbjptaWRkbGU7Ij48YSAgaHJlZj0iL1dvcmtBcmVhL2xpbmtpdC5hc3B4P0xpbmtJZGVudGlmaWVyPUlEJmFtcDtJdGVtSUQ9MjA2MCIgY2xhc3M9Im1lbnVfdGV4dF9ibGV1X2Fycm93IiBzdHlsZT0idGV4dC10cmFuc2Zvcm06dXBwZXJjYXNlOyI+TW9uIFByb2ZpbDwvYT48L2Rpdj48L3RkPjwvdHI+PC90YWJsZT48dGFibGUgYm9yZGVyPSIwIiBjZWxscGFkZGluZz0iMCIgY2VsbHNwYWNpbmc9IjAiIHdpZHRoPSIxMDAlIj48dHI+PHRkIGNsYXNzPSJ0YWJsZV9tZW51IiBzdHlsZT0iIj48ZGl2IHN0eWxlPSJ2ZXJ0aWNhbC1hbGlnbjptaWRkbGU7Ij48YSAgaHJlZj0iL3RyYWluX2FjY2VzdmVsby5hc3B4P2lkPTcwIiBjbGFzcz0ibWVudV90ZXh0X2JsZXUiIHN0eWxlPSJ0ZXh0LXRyYW5zZm9ybTp1cHBlcmNhc2U7Ij5BY2PDqHMgVsOpbG88L2E+PC9kaXY+PC90ZD48L3RyPjwvdGFibGU+PHRhYmxlIGJvcmRlcj0iMCIgY2VsbHBhZGRpbmc9IjAiIGNlbGxzcGFjaW5nPSIwIiB3aWR0aD0iMTAwJSI+PHRyPjx0ZCBjbGFzcz0idGFibGVfbWVudSIgc3R5bGU9IiI+Jm5ic3A7PC90ZD48L3RyPjwvdGFibGU+PHRhYmxlIGJvcmRlcj0iMCIgY2VsbHBhZGRpbmc9IjAiIGNlbGxzcGFjaW5nPSIwIiB3aWR0aD0iMTAwJSI+PHRyPjx0ZCBjbGFzcz0idGFibGVfbWVudSIgc3R5bGU9IiI+Jm5ic3A7PC90ZD48L3RyPjwvdGFibGU+PHRhYmxlIGJvcmRlcj0iMCIgY2VsbHBhZGRpbmc9IjAiIGNlbGxzcGFjaW5nPSIwIiB3aWR0aD0iMTAwJSI+PHRyPjx0ZCBjbGFzcz0idGFibGVfbWVudSIgc3R5bGU9IiI+Jm5ic3A7PC90ZD48L3RyPjwvdGFibGU+PHRhYmxlIGJvcmRlcj0iMCIgY2VsbHBhZGRpbmc9IjAiIGNlbGxzcGFjaW5nPSIwIiB3aWR0aD0iMTAwJSI+PHRyPjx0ZCBjbGFzcz0idGFibGVfbWVudSIgc3R5bGU9IiI+Jm5ic3A7PC90ZD48L3RyPjwvdGFibGU+ZAIUDxYCHwhnFgRmD2QWAmYPZBYCZg9kFgICAg9kFgJmD2QWAmYPZBYCAgEPFgIfAAWpATxhIGNsYXNzPSJhX2ZpbGFyaWFubmUiIGhyZWY9Ii9ob21lLmFzcHgiPkFjY3VlaWw8L2E+PHNwYW4gY2xhc3M9ImFfZmlsYXJpYW5uZSI+ID4gPC9zcGFuPjxhIGNsYXNzPSJhX2ZpbGFyaWFubmUiIGhyZWY9Ii9zZXJ2aWNlX2NsaWVudGVsZS8iPlNlcnZpY2Ugw6AgbGEgY2xpZW50w6hsZTwvYT5kAgEPZBYEZg9kFgICAQ9kFgICAQ8PFgYeBVRpdGxlBRhTZXJ2aWNlIMOgIGxhIGNsaWVudMOobGUeE0NhdGFsb2dJY29uSW1hZ2VVcmwFLi9Xb3JrQXJlYS9pbWFnZXMvYXBwbGljYXRpb24vaWNvbl9kb2N1bWVudC5naWYeEVRpdGxlSWNvbkltYWdlVXJsZWRkAgEPZBYCAgEPZBYCAgEPDxYGHwkFDUJsb2NEcm9pdCBTQUMfCgUuL1dvcmtBcmVhL2ltYWdlcy9hcHBsaWNhdGlvbi9pY29uX2RvY3VtZW50LmdpZh8LZWRkAhUPFgIfCGdkAhYPFgIfAAWMATxzcGFuIGNsYXNzPSJmb290ZXJfc2VwIj58PC9zcGFuPjxhIGhyZWY9Ii9zZXJ2aWNlX2NsaWVudGVsZS9tb25wcm9maWwvIiBjbGFzcz0ibWVudV9mb290ZXIiPk1vbiBwcm9maWw8L2E+PHNwYW4gY2xhc3M9ImZvb3Rlcl9zZXAiPnw8L3NwYW4+ZAIXDxYCHwAFyQs8YSBocmVmPSJodHRwOi8vd3d3LmZhY2Vib29rLmNvbS9BZ2VuY2VtZXRyb3BvbGl0YWluZWRldHJhbnNwb3J0IiB0YXJnZXQ9Il9ibGFuayI+PGltZyBzcmM9Ii91cGxvYWRlZEltYWdlcy9BTVQvaWNvbi1mYWNlYm9vay5wbmciIGFsdD0iRmFjZWJvb2siIGNsYXNzPSJtZW51X2Zvb3Rlcl9pbWFnZSIgLz48L2E+PGEgaHJlZj0iaHR0cHM6Ly9wbHVzLmdvb2dsZS5jb20vdS8wLzEwMjQ2ODgyNzEzOTUzNzIzOTYwMCIgdGFyZ2V0PSJfYmxhbmsiPjxpbWcgc3JjPSIvdXBsb2FkZWRJbWFnZXMvQU1UL2dvb2dsZS5wbmciIGFsdD0iR29vZ2xlKyIgY2xhc3M9Im1lbnVfZm9vdGVyX2ltYWdlIiAvPjwvYT48YSBocmVmPSJodHRwOi8vdHdpdHRlci5jb20vIyEvYW10X2luZm8iIHRhcmdldD0iX2JsYW5rIj48aW1nIHNyYz0iL3VwbG9hZGVkSW1hZ2VzL0FNVC9pY29uZS10d2l0dGVyLnBuZyIgYWx0PSJUd2l0dGVyIiBjbGFzcz0ibWVudV9mb290ZXJfaW1hZ2UiIC8+PC9hPjxhIGhyZWY9Imh0dHA6Ly92aW1lby5jb20vYW10cmFuc3BvcnQiIHRhcmdldD0iX2JsYW5rIj48aW1nIHNyYz0iL3VwbG9hZGVkSW1hZ2VzL0FNVC9pY29uLXZpbWVvLnBuZyIgYWx0PSJWaW1lbyIgY2xhc3M9Im1lbnVfZm9vdGVyX2ltYWdlIiAvPjwvYT48YSBocmVmPSJodHRwOi8vd3d3LmZsaWNrci5jb20vcGhvdG9zL2FnZW5jZW1ldHJvcG9saXRhaW5lZGV0cmFuc3BvcnQvIiB0YXJnZXQ9Il9ibGFuayI+PGltZyBzcmM9Ii91cGxvYWRlZEltYWdlcy9BTVQvaWNvbmUtZmxpY2tlci5wbmciIGFsdD0iRmxpY2tyIiBjbGFzcz0ibWVudV9mb290ZXJfaW1hZ2UiIC8+PC9hPjxhIGhyZWY9Ii9zZXJ2aWNlc21vYmlsZXMiIHRhcmdldD0iX2JsYW5rIj48aW1nIHNyYz0iL3VwbG9hZGVkSW1hZ2VzL0FNVC9pY29uZS1tb2JpbGUucG5nIiBhbHQ9IlNlcnZpY2VzIG1vYmlsZXMiIGNsYXNzPSJtZW51X2Zvb3Rlcl9pbWFnZSIgLz48L2E+PGEgaHJlZj0iaHR0cDovL2lkZWVzLmFtdC5xYy5jYSIgdGFyZ2V0PSJfYmxhbmsiPjxpbWcgc3JjPSIvdXBsb2FkZWRJbWFnZXMvQU1UL3RyYW5zcG9ydGRpZGVlcy5wbmciIGFsdD0iVHJhbnNwb3J0IGQmIzM5O2lkw6llcyIgY2xhc3M9Im1lbnVfZm9vdGVyX2ltYWdlIiAvPjwvYT48c3BhbiBjbGFzcz0iZm9vdGVyX3NlcCI+fDwvc3Bhbj48YSBocmVmPSIvY2FycmllcmVzLyIgY2xhc3M9Im1lbnVfZm9vdGVyIj5DYXJyacOocmVzPC9hPjxzcGFuIGNsYXNzPSJmb290ZXJfc2VwIj58PC9zcGFuPjxhIGhyZWY9Ii9jb25maWRlbnRpYWxpdGUuYXNweCIgY2xhc3M9Im1lbnVfZm9vdGVyIj5Db25maWRlbnRpYWxpdMOpPC9hPjxzcGFuIGNsYXNzPSJmb290ZXJfc2VwIj58PC9zcGFuPjxhIGhyZWY9Ii9tZW50aW9uc19sZWdhbGVzLmFzcHgiIGNsYXNzPSJtZW51X2Zvb3RlciI+wqkgVG91cyBkcm9pdHMgcsOpc2VydsOpcyAtIEFNVCAyMDExPC9hPjxzcGFuIGNsYXNzPSJmb290ZXJfc2VwIj58PC9zcGFuPmQCGA8PFgQfAAUGRmVybWVyHwVlZGRk4n8j0j1Ydpb2PEhW4OJNJgipMC8=" />
+</div>
+
+
+<script src="http://amt.qc.ca/js/scripts.js" type="text/javascript"></script> 
+     <div id="head">
+                <table id="head_bgusager" cellpadding="0" cellspacing="0" border="0" align="center" width="100%">
+                    <tr valign="top">
+                        <td style="background: url(/images/header/gauche_fill.gif) repeat-x top left;">
+                            &nbsp;
+                        </td>
+                        <td width="928px">
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td style="background: #20558a;"><a href="../home.aspx"><img src="http://amt.qc.ca/images/header/logo.gif" alt="logo" style="border:none;" /></a></td>
+                                    <td style="background: #20558a url(/images/header/back_top.gif) no-repeat top right"
+                                        valign="top" align="right">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0" >
+                                            <tr valign="top">
+                                                <td align="right">
+                                                    <table style="margin: 20px 18px 0px 0px;" cellpadding="0" cellspacing="0" border="0">
+                                                        <tr align="right" valign="top">
+                                                            <td align="right">
+                                                              
+                                                                
+                                                                <a class="menu_secondaire_link_selected" href="linkit.aspx_LinkIdentifier_ID_ItemID_1600">Service à la clientèle</a><span style="color: #5b78a5; padding: 0px 12px 0px 12px;">|</span><a class="menu_secondaire_link_selected" href="../home.aspx">Espace Client</a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    <table style="margin: 18px 18px 0px 0px;" cellpadding="0" cellspacing="0" border="0">
+                                                        <tr align="left" valign="top">
+                                                            <td width="77px">
+                                                            <div style="padding-top:1px;">
+                                                                
+                                                            
+                                                            
+                                                            </div>
+                                                            </td>
+                                                            <td  style="padding-left:0px; padding-top:0px;">
+                                                            
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td  width="89px" valign="top">
+                                                    <div style="margin: 20px 0px 0px 16px; text-align:left;">
+                                                    <span id="ctl00_Label_Section"><a class="menu_secondaire_link_selected" href="http://amt.qc.ca/WorkArea/linkit.aspx?LinkIdentifier=ID&ItemID=356">Corporatif</a></span>
+                                                        </div>
+                                                    <div style="margin: 18px 0px 0px 16px;  text-align:left;">
+                                                        <span class="text" style="color: #003861;"><a id="ctl00_Hyperlink_Langue_Change" class="textenglish" href="http://amt.qc.ca/content_simple.aspx?id=1600&LangType=1033"><span id="ctl00_lbl_fr_en">English</span></a></span></div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td id="sep1"><img id="barre1" src="http://amt.qc.ca/images/header/menu_sep.gif" /></td>
+                                    <td><a onmouseover="showhide_menu('menu11','menu1',1 , 'over')" onmouseout="showhide_menu('menu1','menu11',1, 'out')" href="../train/deux-montagnes.aspx"><img id="menu1" src="http://amt.qc.ca/images/header/fr/btn_train.gif" /><img id="menu11" src="http://amt.qc.ca/images/header/fr/btn_train_over.gif" style="display:none;" /></a></td>
+                                    <td><img id="barre2" src="http://amt.qc.ca/images/header/menu_sep.gif" /></td>
+                                    <td><a onmouseover="showhide_menu('menu22','menu2',2, 'over')" onmouseout="showhide_menu('menu2','menu22',2, 'out')" href="http://amt.qc.ca/autobus/"><img id="menu2" src="http://amt.qc.ca/images/header/fr/btn_autobus.gif" /><img id="menu22" src="http://amt.qc.ca/images/header/fr/btn_autobus_over.gif" style="display:none;" /></a></td>
+                                    <td><img id="barre3" src="http://amt.qc.ca/images/header/menu_sep.gif" /></td>
+                                    <td><a onmouseover="showhide_menu('menu33','menu3',3, 'over')" onmouseout="showhide_menu('menu3','menu33',3, 'out')" href="http://amt.qc.ca/metro/"><img id="menu3" src="http://amt.qc.ca/images/header/fr/btn_metro.gif" /><img id="menu33" src="http://amt.qc.ca/images/header/fr/btn_metro_over.gif" style="display:none;" /></a></td>
+                                    <td><img id="barre4" src="http://amt.qc.ca/images/header/menu_sep.gif" /></td>
+                                    <td><a onmouseover="showhide_menu('menu44','menu4',4, 'over')" onmouseout="showhide_menu('menu4','menu44',4, 'out')" href="http://amt.qc.ca/titres_tarifs/"><img id="menu4" src="http://amt.qc.ca/images/header/fr/btn_tarifs.gif" /><img id="menu44" src="http://amt.qc.ca/images/header/fr/btn_tarifs_over.gif" style="display:none;" /></a></td>
+                                    <td><img id="barre5" src="http://amt.qc.ca/images/header/menu_sep.gif" /></td>
+                                    <td><a onmouseover="showhide_menu('menu55','menu5',5, 'over')" onmouseout="showhide_menu('menu5','menu55',5, 'out')" href="http://amt.qc.ca/ta/"><img id="menu5" src="http://amt.qc.ca/images/header/fr/btn_ta.gif" /><img id="menu55" src="http://amt.qc.ca/images/header/fr/btn_ta_over.gif" style="display:none;" /></a></td>
+                                    <td><img id="barre6" src="http://amt.qc.ca/images/header/menu_sep.gif" /></td>
+                                    <td><a onmouseover="showhide_menu('menu66','menu6',6, 'over')" onmouseout="showhide_menu('menu6','menu66',6, 'out')" href="http://amt.qc.ca/covoiturage/"><img id="menu6" src="http://amt.qc.ca/images/header/fr/btn_covoiturage.gif" /><img id="menu66" src="http://amt.qc.ca/images/header/fr/btn_covoiturage_over.gif" style="display:none;" /></a></td>
+                                    <td><img id="barre7" src="http://amt.qc.ca/images/header/last_sep.gif" /></td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td style="background: url(/images/header/droite_fill.gif) repeat-x top left">
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+                </div>
+                
+                           
+    <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" style="position:relative; top:112px;">
+        
+        <tr>
+        <td style="height:5px;"></td>
+        </tr>
+        
+        
+        <tr>
+            <td style="vertical-align:top;">
+                <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%">
+                    <tr>
+                        <td valign="bottom" class="background_bleu" style="white-space:nowrap;">
+                            &nbsp;
+                             
+                        </td>
+                        <td style="width: 926px; vertical-align: top;">
+                            
+                            <table cellpadding="0" cellspacing="0" border="0">
+                               <tr>
+                                    <td style="padding-bottom: 0px; margin-bottom: 0px; vertical-align: top;" class="background_bleu"><a href="http://amt.qc.ca/service_clientele/#" style="outline:none;"><img id="ctl00_widget1" border="0" onclick="javascript:toggledivcms_widget('div_outil1','ctl00_widget1'); return false;" src="http://amt.qc.ca/images/widgets/fr/img_widget_1.jpg" style="border-width:0px;width:306px; padding-right:2px;" /></a><a href="http://amt.qc.ca/service_clientele/#" style="outline:none;"><img id="ctl00_widget2" border="0" onclick="javascript:toggledivcms_widget('div_outil2','ctl00_widget2'); return false;" src="http://amt.qc.ca/images/widgets/fr/img_widget_2.jpg" style="border-width:0px;padding-right:2px;" /></a><a href="http://amt.qc.ca/service_clientele/#" style="outline:none;"><img id="ctl00_widget3" border="0" onclick="javascript:toggledivcms_widget('div_outil3','ctl00_widget3'); return false;" src="http://amt.qc.ca/images/widgets/fr/img_widget_3V.jpg" style="border-width:0px;" /></a></td>
+                                </tr>
+                                <tr><td class="background_bleu"><img id="Img1" src="http://amt.qc.ca/images/widget-bottom.gif" style="width:926px;" border="0" /></td></tr>
+                            </table>
+                            
+                            <div id="div_outil1" style="display: none; padding-bottom: 5px; margin-top: 0px;
+                                z-index: 200; position: absolute; border: 2px solid #c0c0c0; background:#ffffff;">
+                                <div style="border-top: 0px; border-bottom: 0px;">
+                                   <iframe src="/outil_horaireplan/train.aspx" width="924px" height="298px" frameborder="0"
+                                        scrolling="no"></iframe>
+                                </div>
+                            </div>
+                            
+                            
+                            <div id="div_outil2" style="display: none; margin-bottom: 9px; margin-top: 0px; z-index: 200; position: absolute; border: 2px solid #c0c0c0; background:#ffffff;">
+                                <div style="border-top: 0px; border-bottom: 0px;">
+                                  <iframe src="/outil_calculateur/itineraire.aspx" width="924px" height="298px" frameborder="0"
+                                        scrolling="no"></iframe>
+                                </div>
+                                </div>
+                                
+                                
+                           
+                            <div id="div_outil3" style="display: none; margin-bottom: 9px; margin-top: 0px;  z-index: 200; position: absolute; border: 2px solid #c0c0c0; background:#ffffff;">
+                                <div style="border-top: 0px; border-bottom: 0px;">
+                                    <iframe id="ctl00_frame" src="/Outil_Avis/Avis.aspx" width="924px" height="298px" frameborder="0" scrolling="no"></iframe>
+                                </div>
+                            </div>
+                            
+                            
+                            
+                            
+                            <div id="ctl00_Block_Top_Usager" class="background_bleu" style="padding-top:5px;">
+                            <table id="ctl00_Block_Top_Image_Menu" cellpadding="0" cellspacing="0" border="0" width="100%" style="" class="background_bleu">
+	<tr valign="bottom">
+		<td style="width: 621px; vertical-align:bottom;">
+    <!-- ************** Section Image Top ************************* -->
+    <span id="ctl00_ContentPlaceHolder_Image_Top_Label_Image_Top"><img border="0" src="http://amt.qc.ca/uploadedImages/AMT/Menu_secondaire/Nous_joindre/NousJoindre.jpg?n=969" /></span>
+</td>
+		<td style="vertical-align:top;">
+                                    <div style="text-align:right; padding-left:2px;">
+                                        <span id="ctl00_menu1_languageApi1"></span>
+<center>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td class="table_menu" style=""><div style="vertical-align:middle;"><a href="http://amt.qc.ca/service_clientele/avis.aspx" class="menu_text_bleu" style="text-transform:uppercase;">Avis à la clientèle</a></div></td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td class="table_menu" style=""><div style="vertical-align:middle;"><a href="http://amt.qc.ca/servicesmobiles/" class="menu_text_bleu" style="text-transform:uppercase;">Services mobiles</a></div></td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td class="table_menu" style=""><div style="vertical-align:middle;"><a href="http://amt.qc.ca/WorkArea/linkit.aspx?LinkIdentifier=ID&ItemID=2060" class="menu_text_bleu_arrow" style="text-transform:uppercase;">Mon Profil</a></div></td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td class="table_menu" style=""><div style="vertical-align:middle;"><a href="http://amt.qc.ca/train_accesvelo.aspx?id=70" class="menu_text_bleu" style="text-transform:uppercase;">Accès Vélo</a></div></td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td class="table_menu" style="">&nbsp;</td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td class="table_menu" style="">&nbsp;</td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td class="table_menu" style="">&nbsp;</td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td class="table_menu" style="">&nbsp;</td></tr></table>
+
+</center> 
+                                        </div>
+                                    </td>
+	</tr>
+</table>
+
+                            </div>
+                        </td>
+                        <td valign="bottom" class="background_bleu">
+                            &nbsp;
+                            
+                        </td>
+                    </tr>
+                </table>
+                
+                <div id="Main_Bloc">
+                <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" style="background:#ffffff;">
+                    <tr>
+                        <td style="background: #ffffff">
+                            &nbsp;
+                        </td>
+                        <td style="width: 926px; vertical-align: top;">
+                            
+                            
+                            
+                            
+                           
+                           <table id="ctl00_Bloc_Traitement" cellpadding="0" cellspacing="0" border="0" style="background:#ffffff;" width="100%">
+	<tr>
+		<td style="width:617px; vertical-align:top; padding-top:4px;"><span id="ctl00_fil1_LanguageAPI1"></span>
+<table id="ctl00_fil1_arriane" border="0" cellpadding="0" cellspacing="0" width="100%" class="page_header_menu" style="margin-bottom:8px; background:#ffffff;">
+			<tr valign="top">
+				<td width="485px" style="background:#ffffff;">
+            <a class="a_filarianne" href="../home.aspx">Accueil</a><span class="a_filarianne"> > </span><a class="a_filarianne" href="http://amt.qc.ca/service_clientele/">Service à la clientèle</a>
+        </td>
+				<td width="50px" style="text-align: right; padding-right:10px; border-left: 1px solid #FFFFFF; background:#ffffff;">
+            <span style="font-size: 8px;"><a id="SpanPetitA" href="http://amt.qc.ca/service_clientele/#" onclick="location.reload(true);" style="color:#a6a8aa;">
+                A</a> </span><span style="padding-left: 5px; color:#a6a8aa; text-decoration: underline;"><a href="http://amt.qc.ca/service_clientele/#" onclick="changeFontsize('20','0'); " style="color:#a6a8aa;">A</a></span>
+        </td>
+				<td width="15px" style="text-align: center; border-left: 1px solid #FFFFFF; background:#ffffff;">
+            <a class="a_header_print" href="http://amt.qc.ca/service_clientele/#" onclick="window.open('/imprimer.aspx', 'windowname1', ''); return false;">&nbsp;</a>
+        </td>
+			</tr>
+		</table>
+		
+</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+                            
+                               
+    <div style="width: 617px;">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr valign="top">
+                <td valign="top">
+                    <div>
+                        <div id="ctl00_ContentPlaceHolder_Traitement_ContentBlock_transport">
+			<div class="content_principal"><h1><img title="Service à la clientèle" style="width: 332px; height: 29px; " alt="Service à la clientèle" src="http://amt.qc.ca/uploadedImages/AMT/Site_Usager/SAC/T_Service_a_la_clientele.jpg?n=1692" /></h1>
+<p> </p>
+<p class="texte_intro">Depuis 2009, la priorité est accordée à l'amélioration des services offerts aux clients grâce à la consolidation des services actuels et au maintien du patrimoine. Ainsi, toutes nos actions planifiées ont comme valeurs communes les principes de rigueur, de modernité et d'engagement client.</p>
+<p class="texte_bold"> </p>
+<p class="titre_contenu" style="margin-bottom: 10px; ">Pour nous joindre</p>
+<table style="width: 100%; margin-bottom: 10px; " cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="vertical-align: top; "><p class="texte_bold">Par la poste <br /> </p>
+<p class="texte">Agence métropolitaine de transport<br />700, rue De La Gauchetière Ouest<br />26<sup>e</sup> étage<br />Montréal (Québec) H3B 5M2  </p>
+</td>
+<td style="vertical-align: top; "><p class="texte_bold">Par téléphone<br /> </p>
+<p class="texte">514 287-TRAM (8726)<br />1 888-702-TRAM (8726), sans frais sur le territoire de l'AMT</p>
+<br /><p class="texte">Lundi au vendredi<br />6 h à 20 h 30</p>
+<p><span class="texte">Samedi, dimanche et jours fériés *<br />9 h à 12 h et 13 h à 17 h <br />*</span> <span class="texte_gris">Fermé le Jour de l'An et à Noël.</span>  </p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; "> </td>
+<td style="vertical-align: top; "> </td>
+</tr>
+<tr>
+<td style="vertical-align: top; "><p class="texte_bold">Par Internet <br /> </p>
+<p class="texte">Via le <a title="Formulaire de contact" class="lien" href="http://amt.qc.ca/corpo/nous_joindre/formulaire.aspx?LangType=3084" target="_blank">formulaire de contact</a><br /><br />  </p>
+</td>
+<td style="vertical-align: top; "><p class="texte"><br /> </p>
+<p class="texte"> </p>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="sous_titre_fleche_close" id="fleche-1" href="http://amt.qc.ca/service_clientele/#" onclick="toggledivcmsfleche('name-1','fleche-1'); return false;">Objets trouvés</a> <div class="texte_tiroir" id="name-1" style="display: none; "><!-- ********** LIGNES DM ET MSH************* --><a class="sous_titre_fleche_smaller_close" id="fleche-1_1" href="http://amt.qc.ca/service_clientele/#" onclick="togglediv_small_box('name-1_1','fleche-1_1'); return false;">Lignes Deux-Montagnes et Mont-Saint-Hilaire</a> <div class="texte_soustiroir" id="name-1_1" style="display: none; "><p class="texte"><strong>Gare Centrale</strong><br />Comptoir de services AMT<br />895, rue De La Gauchetière Ouest<br />(angle rue Mansfield)<br />Montréal <br /><br />Tél : 514 875-1069<br /><strong>Heures d�"ouverture :</strong><br />Du lundi au vendredi : de 6 h 30 à 0 h 30<br />Le samedi : de 9 h à 0 h 30<br />Le dimanche : de 10 h à 0 h 30<br /> </p>
+<p> </p>
+</div>
+<!-- ********** LIGNES BL, DR et DL************* --><a class="sous_titre_fleche_smaller_close" id="fleche-1_2" href="http://amt.qc.ca/service_clientele/#" onclick="togglediv_small_box('name-1_2','fleche-1_2'); return false;">Lignes Blainville - Saint-Jérôme, Dorion-Rigaud et Delson-Candiac</a> <div class="texte_soustiroir" id="name-1_2" style="display: none; "><p class="texte"><strong>Gare Lucien-L'Allier</strong><br />1290, rue de La Gauchetière Ouest<br />(métro Lucien-L'Allier)<br />(angle rue de la Montagne)<br />Montréal <br /><br />Tél.: 514 989-3072<br /><br /><strong>Heures d�"ouverture :</strong><br />Du lundi au vendredi : de 6 h 30 à 18 h 45 (sauf les jours fériés)<br /> </p>
+<p> </p>
+</div>
+<!-- ********** EXPRESS M�0TROPOLITAIN CHEVRIER ************* --><a class="sous_titre_fleche_smaller_close" id="fleche-1_3" href="http://amt.qc.ca/service_clientele/#" onclick="togglediv_small_box('name-1_3','fleche-1_3'); return false;">Express métropolitain Chevrier</a> <div class="texte_soustiroir" id="name-1_3" style="display: none; "><p class="texte"><strong>Billetterie métropolitaine Terminus Longueuil</strong><br />1200, place Charles-LeMoyne<br />Longueuil<br /><br />Tél.: 450 442-8600 poste 8002 <br /><br /><strong>Heures d�"ouverture :</strong><br />Du lundi au vendredi : de 5 h 30 à 0 h 30<br />Samedi, dimanche et jours fériés : de 5 h 30 à 0 h 30<br /> </p>
+<p> </p>
+<p class="texte">Si l�"objet est perdu depuis moins de 24hrs, veuillez contacter le Terminus Longueuil au 450-670-3422</p>
+<p> </p>
+<p class="texte">Si plus de 24hrs, veuillez communiquer avec le RTL au 450-442-8600 poste 8002.</p>
+<p> </p>
+</div>
+<!-- ********** Terminus Montmorency ************* --><a class="sous_titre_fleche_smaller_close" id="fleche-1_4" href="http://amt.qc.ca/service_clientele/#" onclick="togglediv_small_box('name-1_4','fleche-1_4'); return false;">Terminus Montmorency </a><div class="texte_soustiroir" id="name-1_4" style="display: none; "><p class="texte"><strong>Billetterie métropolitaine Terminus Montmorency</strong><br />535, rue Lucien-Paiement<br />Laval<br /><br />Tél.: 450 629-7226 <br /><br /><strong>Heures d�"ouverture :</strong><br />Du lundi au vendredi (y compris jours fériés): de 6 h à 20 h<br />Samedi, dimanche : de 9 h à 18 h<br /> </p>
+<p> </p>
+</div>
+</div>
+<p> </p>
+</div>
+		</div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        
+      
+        
+        <br />
+        <br />
+        <br />
+    </div>
+                            
+                              </td>
+		<td style="vertical-align:top;width:310px;">
+                              
+    <table cellpadding="0" cellspacing="0" border="0" width="304" align="right">
+        <tr>
+            <td valign="top">
+                <div id="ctl00_ContentPlaceHolder_BlockDroit_ContentBlock_Right">
+			<table class="pdfbox" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td class="td_pdficon"><a title="Normes de comportement" href="http://amt.qc.ca/uploadedFiles/AMT/Site_Usager/SAC/normes_comportement.pdf" target="_blank"><img title="Normes de comportement des usagers de l'AMT" alt="Normes de comportement des usagers de l'AMT" src="http://www.amt.qc.ca/uploadedImages/AMT/Menu_principal/pdf.gif" border="0" /></a>&#160;</td>
+<td class="texte"><p><a title="Règlement concernant les normes de comportement sur le réseau de trains de banlieue" class="lien_bold" href="http://amt.qc.ca/uploadedFiles/AMT/Site_Usager/SAC/normes_comportement.pdf" target="_blank">Normes de comportement</a> (16,5 Ko)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&#160;</p>
+<table class="pdfbox" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td class="td_pdfintro" colspan="2"><p class="titre_contenu">Règlement sur les<br />titres de transport et de stationnement</p>
+<p class="texte_box_right">Le Règlement relatif aux titres établit notamment les<br />titres acceptés, les zones tarifaires et les conditions<br />des tarifs réduits et étudiant.</p>
+</td>
+</tr>
+<tr>
+<td class="td_pdficon"><a title="Règlement relatif aux titres de transport et de stationnement" href="http://amt.qc.ca/uploadedFiles/AMT/Site_Usager/SAC/reglement_titres-transport.pdf" target="_blank"><img title="Règlement relatif aux titres de transport et de stationnement" alt="Consulter le règlement en format PDF" src="http://amt.qc.ca/uploadedImages/AMT/Menu_principal/pdf.gif" border="0" /></a>&#160;</td>
+<td class="texte"><p><a title="Règlement sur les titres de transport en PDF" class="lien_bold" href="http://amt.qc.ca/uploadedFiles/AMT/Site_Usager/SAC/reglement_titres-transport.pdf" target="_blank">Consulter le Règlement 6.18 de l'AMT</a> (1,4 Mo)</p>
+</td>
+</tr>
+<tr>
+<td class="td_pdficon"><a title="undefined" href="http://amt.qc.ca/uploadedFiles/AMT/Site_Usager/SAC/reglement_titres-transport_annexe.pdf" target="_blank"><img title="Annexe du Règlement relatif aux titres de transport et de stationnement" alt="Consulter l'annexe du règlement en format PDF" src="http://www.amt.qc.ca/uploadedImages/AMT/Menu_principal/pdf.gif" border="0" /></a>&#160;</td>
+<td class="texte"><p><a title="Consulter l'Annexe du Règlement 6.18 en PDF" class="lien_bold" href="http://amt.qc.ca/uploadedFiles/AMT/Site_Usager/SAC/reglement_titres-transport_annexe.pdf" target="_blank">Consulter l'Annexe du Règlement 6.18 de l'AMT</a><br />(0,7 Mo)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&#160;</p>
+
+<table class="pdfbox" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td class="td_pdfintro" colspan="2"><p class="titre_contenu">DIRECTIVE RELATIVE AU TRANSPORT DES BICYCLETTES SUR LE R�0SEAU DE L�"AMT</p>
+<p class="texte_box_right">Cette directive établit notamment les conditions, les heures et les jours autorisés pour transporter un vélo à bord des trains de banlieue.</p>
+</td>
+</tr>
+<tr>
+<td class="td_pdficon"><a title="Directive Vélo" href="http://amt.qc.ca/uploadedFiles/AMT/Site_Usager/Train/AccesVelo/Directive.pdf" target="_blank"><img title="Directive Vélo" alt="Directive Vélo" src="http://www.amt.qc.ca/uploadedImages/AMT/Menu_principal/pdf.gif" border="0" /></a>&#160; </td>
+<td class="texte"><p><a title="Directive Vélo" class="lien_bold" href="http://amt.qc.ca/uploadedFiles/AMT/Site_Usager/Train/AccesVelo/Directive.pdf" target="_blank">Consulter la directive</a>&#160;</p>
+</td>
+</tr>
+</tbody>
+</table>
+		</div>
+            </td>
+        </tr>
+    </table>
+
+                              </td>
+	</tr>
+</table>
+
+                           
+                           <table id="ctl00_Block_Bottom" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td>
+                           
+                           </td>
+	</tr>
+</table>
+
+                            
+                            
+                            
+                        </td>
+                        <td style="background: #ffffff">&nbsp;</td>
+                    </tr>
+                </table>
+                
+                </div>
+                
+            </td>
+        </tr>
+    </table>
+    
+   
+    
+    <div id="foot" style="text-align: left;">
+        
+        <table border="0" cellpadding="0" cellspacing="0" width="926px" style="margin-left: auto; margin-right: auto; height: 40px;">
+            <tr>
+                <td align="left" width="320px" style="padding-bottom:10px;">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tr valign="middle">
+                            <td>
+                            <span class="footer_sep">|</span><a href="http://amt.qc.ca/service_clientele/monprofil/" class="menu_footer">Mon profil</a><span class="footer_sep">|</span>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td align="right" width="609px" style="padding-bottom:8px;">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tr valign="middle">
+                            <td>
+                            <a href="http://www.facebook.com/Agencemetropolitainedetransport" target="_blank"><img src="http://amt.qc.ca/uploadedImages/AMT/icon-facebook.png" alt="Facebook" class="menu_footer_image" /></a><a href="https://plus.google.com/u/0/102468827139537239600" target="_blank"><img src="http://amt.qc.ca/uploadedImages/AMT/google.png" alt="Google+" class="menu_footer_image" /></a><a href="http://twitter.com/#!/amt_info" target="_blank"><img src="http://amt.qc.ca/uploadedImages/AMT/icone-twitter.png" alt="Twitter" class="menu_footer_image" /></a><a href="http://vimeo.com/amtransport" target="_blank"><img src="http://amt.qc.ca/uploadedImages/AMT/icon-vimeo.png" alt="Vimeo" class="menu_footer_image" /></a><a href="http://www.flickr.com/photos/agencemetropolitainedetransport/" target="_blank"><img src="http://amt.qc.ca/uploadedImages/AMT/icone-flicker.png" alt="Flickr" class="menu_footer_image" /></a><a href="http://amt.qc.ca/servicesmobiles" target="_blank"><img src="http://amt.qc.ca/uploadedImages/AMT/icone-mobile.png" alt="Services mobiles" class="menu_footer_image" /></a><a href="http://idees.amt.qc.ca" target="_blank"><img src="http://amt.qc.ca/uploadedImages/AMT/transportdidees.png" alt="Transport d'idées" class="menu_footer_image" /></a><span class="footer_sep">|</span><a href="http://amt.qc.ca/carrieres/" class="menu_footer">Carrières</a><span class="footer_sep">|</span><a href="http://amt.qc.ca/confidentialite.aspx" class="menu_footer">Confidentialité</a><span class="footer_sep">|</span><a href="http://amt.qc.ca/mentions_legales.aspx" class="menu_footer">© Tous droits réservés - AMT 2011</a><span class="footer_sep">|</span>
+                            </td> 
+                            <td>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+  
+     <div id="Bloc_Big_Map" style="z-index: 2500; display: none; position: absolute; width: 585px;  background: white; text-align:center; border:2px solid black;">
+        <a name="big"></a>
+        <table cellpadding="0" cellspacing="0" border="0" style="background: #FFFFFF;" width="585px" align="center">
+            <tr valign="middle">
+                <td height="32px" style="background: url(/images/bg_top_popup.jpg) repeat-x;"
+                    align="right">
+                    <a href="http://amt.qc.ca/service_clientele/#" onclick="javascript:document.getElementById('Bloc_Big_Map').style.display = 'none'; cancelModalWindow('Bloc_Big_Map'); " style="text-decoration: none; font-size: 11px; color: #6f6f6f;">
+                        <span id="ctl00_libellemultilang1">Fermer</span>                        
+                        <img src="http://amt.qc.ca/images/btn_x_fermer.gif" alt="Fermer" title="Fermer" border="0" />
+                    </a>&nbsp;&nbsp;
+                </td>
+            </tr>
+        </table>
+        <div id="map_large" style="width: 580px; height: 440px;  display: block;
+            border: 2px solid #c0c0c0;">
+           
+        </div>
+        
+    </div>
+
+    </form>
+</body>
+</html>

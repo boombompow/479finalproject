@@ -1,0 +1,363 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Logos &amp; Art Assets - AddThis</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="en-us" />
+    <meta name="title" content="AddThis - Logos &amp;amp; Art Assets" />
+    <meta name="description" content="AddThis is a free way to boost traffic back to your site by making it easier for visitors to share your content." />
+    <meta name="keywords" content="bookmarking, sharing, bookmark, share, bookmarking button, sharing button, service directory, browser plugin, blog plugin, flash, social APIs, facebook, twitter, myspace, digg, delicious, stumbleupon, reddit, blogger, technorati, aim share, orkut, viadeo" />
+    <meta name="robots" content="all" />
+    <meta name="viewport" content="width=960" />
+    <meta http-equiv="imagetoolbar" content="false" />
+    <meta name="copyright" content="Copyright (c) 2011 Add This, LLC" />
+        <link rel="image_src" href="http://s7.addthis.com/static/t00/logo100100.png" />
+    <link rel="alternate" type="application/rss+xml" href="http://www.addthis.com/blog/?feed=rss2" title="AddThis Blog Feed" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://cache.addthiscdn.com/site/core/css/core-1.0.0.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://cache.addthiscdn.com/www/20111123101657/style/site.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://cache.addthiscdn.com/www/20111123101657/style/common.css" />
+
+
+
+
+
+
+
+    <link rel="alternate" type="application/rss+xml" href="http://blog.addthis.com/?feed=rss2" title="AddThis Blog Feed" />
+    <!--[if lt IE 7]><script type="text/javascript" src="/js/topnav.js"></script><![endif]-->
+</head>
+
+<body>
+
+<a id="top" name="top"></a>
+
+<a href="http://www.addthis.com/logos#maincontent" class="skipNavLink">Skip Main Site Navigation</a>
+<h1><a href="" title="AddThis Homepage">AddThis</a></h1>
+<div id="header"> 
+	<div class="container_12">
+		<div class="grid_12">
+			
+						<div id="header-links">
+				<a href="careers">We're Hiring!</a> <span class="pipe">|</span> <a href="forum/index.html">Forum</a> <span class="pipe">|</span> <a href="help">Help</a>
+			</div>
+					</div>	
+	</div>	
+</div>
+
+<div id="header-menu">	
+	<div id="header-menu-inner">
+			<ul class="header-submenu-nav">
+			<li><a href="http://www.addthis.com/get" title="Get AddThis">Get AddThis</a></li>	
+			<li><a href="features" title="AddThis Features">Features</a></li>
+			<li><a href="http://www.addthis.com/analytics" title="Analytics">Analytics</a></li>
+			<li><a class="mlink" onclick="void(0);" ><span>More</span></a>
+				<ul>					
+					<li><a href="developers" title="Developer Resources">Developers</a></li>
+					<li><a href="services" title="Service Directory">Service Directory</a></li>
+					<li><a href="languages" title="Language Database">Language Database</a></li>					
+					<li><a href="tools" title="Browser Tools">Browser Tools</a></li>
+				</ul>
+			</li>
+		</ul>
+					<div class="topuser">
+				<a href="http://www.addthis.com/register" title="Join Now">Join Now</a> <span class="mrl5">or</span> <a href="http://www.addthis.com/login" title="Sign In">Sign In</a>			
+			</div>		
+		        <form id="search_box" action="search" onsubmit="if(this.q.value=='')return false;">
+            <input id="search_text" name="q" type="text" value="" maxlength="120" onfocus="this.value=''" />
+        </form>	
+		</div>
+</div>			
+<div class="clear"></div>
+
+
+
+<div id="header-fade"></div>
+<div id="maincontent">
+
+
+	<link rel="stylesheet" type="text/css" href="http://cache.addthiscdn.com/www/20111123101657/style/logos.css" />
+	<div class="banner">
+	    <div class="container_12">
+	        <div class="grid_12">
+			<h2>Logos &amp; Art Assets</h2>
+			<div class="addthis_toolbox addthis_default_style">
+				<a class="addthis_button_preferred_1"></a>
+				<a class="addthis_button_preferred_2"></a>
+				<a class="addthis_button_preferred_3"></a>
+				<a class="addthis_button_compact"></a>
+				<a class="addthis_counter addthis_bubble_style"></a>
+			</div>
+		</div>
+		<div class="clear"></div>
+	    </div>	
+	</div>
+	<div class="content-main">		    
+	    <div class="container_12">	
+		<div class="grid_8 suffix_1">
+			
+			<h2>AddThis Logos</h2>
+			<p class="bigtext">
+				We've made a couple versions of our logo so you can link to AddThis or create your own 
+				sharing tools. Feel free to be creative.
+			</p>
+			
+			<div class="grid_4 alpha center">
+				<p><img src="http://www.addthis.com/cms-content/images/logos/addthis_logo.jpg" border="0" alt="" /></p>
+				<p class="gry">
+					<strong>Official AddThis Logo</strong><br/>
+					.png, .eps, .psd &ndash; <a href="http://s7.addthis.com/identity/v3/addthis_logo.zip">Download</a>
+				</p>
+			</div>
+			<div class="grid_4 omega center">
+				<p><img src="http://www.addthis.com/cms-content/images/logos/addthis_logos.jpg" border="0" alt="" /></p>
+				<p class="gry">
+					<strong>AddThis Icons</strong><br/>
+					.gif, .eps, .psd &ndash; <a href="http://s7.addthis.com/identity/v3/addthis_icons.zip">Download</a>
+				</p>
+			</div>
+			<div class="clear"></div>			
+			<div class="mb50"></div>
+			
+			
+			<h2>AddThis Social Icon Pack <span class="gry normal">(<a href="http://s7.addthis.com/identity/v3/addthis_social_icon_pack.zip">download</a>)</span></h2>
+			<p class="bigtext mb30">
+				Introducing 25 of the most popular social network and bookmark icons based on our service 
+				directory. We've handcrafted and refine these icons just for you. When you download the pack, you 
+				get two flavors: 16x16 GIFs and 32x32 24-bit PNGs.
+			</p>
+			
+			<div class="logo-item"><img src="http://cache.addthiscdn.com/icons/v1/thumbs/facebook.gif" class="logo16" /><img src="http://cache.addthiscdn.com/icons/v1/thumbs/32x32/facebook.png" /> Facebook</div>
+			<div class="logo-item"><img src="http://cache.addthiscdn.com/icons/v1/thumbs/myspace.gif" class="logo16" /><img src="http://cache.addthiscdn.com/icons/v1/thumbs/32x32/myspace.png" /> MySpace</div>
+			<div class="logo-item"><img src="http://cache.addthiscdn.com/icons/v1/thumbs/reddit.gif" class="logo16" /><img src="http://cache.addthiscdn.com/icons/v1/thumbs/32x32/reddit.png" /> Reddit</div>
+			
+			<div class="logo-item"><img src="http://cache.addthiscdn.com/icons/v1/thumbs/twitter.gif" class="logo16" /><img src="http://cache.addthiscdn.com/icons/v1/thumbs/32x32/twitter.png" /> Twitter</div>
+			<div class="logo-item"><img src="http://cache.addthiscdn.com/icons/v1/thumbs/digg.gif" class="logo16" /><img src="http://cache.addthiscdn.com/icons/v1/thumbs/32x32/digg.png" /> Digg</div>
+			<div class="logo-item"><img src="http://cache.addthiscdn.com/icons/v1/thumbs/linkedin.gif" class="logo16" /><img src="http://cache.addthiscdn.com/icons/v1/thumbs/32x32/linkedin.png" /> LinkedIn</div>
+			
+			<div class="logo-item"><img src="http://cache.addthiscdn.com/icons/v1/thumbs/email.gif" class="logo16" /><img src="http://cache.addthiscdn.com/icons/v1/thumbs/32x32/email.png" /> Email</div>
+			<div class="logo-item"><img src="http://cache.addthiscdn.com/icons/v1/thumbs/delicious.gif" class="logo16" /><img src="http://cache.addthiscdn.com/icons/v1/thumbs/32x32/delicious.png" /> Delicious</div>
+			<div class="logo-item"><img src="http://cache.addthiscdn.com/icons/v1/thumbs/aim.gif" class="logo16" /><img src="http://cache.addthiscdn.com/icons/v1/thumbs/32x32/aim.png" /> AOL Lifestream</div>
+			
+			<div class="logo-item"><img src="http://cache.addthiscdn.com/icons/v1/thumbs/print.gif" class="logo16" /><img src="http://cache.addthiscdn.com/icons/v1/thumbs/32x32/print.png" /> Print</div>
+			<div class="logo-item"><img src="http://cache.addthiscdn.com/icons/v1/thumbs/orkut.gif" class="logo16" /><img src="http://cache.addthiscdn.com/icons/v1/thumbs/32x32/orkut.png" /> Orkut</div>
+			<div class="logo-item"><img src="http://cache.addthiscdn.com/icons/v1/thumbs/mailto.gif" class="logo16" /><img src="http://cache.addthiscdn.com/icons/v1/thumbs/32x32/mailto.png" /> Email App</div>
+			
+			<div class="logo-item"><img src="http://cache.addthiscdn.com/icons/v1/thumbs/google.gif" class="logo16" /><img src="http://cache.addthiscdn.com/icons/v1/thumbs/32x32/google.png" /> Google Bookmarks</div>
+			<div class="logo-item"><img src="http://cache.addthiscdn.com/icons/v1/thumbs/vk.gif" class="logo16" /><img src="http://cache.addthiscdn.com/icons/v1/thumbs/32x32/vk.png" /> Vkontakte</div>
+			<div class="logo-item"><img src="http://cache.addthiscdn.com/icons/v1/thumbs/meneame.gif" class="logo16" /><img src="http://cache.addthiscdn.com/icons/v1/thumbs/32x32/meneame.png" /> Men&eacute;ame</div>
+			
+			<div class="logo-item"><img src="http://cache.addthiscdn.com/icons/v1/thumbs/stumbleupon.gif" class="logo16" /><img src="http://cache.addthiscdn.com/icons/v1/thumbs/32x32/stumbleupon.png" /> StumbleUpon</div>
+			<div class="logo-item"><img src="http://cache.addthiscdn.com/icons/v1/thumbs/blogger.gif" class="logo16" /><img src="http://cache.addthiscdn.com/icons/v1/thumbs/32x32/blogger.png" /> Blogger</div>
+			<div class="logo-item"><img src="http://cache.addthiscdn.com/icons/v1/thumbs/baidu.gif" class="logo16" /><img src="http://cache.addthiscdn.com/icons/v1/thumbs/32x32/baidu.png" /> Baidu</div>
+			
+			<div class="logo-item"><img src="http://cache.addthiscdn.com/icons/v1/thumbs/favorites.gif" class="logo16" /><img src="http://cache.addthiscdn.com/icons/v1/thumbs/32x32/favorites.png" /> Favorites</div>
+			<div class="logo-item"><img src="http://cache.addthiscdn.com/icons/v1/thumbs/gmail.gif" class="logo16" /><img src="http://cache.addthiscdn.com/icons/v1/thumbs/32x32/gmail.png" /> Gmail</div>
+			<div class="logo-item"><img src="http://cache.addthiscdn.com/icons/v1/thumbs/viadeo.gif" class="logo16" /><img src="http://cache.addthiscdn.com/icons/v1/thumbs/32x32/viadeo.png" /> Viadeo</div>
+			
+			<div class="logo-item"><img src="http://cache.addthiscdn.com/icons/v1/thumbs/live.gif" class="logo16" /><img src="http://cache.addthiscdn.com/icons/v1/thumbs/32x32/live.png" /> Messenger</div>
+			<div class="logo-item"><img src="http://cache.addthiscdn.com/icons/v1/thumbs/yahoomail.gif" class="logo16" /><img src="http://cache.addthiscdn.com/icons/v1/thumbs/32x32/yahoomail.png" /> Y!Mail</div>
+			<div class="logo-item"><img src="http://cache.addthiscdn.com/icons/v1/thumbs/menu.gif" class="logo16" /><img src="http://cache.addthiscdn.com/icons/v1/thumbs/32x32/addthis.png" /> Share</div>
+			
+			<div class="clear"></div>
+			<div class="mb50"></div>
+			
+			
+			<h2>Custom Service Icons</h2>
+			<p>
+				Who says you have to use our icons? Use custom service icons to create your own toolbox or button. We've 
+				compiled a list of 3rd party websites you can download alternate icons from. Here are just a few:
+			</p>	
+			
+			<div class="grid_1 alpha"><a href="http://www.addthis.com/custom-service-icons"><img src="http://www.addthis.com/cms-content/images/features/divageekdesigns_58x58.png" class="thumb" /></a></div>
+			<div class="grid_1"><a href="http://www.addthis.com/custom-service-icons"><img src="http://www.addthis.com/cms-content/images/features/icontextto.blogspot_58x58_.png" class="thumb" /></a></div>
+			<div class="grid_1"><a href="http://www.addthis.com/custom-service-icons"><img src="http://www.addthis.com/cms-content/images/features/iconfinder_58x58.png" class="thumb" /></a></div>
+			<div class="grid_1"><a href="http://www.addthis.com/custom-service-icons"><img src="http://www.addthis.com/cms-content/images/features/jankoatwarpspeed_58x58.png" class="thumb" /></a></div>
+			<div class="grid_1"><a href="http://www.addthis.com/custom-service-icons"><img src="http://www.addthis.com/cms-content/images/features/webtoolkit4.me_58x58_.png" class="thumb" /></a></div>
+			<div class="grid_1"><a href="http://www.addthis.com/custom-service-icons"><img src="http://www.addthis.com/cms-content/images/features/tydlinka.deviantart_58x58_.png" class="thumb" /></a></div>
+			<div class="grid_1"><a href="http://www.addthis.com/custom-service-icons"><img src="http://www.addthis.com/cms-content/images/features/productivedreams_58x58.png" class="thumb" /></a></div>
+			<div class="grid_1 omega"><a href="http://www.addthis.com/custom-service-icons"><img src="http://www.addthis.com/cms-content/images/features/designriviver_58x58.png" class="thumb" /></a></div>
+			<div class="clear"></div>
+			<div class="mb25"></div>		
+	                <p>
+				<a class="arrow" href="http://www.addthis.com/custom-service-icons">View more custom icons</a>
+			</p>	
+			<div class="mb50"></div>
+			
+			
+			<div class="grid_8 alpha omega">
+				<h2>AddThis Type</h2>
+				<p>
+					The AddThis logotype is set in <a href="http://www.veer.com/products/typedetail.aspx?image=ADT0003214">Helvetica Neue</a> (use the <a href="http://en.wikipedia.org/wiki/Arial">Arial</a> family if you don't have Helvetica). The AddThis button 
+					typeface is created from a modified version of <a href="http://www.dafont.com/c-c-red-alert-inet.font">C&amp;C Red Alert</a>.
+				</p>
+				<div class="atf"></div>			
+			</div>
+			<div class="clear"></div>
+			<div class="mb25"></div>	
+				
+			
+			<h2>AddThis Colors</h2>
+			<p>
+				When reproducing AddThis artwork in print or online, your projects will look best if you use the official colors.
+			</p>
+			
+			<div class="grid_1 suffix_1 alpha">
+				<div class="logos-colorbox lcb-1"></div>
+			</div>
+			<div class="grid_1 suffix_1">
+				<div class="logos-colorbox lcb-2"></div>
+			</div>
+			<div class="grid_1 suffix_1">
+				<div class="logos-colorbox lcb-3"></div>
+			</div>
+			<div class="grid_1 suffix_1 omega">
+				<div class="logos-colorbox lcb-4"></div>
+			</div>
+			<div class="clear"></div>
+			
+	
+			<div class="grid_2 alpha smalltext">
+				<strong>Orange</strong><br />
+				Pantone 171C<br />
+				Hex #FE6D4C<br />
+				R254 G109 B76
+			</div>		
+			<div class="grid_2 smalltext">
+				<strong>Black</strong><br />
+				Pantone 8234<br />
+				Hex #000000<br />
+				R0 G0 B0
+			</div>		
+			<div class="grid_2 smalltext">
+				<strong>Gray</strong><br />
+				Pantone CG10<br />
+				Hex #444444<br />
+				R68 G68 B68
+			</div>		
+			<div class="grid_2 omega smalltext">
+				<strong>White</strong><br />
+				Pantone N/A<br />
+				Hex #FFFFFF<br />
+				R255 G255 B255
+			</div>
+			<div class="clear"></div>
+			<div class="mb80"></div>
+			
+			
+			
+		</div>
+		<div class="grid_3">
+			<ul id="nav-sub"> 
+			    <li class="sub-level-0 sub-single"><a href="about">About Us</a></li>
+			    <li class="sub-level-0 sub-single"><a href="http://www.addthis.com/contact">Contact Us</a></li>
+			    <li class="sub-level-0 sub-single"><a href="careers">Careers</a></li>
+			    <li class="sub-level-0 sub-single-active"><a href="logos">Logos &amp; Assets</a></li> 
+			</ul>
+			<!--
+			<div class="mb20">
+				<object width="220" height="160"><param name="movie" value="http://www.youtube.com/v/7MpOr-bsBDU&hl=en&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/7MpOr-bsBDU&hl=en&fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="transparent" width="220" height="160"></embed></object>
+			</div>				
+			<div class="sbox">
+			        <h4>Questions? Need help?</h4>
+			       	<p>Check out our <a href="/help">help pages</a>, or <a href="/forum/">visit the forum</a> to ask a question or get technical assistance. </p>
+			</div>
+			-->
+		</div>
+		<div class="clear"></div>		
+		<div class="mb20"></div>
+	
+	    </div>
+	</div>
+
+
+<script type="text/javascript">
+if (!window.addthis_config) var addthis_config = {};
+addthis_config.data_ga_tracker = "gaPageTracker";
+addthis_config.data_track_addressbar = true;
+</script>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pub=AddThis"></script>
+
+
+
+
+ 	
+</div>
+<div id="footer">
+	<div class="container_12">
+		<div class="grid_2">
+			<h5>Get AddThis</h5>
+			<a href="http://www.addthis.com/get-addthis">Sharing Tools</a><br/>
+			<a href="help/api-overview">APIs</a><br/>
+			<a href="help/ios-quickstart">iOS SDK</a><br/>
+			<a href="help/android-quickstart">Android SDK</a>				
+		</div>
+		<div class="grid_2">
+			<h5>Explore</h5>
+			<a href="blog/category/whats-new/index.html">What's New?</a><br/>
+			<a href="features">Features</a><br/>
+			<a href="services">Service Directory</a><br/>
+			<a href="languages">Language Database</a><br/>
+			<a href="labs">Labs</a>
+		</div>
+		<div class="grid_2">
+			<h5>Support</h5>
+			<a href="help/faq">FAQ</a><br/>
+			<a href="help">Help</a><br/>
+			<a href="forum">Forum</a><br/>
+			<a href="../pagesstatus.addthis.com/index.html">Platform Status</a><br/>
+			<a href="search">Search</a>
+		</div>
+		<div class="grid_2">
+			<h5>Company</h5>
+			<a href="about">About Us</a><br/>
+			<a href="http://www.addthis.com/contact">Contact</a><br/>
+			<a href="careers">Careers</a><br/>
+			<a href="logos">Logos</a><br/>
+			<a href="blog">Blog</a>
+		</div>
+		<div class="grid_2">
+			<h5>Browser Tools</h5>
+                <div id="bookmarklet"> 
+        <a class="ats" href="http://www.addthis.com/logos#">Share</a> 
+        <div id="bookmarklet-text"> 
+            <strong>Drag me</strong> into your bookmark toolbar. 
+        </div> 
+    </div>   
+    <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_bookmarklet.js"></script> 		</div>
+		<div class="grid_2">
+			<div class="followaddthis">
+				<h5>Get Social with Us!</h5>
+				<p><a class="follow-twitter" href="http://twitter.com/addthis" onclick="window.open('https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fwww.addthis.com%2Fregistered&region=follow&screen_name=addthis&source=followbutton&variant=1.0','FollowAddThis','width=520,height=520');return false;">Follow @addthis</a></p>
+				<a class="follow-facebook" href="http://www.facebook.com/AddThis" target="_blank">Follow AddThis on Facebook</a> 
+			</div>	
+		</div>
+		<div class="clear"></div>
+		<div class="mb40"></div>
+		
+		<div class="grid_12 alpha omega copyright">
+			&copy; 2011 <a href="">Add This</a>, LLC - A <a href="../pagesclearspring.com/" title="Go to Clearspring.com">Clearspring</a> Company <span class="pipe">|</span> <a href="privacy">Privacy</a> <span class="pipe">|</span> <a href="http://www.addthis.com/tos">Terms of Service</a><br/>
+			Don't want to receive targeted advertising? Go to our <a href="http://www.addthis.com/advertising-choices">opt-out</a> page.<br/>
+			<a class="athome" href="">AddThis Homepage</a>
+		</div>
+		<div class="clear"></div>
+		
+	</div>
+</div>	
+<div id="lb"></div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+var u = "/logos";
+if (window._gat) {
+    var gaPageTracker = _gat._getTracker("UA-1170033-1");
+    gaPageTracker._setDomainName("www.addthis.com");
+    gaPageTracker._trackPageview(u);
+}
+</script>
+
+</body>
+</html>
+
+

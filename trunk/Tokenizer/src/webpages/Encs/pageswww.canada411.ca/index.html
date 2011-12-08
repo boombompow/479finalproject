@@ -1,0 +1,905 @@
+
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-CA" lang="en-CA"> 
+
+     
+												 				
+
+<head profile="http://a9.com/-/spec/opensearch/1.1/">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="content-script-type" content="text/javascript" />
+	<meta http-equiv="content-style-type" content="text/css" />
+	<link rel="search" type="application/opensearchdescription+xml" href="http://gadgets.yellowpages.ca/opensearch/ypca.xml" title="Find a Business" />
+	<link rel="search" type="application/opensearchdescription+xml" href="http://gadgets.canada411.ca/en/opensearch/canada411.xml" title="Find a Person" />
+	<script type="text/javascript">
+		<!-- break out of frame
+		if (top.location != location) top.location.href = document.location.href;
+		//-->
+	</script>
+ 
+<title>Free People Search, Reverse Phone Lookup, Business Telephone Directory | Canada411.ca</title>
+<meta name="robots" content="index,follow"/>
+<meta content="en-CA" scheme="rfc1766" name="DC.Language"/>
+<link href="" hreflang="fr" lang="fr" title="Version fran�aise" rel="Alternate" />
+<meta content="canada 411, 411 canada, 411, 411 directory, free people search, people search, business telephone directory, people finder, telephone directory, area code finder, reverse phone lookup" name="keywords"/>
+<meta content="People finder or lookup businesses quickly within Canada using the telephone directory, people search, area code finder, or reverse phone lookup at Canada411." name="description"/>
+<meta property="og:title" content="New Canada 411"/>
+<meta property="og:description" content="I tried the new version of Canada411 and discovered the new features to help me find and connect with real people."/>
+<meta property="og:site_name" content="Canada 411"/>
+<meta property="og:url" content="http://www.canada411.ca/?old=no&nicam=like&nichn=facebook"/>
+<meta property="og:image" content="http://www.canada411.ca/images/social/flike.jpg"/>
+<meta property="fb:admins" content="100001323584165"/>
+<link href="" rel="canonical" />
+
+	<style type="text/css" media="screen">.selected { background-color: #FFE21C; }</style>
+         
+
+     	<link rel="stylesheet" type="text/css" href="http://www.canada411.ca/include/style.css" />
+	<link rel="stylesheet" type="text/css" href="http://www.canada411.ca/include/shared/style.css" />
+	<link rel="stylesheet" type="text/css" href="http://www.canada411.ca/include/shared/index.css" />
+	<link rel="stylesheet" type="text/css" href="http://www.canada411.ca/include/shared/mobilePopup.css" />
+ 	<script type="text/javascript" src="http://www.canada411.ca/include/jquery-1.4.1.min.js"></script>
+	<script type="text/javascript" src="http://www.canada411.ca/include/javascript.js"></script>
+ 
+	<!--[if IE]>
+	<link rel="stylesheet" type="text/css" href="/include/shared/ie.css" />
+	<![endif]-->
+
+	<!--[if lt IE 7]>
+	<link rel="stylesheet" type="text/css" href="/include/shared/ie6.css" />
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="http://www.canada411.ca/include/cobrands/c411/style.css" />
+
+
+ 
+</head>
+
+<body class="c411 c411HomePage" >
+
+
+<div id="c411AbBanner" class="clearfix">
+	<div class="c411AbEn">
+	<p class="wmTitle">A new version for Canada411 is now available!</p>
+	<p>Discover our new and improved website. We hope you�"ll enjoy it. Thanks, Canada411.ca team</p>
+	<div class="c411Try"><a href="http://www.canada411.ca/?old=no" rel="nofollow" onclick="utag.link({link_name:'goto_new_en', link_attr1:'invitebox'});">Try it now! <span>&nbsp;</span></a></div>
+	</div>
+	<div class="c411AbFr">
+	<p class="wmTitle">Une nouvelle version est maintenant disponible!</p>
+	<p>Découvrez notre nouveau site amélioré. Bonne navigation ! Merci, l'équipe Canada411.ca</p>
+	<div class="c411Try"><a href="http://www.fr.canada411.ca/?old=no" rel="nofollow" onclick="utag.link({link_name:'goto_new_fr', link_attr1:'invitebox'});">Voir la nouvelle version <span>&nbsp;</span></a></div>
+	</div>
+	<a href="javascript:void(0)" class="close" title="close">&nbsp;</a>
+</div>
+
+<div id="c411AbBannerInactive" style="display:none">
+	<div class="c411AbEn">
+	<p class="wmTitle">A new version for Canada411 is now available!</p>
+	</div>
+	<div class="c411AbFr">
+	<p class="wmTitle">Une nouvelle version est maintenant disponible!</p>
+	</div>
+	<a href="javascript:void(0)" class="close" title="close">&nbsp;</a>
+</div>
+
+<script>
+var cookieName = "c411WelcomeInactive";
+
+var msgState = getCookie('c411WelcomeInactive');
+if(msgState=="collapse") {
+	$YP('#c411AbBanner').hide();
+	$YP('#c411AbBannerInactive').show(); 
+}
+
+$YP('#c411AbBanner .close').click(function() {
+      $YP('#c411AbBanner').hide();
+      $YP('#c411AbBannerInactive').show();
+      setCookie(cookieName,'collapse',7);
+  });
+
+$YP('#c411AbBannerInactive .close').click(function() {
+	 $YP('#c411AbBannerInactive').hide();
+    $YP('#c411AbBanner').show();
+    setCookie(cookieName,'expand',7);
+});
+
+
+function getCookie(c_name)
+{
+var i,x,y,ARRcookies=document.cookie.split(";");
+for (i=0;i<ARRcookies.length;i++)
+{
+  x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));
+  y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);
+  x=x.replace(/^\s+|\s+$/g,"");
+  if (x==c_name)
+    {
+    return unescape(y);
+    }
+  }
+}
+
+function setCookie(c_name,value,exdays)
+{
+var exdate=new Date();
+exdate.setDate(exdate.getDate() + exdays);
+var c_value=escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString());
+document.cookie=c_name + "=" + c_value;
+}
+</script>
+
+
+
+
+
+
+	<div class="c411CobrandHeader">
+		  	</div><!-- cobrand header -->
+
+	<div id="c411Body" class="c411Body">
+
+
+
+		<div class="c411Header">
+			 
+			<div class="c411HeadLinksNoSearch">
+				<div class="c411HeadLinksRight">
+					<table>
+						<tr>
+							<td>
+								<a href="http://www.canada411.ca/help.html">Help</a>&nbsp;<br />
+								<a href="http://www.fr.canada411.ca/help.html">Aide</a>&nbsp;
+							</td>
+							<td class="leftBlackBorder greyC">&nbsp;Text Size<br />&nbsp;Taille du texte</td>
+							<td><a href="javascript:enlargeText(null, 'en');" class="c411TextsizeChanger" title="Enlarge text"><img class="c411TextsizeIcon" src="http://www.canada411.ca/images/homepage/textPlus.png" alt="Enlarge text" id="EnlargeText" /></a> <a href="javascript:reduceText('en');" class="c411TextSizeChanger" title="Reduce text"><img class="c411TextsizeIcon" src="http://www.canada411.ca/images/homepage/textMinus.png" alt="Reduce text" id="ReduceText" /></a></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="c411HeadLinksLeft">
+				<a class="c411Logo" href=""><img src="http://www.canada411.ca/images/shared/logo/canada411.gif" alt="Find a person - Canada411 Phone Directory" title="Canada411 Logo" /></a>
+			</div>
+ 		</div><!-- header -->
+		<div style="clear:both;"></div>
+
+		<div id="contentArea" class="c411Content">
+			 
+<div class="c411IndexPage">
+
+
+	<div class="columnLeft">
+		<div class="bgPanel">
+			<div class="corners topRightCorner right"></div>
+			<div class="corners topLeftCorner left"></div>
+			<div style="clear:both;"></div>
+
+			<div class="fapBox">
+				<div class="fapForm">
+				<table cellpadding="0" cellspacing="0">
+					<tr>
+						<td class="corners topLeftCorner"></td>
+						<td class="topCenter"></td>
+						<td class="corners topRightCorner"></td>
+					</tr>
+					<tr class="bg">
+						<td class="centerLeft"></td>
+						<td class="center">
+							<div class="row">
+								<h1>Find a Person</h1>
+							</div>
+							<div class="row">
+								<span class="message">	</span>
+							</div>
+							<form id="wp_pers_form" name="wp_pers_form" action="http://www.canada411.ca/search/" method="get">
+								<input type="hidden" name="stype" value="si"/>
+								
+								<div class="row">
+									<span class="label">Person&rsquo;s Name*</span>
+								</div>
+								<div class="row">
+									<input type="text" class="textEntry" name="what" value="" maxlength="250" tabindex="1"/>
+								</div>
+								<div class="row">
+									<span class="notes">e.g. J. Smith, or John Smith or 416-412-5000</span>
+								</div>
+								<div class="row">
+									<span class="label">Location</span>
+								</div>
+								<div class="row">
+									<div><input type="text" class="textEntry" autocomplete="off" id="fapWhereEn" name="where" value="" maxlength="250" tabindex="2"/></div>
+									<div id="fapWhereSuggestEn" class="c411SuggestionList" style="clear:both;"></div>
+								</div>
+								<div class="row">
+									<span class="right"><input type="image" class="c411Button" src="/images/shared/button/en/find.gif" value="Search" tabindex="3" alt="Find" onclick="utag.link({link_name:'search_button', link_attr1:'fap_en'});"/></span>
+									<span class="notes">e.g. Toronto, H2L 3K5</span>
+								</div>
+							</form>
+						</td>
+						<td class="centerRight"></td>
+					</tr>
+					<tr>
+						<td class="corners bottomLeftCorner"></td>
+						<td class="bottomCenter"></td>
+						<td class="corners bottomRightCorner"></td>
+					</tr>
+				</table>
+				</div>
+
+				<div class="menuBar">
+					<div id="fapMenuEn" class="menuTab">
+						<ul>
+							<li class="item itemReverse"><a href="http://www.canada411.ca/search/reverse.html" onclick="utag.link({link_name:'rev_lookup', link_attr1:'fap_en'});">Reverse Lookup</a></li>
+							<li class="item itemOther"><a onclick="javascript:toggleVisibility('fapMenuEn', 'fapDropMenuEn');">Other Search Options&nbsp;<span class="arrowDown">&nbsp;</span></a></li>
+						</ul>
+					</div>
+					<div id="fapDropMenuEn" class="dropTab">
+						<table cellpadding="0" cellspacing="0">
+							<tr>
+								<td class="item itemsLeft">
+									<ul>
+										<li><a href="http://www.canada411.ca/search/address.html">Reverse Address</a></li>
+										<li><a href="http://www.canada411.ca/search/advanced.html">Advanced Search</a></li>
+										<li><a href="http://www.canada411.ca/popularnames/">Popular Names Directory</a></li>
+									</ul>
+								</td>
+								<td class="item itemsRight">
+									<ul>
+										<li><a href="http://www.canada411.ca/search/proximity.html">Proximity</a></li>
+										<li><a href="http://www.canada411.ca/area-code-lookup/">Area Code / Postal Code</a></li>
+									</ul>
+								</td>
+							</tr>
+						</table>
+						<div class="item itemOther"><a onclick="javascript:toggleVisibility('fapDropMenuEn', 'fapMenuEn');">Other Search Options&nbsp;<span class="arrowUp">&nbsp;</span></a></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="fabBox">
+				<div class="fabForm">
+				<table cellpadding="0" cellspacing="0">
+					<tr>
+						<td class="corners topLeftCorner"></td>
+						<td class="topCenter"></td>
+						<td class="corners topRightCorner"></td>
+					</tr>
+					<tr class="bg">
+						<td class="centerLeft"></td>
+						<td class="center">
+							<div class="row">
+								<h1>Find a Business</h1>
+							</div>
+							<form id="fabFormEn" name="fabFormEn" action="http://canada411.yellowpages.ca/search/" method="get">
+								<input type="hidden" name="stype" value="si"/>
+
+								<div class="row">
+									<input type="radio" class="c411RadioButton" name="bn" value="false" checked="checked"/><span class="label">&nbsp;Keyword(s) or&nbsp;</span><input type="radio" class="c411RadioButton" name="bn" value="true"/><span class="label">&nbsp;Business Name*</span>
+								</div>
+								<div class="row">
+									<div><input type="text" class="textEntry" autocomplete="off" id="fabWhatEn" name="what" value="" tabindex="7" maxlength="250" /></div>
+									<div id="fabWhatSuggestEn" class="c411SuggestionList" style="clear:both;"></div>
+								</div>
+								<div class="row">
+									<span class="notes">e.g. Bill&rsquo;s Flowers, Tulips, Florists, 416-412-5999</span>
+								</div>
+								<div class="row">
+									<span class="label">Location</span>
+								</div>
+								<div class="row">
+									<div><input type="text" class="textEntry" autocomplete="off" id="fabWhereEn" name="where" value="" tabindex="8" maxlength="250"/></div>
+									<div id="fabWhereSuggestEn" class="c411SuggestionList" style="clear:both;"></div>
+								</div>
+								<div class="row">
+									<span class="right"><input type="image" class="c411Button" src="/images/shared/button/en/find.gif" value="Search" tabindex="9" alt="Find" onclick="utag.link({link_name:'search_button', link_attr1:'fab_en'});"/></span>
+									<span class="notes">e.g. Toronto, H2L 3K5, CN Tower</span>
+								</div>
+							</form>
+						</td>
+						<td class="centerRight"></td>
+					</tr>
+					<tr>
+						<td class="corners bottomLeftCorner"></td>
+						<td class="bottomCenter"></td>
+						<td class="corners bottomRightCorner"></td>
+					</tr>
+				</table>
+				</div>
+
+				<div class="menuBar">
+					<div id="fabMenuEn" class="menuTab">
+						<ul>
+							<li class="item itemReverse"><a href="http://canada411.yellowpages.ca/search/reverse.html" onclick="utag.link({link_name:'rev_lookup', link_attr1:'fab_en'});">Reverse Lookup</a></li>
+							<li class="item itemOther"><a onclick="javascript:toggleVisibility('fabMenuEn', 'fabDropMenuEn');">Other Search Options&nbsp;<span class="arrowDown">&nbsp;</span></a></li>
+						</ul>
+					</div>
+					<div id="fabDropMenuEn" class="dropTab">
+						<table cellpadding="0" cellspacing="0">
+							<tr>
+								<td class="item itemsLeft">
+									<ul>
+										<li><a href="http://canada411.yellowpages.ca/search/address.html">Reverse Address</a></li>
+										<li><a href="http://canada411.yellowpages.ca/business/">Category</a></li>
+									</ul>
+								</td>
+								<td class="item itemsRight">
+									<ul>
+										<li><a href="http://canada411.yellowpages.ca/search/proximity.html">Proximity</a></li>
+										<li><a href="http://canada411.yellowpages.ca/search/province.html">Provincial/National</a></li>
+									</ul>
+								</td>
+							</tr>
+						</table>
+						<div class="item itemOther"><a onclick="javascript:toggleVisibility('fabDropMenuEn', 'fabMenuEn');">Other Search Options&nbsp;<span class="arrowUp">&nbsp;</span></a></div>
+					</div>
+				</div>
+			</div>
+			<div class="notes footnote">*Required Field</div>
+		</div>
+	</div>
+	<div class="padCenter">&nbsp;</div>
+
+	<div class="columnRight">
+		<div class="bgPanel">
+			<div class="corners topLeftCorner left"></div>
+			<div class="corners topRightCorner right"></div>
+			<div style="clear:both;"></div>
+
+			<div class="fapBox">
+				<div class="fapForm">
+				<table cellpadding="0" cellspacing="0">
+					<tr>
+						<td class="corners topLeftCorner"></td>
+						<td class="topCenter"></td>
+						<td class="corners topRightCorner"></td>
+					</tr>
+					<tr class="bg">
+						<td class="centerLeft"></td>
+						<td class="center">
+							<div class="row">
+								<h1>Trouver une personne</h1>
+							</div>
+							<div class="row">
+								<span class="message"></span>
+							</div>
+							<form id="fapFormFr" name="fapFormFr" action="http://www.fr.canada411.ca/search/" method="get">
+								<input type="hidden" name="stype" value="si"/>
+								
+								<div class="row">
+									<span class="label">Nom de la personne*</span>
+								</div>
+								<div class="row">
+									<input type="text" class="textEntry" name="what" value=""  maxlength="250" tabindex="4" />
+								</div>
+								<div class="row">
+									<span class="notes">Ex. : G. Leblanc ou Guy Leblanc ou 514-934-2000</span>
+								</div>
+								<div class="row">
+									<span class="label">Lieu</span>
+								</div>
+								<div class="row">
+									<div><input type="text" class="textEntry" autocomplete="off" id="fapWhereFr" name="where" value="" maxlength="250" tabindex="5"/></div>
+									<div id="fapWhereSuggestFr" class="c411SuggestionList" style="clear:both;"></div>
+								</div>
+								<div class="row">
+									<span class="right"><input type="image" class="c411Button" src="/images/shared/button/fr/find.gif" value="Search" tabindex="6" alt="Trouver" onclick="utag.link({link_name:'search_button', link_attr1:'fap_fr'});"/></span>
+									<span class="notes">Ex. : Montréal, H3A 1T6</span>
+								</div>
+							</form>
+						</td>
+						<td class="centerRight"></td>
+					</tr>
+					<tr>
+						<td class="corners bottomLeftCorner"></td>
+						<td class="bottomCenter"></td>
+						<td class="corners bottomRightCorner"></td>
+					</tr>
+				</table>
+				</div>
+
+				<div class="menuBar">
+					<div id="fapMenuFr" class="menuTab">
+						<ul>
+							<li class="item itemReverse"><a href="http://www.fr.canada411.ca/search/reverse.html" onclick="utag.link({link_name:'rev_lookup', link_attr1:'fap_fr'});">Recherche inversée</a></li>
+							<li class="item itemOther"><a onclick="javascript:toggleVisibility('fapMenuFr', 'fapDropMenuFr');">Autres recherches&nbsp;<span class="arrowDown">&nbsp;</span></a></li>
+						</ul>
+					</div>
+					<div id="fapDropMenuFr" class="dropTab">
+						<table cellpadding="0" cellspacing="0">
+							<tr>
+								<td class="item itemsLeft">
+									<ul>
+										<li><a href="http://www.fr.canada411.ca/search/address.html">Par adresse</a></li>
+										<li><a href="http://www.fr.canada411.ca/search/advanced.html">Recherche avancée</a></li>
+										<li><a href="http://www.fr.canada411.ca/nomspopulaires/">Répertoire des noms populaires</a></li>
+									</ul>
+								</td>
+								<td class="item itemsRight">
+									<ul>
+										<li><a href="http://www.fr.canada411.ca/search/proximity.html">Par proximité</a></li>
+										<li><a href="http://www.fr.canada411.ca/recherche-par-indicatif-regional/">Indicatifs régionaux /<br/>Codes postaux</a></li>
+									</ul>
+								</td>
+							</tr>
+						</table>
+						<div class="item itemOther"><a onclick="javascript:toggleVisibility('fapDropMenuFr', 'fapMenuFr');">Autres recherches&nbsp;<span class="arrowUp">&nbsp;</span></a></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="fabBox">
+				<div class="fabForm">
+				<table cellpadding="0" cellspacing="0">
+					<tr>
+						<td class="corners topLeftCorner"></td>
+						<td class="topCenter"></td>
+						<td class="corners topRightCorner"></td>
+					</tr>
+					<tr class="bg">
+						<td class="centerLeft"></td>
+						<td class="center">
+							<div class="row">
+								<h1>Trouver une entreprise au Canada</h1>
+							</div>
+							<form id="fabFormFr" name="fabFormFr" action="http://canada411.pagesjaunes.ca/search/" method="get">
+								<input type="hidden" name="stype" value="si"/>
+
+								<div class="row">
+									<input type="radio" class="c411RadioButton" name="bn" value="false" checked="checked"/><span class="label">&nbsp;Mot(s)-clé(s) ou&nbsp;</span><input type="radio" class="c411RadioButton" name="bn" value="true"/><span class="label">&nbsp;nom d''entreprise*</span>
+								</div>
+								<div class="row">
+									<div><input type="text" class="textEntry" autocomplete="off" id="fabWhatFr" name="what" value="" tabindex="10" maxlength="250"/></div>
+									<div id="fabWhatSuggestFr" class="c411SuggestionList" style="clear:both;"></div>
+								</div>
+								<div class="row">
+									<span class="notes">Ex. : Fleuriste ABC, Tulipes, Bonsa&iuml;, 514-934-2000</span>
+								</div>
+								<div class="row">
+									<span class="label">Lieu</span>
+								</div>
+								<div class="row">
+									<div><input type="text" class="textEntry" autocomplete="off" id="fabWhereFr" name="where" value="" tabindex="11" maxlength="250"/></div>
+									<div id="fabWhereSuggestFr" class="c411SuggestionList" style="clear:both;"></div>
+								</div>
+								<div class="row">
+									<span class="right"><input type="image" class="c411Button" src="/images/shared/button/fr/find.gif" alt="Trouver" value="Search" tabindex="12" onclick="utag.link({link_name:'search_button', link_attr1:'fab_fr'});"/></span>
+									<span class="notes">Ex. : Montréal, H3A 1T6</span>
+								</div>
+							</form>
+						</td>
+						<td class="centerRight"></td>
+					</tr>
+					<tr>
+						<td class="corners bottomLeftCorner"></td>
+						<td class="bottomCenter"></td>
+						<td class="corners bottomRightCorner"></td>
+					</tr>
+				</table>
+				</div>
+
+				<div class="menuBar">
+					<div id="fabMenuFr" class="menuTab">
+						<ul>
+							<li class="item itemReverse"><a href="http://canada411.pagesjaunes.ca/search/reverse.html" onclick="utag.link({link_name:'rev_lookup', link_attr1:'fab_fr'});">Recherche inversée</a></li>
+							<li class="item itemOther"><a onclick="javascript:toggleVisibility('fabMenuFr', 'fabDropMenuFr');">Autres recherches&nbsp;<span class="arrowDown">&nbsp;</span></a></li>
+						</ul>
+					</div>
+					<div id="fabDropMenuFr" class="dropTab">
+						<table cellpadding="0" cellspacing="0">
+							<tr>
+								<td class="item itemsLeft">
+									<ul>
+										<li><a href="http://canada411.pagesjaunes.ca/search/address.html">Par adresse</a></li>
+										<li><a href="http://canada411.pagesjaunes.ca/business/">Par catégorie</a></li>
+									</ul>
+								</td>
+								<td class="item itemsRight">
+									<ul>
+										<li><a href="http://canada411.pagesjaunes.ca/search/proximity.html">Par proximité</a></li>
+										<li><a href="http://canada411.pagesjaunes.ca/search/province.html">Provinciale/Nationale</a></li>
+									</ul>
+								</td>
+							</tr>
+						</table>
+						<div class="item itemOther"><a onclick="javascript:toggleVisibility('fabDropMenuFr', 'fabMenuFr');">Autres recherches&nbsp;<span class="arrowUp">&nbsp;</span></a></div>
+					</div>
+				</div>
+			</div>
+			<div class="notes footnote">*champ obligatoire</div>
+		</div>
+	</div>
+	<div class="padRight">&nbsp;</div>
+<script type="text/javascript" src="http://www.canada411.ca/include/yp/autoSuggest.js"></script>
+<script type="text/javascript">
+	fapAutoSuggestWhereEn = new AutoCompleter('fapWhereEn', 'fapWhereSuggestEn', '10', 'wp_pers_form', 'suggest-where.tab', {minTypedChars: '2'});
+	fapAutoSuggestWhereFr = new AutoCompleter('fapWhereFr', 'fapWhereSuggestFr', '10', 'fapFormFr', 'suggest-where.tab', {minTypedChars: '2'});
+	fabAutoSuggestWhatEn = new AutoCompleter('fabWhatEn', 'fabWhatSuggestEn', '10', 'fabFormEn', '', {lang:'en', useSE:'true', dividerText:'- Your recent searches -', dividerType: 'h', minTypedChars: '2'});
+	fabAutoSuggestWhatFr = new AutoCompleter('fabWhatFr', 'fabWhatSuggestFr', '10', 'fabFormFr', '', {lang:'fr', useSE:'true', dividerText:'- Vos recherches récentes -', dividerType: 'h', minTypedChars: '2'});
+	fabAutoSuggestWhereEn = new AutoCompleter('fabWhereEn', 'fabWhereSuggestEn', '10', 'fabFormEn', 'suggest-where.tab', {minTypedChars: '2'});
+	fabAutoSuggestWhereFr = new AutoCompleter('fabWhereFr', 'fabWhereSuggestFr', '10', 'fabFormFr', 'suggest-where.tab', {minTypedChars: '2'});
+</script>
+
+	<div class="c411MobileApps">
+		<div class="bgPanel">
+			<div class="c411MobilePhone"><img src="http://www.canada411.ca/images/shared/mobile/phone-icon.gif" alt="/images/shared/mobile/phone-icon.gif" /></div>
+			<div class="c411MobileForm">
+				<div>Visit our&nbsp;<a href="http://www.yellowpages.ca/mobile" title="">Mobile Apps</a>&nbsp;section</div>
+				<form id="MobileAppsEn" name="MobileAppsEn" action="http://www.canada411.ca#" onsubmit="popupform('http://m.yp.ca/sms/sms.php', ['lang', 'phone'], 'mobilePopup_en', 'MobileAppsEn', 'mobileFrame_en');utag.link({link_name:'mobile_send_button', link_attr1:'home'});return false;" method="get">
+					<input type="hidden" name="lang" value="en" />
+					<div class="c411Label">Send our mobile apps to your phone:</div>
+					<div class="c411BottomRow">
+						<input type="text" class="c411Text" name="phone" onblur="this.value=(this.value=='')?'Enter your mobile number':this.value" onfocus="this.value=(this.value=='Enter your mobile number')?'':this.value" value="Enter your mobile number"  />
+						<input type="image" class="c411Button" src="/images/shared/mobile/en/send-button.gif" value="Send" alt="Send"/>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="padCenter"></div>
+		<div class="bgPanel">
+			<div class="c411MobilePhone"><img src="http://www.canada411.ca/images/shared/mobile/phone-icon.gif" alt="/images/shared/mobile/phone-icon.gif" /></div>
+			<div class="c411MobileForm">
+				<div>Visitez notre section&nbsp;<a href="http://www.pagesjaunes.ca/mobile" title="">Applications mobiles</a></div>
+				<form id="MobileAppsFr" name="MobileAppsFr" action="http://www.canada411.ca#" onsubmit="popupform('http://m.pj.ca/sms/sms.php', ['lang', 'phone'], 'mobilePopup_fr', 'MobileAppsFr', 'mobileFrame_fr');utag.link({link_name:'mobile_send_button', link_attr1:'home'});return false;" method="get">
+					<input type="hidden" name="lang" value="fr" />
+					<div class="c411Label">Envoyez nos applications sur votre téléphone mobile:</div>
+					<div class="c411BottomRow">
+						<input type="text" class="c411Text" name="phone" onblur="this.value=(this.value=='')?'Entrez votre numéro de mobile':this.value" onfocus="this.value=(this.value=='Entrez votre numéro de mobile')?'':this.value" value="Entrez votre numéro de mobile"  />
+						<input type="image" class="c411Button" src="/images/shared/mobile/fr/send-button.gif" value="Envoyez" alt="Envoyez"/>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+ 		</div><!-- content -->
+		<div style="clear:both;"></div>
+
+		<div id="c411Footer" class="c411Footer">
+			 
+			<div style="clear:both;"></div>
+			<div class="c411FooterLogo"><img src="http://www.canada411.ca/images/shared/logo/canada411-print.gif" alt="Canada411 (TM)" title="" /></div>
+			<table class="greyC">
+				<tr>
+					<td colspan="5">Brought to you by / present&eacute; par</td>
+				</tr>
+				<tr><td colspan="5"><div class="greyline"></div></td></tr>
+				<tr>
+					<td colspan="5">
+						
+			<div class="c411TelcoLogos">
+				<map name="telcomap" id="c411Telcomap">
+					<area shape="rect" coords="0,2,33,21" alt="BELL" target="_blank" rel="nofollow" href="http://www.bell.ca/" />
+					<area shape="rect" coords="53,5,99,21" alt="KMTS" target="_blank" rel="nofollow" href="http://www.kmts.ca/" />
+					<area shape="rect" coords="112,6,145,18" alt="MTS" target="_blank" rel="nofollow" href="http://www.mts.mb.ca/" />
+					<area shape="rect" coords="158,3,238,21" alt="Aliant" target="_blank" rel="nofollow" href="http://www.bellaliant.net/" />
+					<area shape="rect" coords="250,3,270,22" alt="NorthwesTel" target="_blank" rel="nofollow" href="http://www.nwtel.ca/" />
+					<area shape="rect" coords="285,5,348,20" alt="NorthernTel" target="_blank" rel="nofollow" href="http://www.northerntel.ca/" />
+					<area shape="rect" coords="365,5,411,21" alt="Telebec" target="_blank" rel="nofollow" href="http://www.telebec.com/" />
+					<area shape="rect" coords="425,5,470,19" alt="TBAYTel" target="_blank" rel="nofollow" href="http://www.tbaytel.net/" />
+					<area shape="rect" coords="485,3,515,21" alt="OTA" target="_blank" rel="nofollow" href="http://www.ota.on.ca/" />
+					<area shape="rect" coords="532,0,572,24" alt="ACTQ" target="_blank" rel="nofollow" href="http://www.actq.qc.ca/" />
+					<area shape="rect" coords="588,4,663,20" alt="TELUS" target="_blank" rel="nofollow" href="http://www2.telus.com/cgi-ebs/jsp/selectRegion.jsp" />
+				</map>
+				<img class="c411TelcoIcon" src="http://www.canada411.ca/images/c411/telco-logos.gif" alt="Telco Logos" usemap="#telcomap" />
+			</div><!-- telco logos -->
+	
+					</td>
+				</tr>
+				<tr><td colspan="5"><div class="greyline"></div></td></tr>
+
+				<tr>
+ 					<td width="20%">Useful Links</td>
+					<td>Popular YellowPages&trade; Categories</td>
+  					<td width="2%"/>
+  					<td width="20%">Liens utiles</td>
+					<td>Catégories populaires de PagesJaunes.ca<span class="trademarkalign">MC</span></td>
+ 				</tr>
+				<tr><td colspan="5"><div class="greyline"></div></td></tr>
+				<tr>			
+ 					<td>
+						<ul class ="businessBulletList">
+							<li><span class="popularBusinessSearchText"><a href="https://www.lnnte-dncl.gc.ca" rel="nofollow" target="_blank">National Do Not Call List (DNCL)</a></span></li>
+							<li><span class="popularBusinessSearchText"><a href="http://gadgets.yellowpages.ca/" target="_blank">YellowPages.ca Tools</a></span></li>			
+							<li><span class="popularBusinessSearchText"><a href="http://www.ypg.com/delivery" target="_blank">Request a Residential Directory</a></span></li>			
+						</ul>
+					</td>
+					<td>
+																												
+								<ul class ="businessBulletList">
+																	
+									<li><span class="popularBusinessSearchText"><a href="http://www.yellowpages.ca/search/si/1/Florist/Calgary" target="_blank">Florist, Calgary</a></span></li>
+																	
+									<li><span class="popularBusinessSearchText"><a href="http://www.yellowpages.ca/search/si/1/Painters/Calgary" target="_blank">Painters, Calgary</a></span></li>
+																	
+									<li><span class="popularBusinessSearchText"><a href="http://www.yellowpages.ca/search/si/1/Home+Improvements/Montreal" target="_blank">Home Improvements, Montreal</a></span></li>
+																	
+									<li><span class="popularBusinessSearchText"><a href="http://www.yellowpages.ca/search/si/1/Lawyers/Montreal" target="_blank">Lawyers, Montreal</a></span></li>
+																	
+									<li><span class="popularBusinessSearchText"><a href="http://www.yellowpages.ca/search/si/1/Appliances/Ottawa" target="_blank">Appliances, Ottawa</a></span></li>
+									
+								</ul>
+														
+					</td>
+  					<td/>
+  					<td>
+						<ul class ="businessBulletList">
+							<li><span class="popularBusinessSearchText"><a href="https://www.lnnte-dncl.gc.ca" rel="nofollow" target="_blank">Liste nationale de numéros de télécommunication exclus (LNNTE)</a></span></li>
+							<li><span class="popularBusinessSearchText"><a href="http://gadgets.pagesjaunes.ca/" target="_blank">Outils PagesJaunes.ca</a></span></li>			
+							<li><span class="popularBusinessSearchText"><a href="http://www.ypg.com/distribution" target="_blank">Demandez une copie de l''annuaire résidentiel</a></span></li>			
+						</ul>
+					</td>
+					<td>
+																												
+								<ul class ="businessBulletList">
+																	
+									<li><span class="popularBusinessSearchText"><a href="http://www.pagesjaunes.ca/search/si/1/Chauffage/Quebec" target="_blank">Chauffage, Quebec</a></span></li>
+																	
+									<li><span class="popularBusinessSearchText"><a href="http://www.pagesjaunes.ca/search/si/1/Publicite/Quebec" target="_blank">Publicite, Quebec</a></span></li>
+																	
+									<li><span class="popularBusinessSearchText"><a href="http://www.pagesjaunes.ca/search/si/1/Service+Massage/Quebec" target="_blank">Service Massage, Quebec</a></span></li>
+																	
+									<li><span class="popularBusinessSearchText"><a href="http://www.pagesjaunes.ca/search/si/1/Restaurants+Grecs/Montreal" target="_blank">Restaurants Grecs, Montreal</a></span></li>
+																	
+									<li><span class="popularBusinessSearchText"><a href="http://www.pagesjaunes.ca/search/si/1/Avocats+Immigration/Montreal" target="_blank">Avocats Immigration, Montreal</a></span></li>
+									
+								</ul>
+														
+					</td>
+  
+				</tr>
+				<tr><td colspan="5"><div class="greyline"></div></td></tr>
+				<tr>
+ 					<td colspan="2">
+						<p align="right"><span class="popularBusinessSearchTextBold">The Canada411&trade; service now has over 12 million listings, including postal codes!</span></p>
+					</td>
+  					<td/>
+  					<td colspan="2">
+						<p ><span class="popularBusinessSearchTextBold">Le service Canada411.ca<span class="trademarkalign">MC</span> compte maintenant plus de 12 millions d'inscriptions, y compris des codes postaux!</span></p>
+					</td>
+ 				</tr>			
+				<tr>
+ 					<td colspan="2">
+						<div class="c411AlphaLinks" align="right">
+							<h2 align="right">Browse People by Name:</h2>
+							<ul style="float:right;">
+								<li><a href="http://www.canada411.ca/A" title="Browse people by name: a">a</a></li>
+								<li><a href="http://www.canada411.ca/B" title="Browse people by name: b">b</a></li>
+								<li><a href="http://www.canada411.ca/C" title="Browse people by name: c">c</a></li>
+								<li><a href="http://www.canada411.ca/D" title="Browse people by name: d">d</a></li>
+								<li><a href="http://www.canada411.ca/E" title="Browse people by name: e">e</a></li>
+								<li><a href="http://www.canada411.ca/F" title="Browse people by name: f">f</a></li>
+								<li><a href="http://www.canada411.ca/G" title="Browse people by name: g">g</a></li>
+								<li><a href="http://www.canada411.ca/H" title="Browse people by name: h">h</a></li>
+								<li><a href="http://www.canada411.ca/I" title="Browse people by name: i">i</a></li>
+								<li><a href="http://www.canada411.ca/J" title="Browse people by name: j">j</a></li>
+								<li><a href="http://www.canada411.ca/K" title="Browse people by name: k">k</a></li>
+								<li><a href="http://www.canada411.ca/L" title="Browse people by name: l">l</a></li>
+								<li><a href="http://www.canada411.ca/M" title="Browse people by name: m">m</a></li>
+								<li><a href="http://www.canada411.ca/N" title="Browse people by name: n">n</a></li>
+								<li><a href="http://www.canada411.ca/O" title="Browse people by name: o">o</a></li>
+								<li><a href="http://www.canada411.ca/P" title="Browse people by name: p">p</a></li>
+								<li><a href="http://www.canada411.ca/Q" title="Browse people by name: q">q</a></li>
+								<li><a href="http://www.canada411.ca/R" title="Browse people by name: r">r</a></li>
+								<li><a href="http://www.canada411.ca/S" title="Browse people by name: s">s</a></li>
+								<li><a href="http://www.canada411.ca/T" title="Browse people by name: t">t</a></li>
+								<li><a href="http://www.canada411.ca/U" title="Browse people by name: u">u</a></li>
+								<li><a href="http://www.canada411.ca/V" title="Browse people by name: v">v</a></li>
+								<li><a href="http://www.canada411.ca/W" title="Browse people by name: w">w</a></li>
+								<li><a href="http://www.canada411.ca/X" title="Browse people by name: x">x</a></li>
+								<li><a href="http://www.canada411.ca/Y" title="Browse people by name: y">y</a></li>
+								<li><a href="http://www.canada411.ca/Z" title="Browse people by name: z">z</a></li>
+							</ul>
+						</div>
+					</td>
+  					<td/>
+  					<td colspan="2">
+						<div class="c411AlphaLinks" >
+							<h2 align="left">Recherchez quelqu&rsquo;un par son nom:</h2>
+							<ul style="float:left;">
+								<li><a href="http://www.fr.canada411.ca/A" title="Recherchez quelqu&rsquo;un par son nom: a">a</a></li>
+								<li><a href="http://www.fr.canada411.ca/B" title="Recherchez quelqu&rsquo;un par son nom: b">b</a></li>
+								<li><a href="http://www.fr.canada411.ca/C" title="Recherchez quelqu&rsquo;un par son nom: c">c</a></li>
+								<li><a href="http://www.fr.canada411.ca/D" title="Recherchez quelqu&rsquo;un par son nom: d">d</a></li>
+								<li><a href="http://www.fr.canada411.ca/E" title="Recherchez quelqu&rsquo;un par son nom: e">e</a></li>
+								<li><a href="http://www.fr.canada411.ca/F" title="Recherchez quelqu&rsquo;un par son nom: f">f</a></li>
+								<li><a href="http://www.fr.canada411.ca/G" title="Recherchez quelqu&rsquo;un par son nom: g">g</a></li>
+								<li><a href="http://www.fr.canada411.ca/H" title="Recherchez quelqu&rsquo;un par son nom: h">h</a></li>
+								<li><a href="http://www.fr.canada411.ca/I" title="Recherchez quelqu&rsquo;un par son nom: i">i</a></li>
+								<li><a href="http://www.fr.canada411.ca/J" title="Recherchez quelqu&rsquo;un par son nom: j">j</a></li>
+								<li><a href="http://www.fr.canada411.ca/K" title="Recherchez quelqu&rsquo;un par son nom: k">k</a></li>
+								<li><a href="http://www.fr.canada411.ca/L" title="Recherchez quelqu&rsquo;un par son nom: l">l</a></li>
+								<li><a href="http://www.fr.canada411.ca/M" title="Recherchez quelqu&rsquo;un par son nom: m">m</a></li>
+								<li><a href="http://www.fr.canada411.ca/N" title="Recherchez quelqu&rsquo;un par son nom: n">n</a></li>
+								<li><a href="http://www.fr.canada411.ca/O" title="Recherchez quelqu&rsquo;un par son nom: o">o</a></li>
+								<li><a href="http://www.fr.canada411.ca/P" title="Recherchez quelqu&rsquo;un par son nom: p">p</a></li>
+								<li><a href="http://www.fr.canada411.ca/Q" title="Recherchez quelqu&rsquo;un par son nom: q">q</a></li>
+								<li><a href="http://www.fr.canada411.ca/R" title="Recherchez quelqu&rsquo;un par son nom: r">r</a></li>
+								<li><a href="http://www.fr.canada411.ca/S" title="Recherchez quelqu&rsquo;un par son nom: s">s</a></li>
+								<li><a href="http://www.fr.canada411.ca/T" title="Recherchez quelqu&rsquo;un par son nom: t">t</a></li>
+								<li><a href="http://www.fr.canada411.ca/U" title="Recherchez quelqu&rsquo;un par son nom: u">u</a></li>
+								<li><a href="http://www.fr.canada411.ca/V" title="Recherchez quelqu&rsquo;un par son nom: v">v</a></li>
+								<li><a href="http://www.fr.canada411.ca/W" title="Recherchez quelqu&rsquo;un par son nom: w">w</a></li>
+								<li><a href="http://www.fr.canada411.ca/X" title="Recherchez quelqu&rsquo;un par son nom: x">x</a></li>
+								<li><a href="http://www.fr.canada411.ca/Y" title="Recherchez quelqu&rsquo;un par son nom: y">y</a></li>
+								<li><a href="http://www.fr.canada411.ca/Z" title="Recherchez quelqu&rsquo;un par son nom: z">z</a></li>
+							</ul>
+						</div>
+					</td>
+  
+				</tr>
+				<tr><td colspan="5"><div class="greyline"></div></td></tr>
+				<tr>
+ 					<td colspan="2">
+						<p align="right">
+						<a tabindex="-1" href="http://www.yellowpages.ca/advertise/" target="_blank" onclick="utag.link({link_name:'advertise_with_us', link_attr1:'bottom'});">Advertise with Us</a> |
+						<a tabindex="-1" href="http://www.ypg.com/page.php/en/1/1.html" target="_blank">About Us</a> |
+						<a tabindex="-1" href="http://www.canada411.ca/help.html?key=faq" target="_blank">FAQ</a> |
+						<a tabindex="-1" href="http://www.canada411.ca/about/contact.html" target="_blank">Contact Us</a> |
+						<a tabindex="-1" href="http://www.ypg.com/page.php/en/5/2.html" target="_blank">Terms and Conditions</a> |
+						<a tabindex="-1" href="http://www.ypg.com/page.php/en/5/2.html" target="_blank">Privacy Policy</a> |
+						<a tabindex="-1" href="http://www.ypg.com/page.php/en/1/26.html" target="_blank">Careers</a>
+
+						</p>
+					</td>
+  					<td/>
+  					<td colspan="2">
+						<p >
+						<a tabindex="-1" href="http://www.pagesjaunes.ca/annoncez/" target="_blank" onclick="utag.link({link_name:'advertise_with_us', link_attr1:'bottom'});">Annoncez chez nous</a> |
+						<a tabindex="-1" href="http://www.ypg.com/page.php/fr/1/1.html" target="_blank">ì propos de nous</a> |
+						<a tabindex="-1" href="http://www.fr.canada411.ca/help.html?key=faq" target="_blank">FAQ</a> |
+						<a tabindex="-1" href="http://www.fr.canada411.ca/about/contact.html" target="_blank">Pour nous joindre</a> |
+						<a tabindex="-1" href="http://www.ypg.com/page.php/fr/5/2.html" target="_blank">Conditions d''utilisation</a> |
+						<a tabindex="-1" href="http://www.ypg.com/page.php/fr/5/2.html" target="_blank">Politique de confidentialité</a> |
+						<a tabindex="-1" href="http://www.ypg.com/page.php/fr/1/26.html" target="_blank">Carrières</a>
+
+						</p>
+					</td>
+  
+				</tr>
+				<tr>
+					<td colspan="2">
+						<p align="right">
+						<a href="../pageswww.yellowpages.ca/" target="_blank">YellowPages.ca <span class="supalign"><sup>TM</sup></span></a> |
+						<a href="http://www.autotrader.ca/" target="_blank">AutoTrader.ca</a> |
+						<a href="http://www.buysell.com/" target="_blank">BuySell.com</a> |
+						<a href="http://www.canadaplus.ca/" target="_blank">CanadaPlus.ca</a> |
+						<a href="http://www.homebase.ca/" target="_blank">HomeBase.ca</a>
+
+						</p>
+					</td>
+ 					<td/>
+ 					<td colspan="2">
+						<p >
+						<a href="../pageswww.yellowpages.ca/" target="_blank">PagesJaunes.ca <span class="supalign"><sup>TM</sup></span></a> |
+						<a href="http://www.hebdo.net/" target="_blank">AutoHebdo.net</a> |
+						<a href="http://lespac.com/" target="_blank">LesPAC.com</a> |
+						<a href="http://www.canadaplus.ca/canada/accueil?set_language=fr" target="_blank">CanadaPlus.ca</a> |
+						<a href="http://www.visitenet.com/" target="_blank">VisiteNet.com</a>
+
+						</p>
+					</td>
+  		
+				</tr>
+				<tr>
+ 					<td colspan="2">
+						<p align="right">
+						All Rights Reserved. Yellow Pages&trade;, the Walking Fingers logo, <a href="http://www.yellowpages.ca" class="footerSiteLink" target="_blank">YellowPages.ca&trade;</a> and Find &amp; Design&trade; are registered trademarks and trademarks of Yellow Pages Group Co. in Canada.  All other trademarks are the property of their respective owners.  Use of the information in Canada411 for commercial or illegal purposes is strictly prohibited.&nbsp;
+						Copyright &copy;&nbsp;
+						2011&nbsp;<a href="http://www.ypg.com" target="_blank">Yellow Pages Group Co</a>.
+						</p>
+					</td>					
+  					<td/>
+  					<td colspan="2">
+						<p >
+						Pages Jaunes<span class="trademarkalign"><sup>MC</sup></span>, le logo des doigts qui marchent, <a href="http://www.pagesjaunes.ca" class="footerSiteLink" target="_blank"> PagesJaunes.ca<span class="trademarkalign"><sup>MC</sup></span></a>, et Trouver. &amp; Dessin<span class="trademarkalign"><sup>MC</sup></span> sont des marques de commerce déposées et sont des marques de commerce de Groupe Pages Jaunes Cie au Canada. Les renseignements fournis par Canada411 ne peuvent en aucun cas être utilisés à des fins commerciales ou illégales.&nbsp;
+						©; <a href="http://www.ypg.com" target="_blank">Groupe Pages Jaunes Cie au Canada</a>,&nbsp;
+						2011&nbsp;. Tous droits résevés.
+						</p>
+					</td>					
+  		
+				</tr>
+			</table>
+			<div class="c411Revision">RC12.4-00103-00004</div>
+ 		</div><!-- footer -->
+		<div style="clear:both;"></div>
+
+	</div><!-- body -->
+
+	<div class="c411CobrandFooter">
+			</div><!-- cobrand footer -->
+
+
+
+ 
+	<div id="mobilePopup_en" class="c411PopupBox boxSms">
+		<div class="popup_top notlog_top">
+			<span class="popupTL">&nbsp;</span><span class="popupTR">&nbsp;</span>
+			<a href="javascript:void(0)" onclick="document.getElementById('mobilePopup_en').style.display='none';document.getElementById('c411PopupOverlay').style.display='none'" class="close">&nbsp;</a>
+			<h1>Security Check</h1>
+		</div>
+		<div class="popup_content clearfix">	
+			<iframe allowtransparency="true" id="mobileFrame_en" frameborder="0" name="mobileFrame_en" style="border:0px none #ffffff;width:470px; height:300px" scrolling="no"></iframe>
+		</div>
+		<div class="popupFooter">
+	    	<div class="popupFooterContent">
+	    		<a href="http://www.ypg.com/page.php/en/5/2.html" target="_blank">Privacy Policy</a>&nbsp;|&nbsp;<a href="http://www.ypg.com/page.php/en/5/2.html" target="_blank">Terms and Conditions</a>
+	    		<div class="fLogo"><a href=""><img src="http://www.canada411.ca/images/shared/logo/canada411.gif" alt="Find a person - Canada411 Phone Directory" /></a></div>
+	    	</div>
+		</div>
+		<div class="popup_bottom"><span class="popupBL">&nbsp;</span><span class="popupBR">&nbsp;</span></div>
+	</div>
+	<div id="mobilePopup_fr" class="c411PopupBox boxSms">
+		<div class="popup_top notlog_top">
+			<span class="popupTL">&nbsp;</span><span class="popupTR">&nbsp;</span>
+			<a href="javascript:void(0)" onclick="document.getElementById('mobilePopup_fr').style.display='none';document.getElementById('c411PopupOverlay').style.display='none'" class="close">&nbsp;</a>
+			<h1>Vérification de sécurité</h1>
+		</div>
+		<div class="popup_content clearfix">	
+			<iframe allowtransparency="true" id="mobileFrame_fr" frameborder="0" name="mobileFrame_fr" style="border:0px none #ffffff;width:470px; height:300px" scrolling="no"></iframe>
+		</div>
+		<div class="popupFooter">
+	    	<div class="popupFooterContent">
+	    		<a href="http://www.ypg.com/page.php/fr/5/2.html" target="_blank">Politique de confidentialité</a>&nbsp;|&nbsp;<a href="http://www.ypg.com/page.php/fr/5/2.html" target="_blank">Conditions d''utilisation</a>
+	    		<div class="fLogo"><a href=""><img src="http://www.canada411.ca/images/shared/logo/canada411.gif" alt="Trouvez une personne - Canada411" /></a></div>
+	    	</div>	
+		</div>
+		<div class="popup_bottom"><span class="popupBL">&nbsp;</span><span class="popupBR">&nbsp;</span></div>
+	</div>
+ 	<div id="c411PopupOverlay" class="c411Overlay"></div>
+
+ 
+<script type="text/javascript" src="http://cdn.cb.yp.ca/c411/utag/utag.loader.nohbx.js"></script>
+<script type="text/javascript">
+var utag_data={
+	page:'homepage',
+	section:'/home',
+	cobrand:'canada411',
+	language:'en',
+	search_term:'',
+	search_results:'',
+	search_location:'',
+	search_type:'',
+	search_category:'',
+	heading:'',
+	directory:'',
+	mlr:'',
+	search_page:'',
+	search_refine:'',
+	survey_code:'',
+	survey_sat:'',
+	survey_reason:'',
+	survey_id:'',
+	position_address:'',
+	position_number:'',
+	headdir_link:'',
+	listing_link:'',
+	listing_id:'',
+	photo:'',
+	video_pct:'',
+	eco_disp:'',
+	eco_imp:'',
+	eco_link:'',
+	relatedsearch_term:'',
+	relatedsearch_flag:'',
+	search_detail:'',
+	video_menu:'',
+	link_name:'',
+	link_attr:'',
+	productcount:''};
+try{utag.view(utag_data)}catch(e){};
+</script>
+
+<!-- Begin Bluekai -->
+<script type="text/javascript" src="http://www.bkrtx.com/js/bk-static-post.js"></script>
+<script type="text/javascript">bk_addPageCtx('heading1','a');bk_addPageCtx('heading2','b');bk_addPageCtx('heading3','c');bk_addPageCtx('language','EN');bk_doSendData(4259,4,true);</script>
+<!-- End Bluekai -->
+
+
+
+
+<script type="text/javascript" defer="true">if(undefined !== c411PostloadInvoke){ c411PostloadInvoke(); }</script>
+ 
+	<script type="text/javascript">textSizePref();</script>
+</body>
+</html>

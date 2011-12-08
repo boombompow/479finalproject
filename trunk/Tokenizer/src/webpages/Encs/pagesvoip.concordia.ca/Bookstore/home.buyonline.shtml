@@ -1,0 +1,369 @@
+<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+	<link rel="SHORTCUT ICON" href="http://web2.concordia.ca/Bookstore/favicon.ico" />
+	<title>Concordia Bookstore - Buy Online</title>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+	<meta name="Keywords" content="concordia university campus bookstore academic textbooks office supplies sir george williams loyola montreal quebec canada student booklist faculty staff" />
+	<meta name="description" content="Concordia University Campus Bookstore - order your textbooks online for home delivery. Also available during back-to-school periods: online order with in-store pickup."/>
+	<script src="http://web2.concordia.ca/Bookstore/style/main.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="http://web2.concordia.ca/Bookstore/style/default_gray.css" type="text/css" />
+	<link rel="stylesheet" href="http://web2.concordia.ca/Bookstore/style/toptenlists.css" type="text/css" />
+
+<!--[if lte IE 7]>
+	<link rel="stylesheet" href="style/ie.css" type="text/css" />
+<![endif]-->
+
+	 <link rel="alternate" type="application/rss+xml" title="Bookstore Top Ten General Books" href="http://bkstore.concordia.ca/rss/TopTenGeneral.aspx" />
+	 <link rel="alternate" type="application/rss+xml" title="Bookstore Latest Additions" href="http://bkstore.concordia.ca/rss/NewTrade.aspx" />
+	 <link rel="alternate" type="application/rss+xml" title="Bookstore Upcoming Titles" href="http://bkstore.concordia.ca/rss/UpcomingTrade.aspx" />
+	 <link rel="alternate" type="application/rss+xml" title="Bookstore Promotions and Sales" href="http://bkstore.concordia.ca/rss/rss_promos.asp" />
+
+	 <link title="Concordia Bookstore Search" rel="search" type="application/opensearchdescription+xml" href="http://web2.concordia.ca/Bookstore/plugins/ConcordiaBookstore.xml" />
+	 <link title="Concordia Customized Student Booklist" rel="search" type="application/opensearchdescription+xml" href="http://web2.concordia.ca/Bookstore/plugins/ConcordiaStudentBooklist.xml" />
+
+</head>
+
+
+<body>
+
+
+<!-- Primary Container -->
+<div id="main">
+
+
+	<!-- Header Block -->
+	<div id="header">
+	 	<!--[if lte IE 7]>
+			<style>
+					#searchButton {
+						position: relative;
+						top: 1px;
+					}
+					#keyword {
+						height: 20px;
+					}
+
+			</style>
+		<![endif]-->
+
+	   	<form method="get" id="searchForm" name="searchForm" action="http://bkstore.concordia.ca/services/search.asp">
+			<input type="text" size="35" maxlength="40" value="" title="Bookstore Search" name="KEYWORD" id="KEYWORD" class="input" style="border: 1px solid #ffeeee; padding: 2px;"/><input type="image" name="submit" src="img/button.search.gif" title="Search" alt="Search" align="top" id="searchButton" />&nbsp;<br/>
+			<input type="hidden" value="3" name="CAT" id="CAT" />
+			<input type="hidden" value="Y" name="IMG" id="IMG" />
+		</form>
+
+		<a href="index.html"><img src="http://web2.concordia.ca/Bookstore/img/logo.bookstore.jpg" alt="Bookstore Logo" title="Concordia University Bookstore" height="90" width="158" border="0" usemap="#LOGO" /></a><br/>
+
+
+	</div>
+
+
+
+	<!-- Navigation: Top Tabs, and sub-tabs -->
+	<table id="maintabs"><tr>
+		<td class="blankmaintableft">&nbsp;</td>
+		<td class="maintab" id="maincurrent"><a href="index.html">Home</a></td>
+		<td class="maintab"><a href="textbooks.shtml">Textbooks</a></td>
+		<td class="maintab"><a href="usedbooks.shtml">Used Books</a></td>
+		<td class="maintab"><a href="generalbooks.jsp">General Books</a></td>
+		<td class="maintab"><a href="merchandise.shtml">Merchandise</a></td>
+		<td class="maintab"><a href="faculty.shtml">Faculty &amp; Staff</a></td>
+		<td class="maintab"><a href="promotions.shtml">Promotions</a></td>
+		<td class="maintab"><a href="search.shtml">Search</a></td>
+		<td class="maintab"><a href="../../pageswww.concordia.ca/">Computer Store</a></td>
+		<td class="blankmaintabright">&nbsp;</td>		
+	</tr></table>
+
+	<table id="subtabs"><tr>
+		<td class="subtab"><a href="home.hours.html">Store Hours</a></td>
+		<td class="subtab"><a href="home.return.html">Return Policy</a></td>
+		<td class="subtab"><a href="home.privacy.html">Privacy Policy</a></td>
+		<td class="subtab"><a href="home.geninfo.html">General Information</a></td>
+		<td class="subtab"><a href="home.about.html">About the Bookstore</a></td>
+		<td class="subtab"><a href="home.contact.html">Contact Us</a></td>
+		<td class="subtab"><a href="http://web2.concordia.ca/Bookstore/home.jobs.html">Bookstore Jobs</a></td>
+		<td class="subtab"><a href="http://web2.concordia.ca/Bookstore/home.sitemap.html">Site Map</a></td>
+	</tr></table>
+
+
+
+	<!-- Multi-column Body area -->
+	<table id="threecolumns" width="100%" cellpadding="0" cellspacing="0" style="clear:both;">
+	<tr>
+		<td valign="top" id="left">
+			<ul>
+				<li class="quicklink"><a href="textbooks.booklist.shtml">Student Booklist</a></li>
+				<li class="quicklink"><a href="textbooks.shtml">Textbooks</a></li>
+				<li class="quicklink"><a href="usedbooks.shtml">Used Books</a></li>
+				<li class="quicklink"><a href="generalbooks.jsp">General Books</a></li>
+				<li class="quicklink"><a href="merchandise.shtml">Merchandise</a></li>
+				<li class="quicklinkcurrent" style="margin-top:15px;"><a href="home.buyonline.shtml">Buy Online</a></li>
+				<li class="quicklink"><a href="http://web2.concordia.ca/Bookstore/faculty.supplies.html">Stationery &amp; Supplies</a></li>
+				<li class="quicklink"><a href="home.hours.html">Store Hours</a></li>
+				<li class="quicklink"><a href="home.contact.html">Contact Us</a></li>
+
+			</ul>
+
+			<br/>
+			<center>
+			<div class="booklistnotice booklist">
+
+				<span style="color:darkred"><b><u>Student Booklist</u></b></span><br/>
+				Find out what books you need by entering your Student ID:
+
+		       	  <form name="BOOKLIST" id="BOOKLIST" method="post" action="http://bkstore.concordia.ca/services/booklist.asp" style="margin: 0px;">
+					<div>
+					<input type="text" size="9" maxlength="7" value="" name="SID" id="SID" style="font-size: 9pt;"/>
+					<input type="submit" name="submit" value="Go" style="font-size: 9pt; padding-left: 5px; padding-right: 5px; color: #000055; font-weight: bold;"/>
+					<input type="hidden" name="IMG" value="Y"/>
+					</div>
+		      	  </form>
+
+		        <span class="booklist">You can also search by Course, or by Book Title,
+           			Author, or ISBN.<br/><a href="search.shtml">Search...</a></span>
+
+
+				 <br/>
+				 <img src="http://web2.concordia.ca/Bookstore/img/spacer.gif" border="0" alt="" height="10" width="125" />
+
+
+			</div>
+			</center>
+
+			<br/><br/>
+			<p align="center">
+				<a href="http://www.concordia.ca/?refererID=bookstore"><img src="http://web2.concordia.ca/Bookstore/img/concordia.bw.gif" alt="Concordia Home" title="Concordia University Home" border="0" width="125" height="31" /></a>
+			</p>
+
+		</td>
+
+		<td valign="top" id="middle">
+		<!-- BEGIN BODY TEXT -->
+
+		
+		<table border=0 align=center width="650" cellpadding=5>
+		<tr>
+		 <td valign=top align=right><a href="http://bookstore.concordia.ca/cubkstr/main/"><img src="http://web2.concordia.ca/Bookstore/img/logos.shop.gif" alt="Concordia University Online Bookstore" border="0" width="140" height="130" /></a>&nbsp;</td>
+		 <td valign=top>
+
+		  <h2 class='title'>Buy Textbooks and Selected<br/>Merchandise Online</h2>
+		  <p class='specialstext2'>Please review this page before shopping online.</p>
+		  
+		  <p class='specialstext2'>To purchase books or select merchandise by credit card, <a href="http://bookstore.concordia.ca/cubkstr/main/">Follow this
+			 link to continue to our online store</a>.</p>
+
+		  <p class='specialstext3' style="color:#883344;">If you are a Concordia Faculty or Staff member ordering internal
+		  	 department Stationery or Office Supplies on account, <a href="http://web2.concordia.ca/Bookstore/faculty.supplies.html">start here instead</a>.</p>
+
+		 </td>
+		 <td width=90 valign="top">
+			<a href="http://web2.concordia.ca/Bookstore/textbooks.accesscodes.shtml"><img src="http://web2.concordia.ca/Bookstore/img/button.download.jpg" align="right" alt="Download PIN Codes" title="Download PIN Codes" border="0" /></a>
+		 </td>
+		</tr>
+	   </table>
+
+		<table border=0 align=center width="90%" cellpadding=5>
+		<tr><td>
+			<!--
+			  <div class="notice5" style="margin-bottom: 8px; padding:10px;">
+				<u>Note</u>: Web orders made during the holidays &amp; before December 29th, will be shipped on the 29th. Orders
+				made on the 29th or later will only be shipped on January 3rd.
+			  </div>
+			 -->
+			 
+		 <p>Note that books for courses given at the Loyola Campus (including Queen of
+		   Angels Academy &amp; North Star Academy) are only sold at the <a href="http://bookstore.concordia.ca/loyo/">Loyola Campus Store</a>,
+		   and books for courses given at the Downtown Campus (including Continuing
+		   Education and Marianopolis College) are only sold at
+		   the <a href="http://bookstore.concordia.ca/cubkstr/">Sir George Williams</a> store.</p>
+
+		 <p>Also note that all online purchases of General Merchandise (non-book items
+		   such as clothing or other memorabilia) are made through the
+		   <a href="http://bookstore.concordia.ca/cubkstr/">Sir George Williams</a>
+		   Campus web store only.</p>
+
+		 <p>We now have the option for students to <a href="http://web2.concordia.ca/Bookstore/textbooks.rental.shtml">Rent their Textbooks</a>. 
+			However, textbook rentals must be done in person. Online rentals are not available.</p>
+		 
+		 <p class="green">Another new option is the ability to buy select <b><a href="http://web2.concordia.ca/Bookstore/textbooks.accesscodes.shtml">Online Access Codes</a> (ie Math XL or Lyryx PIN codes) 
+			directly online</b>. Unlike the usual method, you will get your access code online immediately upon 
+			payment instead of having to wait for Bookstore staff to generate a code for you &amp; email it to you.</p>
+		 
+		 <br/>
+		 <hr width="50%" align="center"/>
+		 <br/>
+
+		 <p style="color: 880000;"><b>When placing your order online, You will be required to
+		   acknowledge that you have read and understood the following:</b></p>
+
+		<div class="specs" style="padding: 10px; background-color:#fffff0;">
+		 <ul>
+
+		   <li>Prices and availability may change without notice.<br/><br/></li>
+
+		   <li>Please note that we cannot hold orders in the store to be picked up. All orders will be
+			   shipped to the shipping address listed on the order.<br/><br/></li>
+
+		   <li>If you have ordered a USED book and we are out of stock in "USED" we will send a
+			  new book and adjust your bill accordingly. We make every effort to provide used
+			  books when requested but sometimes they are purchased by "in-store" customers
+			  before we can pull them for your order.<br/><br/></li>
+
+		   <li><b>Quebec residents will have the 7.5% PST added for any General Merchandise items that
+			  are part of the purchase. This charge will be reflected on your credit card transaction.</b></li>
+
+		 </ul>
+
+
+		 <br/>
+
+
+		 <p style="color: #880000;"><b><u>Shipping Charges by region</u>:</b></p>
+
+		 <ul>
+		   <li><b>E-Book only orders</b>: have no shipping charge. E-Book access codes are emailed to you. Mixed orders have normal shipping charges applied to the physical items.<br/><br/></li>
+		   
+		   <li><b>Quebec</b>: $10.00 (flat rate)<br/><br/></li>
+
+		   <li><b>Canada (outside Quebec)</b>: $12.00 for the first item, plus $1.00 for each additional item.<br/><br/></li>
+
+		   <li><b>United States</b>: $25.00 for the first item, plus $1.00 for each additional item.<br/><br/></li>
+
+		   <li><b>International</b>: Call or <a href="http://web2.concordia.ca/Bookstore/home.email.html">email</a> (phone numbers below) <!-- $25.00 for the first item, plus $2.00 for each additional item. --><br/><br/></li>
+
+		   <li><b><u>EXCEPTION</u>:</b> Due to the special packaging and insurance required for shipping <b>Diploma Frames</b>,
+			   they cost <b>$30.00</b> to Canada or U.S to send the first frame. <b>Add $5.00</b> for each additional frame
+			   shipped to the same address (International shipping will require a custom quote).<br/><br/></li>
+
+		   <li>All charges are in Canadian dollars.<br/><br/></li>
+
+		   <li class='red'>Due to the policies of our shipping company (DHL), <b>WE DO NOT SHIP TO P.O. BOXES</b>.</li>
+			
+		 </ul>
+	 
+			<p>And a bit of advice: if home delivery might be a problem with nobody to answer the courier, 
+				maybe think about having your order delivered to your workplace instead.</p>
+				
+		 </div>
+		 
+		 <br/>
+		 
+<!-- WEB ORDER PICKUP -->
+<!--
+		<div class="specs" style="padding: 10px; background-color:#fffff0;">
+			<p style="color: #880000;"><b><u>New: Web Order Pickup for Back-To-School</u>:</b></p>
+			<p>This is a new option which we're making available only during the back-to-school rush period. Place your order online
+			   &amp; Bookstore staff will gather your ordered items and set them aside for in-store pickup.</p>
+			   
+			<ul>
+				<li>Available at both Campus Locations (SGW and Loyola)</li>
+				<li>For the <u>2011 Fall Term</u>, Pickup dates are from <b>August 29th</b> until <b>September 16th</b>. 
+					Pickups are not available outside of these dates.</li>
+				<li>There will be a <b>$5.00</b> flat fee for pickup.<br/>
+					<i>(Compare to normal shipping for orders within Quebec at $10.00)</i></li>
+				<li>When collecting your order, you must have your <u>Student ID card</u> and the <u>Credit Card you used to place the order</u>. 
+					You will also be asked to sign for your order.</li>
+				<li>Web orders will be available for pickup 1-2 business days (Mon-Fri, excluding holidays) after the order was placed.</li>
+			</ul>
+		</div>
+		<br/>
+-->
+<!-- WEB ORDER PICKUP -->
+
+		
+		 <p style="color: 880000;"><b><u>Payment Options</u>:</b><br/>
+			The Online Store accepts VISA, MasterCard, and American Express. <img src="http://web2.concordia.ca/Bookstore/pics/logos.payment.web.gif" align="middle" alt="VISA, MasterCard, American Express" width="160" height="45" />
+		 </p>
+
+		 <br/>
+
+		 <p><b>Follow this link to read our <a href="home.privacy.html">Privacy Policy</a>.</b></p>
+		 <p><b>If you have any questions about online ordering, <a href="http://web2.concordia.ca/Bookstore/home.email.html">let us know</a>.</b></p>
+
+		 <br/>
+
+		 <p class='specialstext2' align=right><a href="http://bookstore.concordia.ca/cubkstr/main/">Continue to
+		   the online store</a>.</p>
+
+		</td></tr>
+		</table>
+
+		<!-- END BODY TEXT -->
+
+
+			<a name="address"></a><br/>
+
+			<p align="center">
+				<br/>
+				<a href="home.contact.html"><img src="http://web2.concordia.ca/Bookstore/img/text.address.gif" alt="SGW Campus: 1400 de Maisonneuve Blvd West, Library Building, Montreal, Quebec H3G 1M6; Loyola Campus: 7141 Sherbrooke St. West, Communications and Journalism Building, Montreal, Quebec H4B 1R6" width="389" height="120" border="0" /></a><br/>
+			</p>
+
+
+			<div class="footerlinks">
+				<a href="index.html">Home</a> |
+				<a href="textbooks.shtml">Textbooks</a> |
+				<a href="usedbooks.shtml">Used Books</a> |
+				<a href="generalbooks.jsp">General Books</a> |
+				<a href="merchandise.shtml">Merchandise</a> |
+				<a href="faculty.shtml">Faculty &amp; Staff</a> |
+				<a href="promotions.shtml">Promotions</a> |
+				<a href="search.shtml">Search</a>
+			</div>
+			<div style="text-align: right; font-size: 9pt; padding-top: 5px;">
+				Questions? Suggestions? <a href="home.contact.html">Contact Us</a>.
+			</div>
+
+
+		</td><!-- End "middle" -->
+
+	</tr>
+	</table><!-- End Columns -->
+
+
+</div>
+
+
+
+<!-- Footer -->
+<div id="footer">
+	<a href="http://www.concordia.ca/?refererID=bookstore"><img src="http://web2.concordia.ca/Bookstore/img/logo.conu.watermark.jpg" alt="Concordia University" border="0" align="right" /></a>
+	Copyright &copy; 2011 Concordia University
+</div>
+
+<br style="clear:both;"/>
+<br/>
+
+
+
+
+
+<map name="LOGO">
+	<area href="http://web2.concordia.ca/Bookstore" shape="rect" coords="1,1,158,70" alt="Bookstore Home" title="Concordia Bookstore Home" />
+	<area href="../../pageswww.concordia.ca/index.html" shape="rect" coords="14,74,142,90" alt="Concordia Home" title="Concordia University Home" />
+</map>
+
+
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-8958207-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+
+</body>
+</html>

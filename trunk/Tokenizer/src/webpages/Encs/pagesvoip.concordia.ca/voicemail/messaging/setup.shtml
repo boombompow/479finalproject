@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><HTML><HEAD><a name="topof"></a><TITLE>Telephone and Voice Mail</TITLE><META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><link rel="stylesheet" type="text/css" href="http://voip.concordia.ca/includes/css/voip.css"><script src="http://voip.concordia.ca/scripts/dom.js" type="text/javascript" language="Javascript" charset="iso-8859-1"></script><style type="text/css" media="all">@import "/includes/css/sidemenu.css";</style><style type="text/css"><!-- div#sidemenu ul#navmenu li#index-menu  { 	display: list-item; }ul#navmenu li#index-menu li { 	display: list-item; }ul#navmenu li#index-menu li ul#unify {	display: list-item; }// .style1 {font-size: 11px}.style2 {	font-family: Verdana, Arial, Helvetica, sans-serif;	font-size: 11px;}.style3 {font-size: 12px}--></style></HEAD><BODY onLoad="init()"><TABLE bgcolor="#2D4277" width="100%" border="0" cellspacing="0" cellpadding="0">  <TR>     <TD width="310" valign="top" background="/images/piece2.gif"><img src="http://voip.concordia.ca/images/voice_serv_revsm.jpg" alt="voiceservices" width="310" height="46"></TD>    <TD width="35" background="/images/piece2.gif"><img src="http://voip.concordia.ca/images/spacer.gif" alt="spacer" width="35" height="8"></TD>    <TD width="90" background="/images/piece2.gif"><img src="http://voip.concordia.ca/images/spacer.gif" alt="spacer" width="90" height="9"></TD>    <TD width="80" background="/images/piece2.gif"><img src="http://voip.concordia.ca/images/spacer.gif" alt="spacer" width="80" height="8"></TD>        <TD width="140" valign="top" background="/images/piece2.gif"><img src="http://voip.concordia.ca/images/concordia_new.gif" alt="spacer" width="140" height="46" border="0" usemap="#Map"></TD>    <TD width="100%" valign="top" background="/images/piece2.gif">&nbsp;</TD>  </TR>  
+<TR>     <TD width="268" valign="top" bgcolor="#000000"><img src="http://voip.concordia.ca/images/level2photo2.gif" alt='""' width="268" height="29"></TD>    <TD align="right" valign="middle" bgcolor="#000000"><a class="white" href="../../index.html"><img src="http://voip.concordia.ca/images/spacer.gif" alt="spacer" width="5" height="1" border="0">Home</A></TD>    <TD align="center" valign="middle" bgcolor="#000000"><a class="white" href="../../index.html"><img src="http://voip.concordia.ca/images/spacer.gif" alt="spacer" width="5" height="1" border="0">       </A><a class="white" href="../../"><img src="http://voip.concordia.ca/images/spacer.gif" alt="spacer" width="20" height="1" border="0">News</A></TD>     <TD align="center" valign="middle" bgcolor="#000000"><a class="white" href="faqs.shtml">FAQs</A></TD>         <TD colspan="2" bgcolor="#000000"></TD>  </TR></TABLE><map name="Map">  <area shape="rect" coords="6,4,133,41" href="../../../pageswww.concordia.ca/index.html" alt="concordia" target="blank"></map><TABLE border="0" cellspacing="0" cellpadding="0">  <TR>     <TD width="155"  valign="top" bgcolor="#FFFFFF">   <div id="sidemenu">
+<ul id="navmenu">
+  <li id="index-menu">&nbsp;
+    <ul>
+      <li><a href="http://voip.concordia.ca/voicemail/messaging/setup.shtml#" onclick="showSearch('vm','index-menu'); return false;">Telephones
+&amp; Features</a>
+        <ul id="vm" class="sub">
+          <li><a href="../accessories/index.html">Telephone
+System Features</a></li>
+          <li><a href="../otherservices/sets.shtml">Telephone
+Sets</a></li>
+          <li><a href="../otherservices/headsets.shtml">Telephone
+Accessories</a></li>
+          <li><a href="../otherservices/configure.shtml">Configure
+Phone from Portal</a></li>
+          <li><a href="../../help/whotocontact/index2.shtml">Service
+Requests</a></li>
+          <li><a href="../otherservices/equipment.shtml">To
+Purchase Equipment</a></li>
+        </ul>
+      </li>
+      <li><a href="http://voip.concordia.ca/voicemail/messaging/setup.shtml#" onclick="showSearch('unify','index-menu'); return false;">Unity
+Connection</a>
+        <ul id="unify" class="sub">
+          <li><a href="setup.shtml">Setup
+Voice Mailbox</a></li>
+          <li><a href="http://voip.concordia.ca/voicemail/messaging/accessing.shtml">Accessing
+Voice Mail</a></li>
+          <li><a href="http://voip.concordia.ca/help/refmaterials/index2.shtml">User
+Guides</a></li>
+          <li><a href="http://voip.concordia.ca/voicemail/messaging/sample.shtml">Sample
+Greetings</a></li>
+          <li><a href="http://voip.concordia.ca/voicemail/messaging/managing.shtml">Managing
+your Mailbox</a></li>
+          <li><a href="faqs.shtml">FAQ's</a></li>
+        </ul>
+      </li>
+      <li><a href="http://voip.concordia.ca/voicemail/messaging/setup.shtml#" onclick="showSearch('directory','index-menu'); return false;">Directory
+Services</a>
+        <ul id="directory" class="sub">
+          <li><a href="http://voip.concordia.ca/directory/directories/">Directories</a></li>
+          <li><a href="http://voip.concordia.ca/directory/operator/">Operators</a></li>
+          <li><a href="../../directory/form/update.shtml">Directory
+Update Form </a></li>
+        </ul>
+      </li>
+      <li><a href="http://voip.concordia.ca/voicemail/messaging/setup.shtml#" onclick="showSearch('howto','index-menu'); return false;">Dial
+Calls/Long Distance</a>
+        <ul id="howto" class="sub">
+          <li><a href="http://www.kropla.com/dialcode.htm" target="_blank">Area &amp; Country Codes</a></li>
+          <li><a href="http://voip.concordia.ca/how_to/dial_calls/">Dialing
+Calls</a></li>
+          <li><a href="http://wwp.greenwichmeantime.com/" target="_blank">International Time Zones</a></li>
+          <li><a href="http://voip.concordia.ca/how_to/access/">Long
+Distance Access</a></li>
+          <li><a href="http://voip.concordia.ca/how_to/rates/">Long
+Distance Rates</a></li>
+        </ul>
+      </li>
+      <li><a href="http://voip.concordia.ca/voicemail/messaging/setup.shtml#" onclick="showSearch('conferencecalls','index-menu'); return false;">Conference
+Calls</a>
+        <ul id="conferencecalls" class="sub">
+          <li><a href="http://voip.concordia.ca/conference/conference_calls/">Conference
+Calls</a></li>
+          <li><a href="../../conference/equipment/">Rent
+Conference Call Equipment</a></li>
+        </ul>
+      </li>
+      <li><a href="http://voip.concordia.ca/voicemail/messaging/setup.shtml#" onclick="showSearch('billing','index-menu'); return false;">Service
+Package &amp; Rates</a>
+        <ul id="billing" class="sub">
+          <li><a href="http://voip.concordia.ca/billing/billedservices/">Service
+Package</a></li>
+          <li><a href="http://voip.concordia.ca/billing/inquiries/">Billing
+Inquiries Form</a></li>
+          <li><a href="http://voip.concordia.ca/billing/longdistance/">Long
+Distance Rates</a></li>
+          <li><a href="http://voip.concordia.ca/billing/service_charge/">Service
+Charge Rates</a></li>
+        </ul>
+      </li>
+      <li><a href="http://voip.concordia.ca/billing/license/licensing.shtml">Licensing</a></li>
+      <li><a href="http://voip.concordia.ca/help/refmaterials/index2.shtml">User
+Guides &amp; Tutorials</a></li>
+      <li><a href="../../help/whotocontact/index2.shtml">Who to
+contact for help?</a></li>
+      <br>
+      <br>
+    </ul>
+  </li>
+</ul>
+</div>
+   </TD>    <TD width="1" bgcolor="#999999"><img src="http://voip.concordia.ca/images/spacer.gif" width="1" height="1"></TD>    <TD valign="top" width="23" bgcolor="#FFFFFF"><img src="http://voip.concordia.ca/images/spacer.gif" width="23" height="8"></TD>    <TD width="1" valign="top" bgcolor="#ffffff"><img src="http://voip.concordia.ca/images/spacer.gif" width="1" height="1"></TD>    <TD width="100%" align="left" valign="top" bgcolor="#FFFFFF"> <P class="newstext">&nbsp;</P>      <TABLE width="100%" border="0" cellspacing="0" cellpadding="0">        <TR>           <TD width="35" height="22" bgcolor="#FFFFFF"><div align="center"><img src="http://voip.concordia.ca/images/spacer.gif" width="38" height="8"></div></TD>          <TD class="contentheader"><div align="left">Setting Up Your Voice-Mailbox in Unity </div></TD>        </TR>      </TABLE>      <div id="container">              <p>If you do not have voice mail and would like this service, please contact your department's <a href="../../help/whotocontact/coordinators/cord2.html">Telephone Coordinator</a>.&nbsp; Once we receive and process the request, instructions on how to set-up your voice mail will be sent to you by email.</p><p class="style2">If you experience any problems while setting up your voice mailbox, please contact the IITS Helpline at extension 7613 or send an email to <a href="mailto:help@concordia.ca">help@concordia.ca</a></p><p class="style3" style="margin-bottom: 0;"><strong>PIN (Voice-mail Password) Guidelines</strong></p><p class="style2" style="margin-top:0; margin-bottom: 0;">Your PIN protects the privacy of your messages and secures your account against unauthorized access.  You can change your PIN at any time.  Use the following guidelines when changing your PIN:</p><ul class="style2" style="margin-top: 0; margin-bottom: 0;">  <li>the PIN must be 8-digits</li>  <li>the new PIN cannot be the same as the previous PIN</li>  <li>the digits cannot be the same or repeated (i.e. 99999999 or 99991111)</li>  <li>the digits cannot be consecutive  (i.e. 12345678 or 87654321)</li>  <li>the PIN cannot be the same as your extension, nor can it spell your name</li>  </ul><p style="margin-top: 0;"><br>  The PIN will expire after 180 days and you will be asked to enter a new PIN.</p><p style="margin-bottom: 0;"><strong>Greetings</strong></p><p style="margin-top: 0;">When setting up your mailbox, it is important to record a personal greeting.&nbsp; For some examples of greetings, click on <a href="http://voip.concordia.ca/voicemail/messaging/sample.shtml">Sample Greetings</a> . </p><p style="margin-bottom: 0;">&nbsp;</p><p style="margin-top: 0">&nbsp; </p><br><p>&nbsp; </p>	  </div>    </TD>    <TD class="col"width="1" valign="top" ></TD>    <TD width="27" valign="top" bgcolor="#2d4277"></TD>    <TD class="photocredit" width="120" valign="top" bgcolor="#2d4277"><img src="http://voip.concordia.ca/images/spacer.gif" width="120" height="8">      <BR> <img src="http://voip.concordia.ca/images/spacer.gif" width="26" height="8"><BR> <BR>    </TD>    <TD width="158" valign="top" bgcolor="#000000"><img src="http://voip.concordia.ca/images/spacer.gif" width="50" height="1"></TD>  </TR>  <TR>     <TD class="copyright" colspan="5"  valign="top" bgcolor="#E1E1E1"><img src="http://voip.concordia.ca/images/spacer.gif" width="10" height="8" alt="spacer">&copy; Copyright 
+<script type="text/javascript" language="JavaScript">
+<!--
+var curdate = new Date()
+var year = (curdate.getYear() + 1900);
+document.write(year);
+// -->
+</script>, <a class="copyrightlink" href="../../../pageswww.concordia.ca/index.html">Concordia University</A></TD>    <TD class="col"valign="top">&nbsp;</TD>    <TD valign="top" bgcolor="#22335E">&nbsp;</TD>    <TD valign="top" bgcolor="#22335E">&nbsp;</TD>    <TD valign="top" bgcolor="#000000">&nbsp;</TD>  </TR></TABLE></BODY></HTML>

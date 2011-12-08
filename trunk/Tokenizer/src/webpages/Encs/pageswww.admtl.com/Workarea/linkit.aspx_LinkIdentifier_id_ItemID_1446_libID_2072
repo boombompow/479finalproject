@@ -1,0 +1,354 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	Montréal-Trudeau vous accueille
+</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta id="ctl00_ctl00_mtaAuteur" name="author" content="Aéroports de Montréal" /><meta id="ctl00_ctl00_mtaMotsCle" name="keyword" content="Aéroport, Montréal, Avion" /><meta id="ctl00_ctl00_mtaDescription" name="description" content="Site des Aéroports de Montréal" /><link href="http://www.admtl.com/Site/MiseEnPage/Images/Globale/favicon.ico" rel="shortcut icon" type="image/x-icon" /><link href="http://www.admtl.com/Site/MiseEnPage/Images/Globale/favicon.png" rel="icon" type="image/gif" />
+    <link href="http://www.admtl.com/Site/HttpHandlers/Combiner.ashx?f=~/Site/MiseEnPage/Css/Globale/Globale.css,~/Site/MiseEnPage/Css/Globale/FixEktron.css,~/Site/MiseEnPage/Css/Passagers/Passagers.css,~/Site/MiseEnPage/Css/Globale/PicturePlaceHolder.css&t=css&2" rel="stylesheet" type="text/css" media="all" />
+    <link href="http://www.admtl.com/Site/HttpHandlers/Combiner.ashx?f=~/Site/MiseEnPage/Css/Passagers/LayoutLarge.css&t=css&2" rel="stylesheet" type="text/css" media="all" />
+    
+    
+    <link href="http://www.admtl.com/Site/HttpHandlers/Combiner.ashx?f=~/Site/MiseEnPage/Css/Passagers/Aeroshopping.css,~/Site/MiseEnPage/Css/Controles/FontSize/FontSize.css&t=css&2" rel="stylesheet" type="text/css" media="all" />
+
+    
+    <!--[if lte IE 6]><link href="/Site/HttpHandlers/Combiner.ashx?f=~/Site/MiseEnPage/Css/Globale/FixIE6.css,~/Site/MiseEnPage/Css/Passagers/FixIE6.css&t=css&2" rel="stylesheet" type="text/css" media="all" /><![endif]-->
+    <!--[if IE 7]><link href="/Site/HttpHandlers/Combiner.ashx?f=~/Site/MiseEnPage/Css/Globale/FixIE7.css,~/Site/MiseEnPage/Css/Passagers/FixIE7.css&t=css&2" rel="stylesheet" type="text/css" media="all" /><![endif]-->
+    
+    <link href="http://www.admtl.com/Site/HttpHandlers/Combiner.ashx?f=~/Site/MiseEnPage/Css/Globale/Print.css&t=css&2" rel="stylesheet" type="text/css" media="print" />
+</head>
+<body>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js?2" type="text/javascript" language="javascript"></script>
+
+    <div id="ctl00_ctl00_bnrUrgence" class="EktronBusinessRules">
+	
+</div>
+    <div id="ctl00_ctl00_bnrAlerte" class="EktronBusinessRules">
+	
+</div>  
+    <span id="ctl00_ctl00_lngSiteLanguage"></span>
+    
+    <form name="aspnetForm" method="post" action="http://www.admtl.com/Passagers/Aeroshopping/HotelMarriott.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTMzMTU3NTEzOA9kFgJmD2QWAmYPZBYCAgQQZGQWBAIND2QWBAIFD2QWAgIBDw8WAh4FVGl0bGUFASBkZAIJD2QWAgIBD2QWAmYPDxYCHwAFASBkZAIPDw8WBh8ABRJMaWVucyBwaWVkIGRlIHBhZ2UeE0NhdGFsb2dJY29uSW1hZ2VVcmwFLi9Xb3JrQXJlYS9pbWFnZXMvYXBwbGljYXRpb24vaWNvbl9kb2N1bWVudC5naWYeEVRpdGxlSWNvbkltYWdlVXJsZWRkZHMAFbsIP+5ZKKoZC/csGAIvFkPS" />
+</div>
+
+<script type="text/javascript">var theForm=document.forms.aspnetForm;if(!theForm){theForm=document.aspnetForm}function __doPostBack(b,a){if(!theForm.onsubmit||(theForm.onsubmit()!=false)){theForm.__EVENTTARGET.value=b;theForm.__EVENTARGUMENT.value=a;theForm.submit()}};</script>
+
+
+<div>
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWAwKk5N5eAsemwakHAsa6vf4MvPtV2Zfw3fem7BBhCynZUK+bevw=" />
+</div>
+        <script type="text/javascript">(function(a){a(document).ready(function(){adm.global.init({version:"2",bingmap:{serviceAddress:"http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=6.2&mkt=fr-FR",atlasCompatAddress:"http://ecn.dev.virtualearth.net/mapcontrol/v6.2/js/atlascompat.js"},text:{externalUrl:"Message important : Vous vous apprêtez à accéder à un site externe. Aéroports de Montréal vous offre ce lien pour vous faciliter les choses, mais nous ne pouvons être tenus responsables du contenu de ce site. Si vous acceptez cette condition, une nouvelle fenêtre s�"ouvrira. Pour revenir au site d�"Aéroports de Montréal, il suffira de fermer cette fenêtre."}});if(adm.global.support.css){Cufon.replace("h2.helvetica",{fontFamily:"HelveticaNeueCondensedBold"});Cufon.replace("h3.helvetica",{fontFamily:"HelveticaNeueCondensedMedium"})}})})(jQuery);</script>
+        
+        <div id="container">
+            
+    <div class="invisible">
+        <a name="hautPage" id="hautPage"></a>
+        <fieldset>
+            <legend><span id="ctl00_ctl00_cphRaccourcisHaut_lblTitre">Raccourcis</span></legend>
+            <ul>
+                <li><a href="http://www.admtl.com/Passagers/Aeroshopping/HotelMarriott.aspx#contenuPartBottom"><span id="ctl00_ctl00_cphRaccourcisHaut_lblBasPage">Aller au bas de la page</span></a></li>
+                <li><a href="http://www.admtl.com/Passagers/Aeroshopping/HotelMarriott.aspx#contenuPart"><span id="ctl00_ctl00_cphRaccourcisHaut_lblContenu">Aller directement au contenu</span></a></li>
+                <li><a href="http://www.admtl.com/Passagers/Aeroshopping/HotelMarriott.aspx#navBar"><span id="ctl00_ctl00_cphRaccourcisHaut_lblNavBar">Aller à la navigation principale</span></a></li>
+                <li><a href="http://www.admtl.com/Passagers/Aeroshopping/HotelMarriott.aspx#sectionSecondaire"><span id="ctl00_ctl00_cphRaccourcisHaut_lblMenuSections">Aller à la navigation de section</span></a></li>
+                <li><a href="http://www.admtl.com/Passagers/Aeroshopping/HotelMarriott.aspx#menu-section"><span id="ctl00_ctl00_cphRaccourcisHaut_lblMenuSegments">Aller au menu des segments</span></a></li>
+                <li><a href="http://www.admtl.com/Passagers/Aeroshopping/HotelMarriott.aspx#mnu_langues"><span id="ctl00_ctl00_cphRaccourcisHaut_lblMenuLangues">Aller au menu des langues</span></a></li>
+            </ul>
+        </fieldset>
+        <br />
+    </div>
+
+
+            <div id="page" class='french'>
+                <div id="header">
+                    <div id="logo">
+                        <a id="ctl00_ctl00_hlkLogo" href="../Passagers/Accueil.aspx"><img src="http://www.admtl.com/Site/MiseEnPage/Images/Globale/logo_admtl.gif" style="border-width:0px;" /></a>
+                    </div>
+                    <div id="menu">
+                        <div id="menu-language">
+                            <div class="invisible">
+                                <a name="mnu_langues" id="mnu_langues"></a>
+                                <h2><span id="ctl00_ctl00_lblMenuLangues">Aller au menu des langues</span></h2>
+                            </div>
+                            <ul><li><a id="ctl00_ctl00_lkbChangerLangue" href="javascript:__doPostBack('ctl00$ctl00$lkbChangerLangue','')">english</a></li></ul>
+                        </div>
+                        <div id="menu-section">
+                            <div class="invisible">
+                                <a name="mnu_segment" id="mnu_segment"></a>
+                                <h2><span id="ctl00_ctl00_lblMenuSections">Menu des segments</span></h2>
+                            </div>
+                            <ul>
+                                <li><a id="ctl00_ctl00_hlkPassagers" class="passagers" href="../Passagers/Accueil.aspx">Passagers</a></li>
+                                <li><a id="ctl00_ctl00_hlkAffaires" class="affaires" href="../Affaires/Accueil.aspx">Affaires</a></li>
+                                <li><a id="ctl00_ctl00_hlkAPropos" class="apropos" href="../APropos/Accueil.aspx">ì propos de nous</a></li>
+                                
+                            </ul>
+                        </div>
+                        <div id="menu-home"><a id="ctl00_ctl00_hlkAccueil" href="../Passagers/Accueil.aspx"><img src="http://www.admtl.com/Site/MiseEnPage/Images/Globale/bt_home.gif" style="border-width:0px;" /></a></div>
+                    </div>
+                    <div class="invisible">
+                        <hr />
+                    </div>
+                    
+    
+    <h1><span id="ctl00_ctl00_cphEnteteTitre_cphEnteteTitre_lblTitreSection">L'Aéroshopping</span></h1>
+
+
+                    
+    <div class="invisible">
+        <a name="navBar" id="navBar"></a>
+    </div>
+    
+
+
+                </div>
+                <div id="navbar">
+                    <div class="invisible">
+                        <h2><span id="ctl00_ctl00_lblNavBar">Navigation Principale</span></h2>
+                    </div>
+                    <span id="ctl00_ctl00_mnuPassagers">
+<ul><li><a id="MenuItemID15" href="../Passagers/ServicesAeriens/Accueil.aspx" target="_self">Services aériens</a></li><li><a id="MenuItemID16" href="../Passagers/AccesEtStationnement/Accueil.aspx" target="_self">Accès et stationnement</a></li><li><a id="MenuItemID17" href="../Passagers/Formalites/Accueil.aspx" target="_self">Formalités</a></li><li><a id="MenuItemID18" href="../Passagers/Aeroshopping/Accueil.aspx" target="_self">L'Aéroshopping</a></li><li><a id="MenuItemID19" href="../Passagers/DestinationMontreal/Accueil.aspx" target="_self">Destination Montréal</a></li></ul><script type="text/javascript" language="JavaScript">function GetPreviewURL(){var a=self.location.href;var b=a.split("?");if(b.length>1){a=a+"&amp;cmsMode=Preview"}else{a=a+"?cmsMode=Preview"}return a};</script><script type="text/javascript" language="javascript">function PopUpWindow(b,a,e,d,c,f){return(EkTbWebMenuPopUpWindow(b,a,e,d,c,f))}function ecmPopUpWindow(b,a,e,d,c,f){PopUpWindow(b,a,e,d,c,f)};</script>
+</span>
+                </div>
+                <div id="content-shadow-top">
+                    <div id="content-shadow-side">
+                        <div id="content">
+                            
+    <div id="layout">
+        <div id="breadcrumb">
+            <span id="ctl00_ctl00_cphMiseEnPage_fbcFilAriane"><a target="_self" href="../Passagers/Accueil.aspx" title="">Passagers</a> > <a target="_self" href="../Passagers/Aeroshopping/Accueil.aspx" title="">L&#39;Aéroshopping</a></span>
+        </div>
+        <div id="layout-content">
+            <div class="invisible">
+                <a name="contenuPart" id="contenuPart"></a>
+                <h2><span id="ctl00_ctl00_cphMiseEnPage_lblTitreContenu">Contenu</span></h2>
+            </div>
+            
+    <div id="ctl00_ctl00_cphMiseEnPage_cphContenu_cltDynamique">
+	<h2>Hôtel Marriott Aéroport</h2><p><img title="Marriott_lobby_light" style="WIDTH: 200px; HEIGHT: 229px" alt="Marriott_lobby_light" src="http://www.admtl.com/UploadedImages/ADMTL/Passagers/AeroShopping/Lobby_light.gif" align="left" /><img title="Logo_Marriott_F" style="WIDTH: 150px; HEIGHT: 48px" alt="Logo_Marriott_F" src="http://www.admtl.com/UploadedImages/ADMTL/Passagers/AeroShopping/LogoMarriott_F.jpg" align="right" /> </p><p align="right"> </p><p align="right">800, place Leigh-Capreol<br />Dorval, Québec<br />H4Y 0A4<br />Téléphone : 514 636-6700<br />Télécopieur : 514 636-6600<br />Réservations sans frais : 1 866 580-6279<br /> <a href="https://www.marriott.fr/hotels/travel/yulma-montreal-airport-marriott-hotel/">https://www.marriott.fr/hotels/travel/yulma-montreal-airport-marriott-hotel/</a> </p><p> </p><p align="left"> </p><p align="left"> </p><p align="left"> </p><p align="left">Le tout nouvel Aéroport de Montréal Marriott, relié directement à l�"aérogare de Montréal-Trudeau, se démarque par son design nettement contemporain, ses chambres luxueuses et son service légendaire. Offrant tous les services auxquels les voyageurs d�"affaires et d�"agrément sont habitués, l�"hôtel est accessible du nouveau terminal de départs des �0tats-Unis par un escalier mobile. Il est situé à seulement 20 minutes en voiture du centre-ville de Montréal et ses attraits les plus populaires incluant la <a title="Basilique Notre-Dame" href="http://www.basiliquenddm.org/" target="_blank">Basilique Notre-Dame</a>, le <a title="Vieux Port de Montréal" href="http://www.quaisduvieuxport.com/" target="_blank">Vieux Port de Montréal</a>, le <a title="Centre Bell" href="http://www.centrebell.ca/" target="_blank">Centre Bell</a>, le parc d�"amusement Six Flags <a title="La Ronde" href="http://www.admtl.com/Passagers/Aeroshopping/www.laronde.com/" target="_blank">La Ronde</a>, le <a title="Stade Olympique" href="http://www.rio.gouv.qc.ca/" target="_blank">Stade Olympique</a> et le <a title="Jardin botanique" href="http://www2.ville.montreal.qc.ca/jardin/menu.htm" target="_blank">Jardin botanique</a>. Bijou, resto-bar à la mode, vous offre une cuisine faite à partir d�"ingrédients frais locaux dans un décor tendance. L�"hôtel dispose d�"un centre de mise en forme avec piscine intérieure ainsi que d�"un centre d�"affaires. Cet hôtel Marriott, muni d�"une sélection de salles banquet d�"une superficie totale de plus de 14 000 pieds carrés, est l�"endroit idéal pour des réunions corporatives, événements sociaux et mariages magnifiques. Visitez le tout nouvel Aéroport de Montréal Marriott lors de votre prochain séjour à Montréal !</p><h3>Catégorie </h3><p>4 étoiles </p><h3><img title="Marriott_Lobby_Fireplace" style="WIDTH: 300px; HEIGHT: 195px" alt="Marriott_Lobby_Fireplace" src="http://www.admtl.com/UploadedImages/ADMTL/Passagers/AeroShopping/Lobby-Fireplace.gif" align="right" />Emplacement </h3><ul><li>Relié à l�"aérogare Montréal-Trudeau </li><li>Accès au terminal des départs vers les �0.-U. par escalier mobile </li><li>Situé au centre de l�"Ouest-de-l�"�}le de Montréal </li><li>Boutiques, restaurants et divertissements à proximité </li><li>ì 20 minutes du centre-ville de Montréal </li><li>ì 5 minutes de la gare de Dorval <br /> </li></ul><h3>Commodités </h3><ul><li>Programme de récompense « Marriott Rewards » </li><li>279 chambres luxueuses et suites situées sur 9 étages </li><li>68 chambres au niveau Concierge </li><li>19 chambres accessibles aux personnes handicapées </li><li>7 suites incluant 1 suite présidentielle, 2 suites conférence, 4 suites junior (dont 1 suite accessible aux personnes handicapées) </li><li>Bureau de travail avec chaise ergonomique </li><li>2 téléphones </li><li><img title="Marriott_chambre" style="WIDTH: 280px; HEIGHT: 164px" alt="Marriott_chambre" src="http://www.admtl.com/UploadedImages/ADMTL/Passagers/AeroShopping/chambre.jpg" align="right" />Cafetière avec café et thé gracieuseté de l�"hôtel </li><li>Journal quotidien offert sur demande </li><li>Sèche-cheveux </li><li>Mini-réfrigérateur </li><li>Console multi média </li><li>Planche et fer à repasser </li><li>Téléviseur avec écran plat ACL de 32 po. </li><li>Accès à l�"Internet à haut débit </li><li> Système de climatisation et chauffage individuel avec détecteurs de fumée et gicleurs </li></ul><h3>Installations pour réunions, banquets et événements </h3><ul><li>Programme de récompense « Marriott Rewards » </li><li>Plus de 14 000 pi. ca. de superficie aménageable notamment pour des réunions ou des expositions, sur un seul étage </li><li>Salle de bal Opale de 6 905 pi. ca. </li><li>20 salles de réunions aménageables, dont 7 munies de fenêtres allant du plancher au plafond </li><li>2 salles d�"entrevue </li><li>2 suites de conférence </li><li>Accès à l�"Internet à haut débit et sans fil dans toutes les salles </li><li>Fournisseur audio/visuel sur place </li><li>�0quipe de planificateurs d�"événements professionnels </li></ul><h3><img title="Marriott_piscine" style="WIDTH: 284px; HEIGHT: 168px" alt="Marriott_piscine" src="http://www.admtl.com/UploadedImages/ADMTL/Passagers/AeroShopping/Piscine.jpg" align="right" />Installations et services </h3><ul><li>Centre d�"affaires (accès 24 hres) </li><li>Accès à l�"Internet sans fil dans les espaces publics </li><li>Départ express </li><li>Service de repas aux chambres </li><li>Bureau de change (US, EURO, livre sterling)</li><li>Service de blanchisserie (sauf les dimanches)</li><li>Stationnement avec service valet </li><li>Boutique de cadeaux et d�"articles divers </li><li>illy Espressamente, un café italien authentique </li><li>Bijou resto�bar, cuisine exquise dans un décor tendance </li><li>Bijou bar lounge vous offre des plats prêts en 5-10-20 minutes, et est l'endroit idéal pour une rencontre entre amis et collègues ou pour se détendre avant un vol</li><li>Piscine intérieure </li><li>Bain tourbillon </li><li>Centre de remise en forme</li></ul><p><img title="Marriott_restaurant" alt="Marriott_restaurant" src="http://www.admtl.com/UploadedImages/ADMTL/Passagers/AeroShopping/Restaurant.jpg" />  </p><input name="ctl00$ctl00$cphMiseEnPage$cphContenu$cltDynamique$ctl00$ctl00$cphMiseEnPage$cphContenu$cltDynamiqueEktronClientManager" type="hidden" id="ctl00_ctl00_cphMiseEnPage_cphContenu_cltDynamique_ctl00_ctl00_cphMiseEnPage_cphContenu_cltDynamiqueEktronClientManager" value="EktronJS,EktronJsonJS,EktronDmsMenuJS" />
+</div>  
+    <script language="javascript" type="text/javascript">(function(a){a(document).ready(function(){a("a.lrg").click(function(b){b.preventDefault();adm.lrg.openLocator(a(this).attr("levelId"),a(this).attr("zoneId"),a(this).attr("serviceId"))})})})(jQuery);</script>
+
+        </div>
+        <div id="layout-nav">
+            <div class="invisible">
+                <a name="sectionSecondaire" id="sectionSecondaire"></a>
+            </div>
+            <div id="layout-nav-content">
+                <div class="invisible">
+                    <h2><span id="ctl00_ctl00_cphMiseEnPage_lblNavSection">Navigation de section</span></h2>
+                    <a name="titre_rep_aaz" id="titre_rep_aaz"></a>
+                </div>
+                
+    
+<ul>
+  <li><a id="MenuItemID334" href="http://www.admtl.com/Passagers/Aeroshopping/HorsTaxes.aspx" target="_self">Hors taxes</a></li>
+  <li><a id="MenuItemID333" href="http://www.admtl.com/Passagers/Aeroshopping/Boutiques.aspx" target="_self">Boutiques</a></li>
+  <li><a id="MenuItemID336" href="http://www.admtl.com/Passagers/Aeroshopping/Restaurants.aspx" target="_self">Restaurants</a></li>
+  <li><a id="MenuItemID335" href="http://www.admtl.com/Passagers/Aeroshopping/Services.aspx" target="_self">Services</a></li>
+  <li><a id="MenuItemID270" href="http://www.admtl.com/Passagers/Aeroshopping/SalonAeroMontreal.aspx" target="_self">Salon TD Classe Ultime</a></li>
+  <li><a id="MenuItemID1446" href="http://www.admtl.com/Passagers/Aeroshopping/HotelMarriott.aspx" target="_self">Hôtel Marriott</a></li>
+</ul>
+
+<script language="javascript" type="text/javascript">(function(a){a(document).ready(function(){a("a#MenuItemID1446").addClass("select").attr("href","#").click(function(b){b.preventDefault()})})})(jQuery);</script>
+    <div class="button">
+        <div id="ctl00_ctl00_cphMiseEnPage_cphMenu_fontSize_pnlFontSize" class="font-size font-size-thin">
+	
+    <p><a id="ctl00_ctl00_cphMiseEnPage_cphMenu_fontSize_hlkFontSize" href="http://www.admtl.com/Site/Controles/FontSize/#">Changer la taille du texte</a></p>
+
+</div>
+
+<script language="javascript" type="text/javascript">(function(a){a(document).ready(function(){a("#ctl00_ctl00_cphMiseEnPage_cphMenu_fontSize_hlkFontSize").click(function(b){b.preventDefault();a("body").hasClass("large-text")?a("body").removeClass("large-text"):a("body").addClass("large-text")})})})(jQuery);</script>
+    </div>
+    <div class="button">
+        <a id="ctl00_ctl00_cphMiseEnPage_cphMenu_aaz_hlkOpen" href="http://www.admtl.com/Site/Controles/AaZ/#"><img src="http://www.admtl.com/Site/MiseEnPage/Images/Passagers/bt_aaz_fr_p.gif" style="border-width:0px;" /></a>
+
+<div id="ctl00_ctl00_cphMiseEnPage_cphMenu_aaz_modal_mainContainer" class="modalpopup-mainContainer" style="display: none;">
+	
+    <div id="ctl00_ctl00_cphMiseEnPage_cphMenu_aaz_modal_infoBoxContainer" class="modalpopup-infoboxContainer">
+
+	</div>
+    <div id="ctl00_ctl00_cphMiseEnPage_cphMenu_aaz_modal_titleContainer" class="modalpopup-titleContainer">
+		
+        <div id="aaz-title-leftContainer">
+            <span class="aaz-title">Recherche A à Z</span>
+        </div>
+        <div id="aaz-title-rightContainer">
+            <a id="aaz-title-btnClose" class="button" href="http://www.admtl.com/Passagers/Aeroshopping/HotelMarriott.aspx#">Fermer</a>
+        </div>
+    
+	</div>
+    <div id="ctl00_ctl00_cphMiseEnPage_cphMenu_aaz_modal_collapsePanel" class="modalpopup-collapsePanel">
+		
+        <div id="ctl00_ctl00_cphMiseEnPage_cphMenu_aaz_modal_contentPanel" class="modalpopup-contentPanel">
+			
+            <div id="ctl00_ctl00_cphMiseEnPage_cphMenu_aaz_modal_menuContainer" class="modalpopup-menuContainer">
+				
+        <div id="aaz-menuContainer"></div>
+    
+			</div>
+        
+		</div>
+        <div id="ctl00_ctl00_cphMiseEnPage_cphMenu_aaz_modal_headerPanel" class="modalpopup-headerPanel">
+
+		</div>
+    
+	</div>
+    <div id="ctl00_ctl00_cphMiseEnPage_cphMenu_aaz_modal_contentContainer" class="modalpopup-contentContainer">
+		
+        <div id="aaz-contentContainer"></div>
+    
+	</div>
+
+</div>
+
+<script language="javascript" type="text/javascript">(function(a){a(document).ready(function(){var b=[{url:"/Site/HttpHandlers/Combiner.ashx?f=~/Site/MiseEnPage/Js/Controles/ModalPopup/ModalPopup.js&t=js",type:"js"}];adm.global.include(b,function(){adm.modalpopup.init("modal-aaz"!==""?"modal-aaz":"ctl00_ctl00_cphMiseEnPage_cphMenu_aaz_modal",{openElement:""!==""?a("#"):null,closeElement:"aaz-title-btnClose"!==""?a("#aaz-title-btnClose"):null,showMenu:"True"==="True",showMenuAsCollapsed:"False"==="True",height:""!==""?"":null,width:""!==""?"":null,verticalMargin:"20px",horizontalMargin:"20px",mainContainer:a("#ctl00_ctl00_cphMiseEnPage_cphMenu_aaz_modal_mainContainer"),titleContainer:a("#ctl00_ctl00_cphMiseEnPage_cphMenu_aaz_modal_titleContainer"),contentContainer:a("#ctl00_ctl00_cphMiseEnPage_cphMenu_aaz_modal_contentContainer"),collapsePanel:a("#ctl00_ctl00_cphMiseEnPage_cphMenu_aaz_modal_collapsePanel"),collapsePanelHeader:a("#ctl00_ctl00_cphMiseEnPage_cphMenu_aaz_modal_headerPanel"),collapsePanelContent:a("#ctl00_ctl00_cphMiseEnPage_cphMenu_aaz_modal_contentPanel"),collapsePanelMenuContainer:a("#ctl00_ctl00_cphMiseEnPage_cphMenu_aaz_modal_menuContainer"),infoboxContainer:a("#ctl00_ctl00_cphMiseEnPage_cphMenu_aaz_modal_infoBoxContainer"),onOpen:"adm.aaz.onOpenModalPopup",onResize:"",onClose:"",onOpened:"adm.aaz.onOpenedModalPopup",onResized:"adm.aaz.onResizedModalPopup",onClosed:"",onOpenMenu:"",onCollapseMenu:"",onOpenedMenu:"adm.aaz.onOpenedMenu",onCollapsedMenu:"adm.aaz.onCollapsedMenu"})},true)})})(jQuery);</script>
+
+    
+
+
+
+
+<script language="javascript" type="text/javascript">(function(a){a(document).ready(function(){a("#ctl00_ctl00_cphMiseEnPage_cphMenu_aaz_hlkOpen").click(function(b){b.preventDefault();adm.global.include(adm.global.files.loading,function(){adm.loading.show({text:{loading:"Chargement en cours..."}})},true);var c=[{url:"/Site/HttpHandlers/Combiner.ashx?f=~/Site/MiseEnPage/Css/Controles/AaZ/AaZ.css&t=css",type:"css"},{url:"/Site/HttpHandlers/Combiner.ashx?f=~/Site/MiseEnPage/Js/Controles/AaZ/AaZ.js&t=js",type:"js"}];adm.global.include(c,function(){adm.aaz.init({text:{error:"Une erreur inconnue s'est produite."}})},true)})})})(jQuery);</script>
+    </div>
+    
+
+<div id="ctl00_ctl00_cphMiseEnPage_cphMenu_lrg_modal_mainContainer" class="modalpopup-mainContainer" style="display: none;">
+	
+    <div id="ctl00_ctl00_cphMiseEnPage_cphMenu_lrg_modal_infoBoxContainer" class="modalpopup-infoboxContainer">
+		
+        <div id="lrg-infoboxContainer"></div>
+    
+	</div>
+    <div id="ctl00_ctl00_cphMiseEnPage_cphMenu_lrg_modal_titleContainer" class="modalpopup-titleContainer">
+		
+        <div id="lrg-title-leftContainer">
+            <div id="lrg-title-locator">
+                <span class="lrg-title">Localisateur</span><span class="lrg-separator"></span><a id="lrg-title-locator-btnSwitch" href="http://www.admtl.com/Passagers/Aeroshopping/HotelMarriott.aspx#">Guide routier</a>
+            </div>
+            <div id="lrg-title-roadguide">
+                <span class="lrg-title">Guide routier</span><span class="lrg-separator"></span><a id="lrg-title-roadguide-btnSwitch" href="http://www.admtl.com/Passagers/Aeroshopping/HotelMarriott.aspx#">Localisateur</a>
+            </div>
+        </div>
+        <div id="lrg-title-rightContainer">
+            <a id="lrg-title-btnClose" class="button" href="http://www.admtl.com/Passagers/Aeroshopping/HotelMarriott.aspx#">Fermer</a>
+        </div>
+    
+	</div>
+    <div id="ctl00_ctl00_cphMiseEnPage_cphMenu_lrg_modal_collapsePanel" class="modalpopup-collapsePanel">
+		
+        <div id="ctl00_ctl00_cphMiseEnPage_cphMenu_lrg_modal_contentPanel" class="modalpopup-contentPanel">
+			
+            <div id="ctl00_ctl00_cphMiseEnPage_cphMenu_lrg_modal_menuContainer" class="modalpopup-menuContainer">
+				
+        <div id="lrg-menu-locator"></div>
+        <div id="lrg-menu-roadguide">
+            <div id="roadguide-criteria">
+                <div id="roadguide-upperContainer">
+                    <a id="roadguide-btnOpenEmailForm" href="http://www.admtl.com/Passagers/Aeroshopping/HotelMarriott.aspx#" class="disable">Courriel</a>
+                    <a id="roadguide-btnPrint" href="http://www.admtl.com/Passagers/Aeroshopping/HotelMarriott.aspx#" class="disable">Imprimer</a>
+                </div>
+                <div id="roadguide-email">
+                    <label>Adresse de courriel  :</label>
+                    <input id="roadguide-email-txtAddress" type="text" />
+                    <a id="roadguide-email-btnSend" href="http://www.admtl.com/Passagers/Aeroshopping/HotelMarriott.aspx#" class="button">Envoyer</a>
+                    <a id="roadguide-email-btnCloseEmailForm" href="http://www.admtl.com/Passagers/Aeroshopping/HotelMarriott.aspx#" class="button">Fermer</a>
+                </div>
+                <div id="roadguide-address">
+                    <div id="roadguide-address-source">
+                        <label id="roadguide-address-lblAddressSource">De :</label>
+                        <textarea id="roadguide-address-txtSource" cols="20" rows="2"></textarea>
+                        <div id="roadguide-address-exempleContainer"><span>ex. : numéro rue, ville, province, code postal</span></div>
+                    </div>
+                    <div id="roadguide-address-destination">
+                        <label id="roadguide-address-lblAddressDestination">ì :</label>
+                        <h5>Aéroport Montréal-Trudeau</h5>
+                        <span id="roadguide-address-lblAddressAirport">975 boul. Roméo-Vachon Nord, Dorval, QC, H4Y 1H1</span>
+                    </div>
+                </div>
+                <div id="roadguide-lowerContainer">
+                    <a id="roadguide-btnTrace" href="http://www.admtl.com/Passagers/Aeroshopping/HotelMarriott.aspx#" class="button">Afficher</a>
+                    <a id="roadguide-btnReverse" href="http://www.admtl.com/Passagers/Aeroshopping/HotelMarriott.aspx#" class="button">Inverser le trajet</a>
+                </div>
+            </div>
+            <div id="roadguide-directions"></div>            
+        </div>
+    
+			</div>
+        
+		</div>
+        <div id="ctl00_ctl00_cphMiseEnPage_cphMenu_lrg_modal_headerPanel" class="modalpopup-headerPanel">
+
+		</div>
+    
+	</div>
+    <div id="ctl00_ctl00_cphMiseEnPage_cphMenu_lrg_modal_contentContainer" class="modalpopup-contentContainer">
+		
+        <div id="lrg-content-mapContainer" class="lrg-mapContainer"></div>
+        <div id="locator-legendContainer"></div>
+    
+	</div>
+
+</div>
+
+<script language="javascript" type="text/javascript">(function(a){a(document).ready(function(){var b=[{url:"/Site/HttpHandlers/Combiner.ashx?f=~/Site/MiseEnPage/Js/Controles/ModalPopup/ModalPopup.js&t=js",type:"js"}];adm.global.include(b,function(){adm.modalpopup.init("modal-lrg"!==""?"modal-lrg":"ctl00_ctl00_cphMiseEnPage_cphMenu_lrg_modal",{openElement:""!==""?a("#"):null,closeElement:""!==""?a("#"):null,showMenu:"True"==="True",showMenuAsCollapsed:"False"==="True",height:""!==""?"":null,width:""!==""?"":null,verticalMargin:"20px",horizontalMargin:"20px",mainContainer:a("#ctl00_ctl00_cphMiseEnPage_cphMenu_lrg_modal_mainContainer"),titleContainer:a("#ctl00_ctl00_cphMiseEnPage_cphMenu_lrg_modal_titleContainer"),contentContainer:a("#ctl00_ctl00_cphMiseEnPage_cphMenu_lrg_modal_contentContainer"),collapsePanel:a("#ctl00_ctl00_cphMiseEnPage_cphMenu_lrg_modal_collapsePanel"),collapsePanelHeader:a("#ctl00_ctl00_cphMiseEnPage_cphMenu_lrg_modal_headerPanel"),collapsePanelContent:a("#ctl00_ctl00_cphMiseEnPage_cphMenu_lrg_modal_contentPanel"),collapsePanelMenuContainer:a("#ctl00_ctl00_cphMiseEnPage_cphMenu_lrg_modal_menuContainer"),infoboxContainer:a("#ctl00_ctl00_cphMiseEnPage_cphMenu_lrg_modal_infoBoxContainer"),onOpen:"adm.lrg.onOpenModalPopup",onResize:"adm.lrg.onResizeModalPopup",onClose:"",onOpened:"adm.lrg.onOpenedModalPopup",onResized:"adm.lrg.onResizedModalPopup",onClosed:"",onOpenMenu:"adm.lrg.onOpenMenu",onCollapseMenu:"adm.lrg.onCollapseMenu",onOpenedMenu:"adm.lrg.onOpenedMenu",onCollapsedMenu:"adm.lrg.onCollapsedMenu"})},true)})})(jQuery);</script>
+
+    
+
+
+
+
+<script language="javascript" type="text/javascript">(function(b){function a(h,g,d,e,f,c){adm.global.include(adm.global.files.loading,function(){adm.loading.show({text:{loading:"Chargement en cours..."}})},true);adm.global.include(adm.global.files.lrg,function(){adm.lrg.init({activeControl:h,events:c,bingmap:{latitude:"45.461334667251634",longitude:"-73.74229431152345"},locator:{bingmap:{zoom:12},service:{levelId:g,zoneId:d,serviceId:e},text:{moreInfo:"Détails"}},roadguide:{address:f,bingmap:{zoom:7},watermark:{email:"Entrez votre adresse de courriel",address:"Entrez votre adresse"},text:{direction:"Directions",distance:"Distance totale :",time:"Temps estimé :",location:"Adresses suggérées :",invalidEmail:"Le courriel est invalide",emptyAddress:"Vous devez entrer votre adresse",noMatch:"Impossible de trouver un itinéraire pour l'adresse que vous avez entrée. Vérifiez que l'adresse entrée est correct, puis réessayez.",multipleMatches:"Plusieurs correspondances ont été trouvées pour l'adresse que vous avez entrée. Veuillez choisir une des adresses suggérées ou préciser l'adresse, puis réessayez.",emailSent:"Courriel envoyé.",emailError:"Une erreur inconnue s'est produite pendant l'envoie du courriel."}},text:{loading:"Traitement en cours, veuillez patienter...",error:"Une erreur inconnue s'est produite."}})},true)}b(document).ready(function(){b("#ctl00_ctl00_cphMiseEnPage_cphMenu_lrg_hlkOpen").click(function(c){c.preventDefault();adm.lrg.openLocator()});adm.lrg=b.extend(adm.lrg?adm.lrg:{},{openLocator:function(f,d,e,c){a("locator",f,d,e,null,c)},openRoadGuide:function(c,d){a("roadguide",null,null,null,c,d)}})})})(jQuery);</script>    
+
+            </div> 
+        </div>
+        <div class="clear"></div>
+    </div>   
+
+                            
+    
+
+
+                        </div>
+                        <div id="footer">
+                            <div id="ctl00_ctl00_cbLiensPiedDePage">
+	<ul><li class="first"><a title="Avis" href="http://www.admtl.com/Passagers/Avis.aspx">Avis</a></li><li><a title="Plan du site" href="http://www.admtl.com/Passagers/PlanSite.aspx">Plan du site</a></li><li><a title="Nous joindre" href="http://www.admtl.com/Passagers/NousJoindre.aspx">Nous joindre</a></li></ul>
+</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer-shadow"></div>
+                
+    <div class="invisible">
+        <br />
+        <a name="contenuPartBottom" id="contenuPartBottom"></a>
+        <fieldset>
+            <legend><span id="ctl00_ctl00_cphRaccourcisBas_lblTitreBottom">Raccourcis</span></legend>
+            <ul>
+                <li><a href="http://www.admtl.com/Passagers/Aeroshopping/HotelMarriott.aspx#hautPage"><span id="ctl00_ctl00_cphRaccourcisBas_lblHautPageBottom">Aller au haut de la page</span></a></li>
+                <li><a href="http://www.admtl.com/Passagers/Aeroshopping/HotelMarriott.aspx#contenuPart"><span id="ctl00_ctl00_cphRaccourcisBas_lblContenuBottom">Aller directement au contenu</span></a></li>
+                <li><a href="http://www.admtl.com/Passagers/Aeroshopping/HotelMarriott.aspx#navBar"><span id="ctl00_ctl00_cphRaccourcisBas_lblNavBarBottom">Aller à la navigation principale</span></a></li>
+                <li><a href="http://www.admtl.com/Passagers/Aeroshopping/HotelMarriott.aspx#mnu_segment"><span id="ctl00_ctl00_cphRaccourcisBas_lblMenuSectionsBottom">Aller à la navigation de section</span></a></li>
+                <li><a href="http://www.admtl.com/Passagers/Aeroshopping/HotelMarriott.aspx#mnu_langues"><span id="ctl00_ctl00_cphRaccourcisBas_lblMenuLanguesBottom">Aller au menu des langues</span></a></li>
+                <li><a href="http://www.admtl.com/Passagers/Aeroshopping/HotelMarriott.aspx#sectionSecondaire"><span id="ctl00_ctl00_cphRaccourcisBas_lblFonctionnalitesBottom">Aller aux outils et fonctionnalités</span></a></li>
+            </ul>
+        </fieldset>
+    </div>
+
+            </div>
+        </div>
+    </form> 
+    <script type="text/javascript">(function(a){a(document).ready(function(){if(adm.global.support.css){Cufon.now()}})})(jQuery);</script>
+    
+    
+    <script src="http://www.admtl.com/Site/HttpHandlers/Combiner.ashx?f=~/Site/MiseEnPage/Js/Plugins/jquery.include/jquery.include.js,~/Site/MiseEnPage/Js/Globale/Globale.js,~/Site/MiseEnPage/Js/Plugins/cufon/cufon-yui.js,~/Site/MiseEnPage/Js/Plugins/cufon/helvetica_neue_condensed_bold_700.font.js,~/Site/MiseEnPage/Js/Plugins/cufon/helvetica_neue_condensed_medium_500.font.js&t=js&2" type="text/javascript" language="javascript"></script>
+    
+
+
+</body>
+</html>

@@ -1,0 +1,810 @@
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+
+
+<HTML>
+
+
+
+<HEAD>
+
+
+
+<TITLE>Voip Reference Materials</TITLE>
+
+
+
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+
+
+
+<link rel="stylesheet" type="text/css" href="http://voip.concordia.ca/includes/css/voip.css">
+
+
+
+<script src="http://voip.concordia.ca/scripts/dom.js" type="text/javascript" language="Javascript" charset="iso-8859-1"></script>
+
+
+<style type="text/css" media="all">@import "/includes/css/sidemenu.css";</style>
+
+
+
+<style type="text/css">
+
+
+<!-- 
+
+
+div#sidemenu ul#navmenu li#index-menu  { 
+
+
+	display: list-item; 
+
+
+}
+
+
+ul#navmenu li#index-menu li { 
+
+
+	display: list-item; 
+
+
+}
+
+
+ul#navmenu li#index-menu li ul#tel-voice {
+
+
+	display: list-item; 
+
+
+}
+
+
+// -->
+
+
+</style>
+
+
+<script language="JavaScript">
+
+
+<!--
+
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+
+
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+
+
+  if (restore) selObj.selectedIndex=0;
+
+
+}
+
+
+//-->
+
+
+</script>
+
+
+
+
+</HEAD>
+
+
+
+
+<BODY onLoad="init()">
+
+
+
+<TABLE bgcolor="#2D4277" width="100%" border="0" cellspacing="0" cellpadding="0">  <TR>     <TD width="310" valign="top" background="/images/piece2.gif"><img src="http://voip.concordia.ca/images/voice_serv_revsm.jpg" alt="voiceservices" width="310" height="46"></TD>    <TD width="35" background="/images/piece2.gif"><img src="http://voip.concordia.ca/images/spacer.gif" alt="spacer" width="35" height="8"></TD>    <TD width="90" background="/images/piece2.gif"><img src="http://voip.concordia.ca/images/spacer.gif" alt="spacer" width="90" height="9"></TD>    <TD width="80" background="/images/piece2.gif"><img src="http://voip.concordia.ca/images/spacer.gif" alt="spacer" width="80" height="8"></TD>        <TD width="140" valign="top" background="/images/piece2.gif"><img src="http://voip.concordia.ca/images/concordia_new.gif" alt="spacer" width="140" height="46" border="0" usemap="#Map"></TD>    <TD width="100%" valign="top" background="/images/piece2.gif">&nbsp;</TD>  </TR>  
+<TR>     <TD width="268" valign="top" bgcolor="#000000"><img src="http://voip.concordia.ca/images/level2photo2.gif" alt='""' width="268" height="29"></TD>    <TD align="right" valign="middle" bgcolor="#000000"><a class="white" href="../../index.html"><img src="http://voip.concordia.ca/images/spacer.gif" alt="spacer" width="5" height="1" border="0">Home</A></TD>    <TD align="center" valign="middle" bgcolor="#000000"><a class="white" href="../../index.html"><img src="http://voip.concordia.ca/images/spacer.gif" alt="spacer" width="5" height="1" border="0">       </A><a class="white" href="../../"><img src="http://voip.concordia.ca/images/spacer.gif" alt="spacer" width="20" height="1" border="0">News</A></TD>     <TD align="center" valign="middle" bgcolor="#000000"><a class="white" href="../../voicemail/messaging/faqs.shtml">FAQs</A></TD>         <TD colspan="2" bgcolor="#000000"></TD>  </TR></TABLE><map name="Map">  <area shape="rect" coords="6,4,133,41" href="../../../pageswww.concordia.ca/index.html" alt="concordia" target="blank"></map>
+
+
+
+<TABLE border="0" cellspacing="0" cellpadding="0">
+
+
+
+  <TR> 
+
+
+
+    <TD width="155"  valign="top" bgcolor="#FFFFFF"> 
+
+
+
+    <!-- Begin --><div id="sidemenu">	<ul id="navmenu">		<li id="index-menu">&nbsp;			<ul>				<li><a href="http://voip.concordia.ca/voicemail/telephone_sets/">Telephones &amp; Features</a>				<li><a href="http://voip.concordia.ca/voicemail/voiceoptions/">Unified Messaging</a></li>				</li>							<li><a href="http://voip.concordia.ca/help/refmaterials/m9009.shtml#" onclick="showSearch('directory','index-menu'); return false;">Directory Services</a>					<ul id="directory" class="sub">						<li><a href="http://voip.concordia.ca/directory/directories/">Directories</a></li>						<li><a href="http://voip.concordia.ca/directory/operator/">Operators</a></li>						<li><a href="../../directory/form/update.shtml">Directory Update Form </a></li>								</ul>				</li>				<li><a href="http://voip.concordia.ca/help/refmaterials/m9009.shtml#" onclick="showSearch('howto','index-menu'); return false;">Dial Calls/Long Distance</a>					<ul id="howto" class="sub">						<li><a href="http://www.kropla.com/dialcode.htm" target="_blank">Area &amp Country Codes</a></li>						<li><a href="http://voip.concordia.ca/how_to/dial_calls/">Dialing Calls</a></li> 						<li><a href="http://wwp.greenwichmeantime.com/" target="_blank">International Time Zones</a></li>						<li><a href="http://voip.concordia.ca/how_to/access/">Long Distance Access</a></li>						<li><a href="http://voip.concordia.ca/how_to/rates/">Long Distance Rates</a></li>					</ul>				</li>				<li><a href="http://voip.concordia.ca/help/refmaterials/m9009.shtml#" onclick="showSearch('conferencecalls','index-menu'); return false;">Conference Calls</a>					<ul id="conferencecalls" class="sub">						<li><a href="http://voip.concordia.ca/conference/conference_calls/">Conference Calls</a></li>						<li><a href="../../conference/equipment/">Rent Conference Call Equipment</a></li>																				</ul>				</li>				<li><a href="http://voip.concordia.ca/help/refmaterials/m9009.shtml#" onclick="showSearch('billing','index-menu'); return false;">Service Package & Rates</a>					<ul id="billing" class="sub">						<li><a href="http://voip.concordia.ca/billing/billedservices/">Service Package</a></li>						<li><a href="http://voip.concordia.ca/billing/inquiries/">Billing Inquiries Form</a></li>						<li><a href="http://voip.concordia.ca/billing/purchase/">Equipment Purchases </a></li>						<li><a href="http://voip.concordia.ca/billing/longdistance/">Long Distance Rates</a></li>						<li><a href="http://voip.concordia.ca/billing/service_charge/">Service Charge Rates</a></li>															</ul>								<li><a href="index2.shtml">User Guides & Tutorials</a></li>									<li><a href="http://voip.concordia.ca/voicemail/system/index.shtml">What system am I on?</a></li>								<li><a href="../whotocontact/index2.shtml">Who to contact for help?</a></li>								<br> <br>								</li>				</li>			</ul>		</li>	</ul></div><!-- end -->
+
+
+
+    </TD>
+
+
+
+    <TD width="1" bgcolor="#999999"><img src="http://voip.concordia.ca/images/spacer.gif" width="1" height="1"></TD>
+
+
+
+    <TD valign="top" width="23" bgcolor="#FFFFFF"><img src="http://voip.concordia.ca/images/spacer.gif" width="23" height="8"></TD>
+
+
+
+    <TD width="1" valign="top" bgcolor="#ffffff"><img src="http://voip.concordia.ca/images/spacer.gif" width="1" height="1"></TD>
+
+
+
+    <TD width="100%" align="left" valign="top" bgcolor="#FFFFFF"> <P class="newstext">&nbsp;</P>
+
+
+
+      <TABLE width="100%" border="0" cellspacing="0" cellpadding="0">
+
+
+
+        <TR> 
+
+
+
+          <TD width="35" height="22" bgcolor="#FFFFFF"><img src="http://voip.concordia.ca/images/spacer.gif" width="38" height="8"></TD>
+
+
+
+          <TD class="contentheader"> M9009 and Vista Telephone User Guide</TD>
+
+
+
+        </TR>
+
+
+
+      </TABLE>
+
+      <div id="container"> 
+
+
+
+        <form name="form1" action="m9009.shtml">
+
+
+              <br>
+
+
+              <select name="menu1" onChange="MM_jumpMenu('parent',this,0)" size="1">
+
+
+                <option value="#top" selected>Quick Links</option>
+
+
+                <option value="#adjust">Adjust volume</option>
+
+
+                <option value="#hold">Hold</option>
+
+
+                <option value="#using">Using the Callers List</option>
+
+
+                <option value="#display">Display</option>
+
+
+                <option value="#display not">Display Not Working</option>
+
+
+                <option value="#save number">Save Number</option>
+
+
+                <option value="#erase">Erase a Number</option>
+
+
+                <option value="#personalize">Personalize </option>
+
+
+                <option value="#program">Program Call Forwarding</option>
+
+
+                <option value="#recall">Recall Number of last</option>
+
+
+                <option value="#turnringer">Turn Ringer Off</option>
+
+
+                <option value="#volume">Turn Ringer Volume</option>
+
+
+                <option value="#helpful">Some Helpful Hints</option>
+
+
+                <option value="#information">No Information</option>
+
+
+                <option value="#power">Power Failure</option>
+
+
+              </select>
+
+
+      </form>
+
+		<a name="adjust"></a><span class="h1"><a name="adjust"></a>Adjust volume of receiver 
+
+
+              </span><br>
+
+
+             <p> To adjust the volume of the receiver while on the phone, press the 
+
+
+              volume bar right to increase the volume of the caller&#8217;s voice 
+
+
+              or left to decrease the volume of the caller&#8217;s voice. <br>
+
+
+              <br>
+
+
+              <span class="h1"><a name="hold"></a>HOLD</span> <br>
+
+
+              If you want to place your call on hold (or continue your call at 
+
+
+              another extension of the phone), press HOLD and hang up the receiver. 
+
+
+              The hold feature keeps the caller on the line until you pick up 
+
+
+              the receiver or an extension telephone.<br>
+
+
+              <em><strong>Note</strong></em>: If you receive a  Call Waiting 
+
+
+              notification  while a call is on hold, Call Waiting visual information will not 
+
+
+              be displayed.<br>
+
+
+              <br>
+
+
+              <span class="h1"><a name="anchor"></a>USING THE CALLERS LIST</span> 
+
+
+              (VISTA MODELS ONLY)<br>
+
+
+              The CALLERS key lets you enter the Callers List. Vista 9009S model 
+
+
+              remembers up to 25 incoming calls, which are stored in the Callers 
+
+
+              List. This valuable feature helps you organize your calls by monitoring 
+
+
+              their status. Easy to understand messages and symbols keep you informed 
+
+
+              about who called, when, how often they tried to reach you, and whether 
+
+
+              you returned the call.<br>
+
+
+              &#8226; Press Callers to enter the Callers List<br>
+
+
+              &#8226; Press * to move through the Callers List<br>
+
+
+              &#8226; Edit numbers from the dial pad by pressing _ or _<br>
+
+
+              &#8226; Press _ or _ to view names and numbers<br>
+
+
+              &#8226; Return a call automatically by lifting the receiver while 
+
+
+              the caller&#8217;s number is on the display or by pressing Dial<br>
+
+
+              &#8226; Erase individual callers from the list by pressing # twice 
+
+
+              when the name/number is on the display. You may also erase all callers 
+
+
+              by pressing # twice when Callers List =XX is displayed<br>
+
+
+              &#8226; Press Callers at any time to exit the list<br>
+
+
+              <br>
+
+
+              To Save a caller from the Callers List:<br>
+
+
+              While in the Callers List, you can save the number on the display 
+
+
+              directly into a memory key. When a name/number is displayed while 
+
+
+              in the Callers List, press <strong>Save</strong>. Press <strong>Shift</strong> 
+
+
+              and the memory key where you want to save the number in an upper 
+
+
+              memory slot. To save in a lower memory slot, press the memory key 
+
+
+              where you want to save the number. Write the name in the space provided 
+
+
+              on the memory card or receiver card.<br>
+
+
+            </p>
+
+
+            <p> <span class="h1"><a name="display"></a>Display Messages</span> 
+
+
+              <br>
+
+
+              &#8226; Feature is in use: Call forwarding is on<br>
+
+
+              &#8226; Private number: Caller has requested number be blocked<br>
+
+
+              &#8226; Unknown caller: Information on call is not available<br>
+
+
+              &#8226; Long distance: Incoming call is long distance<br>
+
+
+              &#8226; Message waiting Light flashes slowly: voice message waiting<br>
+
+
+              &#8226; Check phone cord: Check to see if phone plugged into wall 
+
+
+              jack securely<br>
+
+
+              &#8226; Ringer is OFF: Press volume bar right to turn ringer on <br>
+
+
+              <br>
+
+
+              <span class="h1"><a name="displaynot"></a>Display not working</span> 
+
+
+              <br>
+
+
+              Check to see if power supply is plugged in properly. <br>
+
+
+              <br>
+
+
+              <span class="h1"><a name="savenumber"></a>Save number of a memory 
+
+
+              key </span><br>
+
+
+              &#8226; Press the SAVE key <br>
+
+
+              &#8226; Press the memory key where you want to save the number<br>
+
+
+              &#8226; Use the dial pad to enter the number. If you are entering 
+
+
+              an internal number, use the four-digit number. For external numbers, 
+
+
+              dial 9 followed by the seven-digit number.<br>
+
+
+              &#8226; Press SAVE key <br>
+
+
+              <br>
+
+
+              <span class="h1"><a name="erase"></a>Erase a number on a memory 
+
+
+              key </span><br>
+
+
+              &#8226; Press the memory key you want to erase<br>
+
+
+              &#8226; Press # twice to erase the contents<br>
+
+
+              <br>
+
+
+              <span class="h1"><a name="personalize"></a>Personalize your phone 
+
+
+              </span><br>
+
+
+              There are five options available to personalize your phone.<br>
+
+
+              1. Change the display language<br>
+
+
+              2. Set the time and date<br>
+
+
+              3. Set the ring tone and ringer volume<br>
+
+
+              4. Turn the light off<br>
+
+
+              Use this option to program a memory key to turn the light on and 
+
+
+              active a feature.<br>
+
+
+              5. Enter your area code<br>
+
+
+              Use the option when you don&#8217;t want the area code to show on 
+
+
+              local calls.<br>
+
+
+              <br>
+
+
+              <strong>To access these options</strong><br>
+
+
+              &#8226; Without picking up the receiver, move the sliding panel 
+
+
+              below the display and press the set options [maybe you should put 
+
+
+              &quot;set options&quot; in italics or caps like you usually do when 
+
+
+              referring to a key]key to see the choices.<br>
+
+
+              &#8226; Press * to move through the list of the five options and 
+
+
+              press the selection number for the option you want to change. Follow 
+
+
+              the prompts on the display.<br>
+
+
+              <em><br>
+
+
+              <strong>Note</strong></em>: During power outages the telephone set 
+
+
+              will retain the time/date in memory for approximately 15 minutes. 
+
+
+              After this time you will have to reset time/date. Please note that 
+
+
+              any features or numbers programmed into the memory keys will be 
+
+
+              retained beyond 15 minutes [can we say &quot;any features or numbers&#8230;will 
+
+
+              not be lost during a power outage&quot; or &quot;any features or 
+
+
+              numbers&#8230; will be retained up to 60 minutes&quot; (or whatever 
+
+
+              it is)]. <br>
+
+
+              <br>
+
+
+              <span class="h1"><a name="program"></a>Program Call Forwarding on 
+
+
+              memory key </span><br>
+
+
+              Memory keys can be used to activate and deactivate call forward. 
+
+
+              When call forward is ON, the feature light will be turned on.<br>
+
+
+              <br>
+
+
+              To program <strong>Call Forwarding ON</strong> on a key<br>
+
+
+              &#8226; Press SAVE<br>
+
+
+              &#8226; Press 1 to program key<br>
+
+
+              &#8226; Press the memory key you want to use for call forward ON<br>
+
+
+              &#8226; Enter the activate call forwarding access code then 
+
+
+              # key. Enter the four-digit extension or 9 followed by the seven-digit 
+
+
+              number you forward to regularly.<br>
+
+
+              &#8226; Press SAVE again<br>
+
+
+              <br>
+
+
+              To program <strong>Call Forwarding OFF</strong> on a key<br>
+
+
+              &#8226; Press SAVE<br>
+
+
+              &#8226; Press 1 to program key<br>
+
+
+              &#8226; Press the memory key you want to use for call forward OFF<br>
+
+
+              &#8226; Enter the deactivate call forwarding access code<br>
+
+
+              &#8226; Press SAVE again<br>
+
+
+              <br>
+
+
+              <span class="h1"><a name="recall"></a>Recall number of last incoming 
+
+
+              call </span><br>
+
+
+              With the handset down, press *. The number will appear on the display. 
+
+
+              <br>
+
+
+              <br>
+
+
+              <span class="h1"><a name="turnringer"></a>Turn ringer OFF </span><br>
+
+
+              With the handset down, press volume bar left until Ringer Off shows 
+
+
+              on display.<br>
+
+
+              <span class="h1"><br>
+
+
+              <a name="volume"></a>Turn ringer volume up or down </span><br>
+
+
+              While the phone is ringing, press volume bar left for softer or 
+
+
+              right for louder. <br>
+
+
+              <br>
+
+
+              <span class="h1"><a name="helpful"></a>SOME HELPFUL HINTS</span><br>
+
+
+              NO DIAL TONE (CHECK PHONE CORD may appear on the display) Read the 
+
+
+              display. If the line cord is not attached properly, the display 
+
+
+              will advise you. Also, make sure the curly handset cord is attached 
+
+
+              securely. Telephone does not ring. (Ringer is OFF may appear on 
+
+
+              the display) The ringer may be turned <strong>OFF</strong>. Without 
+
+
+              lifting the receiver, press the right side of the volume bar to 
+
+
+              turn the ringer ON. You can adjust ringer volume and tone in the 
+
+
+              OPTIONS list.<br>
+
+
+              <br>
+
+
+              <span class="h1"><a name="information"></a>No Information on the 
+
+
+              display and ringer volume is low</span>.<br>
+
+
+              Make sure the receiver cord is inserted securely into the jack [I 
+
+
+              think you called it a wall jack before].<br>
+
+
+              <br>
+
+
+              <span class="h1"><a name="power"></a>When you have a power failure</span><br>
+
+
+              The phone will operate as a regular telephone during a power failure. 
+
+
+              However, the display, the advanced features, as well as the shifted 
+
+
+              memory keys, will not operate until the power is restored.</p>
+
+
+     
+
+	  </div>
+
+
+
+        <P class="newstext">&nbsp;</P>
+
+		<P class="newstext">&nbsp;</P>
+
+		<P class="newstext">&nbsp;</P>
+
+		<P class="newstext">&nbsp;</P>
+
+        <P class="newstext">&nbsp;</P>
+
+
+
+    </TD>
+
+
+
+    <TD class="col"width="1" valign="top"></TD>
+
+
+
+    <TD width="27" valign="top" bgcolor="#2d4277"></TD>
+
+
+
+    <TD class="photocredit" width="120" valign="top" bgcolor="#2d4277"><img src="http://voip.concordia.ca/images/spacer.gif" width="120" height="8">
+
+
+
+
+
+
+      <BR> <img src="http://voip.concordia.ca/images/spacer.gif" width="26" height="8"><BR> <BR> 
+
+
+
+    </TD>
+
+
+
+    <TD width="158" valign="top" bgcolor="#000000"><img src="http://voip.concordia.ca/images/spacer.gif" width="50" height="1"></TD>
+
+
+
+  </TR>
+
+
+
+  <TR> 
+
+
+
+    <TD class="copyright" colspan="5"  valign="top" bgcolor="#E1E1E1">
+
+      <img src="http://voip.concordia.ca/images/spacer.gif" width="10" height="8" alt="spacer">&copy; Copyright 
+<script type="text/javascript" language="JavaScript">
+<!--
+var curdate = new Date()
+var year = (curdate.getYear() + 1900);
+document.write(year);
+// -->
+</script>, <a class="copyrightlink" href="../../../pageswww.concordia.ca/index.html">Concordia University</A>
+
+      </TD>
+
+
+
+    <TD class="col"valign="top">&nbsp;</TD>
+
+
+
+    <TD valign="top" bgcolor="#22335E">&nbsp;</TD>
+
+
+
+    <TD valign="top" bgcolor="#22335E">&nbsp;</TD>
+
+
+
+    <TD valign="top" bgcolor="#000000">&nbsp;</TD>
+
+
+
+  </TR>
+
+
+
+</TABLE>
+
+
+
+</BODY>
+
+
+</HTML>
+
+
+

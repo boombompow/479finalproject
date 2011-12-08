@@ -1,0 +1,1178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="EN" ><!-- InstanceBegin template="/Templates/pocket.dwt" codeOutsideHTMLIsLocked="true" -->
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="en-us" />
+<meta name="robots" content="noodp" />
+
+
+<!-- InstanceParam name="locale" type="text" value="en_us" -->
+<!-- InstanceParam name="globalnav" type="boolean" value="true" -->
+<!-- InstanceParam name="globalfooter" type="boolean" value="true" -->
+<!-- InstanceParam name="header" type="boolean" value="true" -->
+
+<!-- InstanceParam name="modules" type="text" value="here,treenav,modal,carousel,tab,table,swf,external,tooltip" -->
+<!-- InstanceParam name="identity" type="text" value="adobe" -->
+
+
+
+
+<!-- Shell Template Revision: 1.20 -->
+<!-- Pocket Template Revision: 1.16 -->
+
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Adobe - Adobe Systems Incorporated Terms of Use</title>
+<!-- InstanceEndEditable -->
+
+<link rel="icon" href="http://www.adobe.com/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="http://www.adobe.com/favicon.ico" type="image/x-icon" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--[if gte IE 5 & lt IE 8]>
+<script type="text/javascript" src="http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/lib/style-nurse.js"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/screen.css?modules=here,treenav,modal,carousel,tab,table,swf,external,tooltip" media="screen" />
+<link rel="stylesheet" type="text/css" href="http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/print.css" media="print" />
+<link type="text/css" rel="stylesheet" href="http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/screen/pocket.css" />
+
+<!--[if IE 6]>
+<script type="text/jscript">try{document.execCommand("BackgroundImageCache", false, true);} catch(e) {};</script>
+<![endif]-->
+<script type="text/javascript" src="http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/lib/prototype.js"></script>
+<script id="adobe" type="text/javascript" src="http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe.js"></script>
+<script type="text/javascript" src="http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/Cookie.js"></script>
+<script type="text/javascript" src="http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/global.js"></script>
+
+<link rel="stylesheet" href="http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/screen/wcms.css" media="screen" />
+
+<link rel="stylesheet" href="http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/screen/gnav.css" media="screen" />
+<script type="text/javascript" src="http://wwwimages.adobe.com/www.adobe.com/lib/com.adobe/module/SearchBuddy.js"></script>
+<script type="text/javascript">
+	adobe.SelectFix = (function() {
+	var Construct0r = function() { };
+	Construct0r.prototype = {
+		doFix: function() {
+			for(var i = 0, n; (n = document.getElementsByTagName("select")[i]); i++) {
+				n.style.visibility = "hidden";
+			}
+		},
+		undoFix: function() {
+			for(var i = 0, n; (n = document.getElementsByTagName("select")[i]); i++) {
+				n.style.visibility = "visible";
+			}
+		}
+	};
+	return new Construct0r();
+})();
+	/*---------------------------------------------------------------------- 
+	Namespace: adobe.u.input
+----------------------------------------------------------------------*/
+adobe.u.input = {
+/*---------------------------------------------------------------------- 
+	Method: autoFill
+	Set the value of an form input to the title while empty and unfocused.
+
+>	adobe.u.input.autoFill($("myTextField"), "some text");
+>
+>	$("myTextField").autoFill("some text");
+
+	Parameters:
+	element - Element instance
+	
+	Returned Value:
+	Element instance
+----------------------------------------------------------------------*/
+	autoFill: function(element, fill) {
+		var element = element; // setup lexical reference
+		var fill = fill; // setup lexical reference
+		
+		if(!fill) {
+			return element;
+		}
+		
+		if(!element.value) {
+			element.value = fill;
+		}
+
+		Element.observe(element, "focus", _handleFocus);
+		Element.observe(element, "blur", _handleBlur);
+		
+		return element;
+		
+		function _handleFocus(event) {
+			if(element.value == fill) {
+				element.value = "";
+			}
+		}
+		
+		function _handleBlur(event) {
+			if(element.value) {
+				return;
+			} else {
+				element.value = fill;
+			}
+		}
+	}
+}
+
+Element.addMethods("INPUT", adobe.u.input);
+Element.addMethods("TEXTAREA", adobe.u.input);
+	getSearchParams = adobe.u.getSearchParam;
+	document.observe('dom:loaded', function() {
+		new SearchBuddy();
+	});
+</script>
+<script type="text/javascript" src="http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/GlobalNav.js"></script>
+<script type="text/javascript">
+	document.observe('dom:loaded', function() {
+		var n = $("search-input");
+		if (Object.isElement(n)) {
+			var f = n.getAttribute("title"); 
+			n.autoFill(f);
+		}
+	});
+</script>
+<link rel="stylesheet" href="http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/screen/gfooter.css" media="screen" />
+<link rel="stylesheet" href="http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/screen/gfooter_override.css" media="screen" />
+<script type="text/javascript" src="http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/GlobalFooter.js"></script>
+
+
+<script type="text/javascript" src="http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/Carousel.js"></script>
+<link rel="stylesheet" type="text/css" href="http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/Carousel/screen.css" />
+<noscript><link rel="stylesheet" type="text/css" href="http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/Carousel/noscript.css" /></noscript>
+
+<script type="text/javascript">
+adobe.link("adobe/u/externalize.js");
+
+Event.observe(window, "load", function() {
+	$$("a[rel=external]").invoke("externalize");
+});
+</script>
+
+<script type="text/javascript">
+adobe.link("adobe/u/link.js");
+
+Event.observe(window,"load",function() {
+	$$("#content-pocket a").invoke("here")
+	.compact()
+	.invoke("addClassName", "here")
+	.invoke("unlink");	     
+});
+</script>
+
+<script type="text/javascript" src="http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/Modal.js"></script>
+<script type="text/javascript">
+adobe.link("adobe/Pane/screen.css");
+document.observe("dom:loaded", function() {	
+	var modallinks = $$("a[rel=modal]");
+	modallinks.invoke("modalize");
+	modallinks.invoke("observe","click", function(event) {
+		var url = window.location.host + window.location.pathname;		
+	});
+});
+var	ie = adobe.hostEnv.ie;
+document.observe("carousel:initialized", function() {	
+	
+	$$(".carousel-item a[rel=modal]").each(function(modal,index) {
+		if(!ie) { 
+			modal.modalize();
+		} else {
+			modal.addClassName("modalized").setAttribute("id","modal-"+index);	
+		}
+	});
+});
+
+document.observe("carousel:startrevolve", function() {
+	if(ie) { reModalize.delay(0.1);	}
+});
+
+function reModalize() {
+	
+	var modallinks = $$('.carousel-item a[rel=modal]');	
+		
+	modallinks.each(function(link,index){
+		if(!link.hasClassName("modalized") && link.up(3).style.visibility != "hidden") {
+			if(link.id != "") return;	// for IE6 (?? if it has the ID then already been modalized)
+			link.addClassName("modalized").setAttribute("id","modal-"+index); // modal object removed from link, need to re-add
+			link.modalize();
+		}
+	});
+}
+
+</script>
+
+
+
+
+
+<script type="text/javascript" src="http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/lib/swfobject.js"></script>
+<script type="text/javascript" src="http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/lib/swfobject.addon.js"></script>
+
+<script type="text/javascript">
+adobe.link("adobe/TabNav/tabZen.css", { media: "screen" });
+adobe.link("adobe/TabNav.js");
+
+Event.observe(window, "load", function() {
+	$$(".dyn-tabsection").collect(function(tab) {
+		return adobe.TabNav.FromDom(tab, {
+			readQuery: true
+		});
+	}).invoke("update");
+});
+</script>
+
+
+<script type="text/javascript">
+adobe.use("adobe.u.stripe");
+document.observe("dom:loaded", function() {
+	$$("tbody.stripe").invoke("stripe", {
+		altClass: "alt"
+	});					
+});
+</script>
+
+<link rel="stylesheet" href="http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/ToolTip/screen.css" media="screen" />
+<script type="text/javascript" src="http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/ToolTip.js"></script>
+
+<script type="text/javascript" src="http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/Tree.js"></script>
+
+<script type="text/javascript" src="http://www.adobe.com/ubi/template/identity/adobe/Tree.js"></script>
+<script type="text/javascript">
+adobe.link("adobe/Tree/treenav/screen.css", {media: "screen"});
+
+document.observe("dom:loaded", function() {
+	$$(".dyn-treenav").collect(function(el) {
+		return new adobe.Tree(el, {
+			style_uninitialized: "dyn-treenav",
+			style_initialized: "treenav",
+			select_button: ".tree-button"
+		},
+		{
+			toggle_all: "Alt+click to show/hide all features"
+		});
+	});
+});
+</script>
+
+
+
+
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+<body>
+<!--googleoff: all--><a href="http://www.adobe.com/help/accessibility.html" tabindex="1" id="accesslink">Accessibility</a><!--googleon: all-->
+
+<!--googleoff: index-->
+<!-- $Id: globalnav_ssi.html,v 1.20.2.4 2011/11/19 01:10:05 dgasior Exp $ -->
+<form id="globalnav-search" class="searchbuddy" name="globalnav-search" method="get" action="gnav_search" accept-charset="utf-8">
+    <div id="SiteHeader" class="SiteHeader Text TextSmall">
+        <span id="globalnav"></span>
+        <a href="gnav_adobe_logo_en_us" id="shHome" class="SiteHeaderHome">Adobe</a>
+        <div class="SiteHeaderBar" id="shBar">
+            <div class="SiteHeaderDropdownLink SiteHeaderBarItem SiteHeaderBarItemFirst" id="shProducts">
+                <a href="http://www.adobe.com/go/gnav_products_en_us" id="shProductsLink" class="SiteHeaderBarLink">Products</a>
+                <div class="SiteHeaderDropPanel" id="ProductsPanel">
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shProducts1">
+                        <span class="SiteHeaderPanelHeader"><a href="http://www.adobe.com/go/gnavtray_products_creativesuite_en_us">Creative Suite</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shProducts2">
+                        <span class="SiteHeaderPanelHeader"><a href="http://www.adobe.com/go/gnavtray_products_photoshop_en_us">Photoshop Family</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shProducts3">
+                        <span class="SiteHeaderPanelHeader"><a href="http://www.adobe.com/go/gnavtray_products_acrobat_en_us">Acrobat Family</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shProducts4">
+                        <span class="SiteHeaderPanelHeader"><a href="gnavtray_products_flashplatform_en_us">Flash Platform</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shProducts5">
+                        <span class="SiteHeaderPanelHeader"><a href="gnavtray_products_onlinemarketingsuite_en_us">Digital Marketing Suite</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shProducts6">
+                        <span class="SiteHeaderPanelHeader"><a href="gnavtray_products_digitalenterpriseplatform_en_us">Digital Enterprise Platform</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shProducts7">
+                        <span class="SiteHeaderPanelHeader"><a href="http://www.adobe.com/go/gnavtray_products_digitalpublishingsuite_en_us">Digital Publishing Suite</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLinkNoBar" id="shProducts8">
+                        <a href="http://www.adobe.com/go/gnavtray_products_moreproducts_en_us">More products</a>
+                    </div>
+                </div>
+            </div>
+            <div class="SiteHeaderDropdownLink SiteHeaderBarItem SiteHeaderBarItemFirst" id="shSolutions">
+                <a href="gnav_solutions_en_us" id="shSolutionsLink" class="SiteHeaderBarLink">Solutions</a>
+                <div class="SiteHeaderDropPanel" id="SolutionsPanel">
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shSolutions1">
+                        <span class="SiteHeaderPanelHeader"><a href="gnavtray_solutions_contentauthoring_en_us">Content authoring</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shSolutions2">
+                        <span class="SiteHeaderPanelHeader"><a href="gnavtray_solutions_education_en_us">Education</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shSolutions3">
+                        <span class="SiteHeaderPanelHeader"><a href="gnavtray_solutions_financialservices_en_us">Financial services</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shSolutions4">
+                        <span class="SiteHeaderPanelHeader"><a href="gnavtray_solutions_government_en_us">Government</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shSolutions5">
+                        <span class="SiteHeaderPanelHeader"><a href="gnavtray_solutions_onlinemarketing_en_us">Digital marketing solutions</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLinkNoBar" id="shSolutions6">
+                        <a href="gnavtray_solutions_moresolutions_en_us">More solutions</a>
+                    </div>
+                </div>
+            </div>
+            <a href="gnav_learning_en_us" id="shLearning" class="SiteHeaderBarItem SiteHeaderBarLink">Learning</a>
+            <a href="gnav_help_en_us" id="shHelp" class="SiteHeaderBarItem SiteHeaderBarLink">Help</a>
+            <a href="gnav_downloads_en_us" id="shDownloads" class="SiteHeaderBarItem SiteHeaderBarLink">Downloads</a>
+            <a href="gnav_company_en_us" id="shCompany" class="SiteHeaderBarItem SiteHeaderBarLink">Company</a>
+            <div class="SiteHeaderDropdownLink SiteHeaderBarItem" id="shStore">
+                <a href="gnav_store_en_us" class="SiteHeaderBarLink" id="shStoreLink">Store</a>
+                <div class="SiteHeaderDropPanel" id="StorePanel">
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shStore1">
+                        <span class="SiteHeaderPanelHeader"><a href="gnavtray_store_en_us">Adobe Store</a></span>
+                        for home and home office
+                    </div>
+
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shStore2">
+                        <span class="SiteHeaderPanelHeader"><a href="gnavtray_store_education_en_us">Education Store</a></span>
+                        for students, educators, and staff
+                    </div>
+
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shStore3">
+                        <span class="SiteHeaderPanelHeader"><a href="gnavtray_store_business_en_us">Business Store</a></span>
+                        for small and medium businesses
+                    </div>
+
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shStore4">
+                        <span class="SiteHeaderPanelHeader"><a href="gnavtray_store_otherwaystobuy_en_us">Other ways to buy</a></span>
+                    </div>
+                </div>
+            </div>
+            <a href="gnav_search" id="shSearchButton" class="SiteHeaderBarItem SiteHeaderSearchButton" style="display: none;">Search</a>
+            <div class="SiteHeaderBarItem SiteHeaderBarItemLast">&nbsp;</div>
+            <div id="site-search" class="SiteHeaderSearch">
+                <input title="Search" type="text" id="search-input" name="term" maxlength="1000" />
+                <input type="hidden" id="searchbuddy-loc" name="loc" value="en_us" />
+                <button type="submit" id="search-submit" class="icon-replace search">Search</button>
+            </div>
+        </div>
+        <div class="SiteHeaderUser">
+            <div id="shSignInBlock" class="Link">
+                <a id="shInfo" class="SiteHeaderUserItem SiteHeaderInfo">Info</a>
+                <a href="http://www.adobe.com/cfusion/membership/index.cfm?loc=en_us&nl=1" id="shSignIn" class="SiteHeaderUserItem LinkStrong">Sign in</a>
+            </div>
+            <a href="http://www.adobe.com/cfusion/membership/index.cfm?loc=en_us&nl=1" id="shWelcome" class="SiteHeaderUserItem SiteHeaderArrow LinkStrong" style="display: none;">Welcome, <span id="screenName"></span></a>
+            <div id="MyCartLinkContainer">
+                <a href="gnav_mycart_en_us" id="shMyCart" class="SiteHeaderUserItem SiteHeaderCart">My cart<span id="cartQuantity"></span></a>
+            </div>
+            <a href="http://www.adobe.com/go/gnav_myorders_en_us" id="shMyOrders" class="SiteHeaderUserItem">My orders</a>
+            <a href="http://www.adobe.com/go/gnav_myadobe_en_us" id="shMyAdobe" class="SiteHeaderUserItem">My Adobe</a>
+        </div>
+        <div class="SiteHeaderPopPanelShadow width-150" id="WelcomePanelShadow" style="display: none;"></div>
+        <div class="SiteHeaderPopPanel width-150" id="WelcomePanel" style="display: none;">
+            <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shMyAccount">
+                <a class="SiteHeaderPanelHeader" href="http://www.adobe.com/go/gnavtray_myadobe_en_us">My Adobe</a>
+            </div>
+            <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shMyOrders2">
+                <a class="SiteHeaderPanelHeader" href="http://www.adobe.com/go/gnavtray_myadobe_myorders_en_us">My orders</a>
+            </div>
+            <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shMyInformation">
+                <a class="SiteHeaderPanelHeader" href="http://www.adobe.com/go/gnavtray_myadobe_myinformation_en_us">My information</a>
+            </div>
+            <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shMyPreferences">
+                <a class="SiteHeaderPanelHeader" href="http://www.adobe.com/go/gnavtray_myadobe_mypreferences_en_us">My preferences</a>
+            </div>
+            <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shSignOut">
+                <a class="SiteHeaderPanelHeader" href="../cfusion/membership/logout.cfm">Sign out</a>
+            </div>
+        </div>
+        <div class="SiteHeaderPopPanelShadow width-250" id="InfoPanelShadow" style="display: none;"></div>
+        <div class="SiteHeaderPopPanel width-250" id="InfoPanel" style="display: none;">
+            <div class="SiteHeaderPanelRow">
+                <span class="SiteHeaderPanelHeader">Why sign in?</span>
+                Sign in to manage your account and access trial downloads, product extensions, community areas, and more.
+            </div>
+        </div>
+    </div>
+</form>
+
+<div id="SiteHeaderMobile" class="SiteHeaderMobile Text TextSmall" style="display: none;">
+	<a href="gnav_adobe_logo_en_us" id="shHomeMobile" class="SiteHeaderHome SiteHeaderHomeMobile">Adobe</a>
+    
+    <div class="SiteHeaderBar SiteHeaderBarMobile" id="shBarMobile">
+    	<span class="SiteHeaderBarItemMobile SiteHeaderBarItemMobileNoLeftBorder" id="shProductsMobileSpan"><a href="http://www.adobe.com/go/gnav_products_en_us" id="shProductsMobile" class="SiteHeaderBarLink">Products</a></span>
+        <span class="SiteHeaderBarItemMobile" id="shSectionsMobileSpan"><a href="http://www.adobe.com/misc/terms.html#" id="shSectionsMobile" class="SiteHeaderArrowMobile SiteHeaderBarLink">Sections</a></span>
+        <span class="SiteHeaderBarItemMobile SiteHeaderBarItemMobileNoRightBorder">&nbsp;</span>
+        <span class="SiteHeaderBarItemMobile SiteHeaderBarItemMobileNoRightBorder SiteHeaderBarItemFloatRight" id="shSearchMobileSpan"><a href="gnav_search" id="shSearchMobile" class="SiteHeaderSearchButtonMobile">Search</a></span>
+        <span class="SiteHeaderBarItemMobile SiteHeaderBarItemMobileNoLeftBorder SiteHeaderBarItemFloatRight">&nbsp;</span>
+    </div>
+    <div class="SiteHeaderBarMobileExtend" id="shBarExtend">
+    	<div id="shBarExtendSections" style="display: none;">
+        	<div id="shBarExtendSections1" class="SiteHeaderBarMobileExtendSections">
+            	<a href="gnav_solutions_en_us" id="shSectionsSolutionsMobile" class="SiteHeaderBarExtendSectionsItem SiteHeaderBarLink">Solutions</a>
+            	<a href="gnav_company_en_us" id="shSectionsCompanyMobile" class="SiteHeaderBarExtendSectionsItem SiteHeaderBarLink">Company</a>
+            </div>
+        	<div id="shBarExtendSections2" class="SiteHeaderBarMobileExtendSections">
+            	<a href="gnav_help_en_us" id="shSectionsHelpMobile" class="SiteHeaderBarExtendSectionsItem SiteHeaderBarLink">Help</a>
+            	<a href="gnav_learning_en_us" id="shSectionsLearningMobile" class="SiteHeaderBarExtendSectionsItem SiteHeaderBarLink">Learning</a>
+            </div>
+        </div>
+    	<div id="shBarExtendSearch" style="display: none;">
+            <form id="globalnav-search-mobile" class="SiteHeaderSearchMobileForm" name="globalnav-search-mobile" method="get" action="gnav_search" accept-charset="utf-8">
+                <input title="Search" type="text" id="search-input-mobile" name="term" maxlength="1000" />
+                <button type="submit" id="search-submit-mobile">Search</button>
+            </form>
+        </div>
+    </div>
+    <div class="SiteHeaderUser">
+		<a href="http://www.adobe.com/cfusion/membership/index.cfm?loc=en_us&nl=1" id="shSignInMobile" class="SiteHeaderUserItem SiteHeaderUserItemMobile SiteHeaderInfoMobile LinkStrong">Sign in</a>
+        <a href="http://www.adobe.com/cfusion/membership/index.cfm?loc=en_us&nl=1" id="shWelcomeMobile" class="SiteHeaderUserItem SiteHeaderUserItemMobile SiteHeaderArrow LinkStrong" style="display: none;">Welcome, <span id="screenName"></span></a>
+        <a href="http://www.adobe.com/go/gnav_myorders_en_us" id="shMyOrdersMobile" class="SiteHeaderUserItem SiteHeaderUserItemMobile">My orders</a>
+        <a href="http://www.adobe.com/go/gnav_myadobe_en_us" id="shMyAdobeMobile" class="SiteHeaderUserItem SiteHeaderUserItemMobile">My Adobe</a>
+    </div>
+</div>
+<!--googleon: index-->
+
+
+
+
+
+<div id="layoutLogic" class="L1">
+
+<div id="content-header">
+<!-- InstanceBeginEditable name="contentHeader" -->
+		<ol id="depthpath" class="path menu">
+			<li><a href="../">Home</a></li>
+			<li><a href="http://www.adobe.com/aboutadobe/">About Adobe</a></li>
+		</ol>
+		<h1>Terms of Use</h1>
+	<!-- InstanceEndEditable -->
+</div>
+
+<div id="content-layout" class="clear-after"><div id="content-wrapper" class="clear-after"><div id="content-body">
+<!-- InstanceBeginEditable name="contentBody" -->
+<p class="achtung">Last updated April 30, 2010. Replaces October 15, 2008 version in its entirety.</strong></p>
+<b>1. Acceptance of Terms.</b>
+<p><b>a.</b> By (i) using this web site or any other web sites (each, a â¬SSiteâ¬ý) or other online service of Adobe Systems Incorporated, its affiliates and agents (<strong>â¬SAdobeâ¬ý</strong>) with links to these Terms of Use (the <strong>â¬SGeneral Termsâ¬ý</strong>) (collectively, the <strong>â¬SServicesâ¬ý</strong>) in any way, including using, transmitting, downloading or uploading any Materials made available or enabled via the Services by Adobe or, you, or other users of the Service (<strong>â¬SUsersâ¬ý</strong>), or (ii) merely browsing the Services, you agree that you have read, understand and agree to these General Terms and the Adobe Online Privacy Policy at <a href="http://www.adobe.com/go/privacy">http://www.adobe.com/go/privacy</a>, which is incorporated herein by reference. <strong>â¬SMaterialsâ¬ý</strong> means any content made available or enabled by Adobe, you or other users of the Services and includes, without limitation, any (x) information, data, documents, images, photographs, graphics, audio, videos, or webcasts, (y) products, and (z) Adobe software code and associated documentation (<strong>â¬SSoftwareâ¬ý</strong>). â¬S<strong>Adobe Materials</strong>â¬ý means those Materials that are made available through the Services by Adobe or its licensors and specifically do not include Materials made by you or other users of the Services.</p>
+<p><b>b.</b> You may not use the Services if you are prohibited by Law (as defined below in Section 2(d)) from receiving or using the Services. Also, unless expressly stated in the Additional Terms for any given Service, you may not use the Services unless you are fully able and competent to enter into the conditions, obligations, representations and other terms of these General Terms and are either of legal age to form a binding contract with Adobe, possess legal parental or guardian consent or are an emancipated minor. <strong>In particular, unless expressly stated in the Additional Terms for any given Service, you affirm that you are over the age of 13 and acknowledge that these Services were not intended for children under 13.</strong></p>
+<p><b>c.</b> Adobe makes certain Services and Materials available only if you have paid a fee or have provided Adobe certain Registration Information (as such term is defined in the Adobe Online Privacy Policy) and/or created an Adobe ID and password or other log-in ID and password (collectively, <strong>â¬SAccount Informationâ¬ý</strong>). Some Services may also be subject to a subscription or other agreement, posted guidelines, rules, or terms of service (<strong>â¬SAdditional Termsâ¬ý</strong>). If there is any conflict between the General Terms and the Additional Terms, the Additional Terms take precedence in relation to that Service. The General Terms and any applicable Additional Terms and all other documents incorporated by reference in these General Terms are referred to herein as the <strong>â¬STermsâ¬ý</strong>.</p>
+<p><b>d.</b> Adobe may change the Terms from time to time at its sole discretion, including by imposing a charge for access to or use of a Service. If such changes are made, Adobe will make a new copy of the General Terms available at www.adobe.com/go/terms, with any new Additional Terms made available to you from within or through the affected Service. Adobe may require you to provide consent to the updated Terms in a specified manner before further use of the Services is permitted. Otherwise, your continued use of any affected Service constitutes your acceptance of the changes. <strong>Your use of the Services is subject to the most current version of the Terms posted on or through the affected Service at the time of such use. Please regularly check www.adobe.com/go/terms to view the then-current General Terms and Addition Terms. </strong></p>
+<p><b>e.</b> Services and Materials provided by third parties are governed by separate agreements accompanying such Services and Materials.</p>
+<b>2. Use of Services and Materials.</b>
+<p><b>a.</b> You agree to adhere to all limitations on dissemination, use and reproduction of any Materials that you download or access from the Services.</p>
+<p><b>b.</b> Unless expressly agreed to by Adobe in writing elsewhere, Adobe has no obligation to store any Materials that you upload, post, email, transmit or otherwise make available through your use of the Services (<strong>â¬SYour Contentâ¬ý</strong>). â¬S<strong>User Content</strong>â¬ý means any Materials uploaded by you or the other users of the Services. Adobe has no responsibility or liability for the deletion or accuracy of any Materials, including Your Content, the failure to store, transmit or receive transmission of Materials, or the security, privacy, storage or transmission of other communications originating with or involving use of the Services. Certain Services may enable you to specify the level at which such Services restrict access to Your Content. You are solely responsible for applying the appropriate level of access to Your Content. If you do not choose, the system may default to its most permissive setting. You agree that Adobe retains the right to create reasonable limits on the use of the Materials, including Your Content, such as limits on file size, storage space, processing capacity, and similar limits described in the web pages accompanying the Services and as otherwise determined by Adobe in its sole discretion.<br/>
+<p><b>c. </b>You agree that your Account Information will always be complete, accurate and up-to-date. It is your responsibility to keep your Account Information confidential at all times and you are solely responsible for all activity that occurs to your Account Information when you are logged in to your account. If you become aware of any unauthorized use of your account or Account Information, or any other breach of security, you agree to notify Adobe immediately. You may not use another personâ¬"s Account Information. Adobe may require that you change your Account Information or certain parts of your Account Information at any time for any reason.<br/>
+<p><b>d.</b> You agree to use the Services and the Materials only for purposes that are permitted by the Terms and any applicable law, regulation, or generally accepted practices or guidelines in any applicable jurisdiction (including any laws regarding the export of data or software to and from the United States or other applicable countries) (<strong>â¬SLawâ¬ý</strong>).</p>
+<p><b>e.</b> You agree not to access or attempt to access the Services by any means other than the interface provided by Adobe or circumvent any access or use restrictions put into place to prevent certain uses of the Services. </p>
+<b>3. Ownership.</b>
+<p><b>a. </b>The Services and Adobe Materials, and their selection and arrangement, are protected by copyright, trademark, trade dress, patent, trade secret, unfair competition, and other intellectual and proprietary rights (the <strong>â¬SIntellectual Property Rightsâ¬ý</strong>). Except as expressly provided in the Terms, Adobe and its suppliers do not grant any express or implied rights to use the Services and Materials.</p>
+<p><b>b.</b> The trademarks, logos and service marks displayed on the Services (the <strong>â¬SMarksâ¬ý</strong>) are the property of Adobe or third parties. You are not permitted to use the Marks without the prior consent of Adobe or the third party that may own the Marks. Adobe and the Adobe logo are trademarks of Adobe Systems Incorporated. For a current list of Adobeâ¬"s Marks, as well as certain third party Marks, please refer to the posted trademark information at <a href="http://www.adobe.com/misc/trademarks.html">http://www.adobe.com/misc/trademarks.html</a>.<u></u></p>
+<b>4. Use of Software.</b>
+<p><b>a. </b>Any Software that is made available via the Services is the property of Adobe and its suppliers. If the Software made available via the Services is accompanied by license terms, then use of such Software is governed by the terms of such license agreement that accompanies or is included with the Software, or by the license agreement expressly stated on the hyperlinks referenced in the Software. Some license terms are available for review <a href="http://www.adobe.com/go/eulas">http://www.adobe.com/go/eulas</a>. Other license terms may only be posted with the Software downloads or at the web page where the Software can be accessed. You shall not use, download or install any Software that is accompanied by or includes a license agreement unless you agree to the terms of such license agreement.
+			  Unless the accompanying license agreement expressly allows otherwise, any copying or redistribution of the Software is prohibited, including any copying or redistribution of the Software to any other server or location, redistribution or use on a service bureau basis. If there is any conflict between these Terms and the license agreement provided with such Software, the license agreement shall take precedence in relation to that Software; except only that if the Software is a pre-release version, then, notwithstanding anything to the contrary included within an accompanying license agreement, you are not permitted to use or otherwise rely on the Software for any commercial or production purposes.</p>
+<p><b>b.</b> If no license agreement accompanies the Software, use of the Software will be governed by the terms of this Section 4(b). Adobe grants you a personal, worldwide, freely revocable, limited, non-transferable, non-sublicensable, royalty-free, non-assignable, nonexclusive license to use the Software in the manner permitted by the Terms. You agree that you will not decompile, reverse engineer or otherwise attempt to discover the source code of the Software. Notwithstanding the foregoing, decompiling the Software is permitted to the extent the laws of the jurisdiction where you are located give you the right to do so to obtain information necessary to render the Software interoperable with other software, provided, however, that you must first request the information from Adobe and Adobe may, in its discretion, either provide such information to you or impose reasonable conditions, including reasonable fees, on use of the Software to ensure that Adobeâ¬"s Intellectual Property Rights in the Software are protected. You may not assign (or grant a sublicense of) your rights to use the Software, grant a security interest in or over your rights to use the Software, or otherwise transfer any part of your rights to use the Software. For clarity, your use of the Software is also subject to the disclaimers and limitations in Section 14, below and your compliance with the export control provisions of Section 18. </p>
+<p><b>c.</b> The Software may automatically download and install updates from Adobe from time to time. These updates are designed to improve, enhance and further develop the Services and may take the form of bug fixes, enhanced functions, new Software modules and completely new versions. You agree to receive such updates (and permit Adobe to deliver these to you with or without your knowledge) as part of your use of the Services.</p>
+<b>5. Use of Adobe Materials, User Content and Shared Group Content.</b>
+<p><b>a.</b> Except as expressly indicated to the contrary in any applicable Additional Terms, Adobe hereby grants you a nonexclusive, freely revocable (upon notice from Adobe), nontransferable, license to view, download and print Adobe Materials, subject to the following conditions:<br/>
+<b>i.</b> You may access and use the Adobe Materials solely for personal, informational, non-commercial and internal purposes, in accordance with the Terms;<br/>
+<b>ii.</b> You may not modify or alter the Adobe Materials;<br/>
+<b>iii.</b> You may not distribute or sell, rent, lease, license or otherwise make the Adobe Materials available to others; and<br/>
+<b>iv.</b> You may not remove any text, copyright or other proprietary notices contained in the Adobe Materials.<br/>
+<p><b>b.</b> Some Services involve collaboration and file-sharing services among other users or a specific group in conjunction with such collaboration and file-sharing. The User Content that you or other Users share with other Users through the Services shall be referred to as <strong>â¬SShared Group Contentâ¬ý</strong>. While some Services offer functionality to limit another Userâ¬"s use of your Shared Group Content, such limitations are not guaranteed and it is your sole responsibility to determine what limitations, if any, are placed on Shared Group Content that you distribute. You agree that Adobe has no liability of any kind should other Users use, modify, destroy, corrupt, copy or distribute your Shared Group Content in violation of the limitations that you may impose on its use. Further, it is your sole responsibility to determine what limitations are placed on your use of another Userâ¬"s Shared Group Content, including by looking at a given Serviceâ¬"s functionality and Additional Terms along with any additional restrictions placed by such User on your use of their Shared Group Content</p>
+<p><b>d.</b> Software is subject to the additional provisions governing Software set forth herein.</p>
+<p><b>e.</b> The rights granted to you in Adobe Materials as specified above are not applicable to the design, layout or look and feel of the of any Services. Such elements of the Services are protected by Intellectual Property Rights and may not be copied or imitated in whole or in part. No Adobe Materials may be copied or retransmitted unless expressly permitted by Adobe.</p>
+<b>6. User Conduct.</b>
+<p><b>a.</b> You agree that you, not Adobe, are entirely responsible for all of Your Content that you distribute, perform, display, upload, post, email, transmit or otherwise make available on or through the Services (<strong>â¬SMake Availableâ¬ý</strong>), whether publicly posted or privately transmitted. You assume all risks associated with use of Your Content, including any reliance on its accuracy, completeness or usefulness.</p>
+<p><b>b.</b> You represent and warrant that: (i) you own the Intellectual Property Rights, or have obtained all necessary license(s) and permission(s), to use Your Content in keeping with your use in connection with the Services or as otherwise permitted by the Terms; (ii) you have the rights necessary to grant the license and sublicenses described in the Terms; and (iii) you have received consent from any and all persons depicted in Your Content to use Your Content as set forth in the Terms, including distribution, public display, public performance and reproduction of Your Content.</p>
+<p><b>c.</b> You acknowledge and agree that by accessing or using the Services or Materials, you may be exposed to Materials (including Shared Group Content) from others that you may consider offensive, indecent or otherwise objectionable and hereby do waive any legal or equitable rights or remedies you have or may have against Adobe with respect thereto, and agree to indemnify and hold Adobe, its affiliates, and/or licensors, harmless to the fullest extent allowed by law regarding all matters related to your use of the site.<br/>
+<p><b>d.</b> You agree not to use, or to encourage or permit others to use, the Services to:
+			  i. Make Available any Material that is unlawful, harmful, threatening, abusive, tortious, defamatory, libelous, vulgar, obscene, child-pornographic, lewd, profane, invasive of anotherâ¬"s privacy, hateful, or racially, ethnically or otherwise objectionable;<br/>
+			  ii. Stalk, intimidate and/or harass another;<br/>
+			  iii. Incite others to commit violence;<br/>
+			  iv. Harm minors in any way;<br/>
+			  v. Make Available any Material that you do not have a right to Make Available under any Law or contractual or fiduciary relationship;<br/>
+			  vi. Make Available any Material that infringes any Intellectual Property Right or other proprietary right of any party;<br/>
+			  vii. Impersonate any person or entity, or falsely state or otherwise misrepresent your affiliation with a person or entity;<br/>
+			  viii. Forge headers or otherwise manipulate identifiers to disguise the origin of any of Materials posted on or transmitted through the Services;<br/>
+			  ix. Use the Services or Materials such that it will mislead a User into believing that they are interacting directly with Adobe or any Service;<br/>
+			  x. Engage in any chain letters, contests, junk email, pyramid schemes, spamming, surveys or other duplicative or unsolicited messages (commercial or otherwise);<br/>
+			  xi. Use any Adobe domain name as a pseudonymous return email address;<br/>
+			  xii. Make Available any Material that contains software viruses or any other computer code, files or programs designed to interrupt, destroy or limit the functionality of any computer software, hardware or telecommunications equipment;<br/>
+			  xiii. Access or use the Services in any manner that could damage, disable, overburden or impair any Adobe server or the networks connected to any Adobe server;<br/>
+			  xiv. Intentionally or unintentionally interfere with or disrupt the Services or violate any applicable Laws related to the access to or use of the Services, violate any requirements, procedures, policies or regulations of networks connected to the Services, or engage in any activity prohibited by the Terms;<br/>
+			  xv. Disrupt or interfere with the security of, or otherwise cause harm to, the Services, Materials, systems resources, accounts, passwords, servers or networks connected to or accessible through the Services or any affiliated or linked sites;<br/>
+			  xvi. Disrupt, interfere with, or inhibit any other User from using and enjoying the Services or Materials, or other affiliated or linked sites, Services or Materials;<br/>
+			  xvii. Access or attempt to access any Material that you are not authorized to access or through any means not intentionally made available through the Services;<br/>
+			  xviii. Market any goods or services for any business purposes (including advertising and making offers to buy or sell goods or services), unless specifically allowed to do so by Adobe;<br/>
+			  xix. Reproduce, sell, trade, resell or exploit for any commercial purpose, any portion of the Services or any Materials, use of any Service or Materials, or access to any Service or Materials; or<br/>
+			  xx. Use any data mining, robots, or similar data gathering and extraction methods in connection with the Services or Materials.<br/>
+			  xxi. Collect or store data about other users in connection with the prohibited conduct and activities set forth in this Section 6(d).</p>
+<b>7. Investigations.</b>
+<p><b>a.</b> Adobe, in its sole discretion, may (but has no obligation to) monitor or review the Services and Materials at any time. Without limiting the foregoing, Adobe shall have the right, in its sole discretion, to remove any of Your Content for any reason (or no reason), including if it violates the Terms or any Law.</p>
+<p><b>b.</b> Although Adobe does not generally monitor User activity occurring in connection with the Services or Materials, if Adobe becomes aware of any possible violations by you of any provision of the Terms, Adobe reserves the right to investigate such violations, and Adobe may, at its sole discretion, immediately terminate your rights hereunder, including your right to use the Services, or Materials or change, alter or remove Your Content or Account Information, in whole or in part, without prior notice to you. If, as a result of such investigation, Adobe believes that criminal activity has occurred, Adobe reserves the right to refer the matter to, and to cooperate with, any and all applicable law enforcement authorities. Except to the extent prohibited by applicable Law, Adobe is entitled to retain and/or disclose any information or Materials, including Your Content or Account Information (or elements thereof), in Adobeâ¬"s possession in connection with your use of the Services to (i) comply with applicable Law, legal process or governmental request; (ii) enforce the Terms; (iii) respond to any claims that Your Content violates the Terms or rights of third parties; (iv) respond to your requests for customer services; or (v) protect the rights, property or personal safety of Adobe, its Users or third parties, including the public at large, as Adobe in its sole discretion believes to be necessary or appropriate.</p>
+<b>8. Use of Your Content.</b>
+<p><strong><em>A note in common terms:</em></strong><em> We realize that this section might look a bit scary and so we want to point out a few things. This section only applies to those portions of our sites, such as User Forums, where we intend for users to share content freely with Adobe and with each other. It does not apply to all of the content that you share, contribute or post to our sites. For example, it does not apply to content hosted by CS Live online services, Photoshop.com or Acrobat.com. For services like those, we will provide customized license grants that are consistent with the spirit and intent of those services and that are appropriate for the kinds of content we expect you to share within them. (We say this more formally below.) So we encourage you to be selective when deciding which content to contribute under this license and we want you to be sure that you are comfortable granting the rights in this section when it comes to that content. </em></p>
+<p><b>a.</b> Adobe does not claim ownership of Your Content. However, <strong>except as provided in Section 8(b)</strong>, you grant Adobe a worldwide (because the Internet is global), royalty-free, nonexclusive, transferable, perpetual, irrevocable, and fully sublicensable license to use, distribute, reproduce, modify, adapt, publish, translate, publicly perform and publicly display Your Content (in whole or in part) and to incorporate Your Content into other Materials or works in any format or medium now known or later developed. <br/>
+              <strong>b. The terms of Section 8(a) shall <u>not</u></strong> <strong>apply to Your Content</strong>:<br/>
+              i. When specifically agreed that Section 8(a) shall not apply in any Additional Terms that may accompany certain Services (such as those provided with CS Live online services, Photoshop.com and Acrobat.com); or<br/>
+              ii. When Your Content is Made Available through Services that are intended for private communication or which allow you to limit public access or use to Your Content and you do in fact limit public access or use. <br/>
+              In the case of Your Content covered by Section 8(b)(i), you grant Adobe only those rights set forth in such Additional Terms. <br/>
+              In the case of Your Content covered by Section 8(b)(ii), you grant Adobe a worldwide (because the Internet is global), royalty-free, nonexclusive, transferable, and fully sublicensable license to use, distribute, reproduce, modify, publish and translate Your Content solely for the purpose of enabling your use of the Service. You may revoke this license and terminate Adobeâ¬"s rights at any time by removing Your Content from the Service; provided that you agree that Adobe may retain and use copies of Your Content for archival purposes and pursuant to Section 7 (Investigations), above.</p>
+  <b>9. Feedback.</b>
+             <p>You have no obligation to provide Adobe with ideas, suggestions, documentations and/or proposals (â¬S<strong>Feedback</strong>â¬ý). However, if you submit Feedback to Adobe, while you retain ownership in such Feedback, you hereby grant Adobe a nonexclusive, royalty-free, fully paid-up, perpetual, irrevocable, transferable, unlimited license under all of your Intellectual Property Rights to use and otherwise exploit your Feedback for any purpose throughout the universe.
+              Further, by submitting Feedback, you represent and warrant that (i) your Feedback does not contain the confidential or proprietary information of you or of third parties; (ii) Adobe is not under any obligation of confidentiality, express or implied, with respect to the Feedback; (iii) Adobe may have something similar to the Feedback already under consideration or in development; and (iv) you are not entitled to any compensation or reimbursement of any kind from Adobe for the Feedback under any circumstances.</p>
+  <b>10. Right to Derive Revenue/Advertisements.</b>
+             <p>Except for Your Content subject to Section 8(b) above, you agree that Adobe may derive revenue and/or other remuneration from Your Content that you Make Available via the Services without payment to you. For example, Adobe may display Adobe and/or third party paid advertisements and/or other information adjacent to or included with the Services and adjacent to or in connection with Your Content, and you agree that you are not entitled to any compensation for any such advertisements. The manner, mode and extent of advertising or other revenue generating models pursued by Adobe on or in conjunction with the Services and/or Your Content are subject to change without specific notice to you.</p>
+ <b>11. Links to Third Party Sites.</b>
+              <p>The Services and Materials may include links that will take you to other sites outside of the Services (<strong>â¬SLinked Sitesâ¬ý</strong>). The Linked Sites are provided by Adobe to you as a convenience and the inclusion of the links does not imply any endorsement by Adobe of any Linked Site. Adobe has no control of the Linked Sites and you agree that Adobe is not responsible for the availability or contents of any Linked Site (including any advertising, products or other materials on or available from such Linked Site), any link contained in a Linked Site, or any changes or updates to a Linked Site.</p>
+  <b>12. Modifications to Services and Materials.</b>
+              <p>Adobe may at any time and from time to time modify or discontinue, temporarily or permanently, the Services or Materials, or any portion thereof, with or without notice. You agree that Adobe shall not be liable to you or any third party for any modification, suspension or discontinuance of the Services or Materials.</p>
+  <b>13. Termination.</b>
+              <p><b>a.</b> The Terms will continue to apply until terminated by either you or Adobe as set forth below.<br/>
+              <b>b.</b> If you want to terminate your agreement with Adobe, you may do so by (i) notifying Adobe at any time and (ii) closing your accounts for all of the Services or Materials that you use, where Adobe has made this option available to you. Your notice should be sent, in writing, to Adobeâ¬"s address set forth below.<br/>
+              <b>c.</b> Adobe may at any time terminate the Terms (or portion thereof, such as any individual Additional Terms) with you if:<br/>
+              i. You have breached any provision of the Terms (or have acted in a manner that clearly shows you do not intend to, or are unable to, comply with the Terms); <br/>
+              ii. Adobe is required to do so by Law (for example, where the provision of the Services or Materials to you is, or becomes, unlawful);<br/>
+              iii. The provision of the Services to you by Adobe is, in Adobeâ¬"s opinion, no longer commercially viable;<br/>
+              iv. Adobe has elected to discontinue the Services or Materials (or any part thereof); or<br/>
+              v. There has been an extended period of inactivity in your account.<br/>
+              <b>d.</b> Adobe may also terminate or suspend all or a portion of your account and/or access to the Services for any reason. Except as may be set forth in any Additional Terms applicable to a particular Service, termination of your account may include: (i) removal of access to all offerings within the Services; (ii) deletion of Your Content and Account Information, including your personal information, log-in ID and password, and all related information, files and Materials associated with or inside your account (or any part thereof); and (iii) barring of further use of the Services.<br/>
+              e. You agree that all terminations for cause shall be made in Adobeâ¬"s sole discretion and that Adobe shall not be liable to you or any third party for any termination of your account (and accompanying deletion of your Account Information), or access to the Services and Materials, including Your Content.<br/>
+              f. Upon expiration or termination of the Terms, you shall promptly discontinue use of the Services and Materials. However, any perpetual licenses you have granted, any of your indemnification obligations hereunder, any of Adobeâ¬"s disclaimers or limitations of damages of liabilities hereunder and Sections 2, 3, 6(b-d), 7, 9-13, 14, 16, 19, 20 and 21 will survive any termination or expiration of the Terms.</p>
+ <b>14. DISCLAIMER OF WARRANTIES.</b>
+              <p>YOU EXPRESSLY UNDERSTAND AND AGREE THAT, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW:<br/>
+              a. THE SITE, SERVICES AND MATERIALS ARE PROVIDED BY ADOBE â¬SAS IS,â¬ý WITHOUT WARRANTY OF ANY KIND, EXPRESS, IMPLIED, STATUTORY OR OTHERWISE, INCLUDING THE IMPLIED WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. WITHOUT LIMITING THE FOREGOING, ADOBE MAKES NO WARRANTY THAT (I) THE SITE, SERVICES OR MATERIALS WILL MEET YOUR REQUIREMENTS OR WILL BE UNINTERRUPTED, TIMELY, SECURE OR ERROR-FREE; (II) THE RESULTS THAT MAY BE OBTAINED FROM THE USE OF THE SITE, SERVICES OR MATERIALS WILL BE EFFECTIVE, ACCURATE OR RELIABLE; (III) THE QUALITY OF THE SITE, SERVICES OR MATERIALS WILL MEET YOUR EXPECTATIONS; OR THAT (IV) ANY ERRORS OR DEFECTS IN THE SITE, SERVICES OR MATERIALS WILL BE CORRECTED. NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN, OBTAINED BY YOU FROM ADOBE OR THROUGH OR FROM USE OF THE SERVICES SHALL CREATE ANY WARRANTY NOT EXPRESSLY STATED IN THE TERMS.<br/>
+              <b>b.</b> ADOBE SPECIFICALLY DISCLAIMS ANY LIABILITY WITH REGARD TO ANY ACTIONS RESULTING FROM YOUR USE OF OR PARTICIPATION IN ANY SERVICES AND YOUR USE OF MATERIALS. ANY MATERIAL DOWNLOADED OR OTHERWISE OBTAINED THROUGH USE OF THE SERVICES IS ACCESSED AT YOUR OWN DISCRETION AND RISK, AND YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR LOSS OF DATA THAT RESULTS FROM THE DOWNLOAD OF ANY SUCH MATERIAL. ADOBE ASSUMES NO LIABILITY FOR ANY COMPUTER VIRUS OR SIMILAR CODE THAT IS DOWNLOADED TO YOUR COMPUTER FROM ANY OF THE SERVICES.<br/>
+              <b>c.</b> ADOBE DOES NOT CONTROL, ENDORSE OR ACCEPT RESPONSIBILITY FOR ANY MATERIALS OR SERVICES OFFERED BY THIRD PARTIES ACCESSIBLE THROUGH LINKED SITES. ADOBE MAKES NO REPRESENTATIONS OR WARRANTIES WHATSOEVER ABOUT, AND SHALL NOT BE LIABLE FOR, ANY SUCH THIRD PARTIES, THEIR MATERIALS OR SERVICES. ANY DEALINGS THAT YOU MAY HAVE WITH SUCH THIRD PARTIES ARE AT YOUR OWN RISK.<br/>
+              <b>d.</b> MANAGERS, HOSTS, PARTICIPANTS, MODERATORS AND OTHER THIRD PARTIES ARE NOT AUTHORIZED ADOBE SPOKESPERSONS, AND THEIR VIEWS DO NOT NECESSARILY REFLECT THOSE OF ADOBE. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, ADOBE WILL HAVE NO LIABILITY RELATED TO USER CONTENT ARISING UNDER INTELLECTUAL PROPERTY RIGHTS, LIBEL, PRIVACY, PUBLICITY, OBSCENITY OR OTHER LAWS. ADOBE ALSO DISCLAIMS ALL LIABILITY WITH RESPECT TO THE MISUSE, LOSS, MODIFICATION OR UNAVAILABILITY OF ANY USER CONTENT.<br/>
+              e. ADOBE WILL NOT BE LIABLE FOR ANY LOSS THAT YOU MAY INCUR AS A RESULT OF SOMEONE ELSE USING YOUR PASSWORD OR ACCOUNT OR ACCOUNT INFORMATION IN CONNECTION WITH THE SITE OR ANY SERVICES OR MATERIALS, EITHER WITH OR WITHOUT YOUR KNOWLEDGE.<br/>
+              f. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES, THE LIMITATION OR EXCLUSION OF IMPLIED WARRANTIES, OR LIMITATIONS ON HOW LONG AN IMPLIED WARRANTY MAY LAST, SO THE ABOVE LIMITATIONS MAY NOT APPLY TO YOU.</p>
+  <b>15. International Users.</b>
+<p><b>a.</b> The Services can be accessed from countries around the world and may contain references to Services and Materials that are not available in your country. These references do not imply that Adobe intends to announce such Services or Materials in your country.<br/>
+              <b>b.</b> These Services are controlled, operated and administered by Adobe Systems Incorporated from its offices in the United States of America. Adobe makes no representation that the Services or Materials are appropriate or available for use at other locations outside the United States, and access to the Services from jurisdictions where the Services or Materials are illegal is prohibited. Adobe reserves the right to block access to the Services or Materials by certain international users. If you access the Services from a location outside the United States, you are responsible for compliance with all local Laws.</p>
+  <b>16. Limitation of Liability.</b>
+             <p> a. IN NO EVENT SHALL ADOBE, ITS OFFICERS, DIRECTORS, EMPLOYEES, PARTNERS OR SUPPLIERS BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY SPECIAL, INCIDENTAL, INDIRECT, CONSEQUENTIAL OR PUNITIVE DAMAGES WHATSOEVER, INCLUDING THOSE RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER OR NOT FORESEEABLE OR IF ADOBE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, OR BASED ON ANY THEORY OF LIABILITY, INCLUDING BREACH OF CONTRACT OR WARRANTY, NEGLIGENCE OR OTHER TORTIOUS ACTION, OR ANY OTHER CLAIM ARISING OUT OF OR IN CONNECTION WITH YOUR USE OF OR ACCESS TO THE SITE, SERVICES OR MATERIALS. NOTHING IN THE TERMS SHALL LIMIT OR EXCLUDE ADOBEâ¬"S LIABILITY FOR GROSS NEGLIGENCE OR INTENTIONAL MISCONDUCT OF ADOBE OR ITS EMPLOYEES, OR FOR DEATH OR PERSONAL INJURY.<br/>
+              <b>b.</b> ADOBEâ¬"S AGGREGATE LIABILITY AND THAT OF ITS AFFILIATES AND SUPPLIERS UNDER OR IN CONNECTION WITH THIS AGREEMENT SHALL BE LIMITED TO ONE HUNDERED UNITED STATES DOLLARS ($100) OR THE AGGREGATE AMOUNT PAID BY YOU FOR ACCESS TO THE SERVICE, WHICHEVER IS LARGER. THIS LIMITATION WILL APPLY EVEN IF ADOBE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES AND NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.<br/>
+              <b>c.</b> THE LIMITATIONS AND EXCLUSIONS IN THIS SECTION 16 APPLY TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW IN YOUR JURISDICTION. SOME JURISDICTIONS PROHIBIT THE EXCLUSION OR LIMITATION OF LIABILITY FOR INCIDENTAL, CONSEQUENTIAL OR PUNITIVE DAMAGES. ACCORDINGLY, THE LIMITATIONS AND EXCLUSIONS SET FORTH ABOVE MAY NOT APPLY TO YOU. </p>
+  <b>17. Notification of Copyright Infringement.</b>
+              <p><b>a.</b> Adobe respects the Intellectual Property Rights of others and expects its users to do the same. Adobe will respond to clear notices of copyright infringement consistent with the Digital Millennium Copyright Act, Title 17, United States Code, Section 512(c)(2) (â¬SDMCAâ¬ý) and its response to such notices may include removing or disabling access to the allegedly infringing content, terminating the accounts of repeat infringers, and/or making good-faith attempts to contact the user who posted the content at issue so that he may, where appropriate, make a counter-notification. <br/>
+              <b>b.</b> If you believe that your work has been used or copied in a way that constitutes copyright infringement and such infringement is hosted on the Services, on web sites linked to or from the Services, or in connection with the Services or Materials, please provide, pursuant to the DMCA, written notification via regular mail or via fax (not via e-mail or phone) of claimed copyright infringement to Adobeâ¬"s Copyright Agent (contact information below), which must contain all of the following elements:<br/>
+              i. A physical or electronic signature of the person authorized to act on behalf of the owner of the copyright interest that is alleged to have been infringed;<br/>
+              ii. A description of the copyrighted work(s) that you claim have been infringed and identification of what content in such work(s) is claimed to be infringing and which you request to be removed or access to which is to be disabled;<br/>
+              iii. A description of where the content that you claim is infringing is located on the Services;<br/>
+              iv. Information sufficient to permit Adobe to contact you, such as your physical address, telephone number and e-mail address;<br/>
+              v. A statement by you that you have a good faith belief that the use of the content identified in your notice in the manner complained of is not authorized by the copyright owner, its agent or the law; and<br/>
+              vi. A statement by you that the information in your notice is accurate and, under penalty of perjury, that you are the copyright owner or are authorized to act on the copyright ownerâ¬"s behalf.<br/>
+              Before you file such a notification, please carefully consider whether or not the use of copyrighted material at issue is protected by the â¬Sfair useâ¬ý doctrine, as you could be liable for costs and attorneysâ¬" fees should you file a takedown notice where there is no infringing use. If you are unsure whether a use of your copyrighted material constitutes infringement, please contact an attorney. In addition, you may wish to consult publicly available reference materials such as those found at <a href="http://www.chillingeffects.org">www.chillingeffects.org</a>. <br/>
+              <b>c.</b> If you believe access to your content was disabled or removed by Adobe as a result of an improper copyright infringement notice, please provide, pursuant to the DMCA, written notification via regular mail or via fax (not via e-mail or phone) to Adobeâ¬"s Copyright Agent (contact information below), which must contain all of the following elements: <br/>
+              i. A physical or electronic signature of the subscriber;<br/>
+              ii. Identification of the material that was removed from the Services and the location of the Service on which the material appeared before it was removed;<br/>
+              iii. A statement under penalty of perjury that you have a good faith belief that the material was removed or disabled as a result of mistake or misidentification of the material to be removed or disabled; <br/>
+              iv. Information sufficient to permit Adobe to contact you, such as your physical address, telephone number and e-mail address; and <br/>
+              v. A statement that you consent to jurisdiction of the Federal District court for the district where you reside (or of Santa Clara County, California if you reside outside of the United Sates) and that you will accept service of process from the person who provided notification under DMCA subsection (c)(1)(C) or an agent of such person. <br/>
+              Before you file such a counter-notification, please carefully consider whether or not the use of the copyrighted material at issue is infringing, as you could be liable for costs and attorneysâ¬" fees in the event that a court determines your counter-notification misrepresented that the material was removed by mistake. If you are unsure whether use of the material at issue constitutes infringement, please contact an attorney. In addition, you may wish to consult publicly available reference materials such as those found at www.chillingeffects.org. <br/>
+              <b>d.</b> Adobeâ¬"s Copyright Agent for notice of claims of copyright infringement can be reached as follows:<br/>
+  <u>By mail</u>:<br/><br/>
+              Copyright Agent<br/>
+              Adobe Systems Incorporated<br/>
+              801 North 34th Street<br/>
+              Seattle, WA 98103<br/>
+  <u>By fax</u>: (206) 675-6818<br/>
+  <u>By email</u>: <a href="mailto:copyright@adobe.com">copyright@adobe.com</a><br/>
+  <u>By telephone</u>: (408) 536-4030<br/><br/>
+  <strong>The Copyright Agent will not remove content from the Services in response to phone or email notifications regarding allegedly infringing content, since a valid DMCA notice must be signed, under penalty of perjury, by the copyright owner or by a person authorized to act on his or her behalf. Please submit such notifications by fax or ordinary mail only and as further described by this Section. The Copyright Agent should be contacted only if you believe that your work has been used or copied in a way that constitutes copyright infringement and that such infringement is occurring on the Services or on sites linked to or from the Services, or in connection with the Services or Materials.</strong> All other inquiries directed to the Copyright Agent will not be responded to. Such inquiries should be made through the feedback procedure referenced in Section 9 or the report abuse procedure referenced in Section 21(h). </p>
+  <b>18. Export Control Laws.</strong></b>
+              <p>You acknowledge and agree that products, services or technology provided by Adobe are subject to the export control laws and regulations of the United States. You shall comply with these laws and regulations and shall not, without prior U.S. government authorization, export, reexport, or transfer Adobe products, services or technology, either directly or indirectly, to any country in violation of such laws and regulations.</p>
+  <b>19. Indemnity and Liability.</b>
+              <p>You agree to indemnify and hold Adobe and its subsidiaries, affiliates, officers, agents, employees, co-branders or other partners, and licensors harmless from any claim or demand, including reasonable attorneysâ¬" fees, due to or arising out of Your Content, your use of the Services or Materials, your connection to the Services or Materials, the actions of any member of your group, your access to or use of Linked Sites and your connections therewith, any claim that Your Content caused damage to a third party, any dealings between you and any third parties advertising or promoting via the Services or Materials, your violation of the Terms, or your violation of any rights of another, including any Intellectual Property Rights.</p>
+  <b>20. Resolution of Disputes.</b>
+              <p><b>a.</b> All matters relating to your access to, or use of, the Services or Materials shall be governed by the Laws of the State of California, United States of America without regard to conflict of laws principles thereof. You agree that any claim or dispute you may have against Adobe must be resolved by a court located in Santa Clara County, California, United States of America except as otherwise agreed by the parties, or as set forth in section (b) below. You agree to submit to the personal jurisdiction of the courts located in Santa Clara County, California, United States of America for the purpose of litigating such claims or disputes. The parties specifically disclaim the U.N. Convention on Contracts for the International Sale of Goods.<br/>
+              <b>b.</b> For any claim (excluding claims for injunctive or other equitable relief) for less than $10,000, the party requesting relief may elect to resolve the dispute in a cost-effective manner through binding non-appearance-based arbitration. In the event a party elects arbitration, it shall initiate such arbitration through an established alternative dispute resolution (<strong>â¬SADRâ¬ý</strong>) provider mutually agreed upon by the parties. The ADR provider and the parties must comply with the following rules: (i) the arbitration shall be conducted by telephone, online, and/or be based solely on written submissions, the specific manner shall be chosen by the party initiating the arbitration; (ii) the arbitration shall not involve any personal appearance by the parties or witnesses unless otherwise mutually agreed by the parties; and (iii) any judgment on the award rendered by the arbitrator may be entered in any court of competent jurisdiction.<br/>
+              <b>c.</b> All claims you bring against Adobe must be resolved in accordance with this section. All claims filed or brought contrary to this section shall be considered improperly filed. Should you file a claim contrary to this section, Adobe may recover attorneysâ¬" fees and costs up to U.S. $1,000, provided that Adobe has notified you in writing of the improperly filed claim and you have failed to properly withdraw the claim.<br/>
+              <b>d.</b> Notwithstanding the foregoing, in the event of your or othersâ¬" unauthorized access to or use of the Services or Materials in violation of the Terms you agree that Adobe shall be entitled to apply for injunctive remedies (or an equivalent type of urgent legal relief) in any jurisdiction.</p>
+  <b>21. General.</b>
+              <p><b>a.</b> Any notice provided to Adobe pursuant to the Terms should be sent to 345 Park Avenue, San Jose, California 95110-2704, Attention: General Counsel.<br/>
+              <b>b.</b> It is the express wish of the parties that the Terms, any Additional Terms and all related documents have been drawn up in English. Câ¬"est la volontÃ© expresse des parties que la prÃ©sente convention ainsi que les documents qui sâ¬"y rattachent soient rÃ©digÃ©s en anglais.<br/>
+              <b>c.</b> Adobe may provide you with notices, including those regarding changes to the Terms, by email, regular mail, text message, postings on or within the Services, or other reasonable means now known or hereafter developed.<br/>
+              <b>d.</b> The Terms constitute the entire agreement between Adobe and you with respect to your access to or use of the Services and Materials and supersede any prior agreements between you and Adobe on such subject matter. <br/>
+              <b>e.</b> You may not assign or otherwise transfer the Terms, or any right granted hereunder, without Adobeâ¬"s written consent. Adobeâ¬"s rights under the Terms are freely transferable by Adobe.<br/>
+              <b>f.</b>If for any reason a court of competent jurisdiction finds any provision of the Terms, or portion thereof, to be unenforceable, that provision shall be enforced to the maximum extent permissible so as to affect the intent of the parties as reflected by that provision, and the remainder of the Terms shall continue in full force and effect.<br/>
+              <b>g.</b> Any failure by Adobe to enforce or exercise any provision of the Terms, or any related right, shall not constitute a waiver of that provision or right. <br/>
+              <b>h.</b> Please report any violations of the Terms via the report abuse mechanism offered in conjunction with the specific Service in which the alleged violation occurs.</p>
+<p class="achtung"> </p>
+			<p class="achtung"> </p>
+<!-- InstanceEndEditable -->
+</div>
+
+<div id="content-pocket">
+<!-- InstanceBeginEditable name="contentPocket" -->
+		
+		<h3>Additional Terms</h3>
+
+<dl class="dyn-treenav pocket-bleed">
+  <dt class="tree-button"> <span class="treenav-title">Acrobat.com</span> </dt>
+  <dd class="tree-panel">
+    <ul class="link-list">
+      <li><a href="http://www.adobe.com/products/eulas/tou_acrobatcom.html">Acrobat.com Additional Terms of Use</a></li>
+      <li><a href="http://www.adobe.com/products/eulas/pdfs/ConnectNow_Combined_TOU_20090916_1327.pdf" target="_blank">ConnectNow Meeting Attendee Additional Terms of Use</a></li>
+    </ul>
+  </dd>
+  <dt class="tree-button"> <span class="treenav-title">AcrobatUsers.com</span> </dt>
+  <dd class="tree-panel">
+    <ul class="link-list">
+      <li><a href="http://www.adobe.com/products/eulas/pdfs/acrobatusers_additonal_tou_en_US20100719_1134.pdf" target="_blank">AcrobatUsers.com Additional Terms of Use</a></li>
+    </ul>
+  </dd>
+  <dt class="tree-button"> <span class="treenav-title">Adobe Connect Hosted</span> </dt>
+  <dd class="tree-panel">
+    <ul class="link-list">
+      <li>SUBSCRIPTION PLANS PURCHASED THROUGH A SPECIALIST</li>
+      <li><a href="http://www.adobe.com/products/eulas/pdfs/Connect_Hosted_TOS-combined-23_June_2011_1222.pdf" target="_blank">Adobe Connect Hosted Terms of Service</a></li>
+      <li><a href="http://www.adobe.com/products/eulas/pdfs/Connect_Participant_TOU-MULTI-20100930_1635.pdf" target="_blank">Participant Terms of Use</a></li>
+      <li>SUBSCRIPTION AND PAY-PER-USE PLANS PURCHASED ONLINE</li>
+      <li><a href="http://www.adobe.com/products/eulas/pdfs/Connect_Subscription_BOTS-en_US-20110318_1111.pdf" target="_blank">Adobe Connect Subscription Service Agreement</a></li>
+      <li><a href="http://www.adobe.com/products/eulas/pdfs/Connect_Participant_TOU-MULTI-20100930_1635.pdf" target="_blank">Participant Terms of Use</a></li>
+    </ul>
+  </dd>
+  <dt class="tree-button"> <span class="treenav-title">Adobe Connect Mobile</span> </dt>
+  <dd class="tree-panel">
+    <ul class="link-list">
+      <li><a href="http://www.adobe.com/products/eulas/pdfs/Adobe_Connect_Mobile_Participant_TOU_Android-Combined-20110209_1718.pdf" target="_blank">Participant Terms of Use (Android)</a></li>
+      <li><a href="http://www.adobe.com/products/eulas/pdfs/Adobe_Connect_Mobile_Participant_TOU_iOS-Combined-20111006.pdf" target="_blank">Participant Terms of Use (iOS)</a></li>
+      <li><a href="http://www.adobe.com/products/eulas/pdfs/Adobe_Connect_Mobile_Participant_TOU_RIM-Combined-20110209_1718.pdf" target="_blank">Participant Terms of Use (RIM)</a></li>
+    </ul>
+  </dd>
+  <dt class="tree-button"> <span class="treenav-title">Adobe ConnectNow</span> </dt>
+  <dd class="tree-panel">
+    <ul class="link-list">
+      <li><a href="http://www.adobe.com/products/eulas/tou_acrobatcom.html">Acrobat.com Services Agreement</a></li>
+      <li><a href="http://www.adobe.com/products/eulas/pdfs/AdobeConnect-TermsOfUse_Combined_03292007.pdf" target="_blank">Attendee Terms of Use</a></li>
+    </ul>
+  </dd>
+  <dt class="tree-button"> <span class="treenav-title">Adobe Content Server 4</span> </dt>
+  <dd class="tree-panel">
+    <ul class="link-list">
+      <li><a href="http://www.adobe.com/products/eulas/pdfs/AdobeOnlineServicesAgreement_Combined-20080505.pdf" target="_blank">Online Services Agreement</a></li>
+      <li><a href="http://www.adobe.com/products/eulas/pdfs/ContentServer4-ServiceApp_Combined-20080826.pdf" target="_blank">Content Server Services Appendix</a></li>
+    </ul>
+  </dd>
+  <dt class="tree-button"> <span class="treenav-title">ADOBE FLASH PLATFORM SERVICES</span> </dt>
+  <dd class="tree-panel">
+    <ul class="link-list">
+      <li><a href="http://www.adobe.com/products/eulas/flashplatformservices/afpstou9-4-09.html">Adobe Flash Platform Services Supplemental Terms of Use</a></li>
+      <li><a href="http://www.adobe.com/products/eulas/flashplatformservices/fpdseula9-1-09.html">Adobe Flash Platform Services Distribution Manager Software License Agreement</a></li>
+      <li><a href="http://www.adobe.com/products/eulas/flashplatformservices/fppstou.html">Adobe Flash Platform Services Promotion Manager Terms of Use</a></li>
+    </ul>
+  </dd>
+  <dt class="tree-button"> <span class="treenav-title">ADOBE WAVE</span> </dt>
+  <dd class="tree-panel">
+    <ul class="link-list">
+      <li><a href="https://ps-wave.adobe.com/terms/eula.html">Adobe Wave Beta Service</a></li>
+      <li><a href="https://ps-wave.adobe.com/terms/tou_service.html">Additional Terms of Use</a></li>
+    </ul>
+  </dd>
+  <dt class="tree-button"> <span class="treenav-title">Creative Cloud</span> </dt>
+  <dd class="tree-panel">
+    <ul class="link-list">
+      <li><a href="http://www.adobe.com/products/eulas/tou_creativecloud.html">Additional Terms of Use</a></li>
+    </ul>
+  </dd>
+  <dt class="tree-button"> <span class="treenav-title">CS Services</span> </dt>
+  <dd class="tree-panel">
+    <ul class="link-list">
+      <li><a href="http://www.adobe.com/products/eulas/tou_cs5services.html">CS Live</a></li>
+      <li><a href="http://www.adobe.com/products/eulas/tou_cs5services.html">Adobe Story</a></li>
+      <li><a href="http://www.adobe.com/products/eulas/tou_cs5services.html">BrowserLab</a></li>
+      <li><a href="http://www.adobe.com/products/eulas/tou_cs5services.html">CS News and Resources</a></li>
+      <li><a href="http://www.adobe.com/products/eulas/tou_cs5services.html">CS Review</a></li>
+      <li><a href="http://www.adobe.com/products/eulas/tou_acrobatcom.html">Acrobat.com</a></li>
+      <li><a href="http://www.adobe.com/products/eulas/tou_cs5services.html">Resource Central</a></li>
+      <li><a href="http://www.adobe.com/products/eulas/tou_cs5services.html">SiteCatalyst NetAverages</a></li>
+    </ul>
+  </dd>
+  <dt class="tree-button"> <span class="treenav-title">DIGITAL PUBLISHING SUITE</span> </dt>
+  <dd class="tree-panel">
+    <ul class="link-list">
+      <li><a href="http://www.adobe.com/misc/pdfs/Terms_of_Use_DigitalPublishingSuite_v.5-MULTI-20110819_1800.pdf" target="_blank">Terms of Use</a></li>
+    </ul>
+  </dd>
+  <dt class="tree-button"> <span class="treenav-title">ADOBE TRANSLATOR</span> </dt>
+  <dd class="tree-panel">
+    <ul class="link-list">
+      <li><a href="http://www.adobe.com/misc/pdfs/Adobe_Translator_Additional_Terms_of_Use_20110623.pdf" target="_blank">Terms of Use</a></li>
+    </ul>
+  </dd>
+  <dt class="tree-button"> <span class="treenav-title">DOCUMENT CENTER</span> </dt>
+  <dd class="tree-panel">
+    <ul class="link-list">
+      <li><a href="http://www.adobe.com/products/eulas/pdfs/AdobeOnlineServicesAgreement_Combined_03292007.pdf" target="_blank">Online Services Agreement</a></li>
+      <li><a href="http://www.adobe.com/products/eulas/pdfs/DocumentCenterServiceApp_Eng_02232007.pdf" target="_blank">Document Center Service Appendix</a></li>
+    </ul>
+  </dd>
+  <dt class="tree-button"> <span class="treenav-title">PHOTOSHOP.COM</span> </dt>
+  <dd class="tree-panel">
+    <ul class="link-list">
+      <li><a href="http://www.photoshop.com/misc/terms.html">Online Services Agreement</a></li>
+    </ul>
+  </dd>
+  <dt class="tree-button"> <span class="treenav-title">PROJECT ROME</span> </dt>
+  <dd class="tree-panel">
+    <ul class="link-list">
+      <li><a href="http://rome.adobe.com/misc/terms.html" target="_blank">Additional Terms of Use</a></li>
+    </ul>
+  </dd>
+  <dt class="tree-button"> <span class="treenav-title">Adobe Digital Enterprise Platform Collaboration Service</span> </dt>
+  <dd class="tree-panel">
+    <ul class="link-list">
+      <li><a href="http://www.adobe.com/go/cocomo_license_en">License and Service Agreement</a> </li>
+      <li><a href="http://www.adobe.com/go/cocomo_subscription_terms_en">Subscription Agreement</a></li>
+    </ul>
+  </dd>
+</dl>
+<h3>Legal Information</h3>
+<dl class="dyn-treenav pocket-bleed">
+  <dd class="tree-panel">
+    <ul class="link-list">
+      <li><a href="http://www.adobe.com/go/terms">Terms of Use</a></li>
+      <li><a href="http://www.adobe.com/go/privacy">Privacy policy</a></li>
+      <li><a href="../products/eulas/">Product license agreements</a></li>
+      <li><a href="http://www.adobe.com/go/activation">Product activation</a></li>
+      <li><a href="http://www.adobe.com/misc/agreement.html">Permission and trademark guidelines</a></li>
+      <li><a href="http://www.adobe.com/support/exportcompliance.html">Export compliance information</a></li>
+      <li><a href="http://www.adobe.com/misc/terms_and_conditions_for_packaged_services_engagement.html">Professional Services Terms</a></li>
+    </ul>
+  </dd>
+</dl>
+
+<!-- $Id: treenav.ssi,v 1.3 2010/04/29 15:13:52 mok Exp $ -->
+<script type="text/javascript">
+document.observe("dom:loaded", function() {
+										
+	$$(".dyn-treenav").collect(function(el) {											
+
+		el.observe("tree:openAllBranches",function(){
+			resetContent() 
+		});
+		
+		el.observe("tree:closeAllBranches",function(){			
+			if($('content-footer')) {
+				$('content-body').style.height = "auto";
+				$('content-footer').removeClassName("reset")
+				$('foot-info').removeClassName("reset")
+			} 
+			
+			if($('boxshot-footer')) {
+				var boxHeight = $('boxshot-footer').getHeight();
+				$('content-body').style.height = "";
+			}
+		})
+		
+		document.observe("tree:branch:opened",function() {
+			resetContent.delay(0.5);
+		});		
+		
+		function resetContent() {
+			var pocketHeight = $('content-pocket').getHeight();
+			var contentHeight = $('content-body').getHeight();
+						
+			if(pocketHeight > contentHeight) {			
+				if($('content-footer')) {
+					$('content-body').style.height = pocketHeight + "px";
+					
+					$('content-footer').addClassName("reset")
+					$('foot-info').addClassName("reset")
+				} 
+				
+				if($('boxshot-footer')) {
+					var boxHeight = $('boxshot-footer').getHeight();
+					$('content-body').style.height = boxHeight + pocketHeight + "px";
+				}
+			}
+		}
+		
+		return new adobe.Tree(el, {
+			style_uninitialized: "dyn-treenav",
+			style_initialized: "treenav",
+			select_button: ".tree-button",
+			fade_fx_content : true,
+			auto_open: true
+		},
+		{
+			toggle_all: "Alt+click to show /hide all features"
+		});
+	});
+});
+</script>
+<style type="text/css">
+#foot-info.reset {
+	margin-right: 4px;
+	width: 761px;
+	_width: 760px;
+}
+#content-footer.reset {
+	position: absolute;
+	bottom: 0;
+	width: 764px;
+}
+</style>
+<noscript>
+	<style type="text/css">
+		.dyn-treenav 
+		{ 
+			visibility: visible; 
+			overflow: visible; 
+			height:auto; 
+			
+			position: relative;
+		}
+	</style>
+</noscript>
+<!-- InstanceEndEditable -->
+</div></div></div>
+
+</div>
+
+<!--googleoff: index-->
+<!-- $Id: globalfooter_ssi.html,v 1.18.2.2 2011/11/03 20:23:44 dgasior Exp $ -->
+<div id="SiteFooter" class="SiteFooter Text TextSmall TextInvert Link LayoutBreak">
+    <div class="LayoutBreakAfter">
+        <div class="LayoutGrid-1 LinkInvert">
+        	<div class="LayoutCellSides LayoutCellTop">
+                <h4><a href="http://www.adobe.com/go/gffooter_products">Products</a></h4>
+                <ul class="SiteFooterLinkList">
+                    <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconCS" href="http://www.adobe.com/go/gffooter_creative_suite">Creative Suite</a></li>
+                    <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconPS" href="http://www.adobe.com/go/gffooter_photoshop_family">Photoshop Family</a></li>
+                    <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="http://www.adobe.com/go/gffooter_acrobat_family">Acrobat Family</a></li>
+                    <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconPlatform" href="gffooter_flash_platform">Flash Platform</a></li>
+                    <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconOMS" href="gffooter_online_marketing_suite">Digital Marketing Suite</a></li>
+                    <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconDES" href="gffooter_digital_enterprise_suite">Digital Enterprise Suite</a></li>
+                    <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconDPS" href="http://www.adobe.com/go/gffooter_digital_publishing_suite">Digital Publishing Suite</a></li>
+                    <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconMobile" href="gffooter_mobile_apps">Mobile apps</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="LayoutGrid-2 LinkInvert">
+        	<div class="LayoutCellSides LayoutCellTop">
+                <h4><a href="gffooter_solutions">Solutions</a></h4>
+                <ul class="SiteFooterLinkList">
+                    <li><a href="gffooter_customer_experience_management">Customer experience management</a></li>
+                    <li><a href="gffooter_content_authoring">Content authoring</a></li>
+                    <li><a href="gffooter_online_marketing">Digital marketing</a></li>
+                </ul>
+                
+                <h4><a href="gffooter_industries">Industries</a></h4>
+                <ul class="SiteFooterLinkList SiteFooterLinkListBottom">
+                    <li><a href="gffooter_education">Education</a></li>
+                    <li><a href="gffooter_financial_services">Financial services</a></li>
+                    <li><a href="gffooter_government">Government</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="LayoutGrid-3 LinkInvert">
+        	<div class="LayoutCellSides LayoutCellTop">
+                <h4><a href="gffooter_help">Help</a></h4>
+                <ul class="SiteFooterLinkList">
+                    <li><a href="gffooter_product_help_centers">Product help centers</a></li>
+                    <li><a href="gffooter_order_return">Orders and returns</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_download_install">Downloading and installing</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_myadobe">My Adobe</a></li>
+                </ul>
+    
+                <h4><a href="gffooter_learning">Learning</a></h4>
+                <ul class="SiteFooterLinkList SiteFooterLinkListBottom">
+                    <li><a href="gffooter_adobe_developer_connection">Adobe Developer Connection</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_adobetv">Adobe TV</a></li>
+                    <li><a href="gffooter_training_certification">Training and certification</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_forums">Forums</a></li>
+                    <li><a href="gffooter_design_center">Design Center</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="LayoutGrid-4 LinkInvert">
+        	<div class="LayoutCellSides LayoutCellTop">
+                <h4><a href="gffooter_buy">Ways to buy</a></h4>
+                <ul class="SiteFooterLinkList">
+                    <li><a href="http://www.adobe.com/go/gffooter_adobe_store">Adobe Store</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_students_store">For students and educators</a></li>
+                    <li><a href="gffooter_small_medium_business">For small and medium businesses</a></li>
+                    <li><a href="gffooter_for_enterprises">For enterprises</a></li>
+                </ul>
+    
+                <h4><a href="gffooter_downloads">Downloads</a></h4>
+                <ul class="SiteFooterLinkList SiteFooterLinkListBottom">
+                    <li><a href="gffooter_adobe_reader">Adobe Reader</a></li>
+                    <li><a href="gffooter_adobe_flashplayer">Adobe Flash Player</a></li>
+                    <li><a href="gffooter_adobe_air">Adobe AIR</a></li>
+                    <li><a href="gffooter_adobe_shockwave_player">Adobe Shockwave Player</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="LayoutGrid-5 LinkInvert">
+        	<div class="LayoutCellSides LayoutCellTop">
+                <h4><a href="gffooter_company">Company</a></h4>
+                <ul class="SiteFooterLinkList">
+                    <li><a href="gffooter_news_room">News room</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_partner_programs">Partner programs</a></li>
+                    <li><a href="gffooter_corporate_social_responsibility">Corporate social responsibility</a></li>
+                    <li><a href="gffooter_career_opportunities">Career opportunities</a></li>
+                    <li><a href="gffooter_investor_relation">Investor Relations</a></li>
+                    <li><a href="gffooter_events">Events</a></li>
+                    <li><a href="gffooter_legal">Legal</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_contact_adobe">Contact Adobe</a></li>
+                </ul>
+            </div>
+        </div>
+        
+		<div class="LayoutGridBreak">
+        	<div class="LayoutCellSides LayoutCellBottom">
+                <div class="SiteFooterRegionSelector TextInvert LinkInvert LinkStrong">
+                    <a href="gffooter_choose_region" id="sfRegion" class="SiteFooterMenuItemIcon SiteFooterMenuItemIconRegionBlue">Choose your region</a>
+                    <span id="sfRegionSet" class="SiteFooterMenuItemIcon SiteFooterMenuItemIconRegionBlack" style="display: none;">United States <a href="gffooter_choose_region" id="sfRegionChange">(Change)</a></span>
+                </div>
+                <div class="SiteFooterRegionPanel SiteFooterRegionPanelEvidon" id="RegionPanel" style="display: none;">
+                    <div class="SiteFooterRegionPanelHeader">
+                        <span class="SiteFooterMenuItemIcon SiteFooterMenuItemIconRegionBlack">Choose your region</span>
+                        <a id="sfRegionClose" class="SiteFooterRegionPanelHeaderClose">Close</a>
+                    </div>
+                    <div class="Column">
+                        <div class="Column-1">
+                            <p class="SiteFooterRegionPanelRegionHeader">North America</p>
+                        </div>
+                        <div class="Column-2-3">
+                            <p class="SiteFooterRegionPanelRegionHeader">Europe, Middle East and Africa</p>
+                        </div>
+                        <div class="Column-4">
+                            <p class="SiteFooterRegionPanelRegionHeader">Asia Pacific</p>
+                        </div>
+                        <div class="Column-1">
+                            <ul>
+                                <li lang="en"><a onclick="changeRegion('ca');">Canada - English</a></li>
+                                <li lang="fr"><a onclick="changeRegion('ca_fr');">Canada - Fran&ccedil;ais</a></li>
+                                <li lang="es"><a onclick="changeRegion('la');">Latinoam&eacute;rica</a></li>
+                                <li lang="es"><a onclick="changeRegion('mx');">M&eacute;xico</a></li>
+                                <li lang="en"><a onclick="changeRegion('us');">United States</a></li>
+                            </ul>
+            
+                            <p class="SiteFooterRegionPanelRegionHeader">South America</p>
+                            <ul>
+                                <li lang="pt"><a onclick="changeRegion('br');">Brasil</a></li>
+                            </ul>
+                        </div>
+                        <div class="Column-2">
+                            <ul>
+                                <li lang="en"><a onclick="changeRegion('africa');">Africa - English</a></li>
+                                <li lang="de"><a onclick="changeRegion('at');">&Ouml;sterreich - Deutsch</a></li>
+                                <li lang="en"><a onclick="changeRegion('be_en');">Belgium - English</a></li>
+                                <li lang="fr"><a onclick="changeRegion('be_fr');">Belgique - Fran&ccedil;ais</a></li>
+                                <li lang="nl"><a onclick="changeRegion('be_nl');">Belgi&euml; - Nederlands</a></li>
+                                <li lang="bg"><a onclick="changeRegion('bg');">ÐÑ`Ð»Ð³Ð°Ñ¬Ð¸Ñý</a></li>
+                                <li lang="hr"><a onclick="changeRegion('hr');">Hrvatska</a></li>
+                                <li lang="cs"><a onclick="changeRegion('cz');">ÄResk&aacute; republika</a></li>
+                                <li lang="da"><a onclick="changeRegion('dk');">Danmark</a></li>
+                                <li lang="en"><a onclick="changeRegion('eeurope');">Eastern Europe - English</a></li>
+                                <li lang="et"><a onclick="changeRegion('ee');">Eesti</a></li>
+                                <li lang="fi"><a onclick="changeRegion('fi');">Suomi</a></li>
+                                <li lang="fr"><a onclick="changeRegion('fr');">France</a></li>
+                                <li lang="de"><a onclick="changeRegion('de');">Deutschland</a></li>
+                                <li lang="hu"><a onclick="changeRegion('hu');">Magyarorsz&aacute;g</a></li>
+                                <li lang="en"><a onclick="changeRegion('ie');">Ireland</a></li>
+                                <li lang="en"><a onclick="changeRegion('il_en');">Israel - English</a></li>
+                                <li lang="it"><a onclick="changeRegion('it');">Italia</a></li>
+                                <li lang="lv"><a onclick="changeRegion('lv');">Latvija</a></li>
+                                <li lang="lt"><a onclick="changeRegion('lt');">Lietuva</a></li>
+                                <li lang="de"><a onclick="changeRegion('lu_de');">Luxembourg - Deutsch</a></li>
+                            </ul>
+                        </div>
+                        <div class="Column-3">
+                            <ul>
+                                <li lang="en"><a onclick="changeRegion('lu_en');">Luxembourg - English</a></li>
+                                <li lang="fr"><a onclick="changeRegion('lu_fr');">Luxembourg - Fran&ccedil;ais</a></li>
+                                <li lang="en"><a onclick="changeRegion('mena');">Middle East and North Africa - English</a></li>
+                                <li lang="nl"><a onclick="changeRegion('nl');">Nederland</a></li>
+                                <li lang="no"><a onclick="changeRegion('no');">Norge</a></li>
+                                <li lang="pl"><a onclick="changeRegion('pl');">Polska</a></li>
+                                <li lang="pt"><a onclick="changeRegion('pt');">Portugal</a></li>
+                                <li lang="ro"><a onclick="changeRegion('ro');">Rom&acirc;nia</a></li>
+                                <li lang="ru"><a onclick="changeRegion('ru');">Ð Ð¾ÑýÑýÐ¸Ñý</a></li>
+                                <li lang="sr"><a onclick="changeRegion('rs');">Srbija</a></li>
+                                <li lang="sk"><a onclick="changeRegion('sk');">Slovensko</a></li>
+                                <li lang="sl"><a onclick="changeRegion('si');">Slovenija</a></li>
+                                <li lang="es"><a onclick="changeRegion('es');">Espa&ntilde;a</a></li>
+                                <li lang="sv"><a onclick="changeRegion('se');">Sverige</a></li>
+                                <li lang="de"><a onclick="changeRegion('ch_de');">Schweiz - Deutsch</a></li>
+                                <li lang="fr"><a onclick="changeRegion('ch_fr');">Suisse - Fran&ccedil;ais</a></li>
+                                <li lang="it"><a onclick="changeRegion('ch_it');">Svizzera - Italiano</a></li>
+                                <li lang="tr"><a onclick="changeRegion('tr');">T&uuml;rkiye</a></li>
+                                <li lang="uk"><a onclick="changeRegion('ua');">Ð£ÐºÑ¬Ð°ÑÐ½Ð°</a></li>
+                                <li lang="en"><a onclick="changeRegion('uk');">United Kingdom</a></li>
+                            </ul>
+                        </div>
+                        <div class="Column-4">
+                            <ul>
+                                <li lang="en"><a onclick="changeRegion('au');">Australia</a></li>
+                                <li lang="zh"><a onclick="changeRegion('cn');">ä¸­å:½</a></li>
+                                <li lang="zh"><a onclick="changeRegion('hk_zh');">ä¸­åS9é¦"æ¸¯ç0¹åÆ¥è¡Ræ¿åý¬</a></li>
+                                <li lang="en"><a onclick="changeRegion('hk_en');">Hong Kong S.A.R. of China</a></li>
+                                <li lang="en"><a onclick="changeRegion('in');">India - English</a></li>
+                                <li lang="ja"><a onclick="changeRegion('jp');">æ¥æS¬</a></li>
+                                <li lang="ko"><a onclick="changeRegion('kr');">í"Sêµ­</a></li>
+                                <li lang="en"><a onclick="changeRegion('nz');">New Zealand</a></li>
+                                <li lang="en"><a onclick="changeRegion('ap');">Pacific - English</a></li>
+                                <li lang="zh"><a onclick="changeRegion('tw');">åý°çý£</a></li>
+                            </ul>
+            
+                            <p class="SiteFooterRegionPanelRegionHeader">Southeast Asia</p>
+                            <ul>
+                                <li lang="en"><a onclick="changeRegion('sea');">Includes Indonesia, Malaysia, Philippines, Singapore, Thailand, and Vietnam - English</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+		<div class="LayoutGridBreak">
+        	<div class="LayoutCellSides">
+                <hr />
+            </div>
+        </div>
+    
+        <div class="LayoutGrid-1-4 LinkInvert LinkStrong">
+        	<div class="LayoutCellSides LayoutCellBottom LinkInvert">
+                <p class="SiteFooterRow TextSmall">Copyright &copy; 2011 Adobe Systems Incorporated.  All rights reserved.</p>
+                <p class="SiteFooterRow TextSmall">Use of this website signifies your agreement to the <a href="gffooter_terms_of_use">Terms of Use</a> and <a href="http://www.adobe.com/go/gffooter_online_privacy_policy">Online Privacy Policy</a> <em>(updated 07-14-2009)</em>.</p>
+                <p class="SiteFooterRow SiteFooterRowTop"><a href="http://www.adobe.com/misc/terms.html#" id="_bapw-link" class="TextSmall icon Icon SiteFooterMenuItemIconEvidon" style="display:none;">Ad Choices</a></p>
+            </div>
+        </div>
+        <div class="LayoutGrid-5">
+        	<div class="LayoutCell">
+                <p class="TextRight"><a href="http://www.adobe.com/go/gffooter_trust_icon"><img alt="Reviewed by TRUSTe: site privacy statement" src="http://www.adobe.com/include/img/truste_seal_eu.gif" /></a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--googleon: index-->
+
+<!-- InstanceBeginEditable name="analytics" --><div style="display: none;">
+<!-- SiteCatalyst -->
+<script language="JavaScript" type="text/javascript"><!--
+var s_code=' ';
+var s_docHost = window.location.hostname.toLowerCase();
+var s_docURL = window.location.pathname.toLowerCase();
+var scJsHost = (("https:" == document.location.protocol) ? "https://www.adobe.com" : "http://wwwimages.adobe.com");
+if (s_docHost.indexOf(".corp.adobe") != -1 || s_docHost.indexOf("stage.") != -1 || s_docHost.indexOf(".dev.adobe") != -1 || s_docHost.indexOf("staging.") != -1) scJsHost="";
+document.write(unescape("%3Cscript src='" + scJsHost + "/uber/js/omniture_s_code.js' type='text/javascript'%3E%3C/script%3E"));
+//--></script>
+<script type="text/javascript"><!--
+var s_accountName;
+s_server="www.adobe.com static content pages";
+if (!window.s_account) s_accountName="mxmacromedia";
+else s_accountName=window.s_account;
+
+if (window.s_docURL.indexOf("/devnet") != -1) {
+  s_channel="DevNet";
+  // Track Tabs as Pages when targeted directly
+  if (document.URL.indexOf("navID=") != -1) {
+    var s_pairs = window.location.search.substring(1).split("&");
+	for (i=0;i<s_pairs.length;i++) {
+	  if (s_pairs[i].indexOf("navID=") != -1)
+  		s_pageName=document.URL.substring(0, document.URL.indexOf("?")+1) + s_pairs[i];
+		s_pageName=s_pageName.toLowerCase();
+	}
+  }
+}
+else if (window.s_docURL.indexOf("/designcenter/") != -1)
+  s_channel="Adobe Design Center";	
+else if ((window.s_docHost.indexOf("labs.adobe") != -1) ||
+(window.s_docHost.indexOf("labs-staging.") != -1))
+  s_channel="Labs";
+else if (window.s_docHost.indexOf("help.adobe.com") != -1) {
+  s_channel="Support Help.adobe.com";
+  if (window.s_docURL.indexOf("/en_us/") == -1) {
+    s_docURLArray=s_docURL.split('/');
+    s_pageName="http://help.adobe.com/"+s_docURLArray[1]+"/"+ s_docURLArray[2]+"/"+s_docURLArray[3];
+    s_prop23="http://help.adobe.com"+window.location.pathname;
+  }
+}
+else if (window.s_docHost.indexOf("kb2.adobe.com") != -1) {
+  s_channel="Support Knowledgebase";
+  s_prop23="http://kb2.adobe.com"+s_docURL+":";
+  if (typeof(omtrProductList) != 'undefined' && omtrProductList.length > 0)
+ {
+    s_prop23=s_prop23+omtrProductList;
+  }
+}
+else if (window.s_docHost.indexOf("resellers.adobe.com") != -1) {
+		var s_pageName=document.getElementsByTagName("title")[0].text;
+}
+
+else if (window.top.location.href.indexOf("translate.google.com") != -1) {
+s_prop53="translate.google.com";
+}
+else if (window.top.location.href.indexOf("www.microsofttranslator.com") != -1) {
+s_prop53="www.microsofttranslator.com";
+}
+else if (window.top.location.href.indexOf("babelfish.yahoo.com") != -1) {
+s_prop53="babelfish.yahoo.com";
+}
+
+
+if (!window.scMMInclude) {
+	var s_wd=window,s_tm=new Date;
+	if(s_code!=' '){
+		s_code=s_dc(s_accountName);
+		if(s_code)document.write(s_code)
+	} 
+} else {
+	s_wds(s_accountName);s_ca(s_accountName); 
+}	
+
+function sendAnalyticsEvent(str){var ns=s_accountName;if(str!=null)ns+=","+str;void(s_gs(ns));}
+function sendLinkEvent(accnt,lnkname,type){
+accnt=s_accountName;s_linkType=type;s_lnk=true;s_linkName=lnkname;void(s_gs(accnt));}
+//--></script>
+<noscript><img src="http://stats.adobe.com/b/ss/mxmacromedia/1/H.15-XELvs/0?pageName=http%3A//www.adobe.com%3A%20noscript&ch=http%3A//www.adobe.com%3A%20noscript&g=http%3A//www.adobe.com" height="1" width="1" border="0" alt="" /></noscript>
+<!-- End SiteCatalyst -->
+</div>
+
+
+
+ <script type="text/javascript">
+	if(isDesktop()) { 
+ 		adobe.Loader.requireAsset("http://wwwimages.adobe.com/www.adobe.com/js/foresee/foresee-trigger.js");
+ 	}
+</script>  
+
+
+
+<!-- InstanceEndEditable -->
+</body>
+<!-- InstanceEnd --></html>

@@ -1,0 +1,409 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--     _
+  __   _|_|_ __ ___   ___  ___
+  \ \ / / | '_ ' _ \ / _ \/ _ \
+   \ V /| | | | | | |  __/ |_| |
+    \_/ |_|_| |_| |_|\___|\___/
+               you know, for videos
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        
+        
+        <title>AMT on Vimeo</title>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <meta name="viewport" content="width=1024,maximum-scale=1.0" />
+
+                                        <meta name="description" content="Visit AMT's profile on Vimeo. Use Vimeo to share the videos you make with the people you want. Its free to join and really easy to use." />
+        
+        
+        
+        <meta name="keywords" content="video, video sharing, digital cameras, videoblog, vidblog, video blogging, home video, home movie" />
+
+        
+<link rel="stylesheet" type="text/css" media="all" href="http://a.vimeocdn.com/combine.php?type=css&version=3ea0e&files=global,lightbox,embed,profile&ssl=0" />
+
+<!--[if gte IE 7]>
+    <link rel="stylesheet" type="text/css" href="http://a.vimeocdn.com/css/ie.css?3ea0e" />
+<![endif]-->
+
+<!--[if lte IE 6]>
+    <link rel="stylesheet" type="text/css" href="http://a.vimeocdn.com/css/ie6.css?3ea0e" />
+    <script type="text/javascript" src="http://a.vimeocdn.com/js/ie6.js?3ea0e-1322770995"></script>
+<![endif]-->
+
+<script type="text/javascript" src="http://a.vimeocdn.com/combine.php?type=js&version=3ea0e&files=mootools.v1.11_jsmin,mootools_ext,lab,profile,subscription,flash.detection,swfobject.v2.2&ssl=0"></script>
+
+<link rel="apple-touch-icon-precomposed" media="(resolution: 326dpi)" href="http://a.vimeocdn.com/images/apple-touch-icon-114.png" />
+<link rel="apple-touch-icon-precomposed" media="(resolution: 163dpi)" href="http://a.vimeocdn.com/images/apple-touch-icon-57.png" />
+<link rel="apple-touch-icon-precomposed" media="(resolution: 132dpi)" href="http://a.vimeocdn.com/images/apple-touch-icon-72.png" />
+                                                                    <link rel="alternate" type="application/rss+xml" title="AMT 's videos" href="http://vimeo.com/amtransport/videos/rss" />
+                                                            <link rel="alternate" type="application/rss+xml" title="AMT 's likes" href="http://vimeo.com/amtransport/likes/rss" />
+                    
+        
+            </head>
+    <body>
+        
+        <input type="hidden" id="xsrft" class="xsrft" name="token" value="a01beca62bed6fa1e1dbbd112d986ec1" />
+
+        <img src="http://a.vimeocdn.com/images/smoke.png" id="lightbox_wrapper" class="lightbox_wrapper" style="display:none;" alt="" />
+        <div id="lightbox"></div>
+
+        <div id="everything">
+            <div id="top">
+                <a href="http://vimeo.com"><img src="http://a.vimeocdn.com/images/logo_vimeo.png" alt="Vimeo" id="vimeo_logo" width="192" height="55" /></a>
+                                    <div id="newmenudo">
+    <div id="capright" class="menudo_image"></div>
+    <ul id="nav" class="grandpappy">
+        <li class="firstborn search" id="menudo_search_subtier">
+            <div class="rounded_input">
+                <div class="contain menudo_image">
+                    <form action="http://vimeo.com/videos/" method="get" onsubmit="menudo_search(); return false;">
+                        <input name="search" id="menudo_search_field" type="text" onblur="menudo_search_blur()" onclick="menudo_search_click()" value="Search People" class="field"  autocomplete="off" maxlength="50" />
+                        <input type="submit" value="" onclick="menudo_search(); return false;" class="button" />
+                    </form>
+                </div>
+            </div>
+            <ul class="dotted favoritechild menudo_subtier">
+                <li id="menudo_search_videos" class="first first">
+                    <a href="javascript:void(0)" onclick="menudo_search_change('Videos')">Search Videos</a>
+                    <div class="left_shoulder menudo_image"></div>
+                    <div class="right_shoulder menudo_image"></div>
+                </li>
+                <li id="menudo_search_people" class="selected"><a href="javascript:void(0)" onclick="menudo_search_change('People')">Search People</a></li>
+                <li id="menudo_search_groups" class=""><a href="javascript:void(0)" onclick="menudo_search_change('Groups')">Search Groups</a></li>
+                <li id="menudo_search_channels" class=""><a href="javascript:void(0)" onclick="menudo_search_change('Channels')">Search Channels</a></li>
+                <li id="menudo_search_forums" class="last"><a href="javascript:void(0)" onclick="menudo_search_change('Forums')">Search Forums</a></li>
+                <li style="margin-top: 0px; background: transparent;">
+                    <div class="cheek_left menudo_image"></div>
+                    <div class="cheek_fill"></div>
+                    <div class="cheek_right menudo_image"></div>
+                </li>
+            </ul>
+                    </li>
+        <li class="firstborn help">
+            <a class="label" href="http://vimeo.com/help">Help</a>
+            <ul class="dotted favoritechild">
+                <li class="first">
+                    <div class="left_shoulder menudo_image"></div>
+                    <div class="right_shoulder menudo_image"></div>
+                    <a href="http://vimeo.com/help">Help Center</a>
+                </li>
+                                    <li><a href="http://vimeo.com/help/basics">Vimeo Basics</a></li>
+                
+                                    <li><a href="http://vimeo.com/guidelines">Community Guidelines</a></li>
+                
+                <li><a href="http://vimeo.com/forums">Community Forums</a></li>
+                <li class="last"><a href="http://vimeo.com/api">Developers</a></li>
+                <li style="margin-top: 0px; background: transparent;">
+                    <div class="cheek_left menudo_image"></div>
+                    <div class="cheek_fill"></div>
+                    <div class="cheek_right menudo_image"></div>
+                </li>
+            </ul>
+        </li>
+        <li class="firstborn explore" id="menudo_explore">
+            <a href="http://vimeo.com/explore" class="label">Explore</a>
+            <ul class="favoritechild dotted">
+                <li class="first">
+                    <a href="http://vimeo.com/videoschool">Video School</a>
+                    <div class="left_shoulder menudo_image"></div>
+                    <div class="right_shoulder menudo_image"></div>
+                </li>
+                <li><a href="http://vimeo.com/musicstore">Music Store<span class="new">New!</span></a></li>
+                <li><a href="http://vimeo.com/perks">Perks<span class="new">New!</span></a></li>
+                <li><a href="http://vimeo.com/categories">Categories</a></li>
+                                    <li><a href="http://vimeo.com/groups">Groups</a></li>
+                    <li><a href="http://vimeo.com/channels">Channels</a></li>
+                                <li><a href="http://vimeo.com/hd">HD Videos</a></li>
+                <li><a href="http://vimeo.com/staffpicks">Staff Picks</a></li>
+                <li class="last"><a href="http://vimeo.com/everywhere">Everywhere</a></li>
+                <li style="margin-top: 0px; background: transparent;">
+                    <div class="cheek_left menudo_image"></div>
+                    <div class="cheek_fill"></div>
+                    <div class="cheek_right menudo_image"></div>
+                </li>
+            </ul>
+        </li>
+                    <li class="firstborn login">
+                                    <a class="label" href="http://vimeo.com/log_in" rel="nofollow" onclick="loginLightbox('login'); return false;">Log In</a>
+                            </li>
+            <li class="firstborn join">
+                <a href="http://vimeo.com/join" title="Join Vimeo"><div class="joinimage"></div></a>
+            </li>
+            </ul>
+    </div>                            </div>
+
+            
+            <div id="main" class="main">
+
+                                    <div id="toolbar">
+                                                                                                                            </div>
+                
+                
+<div class="vcard">
+    <div id="header">
+        <h1 class="fn">AMT<a href="amtransport"><img src="http://a.vimeocdn.com/images/pro_icon.gif" alt="pro" class="pro_graphic" /></a></h1>
+
+        <div class="joined">
+            Joined September 2010        </div>
+
+            </div>
+
+    <div class="columns">
+
+        <div class="column" id="columnA">
+
+            <div class="portrait_area">
+                <div class="portrait">
+                    <img id="big_portrait" class="photo portrait" onclick="big_portrait_click({o:this, e:event, user_id: 4793663});" src="http://b.vimeocdn.com/ps/123/720/1237204_300.jpg" alt="AMT" width="300" height="300" />
+                    <div id="formyportrait" style="display:none;width:300px;height:300px;">
+                                            </div>
+                    <script type="text/javascript">
+                        var formyportrait_clip_id = false;
+                    </script>
+                </div>
+                                <div class="portraitpointer"></div>
+            </div>
+
+            
+            <div class="softcorner native personal" style="background-color: #f1f2e8; -moz-border-radius-bottomright: 15px; -webkit-border-bottom-right-radius: 15px; border-bottom-right-radius: 15px; -moz-border-radius-bottomleft: 15px; -webkit-border-bottom-left-radius: 15px; border-bottom-left-radius: 15px; " >
+	<div id="portraitUploadContainer">
+                                    </div>
+                <div class="where">
+                    <span class="locality">Montréal (Québec) Canada</span><br />
+                    <span class="url"><a href="../pagesamt.qc.ca/index.html" target="_blank" rel="nofollow">amt.qc.ca/</a></span>
+                </div>
+
+                <div id="bio">
+                                                                 L�"Agence métropolitaine de transport (AMT) est une agence gouvernementale à vocation métropolitaine qui a pour mission d�"accroître et de planifier les services de transport collectif afin d�"améliorer l�"efficacité des déplacements des personnes dans la région métropolitaine de Montréal. L�"AMT exploite actuellement cinq lignes de train, 51 gares, 1 ligne d�"autobus express métropolitain, 61 stationnements incitatifs, 16 terminus métropolitains et 85,2 km de voies réservées. L�"achalandage annuel des trains de banlieue est de près de 16 millions de passagers, ce qui situe la grande région métropolitaine au sixième rang en Amérique du Nord.                                                        </div></div>
+        </div>
+
+        <div class="column" id="columnB">
+
+            <div class="columnBhead">
+
+                
+                <div id="numbers" class="condensed">
+                    <a href="http://vimeo.com/amtransport/videos" class="number">
+                                                <div class="softcorner native num_videos" style="background-color: #4ebaff; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; " >
+	<var>23</var>
+                            Videos</div>                    </a>
+                                            <a href="http://vimeo.com/amtransport/likes" class="number">
+                                                        <div class="softcorner native num_videos" style="background-color: #f6402d; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; " >
+	<var>1</var>
+                                Like</div>                        </a>
+                        <a href="http://vimeo.com/amtransport/contacts" class="number">
+                                                        <div class="softcorner native num_videos" style="background-color: #969696; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; " >
+	<var>0</var>
+                                Contacts</div>                        </a>
+                        <a href="http://vimeo.com/amtransport/groups" class="number">
+                                                        <div class="softcorner native num_videos" style="background-color: #aad450; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; " >
+	<var>3</var>
+                                Groups</div>                        </a>
+                        <a href="http://vimeo.com/amtransport/channels" class="number">
+                                                        <div class="softcorner native num_videos" style="background-color: #ff8a3c; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; " >
+	<var>1</var>
+                                Channel</div>                        </a>
+                        <a href="http://vimeo.com/amtransport/albums" class="number rowend">
+                                                        <div class="softcorner native num_videos rowend" style="background-color: #fbca54; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; " >
+	<var>2</var>
+                                Albums</div>                        </a>
+                                                                <a href="http://vimeo.com/amtransport/portfolios" class="number cond_rowend">
+                                                        <div class="softcorner native num_videos" style="background-color: #ff8a3c; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; " >
+	<var>3</var>
+                                Portfolios</div>                        </a>
+                    
+
+                                        <div class="clear"></div>
+                </div>
+
+                <h2 class="profilepage_videos">
+                                            <a href="http://vimeo.com/amtransport/videos" class="seeall">See all 23 videos</a>
+
+                        Their                                                    recent videos
+                                                <div class="clear"></div>
+                                    </h2>
+
+                                                        <ul id="recent_videos" class="clippartyusa" >
+                                                                                <li>
+                                <a href="http://vimeo.com/32680543" onclick="set_context('user:4793663')"><img src="http://b.vimeocdn.com/ts/221/277/221277129_200.jpg" width="150" height="200" alt="Webdiffusion de la consultation publique en ligne" /></a>
+                                <a href="http://vimeo.com/32680543" onclick="set_context('user:4793663')" class="clippartytitle">Webdiffusion de la consultation publique en ligne</a>
+                                <div class="clippartyago">6 days ago</div>
+                            </li>
+                                                        <li class="middle">
+                                <a href="http://vimeo.com/32113434" onclick="set_context('user:4793663')"><img src="http://b.vimeocdn.com/ts/217/251/217251875_200.jpg" width="150" height="200" alt="Vision 2020" /></a>
+                                <a href="http://vimeo.com/32113434" onclick="set_context('user:4793663')" class="clippartytitle">Vision 2020</a>
+                                <div class="clippartyago">17 days ago</div>
+                            </li>
+                                                        <li>
+                                <a href="http://vimeo.com/30728436" onclick="set_context('user:4793663')"><img src="http://b.vimeocdn.com/ts/206/547/206547507_200.jpg" width="150" height="200" alt="CLIC: le covoiturage branché" /></a>
+                                <a href="http://vimeo.com/30728436" onclick="set_context('user:4793663')" class="clippartytitle">CLIC: le covoiturage branché</a>
+                                <div class="clippartyago">1 month ago</div>
+                            </li>
+                                                                        </ul>
+                                    
+                <div class="clear"></div>
+            </div>
+
+            
+            <div class="subcolumns">
+                <div class="subcolumn" id="columnBleft">
+
+                                            <div class="nippleBox soxsSoul">
+	<div class="bar">
+		<h4>Recent activity</h4>	</div>
+	<div class="nipple"></div>
+	<div class="content">
+		<ul class="profile_activity">
+								<li class="first">
+						<img src="http://b.vimeocdn.com/ps/123/720/1237204_30.jpg" alt="" title="AMT" width="30" height="30" class="portrait" onclick="avatar_hover({o:this, e:event, user_id:4793663, browser:'_content'})" />					<img src="http://a.vimeocdn.com/images/icon_act_tag.gif" alt="add_tags" class="thumbnail" style="width: 30px;" />
+					<div class="digest">
+						<div style="color: #969696; font: normal 10px verdana, sans-serif; margin-bottom: 2px;">16 days ago</div>						AMT tagged <strong><a href="http://vimeo.com/32113434">Vision 2020</a></strong> with:
+						<div class="activity_tags">
+							<a href="http://vimeo.com/32113434"><img src="http://static.flickr.com/6097/6346982665_2a37e44944_t.jpg" alt="" /></a><br /><a href="http://vimeo.com/32113434"><img src="http://static.flickr.com/6105/6347732672_9c6312d919_t.jpg" style="margin-top:5px" alt="" /></a> <a href="http://vimeo.com/32113434">and 1 more...</a>						</div>
+					</div>
+					<div class="clear"></div>
+					
+	</li>
+				<li >
+						<img src="http://b.vimeocdn.com/ps/123/720/1237204_30.jpg" alt="" title="AMT" width="30" height="30" class="portrait" onclick="avatar_hover({o:this, e:event, user_id:4793663, browser:'_content'})" />					<img src="http://a.vimeocdn.com/images/icon_act_tag.gif" alt="add_tags" class="thumbnail" style="width: 30px;" />
+					<div class="digest">
+						<div style="color: #969696; font: normal 10px verdana, sans-serif; margin-bottom: 2px;">16 days ago</div>						AMT tagged <strong><a href="http://vimeo.com/32113434">Vision 2020</a></strong> with:
+						<div class="activity_tags">
+							<a href="http://vimeo.com/32113434"><img src="http://static.flickr.com/6228/6347731490_5ae8bbb543_t.jpg" alt="" /></a>						</div>
+					</div>
+					<div class="clear"></div>
+					
+	</li>
+				<li >
+						<img src="http://b.vimeocdn.com/ps/123/720/1237204_30.jpg" alt="" title="AMT" width="30" height="30" class="portrait" onclick="avatar_hover({o:this, e:event, user_id:4793663, browser:'_content'})" />					<img src="http://a.vimeocdn.com/images/icon_act_channel.gif" class="thumbnail" alt="Channel" style="width: 30px;" />
+					<div class="digest">
+						<div style="color: #969696; font: normal 10px verdana, sans-serif; margin-bottom: 2px;">17 days ago</div>						AMT added <strong><a href="http://vimeo.com/channels/transportcollectif#32113434">Vision 2020</a></strong>
+						to <a href="http://vimeo.com/channels/transportcollectif">Transport collectif</a>
+					</div>
+					<div class="clear"></div>	
+					
+	</li>
+		</ul>
+
+	</div>
+</div>                                    </div>
+
+                <div class="subcolumn" id="columnBright">
+                    
+
+                                            <div class="nippleBox abrahamLincoln">
+	<div class="bar">
+		<h4>Contacts</h4>	</div>
+	<div class="nipple"></div>
+	<div class="content">
+		<div class="profile_contacts">
+                                                                        <div class="none">
+                                AMT                                has no contacts yet.
+                            </div>
+                                                            </div>	</div>
+</div>                    
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+
+                <div class="clear"></div>
+
+                    <div id="related_feeds_wrapper">
+        <div id="related_feeds">
+            <img align="left" src="http://a.vimeocdn.com/images/icon_rss.png" height="35" width="35" alt="Related Feeds" />
+            <span id="title">Related Feeds</span>
+            <ul>
+                                                                           <li><a href="http://vimeo.com/amtransport/videos/rss">AMT 's videos</a></li>
+                                                                           <li><a href="http://vimeo.com/amtransport/likes/rss">AMT 's likes</a></li>
+                            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+                <div id="bottom">
+                    <ul>
+                        <li>
+                            
+                            <span class="category">Vimeo:</span> <a href="http://vimeo.com/about">About</a> / <a href="http://vimeo.com/blog">Blog</a> / <a href="http://vimeo.com/api">Developers</a> / <a href="http://vimeo.com/jobs">Jobs</a> /
+
+                                                                                        <a href="http://vimeo.com/guidelines">Community Guidelines</a> /
+                            
+                            <a href="http://vimeo.com/help">Help Center</a> / <a href="http://vimeo.com/videoschool">Video School</a> / <a href="http://vimeo.com/musicstore">Music Store</a> / <a href="http://vimeo.com/site_map">Site Map</a>
+
+                                                            / Vimeo <a href="http://vimeo.com/plus"><img src="http://a.vimeocdn.com/images/plus_icon.gif" alt="plus" style="margin-bottom: -2px;" /></a> or <a href="http://vimeo.com/pro"><img src="http://a.vimeocdn.com/images/pro_icon.gif" alt="pro" style="margin-bottom: -2px;" /></a>
+                                                    </li>
+                        <li>
+                            <div class="legal_container">
+                                <span class="category">Legal:</span>
+                                <span class="legal_eagle">TM + &copy;2011 Vimeo, LLC. All rights reserved.</span> /
+                                <a href="http://vimeo.com/terms">Terms of Service</a> / <a href="http://vimeo.com/privacy" rel="nofollow">Privacy Statement</a> / <a href="http://vimeo.com/dmca">Copyright</a>
+                            </div>
+                            <div class="clear"></div>
+                        </li>
+                    </ul>
+
+                                    </div>
+            </div>
+
+        </div>
+
+        
+        <script type="text/javascript">
+    var vimeo_startup = {
+        domain: '.vimeo.com',
+        vimeo_url: 'vimeo.com'
+    };
+
+            var PRO_USER_OPTED_IN = false;
+    
+    </script>
+<script type="text/javascript" src="http://a.vimeocdn.com/js/global.js?3ea0e-1322770995"></script>
+<script type="text/javascript">
+                        
+                    var cur_search_type = 'People';
+                            
+    EventCenter.fire('domready');
+</script>
+
+        <script type="text/javascript">
+    function trigger_pageview(url) {
+        var _gaq = _gaq || [];
+        _gaq.push(['_trackPageview', url]);
+    }
+
+    var _qoptions = { qacct: "p-53jJe1KAP5ehs" },
+        _comscore = _comscore || [],
+        _gaq = _gaq || [];
+
+    _comscore.push({
+        c1: "2",
+        c2: "10348289"
+    });
+
+    _gaq.push(
+        ['_setAccount', "UA-76641-8"],
+        ['_setDomainName', 'vimeo.com'],
+                    ['_setLocalRemoteServerMode'],
+            ['_setLocalGifPath', 'http://utmtrk.vimeo.com/__utm.gif'],
+                ['_trackPageLoadTime'],
+        ['_trackPageview']
+    );
+
+    $LAB.script([
+        "http://edge.quantserve.com/quant.js",
+        "http://b.scorecardresearch.com/beacon.js",
+        "http://www.google-analytics.com/ga.js"
+    ]);
+</script>
+
+        
+                </body>
+</html>

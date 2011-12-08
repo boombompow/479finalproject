@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+        <title> AddThis - Search</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="en-us" />
+    <meta name="title" content="AddThis - Search" />
+    <meta name="description" content="AddThis is a free way to boost traffic back to your site by making it easier for visitors to share your content." />
+    <meta name="keywords" content="bookmarking, sharing, bookmark, share, bookmarking button, sharing button, service directory, browser plugin, blog plugin, flash, social APIs, facebook, twitter, myspace, digg, delicious, stumbleupon, reddit, blogger, technorati, aim share, orkut, viadeo" />
+    <meta name="robots" content="all" />
+    <meta name="viewport" content="width=960" />
+    <meta http-equiv="imagetoolbar" content="false" />
+    <meta name="copyright" content="Copyright (c) 2011 Add This, LLC" />
+        <link rel="image_src" href="http://s7.addthis.com/static/t00/logo100100.png" />
+    <link rel="alternate" type="application/rss+xml" href="http://www.addthis.com/blog/?feed=rss2" title="AddThis Blog Feed" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://cache.addthiscdn.com/site/core/css/core-1.0.0.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://cache.addthiscdn.com/www/20111123101657/style/site.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://cache.addthiscdn.com/www/20111123101657/style/common.css" />
+	    
+    <!--[if lt IE 7]><script type="text/javascript" src="/js/topnav.js"></script><![endif]-->	
+</head>
+
+<body>
+<a id="top" name="top"></a>
+
+<a href="http://www.addthis.com/search#maincontent" class="skipNavLink">Skip Main Site Navigation</a>
+<h1><a href="" title="AddThis Homepage">AddThis</a></h1>
+<div id="header"> 
+	<div class="container_12">
+		<div class="grid_12">
+			
+						<div id="header-links">
+				<a href="careers">We're Hiring!</a> <span class="pipe">|</span> <a href="forum/index.html">Forum</a> <span class="pipe">|</span> <a href="help">Help</a>
+			</div>
+					</div>	
+	</div>	
+</div>
+
+<div id="header-menu">	
+	<div id="header-menu-inner">
+			<ul class="header-submenu-nav">
+			<li><a href="http://www.addthis.com/get" title="Get AddThis">Get AddThis</a></li>	
+			<li><a href="features" title="AddThis Features">Features</a></li>
+			<li><a href="analytics" title="Analytics">Analytics</a></li>
+			<li><a class="mlink" onclick="void(0);" ><span>More</span></a>
+				<ul>					
+					<li><a href="developers" title="Developer Resources">Developers</a></li>
+					<li><a href="services" title="Service Directory">Service Directory</a></li>
+					<li><a href="languages" title="Language Database">Language Database</a></li>					
+					<li><a href="tools" title="Browser Tools">Browser Tools</a></li>
+				</ul>
+			</li>
+		</ul>
+					<div class="topuser">
+				<a href="http://www.addthis.com/register" title="Join Now">Join Now</a> <span class="mrl5">or</span> <a href="http://www.addthis.com/login" title="Sign In">Sign In</a>			
+			</div>		
+		        <form id="search_box" action="search" onsubmit="if(this.q.value=='')return false;">
+            <input id="search_text" name="q" type="text" value="" maxlength="120" onfocus="this.value=''" />
+        </form>	
+		</div>
+</div>			
+<div class="clear"></div>
+
+ 
+
+
+<div id="header-fade"></div><div id="maincontent">
+
+		<div class="banner">
+		<div class="container_12">
+			<div class="grid_12">
+				<h2>Search</h2>
+						<div class="addthis_toolbox addthis_default_style">
+			<a class="addthis_button_preferred_1"></a>
+			<a class="addthis_button_preferred_2"></a>
+			<a class="addthis_button_preferred_3"></a>
+			<a class="addthis_button_compact"></a>
+			<a class="addthis_counter addthis_bubble_style"></a>
+		</div>
+		<script type="text/javascript">
+var addthis_config = {
+   data_ga_tracker: "gaPageTracker",
+   data_track_addressbar: true 
+}
+</script>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pub=AddThis"></script>
+			</div>
+			<div class="clear"></div>
+		</div>	
+	</div>	<div class="content-main">		    
+	    <div class="container_12">			
+			<div class="grid_8 prefix_2 suffix_2">
+				<div style="width:556px;">
+										<div class="mtb100">
+										<form onsubmit="if(this.q.value=='')return false;" action="search">
+				    <input type="hidden" name="s" id="scope" value='' />
+					
+					<h2 class="inline mr20">Search</h2>
+					<a href="search" rel="" class="scope bold blk">Entire Site</a> <span class="pipe">|</span> 
+					<a href="http://www.addthis.com/search?s=blog" rel="blog" class="scope">Blog</a><span class="pipe">|</span> 
+					<a href="http://www.addthis.com/search?s=forum" rel="forum" class="scope">Forum</a> <span class="pipe">|</span> 
+					<a href="http://www.addthis.com/search?s=help" rel="help" class="scope">Help</a>
+					
+					<div class="ptb10">
+						<input name="q" id="query" value="" type="text" size="40" style="width:428px;font-size:16px;" />
+						<input type="submit" value="Search" class="lgbtn ml5" />
+					</div>
+					
+			    </form>											
+					</div>
+				</div>	
+			</div>			
+			<div class="clear"></div>
+			<div class="mb50"></div>
+		</div>
+	</div>
+ 	
+</div>
+<div id="footer">
+	<div class="container_12">
+		<div class="grid_2">
+			<h5>Get AddThis</h5>
+			<a href="http://www.addthis.com/get-addthis">Sharing Tools</a><br/>
+			<a href="help/api-overview">APIs</a><br/>
+			<a href="help/ios-quickstart">iOS SDK</a><br/>
+			<a href="http://www.addthis.com/help/android-quickstart">Android SDK</a>				
+		</div>
+		<div class="grid_2">
+			<h5>Explore</h5>
+			<a href="blog/category/whats-new/index.html">What's New?</a><br/>
+			<a href="features">Features</a><br/>
+			<a href="services">Service Directory</a><br/>
+			<a href="languages">Language Database</a><br/>
+			<a href="labs">Labs</a>
+		</div>
+		<div class="grid_2">
+			<h5>Support</h5>
+			<a href="help/faq">FAQ</a><br/>
+			<a href="help">Help</a><br/>
+			<a href="forum">Forum</a><br/>
+			<a href="../artsstatus.addthis.com/index.html">Platform Status</a><br/>
+			<a href="search">Search</a>
+		</div>
+		<div class="grid_2">
+			<h5>Company</h5>
+			<a href="http://www.addthis.com/about">About Us</a><br/>
+			<a href="http://www.addthis.com/contact">Contact</a><br/>
+			<a href="careers">Careers</a><br/>
+			<a href="http://www.addthis.com/logos">Logos</a><br/>
+			<a href="http://www.addthis.com/blog">Blog</a>
+		</div>
+		<div class="grid_2">
+			<h5>Browser Tools</h5>
+                <div id="bookmarklet"> 
+        <a class="ats" href="http://www.addthis.com/search#">Share</a> 
+        <div id="bookmarklet-text"> 
+            <strong>Drag me</strong> into your bookmark toolbar. 
+        </div> 
+    </div>   
+    <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_bookmarklet.js"></script> 		</div>
+		<div class="grid_2">
+			<div class="followaddthis">
+				<h5>Get Social with Us!</h5>
+				<p><a class="follow-twitter" href="http://twitter.com/addthis" onclick="window.open('https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fwww.addthis.com%2Fregistered&region=follow&screen_name=addthis&source=followbutton&variant=1.0','FollowAddThis','width=520,height=520');return false;">Follow @addthis</a></p>
+				<a class="follow-facebook" href="http://www.facebook.com/AddThis" target="_blank">Follow AddThis on Facebook</a> 
+			</div>	
+		</div>
+		<div class="clear"></div>
+		<div class="mb40"></div>
+		
+		<div class="grid_12 alpha omega copyright">
+			&copy; 2011 <a href="">Add This</a>, LLC - A <a href="../artsclearspring.com/" title="Go to Clearspring.com">Clearspring</a> Company <span class="pipe">|</span> <a href="privacy">Privacy</a> <span class="pipe">|</span> <a href="http://www.addthis.com/tos">Terms of Service</a><br/>
+			Don't want to receive targeted advertising? Go to our <a href="http://www.addthis.com/advertising-choices">opt-out</a> page.<br/>
+			<a class="athome" href="">AddThis Homepage</a>
+		</div>
+		<div class="clear"></div>
+		
+	</div>
+</div>	
+<div id="lb"></div>
+<script type="text/javascript" src="http://cache.addthiscdn.com/site/core/js/core-1.0.0.js"></script>
+<script type="text/javascript" src="http://cache.addthiscdn.com/www/20111123101657/js/lr.js"></script>
+<script type="text/javascript" src="http://cache.addthiscdn.com/www/20111123101657/js/search.js"></script><script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+var u = "/search";
+if (window._gat) {
+    var gaPageTracker = _gat._getTracker("UA-1170033-1");
+    gaPageTracker._setDomainName("www.addthis.com");
+    gaPageTracker._trackPageview(u);
+}
+</script>
+
+</body>
+</html>

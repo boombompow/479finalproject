@@ -1,0 +1,2008 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="EN" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Language" content="en" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta http-equiv="Cache-Control" content="public" />
+    <title>Government solutions | Adobe enterprise</title><meta name="robots" content="noodp" />
+    <meta name="keywords" content="" /><meta name="description" content="Adobe enterprise solutions help government agencies reduce costs while providing citizens with more accessible, responsive communications." />
+<meta name="creationDate" content="2011-10-05 @ 00:58:19" />
+    <meta name="lastModifiedDate" content="2011-10-05 @ 00:58:19" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="area" content="products" /><link rel="icon" href="http://wwwimages.adobe.com/www.adobe.com/include/img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="http://wwwimages.adobe.com/www.adobe.com/include/img/favicon.ico" type="image/x-icon" />
+	<script type="text/javascript">
+	function createNs ( ns )
+	{
+		var o, a;			
+		a = ns.split(".");			
+		o = window[a[0]] = window[a[0]] || {};			
+		for(i=1; i < a.length; i++)
+		{
+			o = o[a[i]] = o[a[i]] || {};	
+		}
+		return o;		
+	}
+
+	createNs("Adobe.PageInfo");
+	createNs("Adobe.Tokens");
+	createNs("Adobe.UserInfo");
+	Adobe.PageInfo.AuthenticatedState = false;
+	Adobe.PageInfo.localeCode = "en";
+	Adobe.PageInfo.accountPageName = "";
+	Adobe.PageInfo.productKey = "";
+	Adobe.PageInfo.catalogName = "";
+	Adobe.PageInfo.countryCode = "US";
+	Adobe.PageInfo.marketSegment = "COM";
+	Adobe.PageInfo.akamaiURLPrefix = "http://wwwimages.adobe.com/www.adobe.com";
+	Adobe.PageInfo.pageLevel = "5";
+</script>
+
+<link rel="stylesheet" href="http://wwwimages.adobe.com/www.adobe.com/include/style/adobe-light-compressed.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" media="screen,print" href="http://wwwimages.adobe.com/www.adobe.com/include/style/compressed.css" />
+			<script type="text/javascript" src="http://wwwimages.adobe.com/www.adobe.com/include/script/compressed.js"></script>
+			<script type="text/javascript" src="http://wwwimages.adobe.com/www.adobe.com/uber/js/omniture/mbox.js"></script>
+		
+
+
+<script type="text/javascript" src="http://wwwimages.adobe.com/www.adobe.com/include/script/Typekit.js"></script>
+            <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <!--[if IE 6]>
+    <script type="text/jscript">
+        try{
+             void(document.execCommand("BackgroundImageCache",false,true));
+        } catch(e) {
+            //uncaught exception
+        }
+    </script>
+    <![endif]-->
+    
+	<script type="text/javascript">
+		
+		//<![CDATA[
+		var info = getCategoriesInfo();
+
+		$(window).bind("hashchange load", adobe.fn.focusHashElement);
+
+		cart = new adobe.ui.CartFacade("cart-dialog", "cart-dialog-flash");
+		cart.setRequiredFlashVersion("9.0.115");
+		cart.setDefaultCountry("");
+		cart.setDomain(".adobe.com"); // set this to ".adobe.com"
+		cart.setContextPath(""); // set this to empty when web context is '/'
+		
+		// Possibly add the .edu selector or override market segment
+		Adobe.Product.Controller.CPod.EduController.processLocation(true);
+		
+		if(cart.isOverlaySupported()) {
+			var PromoIDReport = new Array();
+			var prmid = window.location.search.match(/\bpromoid\=([^&#$]+)/);
+			if(prmid) {
+				prmid[1]=prmid[1].toUpperCase();
+				cart.setEmailTrackingId(prmid[1]);
+			}
+			// if a promo code is pass thru the URL, set the promo in the cart and the cookie
+			prmid = window.location.search.match(/\bpromocode\=([^&#$]+)/) || null;
+			if(prmid) {
+				if (Adobe && Adobe.Cart && Adobe.Cart.Models && Adobe.Cart.Models.Cart) {
+					var cart = Adobe.Cart.Models.Cart;
+					var marketSegment = cart.getMarketSegment() || Adobe.Product.Controller.CPod.EduController.COM;
+					cart.addPromotion({code:prmid[1], marketSegment:marketSegment});
+					cart.savePromoCode(prmid[1]);
+				}
+			}
+		}
+		//]]>
+	</script>
+	<script type="text/javascript">
+		var hash = location.hash;
+		var deepLinkMap = new Object();
+		if(hash != null && hash != '') {
+			$(document).ready(function() {
+				var deepLink = deepLinkMap[hash];
+				if(deepLink != undefined && deepLink != '') {
+					$('#' + deepLinkMap[hash] + ' a[name=' + deepLinkMap[hash] + ']').click();
+				}
+			});
+		}
+	</script>
+
+    </head>
+
+
+
+<body class="Text TextMedium Link">
+<div class="LayoutGrid LayoutCenter LayoutWideGrid LayoutP">
+    
+<script type="text/javascript">
+   //<![CDATA[
+     var gridCSSFile = "/include/style/grid/Grid.cols.-169,169,169,169,349,220.gutter.-11.margin.-10.name.-LayoutWideGrid.css";
+   //]]>     
+</script>
+<script type="text/javascript">
+    //<![CDATA[
+    adobe.fn.initReflow(gridCSSFile);
+    //]]>
+</script>
+<div class="parsys templatembox topofbodymbox">
+
+
+    
+        
+                <div class="mboxDefault">
+                    
+                    
+                    
+                </div>
+                
+                
+                    <script type="text/javascript">
+                            mboxCreate('defaultmboxname');
+                    </script>
+                
+        
+    
+    
+
+</div>
+<div class="PrintLayoutHide">
+        <!--googleon: all--><div class="sitenav">
+
+
+
+
+
+
+
+<script type="text/javascript">
+    //<![CDATA[
+    $(document).ready(adobe.fn.initGlobalNav);
+    //]]>
+</script>
+
+
+
+<!--googleoff: index-->
+<!-- $Id: globalnav_ssi.html,v 1.20.2.4 2011/11/19 01:10:05 dgasior Exp $ -->
+<form id="globalnav-search" class="searchbuddy" name="globalnav-search" method="get" action="http://www.adobe.com/go/gnav_search" accept-charset="utf-8">
+    <div id="SiteHeader" class="SiteHeader Text TextSmall">
+        <span id="globalnav"></span>
+        <a href="gnav_adobe_logo_en_us" id="shHome" class="SiteHeaderHome">Adobe</a>
+        <div class="SiteHeaderBar" id="shBar">
+            <div class="SiteHeaderDropdownLink SiteHeaderBarItem SiteHeaderBarItemFirst" id="shProducts">
+                <a href="http://www.adobe.com/go/gnav_products_en_us" id="shProductsLink" class="SiteHeaderBarLink">Products</a>
+                <div class="SiteHeaderDropPanel" id="ProductsPanel">
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shProducts1">
+                        <span class="SiteHeaderPanelHeader"><a href="http://www.adobe.com/go/gnavtray_products_creativesuite_en_us">Creative Suite</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shProducts2">
+                        <span class="SiteHeaderPanelHeader"><a href="http://www.adobe.com/go/gnavtray_products_photoshop_en_us">Photoshop Family</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shProducts3">
+                        <span class="SiteHeaderPanelHeader"><a href="http://www.adobe.com/go/gnavtray_products_acrobat_en_us">Acrobat Family</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shProducts4">
+                        <span class="SiteHeaderPanelHeader"><a href="gnavtray_products_flashplatform_en_us">Flash Platform</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shProducts5">
+                        <span class="SiteHeaderPanelHeader"><a href="gnavtray_products_onlinemarketingsuite_en_us">Digital Marketing Suite</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shProducts6">
+                        <span class="SiteHeaderPanelHeader"><a href="gnavtray_products_digitalenterpriseplatform_en_us">Digital Enterprise Platform</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shProducts7">
+                        <span class="SiteHeaderPanelHeader"><a href="http://www.adobe.com/go/gnavtray_products_digitalpublishingsuite_en_us">Digital Publishing Suite</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLinkNoBar" id="shProducts8">
+                        <a href="http://www.adobe.com/go/gnavtray_products_moreproducts_en_us">More products</a>
+                    </div>
+                </div>
+            </div>
+            <div class="SiteHeaderDropdownLink SiteHeaderBarItem SiteHeaderBarItemFirst" id="shSolutions">
+                <a href="gnav_solutions_en_us" id="shSolutionsLink" class="SiteHeaderBarLink">Solutions</a>
+                <div class="SiteHeaderDropPanel" id="SolutionsPanel">
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shSolutions1">
+                        <span class="SiteHeaderPanelHeader"><a href="gnavtray_solutions_contentauthoring_en_us">Content authoring</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shSolutions2">
+                        <span class="SiteHeaderPanelHeader"><a href="gnavtray_solutions_education_en_us">Education</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shSolutions3">
+                        <span class="SiteHeaderPanelHeader"><a href="gnavtray_solutions_financialservices_en_us">Financial services</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shSolutions4">
+                        <span class="SiteHeaderPanelHeader"><a href="gnavtray_solutions_government_en_us">Government</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shSolutions5">
+                        <span class="SiteHeaderPanelHeader"><a href="gnavtray_solutions_onlinemarketing_en_us">Digital marketing solutions</a></span>
+                    </div>
+                    
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLinkNoBar" id="shSolutions6">
+                        <a href="http://www.adobe.com/go/gnavtray_solutions_moresolutions_en_us">More solutions</a>
+                    </div>
+                </div>
+            </div>
+            <a href="gnav_learning_en_us" id="shLearning" class="SiteHeaderBarItem SiteHeaderBarLink">Learning</a>
+            <a href="http://www.adobe.com/go/gnav_help_en_us" id="shHelp" class="SiteHeaderBarItem SiteHeaderBarLink">Help</a>
+            <a href="http://www.adobe.com/go/gnav_downloads_en_us" id="shDownloads" class="SiteHeaderBarItem SiteHeaderBarLink">Downloads</a>
+            <a href="http://www.adobe.com/go/gnav_company_en_us" id="shCompany" class="SiteHeaderBarItem SiteHeaderBarLink">Company</a>
+            <div class="SiteHeaderDropdownLink SiteHeaderBarItem" id="shStore">
+                <a href="http://www.adobe.com/go/gnav_store_en_us" class="SiteHeaderBarLink" id="shStoreLink">Store</a>
+                <div class="SiteHeaderDropPanel" id="StorePanel">
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shStore1">
+                        <span class="SiteHeaderPanelHeader"><a href="http://www.adobe.com/go/gnavtray_store_en_us">Adobe Store</a></span>
+                        for home and home office
+                    </div>
+
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shStore2">
+                        <span class="SiteHeaderPanelHeader"><a href="http://www.adobe.com/go/gnavtray_store_education_en_us">Education Store</a></span>
+                        for students, educators, and staff
+                    </div>
+
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shStore3">
+                        <span class="SiteHeaderPanelHeader"><a href="http://www.adobe.com/go/gnavtray_store_business_en_us">Business Store</a></span>
+                        for small and medium businesses
+                    </div>
+
+                    <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shStore4">
+                        <span class="SiteHeaderPanelHeader"><a href="http://www.adobe.com/go/gnavtray_store_otherwaystobuy_en_us">Other ways to buy</a></span>
+                    </div>
+                </div>
+            </div>
+            <a href="http://www.adobe.com/go/gnav_search" id="shSearchButton" class="SiteHeaderBarItem SiteHeaderSearchButton" style="display: none;">Search</a>
+            <div class="SiteHeaderBarItem SiteHeaderBarItemLast">&nbsp;</div>
+            <div id="site-search" class="SiteHeaderSearch">
+                <input title="Search" type="text" id="search-input" name="term" maxlength="1000" />
+                <input type="hidden" id="searchbuddy-loc" name="loc" value="en_us" />
+                <button type="submit" id="search-submit" class="icon-replace search">Search</button>
+            </div>
+        </div>
+        <div class="SiteHeaderUser">
+            <div id="shSignInBlock" class="Link">
+                <a id="shInfo" class="SiteHeaderUserItem SiteHeaderInfo">Info</a>
+                <a href="http://www.adobe.com/cfusion/membership/index.cfm?loc=en_us&nl=1" id="shSignIn" class="SiteHeaderUserItem LinkStrong">Sign in</a>
+            </div>
+            <a href="http://www.adobe.com/cfusion/membership/index.cfm?loc=en_us&nl=1" id="shWelcome" class="SiteHeaderUserItem SiteHeaderArrow LinkStrong" style="display: none;">Welcome, <span id="screenName"></span></a>
+            <div id="MyCartLinkContainer">
+                <a href="http://www.adobe.com/go/gnav_mycart_en_us" id="shMyCart" class="SiteHeaderUserItem SiteHeaderCart">My cart<span id="cartQuantity"></span></a>
+            </div>
+            <a href="http://www.adobe.com/go/gnav_myorders_en_us" id="shMyOrders" class="SiteHeaderUserItem">My orders</a>
+            <a href="http://www.adobe.com/go/gnav_myadobe_en_us" id="shMyAdobe" class="SiteHeaderUserItem">My Adobe</a>
+        </div>
+        <div class="SiteHeaderPopPanelShadow width-150" id="WelcomePanelShadow" style="display: none;"></div>
+        <div class="SiteHeaderPopPanel width-150" id="WelcomePanel" style="display: none;">
+            <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shMyAccount">
+                <a class="SiteHeaderPanelHeader" href="http://www.adobe.com/go/gnavtray_myadobe_en_us">My Adobe</a>
+            </div>
+            <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shMyOrders2">
+                <a class="SiteHeaderPanelHeader" href="http://www.adobe.com/go/gnavtray_myadobe_myorders_en_us">My orders</a>
+            </div>
+            <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shMyInformation">
+                <a class="SiteHeaderPanelHeader" href="http://www.adobe.com/go/gnavtray_myadobe_myinformation_en_us">My information</a>
+            </div>
+            <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shMyPreferences">
+                <a class="SiteHeaderPanelHeader" href="http://www.adobe.com/go/gnavtray_myadobe_mypreferences_en_us">My preferences</a>
+            </div>
+            <div class="SiteHeaderPanelRow SiteHeaderPanelLink" id="shSignOut">
+                <a class="SiteHeaderPanelHeader" href="http://www.adobe.com/cfusion/membership/logout.cfm">Sign out</a>
+            </div>
+        </div>
+        <div class="SiteHeaderPopPanelShadow width-250" id="InfoPanelShadow" style="display: none;"></div>
+        <div class="SiteHeaderPopPanel width-250" id="InfoPanel" style="display: none;">
+            <div class="SiteHeaderPanelRow">
+                <span class="SiteHeaderPanelHeader">Why sign in?</span>
+                Sign in to manage your account and access trial downloads, product extensions, community areas, and more.
+            </div>
+        </div>
+    </div>
+</form>
+
+<div id="SiteHeaderMobile" class="SiteHeaderMobile Text TextSmall" style="display: none;">
+	<a href="gnav_adobe_logo_en_us" id="shHomeMobile" class="SiteHeaderHome SiteHeaderHomeMobile">Adobe</a>
+    
+    <div class="SiteHeaderBar SiteHeaderBarMobile" id="shBarMobile">
+    	<span class="SiteHeaderBarItemMobile SiteHeaderBarItemMobileNoLeftBorder" id="shProductsMobileSpan"><a href="http://www.adobe.com/go/gnav_products_en_us" id="shProductsMobile" class="SiteHeaderBarLink">Products</a></span>
+        <span class="SiteHeaderBarItemMobile" id="shSectionsMobileSpan"><a href="http://www.adobe.com/solutions/government.html#" id="shSectionsMobile" class="SiteHeaderArrowMobile SiteHeaderBarLink">Sections</a></span>
+        <span class="SiteHeaderBarItemMobile SiteHeaderBarItemMobileNoRightBorder">&nbsp;</span>
+        <span class="SiteHeaderBarItemMobile SiteHeaderBarItemMobileNoRightBorder SiteHeaderBarItemFloatRight" id="shSearchMobileSpan"><a href="http://www.adobe.com/go/gnav_search" id="shSearchMobile" class="SiteHeaderSearchButtonMobile">Search</a></span>
+        <span class="SiteHeaderBarItemMobile SiteHeaderBarItemMobileNoLeftBorder SiteHeaderBarItemFloatRight">&nbsp;</span>
+    </div>
+    <div class="SiteHeaderBarMobileExtend" id="shBarExtend">
+    	<div id="shBarExtendSections" style="display: none;">
+        	<div id="shBarExtendSections1" class="SiteHeaderBarMobileExtendSections">
+            	<a href="gnav_solutions_en_us" id="shSectionsSolutionsMobile" class="SiteHeaderBarExtendSectionsItem SiteHeaderBarLink">Solutions</a>
+            	<a href="http://www.adobe.com/go/gnav_company_en_us" id="shSectionsCompanyMobile" class="SiteHeaderBarExtendSectionsItem SiteHeaderBarLink">Company</a>
+            </div>
+        	<div id="shBarExtendSections2" class="SiteHeaderBarMobileExtendSections">
+            	<a href="http://www.adobe.com/go/gnav_help_en_us" id="shSectionsHelpMobile" class="SiteHeaderBarExtendSectionsItem SiteHeaderBarLink">Help</a>
+            	<a href="gnav_learning_en_us" id="shSectionsLearningMobile" class="SiteHeaderBarExtendSectionsItem SiteHeaderBarLink">Learning</a>
+            </div>
+        </div>
+    	<div id="shBarExtendSearch" style="display: none;">
+            <form id="globalnav-search-mobile" class="SiteHeaderSearchMobileForm" name="globalnav-search-mobile" method="get" action="http://www.adobe.com/go/gnav_search" accept-charset="utf-8">
+                <input title="Search" type="text" id="search-input-mobile" name="term" maxlength="1000" />
+                <button type="submit" id="search-submit-mobile">Search</button>
+            </form>
+        </div>
+    </div>
+    <div class="SiteHeaderUser">
+		<a href="http://www.adobe.com/cfusion/membership/index.cfm?loc=en_us&nl=1" id="shSignInMobile" class="SiteHeaderUserItem SiteHeaderUserItemMobile SiteHeaderInfoMobile LinkStrong">Sign in</a>
+        <a href="http://www.adobe.com/cfusion/membership/index.cfm?loc=en_us&nl=1" id="shWelcomeMobile" class="SiteHeaderUserItem SiteHeaderUserItemMobile SiteHeaderArrow LinkStrong" style="display: none;">Welcome, <span id="screenName"></span></a>
+        <a href="http://www.adobe.com/go/gnav_myorders_en_us" id="shMyOrdersMobile" class="SiteHeaderUserItem SiteHeaderUserItemMobile">My orders</a>
+        <a href="http://www.adobe.com/go/gnav_myadobe_en_us" id="shMyAdobeMobile" class="SiteHeaderUserItem SiteHeaderUserItemMobile">My Adobe</a>
+    </div>
+</div>
+<!--googleon: index-->
+<div class="hovercart">
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div id="HoverCartModal">
+		<div class="CartHeaderPopPanelShadow HoverCartwidth" id="CartPanelShadow" style="display: none;">
+		<div class="CartHeaderPopPanel HoverCart" id="CartPanel">
+			<div id="HoverCartItem" class="RuleHBottom HoverCart-1-3 LayoutBigRowTop" style="display: none">
+				<div class="LayoutBreakAfter">
+					<div class="HoverCart-1 LayoutHItem">
+						<div style="padding-left:60px;">
+							<div id="HoverCartBoxShotxyz" class="HoverCartBoxShot">
+								
+								
+									<a href="http://www.adobe.com/solutions/government.html">
+										<img src="http://www.adobe.com/solutions/government.html" class="LayoutImage" alt="" />
+									</a>
+								
+							</div>
+							<div style="float:left;width:100%" class="CPodCostCell">
+							    <span class="TextStrong ProductName" id="HoverCartHeaderxyz"> 
+							    	<a href="http://www.adobe.com/solutions/government.html#">
+							        	 
+									</a>
+							    </span>
+								<div class="LayoutBigRowBottom" id="HoverCartDescriptionxyz">
+									
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="LayoutHItem HoverCart-2">
+						<div class="HoverCartQty">
+							Qty: 
+							<span id="HoverCartQtyxyz">
+								 
+							</span>
+						</div>
+					</div>
+					<div class="HoverCart-3">
+						<div class="CheckoutCostDark LayoutRight">
+							<span id="HoverCartPricexyz"> 
+							
+								
+								
+									</span>
+								
+							
+							<span id="HoverCartSubscriptionxyz" class="CheckoutSubscription"> 
+								 
+							</span>						
+						</div>
+					</div>
+					
+				</div>
+				<div class="HoverCartEDUMessage LayoutBigCellBottom">Purchase requires verification of academic eligibility</div>
+			</div>
+			<div id="HoverCartContainer" class="LayoutBreakAfter" style=""></div>
+			<a id="HoverCartMoreItems" class="LayoutBreakAfter" style="text-align: center;" href="http://www.adobe.com/cart.html"></a>
+			<div  id="HoverCartButtons" class="HoverCart-1-3">					
+				<div class="HoverCart-2-3 LayoutRight LayoutSmallRow LayoutBreakAfter">
+					<div class="HoverCart-2">
+						<div class="TextRight HoverCartSubTotal">Subtotal</div>
+					</div>
+					<div class="HoverCart-3 LayoutRight">
+						<div class="LayoutRight TextRight">
+							<div class="CheckoutCostDark">
+								<span id="HoverCartSubTotal">
+								
+									
+									
+										</span>
+									
+								
+							</div>
+						</div>
+					</div>
+				</div>		
+				
+				<div class="LayoutBreak"></div>		
+				
+				<div class="HoverCart-1-3 LayoutRight LayoutCellTop LayoutBreakAfter">
+						
+						<a href="http://www.adobe.com/cart.html" id="HoverCartCheckOut" class="CartButtonYellow CartShopCheckOut LayoutRight"><span class="CartBuyIconText">Review and Checkout</span></a>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+
+
+<script type="text/javascript">
+	/*global jQuery,adobe*/
+	jQuery.createNs("Adobe.Cart.ShoppingCart");
+
+	Adobe.Cart.ShoppingCart.HoverCart = {
+			
+		MaxItems: "4",
+
+		DisplayTime: "5000",
+
+		MoreItemsTextSingular: "() more item in your cart",
+
+		MoreItemsTextPlural: "() more items in your cart",
+
+		MonthToMonthText: "per month",
+
+		YearlyText: "per year"
+			
+	};
+
+	Adobe.Cart.ShoppingCart.GlobalVars = {
+			
+		CountryCode: 			"US",
+
+		MarketSegment: 			"COM",
+
+		AkamaiURLPrefix: 		"http://wwwimages.adobe.com/www.adobe.com",
+
+		PriceMonthText:			"per month",
+
+		PriceYearText:			"per year",
+
+		FullSubMonthText:		"Month-to-month",
+
+		FullSubYearText:		"One-year",
+
+		SubMonthText:			"Monthly",
+
+		SubYearText:			"Annual",
+
+		SubscriptionItemText:	"NONE",
+
+		TermTypeMonth:			"MONTH",
+
+		TermTypeYear:			"YEAR",
+
+		BackupDVDParent:		"_PARENT",
+		/*
+			params: {
+				cart,
+				price,
+				categoryPath,
+				originalPrice,
+				storeName,
+				locale,
+				usePrecision,
+				type,
+				taxCode,
+				delimiter,
+				showCentDelim,
+				distributionMethod
+			}
+		*/
+		getPriceLabel: function(params) {
+			var currency = params.cart.currency;
+			var params = {
+				storeName: params.storeName,
+				locale: params.locale,
+				productKey: params.categoryPath,
+				priceObject: {
+					price: {
+						orginalPriceWithoutTax: params.originalPrice,
+						priceWithoutTax: params.price,
+						taxCode: params.taxCode || ""
+					},
+					priceTypeKey: params.distributionMethod
+				},
+				currencyObject: {
+					delimiter: params.delimiter || ",",
+					formatString: currency.FORMATSTRING,
+					iso3Code: currency.CODE,
+					symbol: currency.SYMBOL,
+					usePrecision: params.usePrecision
+				},
+				showCentDelim : params.showCentDelim || false,
+				type: params.type
+			};
+			return params;
+		},
+
+		isSubscription: function(serviceCommitment, termType) {
+			return (serviceCommitment == this.SubscriptionItemText && 
+					(termType == this.TermTypeMonth || termType == this.TermTypeYear));
+		},
+
+		subscriptionItem: function(serviceCommitment, termType) {
+			return (termType == this.TermTypeMonth && 
+					(serviceCommitment == this.TermTypeMonth || serviceCommitment == this.TermTypeYear));
+		},
+
+		getSubscriptionText: function(serviceCommitment, termType) {
+			if (this.isSubscription(serviceCommitment, termType)) {
+				if (termType === this.TermTypeMonth) {
+					return this.SubMonthText;
+				} else if (termType === this.TermTypeYear) {
+					return this.SubYearText;
+				}	
+			} else if (this.subscriptionItem(serviceCommitment, termType)) {
+				if (serviceCommitment === this.TermTypeMonth) {
+					return this.FullSubMonthText;
+				} else if (serviceCommitment === this.TermTypeYear) {
+					return this.FullSubYearText;
+				}	
+			}
+			return "";
+		},
+
+		getSubscriptionPriceText: function(serviceCommitment, termType) {
+			if (this.isSubscription(serviceCommitment, termType)) {
+				if (termType === this.TermTypeMonth) {
+					return this.PriceMonthText;
+				} else if (termType === this.TermTypeYear) {
+					return this.PriceYearText;
+				}	
+			} else if (this.subscriptionItem(serviceCommitment, termType)) {
+				return this.PriceMonthText;	
+			}
+			return "";
+		}
+		
+	};
+</script>
+</div>
+
+<div id="modalContent" style="display:none;"></div>
+
+</div>
+<!--googleoff: all--></div>
+    <div class="Link" id="top">
+    <div class="parbase compbase breadcrumb"><div class="LayoutCellSides LinkStrong LayoutH IconAlign">
+	</div>
+</div>
+<div class="LayoutH">
+        <h1 id="subcrumb" class="TextH1 LayoutCellSides LayoutSmallCellVSides">
+        	Government</h1>
+    </div>
+</div>
+<div class="TextSmall Link LayoutBreakAfter">
+    <div class="LayoutGrid-1-4 LayoutWideGrid-1-5 LayoutWideNoBreak">
+        <div class="LayoutGrid-1-4">
+            
+<div class="parbase subnav compbase subnavigation">
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+				
+				
+					
+				
+			
+			
+			
+			
+				
+				
+					
+				
+								
+				
+			
+		
+		
+	
+	
+		
+			
+		
+		
+	
+
+
+</div>
+
+
+<div id="LayoutBody=Content">
+	
+	<div class="bodycontent1 parsys"><div id="bodycontent1">
+<div class="parbase marqueetext compbase section">
+
+
+
+    
+        
+            
+            
+            	
+            
+        
+    
+    
+<div style="width:100%; background-color:#000000;overflow:hidden" class="LayoutP LayoutRow CQMarqueeImageHeight">
+            <div class="LayoutPLeft LayoutPTop CQMarqueeImageAnchor">
+            <img title="" alt="" class="cq-dd-image" src="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/products/huystee-family-test/images/709x400_vert_govt_marq.jpg" /></div>
+    <div style="overflow:hidden;" class="LayoutPLeft LayoutPBottom CQMarqueeOverlayWidth CQMarqueeOverlayAnchor">
+            <div style="height:1000px;width:1000px; background-color:#000000" class="LayoutPLeft LayoutPTop Vis7">
+            </div>
+    <div class="LayoutP LayoutBigCell">
+                            <div class="TextLargest TextInvertWeak TextLight LayoutRowBottom CQMarqueeHeaderSize SemanticPhrase" style="z-index:1"><p>Efficient interactions, satisfied citizens</p>
+</div><div class="TextMedium TextInvertWeak TextLight LinkStrong SemanticPhrase LinkInvert" style="z-index:1"><p>See why the London Borough of Southwark relies on Adobe<br>
+<a href="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/casestudies/solutions/london-borough-southwark/pdfs/london-borough-southwark-casestudy.pdf" style="color: rgb(255, 204, 0);">Read the story â¬º</a></p>
+</div></div>
+                    </div>
+    </div>
+    
+
+
+
+    
+        
+            
+            
+            	
+            
+            
+    
+    
+
+<script type="text/javascript">
+    //<![CDATA[
+        var dispatcher = adobe.reflow.getDispatcherByName("width"),
+            head = document.getElementsByTagName("head")[0];
+            new adobe.dom.CSSStyleSheet("/content/dotcom/en/solutions/government/_jcr_content/bodycontent1/marqueetext_a3bd.css").enable(head);
+        
+                    adobe.fn.initReflowComponent(dispatcher,
+                                                head,
+                                                "desktop",
+                                                "/content/dotcom/en/solutions/government/_jcr_content/bodycontent1/marqueetext_a3bd.desktop.css");
+                
+                    adobe.fn.initReflowComponent(dispatcher,
+                                                head,
+                                                "desktopWide",
+                                                "/content/dotcom/en/solutions/government/_jcr_content/bodycontent1/marqueetext_a3bd.desktopWide.css");
+                
+                    adobe.fn.initReflowComponent(dispatcher,
+                                                head,
+                                                "phone",
+                                                "/content/dotcom/en/solutions/government/_jcr_content/bodycontent1/marqueetext_a3bd.phone.css");
+                
+    //]]>
+</script>
+</div>
+<div class="grayboxpar section">
+
+
+	
+	
+		<div class="PanelFillLight PanelBevelBottom PanelBevelTop PanelBevelLeft LayoutRow LayoutBreakAfter">
+			<div class="PanelBevelRight LayoutBigCellBottom">
+				<div class="parsys grayboxcontent"><div id="bodycontent1_grayboxpar_c9_grayboxcontent">
+<div class="productintro parbase compbase section">
+
+
+
+
+
+
+    
+    
+        
+            
+            
+
+                
+                    
+                    <div id="LayoutBody-Headline" class="LayoutBigCellVSides">
+                        
+                            <div class="LayoutBreakAfter">
+								
+									
+									
+										<h2 class="TextLarger TextLight LayoutSmallRowBottom LayoutCellSides">
+											Simplify agency processes, improve information access
+										</h2>
+										
+											<div class="TextLarge TextLight SemanticPhrase LayoutCellSides">
+												<p>In the midst of a global economic slowdown, governments must cut costs to reduce deficits, while addressing citizensâ¬" needs for more accessible, responsive communications.<br>
+</p>
+
+											</div>
+										
+									
+								
+                            </div>
+                        
+                        
+                        
+                    </div>
+                 
+            
+        
+      
+
+</div>
+<div class="hr section">
+
+
+
+
+
+
+
+<div class="LayoutCellSides">
+	<div class="LayoutRow RuleH"></div>
+</div>
+</div>
+<div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-solutions-government-jcr-content-bodycontent1-grayboxpar_c9-grayboxcontent-ttt_ed53" class="LayoutBreakAfter"><div style="" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	Increase citizen engagement and commitment</h3>
+        <div class="LayoutSmallRow">
+                <p>AdobeÂ® Customer Experience Solutions&nbsp;are designed to help government agencies optimize constituent-facing applications while automating back-end processes. Boost citizen engagement and commitment by providing useful, interactive experiences. Add value to your existing IT investments. And reduce costs while increasing personalized service.</p>
+</div>
+        </div>
+</div>
+</div>
+</div></div>
+<div class="hr section">
+
+
+
+
+
+
+
+<div class="LayoutCellSides">
+	<div class="LayoutRow RuleH"></div>
+</div>
+</div>
+<div class="parbase xdheading compbase section"><h2 class="TextH5 LayoutCell">
+			Government segments</h2>
+    </div>
+<br clear="all" class="LayoutZero" /><div class="LayoutBreakAfter VerticalBarOverflow"><div class="LayoutGrid-1-3"><div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-solutions-government-jcr-content-bodycontent1-grayboxpar_c9-grayboxcontent-ttt" style="padding-left:158px;" class="LayoutBreakAfter"><div style="width:147px;float:left;clear:left;position:relative;left:-158px;margin-right:-158px">
+        <div>
+    	                    <a href="http://www.adobe.com/solutions/government/federal.html"><img title="Federal, state, and local government" alt="Federal, state, and local government" class="cq-dd-image ImageShadow LayoutRow LayoutImage" src="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/solutions/government/images/vert-govt-fed-state-147x83.jpg.adimg.mw.147.png" /></a></div>
+                    </div>
+    <div style="float:left;width:100%" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	<a href="http://www.adobe.com/solutions/government/federal.html" title="Federal, state, and local government">Federal, state, and local government</a></h3>
+        <div class="LayoutSmallRow">
+                <p>Do more with less. Simplify self-service options for citizens, including online benefits enrollment and tax filings. Link citizen input with integrated business process management systems to improve productivity.<br>
+</p>
+</div>
+        </div>
+</div>
+</div>
+</div></div>
+</div><div class="LayoutGrid-4"><div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-solutions-government-jcr-content-bodycontent1-grayboxpar_c9-grayboxcontent-ttt_1" class="LayoutBreakAfter"><div style="" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	Key benefits</h3>
+        <ol class="LayoutRow" style="list-style-type:disc; margin-left:3ex;">
+                    <li>
+                        Great user experience</li>
+                    <li>
+                        Multidevice solution</li>
+                    <li>
+                        Integrated business process management</li>
+                    </ol>
+                    </div>
+</div>
+</div>
+</div></div>
+</div></div><br clear="all" class="LayoutZero" /><div class="LayoutBreakAfter VerticalBarOverflow"><div class="LayoutGrid-1-3"><div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-solutions-government-jcr-content-bodycontent1-grayboxpar_c9-grayboxcontent-ttt_0" style="padding-left:158px;" class="LayoutBreakAfter"><div style="width:147px;float:left;clear:left;position:relative;left:-158px;margin-right:-158px">
+        <div>
+    	                    <a href="http://www.adobe.com/solutions/government/defense-intelligence.html"><img title="Intelligence and defense" alt="Intelligence and defense" class="cq-dd-image ImageShadow LayoutRow LayoutImage" src="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/solutions/government/images/vert-govt-intelligence-147x83.jpg.adimg.mw.147.png" /></a></div>
+                    </div>
+    <div style="float:left;width:100%" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	<a href="http://www.adobe.com/solutions/government/defense-intelligence.html" title="Intelligence and defense">Intelligence and defense</a></h3>
+        <div class="LayoutSmallRow">
+                <p>Enable approved members, anywhere in the world, to collaborate on projects, conduct meetings, and deliver training in field operations within a stringent security framework.<br>
+</p>
+</div>
+        </div>
+</div>
+</div>
+</div></div>
+</div><div class="LayoutGrid-4"><div class="ttt section"><div class="LayoutCellSides" style="">
+	<div id="content-dotcom-en-solutions-government-jcr-content-bodycontent1-grayboxpar_c9-grayboxcontent-ttt_2" class="LayoutBreakAfter"><div style="" class="TextSmall">
+    <div class="LayoutRow">
+        <h3 class="TextH5 LayoutSmallRowBottom">
+               	Key benefits</h3>
+        <ol class="LayoutRow" style="list-style-type:disc; margin-left:3ex;">
+                    <li>
+                        Secured collaboration</li>
+                    <li>
+                        Efficient interfaces</li>
+                    <li>
+                        Task automation</li>
+                    </ol>
+                    </div>
+</div>
+</div>
+</div></div>
+</div></div>
+</div></div>
+
+			</div>
+		</div>
+	
+
+
+</div>
+<div class="parbase compbase featurehighlights section">
+
+
+
+
+<div pathToMoreText="moreLink/linkText" class="LayoutRow LayoutBreakAfter TextH5" linkboxcolor="RouterMore">
+    <table style="width: 100%;">
+        <tbody>
+            <tr>
+                <td class="LayoutCellSides LayoutSmallCellVSides PanelFillDark">
+                    <h2 class="TextH5">
+                        More customer stories</h2>
+                </td>
+                <td class="LayoutCellSides LayoutSmallCellVSides RouterButton RouterMore" style="width: 40px">
+						<a class="RouterLink" href="http://www.adobe.com/solutions/customer-showcase._sl_id-contentfilter_sl_industry_sl_government.html">More</a>
+							</td>
+                </tr>
+        </tbody>
+    </table>
+</div>
+<div class="LayoutGridBreakAfter">
+		      <div class="LayoutGrid-1">
+		          <div id="content-dotcom-en-casestudy-solutions-us-irs" class="LayoutCellSides">
+    	<a href="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/casestudies/solutions/irs/pdfs/irs-casestudy.pdf" target="_blank" name="content-dotcom-en-casestudy-solutions-us-irs"><img title="US Internal Revenue Service" alt="US Internal Revenue Service" class="cq-dd-image ImageShadow LayoutRow" src="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/solutions/customer-showcase/images/irs-thumb-147x83.png" /></a><div style="">
+                		<div class="LayoutRow">
+                    		<h3 class="TextH5">
+                        			<a href="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/casestudies/solutions/irs/pdfs/irs-casestudy.pdf" target="_blank" name="content-dotcom-en-casestudy-solutions-us-irs">US Internal Revenue Service<span class="LayoutSmallGutterLeft Icon IconPillPdf"></span>
+                            			</a></h3>
+                    		<div class="TextSmall"><p>The IRS improves citizen access, boosts efficiency, and saves millions of dollars annually with Adobe solutions.<br>
+</p>
+</div>
+                        		</div>
+            		</div>
+        		</div>
+</div>
+		      <div class="LayoutGrid-2">
+		          <div id="content-dotcom-en-casestudy-solutions-kane-court" class="LayoutCellSides">
+    	<a href="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/casestudies/solutions/kane-county/pdfs/kane-county-casestudy.pdf" target="_blank" name="content-dotcom-en-casestudy-solutions-kane-court"><img title="Kane County Circuit Court " alt="Kane County Circuit Court " class="cq-dd-image ImageShadow LayoutRow" src="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/solutions/customer-showcase/images/kane-county-thumb-147x83.png" /></a><div style="">
+                		<div class="LayoutRow">
+                    		<h3 class="TextH5">
+                        			<a href="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/casestudies/solutions/kane-county/pdfs/kane-county-casestudy.pdf" target="_blank" name="content-dotcom-en-casestudy-solutions-kane-court">Kane County Circuit Court<span class="LayoutSmallGutterLeft Icon IconPillPdf"></span>
+                            			</a></h3>
+                    		<div class="TextSmall"><p>Circuit court's integrated, automated processes translate into enhanced citizen services that are faster, more convenient, and more cost effective.</p>
+</div>
+                        		</div>
+            		</div>
+        		</div>
+</div>
+		      <div class="LayoutGrid-3">
+		          <div id="content-dotcom-en-casestudy-solutions-ministry-finance-poland" class="LayoutCellSides">
+    	<a href="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/casestudies/solutions/ministry-finance-poland/pdfs/ministry-finance-poland-casestudy.pdf" target="_blank" name="content-dotcom-en-casestudy-solutions-ministry-finance-poland"><img title="Ministry of Finance, Poland" alt="Ministry of Finance, Poland" class="cq-dd-image ImageShadow LayoutRow" src="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/solutions/customer-showcase/images/ministy-poland-thumb-147x83.png" /></a><div style="">
+                		<div class="LayoutRow">
+                    		<h3 class="TextH5">
+                        			<a href="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/casestudies/solutions/ministry-finance-poland/pdfs/ministry-finance-poland-casestudy.pdf" target="_blank" name="content-dotcom-en-casestudy-solutions-ministry-finance-poland">Ministry of Finance, Poland<span class="LayoutSmallGutterLeft Icon IconPillPdf"></span>
+                            			</a></h3>
+                    		<div class="TextSmall"><p>Polish Ministry of Finance leverages Adobe solutions to accelerate and enhance citizen self service for income tax declarations. <br>
+</p>
+</div>
+                        		</div>
+            		</div>
+        		</div>
+</div>
+		      <div class="LayoutGrid-4">
+		          <div id="content-dotcom-en-casestudy-solutions-de-post" class="LayoutCellSides">
+    	<a href="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/casestudies/solutions/de-post/pdfs/de-post-casestudy.pdf" target="_blank" name="content-dotcom-en-casestudy-solutions-de-post"><img title="Belgian Post Group" alt="Belgian Post Group" class="cq-dd-image ImageShadow LayoutRow" src="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/solutions/customer-showcase/images/depost-thumb-147x83.png" /></a><div style="">
+                		<div class="LayoutRow">
+                    		<h3 class="TextH5">
+                        			<a href="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/casestudies/solutions/de-post/pdfs/de-post-casestudy.pdf" target="_blank" name="content-dotcom-en-casestudy-solutions-de-post">Belgian Post Group<span class="LayoutSmallGutterLeft Icon IconPillPdf"></span>
+                            			</a></h3>
+                    		<div class="TextSmall"><p>Belgian postal services company reduces Distripost contract turnaround time from 90 days to 24 hours using Adobe solutions.<br>
+</p>
+</div>
+                        		</div>
+            		</div>
+        		</div>
+</div>
+		    </div>
+		</div>
+
+</div></div>
+
+</div>
+
+
+</div>
+        <div class="LayoutGrid-1-4 LayoutWideNoBreak LayoutWideGrid-5">
+            
+
+
+
+
+
+
+
+	
+		<div class="LayoutGrid-1-2 LayoutWideColumnBreak">
+			<div class="bodycontent2 parsys"><div id="bodycontent2">
+<div class="rss section"><div id="rss-feed-1304554055084" class="RSSFeed ">
+        <div pathToMoreText="moreText" class="LayoutRow LayoutBreakAfter TextH5">
+    <table style="width: 100%;">
+        <tbody>
+            <tr>
+                <td class="LayoutCellSides LayoutSmallCellVSides PanelFillDark">
+                    <h2 class="TextH5">
+                        Twitter / @Adobegov</h2>
+                </td>
+                <td class="LayoutCellSides LayoutSmallCellVSides RouterButton RouterTwitter" style="width: 84px">
+						<a class="RouterLink" href="http://twitter.com/#!/AdobeGov" target="_blank"><span class='RouterTwitterIcon'></span> Follow us</a>
+							</td>
+                </tr>
+        </tbody>
+    </table>
+</div>
+<div class="LayoutRowBottom LayoutCellSides TextSmall">
+							<table>
+								<tr>
+											<th class="TableCell TableNumber shortDateFormat">
+												11/30/2011</th>
+											<td>
+														<a class="" href="http://twitter.com/AdobeGov/statuses/141971191563943937" target="_blank">AdobeGov: New AdobeGov survey on @GovLoop re: â¬Üwhat your website says about you orgâ¬". Facebook post at: http://t.co/peWLEmMO</a>
+													</td>
+												</tr>
+									<tr>
+											<th class="TableCell TableNumber shortDateFormat">
+												11/30/2011</th>
+											<td>
+														<a class="" href="http://twitter.com/AdobeGov/statuses/141938694083973121" target="_blank">AdobeGov: RT @bradrencher: Boom. Next step in taking digital advertising by storm with @efrontier as a part of #Adobe http://t.co/01waTAsD # [...]</a>
+													</td>
+												</tr>
+									<tr>
+											<th class="TableCell TableNumber shortDateFormat">
+												11/30/2011</th>
+											<td>
+														<a class="" href="http://twitter.com/AdobeGov/statuses/141919037075628032" target="_blank">AdobeGov: Read Mike Jackson's post re: MD Legislative Black Caucus (incl. video). State leaders drive awareness of health IT: http://t.co/37 [...]</a>
+													</td>
+												</tr>
+									<tr>
+											<th class="TableCell TableNumber shortDateFormat">
+												11/29/2011</th>
+											<td>
+														<a class="" href="http://twitter.com/AdobeGov/statuses/141531906801016835" target="_blank">AdobeGov: In/near Madison WI? Come to Wisconsin Digital Gov Summit starting today. Details/Register: http://t.co/7m1iqmtl #gov20</a>
+													</td>
+												</tr>
+									</table>
+						</div>
+					</div>
+</div>
+
+</div></div>
+
+		</div>
+		<div class="LayoutGrid-3 LayoutWideColumnBreak">
+			<div class="parbase manuallinklist compbase linklist1 inheritedlinklist">
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+    <div pathToMoreText="" class="LayoutRow LayoutBreakAfter TextH5" linkboxcolor="RouterMore">
+    <table style="width: 100%;">
+        <tbody>
+            <tr>
+                <td class="LayoutCellSides LayoutSmallCellVSides PanelFillDark">
+                    <h2 class="TextH5">
+                        Resources</h2>
+                </td>
+                </tr>
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+	
+	
+	    
+	    
+	        <ul class="LayoutCellSides TextSmall LayoutRow">
+	            
+	                
+	                <li class="">
+                       	<a href="http://www.adobe.com/devnet.html" title="Developers">Developers</a>
+	                </li>
+	            
+	                
+	                <li class="">
+                       	<a href="http://blogs.adobe.com/adobeingovernment/" title="Adobe Blogs" target="_blank">Adobe Blogs</a>
+	                </li>
+	            
+	                
+	                <li class="">
+                       	<a href="http://tv.adobe.com/channel/government/" title="Adobe TV" target="_blank">Adobe TV</a>
+	                </li>
+	            
+	                
+	                <li class="">
+                       	<a href="http://www.facebook.com/adobegov" title="Facebook" target="_blank">Facebook</a>
+	                </li>
+	            
+	        </ul>
+	    
+	
+
+
+
+
+    
+
+</div>
+
+		</div>
+	
+	
+
+<div class="LayoutGrid-4">
+	<div class="pagetools">
+
+
+<div class="LayoutBreakAfter">
+    
+        
+		
+        
+            
+            
+                
+                
+
+                
+                
+                    <div class="LayoutRow LayoutBreakAfter TextH5">
+    <table style="width: 100%;">
+        <tbody>
+            <tr>
+                <td class="LayoutCellSides LayoutSmallCellVSides PanelFillDark">
+                    <h2 class="TextH5">
+                        
+                        Page tools
+                    </h2>
+                </td>
+                </tr>
+        </tbody>
+    </table>
+</div>
+
+                
+            
+
+            
+            <div class="LayoutCellSides">
+            
+                <div class="LayoutRow">
+                    <div style="padding-left:23px;">
+                        
+                        
+                            <div class="LayoutSmallRowBottom LayoutBreakAfter">
+                                <div style="width:16px;float:left;clear:left;position:relative;left:-23px;margin-right:-23px">
+									<a class="Facebook-button Icon IconFacebook" href="http://www.facebook.com/sharer.php"></a>
+                                </div>
+                                <div style="float:left;width:100%">
+                                    <a href="http://www.facebook.com/sharer.php" class="Facebook-button" title="Share on Facebook" target="_blank">Share on Facebook</a>
+                                </div>
+                            </div>
+                        
+                        
+                        
+                            <div class="LayoutSmallRowBottom LayoutBreakAfter">
+                                <div style="width:16px;float:left;clear:left;position:relative;left:-23px;margin-right:-23px">
+									<a class="Twitter-button Icon IconTwitter" href="http://twitter.com/"></a>
+                                </div>
+                                <div style="float:left;width:100%">
+                                    <a href="http://twitter.com/" class="Twitter-button" title="Share on Twitter" target="_blank">Share on Twitter</a>
+                                </div>
+                            </div>
+                        
+                        
+                        
+                            <div class="LayoutSmallRowBottom LayoutBreakAfter">
+                                <div style="width:16px;float:left;clear:left;position:relative;left:-23px;margin-right:-23px">
+									<a class="LinkedIn-button Icon IconLinkedIn" href="http://www.linkedin.com/"></a>
+                                </div>
+                                <div style="float:left;width:100%">
+                                    <a href="http://www.linkedin.com/" class="LinkedIn-button" title="Share on LinkedIn" target="_blank">Share on LinkedIn</a>
+                                </div>
+                            </div>
+                        
+                        
+                        
+                            <div class="LayoutSmallRowBottom LayoutBreakAfter">
+                                <div style="width:16px;float:left;clear:left;position:relative;left:-23px;margin-right:-23px">
+									<a class="Bookmark-button Icon IconBookmark" href="http://www.adobe.com/solutions/government.html#"></a>
+                                </div>
+                                <div style="float:left;width:100%">
+                                    <a class="Bookmark-button" href="http://www.adobe.com/solutions/government.html#">Bookmark</a>
+                                </div>
+                            </div>
+                        
+                        
+                        
+                            <div class="LayoutSmallRowBottom LayoutBreakAfter">
+                                <div style="width:16px;float:left;clear:left;position:relative;left:-23px;margin-right:-23px">
+									<a class="Print-button Icon IconPrint" href="http://www.adobe.com/solutions/government.html#"></a>
+                                </div>
+                                <div style="float:left;width:100%">
+                                    <a class="Print-button" href="http://www.adobe.com/solutions/government.html#">Print</a>
+                                </div>
+                            </div>
+                        
+                    </div>
+
+                </div>
+            
+            </div>
+            
+        
+    
+</div>
+</div>
+
+</div></div>
+        <div class="LayoutGrid-1-4 LayoutGridBreak">
+            <div class="parbase legalText compbase legaltext">
+
+
+
+
+
+
+  
+    
+    
+        <div class="LayoutRow LayoutCellSides Semantic TextWeak TextSmall">
+            
+				
+            	
+            
+        </div>
+    
+  
+
+</div>
+</div>
+    </div>
+	<div class="LayoutGrid-5 LayoutWideGrid-6 LayoutRight LayoutWideRight">
+		
+<div class="display conversionpoddisplay"><div class="LayoutRow">
+            <div id="CPod" class="CPod">
+            	
+
+
+
+
+
+
+	
+		
+		
+		
+		
+		
+
+		
+			<div id="CPodParent1" style="display:none">
+				<div class="convpod">
+					<div class="CPodHeader CPodTitle CPodShadowTop" id="CPodHeader1">
+						
+					</div>
+					<div class="CPodContent">
+					    <div class="CpodItemContainer SubPodItemContainer"> 
+							<div class="CPodCell CPodRowBottom CPodShadowTop" id="CPodDescription1">
+					            <div class="CPodTitle CPodShadowTop">
+					            	
+					            		<span class="CPodHeaderTitle SubPodHeaderTitle">Next steps</span>
+					                
+					            </div>
+					            <span class="SubPodDescription">
+									
+										
+							        		<p>Find out more about customer experience management solutions from Adobe.</p>
+
+										
+					                	
+					            	
+					            </span>
+					        </div>
+			        		
+					        <div class="LayoutBreakAfter CpodConfigContainer">
+					            
+					        </div>
+			        		<div class="CPodBoxCell CpodConfigCTAContainer" >
+					            <div style="padding-left:87px;" class="LayoutBreakAfter">
+					                <div class="SubPodBoxShot" style="width:80px;float:left;clear:left;position:relative;left:-87px;margin-right:-87px" id="CPodBoxShot1">
+					                    
+					                        <!--[if IE 6]><img style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/content/dam/Adobe/en/solutions/images/pod-icon-80x80.png',sizingMethod='scale');true"
+									        	src="/include/img/transparent.gif" alt="Next steps" width="80" height="90"/><![endif]-->
+							                <![if !IE 6]><img title="Next steps" alt="Next steps" class="cq-dd-image" src="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/solutions/images/pod-icon-80x80.png" /><![endif]>
+					                    
+					                </div>
+									
+									
+									<div style="float:left;width:100%;" class="CPodCostCell CPodDetail" >
+										
+					                        
+					                            
+					                            
+					                                <div id="cpod1322770927989-CPodUpgrade" class="CPodCost CPodUpgrade"></div>
+					                                
+					                                    
+					                                        <div class="CPodCost cpod1322770927989-PriceLabel productPriceContainerCPod" id="CPodPrice1">
+					                                            <a class="CPodPricePlaceHolder" href="http://www.adobe.com/solutions/government.html#" prodkey="" pricetype="UPGRADE"></a>
+					                                            
+					                                        </div>
+					                                        <div id="cpod1322770927989-PriceLabel" class="CartCost LayoutImageLeft LayoutCellRight CPodConfigPriceLabel"></div>                         
+					                                    
+					                                    
+					                                
+					                                <div id="cpod1322770927989-CPodSubscription" class="CPodSubscription">
+					                                    
+					                                </div>
+					                            
+						                    
+						              	
+					                    <div class="CPodButtonWrap" id="cpod1322770927989">
+					                        
+					                            
+					                                <div>
+					                                    <span id="CPodBuy1" class="ConvPodBuyLinkContainer">
+					                                        <a href="http://www.adobe.com/go/contactus_govt_rfi_en_us/" class="CPodButton CPodButtonYellow CPodButtonFull">Contact us</a>
+					                                    </span>
+					                                    
+					                                    <br clear="all" />
+					                                    
+					                                        <div id="CPodContactInfo" class="CPodContactInfo">
+					                                            Sales: 888-649-2990
+					                                        </div>
+					                                    
+					                                </div>
+					                            
+					                            
+					                            
+					                        
+					                    </div>
+						               	<div class="CPodFees CPodShadowTop">
+						                    
+						                        
+						                            
+						                            
+						                                
+						                            
+						                        
+						                    
+						                    
+						               	</div>
+					                </div>
+					            </div>
+
+								<div class="CPodRowTop" style="display:none; text-align:center;" id="cpod1322770927989-EDUMessage">
+									<span style="display:table-cell; vertical-align:top; text-align:center; color:#CCCCCC" class="CPodShadowTop" >
+										Purchase requires verification of academic eligibility
+									</span>
+						        </div>
+			    			</div>
+					    	<div class="CPodCell CPodRowTop CPodOffer-" style="display:table">
+					    		
+					    			
+									
+									
+										<span style="display:table-cell" class="SubPodOfferIcon" id="CPodOfferIcon1"></span>
+									
+								
+			                	<span style="display:table-cell; padding-left:5px; vertical-align:top;" class="CPodPromotion-blue CPodShadowTop SubPodOffers" id="CPodOffers1">
+					     			
+										
+									   	
+									
+			                	</span>
+			            	</div>
+			    		</div>
+
+
+			    		
+			    		
+						<div style='display:none' class='EDUPriceMessage'>Student and Teacher Edition</div>
+					   	<!-- EDU Selector  -->
+					   	
+						   	<div class="LayoutRowTop EDURuleH"></div>
+						   	<div id="CPodEDUSelector" class="CPodEDUSelector LayoutCellTop LayoutSmallCellBottom TextCenter" style="display:none;">				   	
+						   		<a href="http://www.adobe.com/solutions/education/modals/eduoptin.html" id="EDUModalLink" class="CPodEDUSelectorLink">Are you an education customer?</a>
+						   	</div>
+						   	<div id="CPodEDUToggle" class="CPodEDUToggle LayoutCellTop LayoutSmallCellBottom TextCenter" style="display:none;">
+						   		<a href="http://www.adobe.com/solutions/government.html#" class="CPodEDUToggleLink">Not an education customer?&nbsp;<span class="CPodEDUToggleLinkArrow"></span></a>
+						   		<div id="EDUToggle" class="" style="display:none;"><a href="http://www.adobe.com/solutions/government.html#">See home/home office pricing</a></div>
+						   	</div>
+					   	
+					   	<!-- End EDU Selector -->
+					</div>
+				</div>
+			</div>
+		
+			
+		
+		    
+		        
+		            
+		            
+		                
+		            
+		        
+		    
+		    
+		
+
+		
+		
+		
+		
+		
+		
+		
+		<script type="text/javascript">
+		    var index = 1 || -1;
+		    var parent = "#CPodParent";
+		    var length = $(".convpodcrosssell").length+$(".convpod").length;
+		
+		    if (index > -1)
+		        parent = parent+index;
+		
+		    $(parent).cpod_controller( { 
+		        name:             "cms-adobecom_en_solutions_conversionpod",
+		        timeout:          7000,
+        		order:			  false,
+		        author:           false,
+		        locale:           "en_us" || "",
+		        countryCode:      Adobe.PageInfo.countryCode,
+		        akamaiURLPrefix:  Adobe.PageInfo.akamaiURLPrefix,
+		        domainURL:        "http://store1.adobe.com/svcs" || "",
+		        allowMboxes:      true,
+		        showMBox:         false,
+		        renderDefault:    false,
+				render:		      false,
+		        config:           true,
+				eduNoPriceModal:  "/content/dotcom/en/solutions/education/modals/cpodEDUModal",
+				eduModalDiv:      "#cpodEDU",
+		        num:              length } );
+		    
+		</script>
+	
+	
+
+</div>
+        </div>
+        
+        </div>
+
+<div class="livechat parbase compbase"><script type="text/javascript">
+                if (typeof(lpUnit) == 'undefined')       var lpUnit = 'lead-us';
+                if (typeof(lpLanguage) == 'undefined')       var lpLanguage = 'english';
+            </script>
+            <script src="http://www.adobe.com/lib/com.liveperson/products_server/mtagconfig.js" type="text/javascript"></script>
+            <div id="lpLeadButton" class="LayoutRow LayoutCellSides"></div>
+        </div>
+
+<div class="parsys pocketcontentAdobe display">
+
+
+
+
+
+
+    
+        
+            
+            
+            	
+            
+        
+    
+    
+
+
+
+
+    
+    
+        
+                
+            
+            
+            
+
+			
+
+            
+            
+            
+            
+            
+                
+                
+                
+				
+
+                
+                
+                    
+                    
+                    
+                
+            
+        
+            
+            
+    
+        
+
+        
+
+        
+        
+        
+        
+        
+         
+        
+        
+        
+	         
+        
+        
+        
+        
+        
+        
+        
+            <div class="LayoutRow">
+                
+            </div>
+        
+            <div class="LayoutRow">
+                <div class="ttt"><a href="http://max.adobe.com/online/?promoid=JCIUS"><img title="MAX. Last chance > " alt="MAX. Last chance > " class="cq-dd-image LayoutImage LayoutRow LayoutCenter" src="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/promos/house_ads/MAX11_220x160_forAcom_new.jpg.adimg.mh.220.mw.220.png" /></a></div>
+
+            </div>
+        
+    
+
+
+
+
+
+    
+        
+            
+            
+            	
+            
+            
+    
+    
+
+
+</div>
+
+<div class="pocketcontentAdobe1 parsys display">
+
+
+
+
+
+
+    
+        
+            
+            
+            	
+            
+        
+    
+    
+
+
+
+
+    
+    
+        
+                
+            
+            
+            
+
+			
+
+            
+            
+            
+            
+            
+                
+                
+                
+				
+
+                
+                
+                    
+                    
+                    
+                
+            
+        
+            
+            
+    
+        
+
+        
+
+        
+        
+        
+        
+        
+         
+        
+        
+        
+	         
+        
+        
+        
+        
+        
+        
+        
+    
+
+
+
+
+
+    
+        
+            
+            
+            	
+            
+            
+    
+    
+
+
+</div>
+
+<div class="rrrelatedproducts relatedproducts">
+
+
+
+</div>
+
+<div class="rightcontent1 parsys"><div id="rightcontent1">
+
+</div></div>
+</div>
+</div>
+
+<div class="ModalTip"></div>
+<script type="text/javascript">
+    //<[!CDATA[
+    $(window).bind("hashchange", adobe.fn.handleHashChangeForTreeList);
+    adobe.fn.handleHashChangeForTreeList();
+    //]]>
+</script><div class="PrintLayoutHide">
+        <!--googleon: all-->
+
+
+
+
+
+
+<script type="text/javascript">
+	var hideEvidon = false;
+	
+    $(document).ready(adobe.fn.initGlobalFooter);
+    changeRegion = adobe.fn.changeRegionFooter;
+</script>
+
+
+
+<!--googleoff: index-->
+<!-- $Id: globalfooter_ssi.html,v 1.18.2.2 2011/11/03 20:23:44 dgasior Exp $ -->
+<div id="SiteFooter" class="SiteFooter Text TextSmall TextInvert Link LayoutBreak">
+    <div class="LayoutBreakAfter">
+        <div class="LayoutGrid-1 LinkInvert">
+        	<div class="LayoutCellSides LayoutCellTop">
+                <h4><a href="http://www.adobe.com/go/gffooter_products">Products</a></h4>
+                <ul class="SiteFooterLinkList">
+                    <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconCS" href="http://www.adobe.com/go/gffooter_creative_suite">Creative Suite</a></li>
+                    <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconPS" href="http://www.adobe.com/go/gffooter_photoshop_family">Photoshop Family</a></li>
+                    <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconAcrobat" href="http://www.adobe.com/go/gffooter_acrobat_family">Acrobat Family</a></li>
+                    <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconPlatform" href="http://www.adobe.com/go/gffooter_flash_platform">Flash Platform</a></li>
+                    <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconOMS" href="http://www.adobe.com/go/gffooter_online_marketing_suite">Digital Marketing Suite</a></li>
+                    <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconDES" href="http://www.adobe.com/go/gffooter_digital_enterprise_suite">Digital Enterprise Suite</a></li>
+                    <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconDPS" href="http://www.adobe.com/go/gffooter_digital_publishing_suite">Digital Publishing Suite</a></li>
+                    <li><a class="icon Icon SiteFooterMenuItemIconProducts SiteFooterMenuItemIconMobile" href="http://www.adobe.com/go/gffooter_mobile_apps">Mobile apps</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="LayoutGrid-2 LinkInvert">
+        	<div class="LayoutCellSides LayoutCellTop">
+                <h4><a href="http://www.adobe.com/go/gffooter_solutions">Solutions</a></h4>
+                <ul class="SiteFooterLinkList">
+                    <li><a href="http://www.adobe.com/go/gffooter_customer_experience_management">Customer experience management</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_content_authoring">Content authoring</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_online_marketing">Digital marketing</a></li>
+                </ul>
+                
+                <h4><a href="http://www.adobe.com/go/gffooter_industries">Industries</a></h4>
+                <ul class="SiteFooterLinkList SiteFooterLinkListBottom">
+                    <li><a href="http://www.adobe.com/go/gffooter_education">Education</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_financial_services">Financial services</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_government">Government</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="LayoutGrid-3 LinkInvert">
+        	<div class="LayoutCellSides LayoutCellTop">
+                <h4><a href="http://www.adobe.com/go/gffooter_help">Help</a></h4>
+                <ul class="SiteFooterLinkList">
+                    <li><a href="http://www.adobe.com/go/gffooter_product_help_centers">Product help centers</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_order_return">Orders and returns</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_download_install">Downloading and installing</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_myadobe">My Adobe</a></li>
+                </ul>
+    
+                <h4><a href="http://www.adobe.com/go/gffooter_learning">Learning</a></h4>
+                <ul class="SiteFooterLinkList SiteFooterLinkListBottom">
+                    <li><a href="http://www.adobe.com/go/gffooter_adobe_developer_connection">Adobe Developer Connection</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_adobetv">Adobe TV</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_training_certification">Training and certification</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_forums">Forums</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_design_center">Design Center</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="LayoutGrid-4 LinkInvert">
+        	<div class="LayoutCellSides LayoutCellTop">
+                <h4><a href="http://www.adobe.com/go/gffooter_buy">Ways to buy</a></h4>
+                <ul class="SiteFooterLinkList">
+                    <li><a href="http://www.adobe.com/go/gffooter_adobe_store">Adobe Store</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_students_store">For students and educators</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_small_medium_business">For small and medium businesses</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_for_enterprises">For enterprises</a></li>
+                </ul>
+    
+                <h4><a href="http://www.adobe.com/go/gffooter_downloads">Downloads</a></h4>
+                <ul class="SiteFooterLinkList SiteFooterLinkListBottom">
+                    <li><a href="http://www.adobe.com/go/gffooter_adobe_reader">Adobe Reader</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_adobe_flashplayer">Adobe Flash Player</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_adobe_air">Adobe AIR</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_adobe_shockwave_player">Adobe Shockwave Player</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="LayoutGrid-5 LinkInvert">
+        	<div class="LayoutCellSides LayoutCellTop">
+                <h4><a href="http://www.adobe.com/go/gffooter_company">Company</a></h4>
+                <ul class="SiteFooterLinkList">
+                    <li><a href="http://www.adobe.com/go/gffooter_news_room">News room</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_partner_programs">Partner programs</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_corporate_social_responsibility">Corporate social responsibility</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_career_opportunities">Career opportunities</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_investor_relation">Investor Relations</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_events">Events</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_legal">Legal</a></li>
+                    <li><a href="http://www.adobe.com/go/gffooter_contact_adobe">Contact Adobe</a></li>
+                </ul>
+            </div>
+        </div>
+        
+		<div class="LayoutGridBreak">
+        	<div class="LayoutCellSides LayoutCellBottom">
+                <div class="SiteFooterRegionSelector TextInvert LinkInvert LinkStrong">
+                    <a href="http://www.adobe.com/go/gffooter_choose_region" id="sfRegion" class="SiteFooterMenuItemIcon SiteFooterMenuItemIconRegionBlue">Choose your region</a>
+                    <span id="sfRegionSet" class="SiteFooterMenuItemIcon SiteFooterMenuItemIconRegionBlack" style="display: none;">United States <a href="http://www.adobe.com/go/gffooter_choose_region" id="sfRegionChange">(Change)</a></span>
+                </div>
+                <div class="SiteFooterRegionPanel SiteFooterRegionPanelEvidon" id="RegionPanel" style="display: none;">
+                    <div class="SiteFooterRegionPanelHeader">
+                        <span class="SiteFooterMenuItemIcon SiteFooterMenuItemIconRegionBlack">Choose your region</span>
+                        <a id="sfRegionClose" class="SiteFooterRegionPanelHeaderClose">Close</a>
+                    </div>
+                    <div class="Column">
+                        <div class="Column-1">
+                            <p class="SiteFooterRegionPanelRegionHeader">North America</p>
+                        </div>
+                        <div class="Column-2-3">
+                            <p class="SiteFooterRegionPanelRegionHeader">Europe, Middle East and Africa</p>
+                        </div>
+                        <div class="Column-4">
+                            <p class="SiteFooterRegionPanelRegionHeader">Asia Pacific</p>
+                        </div>
+                        <div class="Column-1">
+                            <ul>
+                                <li lang="en"><a onclick="changeRegion('ca');">Canada - English</a></li>
+                                <li lang="fr"><a onclick="changeRegion('ca_fr');">Canada - Fran&ccedil;ais</a></li>
+                                <li lang="es"><a onclick="changeRegion('la');">Latinoam&eacute;rica</a></li>
+                                <li lang="es"><a onclick="changeRegion('mx');">M&eacute;xico</a></li>
+                                <li lang="en"><a onclick="changeRegion('us');">United States</a></li>
+                            </ul>
+            
+                            <p class="SiteFooterRegionPanelRegionHeader">South America</p>
+                            <ul>
+                                <li lang="pt"><a onclick="changeRegion('br');">Brasil</a></li>
+                            </ul>
+                        </div>
+                        <div class="Column-2">
+                            <ul>
+                                <li lang="en"><a onclick="changeRegion('africa');">Africa - English</a></li>
+                                <li lang="de"><a onclick="changeRegion('at');">&Ouml;sterreich - Deutsch</a></li>
+                                <li lang="en"><a onclick="changeRegion('be_en');">Belgium - English</a></li>
+                                <li lang="fr"><a onclick="changeRegion('be_fr');">Belgique - Fran&ccedil;ais</a></li>
+                                <li lang="nl"><a onclick="changeRegion('be_nl');">Belgi&euml; - Nederlands</a></li>
+                                <li lang="bg"><a onclick="changeRegion('bg');">ÐÑ`Ð»Ð³Ð°Ñ¬Ð¸Ñý</a></li>
+                                <li lang="hr"><a onclick="changeRegion('hr');">Hrvatska</a></li>
+                                <li lang="cs"><a onclick="changeRegion('cz');">ÄResk&aacute; republika</a></li>
+                                <li lang="da"><a onclick="changeRegion('dk');">Danmark</a></li>
+                                <li lang="en"><a onclick="changeRegion('eeurope');">Eastern Europe - English</a></li>
+                                <li lang="et"><a onclick="changeRegion('ee');">Eesti</a></li>
+                                <li lang="fi"><a onclick="changeRegion('fi');">Suomi</a></li>
+                                <li lang="fr"><a onclick="changeRegion('fr');">France</a></li>
+                                <li lang="de"><a onclick="changeRegion('de');">Deutschland</a></li>
+                                <li lang="hu"><a onclick="changeRegion('hu');">Magyarorsz&aacute;g</a></li>
+                                <li lang="en"><a onclick="changeRegion('ie');">Ireland</a></li>
+                                <li lang="en"><a onclick="changeRegion('il_en');">Israel - English</a></li>
+                                <li lang="it"><a onclick="changeRegion('it');">Italia</a></li>
+                                <li lang="lv"><a onclick="changeRegion('lv');">Latvija</a></li>
+                                <li lang="lt"><a onclick="changeRegion('lt');">Lietuva</a></li>
+                                <li lang="de"><a onclick="changeRegion('lu_de');">Luxembourg - Deutsch</a></li>
+                            </ul>
+                        </div>
+                        <div class="Column-3">
+                            <ul>
+                                <li lang="en"><a onclick="changeRegion('lu_en');">Luxembourg - English</a></li>
+                                <li lang="fr"><a onclick="changeRegion('lu_fr');">Luxembourg - Fran&ccedil;ais</a></li>
+                                <li lang="en"><a onclick="changeRegion('mena');">Middle East and North Africa - English</a></li>
+                                <li lang="nl"><a onclick="changeRegion('nl');">Nederland</a></li>
+                                <li lang="no"><a onclick="changeRegion('no');">Norge</a></li>
+                                <li lang="pl"><a onclick="changeRegion('pl');">Polska</a></li>
+                                <li lang="pt"><a onclick="changeRegion('pt');">Portugal</a></li>
+                                <li lang="ro"><a onclick="changeRegion('ro');">Rom&acirc;nia</a></li>
+                                <li lang="ru"><a onclick="changeRegion('ru');">Ð Ð¾ÑýÑýÐ¸Ñý</a></li>
+                                <li lang="sr"><a onclick="changeRegion('rs');">Srbija</a></li>
+                                <li lang="sk"><a onclick="changeRegion('sk');">Slovensko</a></li>
+                                <li lang="sl"><a onclick="changeRegion('si');">Slovenija</a></li>
+                                <li lang="es"><a onclick="changeRegion('es');">Espa&ntilde;a</a></li>
+                                <li lang="sv"><a onclick="changeRegion('se');">Sverige</a></li>
+                                <li lang="de"><a onclick="changeRegion('ch_de');">Schweiz - Deutsch</a></li>
+                                <li lang="fr"><a onclick="changeRegion('ch_fr');">Suisse - Fran&ccedil;ais</a></li>
+                                <li lang="it"><a onclick="changeRegion('ch_it');">Svizzera - Italiano</a></li>
+                                <li lang="tr"><a onclick="changeRegion('tr');">T&uuml;rkiye</a></li>
+                                <li lang="uk"><a onclick="changeRegion('ua');">Ð£ÐºÑ¬Ð°ÑÐ½Ð°</a></li>
+                                <li lang="en"><a onclick="changeRegion('uk');">United Kingdom</a></li>
+                            </ul>
+                        </div>
+                        <div class="Column-4">
+                            <ul>
+                                <li lang="en"><a onclick="changeRegion('au');">Australia</a></li>
+                                <li lang="zh"><a onclick="changeRegion('cn');">ä¸­å:½</a></li>
+                                <li lang="zh"><a onclick="changeRegion('hk_zh');">ä¸­åS9é¦"æ¸¯ç0¹åÆ¥è¡Ræ¿åý¬</a></li>
+                                <li lang="en"><a onclick="changeRegion('hk_en');">Hong Kong S.A.R. of China</a></li>
+                                <li lang="en"><a onclick="changeRegion('in');">India - English</a></li>
+                                <li lang="ja"><a onclick="changeRegion('jp');">æ¥æS¬</a></li>
+                                <li lang="ko"><a onclick="changeRegion('kr');">í"Sêµ­</a></li>
+                                <li lang="en"><a onclick="changeRegion('nz');">New Zealand</a></li>
+                                <li lang="en"><a onclick="changeRegion('ap');">Pacific - English</a></li>
+                                <li lang="zh"><a onclick="changeRegion('tw');">åý°çý£</a></li>
+                            </ul>
+            
+                            <p class="SiteFooterRegionPanelRegionHeader">Southeast Asia</p>
+                            <ul>
+                                <li lang="en"><a onclick="changeRegion('sea');">Includes Indonesia, Malaysia, Philippines, Singapore, Thailand, and Vietnam - English</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+		<div class="LayoutGridBreak">
+        	<div class="LayoutCellSides">
+                <hr />
+            </div>
+        </div>
+    
+        <div class="LayoutGrid-1-4 LinkInvert LinkStrong">
+        	<div class="LayoutCellSides LayoutCellBottom LinkInvert">
+                <p class="SiteFooterRow TextSmall">Copyright &copy; 2011 Adobe Systems Incorporated.  All rights reserved.</p>
+                <p class="SiteFooterRow TextSmall">Use of this website signifies your agreement to the <a href="http://www.adobe.com/go/gffooter_terms_of_use">Terms of Use</a> and <a href="http://www.adobe.com/go/gffooter_online_privacy_policy">Online Privacy Policy</a> <em>(updated 07-14-2009)</em>.</p>
+                <p class="SiteFooterRow SiteFooterRowTop"><a href="http://www.adobe.com/solutions/government.html#" id="_bapw-link" class="TextSmall icon Icon SiteFooterMenuItemIconEvidon" style="display:none;">Ad Choices</a></p>
+            </div>
+        </div>
+        <div class="LayoutGrid-5">
+        	<div class="LayoutCell">
+                <p class="TextRight"><a href="http://www.adobe.com/go/gffooter_trust_icon"><img alt="Reviewed by TRUSTe: site privacy statement" src="http://www.adobe.com/include/img/truste_seal_eu.gif" /></a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--googleon: index-->
+<!--googleoff: all--></div>
+    <!-- Omniture Site Catalyst Reporting -->
+<div class="parsys templatembox bottomofbodymbox">
+
+
+    
+        
+                <div class="mboxDefault">
+                    
+                    
+                    
+                </div>
+                
+                
+                    <script type="text/javascript">
+                            mboxCreate('defaultmboxname');
+                    </script>
+                
+        
+    
+    
+
+</div>
+<div class="parsys doubleclickfloodlight">
+
+
+    
+        
+                
+        
+    
+    
+
+</div>
+
+<div class="LayoutZero">
+    <div class="MenuDropHover"></div>
+    <div class="LinkAcrobatReader"></div>
+    <div class="LinkFlashPlayer"></div>
+    <div class="LinkAir"></div>
+    <div class="LinkShockwave"></div>
+    <div class="RouterMoreHover"></div>
+	<div class="RouterFacebookHover"></div>
+	<div class="RouterTwitterHover"></div>
+	<div class="RouterRSSHover"></div>
+	<div class="RouterAIGAHover"></div>
+</div>
+<!-- SiteCatalyst Copyright 2002 Omniture, Inc. More info available at http://www.omniture.com -->
+<script type="text/javascript">
+//<![CDATA[
+	var s_code = " ";
+	var s_Host = window.location.hostname.toLowerCase();
+	var s_account = "mxmacromedia";
+	var scJsHost = (("https:" == document.location.protocol) ? "https://www.adobe.com" : "http://wwwimages.adobe.com");
+	document.write(unescape("%3Cscript src='" + scJsHost + "/uber/js/omniture_s_code.js' type='text/javascript'%3E%3C/script%3E"));
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+	s.server = "Day WCMS";
+
+	/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+//	var s_code=s.t();if(s_code)document.write(s_code);
+//]]>
+</script>
+<!--[if !(IE)]>
+<noscript>
+        <img src="http://stats.adobe.com/b/ss/mxmacromedia/1/H.22--NS/0?pageName=WCMS%3A%20Noscript&g=http%3A//www.adobe.com/&ch=WCMS%3A%20noscript&server=WCMS" height="1" width="1" border="0" alt=""/>
+</noscript>
+<![endif]-->
+
+<script type="text/javascript">
+            //<![CDATA[
+            if (isDesktop()) {
+                var scJsHost = (("https:" == document.location.protocol) ? "https://www.adobe.com" : "http://wwwimages.adobe.com");
+                document.write(unescape("%3Cscript src='" + scJsHost + "/include/script/foresee/foresee-trigger.js' type='text/javascript'%3E%3C/script%3E"));
+            }
+            //]]>
+
+        </script>
+    </div>
+</body>
+</html>

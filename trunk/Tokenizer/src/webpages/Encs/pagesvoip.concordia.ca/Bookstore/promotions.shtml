@@ -1,0 +1,237 @@
+<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+	<link rel="SHORTCUT ICON" href="http://web2.concordia.ca/Bookstore/favicon.ico" />
+	<title>Concordia Bookstore - Promotions - Sales and Events</title>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+	<meta name="Keywords" content="concordia university campus bookstore academic textbooks office supplies sir george williams loyola montreal quebec canada student booklist faculty staff" />
+	<meta name="description" content="Sales and Promotions currently in effect at the Concordia University Campus Bookstore. Sign up for email notifications of our next sale event."/>
+	<meta property="og:image" content="http://web2.concordia.ca/Bookstore/pics/button.onsale.gif"/>
+	
+	<script src="http://web2.concordia.ca/Bookstore/style/main.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="http://web2.concordia.ca/Bookstore/style/default_gray.css" type="text/css" />
+	<link rel="stylesheet" href="http://web2.concordia.ca/Bookstore/style/toptenlists.css" type="text/css" />
+
+<!--[if lte IE 7]>
+	<link rel="stylesheet" href="style/ie.css" type="text/css" />
+<![endif]-->
+
+	 <link rel="alternate" type="application/rss+xml" title="Bookstore Top Ten General Books" href="http://bkstore.concordia.ca/rss/TopTenGeneral.aspx" />
+	 <link rel="alternate" type="application/rss+xml" title="Bookstore Latest Additions" href="http://bkstore.concordia.ca/rss/NewTrade.aspx" />
+	 <link rel="alternate" type="application/rss+xml" title="Bookstore Upcoming Titles" href="http://bkstore.concordia.ca/rss/UpcomingTrade.aspx" />
+	 <link rel="alternate" type="application/rss+xml" title="Bookstore Promotions and Sales" href="http://bkstore.concordia.ca/rss/rss_promos.asp" />
+
+	 <link title="Concordia Bookstore Search" rel="search" type="application/opensearchdescription+xml" href="http://web2.concordia.ca/Bookstore/plugins/ConcordiaBookstore.xml" />
+	 <link title="Concordia Customized Student Booklist" rel="search" type="application/opensearchdescription+xml" href="http://web2.concordia.ca/Bookstore/plugins/ConcordiaStudentBooklist.xml" />
+
+	<style type="text/css">
+
+		.specs {
+			border: 1px solid #aaaaaa;
+			border-right: 1px solid #555555;
+			border-bottom: 1px solid #555555;
+		}
+
+
+		.tab {
+			position: relative;
+			left: 5%;
+			width: 250px;
+			padding: 5px;
+			font-size: 11pt;
+			font-weight: bold;
+			font-family: arial, sans-serif;
+			color: #999999;
+			background-color: #f9f9f9;
+			border-top: 1px solid #aaaaaa;
+			border-right: 1px solid #555555;
+			border-left: 1px solid #aaaaaa;
+		}
+		.silver {background-color: #f5f5fa; }
+
+		#BTS li { font-size: 13pt; }
+
+	</style>
+
+</head>
+
+
+<body>
+
+
+<!-- Primary Container -->
+<div id="main">
+
+
+	<!-- Header Block -->
+	<div id="header">
+	 	<!--[if lte IE 7]>
+			<style>
+					#searchButton {
+						position: relative;
+						top: 1px;
+					}
+					#keyword {
+						height: 20px;
+					}
+
+			</style>
+		<![endif]-->
+
+	   	<form method="get" id="searchForm" name="searchForm" action="http://bkstore.concordia.ca/services/search.asp">
+			<input type="text" size="35" maxlength="40" value="" title="Bookstore Search" name="KEYWORD" id="KEYWORD" class="input" style="border: 1px solid #ffeeee; padding: 2px;"/><input type="image" name="submit" src="img/button.search.gif" title="Search" alt="Search" align="top" id="searchButton" />&nbsp;<br/>
+			<input type="hidden" value="3" name="CAT" id="CAT" />
+			<input type="hidden" value="Y" name="IMG" id="IMG" />
+		</form>
+
+		<a href="index.html"><img src="http://web2.concordia.ca/Bookstore/img/logo.bookstore.jpg" alt="Bookstore Logo" title="Concordia University Bookstore" height="90" width="158" border="0" usemap="#LOGO" /></a><br/>
+
+
+	</div>
+
+
+
+	<!-- Navigation: Top Tabs, and sub-tabs -->
+	<table id="maintabs"><tr>
+		<td class="blankmaintableft">&nbsp;</td>
+		<td class="maintab"><a href="index.html">Home</a></td>
+		<td class="maintab"><a href="textbooks.shtml">Textbooks</a></td>
+		<td class="maintab"><a href="usedbooks.shtml">Used Books</a></td>
+		<td class="maintab"><a href="generalbooks.jsp">General Books</a></td>
+		<td class="maintab"><a href="merchandise.shtml">Merchandise</a></td>
+		<td class="maintab"><a href="http://web2.concordia.ca/Bookstore/faculty.shtml">Faculty &amp; Staff</a></td>
+		<td class="maintab" id="maincurrent"><a href="promotions.shtml">Promotions</a></td>
+		<td class="maintab"><a href="http://web2.concordia.ca/Bookstore/search.shtml">Search</a></td>
+		<td class="maintab"><a href="../../pageswww.concordia.ca/">Computer Store</a></td>
+		<td class="blankmaintabright">&nbsp;</td>		
+	</tr></table>
+
+	<table id="subtabs"><tr>
+		<td class="blanksubtab" width="1%">&nbsp;</td>
+		<td class="subtab" width="12%" id="subcurrent"><a href="promotions.shtml">Sales &amp; Events</a></td>
+		<td class="subtab"><a href="http://web2.concordia.ca/Bookstore/promotions.subscriptions.html">Email Subscriptions</a></td>
+		<!-- <td class="subtab"><a href="promotions.btm.shtml">Books That Matter</a></td> -->
+		<td class="subtab"><a href="http://web2.concordia.ca/Bookstore/promotions.buyback.html">Used Book Buyback Alerts</a></td>
+		<td class="subtab"><a href="http://web2.concordia.ca/Bookstore/promotions.authors.shtml">Author Events</a></td>
+		<td class="subtab"><a href="http://web2.concordia.ca/Bookstore/promotions.bookclub.shtml">Alumni Programs</a></td>
+		<td class="subtab"><a href="http://web2.concordia.ca/Bookstore/promotions.geeky.html">Geeky Stuff (RSS)</a></td>
+		<td class="blanksubtab" width="1%">&nbsp;</td>
+	</tr></table>
+
+
+
+	<!-- Multi-column Body area -->
+	<table id="threecolumns" width="100%" cellpadding="0" cellspacing="0" style="clear:both;">
+	<tr>
+		<td valign="top" id="left">
+			<ul>
+				<li class="quicklink"><a href="http://web2.concordia.ca/Bookstore/textbooks.booklist.shtml">Student Booklist</a></li>
+				<li class="quicklink"><a href="textbooks.shtml">Textbooks</a></li>
+				<li class="quicklink"><a href="usedbooks.shtml">Used Books</a></li>
+				<li class="quicklink"><a href="generalbooks.jsp">General Books</a></li>
+				<li class="quicklink"><a href="http://web2.concordia.ca/Bookstore/generalbooks.bookclub.shtml">&nbsp; - Alumni Book Club</a></li>
+				<li class="quicklink"><a href="merchandise.shtml">Merchandise</a></li>
+				<li class="quicklink" style="margin-top:15px;"><a href="http://web2.concordia.ca/Bookstore/home.buyonline.shtml">Buy Online</a></li>
+				<li class="quicklink"><a href="http://web2.concordia.ca/Bookstore/home.hours.html">Store Hours</a></li>
+				<li class="quicklink"><a href="http://web2.concordia.ca/Bookstore/home.contact.html">Contact Us</a></li>
+			</ul>
+
+			<br/>
+
+		</td>
+
+		<td valign="top" id="middle">
+		<!-- BEGIN BODY TEXT -->
+
+<!-- HOLIDAY FLYER PROMOTIONS -->
+
+<table align=center border=0px>
+	<tr>
+		<td><a href="http://www.myvirtualpaper.com/doc/concordia/holidayflyer/2011111402/"><img src="http://web2.concordia.ca/Bookstore/img/2011holidaypromo.jpg" alt="Campus Retail Stores Holiday Specials!" title="Campus Retail Stores Holiday Flyer!" border="0px"></a></td>
+	</tr>
+</table>
+
+
+			
+<!-- END HOLIDAY FLYER -->
+
+		<!-- END BODY TEXT -->
+
+
+			<a name="address"></a><br/>
+
+			<p align="center">
+				<br/>
+				<a href="http://web2.concordia.ca/Bookstore/home.contact.html"><img src="http://web2.concordia.ca/Bookstore/img/text.address.gif" alt="SGW Campus: 1400 de Maisonneuve Blvd West, Library Building, Montreal, Quebec H3G 1M6; Loyola Campus: 7141 Sherbrooke St. West, Communications and Journalism Building, Montreal, Quebec H4B 1R6" width="389" height="120" border="0" /></a><br/>
+			</p>
+
+
+			<div class="footerlinks">
+				<a href="index.html">Home</a> |
+				<a href="textbooks.shtml">Textbooks</a> |
+				<a href="usedbooks.shtml">Used Books</a> |
+				<a href="generalbooks.jsp">General Books</a> |
+				<a href="merchandise.shtml">Merchandise</a> |
+				<a href="http://web2.concordia.ca/Bookstore/faculty.shtml">Faculty &amp; Staff</a> |
+				<a href="promotions.shtml">Promotions</a> |
+				<a href="http://web2.concordia.ca/Bookstore/search.shtml">Search</a>
+			</div>
+			<div style="text-align: right; font-size: 9pt; padding-top: 5px;">
+				Questions? Suggestions? <a href="http://web2.concordia.ca/Bookstore/home.contact.html">Contact Us</a>.
+			</div>
+
+
+		</td><!-- End "middle" -->
+
+	</tr>
+	</table><!-- End Columns -->
+
+
+</div>
+
+
+
+<!-- Footer -->
+<div id="footer">
+	<a href="http://www.concordia.ca/?refererID=bookstore"><img src="http://web2.concordia.ca/Bookstore/img/logo.conu.watermark.jpg" alt="Concordia University" border="0" align="right" /></a>
+	Copyright &copy; 2011 Concordia University
+</div>
+
+<br style="clear:both;"/>
+<br/>
+
+
+
+
+
+<map name="LOGO">
+	<area href="http://web2.concordia.ca/Bookstore" shape="rect" coords="1,1,158,70" alt="Bookstore Home" title="Concordia Bookstore Home" />
+	<area href="../../pageswww.concordia.ca/index.html" shape="rect" coords="14,74,142,90" alt="Concordia Home" title="Concordia University Home" />
+</map>
+
+
+
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-8958207-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+
+
+</body>
+</html>

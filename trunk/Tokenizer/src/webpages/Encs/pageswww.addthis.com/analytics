@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+        <title> AddThis - My Analytics</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="en-us" />
+    <meta name="title" content="AddThis - My Analytics" />
+    <meta name="description" content="AddThis is a free way to boost traffic back to your site by making it easier for visitors to share your content." />
+    <meta name="keywords" content="bookmarking, sharing, bookmark, share, bookmarking button, sharing button, service directory, browser plugin, blog plugin, flash, social APIs, facebook, twitter, myspace, digg, delicious, stumbleupon, reddit, blogger, technorati, aim share, orkut, viadeo" />
+    <meta name="robots" content="all" />
+    <meta name="viewport" content="width=960" />
+    <meta http-equiv="imagetoolbar" content="false" />
+    <meta name="copyright" content="Copyright (c) 2011 Add This, LLC" />
+        <link rel="image_src" href="http://s7.addthis.com/static/t00/logo100100.png" />
+    <link rel="alternate" type="application/rss+xml" href="http://www.addthis.com/blog/?feed=rss2" title="AddThis Blog Feed" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://cache.addthiscdn.com/site/core/css/core-1.0.0.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://cache.addthiscdn.com/www/20111123101657/style/site.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://cache.addthiscdn.com/www/20111123101657/style/common.css" />
+	<link href="http://cache.addthiscdn.com/lib/jquery/plugins/colorbox-1.3.15/colorbox-base.css" media="screen" rel="stylesheet" type="text/css">
+<link href="http://cache.addthiscdn.com/lib/jquery/plugins/colorbox-1.3.15/colorbox4.css" media="screen" rel="stylesheet" type="text/css">
+<link href="http://cache.addthiscdn.com/lib/jquery/plugins/datepicker-r103/datePicker.min.css" media="screen" rel="stylesheet" type="text/css">
+<link href="http://cache.addthiscdn.com/www/20111123101657/style/analytics.css" media="screen" rel="stylesheet" type="text/css">
+<link href="http://cache.addthiscdn.com/www/20111123101657/style/analytics-beta.css" media="screen" rel="stylesheet" type="text/css">    
+    <!--[if lt IE 7]><script type="text/javascript" src="/js/topnav.js"></script><![endif]-->	
+</head>
+
+<body>
+<a id="top" name="top"></a>
+
+<a href="http://www.addthis.com/analytics#maincontent" class="skipNavLink">Skip Main Site Navigation</a>
+<h1><a href="" title="AddThis Homepage">AddThis</a></h1>
+<div id="header"> 
+	<div class="container_12">
+		<div class="grid_12">
+			
+						<div id="header-links">
+				<a href="careers">We're Hiring!</a> <span class="pipe">|</span> <a href="forum/index.html">Forum</a> <span class="pipe">|</span> <a href="help">Help</a>
+			</div>
+					</div>	
+	</div>	
+</div>
+
+<div id="header-menu">	
+	<div id="header-menu-inner">
+			<ul class="header-submenu-nav">
+			<li><a href="http://www.addthis.com/get" title="Get AddThis">Get AddThis</a></li>	
+			<li><a href="features" title="AddThis Features">Features</a></li>
+			<li><a class="topnav-active" href="analytics" title="Analytics">Analytics</a></li>
+			<li><a class="mlink" onclick="void(0);" ><span>More</span></a>
+				<ul>					
+					<li><a href="developers" title="Developer Resources">Developers</a></li>
+					<li><a href="services" title="Service Directory">Service Directory</a></li>
+					<li><a href="languages" title="Language Database">Language Database</a></li>					
+					<li><a href="tools" title="Browser Tools">Browser Tools</a></li>
+				</ul>
+			</li>
+		</ul>
+					<div class="topuser">
+				<a href="http://www.addthis.com/register" title="Join Now">Join Now</a> <span class="mrl5">or</span> <a href="http://www.addthis.com/login" title="Sign In">Sign In</a>			
+			</div>		
+		        <form id="search_box" action="search" onsubmit="if(this.q.value=='')return false;">
+            <input id="search_text" name="q" type="text" value="" maxlength="120" onfocus="this.value=''" />
+        </form>	
+		</div>
+</div>			
+<div class="clear"></div>
+
+ 
+
+
+<div id="header-fade"></div><div id="maincontent">
+
+    <style type="text/css">
+		.banner .addthis_toolbox {
+			position: absolute;
+			right: 0;
+			top: 23px;
+			width: 122px;
+		}
+		.banner-analytics-more {
+			right: 150px;
+		}
+	</style>
+	<div class="banner">
+        <div class="container_12">
+			<div class="grid_12">
+				<h2>Analytics</h2>
+						<div class="addthis_toolbox addthis_default_style">
+			<a class="addthis_button_preferred_1"></a>
+			<a class="addthis_button_preferred_2"></a>
+			<a class="addthis_button_preferred_3"></a>
+			<a class="addthis_button_compact"></a>
+			<a class="addthis_counter addthis_bubble_style"></a>
+		</div>
+		<script type="text/javascript">
+var addthis_config = {
+   data_ga_tracker: "gaPageTracker",
+   data_track_addressbar: true 
+}
+</script>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pub=AddThis"></script>
+				
+			</div>
+			<div class="clear"></div>
+		</div>
+    </div>    
+    <div class="content-main">
+        <div class="container_12 mt20">			
+			<div class="grid_5">
+				<div class="mt15" align="center">
+					<object width="320" height="212"><param name="movie" value="http://www.youtube.com/v/j0ufgYvBM-w?fs=1&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/j0ufgYvBM-w?fs=1&hl=en_US" type="application/x-shockwave-flash" width="320" height="212" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+					<p class="mt20 hide"><a href="http://www.addthis.com/features#analytics" class="bigtext link arrow">Learn more about AddThis analytics</a></p>
+                    <form method="post" action="http://www.addthis.com/account/demo" class="mt20">
+                        <input id="hhh" name="hhh" value="31c48ff8df230ed51d0b2efdbbc6280c6b651b6e" type="hidden"/>
+                        <input type="submit" class="btn-blue" value="View the Demo Account"/>
+                    </form>
+				</div>
+			</div>
+			<div class="grid_7">
+				<h2 class="helv">Got Analytics?</h2>
+				<p class="bigtext">
+					As a registered publisher, learn how social media is increasing your traffic, what interests your site's audience, and <a href="http://www.addthis.com/features#analytics">much more</a>. Best of all, it's free!
+				</p>
+                
+				<ul class="bigtext">
+					<li>Don't have AddThis yet? <a href="http://www.addthis.com/get-addthis" title="Get AddThis" class="arrow">Get sharing for your site</a></li>
+					<li>Already a publisher with analytics? <a href="http://www.addthis.com/login" title="Sign In" class="arrow">Sign In</a></li>
+					<li>Already using AddThis but want to start getting analytics? <a href="http://www.addthis.com/help/account-questions#returning" title="Start Getting Analytics" class="arrow">Here's how</a></li>
+                </ul>
+			</div>
+			<div class="clear"></div>
+            <div class="mb80"></div>
+			<br/>
+        </div>
+    </div>
+ 	
+</div>
+<div id="footer">
+	<div class="container_12">
+		<div class="grid_2">
+			<h5>Get AddThis</h5>
+			<a href="http://www.addthis.com/get-addthis">Sharing Tools</a><br/>
+			<a href="help/api-overview">APIs</a><br/>
+			<a href="help/ios-quickstart">iOS SDK</a><br/>
+			<a href="help/android-quickstart">Android SDK</a>				
+		</div>
+		<div class="grid_2">
+			<h5>Explore</h5>
+			<a href="blog/category/whats-new/index.html">What's New?</a><br/>
+			<a href="features">Features</a><br/>
+			<a href="services">Service Directory</a><br/>
+			<a href="languages">Language Database</a><br/>
+			<a href="labs">Labs</a>
+		</div>
+		<div class="grid_2">
+			<h5>Support</h5>
+			<a href="help/faq">FAQ</a><br/>
+			<a href="help">Help</a><br/>
+			<a href="forum">Forum</a><br/>
+			<a href="../pagesstatus.addthis.com/index.html">Platform Status</a><br/>
+			<a href="search">Search</a>
+		</div>
+		<div class="grid_2">
+			<h5>Company</h5>
+			<a href="about">About Us</a><br/>
+			<a href="http://www.addthis.com/contact">Contact</a><br/>
+			<a href="careers">Careers</a><br/>
+			<a href="logos">Logos</a><br/>
+			<a href="blog">Blog</a>
+		</div>
+		<div class="grid_2">
+			<h5>Browser Tools</h5>
+                <div id="bookmarklet"> 
+        <a class="ats" href="http://www.addthis.com/analytics#">Share</a> 
+        <div id="bookmarklet-text"> 
+            <strong>Drag me</strong> into your bookmark toolbar. 
+        </div> 
+    </div>   
+    <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_bookmarklet.js"></script> 		</div>
+		<div class="grid_2">
+			<div class="followaddthis">
+				<h5>Get Social with Us!</h5>
+				<p><a class="follow-twitter" href="../pagestwitter.com/addthis" onclick="window.open('https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fwww.addthis.com%2Fregistered&region=follow&screen_name=addthis&source=followbutton&variant=1.0','FollowAddThis','width=520,height=520');return false;">Follow @addthis</a></p>
+				<a class="follow-facebook" href="http://www.facebook.com/AddThis" target="_blank">Follow AddThis on Facebook</a> 
+			</div>	
+		</div>
+		<div class="clear"></div>
+		<div class="mb40"></div>
+		
+		<div class="grid_12 alpha omega copyright">
+			&copy; 2011 <a href="">Add This</a>, LLC - A <a href="../pagesclearspring.com/" title="Go to Clearspring.com">Clearspring</a> Company <span class="pipe">|</span> <a href="privacy">Privacy</a> <span class="pipe">|</span> <a href="tos">Terms of Service</a><br/>
+			Don't want to receive targeted advertising? Go to our <a href="advertising-choices">opt-out</a> page.<br/>
+			<a class="athome" href="">AddThis Homepage</a>
+		</div>
+		<div class="clear"></div>
+		
+	</div>
+</div>	
+<div id="lb"></div>
+<script type="text/javascript" src="http://cache.addthiscdn.com/site/core/js/core-1.0.0.js"></script>
+<script type="text/javascript" src="http://cache.addthiscdn.com/www/20111123101657/js/lr.js"></script>
+<script type="text/javascript" src="http://cache.addthiscdn.com/lib/jquery/plugins/colorbox-1.3.15/jquery.colorbox.min.js"></script>
+<script type="text/javascript" src="http://cache.addthiscdn.com/lib/jquery/plugins/datepicker-r103/date.min.js"></script>
+<script type="text/javascript" src="http://cache.addthiscdn.com/lib/jquery/plugins/datepicker-r103/jquery.datePicker.min.js"></script>
+<!--[if lt IE 9]> <script type="text/javascript" src="//cache.addthiscdn.com/lib/jquery/plugins/flot-0.7/excanvas.min.js"></script><![endif]-->
+<script type="text/javascript" src="http://cache.addthiscdn.com/lib/jquery/plugins/flot-0.7/jquery.flot.min.js"></script>
+<script type="text/javascript" src="http://cache.addthiscdn.com/www/20111123101657/js/jquery.flot.table.js"></script>
+<script type="text/javascript" src="http://cache.addthiscdn.com/lib/jquery/plugins/qtip-1.0.0-rc2/jquery.qtip.min.js"></script>
+<script type="text/javascript" src="http://cache.addthiscdn.com/www/20111123101657/js/shared/jquery.toggle.js"></script>
+<script type="text/javascript" src="http://cache.addthiscdn.com/www/20111123101657/js/analytics.js"></script><script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+var u = "/analytics-unauthenticated";
+if (window._gat) {
+    var gaPageTracker = _gat._getTracker("UA-1170033-1");
+    gaPageTracker._setDomainName("www.addthis.com");
+    gaPageTracker._setCustomVar(1,"Login","False",2);
+    gaPageTracker._trackPageview(u);
+}
+</script>
+
+</body>
+</html>

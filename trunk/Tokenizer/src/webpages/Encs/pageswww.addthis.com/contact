@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+        <title> AddThis - The #1 Bookmarking &amp; Sharing Service</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="en-us" />
+    <meta name="title" content="AddThis - The #1 Bookmarking &amp; Sharing Service" />
+    <meta name="description" content="AddThis is a free way to boost traffic back to your site by making it easier for visitors to share your content." />
+    <meta name="keywords" content="bookmarking, sharing, bookmark, share, bookmarking button, sharing button, service directory, browser plugin, blog plugin, flash, social APIs, facebook, twitter, myspace, digg, delicious, stumbleupon, reddit, blogger, technorati, aim share, orkut, viadeo" />
+    <meta name="robots" content="all" />
+    <meta name="viewport" content="width=960" />
+    <meta http-equiv="imagetoolbar" content="false" />
+    <meta name="copyright" content="Copyright (c) 2011 Add This, LLC" />
+        <link rel="image_src" href="http://s7.addthis.com/static/t00/logo100100.png" />
+    <link rel="alternate" type="application/rss+xml" href="http://www.addthis.com/blog/?feed=rss2" title="AddThis Blog Feed" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://cache.addthiscdn.com/site/core/css/core-1.0.0.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://cache.addthiscdn.com/www/20111123101657/style/site.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://cache.addthiscdn.com/www/20111123101657/style/common.css" />
+	    
+    <!--[if lt IE 7]><script type="text/javascript" src="/js/topnav.js"></script><![endif]-->	
+</head>
+
+<body>
+<a id="top" name="top"></a>
+
+<a href="http://www.addthis.com/contact#maincontent" class="skipNavLink">Skip Main Site Navigation</a>
+<h1><a href="" title="AddThis Homepage">AddThis</a></h1>
+<div id="header"> 
+	<div class="container_12">
+		<div class="grid_12">
+			
+						<div id="header-links">
+				<a href="careers">We're Hiring!</a> <span class="pipe">|</span> <a href="forum/index.html">Forum</a> <span class="pipe">|</span> <a href="help">Help</a>
+			</div>
+					</div>	
+	</div>	
+</div>
+
+<div id="header-menu">	
+	<div id="header-menu-inner">
+			<ul class="header-submenu-nav">
+			<li><a href="http://www.addthis.com/get" title="Get AddThis">Get AddThis</a></li>	
+			<li><a href="features" title="AddThis Features">Features</a></li>
+			<li><a href="analytics" title="Analytics">Analytics</a></li>
+			<li><a class="mlink" onclick="void(0);" ><span>More</span></a>
+				<ul>					
+					<li><a href="developers" title="Developer Resources">Developers</a></li>
+					<li><a href="services" title="Service Directory">Service Directory</a></li>
+					<li><a href="languages" title="Language Database">Language Database</a></li>					
+					<li><a href="tools" title="Browser Tools">Browser Tools</a></li>
+				</ul>
+			</li>
+		</ul>
+					<div class="topuser">
+				<a href="http://www.addthis.com/register" title="Join Now">Join Now</a> <span class="mrl5">or</span> <a href="http://www.addthis.com/login" title="Sign In">Sign In</a>			
+			</div>		
+		        <form id="search_box" action="search" onsubmit="if(this.q.value=='')return false;">
+            <input id="search_text" name="q" type="text" value="" maxlength="120" onfocus="this.value=''" />
+        </form>	
+		</div>
+</div>			
+<div class="clear"></div>
+
+ 
+
+
+<div id="header-fade"></div><div id="maincontent">
+
+	<div class="banner">
+		<div class="container_12">
+			<div class="grid_12">
+				<h2>Contact Us</h2>
+						<div class="addthis_toolbox addthis_default_style">
+			<a class="addthis_button_preferred_1"></a>
+			<a class="addthis_button_preferred_2"></a>
+			<a class="addthis_button_preferred_3"></a>
+			<a class="addthis_button_compact"></a>
+			<a class="addthis_counter addthis_bubble_style"></a>
+		</div>
+		<script type="text/javascript">
+var addthis_config = {
+   data_ga_tracker: "gaPageTracker",
+   data_track_addressbar: true 
+}
+</script>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pub=AddThis"></script>
+			</div>
+			<div class="clear"></div>
+		</div>	
+	</div>
+	<div class="content-main">		    
+	    <div class="container_12">		
+		    <div class="grid_8 suffix_1">
+		        				
+				<p class="bigtext"> 
+					Looking for more information about AddThis, need help or want to inquire about business opportunities? You've come to the right place.
+				</p> 
+				<br/> 
+				
+				<h3><a href="blog">AddThis Blog</a></h3> 
+				<p>For news about AddThis and our latest features and tools, please visit <a href="blog">our blog</a>.</p> 
+				
+				<h3><a href="help/faq">Frequently Asked Questions</a></h3> 
+				<p>If you have a question about AddThis, start here in <a href="help/faq">our FAQ</a>.</p> 
+				
+				<h3><a href="http://www.addthis.com/help/account-questions">Account Questions</a></h3> 
+				<p>If you're having trouble signing in, getting analytics, or have other account questions, <a href="http://www.addthis.com/help/account-questions">start here</a>.</p> 
+				
+				<h3><a href="help">Help Docs</a></h3> 
+				<p>Get in-depth instructions as well as <a href="help/api-overview">API documentation</a> in AddThis Help.</p> 
+				
+				<h3><a href="forum">Support Forum</a></h3> 
+				<p>Have other questions or need technical support? Please visit <a href="forum">our Support Forum</a>.</p> 
+ 
+				<h3><a href="http://www.addthis.com/contact#contact-form">Still stuck?</a></h3> 
+				<p><a href="http://www.addthis.com/contact#contact-form">Complete the form below</a> to contact our support team.</p> 
+				
+				<h3><a href="http://www.addthis.com/services/submit">Service Submissions</a></h3> 
+				<p> 
+					If you would like to submit your sharing service to the AddThis platform, please visit our <a href="http://www.addthis.com/services/submit">Service Submission Form</a>. 
+				</p>	
+				
+				
+				<h3><a href="http://www.addthis.com/contact#contact-form">Business Inquiries</a></h3> 
+				<p> 
+					If you would like to inquire about business, advertising or similar opportunities, please <a href="http://www.addthis.com/contact#contact-form">complete the form below</a>. 
+				</p>	
+				
+				<br/><hr/>
+				<a name="contact-form"></a>
+				<h3 class="mb30">Contact Us</h3>
+				
+				<div id="contactform">				
+		    	<form method="post" action="contact">
+		            <input id="email" name="email" type="hidden"/>
+		            <input id="hhh" name="hhh" value="f8cbc57238728d2d08f8079b75f818b865889cf5" type="hidden"/>
+                    
+                    <!-- Name -->
+                    <div class="grid_2 alpha"><label for="nnn">Your Name:</label> <span class="required">*</span></div>
+		    		<div class="grid_6 omega"><input id="nnn" name="nnn" type="text" size="25" value="" /></div>
+                    <div class="clear"></div>
+		                                <div class="clear"></div>
+                    <div class="mt20"></div>
+                    
+                    <!-- Email -->
+                    <div class="grid_2 alpha"><label for="eee">Email Address:</label> <span class="required">*</span></div>
+		    		<div class="grid_6 omega"><input id="eee" name="eee" type="text" size="25" value="" /></div>
+		                                <div class="clear"></div>
+                    <div class="mt20"></div>
+                    
+		    		<!-- Company -->
+		    		<div class="grid_2 alpha"><label for="ccc">Company:</label></div>
+		    		<div class="grid_6 omega"><input id="ccc" name="ccc" type="text" size="25" value="" /></div>
+		                                <div class="clear"></div>
+                    <div class="mt20"></div>
+                    
+                    <!-- Website -->
+                    <div class="grid_2 alpha"><label for="uuu">Website URL:</label></div>
+		    		<div class="grid_6 omega"><input id="uuu" name="uuu" type="text" size="25" value="" /></div>
+		                                <div class="clear"></div>
+                    <div class="mt20"></div>
+                    
+                    <!-- Phone -->
+                    <div class="grid_2 alpha"><label for="ppp">Phone Number:</label></div>
+                    <div class="grid_6 omega"><input id="ppp" name="ppp" type="text" size="25" value="" /></div>
+                                        <div class="clear"></div>
+                    <div class="mt20"></div>
+                    
+                    <!-- Topic -->
+                    <div class="grid_2 alpha"><label for="topic">Topic:</label> <span class="required">*</span></div>
+                    <div class="grid_6 omega">
+                        <select id="topic" name="topic" style="width:350px;">
+                            <option value="" selected="selected" >Select One</option>
+                            <option value="bizdev" >Business Development</option>
+                            <option value="press" >Press</option>
+                            <option value="ideas" >Questions &amp; Feedback</option>
+                        </select>
+                    </div>
+                                        <div class="clear"></div>
+                    <div class="mt20"></div>
+                    
+                    <!-- Message -->
+                    <div class="grid_2 alpha"><label for="message">Message:</label> <span class="required">*</span></div>
+                    <div class="grid_6 omega"><textarea id="message" name="message" cols="40" rows="4"></textarea></div>
+                                        <div class="clear"></div>
+                    <div class="mt20"></div>
+                    
+                    <!-- Submit -->
+                    <div class="grid_6 prefix_2 alpha omega"><input type="submit" value="Send" name="Send" title="Send" class="btn-blue plr20" /></div>
+                    <div class="clear"></div>
+                    <div class="mb40"></div>
+                    
+		    	</form>				
+		    	<p class="required">* Required.</p>
+				</div>
+		    	
+		    </div>		    
+		    <div class="grid_3 sidebar">
+				<ul id="nav-sub"> 
+					<li class="sub-level-0 sub-single"><a href="about">About Us</a></li>
+					<li class="sub-level-0 sub-single-active"><a href="contact">Contact Us</a></li>
+					<li class="sub-level-0 sub-single"><a href="careers">Careers</a></li>
+					<li class="sub-level-0 sub-single"><a href="logos">Logos &amp; Assets</a></li> 
+				</ul>	
+				
+				<div class="clear"></div>
+				<div class="mb50"></div>
+				
+				<p class="ml10">
+					<strong>Headquarters</strong><br >
+					8000 Westpark Dr.<br/>
+					Suite 625<br />
+					McLean, VA 22102<br/>
+					<br/>
+					T: 703.677.3999 <br />
+					F: 703.677.3648		 			
+				</p>
+				<p class="ml10 smalltext gry">
+					These phone numbers are reserved for business and press inquiries only. Please use our <a href="forum">support forum</a> or <a href="help">help docs</a> if you have any other questions.
+				</p>
+				
+					        
+		    </div>  
+			<div class="clear"></div>
+			<div class="mb20"></div>
+			
+			
+		</div>
+	</div>			
+ 	
+</div>
+<div id="footer">
+	<div class="container_12">
+		<div class="grid_2">
+			<h5>Get AddThis</h5>
+			<a href="http://www.addthis.com/get-addthis">Sharing Tools</a><br/>
+			<a href="help/api-overview">APIs</a><br/>
+			<a href="help/ios-quickstart">iOS SDK</a><br/>
+			<a href="help/android-quickstart">Android SDK</a>				
+		</div>
+		<div class="grid_2">
+			<h5>Explore</h5>
+			<a href="blog/category/whats-new/index.html">What's New?</a><br/>
+			<a href="features">Features</a><br/>
+			<a href="services">Service Directory</a><br/>
+			<a href="languages">Language Database</a><br/>
+			<a href="labs">Labs</a>
+		</div>
+		<div class="grid_2">
+			<h5>Support</h5>
+			<a href="help/faq">FAQ</a><br/>
+			<a href="help">Help</a><br/>
+			<a href="forum">Forum</a><br/>
+			<a href="../pagesstatus.addthis.com/index.html">Platform Status</a><br/>
+			<a href="search">Search</a>
+		</div>
+		<div class="grid_2">
+			<h5>Company</h5>
+			<a href="about">About Us</a><br/>
+			<a href="contact">Contact</a><br/>
+			<a href="careers">Careers</a><br/>
+			<a href="logos">Logos</a><br/>
+			<a href="blog">Blog</a>
+		</div>
+		<div class="grid_2">
+			<h5>Browser Tools</h5>
+                <div id="bookmarklet"> 
+        <a class="ats" href="http://www.addthis.com/contact#">Share</a> 
+        <div id="bookmarklet-text"> 
+            <strong>Drag me</strong> into your bookmark toolbar. 
+        </div> 
+    </div>   
+    <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_bookmarklet.js"></script> 		</div>
+		<div class="grid_2">
+			<div class="followaddthis">
+				<h5>Get Social with Us!</h5>
+				<p><a class="follow-twitter" href="../pagestwitter.com/addthis" onclick="window.open('https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fwww.addthis.com%2Fregistered&region=follow&screen_name=addthis&source=followbutton&variant=1.0','FollowAddThis','width=520,height=520');return false;">Follow @addthis</a></p>
+				<a class="follow-facebook" href="http://www.facebook.com/AddThis" target="_blank">Follow AddThis on Facebook</a> 
+			</div>	
+		</div>
+		<div class="clear"></div>
+		<div class="mb40"></div>
+		
+		<div class="grid_12 alpha omega copyright">
+			&copy; 2011 <a href="">Add This</a>, LLC - A <a href="../pagesclearspring.com/" title="Go to Clearspring.com">Clearspring</a> Company <span class="pipe">|</span> <a href="privacy">Privacy</a> <span class="pipe">|</span> <a href="tos">Terms of Service</a><br/>
+			Don't want to receive targeted advertising? Go to our <a href="advertising-choices">opt-out</a> page.<br/>
+			<a class="athome" href="">AddThis Homepage</a>
+		</div>
+		<div class="clear"></div>
+		
+	</div>
+</div>	
+<div id="lb"></div>
+<script type="text/javascript" src="http://cache.addthiscdn.com/site/core/js/core-1.0.0.js"></script>
+<script type="text/javascript" src="http://cache.addthiscdn.com/www/20111123101657/js/lr.js"></script><script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+var u = "/contact";
+if (window._gat) {
+    var gaPageTracker = _gat._getTracker("UA-1170033-1");
+    gaPageTracker._setDomainName("www.addthis.com");
+    gaPageTracker._setCustomVar(1,"Login","False",2);
+    gaPageTracker._trackPageview(u);
+}
+</script>
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+<script type="text/javascript">
+var _sf_async_config={uid:14443,domain:"addthis.com"};
+(function(){
+  function loadChartbeat() {
+    window._sf_endpt=(new Date()).getTime();
+    var e = document.createElement('script');
+    e.setAttribute('language', 'javascript');
+    e.setAttribute('type', 'text/javascript');
+    e.setAttribute('src',
+       (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") +
+       "static.chartbeat.com/js/chartbeat.js");
+    document.body.appendChild(e);
+  }
+  var oldonload = window.onload;
+  window.onload = (typeof window.onload != 'function') ?
+     loadChartbeat : function() { oldonload(); loadChartbeat(); };
+})();
+
+</script>
+
+
+</body>
+</html>

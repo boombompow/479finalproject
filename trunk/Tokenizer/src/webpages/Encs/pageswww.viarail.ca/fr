@@ -1,0 +1,1243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr" dir="ltr" xmlns:fb="http://www.facebook.com/2008/fbml">
+    <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+      <title>VIA Rail Canada : Voyages en train au Canada</title>
+    	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="VIA Rail vous permet de voyager en train partout au Canada : Vancouver, Rocheuses canadiennes, Jasper, Toronto, Niagara Falls, Ottawa, Montréal, Québec, etc. Notre site Web vous offre aussi de l'information touristique, des forfaits vacances et des rabais" />
+<meta name="keywords" content="train,trains,voyage en train,voyage au Canada" />
+<meta name="robots" content="index,follow" />
+<meta name="DC.title" content="VIA Rail | A more human way to travel" />
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
+     	<meta id='wt_ct' name='WT.cg_n' content='accueil du site'/>
+<meta id='wt_subg' name='WT.cg_s' content='page francaise'/>    
+    	<link type="text/css" rel="stylesheet" media="all" href="http://www.viarail.ca/modules/node/node.css?A" />
+<link type="text/css" rel="stylesheet" media="all" href="http://www.viarail.ca/modules/system/defaults.css?A" />
+<link type="text/css" rel="stylesheet" media="all" href="http://www.viarail.ca/modules/system/system.css?A" />
+<link type="text/css" rel="stylesheet" media="all" href="http://www.viarail.ca/modules/system/system-menus.css?A" />
+<link type="text/css" rel="stylesheet" media="all" href="http://www.viarail.ca/modules/user/user.css?A" />
+<link type="text/css" rel="stylesheet" media="all" href="http://www.viarail.ca/sites/all/modules/contrib/ckeditor/ckeditor.css?A" />
+<link type="text/css" rel="stylesheet" media="all" href="http://www.viarail.ca/sites/all/modules/contrib/date/date.css?A" />
+<link type="text/css" rel="stylesheet" media="all" href="http://www.viarail.ca/sites/all/lib/shadowbox/shadowbox.css?A" />
+<link type="text/css" rel="stylesheet" media="all" href="http://www.viarail.ca/sites/all/modules/contrib/shadowbox/shadowbox.css?A" />
+<link type="text/css" rel="stylesheet" media="all" href="http://www.viarail.ca/sites/all/modules/contrib/upload_element/upload_element.css?A" />
+<link type="text/css" rel="stylesheet" media="all" href="http://www.viarail.ca/sites/all/modules/custom/cutemenu/cutemenu.css?A" />
+<link type="text/css" rel="stylesheet" media="all" href="http://www.viarail.ca/sites/all/modules/custom/reservia/reservia.css?A" />
+<link type="text/css" rel="stylesheet" media="all" href="http://www.viarail.ca/sites/all/themes/viarail/css/ui.all.css?A" />
+<link type="text/css" rel="stylesheet" media="all" href="http://www.viarail.ca/sites/all/modules/custom/whatshot/whatshot.css?A" />
+<link type="text/css" rel="stylesheet" media="all" href="http://www.viarail.ca/sites/all/modules/custom/rss/rss.css?A" />
+<link type="text/css" rel="stylesheet" media="screen" href="http://www.viarail.ca/sites/all/themes/viarail/css/reset.screen.css?A" />
+<link type="text/css" rel="stylesheet" media="screen" href="http://www.viarail.ca/sites/all/themes/viarail/css/overide.system.screen.css?A" />
+<link type="text/css" rel="stylesheet" media="screen" href="http://www.viarail.ca/sites/all/themes/viarail/css/style.screen.css?A" />
+<link type="text/css" rel="stylesheet" media="screen" href="http://www.viarail.ca/sites/all/themes/viarail/css/blocks.screen.css?A" />
+<link type="text/css" rel="stylesheet" media="screen" href="http://www.viarail.ca/sites/all/themes/viarail/css/admin.screen.css?A" />
+<link type="text/css" rel="stylesheet" media="screen" href="http://www.viarail.ca/sites/all/themes/viarail/css/fck.templates.screen.css?A" />
+<link type="text/css" rel="stylesheet" media="print" href="http://www.viarail.ca/sites/all/themes/viarail/css/style.print.css?A" />
+    	
+    	<!--[if lte IE 6]>
+        	<link rel="stylesheet" type="text/css" href="/sites/all/themes/custom/viarail/css/ie6.css" media="screen" />
+    	<![endif]-->
+    	<!--[if IE 7]>
+    		<link rel="stylesheet" type="text/css" href="/sites/all/themes/custom/viarail/css/ie7.css" media="screen" />
+    	<![endif]-->
+    	<!--[if IE 8]>
+        	<link rel="stylesheet" type="text/css" href="/sites/all/themes/custom/viarail/css/ie8.css" media="screen" />
+    	<![endif]-->
+    	<script type="text/javascript" src="http://www.viarail.ca/sites/all/files/js/js_f9b8211e679863b7c153f8511c71c09b.js"></script>
+<script type="text/javascript" src="http://www.viarail.ca/sites/all/themes/viarail/js/stationCtrl.js?1322770529"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "shadowbox": { "animate": 1, "animateFade": 1, "animSequence": "sync", "auto_enable_all_images": 0, "auto_gallery": 0, "autoplayMovies": true, "continuous": 0, "counterLimit": "10", "counterType": "default", "displayCounter": 1, "displayNav": 1, "enableKeys": 1, "fadeDuration": "0.35", "handleOversize": "resize", "handleUnsupported": "link", "initialHeight": 160, "initialWidth": 320, "language": "fr", "modal": false, "overlayColor": "#000", "overlayOpacity": "0.85", "players": null, "resizeDuration": "0.35", "showMovieControls": 1, "slideshowDelay": "0", "viewportPadding": 20, "useSizzle": 0 }, "suretypes_path": "/sites/all/files/suretypes/suretypes_fr.json", "whatshot": { "whatshot_speed": "30", "whatshot_nbitems": 8, "whatshot_nbpages": 3 } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config = {
+		       ui_language: 'fr',
+		       ui_click: true
+		       }
+//--><!]]>
+</script>
+    	<script type="text/javascript" src="http://www.viarail.ca/sites/all/themes/custom/viarail/js/jquery-ui_fr.js"></script>
+    	<script type="text/javascript" src="http://www.viarail.ca/sites/all/themes/custom/viarail/js/jquery.onfontresize.js"></script>
+    	<script type="text/javascript" src="http://www.viarail.ca/sites/all/themes/custom/viarail/js/detectbrowser.js"></script>
+        <script type="text/javascript">
+            var languageDuSite = 'fr';
+            var expiryDate = new Date();
+            expiryDate.setTime(expiryDate.getTime()+(31*24*60*60*1000)); // 31 days
+            // setting cookie for domain explicitly
+            document.cookie = 'splash_lang='+languageDuSite+'; expires='+expiryDate.toGMTString()+'; path=/; domain=www.viarail.ca';
+            var siteBasePath = 'http://www.viarail.ca';
+        </script>
+
+        <!-- Google Analytics -->
+        <script type="text/javascript">
+
+         var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-18911218-1']);
+          _gaq.push(['_setDomainName', 'viarail.ca']);
+          _gaq.push(['_setAllowLinker', true]);
+          _gaq.push(['_setAllowHash', false]);
+          _gaq.push(['_trackPageview']);;
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+        </script>
+
+		
+
+               
+    </head>
+
+    <body>
+        <div id="light" class="white_content"><a id="boutique_close_link" href="javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Close</a>
+            <div id="boutique_img_popup"></div>
+        </div>
+        <div id="fade" class="black_overlay" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"></div> 
+    	<!-- container -->
+    	<div id="layout-container">            
+      	    <!-- banner -->
+      	          	    <div id="layout-banner" class="homepage" >
+    			<div class="layout-row-left">
+                    <a class="logo" title="Retour à l'accueil" href="fr">
+                        <img src="http://www.viarail.ca/sites/all/themes/custom/viarail/images/logovia.png" alt="VIA Rail Canada - (Retour à l'accueil)" />
+                    </a>
+
+                                    </div>
+                <div class="layout-row-right banner-font-light"><div class="block-locale">
+	<ul><li class="en first"><a href="http://www.viarail.ca/en" class="language-link">English</a></li>
+<li class="current fr last active"><a href="fr" class="language-link active">Français</a></li>
+</ul>	<ul>
+		<li>
+			-&nbsp;<a title="Changer de langue" href="http://www.viarail.ca/?changelang=1">Autres langues</a>
+		</li>
+	</ul>
+</div>  <div class="block block-menu_block" id="block-menu_block-3">
+    <h2 class="title">Top links</h2>
+    <div class="content"><div class="menu-name-menu-top parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="leaf first menu-mlid-4060"><a href="http://www.viarail.ca/fr/mon-profil-via" title="Accéder à mon profil VIA">Mes profils VIA</a></li>
+<li class="leaf menu-mlid-1479 has-children"><a href="http://www.viarail.ca/fr/a-propos-de-via" title="Informations à propos de VIA Rail Canada">ì propos de VIA</a></li>
+<li class="leaf menu-mlid-4424 has-children"><a href="http://www.viarail.ca/fr/aide" title="Accéder à la section Aide">Aide</a></li>
+<li class="leaf last menu-mlid-4298"><a href="http://www.viarail.ca/fr/nous-joindre" title="Pour nous joindre">Nous joindre</a></li>
+</ul></div>
+</div>
+ </div>
+  <div class="block block-googlemini" id="block-googlemini-0">
+    <h2 class="title"></h2>
+    <div class="content"><div class="cb"></div>
+<div>
+<script type="text/javascript">
+function searchGoogle()
+{
+	if((document.getElementById('search_field').value == '') || (document.getElementById('search_field').value == 'Recherche') || (document.getElementById('search_field').value == 'Search'))
+	{
+		return false;
+	}
+	else
+	{
+		return true;
+	}
+}
+
+</script>
+<div style="float:right;"><form method="post" action="http://www.viarail.ca/fr/resultats-de-recherche">
+ <fieldset>
+  <input class="search_btn" type="image" name="btnG" id="btng" value="Recherche" alt="Recherche" title="Recherche" src="/sites/all/themes/viarail/images/search.jpg" />
+  <input class="search_field" type="text" title="Recherche" name="query" maxlength="255" value="Recherche" id="search_field" onclick="search_fld_color('Recherche')" onkeypress="search_fld_color('Recherche')" />
+</fieldset>
+</form>
+</div>
+</div>
+</div>
+ </div>
+</div>
+                          	    <div class="slogan banner-font-light">
+            	    <h1>La façon humaine de voyager</h1>
+                </div>
+        	    
+                <div class="cb"></div>
+            </div>
+            <!-- /banner -->
+
+            <!-- navigation -->
+            <div id="layout-nav" class="clearfix">
+                					  <div class="block block-cutemenu" id="block-cutemenu-menu-main-menu-fr">
+    <h2 class="title"></h2>
+    <div class="content"><div class='cutemenu-bar'>
+<div  id="cutemenu-1837" class="cutemenu-baritem cutemenu-first" onmouseover="javascript:cutemenu_mouseover(this, '1837', true);" onmouseout="javascript:cutemenu_mouseout();"><div class="cutemenu-baritem-left"><div class="cutemenu-baritem-right"><div id="cutemenu-content-1837" class="cutemenu-baritem-content cutemenu-first">
+  <a href="http://www.viarail.ca/fr/trains" class="cutemenu-link">Trains</a>
+  <div id="cutemenu-dropdown-1837" class="cutemenu-dropdown-wrapper"><div class="cutemenu-dropdown">
+    <div class="cutemenu-dropdown-topleft"><div class="cutemenu-dropdown-topright">    <div class="cutemenu-dropdown-bottomleft"><div class="cutemenu-dropdown-bottomright"><div class="cutemenu-dropdown-top"></div>
+    <div class="cutemenu-dropdown-left"><div class="cutemenu-dropdown-right"><div class="cutemenu-dropdown-content">
+      <div class="cutemenu-dropdown-header"></div>
+      <div class="cutemenu-submenu">
+      <div id="cutemenu-19972" class="cutemenu-title"><div class="cutemenu-label">Par régions</div></div>
+      <div id="cutemenu-3645" class="cutemenu-subitem" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="http://www.viarail.ca/fr/trains/rocheuses-et-pacifique" class="cutemenu-link">Rocheuses et Pacifique</a></div>
+      <div id="cutemenu-3675" class="cutemenu-subitem" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="http://www.viarail.ca/fr/trains/prairies-et-nord-du-manitoba" class="cutemenu-link">Prairies et Nord du Manitoba</a></div>
+      <div id="cutemenu-3683" class="cutemenu-subitem" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="http://www.viarail.ca/fr/trains/quebec-et-ontario" class="cutemenu-link">Québec et Ontario</a></div>
+      <div id="cutemenu-3769" class="cutemenu-subitem" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="http://www.viarail.ca/fr/trains/atlantique" class="cutemenu-link">Atlantique</a></div>
+      <div id="cutemenu-19973" class="cutemenu-title"><div class="cutemenu-label">L&#039;état d&#039;un train</div></div>
+      <div id="cutemenu-20023" class="cutemenu-subitem external-item" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="http://reservia.viarail.ca/tsi/tsiresult.aspx?l=fr&from=iframe" title="" class="cutemenu-link" target="_blank">Arrivées et départs</a></div>
+      <div id="cutemenu-20004" class="cutemenu-subitem" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="http://www.viarail.ca/fr/infos-utiles/personnalisez-votre-horaire" title="" class="cutemenu-link">Horaires des trains</a></div>
+      <div id="cutemenu-20005" class="cutemenu-subitem" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="http://www.viarail.ca/fr/infos-utiles/horaires-imprimables" title="" class="cutemenu-link">Horaires imprimables</a></div>
+      </div>
+      <div class="cutemenu-dropdown-footer"></div>
+    </div></div></div>
+<div class="cutemenu-dropdown-bottom">
+    </div></div></div>
+    </div></div>
+  </div></div>
+</div></div></div></div>
+<div  id="cutemenu-1838" class="cutemenu-baritem" onmouseover="javascript:cutemenu_mouseover(this, '1838', true);" onmouseout="javascript:cutemenu_mouseout();"><div class="cutemenu-baritem-left"><div class="cutemenu-baritem-right"><div id="cutemenu-content-1838" class="cutemenu-baritem-content">
+  <a href="http://www.viarail.ca/fr/gares" class="cutemenu-link">Gares</a>
+  <div id="cutemenu-dropdown-1838" class="cutemenu-dropdown-wrapper"><div class="cutemenu-dropdown">
+    <div class="cutemenu-dropdown-topleft"><div class="cutemenu-dropdown-topright">    <div class="cutemenu-dropdown-bottomleft"><div class="cutemenu-dropdown-bottomright"><div class="cutemenu-dropdown-top"></div>
+    <div class="cutemenu-dropdown-left"><div class="cutemenu-dropdown-right"><div class="cutemenu-dropdown-content">
+      <div class="cutemenu-dropdown-header"></div>
+      <div class="cutemenu-submenu">
+      <div id="cutemenu-19977" class="cutemenu-title"><div class="cutemenu-label">Par régions</div></div>
+      <div id="cutemenu-3783" class="cutemenu-subitem" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="http://www.viarail.ca/fr/gares/rocheuses-et-pacifique" class="cutemenu-link">Rocheuses et Pacifique</a></div>
+      <div id="cutemenu-3858" class="cutemenu-subitem" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="http://www.viarail.ca/fr/gares/prairies-et-nord-du-manitoba" class="cutemenu-link">Prairies et Nord du Manitoba</a></div>
+      <div id="cutemenu-3859" class="cutemenu-subitem" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="http://www.viarail.ca/fr/gares/ontario" class="cutemenu-link">Ontario</a></div>
+      <div id="cutemenu-3860" class="cutemenu-subitem" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="http://www.viarail.ca/fr/gares/quebec" class="cutemenu-link">Québec</a></div>
+      <div id="cutemenu-3863" class="cutemenu-subitem" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="http://www.viarail.ca/fr/gares/atlantique" class="cutemenu-link">Atlantique</a></div>
+      <div id="cutemenu-19978" class="cutemenu-title"><div class="cutemenu-label">Plus</div></div>
+      <div id="cutemenu-3779" class="cutemenu-subitem" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="http://www.viarail.ca/fr/gares/arrets-entre-deux-gares" class="cutemenu-link">Arrêts entre deux gares</a></div>
+      <div id="cutemenu-20006" class="cutemenu-subitem" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="http://www.viarail.ca/fr/gares/liste" title="" class="cutemenu-link">Trouvez une gare</a></div>
+      </div>
+      <div class="cutemenu-dropdown-footer"></div>
+    </div></div></div>
+<div class="cutemenu-dropdown-bottom">
+    </div></div></div>
+    </div></div>
+  </div></div>
+</div></div></div></div>
+<div  id="cutemenu-1839" class="cutemenu-baritem" onmouseover="javascript:cutemenu_mouseover(this, '1839', true);" onmouseout="javascript:cutemenu_mouseout();"><div class="cutemenu-baritem-left"><div class="cutemenu-baritem-right"><div id="cutemenu-content-1839" class="cutemenu-baritem-content">
+  <a href="http://www.viarail.ca/fr/tarifs" class="cutemenu-link">Tarifs</a>
+  <div id="cutemenu-dropdown-1839" class="cutemenu-dropdown-wrapper"><div class="cutemenu-dropdown">
+    <div class="cutemenu-dropdown-topleft"><div class="cutemenu-dropdown-topright">    <div class="cutemenu-dropdown-bottomleft"><div class="cutemenu-dropdown-bottomright"><div class="cutemenu-dropdown-top"></div>
+    <div class="cutemenu-dropdown-left"><div class="cutemenu-dropdown-right"><div class="cutemenu-dropdown-content">
+      <div class="cutemenu-dropdown-header"></div>
+      <div class="cutemenu-submenu">
+      <div id="cutemenu-20027" class="cutemenu-subitem" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="http://www.viarail.ca/fr/aubaines" title="" class="cutemenu-link">Aubaines Express</a></div>
+      <div id="cutemenu-20009" class="cutemenu-subitem" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="http://www.viarail.ca/fr/tarifs/aubaines" title="" class="cutemenu-link">Offres spéciales</a></div>
+      <div id="cutemenu-20010" class="cutemenu-subitem" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="http://www.viarail.ca/fr/tarifs/rabais" title="" class="cutemenu-link">Tarifs rabais</a></div>
+      <div id="cutemenu-20011" class="cutemenu-subitem" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="http://www.viarail.ca/fr/tarifs/voyages-daffaires" title="" class="cutemenu-link">Tarifs pour entreprises</a></div>
+      <div id="cutemenu-1937" class="cutemenu-subitem" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="http://www.viarail.ca/fr/tarifs/cartes-voyages" class="cutemenu-link">Cartes-voyages</a></div>
+      <div id="cutemenu-19987" class="cutemenu-title"><div class="cutemenu-label">Plus</div></div>
+      <div id="cutemenu-9066" class="cutemenu-subitem" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="http://www.viarail.ca/fr/tarifs/comparez-nos-tarifs" title="Comparez nos tarifs" class="cutemenu-link">Comparez nos tarifs</a></div>
+      <div id="cutemenu-20012" class="cutemenu-subitem external-item" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="https://www.viapreference.com/fr/accueil" title="" class="cutemenu-link" target="_blank">VIA Préférence</a></div>
+      </div>
+      <div class="cutemenu-dropdown-footer"></div>
+    </div></div></div>
+<div class="cutemenu-dropdown-bottom">
+    </div></div></div>
+    </div></div>
+  </div></div>
+</div></div></div></div>
+<div  id="cutemenu-1840" class="cutemenu-baritem" onmouseover="javascript:cutemenu_mouseover(this, '1840', true);" onmouseout="javascript:cutemenu_mouseout();"><div class="cutemenu-baritem-left"><div class="cutemenu-baritem-right"><div id="cutemenu-content-1840" class="cutemenu-baritem-content">
+  <a href="http://www.viarail.ca/fr/forfaits" title="" class="cutemenu-link">Forfaits</a>
+  <div id="cutemenu-dropdown-1840" class="cutemenu-dropdown-wrapper"><div class="cutemenu-dropdown">
+    <div class="cutemenu-dropdown-topleft"><div class="cutemenu-dropdown-topright">    <div class="cutemenu-dropdown-bottomleft"><div class="cutemenu-dropdown-bottomright"><div class="cutemenu-dropdown-top"></div>
+    <div class="cutemenu-dropdown-left"><div class="cutemenu-dropdown-right"><div class="cutemenu-dropdown-content">
+      <div class="cutemenu-dropdown-header"></div>
+      <div class="cutemenu-submenu">
+      <div id="cutemenu-20013" class="cutemenu-subitem external-item" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="http://www.forfaitsentrain.ca/fr/forfaits/saisons?thumb=getaways" title="" class="cutemenu-link" target="_blank">Escapade VIA</a></div>
+      <div id="cutemenu-20014" class="cutemenu-subitem external-item" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="http://www.forfaitsentrain.ca/fr/accueil" title="" class="cutemenu-link" target="_blank">Forfaits en train VIA</a></div>
+      </div>
+      <div class="cutemenu-dropdown-footer"></div>
+    </div></div></div>
+<div class="cutemenu-dropdown-bottom">
+    </div></div></div>
+    </div></div>
+  </div></div>
+</div></div></div></div>
+<div  id="cutemenu-1429" class="cutemenu-baritem" onmouseover="javascript:cutemenu_mouseover(this, '1429', true);" onmouseout="javascript:cutemenu_mouseout();"><div class="cutemenu-baritem-left"><div class="cutemenu-baritem-right"><div id="cutemenu-content-1429" class="cutemenu-baritem-content">
+  <a href="http://www.viarail.ca/fr/infos-utiles" title="" class="cutemenu-link">Infos utiles</a>
+  <div id="cutemenu-dropdown-1429" class="cutemenu-dropdown-wrapper"><div class="cutemenu-dropdown">
+    <div class="cutemenu-dropdown-topleft"><div class="cutemenu-dropdown-topright">    <div class="cutemenu-dropdown-bottomleft"><div class="cutemenu-dropdown-bottomright"><div class="cutemenu-dropdown-top"></div>
+    <div class="cutemenu-dropdown-left"><div class="cutemenu-dropdown-right"><div class="cutemenu-dropdown-content">
+      <div class="cutemenu-dropdown-header"></div>
+      <div class="cutemenu-submenu">
+      <div id="cutemenu-3154" class="cutemenu-subitem" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="http://www.viarail.ca/fr/infos-utiles/reservations" class="cutemenu-link">Réservations</a></div>
+      <div id="cutemenu-3557" class="cutemenu-subitem" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="http://www.viarail.ca/fr/infos-utiles/bagages" class="cutemenu-link">Bagages</a></div>
+      <div id="cutemenu-3570" class="cutemenu-subitem" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="http://www.viarail.ca/fr/infos-utiles/besoins-speciaux" class="cutemenu-link">Besoins spéciaux</a></div>
+      <div id="cutemenu-3578" class="cutemenu-subitem" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="http://www.viarail.ca/fr/infos-utiles/a-bord-du-train" class="cutemenu-link">ì bord du train</a></div>
+      <div id="cutemenu-20015" class="cutemenu-subitem" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="http://www.viarail.ca/fr/infos-utiles/a-bord-du-train/internet-sans-fil" title="" class="cutemenu-link">Internet sans fil</a></div>
+      <div id="cutemenu-3594" class="cutemenu-subitem" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="http://www.viarail.ca/fr/infos-utiles/voyageurs-etrangers" class="cutemenu-link">Voyageurs étrangers</a></div>
+      <div id="cutemenu-3600" class="cutemenu-subitem" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="http://www.viarail.ca/fr/infos-utiles/services-connexes" class="cutemenu-link">Services connexes</a></div>
+      </div>
+      <div class="cutemenu-dropdown-footer"></div>
+    </div></div></div>
+<div class="cutemenu-dropdown-bottom">
+    </div></div></div>
+    </div></div>
+  </div></div>
+</div></div></div></div>
+<div  id="cutemenu-19993" class="cutemenu-baritem cutemenu-last" onmouseover="javascript:cutemenu_mouseover(this, '19993', true);" onmouseout="javascript:cutemenu_mouseout();"><div class="cutemenu-baritem-left"><div class="cutemenu-baritem-right"><div id="cutemenu-content-19993" class="cutemenu-baritem-content cutemenu-last">
+  <a href="http://www.viarail.ca/fr/infos-utiles/services-connexes/souvenirs-via" title="" class="cutemenu-link">Boutique et divertissement</a>
+  <div id="cutemenu-dropdown-19993" class="cutemenu-dropdown-wrapper"><div class="cutemenu-dropdown">
+    <div class="cutemenu-dropdown-topleft"><div class="cutemenu-dropdown-topright">    <div class="cutemenu-dropdown-bottomleft"><div class="cutemenu-dropdown-bottomright"><div class="cutemenu-dropdown-top"></div>
+    <div class="cutemenu-dropdown-left"><div class="cutemenu-dropdown-right"><div class="cutemenu-dropdown-content">
+      <div class="cutemenu-dropdown-header"></div>
+      <div class="cutemenu-submenu">
+      <div id="cutemenu-20022" class="cutemenu-subitem external-item" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="http://souvenirs.viarail.ca/index.cfm?language=fr" title="" class="cutemenu-link" target="_blank">Souvenirs VIA</a></div>
+      <div id="cutemenu-20021" class="cutemenu-subitem external-item" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="https://eboutique.viapreference.com/?lang=fr" title="" class="cutemenu-link" target="_blank">Boutique de VIA Préférence</a></div>
+      <div id="cutemenu-3582" class="cutemenu-subitem" onmouseover="javascript:cutemenu_subitem_mouseover(this);" onmouseout="javascript:cutemenu_subitem_mouseout(this);"><a href="http://www.viarail.ca/fr/infos-utiles/a-bord-du-train/magazine-via-destinations" class="cutemenu-link">Magazine VIA destinations</a></div>
+      </div>
+      <div class="cutemenu-dropdown-footer"></div>
+    </div></div></div>
+<div class="cutemenu-dropdown-bottom">
+    </div></div></div>
+    </div></div>
+  </div></div>
+</div></div></div></div>
+</div>
+</div>
+ </div>
+	
+                                            </div>
+            <!-- /navigation -->
+
+            <!-- breadcrums -->
+            <div id="layout-breadcrums">
+                <div id="breadcrumbLeft" class="layout-row-left">
+					                                        <div class="cb"></div>
+                </div>
+                <div id="breadcrumbRight" class="layout-row-right">
+                    <div class="fontResizer">
+                        <a href="http://www.viarail.ca/fr#" title="Utiliser une petite police"><img src="http://www.viarail.ca/sites/all/themes/custom/viarail/images/size_1_new.gif" class="smallFont" alt="Utiliser une petite police" title="Utiliser une petite police" alt="Utiliser une petite police" /></a><a href="http://www.viarail.ca/fr#" title="Utiliser une police moyenne"><img src="http://www.viarail.ca/sites/all/themes/custom/viarail/images/size_2_new.gif" class="medFont" alt="Utiliser une police moyenne" title="Utiliser une police moyenne" /></a><a href="http://www.viarail.ca/fr#" title="Utiliser une police grande"><img src="http://www.viarail.ca/sites/all/themes/custom/viarail/images/size_3_new.gif" alt="Utiliser une police grande" title="Utiliser une police grande" class="largeFont" /></a>
+                    </div> 	
+					  <div class="block block-addthis" id="block-addthis-0">
+    <h2 class="title"></h2>
+    <div class="content"><span><script type="text/javascript"><!-- 
+document.write('<a class="addthis_button" href="http://www.addthis.com/bookmark.php"><img src="/sites/all/themes/custom/viarail/images/addThis/sm-share-fr.gif" class="addthis_img" width="83" height="16" alt="Partager" /></a>');
+// -->
+</script><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=viarail"></script></span></div>
+ </div>
+  <div class="block block-rss" id="block-rss-0">
+    <h2 class="title"></h2>
+    <div class="content"><div style="float: right; margin-left: 3px; margin-right: 3px; margin-top: 2px;"><a href = "javascript: void(0);" id="rss_logo" title = "Tout nos flux RSS (nouvelle fenêtre)"><img src="http://www.viarail.ca/misc/feed.png" alt="Tout nos flux RSS (nouvelle fenêtre)" /></a></div><div id="rss_popup" style="display:none;">
+  <div id="rss_popup_close">Fermer</div>
+  <div id="rss_text_block">
+    <div id="rss_title">
+      Abonnez-vous !    </div>
+    <div id="rss_feedlist">
+    <ul>
+              <li><a href="http://www.viarail.ca/fr/entertainment/rss" onclick="dcsMultiTrack('DCS.dcsuri', '/action.trk', 'WT.rss_f', 'Itunes - FR','WT.rss_ev','s');"> Divertissement</a></li>
+              <li><a href="http://www.viarail.ca/fr/whatshot_rss" onclick="dcsMultiTrack('DCS.dcsuri', '/action.trk', 'WT.rss_f', 'Whats Hot - FR','WT.rss_ev','s');"> Quoi de neuf à VIA Rail ?</a></li>
+              <li><a href="http://www.viarail.ca/fr/rss/feed/comparez-nos-tarifs" onclick="dcsMultiTrack('DCS.dcsuri', '/action.trk', 'WT.rss_f', 'Comparez nos tarifs - FR','WT.rss_ev','s');"> Comparez nos tarifs</a></li>
+              <li><a href="http://www.viarail.ca/fr/rss/feed/plan-dinvestissement" onclick="dcsMultiTrack('DCS.dcsuri', '/action.trk', 'WT.rss_f', 'Plan d\'investissement - FR','WT.rss_ev','s');"> Plan d'investissement</a></li>
+        </ul>
+    </div>
+  </div>
+</div>
+</div>
+ </div>
+
+                </div>
+				<div class="cb"></div>
+			</div>
+			<!-- /breadcrums -->
+
+            <!-- pre-content  -->
+            <div id="layout-precontent-container">
+				                <div class="cb"></div>
+            </div>
+            <!-- /pre-content  -->
+
+            <!-- content container -->
+            <div id="layout-content-container">
+
+                <!-- leftside -->
+                <div id="layout-leftside">								
+					  <div class="block block-reservia" id="block-reservia-0">
+    <h2 class="title"></h2>
+    <div class="content"><div class="reservia" id="reservia" onmouseover="reservia_activation_timer();" onmouseout="reservia_activation_timer_delete();">
+	<table class="tabs">
+		<tr>
+			<td class="tab tab-left tab-reservia tab-selected" id="reservia_books"><div class="cornersT">
+					<div class="corner cornerL"></div>
+					<div class="corner cornerR"></div>
+				</div>
+				<h2><a href="javascript:if(reservia_activated){stepcarousel.stepTo('form_slider', 1); onglet_swap(0);}" title="Train">Train</a></h2></td>
+			<td id="reservia_cars"><div class="tab tab-right tab-travelagent">
+					<h2><a href="http://www.viarail.ca/fr/tarifs/cartes-voyages" title="Passes (New window)" target="_blank">Passes</a></h2></div></td>
+			<td id="reservia_hotels"><div class="tab tab-right tab-travelagent">
+					<h2><a href="javascript:if(reservia_activated){stepcarousel.stepTo('form_slider', 3); onglet_swap(2);}" title="Hôtels">Hôtels</a></h2></div></td>
+			<td id="reservia_agent"><div class="tab tab-right tab-travelagent">
+					<h2><a href="https://agency.reservia.viarail.ca/agency/loginagency.aspx?l=fr" title="Portail des agences (Nouvelle fenêtre)" target="_blank">Agent de voyage</a></h2></div></td>
+		</tr>
+	</table>
+	<div class="forms">
+		<div class="cornersT">
+			<div class="corner cornerL" id="reservia_L_corner"></div>
+			<div class="corner cornerR" id="reservia_R_corner"></div>
+		</div>
+		<div id="divStation0select" class="selectFree">
+			<div class="listbox" id="divStation0" onclick="ListLostFocus('divStation0', 'cmbStationsFrom',2, event )"></div>
+		<!--[if IE 6]>
+            <iframe></iframe>
+        <![endif]-->
+		</div>
+		<div id="divStation1select" class="selectFree">
+			<div class="listbox" id="divStation1" onclick="ListLostFocus('divStation1', 'cmbStationsTo',2, event )"></div>
+		<!--[if IE 6]>
+            <iframe></iframe>
+        <![endif]-->
+		</div>
+		<div id="form_slider" class="stepcarousel">
+			<div class="belt">
+				<div class="panel">
+                <!-- -->
+					<form target="_blank" method="post" action="https://reservia.viarail.ca/search/setSearch.aspx?l=fr" onsubmit="return reservia_book_validation('fr')" id="form_reservia_trains" name="frmSearchMain"><fieldset><legend>Train</legend>
+						<div class="zone radios">
+                            <div style="display:inline;">
+									<div class="tdheaderreserviaS floatLeft"><input type="radio" name="rad_trip" value="round" checked="checked" onclick="changeTripRadio('round')" id="radio_round" /></div>
+										<div class="floatLeft centerV" onclick="document.frmSearchMain.rad_trip[0].checked = true; changeTripRadio('round');"><label for="radio_round" class="labelradios-fr">Aller-retour</label>&nbsp;</div>
+									<div class="tdheaderreserviaS floatLeft centerH centerV"><input type="radio" name="rad_trip" value="oneway" onclick="changeTripRadio('oneway')" id="radio_one" />
+									</div>
+									<div onclick="document.frmSearchMain.rad_trip[1].checked = true; changeTripRadio('oneway');" class="floatLeft" valign="middle" align="left"><label for="radio_one" class="labelradios-fr">Aller simple</label></div>
+									<div class="tdheaderreserviaS floatLeft centerH centerV"><input type="radio" name="rad_trip" value="on" onclick="document.location.href='https://reservia.viarail.ca/searchmulti.aspx?l=fr';" id="radio_multicity" title="Ouvre dans une nouvelle fenêtre" /></div>
+									<div class="floatLeft"><label for="radio_multicity" class="labelradios-fr" onclick="document.location.href='https://reservia.viarail.ca/searchmulti.aspx?l=fr';" title="Ouvre dans une nouvelle fenêtre">Multi-destinations</label></div>
+                                </div>
+						</div>
+												<div class="zone">
+							<label for="cmbStationsFrom" class="cmbStations">De:</label>
+                            <input onblur="InputLostFocus('divStation0', 'cmbStationsFrom',2)"
+                                   onclick="select();"
+                                   onkeypress="return KeyPress();"
+                                   onkeydown="KeyDownEv(this.value, event, 'divStation0', 'cmbStationsFrom',2)"
+                                   onkeyup="KeyUp(this.value, event, 'divStation0', 'depart','','')"
+                                   onfocus="ListOnFocus(this.value, 'divStation0',2,'depart','', 'cmbStationsFrom','')"
+                                   type="text" 
+                                   autocomplete="off" 
+                                   value="" 
+                                   id="cmbStationsFrom"
+                                   class="text"/>                                   
+							<input type="hidden" value="" name="cmbStationsFrom_value" id="cmbStationsFrom_value"/>
+						</div>
+					                            <div class="cb"></div>
+                        						<div class="zone">
+							<label for="cmbStationsTo" class="cmbStations">ì:</label>
+                            <input id="cmbStationsTo"
+                            	   class="text"
+                                   type="text" 
+                                   autocomplete="off" 
+                                   onblur="InputLostFocus('divStation1', 'cmbStationsTo',2)" 
+                                   onclick="select();" onkeypress="return KeyPress();"
+                                   onkeydown="KeyDownEv(this.value, event, 'divStation1', 'cmbStationsTo',2)" 
+                                   onkeyup="KeyUp(this.value, event, 'divStation1', 'arriving','','')" 
+                                   onfocus="ListOnFocus(this.value, 'divStation1',2,'arriving','', 'cmbStationsTo','')" 
+                                   value="" />
+							<input id="cmbStationsTo_value" type="hidden" value="" name="cmbStationsTo_value"/>
+						</div>
+						                        <div class="cb"></div>
+						<div id="reservia_wrapper" class="hidden">
+							<div class="zone">
+								<!--label class="cmbStations" for="cmbDateFrom" onclick="document.getElementById('cmbDateFrom').value='';">Date de départ :</label-->
+								<!--input type="text" autocomplete="off" class="date" id="cmbDateFrom" onblur="setTimeout('reservia_ajustement_date_min_retour()',500);" value="" onfocus="this.value='';"/-->
+								
+								<label class="cmbStations" for="cmbDateFrom" onclick="document.getElementById('cmbDateFrom').value='';">Date de départ :</label>
+								
+								<input type="text" autocomplete="off" class="date" id="cmbDateFrom" onchange="if (this.value==''){this.value='mm/jj/aaaa';} else{setTimeout('reservia_ajustement_date_min_retour()',500);}" value="mm/jj/aaaa" onfocus=""/>
+								<input type="hidden" name="cmbMonthsFrom" id="cmbMonthsFrom" value="" />
+								<input type="hidden" name="cmbDaysFrom" id="cmbDaysFrom" value="" />
+								<input type="hidden" name="cmbScheduleFrom" value="0" />
+								<label class="dateSummary full_label" labelFor="cmbDateFrom"></label>
+							</div>
+                            <div class="cb"></div>
+							<div class="zone" id="date_to">
+								<label class="cmbStations" for="cmbDateTo">Date de retour :</label>
+								<input type="text" autocomplete="off" value="mm/jj/aaaa" class="date" id="cmbDateTo" onchange="javascript:if(this.value.length==10) document.getElementById('ui-datepicker-div').style.display='none';document.getElementById('cmbNbAdults').focus();"/>
+								<input type="hidden" name="cmbMonthsTo" id="cmbMonthsTo" value="" />
+								<input type="hidden" name="cmbDaysTo" id="cmbDaysTo" value="" />
+								<input type="hidden" name="cmbScheduleTo" value="0" />
+							  <label class="dateSummary full_label" labelFor="cmbDateTo"></label>
+							</div>
+                            <div class="cb"></div>
+							<div class="zone" id="passengertype">
+                            	<div class="passengertypeArea">
+									<div class="passenger_type normalWidth floatLeft">
+                                    <label class="passengerClass" for="cmbNbAdults">Adulte<br/>(26-59)</label><div class="cb"></div>
+                                        <select name="cmbNbAdults" id="cmbNbAdults">
+                                                        <option value="0">0</option>
+                                                        <option value="1" selected="selected">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                        <option value="6">6</option>
+                                                    </select>
+									</div>
+									<div class="passenger_type normalWidth floatLeft"><label class="passengerClass" for="cmbNbSeniors">&nbsp;&nbsp;&nbsp;60+</label><br/>
+                                    	<br/><div class="cb"></div>
+                                    	<select name="cmbNbSeniors" id="cmbNbSeniors">
+                                                        <option value="0" selected="selected">0</option>
+                                                        <option value="1">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                        <option value="6">6</option>
+                                                    </select></div>
+									<div class="passenger_type normalWidth floatLeft"><label class="passengerClass" for="cmbNbYouths">&nbsp;Jeune<br/>(12-25)</label><br/><div class="cb"></div><select name="cmbNbYouths" id="cmbNbYouths">
+				                                                        <option value="0" selected="selected">0</option>
+				                                                        <option value="1">1</option>
+				                                                        <option value="2">2</option>
+				                                                        <option value="3">3</option>
+				                                                        <option value="4">4</option>
+				                                                        <option value="5">5</option>
+				                                                        <option value="6">6</option>
+				                                    </select></div>
+									<div class="passenger_type normalWidth floatLeft"><label class="passengerClass" for="cmbNbChilds">&nbsp;&nbsp;Enfant<br/>&nbsp;&nbsp;(2-11)</label><br/><div class="cb"></div><select name="cmbNbChilds" id="cmbNbChilds">
+                                                        <option value="0" selected="selected">0</option>
+                                                        <option value="1">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                        <option value="6">6</option>
+                                                    </select></div>
+									<div class="passenger_type normalWidth floatLeft"><label class="passengerClass" for="cmbNbInfants">&nbsp;&nbsp;Bébé</label><br/>
+                                    	<br/><div class="cb"></div><select name="cmbNbInfants" id="cmbNbInfants">
+                                                        <option value="0" selected="selected">0</option>
+                                                        <option value="1">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                        <option value="6">6</option>
+                                                    </select></div>
+
+								</div>
+								<div class="clearAll"> </div>
+							</div>
+						</div>
+						<div class="zone zonenopadding" style="display:inline">
+                        <div class="classDescriptionArea"><a href="https://reservia.viarail.ca/help/helptopic.aspx?t=PassengerDescription&id=Adult&l=fr" title="Type de voyageur (Ouvre dans une nouvelle fenêtre)" onclick="window.open(this.href, 'Adult', 'status = 1, height = 550, width = 350, resizable = 1, scrollbars=1');return false;" class="descriptionLnk">Type de voyageur</a></div>
+							<input type="submit" class="submit" value="Recherche" 
+                                onclick="dcsMultiTrack('DCS.dcsuri', '/action.trk', 'WT.action_category', 'call-to-action', 'WT.object', 'Block Reservia Trains', 'WT.action', 'Click', 'WT.action_location', 'http://www.viarail.ca/fr');"
+                                onkeydown="if (event.keyCode == 9) { $('#cityName').focus(); return false; }" />
+						</div></fieldset>
+					</form>
+					<br class="cb" />
+				</div>
+				<div class="panel">
+				</div>
+				<div class="panel">
+					<h3>Obtenez des rabais spéciaux pour votre séjour à l'hôtel</h3>
+					<form target="_blank" method="post" action="https://reservia.viarail.ca/expedia/ExpediaSearchBox.aspx?cmd=hotelsubmit" onsubmit="return reservia_hotels_validation('fr',0);" id="form_reservia_hotels"><fieldset><legend>Hôtels</legend>
+						<div class="zone">
+							<label class="noPadd" for="cityName">Recherchez des hôtels à </label>
+							<input type="text" class="text" name="cityName" id="cityName" />
+						</div>
+						<div class="zone">
+							<label for="StartMonth">Date d'arrivée</label>
+							<select name="StartMonth" id="StartMonth">
+								<option value="]">Mois</option>
+								<option value="1">janv</option>
+								<option value="2">févr</option>
+								<option value="3">mars</option>
+								<option value="4">avr</option>
+								<option value="5">Mai</option>
+								<option value="6">juin</option>
+								<option value="7">juil</option>
+								<option value="8">août</option>
+								<option value="9">sept</option>
+								<option value="10">oct</option>
+								<option value="11">nov</option>
+								<option value="12">déc</option>
+							</select>
+							<select name="StartDay" id="StartDay">
+								<option value="]">Jour</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="15">15</option>
+								<option value="16">16</option>
+								<option value="17">17</option>
+								<option value="18">18</option>
+								<option value="19">19</option>
+								<option value="20">20</option>
+								<option value="21">21</option>
+								<option value="22">22</option>
+								<option value="23">23</option>
+								<option value="24">24</option>
+								<option value="25">25</option>
+								<option value="26">26</option>
+								<option value="27">27</option>
+								<option value="28">28</option>
+								<option value="29">29</option>
+								<option value="30">30</option>
+								<option value="31">31</option>
+							</select>
+						</div>
+						<div class="zone">
+							<label class="noPadd" for="EndMonth">Date de départ </label>
+							<select name="EndMonth" id="EndMonth">
+								<option value="]">Mois</option>
+								<option value="1">janv</option>
+								<option value="2">févr</option>
+								<option value="3">mars</option>
+								<option value="4">avr</option>
+								<option value="5">Mai</option>
+								<option value="6">juin</option>
+								<option value="7">juil</option>
+								<option value="8">août</option>
+								<option value="9">sept</option>
+								<option value="10">oct</option>
+								<option value="11">nov</option>
+								<option value="12">déc</option>
+							</select>
+							<select name="EndDay" id="EndDay">
+								<option value="]">Jour</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="15">15</option>
+								<option value="16">16</option>
+								<option value="17">17</option>
+								<option value="18">18</option>
+								<option value="19">19</option>
+								<option value="20">20</option>
+								<option value="21">21</option>
+								<option value="22">22</option>
+								<option value="23">23</option>
+								<option value="24">24</option>
+								<option value="25">25</option>
+								<option value="26">26</option>
+								<option value="27">27</option>
+								<option value="28">28</option>
+								<option value="29">29</option>
+								<option value="30">30</option>
+								<option value="31">31</option>
+							</select>
+						</div>
+						<div class="zone">
+							<label for="SelectNumRoomHotel">Chambre(s)</label>
+							<select id="SelectNumRoomHotel" name="SelectNumRoomHotel">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+							</select>
+						</div>
+						<div class="zone">
+							<label for="SelectNumAdultRoom1">Adulte(s)</label>
+							<select id="SelectNumAdultRoom1" name="SelectNumAdultRoom1">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+							</select>
+						</div>
+						<div class="zone">
+							<label for="SelectNumChildRoom1">Enfants</label>
+							<select id="SelectNumChildRoom1" name="SelectNumChildRoom1">
+								<option value="0">0</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+							</select>
+						</div>
+						<div class="zoneBouton">
+							<input type="submit" class="submit" value="Recherche" 
+                                onclick="dcsMultiTrack('DCS.dcsuri', '/action.trk', 'WT.action_category', 'call-to-action', 'WT.object', 'Block Reservia Hotels', 'WT.action', 'Click', 'WT.action_location', 'http://www.viarail.ca/fr')" 
+                                onkeydown="if (event.keyCode == 9) { $('#cityName').focus(); return false; }" />
+						</div>
+						<div  class="zonelink"><a href="http://travel.wwte.ca/pubspec/scripts/eap.asp?GOTO=HOTLAUNCH&eapid=11522-30021&lang=3084">Plus d'options</a></div>
+						<div class="zone"><img src="http://www.viarail.ca/sites/all/themes/custom/viarail/images/expedia_ca.fr.gif" alt="Propulsé par Expedia.ca" /></div></fieldset>
+					</form>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<div id="reservia_status"> <a href="http://reservia.viarail.ca/tsi/tsiresult.aspx?l=fr&from=iframe" title=""><strong>Mises à jour des arrivées et départs</strong></a> </div>
+	<div id="cancel_booking"> <a href="https://reservia.viarail.ca/cancellation/request.aspx?l=fr" title="">Annuler votre réservation</a> </div>
+</div>
+<!--div id="reservia_debug"></div-->
+<!-- Age group tool tips -->
+<script type='text/javascript'>reservia_activation();</script></div>
+ </div>
+  <div class="block block-block" id="block-block-486">
+    <h2 class="title"></h2>
+    <div class="content"><p style="padding-bottom: 0pt; margin-bottom: 7px">
+	<a href="http://www.viapreference.com/fr/accueil" style="border-bottom: medium none; cursor: pointer" target="_blank" title="Voyagez gratuitement avec le Programme de récompense VIA Préférence"><img alt="Programme de récompense VIA Préférence" border="0" src="http://www.viarail.ca/sites/all/files/media/images/blocs/ViaPref_fr.jpg" /></a></p>
+</div>
+ </div>
+                                    </div>
+                <!-- /leftside -->
+
+                <!-- content -->
+                <div id="layout-content" class="layout-content-center">
+                        	
+                    <!-- messages -->
+                    <div>
+						                    </div>
+                    <!-- /messages -->
+                        
+                    <!-- content row 1 -->
+                    <div id="content-row1" >
+						  <div class="block block-whatshot" id="block-whatshot-0">
+    <h2 class="title"></h2>
+    <div class="content"><div id="new_whats_hot">
+    <div class="header header-image-fr"></div>
+    <div class="content clearfix">
+        <h1>Quoi de neuf ? Des offres saisissantes taillées sur mesure.</h1>
+        <div class="preview">
+            <div class="item" style=" " id="Item_teaser_0">
+                    <div class="hotMediumImage">
+                        <a href="http://www.viarail.ca/fr/temps-des-fetes" title="Voir tous les détails de l'offre" onmousedown="_gaq.push(['_trackEvent', 'WhatsHot', '2011-Q1-LongHauls-Ouest-FR', 'Clic']);" class="adview" id="2011-Q1 Longhauls Ouest FR">
+                            <img src="http://www.viarail.ca/sites/all/files/media/images/whatshot/344x166_whatsHot_1.jpg" title="Voir tous les détails de l'offre" alt="Réservez maintenant pour les Fêtes!" />
+                        </a>
+                    </div>
+                    <div class="hotTextLeft" style="position:relative">
+                        <h2><a class="adview" id="2011-Q1 Longhauls Ouest FR" style="position:absolute;width:330px;height:64px;" href="http://www.viarail.ca/fr/temps-des-fetes" title="Voir tous les détails de l'offre" onmousedown="_gaq.push(['_trackEvent', 'WhatsHot', '2011-Q1-LongHauls-Ouest-FR', 'Clic']);">Réservez maintenant pour les Fêtes!</a></h2>
+                        <br />
+						<p>Quelle que soit votre destination, voyagez à bon prix vers le plaisir du temps des Fêtes.</p>
+                    </div>
+                <div class="hotTextLeftBottom">
+                    <div class="RSS"><a href="http://www.viarail.ca/fr/whatshot_rss" title="Abonnez-vous au Fil RSS des offres en cours (Nouvelle fenêtre)"><img src="http://www.viarail.ca/sites/all/themes/custom/viarail/images/rss.png" target="_blank" alt="" /></a></div>
+                </div> 
+            </div>
+            <div class="item" style=" display: none;" id="Item_teaser_1">
+                    <div class="hotMediumImage">
+                        <a href="http://www.viarail.ca/fr/classeaffaires" title="Voir tous les détails de l'offre" onmousedown="_gaq.push(['_trackEvent', 'WhatsHot', '2011 - Q3 Corridor Business - FR', 'Clic']);" class="adview" id="2011 - Q3 Corridor Business - FR">
+                            <img src="http://www.viarail.ca/sites/all/files/media/images/whatshot/whatshot_Q3_344x166_0.jpg" title="Voir tous les détails de l'offre" alt="Classe Affaires VIA Rail" />
+                        </a>
+                    </div>
+                    <div class="hotTextLeft" style="position:relative">
+                        <h2><a class="adview" id="2011 - Q3 Corridor Business - FR" style="position:absolute;width:330px;height:64px;" href="http://www.viarail.ca/fr/classeaffaires" title="Voir tous les détails de l'offre" onmousedown="_gaq.push(['_trackEvent', 'WhatsHot', '2011 - Q3 Corridor Business - FR', 'Clic']);">Connectés sur votre monde</a></h2>
+                        <br />
+						<p>Montez à bord de la classe Affaires de VIA Rail et découvrez ses nombreux avantages.
+</p>
+                    </div>
+                <div class="hotTextLeftBottom">
+                    <div class="RSS"><a href="http://www.viarail.ca/fr/whatshot_rss" title="Abonnez-vous au Fil RSS des offres en cours (Nouvelle fenêtre)"><img src="http://www.viarail.ca/sites/all/themes/custom/viarail/images/rss.png" target="_blank" alt="" /></a></div>
+                </div> 
+            </div>
+            <div class="item" style=" display: none;" id="Item_teaser_2">
+                    <div class="hotMediumImage">
+                        <a href="http://www.viarail.ca/fr/promo_tasse_cafe" title="Voir tous les détails de l'offre" onmousedown="_gaq.push(['_trackEvent', 'WhatsHot', '2011 - Q2 Coffee Mug - FR', 'Clic']);" class="adview" id="2011 - Q2 Coffee Mug - FR">
+                            <img src="http://www.viarail.ca/sites/all/files/media/images/whatshot/wh-mug-big_0.jpg" title="Voir tous les détails de l'offre" alt="Tasse Via Rail" />
+                        </a>
+                    </div>
+                    <div class="hotTextLeft" style="position:relative">
+                        <h2><a class="adview" id="2011 - Q2 Coffee Mug - FR" style="position:absolute;width:330px;height:64px;" href="http://www.viarail.ca/fr/promo_tasse_cafe" title="Voir tous les détails de l'offre" onmousedown="_gaq.push(['_trackEvent', 'WhatsHot', '2011 - Q2 Coffee Mug - FR', 'Clic']);">En novembre, le café est à volonté.</a></h2>
+                        <br />
+						<p>Pendant tout le mois de novembre, achetez votre tasse VIA Rail pour 8 $ et obtenez le café à volonté à bord du train.</p>
+                    </div>
+                <div class="hotTextLeftBottom">
+                    <div class="RSS"><a href="http://www.viarail.ca/fr/whatshot_rss" title="Abonnez-vous au Fil RSS des offres en cours (Nouvelle fenêtre)"><img src="http://www.viarail.ca/sites/all/themes/custom/viarail/images/rss.png" target="_blank" alt="" /></a></div>
+                </div> 
+            </div>
+            <div class="item" style=" display: none;" id="Item_teaser_3">
+                    <div class="hotMediumImage">
+                        <a href="http://www.viarail.ca/fr/repas-inclus-ocean" title="Voir tous les détails de l'offre" class="adview" id="2010-Q4meals-FR">
+                            <img src="http://www.viarail.ca/sites/all/files/media/images/whatshot/wh_ocean_0_0.jpg" title="Voir tous les détails de l'offre" alt="Pour les Fêtes � repas inclus à bord de l'Océan" />
+                        </a>
+                    </div>
+                    <div class="hotTextLeft" style="position:relative">
+                        <h2><a class="adview" id="2010-Q4meals-FR" style="position:absolute;width:330px;height:64px;" href="http://www.viarail.ca/fr/repas-inclus-ocean" title="Voir tous les détails de l'offre">Pour les Fêtes � repas inclus à bord de l'Océan</a></h2>
+                        <br />
+						<p>Voyagez entre le 17 décembre 2011 et le 6 janvier 2012 en classe Voiture-lits Plus de l'Océan � repas et plus inclus!</p>
+                    </div>
+                <div class="hotTextLeftBottom">
+                    <div class="RSS"><a href="http://www.viarail.ca/fr/whatshot_rss" title="Abonnez-vous au Fil RSS des offres en cours (Nouvelle fenêtre)"><img src="http://www.viarail.ca/sites/all/themes/custom/viarail/images/rss.png" target="_blank" alt="" /></a></div>
+                </div> 
+            </div>
+            <div class="item" style=" display: none;" id="Item_teaser_4">
+                    <div class="hotMediumImage">
+                        <a href="http://souvenirs.viarail.ca/index.cfm?language=fr" title="Voir tous les détails de l'offre">
+                            <img src="http://www.viarail.ca/sites/all/files/media/images/whatshot/344x166_WhatsHot_SouvenirNoel_0.jpg" title="Voir tous les détails de l'offre" alt="Idées-cadeaux pour les Fêtes!" />
+                        </a>
+                    </div>
+                    <div class="hotTextLeft" style="position:relative">
+                        <h2><a style="position:absolute;width:330px;height:64px;" href="http://souvenirs.viarail.ca/index.cfm?language=fr" title="Voir tous les détails de l'offre">Idées-cadeaux pour les Fêtes!</a></h2>
+                        <br />
+						<p>Découvrez toute la collection d�"articles souvenirs.</p>
+                    </div>
+                <div class="hotTextLeftBottom">
+                    <div class="RSS"><a href="http://www.viarail.ca/fr/whatshot_rss" title="Abonnez-vous au Fil RSS des offres en cours (Nouvelle fenêtre)"><img src="http://www.viarail.ca/sites/all/themes/custom/viarail/images/rss.png" target="_blank" alt="" /></a></div>
+                </div> 
+            </div>
+            <div class="item" style=" display: none;" id="Item_teaser_5">
+                    <div class="hotMediumImage">
+                        <a href="http://www.viarail.ca/fr/offres-train-auto/montreal" title="Voir tous les détails de l'offre">
+                            <img src="http://www.viarail.ca/sites/all/files/media/images/whatshot/train_car_offer_344x166_1.jpg" title="Voir tous les détails de l'offre" alt="Train + Auto " />
+                        </a>
+                    </div>
+                    <div class="hotTextLeft" style="position:relative">
+                        <h2><a style="position:absolute;width:330px;height:64px;" href="http://www.viarail.ca/fr/offres-train-auto/montreal" title="Voir tous les détails de l'offre">Découvrez nos offres Train + Auto</a></h2>
+                        <br />
+						<p>Maintenant proposées dans 5 villes au Canada!  </p>
+                    </div>
+                <div class="hotTextLeftBottom">
+                    <div class="RSS"><a href="http://www.viarail.ca/fr/whatshot_rss" title="Abonnez-vous au Fil RSS des offres en cours (Nouvelle fenêtre)"><img src="http://www.viarail.ca/sites/all/themes/custom/viarail/images/rss.png" target="_blank" alt="" /></a></div>
+                </div> 
+            </div>
+            <div class="item" style=" display: none;" id="Item_teaser_6">
+                    <div class="hotMediumImage">
+                        <a href="http://www.forfaitsentrain.ca/fr/forfaits/saisons?thumb=getaways" title="Voir tous les détails de l'offre" onmousedown="_gaq.push(['_trackEvent', 'WhatsHot', 'FR-Escapades-2011', 'Clic']);" class="adview" id="2011 - Q1 Escapades - FR">
+                            <img src="http://www.viarail.ca/sites/all/files/media/images/whatshot/Couple_Winter_Getaway_344x166.jpg" title="Voir tous les détails de l'offre" alt="Escapades en Ontario et au Québec" />
+                        </a>
+                    </div>
+                    <div class="hotTextLeft" style="position:relative">
+                        <h2><a class="adview" id="2011 - Q1 Escapades - FR" style="position:absolute;width:330px;height:64px;" href="http://www.forfaitsentrain.ca/fr/forfaits/saisons?thumb=getaways" title="Voir tous les détails de l'offre" onmousedown="_gaq.push(['_trackEvent', 'WhatsHot', 'FR-Escapades-2011', 'Clic']);">Escapades en Ontario et au Québec</a></h2>
+                        <br />
+						<p>Découvrez les plus belles villes de l�"Ontario et du Québec à votre façon, grâce à nos forfaits train-hôtel-activité.</p>
+                    </div>
+                <div class="hotTextLeftBottom">
+                    <div class="RSS"><a href="http://www.viarail.ca/fr/whatshot_rss" title="Abonnez-vous au Fil RSS des offres en cours (Nouvelle fenêtre)"><img src="http://www.viarail.ca/sites/all/themes/custom/viarail/images/rss.png" target="_blank" alt="" /></a></div>
+                </div> 
+            </div>
+            <div class="item" style=" display: none;" id="Item_teaser_7">
+                    <div class="hotMediumImage">
+                        <a href="http://www.viarail.ca/fr/cartecadeau" title="Voir tous les détails de l'offre" class="adview" id="2010-Q4 GiftCard FR">
+                            <img src="http://www.viarail.ca/sites/all/files/media/images/whatshot/giftcard_344x166_1.jpg" title="Voir tous les détails de l'offre" alt="Offrez le plaisir de voyager avec une carte-cadeau" />
+                        </a>
+                    </div>
+                    <div class="hotTextLeft" style="position:relative">
+                        <h2><a class="adview" id="2010-Q4 GiftCard FR" style="position:absolute;width:330px;height:64px;" href="http://www.viarail.ca/fr/cartecadeau" title="Voir tous les détails de l'offre">Offrez le plaisir du voyage avec une carte-cadeau</a></h2>
+                        <br />
+						<p>Cadeau idéal pour grands voyageurs, la carte-cadeau VIA Rail propose en plus des milles de récompenses AIR MILES.</p>
+                    </div>
+                <div class="hotTextLeftBottom">
+                    <div class="RSS"><a href="http://www.viarail.ca/fr/whatshot_rss" title="Abonnez-vous au Fil RSS des offres en cours (Nouvelle fenêtre)"><img src="http://www.viarail.ca/sites/all/themes/custom/viarail/images/rss.png" target="_blank" alt="" /></a></div>
+                </div> 
+            </div>
+        </div>
+        <div class="listing">
+            <ul id="page1" style="">
+			<li style="position:relative" id="item1" data-timeout="30" class="selectedItem">
+				<div class="teaser"><a style="padding-top:10px; position:absolute;top:0px;width:85px;height:56px" href="javascript:void(0);" onclick="afficheNouvelle(1);" title="Plus de détail sur l'offre : Réservez maintenant pour les Fêtes!">Le temps de réserver! </a></div>
+				<div class="thumb" style="background-image:url('http://www.viarail.ca/sites/all/files/media/images/whatshot/72x54_whatsHot_1.jpg'); background-position:left 8px; background-repeat:no-repeat"><a href="javascript:void(0);" onclick="afficheNouvelle(1);" title="Plus de détail sur l'offre : Réservez maintenant pour les Fêtes!"><img src="http://www.viarail.ca/sites/all/themes/custom/viarail/images/spacer.gif" alt="" style="width:72px; height:54px;" /></a></div>
+			</li>
+			<li style="position:relative" id="item2" data-timeout="30" class="notSelectedItem">
+				<div class="teaser"><a style="padding-top:10px; position:absolute;top:0px;width:85px;height:56px" href="javascript:void(0);" onclick="afficheNouvelle(2);" title="Plus de détail sur l'offre : Connectés sur votre monde">Classe Affaires VIA Rail</a></div>
+				<div class="thumb" style="background-image:url('http://www.viarail.ca/sites/all/files/media/images/whatshot/whatshot_Q3_72x54_0.jpg'); background-position:left 8px; background-repeat:no-repeat"><a href="javascript:void(0);" onclick="afficheNouvelle(2);" title="Plus de détail sur l'offre : Connectés sur votre monde"><img src="http://www.viarail.ca/sites/all/themes/custom/viarail/images/spacer.gif" alt="" style="width:72px; height:54px;" /></a></div>
+			</li>
+			<li style="position:relative" id="item3" data-timeout="30" class="notSelectedItem">
+				<div class="teaser"><a style="padding-top:10px; position:absolute;top:0px;width:85px;height:56px" href="javascript:void(0);" onclick="afficheNouvelle(3);" title="Plus de détail sur l'offre : En novembre, le café est à volonté.">Café gratuit!</a></div>
+				<div class="thumb" style="background-image:url('http://www.viarail.ca/sites/all/files/media/images/whatshot/wh-mug-small.jpg'); background-position:left 8px; background-repeat:no-repeat"><a href="javascript:void(0);" onclick="afficheNouvelle(3);" title="Plus de détail sur l'offre : En novembre, le café est à volonté."><img src="http://www.viarail.ca/sites/all/themes/custom/viarail/images/spacer.gif" alt="" style="width:72px; height:54px;" /></a></div>
+			</li>
+            </ul>       
+            <ul id="page2" style="display: none;">
+			<li style="position:relative" id="item4" data-timeout="30" class="notSelectedItem">
+				<div class="teaser"><a style="padding-top:10px; position:absolute;top:0px;width:85px;height:56px" href="javascript:void(0);" onclick="afficheNouvelle(4);" title="Plus de détail sur l'offre : Pour les Fêtes � repas inclus à bord de l'Océan">Repas à bord de l'Océan</a></div>
+				<div class="thumb" style="background-image:url('http://www.viarail.ca/sites/all/files/media/images/whatshot/wh_ocean_small_0_0.jpg'); background-position:left 8px; background-repeat:no-repeat"><a href="javascript:void(0);" onclick="afficheNouvelle(4);" title="Plus de détail sur l'offre : Pour les Fêtes � repas inclus à bord de l'Océan"><img src="http://www.viarail.ca/sites/all/themes/custom/viarail/images/spacer.gif" alt="" style="width:72px; height:54px;" /></a></div>
+			</li>
+			<li style="position:relative" id="item5" data-timeout="30" class="notSelectedItem">
+				<div class="teaser"><a style="padding-top:10px; position:absolute;top:0px;width:85px;height:56px" href="javascript:void(0);" onclick="afficheNouvelle(5);" title="Plus de détail sur l'offre : Idées-cadeaux pour les Fêtes!">Idées-cadeaux </a></div>
+				<div class="thumb" style="background-image:url('http://www.viarail.ca/sites/all/files/media/images/whatshot/72x54_WhatsHot_SouvenirNoel_0.jpg'); background-position:left 8px; background-repeat:no-repeat"><a href="javascript:void(0);" onclick="afficheNouvelle(5);" title="Plus de détail sur l'offre : Idées-cadeaux pour les Fêtes!"><img src="http://www.viarail.ca/sites/all/themes/custom/viarail/images/spacer.gif" alt="" style="width:72px; height:54px;" /></a></div>
+			</li>
+			<li style="position:relative" id="item6" data-timeout="30" class="notSelectedItem">
+				<div class="teaser"><a style="padding-top:10px; position:absolute;top:0px;width:85px;height:56px" href="javascript:void(0);" onclick="afficheNouvelle(6);" title="Plus de détail sur l'offre : Découvrez nos offres Train + Auto">Train + Auto </a></div>
+				<div class="thumb" style="background-image:url('http://www.viarail.ca/sites/all/files/media/images/whatshot/train_car_offer_72x54_1.jpg'); background-position:left 8px; background-repeat:no-repeat"><a href="javascript:void(0);" onclick="afficheNouvelle(6);" title="Plus de détail sur l'offre : Découvrez nos offres Train + Auto"><img src="http://www.viarail.ca/sites/all/themes/custom/viarail/images/spacer.gif" alt="" style="width:72px; height:54px;" /></a></div>
+			</li>
+            </ul>       
+            <ul id="page3" style="display: none;">
+			<li style="position:relative" id="item7" data-timeout="30" class="notSelectedItem">
+				<div class="teaser"><a style="padding-top:10px; position:absolute;top:0px;width:85px;height:56px" href="javascript:void(0);" onclick="afficheNouvelle(7);" title="Plus de détail sur l'offre : Escapades en Ontario et au Québec">Escapades VIA</a></div>
+				<div class="thumb" style="background-image:url('http://www.viarail.ca/sites/all/files/media/images/whatshot/Couple_Winter_Getaway_72x54.jpg'); background-position:left 8px; background-repeat:no-repeat"><a href="javascript:void(0);" onclick="afficheNouvelle(7);" title="Plus de détail sur l'offre : Escapades en Ontario et au Québec"><img src="http://www.viarail.ca/sites/all/themes/custom/viarail/images/spacer.gif" alt="" style="width:72px; height:54px;" /></a></div>
+			</li>
+			<li style="position:relative" id="item8" data-timeout="30" class="notSelectedItem">
+				<div class="teaser"><a style="padding-top:10px; position:absolute;top:0px;width:85px;height:56px" href="javascript:void(0);" onclick="afficheNouvelle(8);" title="Plus de détail sur l'offre : Offrez le plaisir du voyage avec une carte-cadeau">Des fêtes à la carte!  </a></div>
+				<div class="thumb" style="background-image:url('http://www.viarail.ca/sites/all/files/media/images/whatshot/giftcard_72x54_2.jpg'); background-position:left 8px; background-repeat:no-repeat"><a href="javascript:void(0);" onclick="afficheNouvelle(8);" title="Plus de détail sur l'offre : Offrez le plaisir du voyage avec une carte-cadeau"><img src="http://www.viarail.ca/sites/all/themes/custom/viarail/images/spacer.gif" alt="" style="width:72px; height:54px;" /></a></div>
+			</li>
+			</ul>
+        </div>
+        <div class="pagination">
+            <div class="separ">&nbsp;</div>
+            <div class="allHotDeals"><a href="http://www.viarail.ca/fr/quoideneuf" class="allHotDeals" title="Consultez toutes les offres actuelles">Toutes les offres</a></div>
+            <div id="paginationContainer1" class="pageBleue" style="float:left; width:30px; font-size:165%; text-align:center;"><a id="pagination1" href="javascript:void(0)" onclick="affichePage(1);" title="Consultez les offres (page 1)">1</a></div>
+            <div id="paginationContainer2" class="page" style="float:left; width:30px; font-size:165%; text-align:center;"><a id="pagination2" href="javascript:void(0)" onclick="affichePage(2);" title="Consultez les offres (page 2)">2</a></div>
+            <div id="paginationContainer3" class="page" style="float:left; width:30px; font-size:165%; text-align:center;"><a id="pagination3" href="javascript:void(0)" onclick="affichePage(3);" title="Consultez les offres (page 3)">3</a></div>
+        
+        </div>
+    </div>
+</div>
+
+</div>
+ </div>
+<div class="block block-block" id="block-block-473">
+    <div class="custom-block-template SilvernoTitle">
+        <div class="cornersT">
+            <div class="corner cornerL"></div>
+            <div class="corner cornerR"></div>
+        </div>
+        <div class="body">
+            <div class="content"><style type="text/css">
+div.bloc_video_left {width:236px; float:left;}
+	div.bloc_video_right {width:282px; float:left;}
+	div.bloc_video_left img {cursor:pointer;}
+	.bloc_video_right h2 {text-transform:uppercase !important; text-align:left !important; margin-top:0 !important; padding:0 0 20px 0 !important;}
+	.bloc_video_right p {margin-bottom:35px !important;}
+	
+	#transp_video_container {width:100%; height:100%; z-index:1000; background:url(/sites/all/files/media/images/landing-pages/2011/Q1/img/transp_video.png) 0 0 repeat; position:fixed; top:0; left:0; display:none; }
+	#video_container {width:720px; height:512px; text-align:center; background:#FFFFFF; z-index:1100; position:fixed; top: 15%; display:none;}
+	#video_container object, #video_container embed {margin-top:25px;}
+	.close_video {width:100%; text-align:right;}
+	.close_video img {margin:10px 10px 0 0; cursor:pointer;}</style>
+<div class="bloc_video_left">
+	<img alt="" height="142" src="http://www.viarail.ca/sites/all/files/media/images/landing-pages/2011/Q1/img/video_front.jpg" width="226" /></div>
+<div class="bloc_video_right">
+	<h2>
+		D&eacute;couvrez pourquoi vous &ecirc;tes en affaires &agrave; bord du train</h2>
+	<p>
+		Faites un tour d&rsquo;une minute &agrave; bord de la classe Affaires de VIA Rail et d&eacute;couvrez qui pr&eacute;f&egrave;re voyager en train.</p>
+	<a href="http://www.viarail.ca/fr/videos/">Visionnez toutes les vid&eacute;os</a></div>
+<div style="clear:both; line-height:1px;">
+	&nbsp;</div>
+<script>
+	function diapoCenter() { //Create a function that center the Slideshow
+		var windowWidth = $(window).width(); //Get the width of the window
+		var windowWithoutDiapo = windowWidth - 720; 
+		var positionLeft = windowWithoutDiapo/2;	
+		$("#video_container").css({ 'left' : positionLeft}); //Set exact width of row in pixels instead of using % - Prevents cross-browser bugs that appear in certain view port resolutions.
+	}
+	
+	$(document).ready(function(e) {
+		
+		var divVideo = '<div id="wrapper_video_ie7"><div id="transp_video_container"></div><div id="video_container"><div class="close_video"><img src="http://www.viarail.ca/sites/all/files/media/images/landing-pages/2011/Q1/img/close_video.jpg" width="13" height="14" /></div><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="412" width="620"><param name="quality" value="high" /><param name="wmode" value="opaque" /><param name="movie" value="/sites/all/files/media/images/landing-pages/2011/Q1/video/via_FR.swf" /><embed height="412" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="http://www.viarail.ca/sites/all/files/media/images/landing-pages/2011/Q1/video/via_FR.swf" type="application/x-shockwave-flash" width="620" wmode="opaque"></embed></object></div></div>';
+		
+		$('.bloc_video_left img').click(function(){
+			$('#layout-rightside').after(divVideo);
+			$('#transp_video_container').fadeIn('normal');
+			$('#video_container').fadeIn('slow', callback);
+			
+			diapoCenter();
+		
+			$(window).resize(function () { //Each time the window is adjusted/resized, execute the function
+				diapoCenter();
+			});
+		});
+		
+		function callback(){
+			$('#transp_video_container').click(function(){
+				$('#video_container').fadeOut();
+				$('#transp_video_container').fadeOut();
+			});
+			
+			$('.close_video img').click(function(){
+				$('#video_container').fadeOut();
+				$('#transp_video_container').fadeOut();
+			});
+		}
+	});
+	
+</script> </div>
+        </div>
+        <div class="cornersB">
+            <div class="corner cornerL"></div>
+            <div class="corner cornerR"></div>
+        </div>
+    </div>
+</div>                    </div>
+                    <!-- /content row 1 -->
+                            
+                    <!-- content row 2 -->                    
+                                        <div id="content-row2" >
+                        <div class="layout-row-left"></div>
+                        <div class="layout-row-right">  <div class="block block-rss" id="block-rss-1">
+    <h2 class="title"></h2>
+    <div class="content"><div id="rss_node" style="float: right; margin-left: 3px; margin-right: 3px; margin-top: 2px;"></div></div>
+ </div>
+</div>
+                        <div class="cb"></div>
+                    </div>
+                                        <!-- /content row 2 -->
+                           
+				    <div class="tabs"></div>
+
+							
+                    <!-- content row 3 -->
+                    <div id="content-row3" class="dn">
+						                        <div class="cb"></div>
+                    </div>
+                    <!-- /content row 3 -->
+                            
+                    <!-- main content -->
+                    <div id="layout-main-content">
+						                                                                                            </div>
+                    <!-- /main content -->
+                            
+                    <!-- content row 4 -->
+                    <div id="content-row4" class="dn">
+						                    </div>
+                    <!-- /content row 4 -->
+                            
+                    <!-- content row 5 -->
+                    <div id="content-row5" class="dn">
+                        <div class="layout-row-left"></div>
+                        <div class="layout-row-right"></div>
+                        <div class="cb"></div>
+                    </div>
+                    <!-- /content row 5 -->
+                            
+                    <!-- content row 6 -->
+                    <div id="content-row6" class="dn">
+						                    </div>
+                    <!-- /content row 6 -->
+                            
+                </div>
+                <!-- /content -->
+                        
+                <!-- rightside -->
+                <div id="layout-rightside">  <div class="block block-block" id="block-block-439">
+    <h2 class="title"></h2>
+    <div class="content"><style type="text/css">
+#socialbuttons {margin-top:2px; padding:2px 0px; font-weight:bold; text-transform:uppercase; text-align:center; background:url(/images/component_bg_e5e5e5.gif) left top repeat-x; border:none;}
+#socialbuttons span {padding-right:5px;}
+#socialbuttons img {vertical-align:middle;}</style>
+<div id="socialbuttons">
+	<span>Suivez-nous</span> <a href="http://www.facebook.com/viarailcanada"><img alt="Devenez fan sur Facebook" border="0" src="http://www.viarail.ca/sites/all/files/media/images/blocs/facebook_logo.jpg" style="width: 23px; height: 24px" /></a> <a href="http://www.twitter.com/VIA_Rail"><img alt="Suivez-nous sur Twitter" border="0" src="http://www.viarail.ca/sites/all/files/media/images/blocs/twitter_logo.jpg" style="width: 25px; height: 25px" /></a></div>
+</div>
+ </div>
+  <div class="block block-flashmap" id="block-flashmap-0">
+    <h2 class="title"></h2>
+    <div class="content"><div class="block block-" id="block--">
+	<div class="custom-block-template custom4">
+		<div class="cornersT">
+			<div class="corner cornerL"></div>
+			<div class="corner cornerR"></div>
+		</div>
+		<div class="body">
+			<div class="content">
+				<!--?php $fwidth = 190; ?-->
+                <!--?php include($_SERVER['DOCUMENT_ROOT'] . '/sites/all/modules/custom/flashmap/flash.php') ?-->
+                <a href="javascript:centerPopup('popupContact');loadPopup('popupContact');" title="Utilise Flash (nouvelle fenêtre)">
+                    <img id="flash_map_popup" width="200px" src="http://www.viarail.ca/sites/all/modules/custom/flashmap/img/map_small.gif" alt="Grande version de la carte du Canada" />
+                </a>
+            </div>
+	    </div>
+	    <div class="cornersB">
+		    <div class="corner cornerL"></div>
+		    <div class="corner cornerR"></div>
+	    </div>
+    </div>
+</div>
+</div>
+ </div>
+  <div class="block block-block" id="block-block-478">
+    <h2 class="title"></h2>
+    <div class="content"><style type="text/css">
+h3#mobile_version { margin-bottom: 10px; cursor: pointer; }
+        a#link_mobile_version { display: block; width:125px; height:70px; background:url(/sites/all/files/media/images/landing-pages/2011/Q1/img/bg_mobile_classeaffaire.jpg) 0 0 no-repeat; color:#fff; padding: 14px 0 0 75px;  font-weight:normal; line-height:14px; }
+        a#link_mobile_version:hover {border-bottom:0px !important;}
+        a#link_mobile_version span { text-transform: uppercase; }
+        a#link_mobile_version span.font_plus {font-size:13px;}</style>
+<h3 id="mobile_version">
+	<a href="http://m.viarail.ca/en" id="link_mobile_version"> Voir la<br />
+	<span class="font_plus">version mobile</span><br />
+	de notre page<br />
+	<span>classe Affaires</span>. </a></h3>
+</div>
+ </div>
+  <div class="block block-block" id="block-block-419">
+    <h2 class="title"></h2>
+    <div class="content"><style type="text/css">
+
+a.rodrigo:hover {text-decoration: underline; color: white;}
+
+</style>
+
+<p style="padding-bottom: 0pt; margin-bottom: 7px">
+	<a class="rodrigo" href="http://www.viarail.ca/fr/aubaines" style="border-bottom: medium none" title="Trouver une aubaine"><img alt="AUBAINES EXPRESS : JUSQU'ì 75% DE RABAIS" border="0" src="http://www.viarail.ca/sites/all/files/media/images/blocs/bloc_expressdeals_fr.gif" /></a></p>
+</div>
+ </div>
+  <div class="block block-block" id="block-block-481">
+    <h2 class="title"></h2>
+    <div class="content"><style type="text/css">
+div.via_reset a { display: block; background:url(/sites/all/files/media/images/blocs/bg_bloc_transformation_fr.jpg) 0 0 no-repeat; width:200px; height:103px; text-align:center; font-size:11px; padding: 36px 0 0; }
+    div#layout-rightside div.via_reset a:hover { border: 0 !important; }
+    div.via_reset a span { display: block; }
+    div.via_reset a .big { font-size: 16px; font-weight:bold; margin-bottom: 6px; }</style>
+<div class="via_reset">
+	<a href="http://www.viarail.ca/fr/a-propos-de-via/plan-dinvestissement"><span class="big">Un milliard de transformations &agrave; VIA</span> <span>En savoir plus</span> </a></div>
+<div id="-chrome-auto-translate-plugin-dialog" style="z-index: 999999 !important; position: absolute !important; text-align: left !important; padding-bottom: 0px !important; margin: 0px; padding-left: 0px !important; padding-right: 0px !important; display: none; background: none transparent scroll repeat 0% 0%; overflow: visible !important; top: 0px; padding-top: 0px !important; left: 0px; opacity: 1">
+	<div style="z-index: 999999 !important; border-bottom-color: #000000 !important; text-align: left !important; padding-bottom: 8px !important; border-right-width: 0px !important; background-color: #363636 !important; border-top-color: #000000 !important; padding-left: 8px !important; padding-right: 8px !important; max-width: 300px !important; border-top-width: 0px !important; border-bottom-width: 0px !important; color: #fafafa !important; border-right-color: #000000 !important; font-size: 16px !important; overflow: visible !important; border-left-color: #000000 !important; border-left-width: 0px !important; padding-top: 8px !important; opacity: 0.8; -webkit-border-radius: 10px">
+		<div class="translate">
+			&nbsp;</div>
+		<div class="additional">
+			&nbsp;</div>
+	</div>
+	<img onclick="document.location.href='http://translate.google.com/';" src="http://www.google.com/uds/css/small-logo.png" style="z-index: -1 !important; position: absolute !important; padding-bottom: 0px !important; margin: 0px; padding-left: 5px !important; padding-right: 5px !important; top: -20px !important; cursor: pointer !important; right: 1px !important; padding-top: 3px !important; -webkit-border-radius: 20px" /></div>
+</div>
+ </div>
+</div>
+                <!-- /rightside -->
+                        
+                <div class="cb"></div>
+                <!-- /content container -->
+            
+                <!-- footer -->
+                <div id="layout-footer">
+                      <div class="block block-block" id="block-block-53">
+    <h2 class="title"></h2>
+    <div class="content"><div id="layout-inner-footer">
+	<div class="layout-row-left">
+		&nbsp;<a href="http://www.viarail.ca/fr/affaires" title="Affaires">Affaires</a> &nbsp; <a href="http://www.viarail.ca/fr/familles" title="Familles">Familles</a> &nbsp; <a href="http://www.viarail.ca/fr/60-et-plus" title="60+">60+</a></div>
+	<div class="layout-row-right">
+		<a href="http://www.viarail.ca/fr/a-propos-de-via/medias" style="color: rgb(114,91,60)" title="Médias">M&eacute;dias</a> &nbsp;<a href="http://www.viarail.ca/fr/sitemap" style="color: rgb(114,91,60)" title="Carte du site">Carte du site</a> &nbsp; <a href="http://www.viarail.ca/fr/a-propos-de-via/carrieres" style="color: rgb(114,91,60)" title="Carrières">Carri&egrave;res</a> &nbsp; <a href="http://www.viarail.ca/fr/nous-joindre" style="color: rgb(114,91,60)" title="Nous joindre">Nous joindre</a></div>
+	<div class="cb">
+		&nbsp;</div>
+</div>
+<div>
+	<div class="layout-row-left">
+		1995 - 2011 VIA Rail Canada <abbr title="Incorporé">inc</abbr>.</div>
+	<div class="layout-row-right">
+		<a href="http://www.viarail.ca/fr/respect-de-votre-vie-privee" style="color: rgb(114,91,60)" title="Respect de votre vie privée">Respect de votre vie priv&eacute;e</a></div>
+	<div class="cb">
+		&nbsp;</div>
+</div>
+</div>
+ </div>
+                </div>
+                <!-- /footer -->
+            </div>
+    
+    
+    	</div><!-- /container -->
+
+                	<!-- // Tracking Webtrends -->
+        	<script src="http://www.viarail.ca/sites/all/themes/custom/viarail/js/VIA-newtag.js" type="text/javascript"></script>
+        	<script type="text/javascript">
+        	//<![CDATA[
+    			var _tag=new WebTrends();
+    			_tag.dcsGetId();
+        	//]]>>
+        	</script>
+        	<script type="text/javascript">
+        	//<![CDATA[
+    			// Add custom parameters here.
+    			_tag.dcsCollect();
+        	//]]>>
+        	</script>
+        	<noscript>
+    			<div><img alt="" id="DCSIMG" width="1" height="1" src="https://sdc.viarail.ca/dcsld6jc2izr7jjjqonjh6mfl_2q4n/njs.gif?dcsuri=/nojavascript&WT.js=No&WT.tv=8.6.2" /></div>
+        	</noscript>
+        	<!-- // Fin Tracking Webtrends -->
+        
+    	<script type="text/javascript" src="http://www.viarail.ca/sites/all/files/js/js_a07ec870f8962960a7299d6f6f1b83ce.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+      Shadowbox.path = "/sites/all/lib/shadowbox/";
+      Shadowbox.init(Drupal.settings.shadowbox);
+    
+//--><!]]>
+</script>
+ 
+        <div id="popupContact"> 
+    <!-- smaller than popup map, but larger than button xavb-->
+
+
+   <script type="text/javascript">
+
+// this script is dev code made by palm havas
+
+    if (AC_FL_RunContent == 0) {
+        alert("This page requires AC_RunActiveContent.js.");
+    } else {
+        AC_FL_RunContent(
+            'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0',
+            'width', '1000',
+            'height', '497',
+            'src', '/sites/all/modules/custom/flashmap/map_viarail_2011_close.swf',
+            'quality', 'high',
+            'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+            'align', 'middle',
+            'play', 'true',
+            'loop', 'true',
+            'scale', 'showall',
+            'wmode', 'transparent',
+            'devicefont', 'false',
+            'id', 'map_viarail_2011_close',
+            'bgcolor', '#ffffff',
+            'name', 'map_viarail_2011_close',
+            'menu', 'true',
+            'allowFullScreen', 'false',
+            'allowScriptAccess','sameDomain',
+//            'FlashVars','lg=fr&trains=true&stations=true&region=0&road=0&path=http://www.viarail.ca&conf=/sites/all/modules/custom/flashmap/xml/viarail_map_coord.xml',
+            'FlashVars','lg=fr&trains=true&stations=true&region=0&road=0&path=&conf=/sites/all/modules/custom/flashmap/xml/viarail_map_coord.xml',
+            'movie', '/sites/all/modules/custom/flashmap/map_viarail_2011_close',
+            'salign', ''
+            ); //end AC code
+    }
+
+
+</script>
+<noscript>
+    <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="100%" height="100%" id="map_viarail_2011_close">
+    <param name="allowScriptAccess" value="sameDomain" />
+    <param name="allowFullScreen" value="false" />
+    <param name="movie" value="map_viarail_2011_close.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#ffffff" />
+    </object>    
+</noscript>
+</div>   
+
+        <div id="popupVideoCanExp">
+    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+    id="viewer_video" width="756" height="561"
+    codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab">
+    <param name="movie" value="/sites/all/files/media/videos/flash/viewer_video.swf" />
+    <param name="quality" value="high" />
+    <param name="bgcolor" value="#ffffff" />
+    <param name="allowScriptAccess" value="always" />
+    <param name="wmode" value="transparent" /> 
+    <param name="FlashVars" value="lg=fr" />
+    <param name="menu" value="false" />
+    <embed src="http://www.viarail.ca/sites/all/files/media/videos/flash/viewer_video.swf" flashvars="lg=fr" wmode="transparent" lang="fr" quality="high" bgcolor="#ffffff" width="756" height="561" name="viewer_video" align="middle" menu="false" play="true" loop="false" quality="high" allowscriptaccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer">
+
+    </embed>
+    </object>
+   
+</div><div id="popupVideoAffaire">
+    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+    id="affaires_video" width="756" height="561"
+    codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab">
+    <param name="movie" value="/sites/all/files/media/videos/flash/affaires/viewer_video.swf" />
+    <param name="quality" value="high" />
+    <param name="bgcolor" value="#ffffff" />
+    <param name="allowScriptAccess" value="always" />
+    <param name="wmode" value="transparent" /> 
+    <param name="FlashVars" value="lg=fr" />
+    <param name="menu" value="false" />
+    <embed src="http://www.viarail.ca/sites/all/files/media/videos/flash/affaires/viewer_video.swf" flashvars="lg=fr" wmode="transparent" lang="fr" quality="high" bgcolor="#ffffff" width="756" height="561" name="affaires_video" align="middle" menu="false" play="true" loop="false" quality="high" allowscriptaccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer">
+
+    </embed>
+    </object>
+   
+</div>        <div id="backgroundPopup"></div>
+            </body>
+</html>
+
