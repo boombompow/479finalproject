@@ -1,0 +1,304 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>Google Online Store</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<meta name='keywords' content='Google Online Store' />
+		<meta name='description' content='Google Online Store' />
+        
+        
+        <script type="text/javascript">
+            var r = Math.random();
+            var t = document.createElement("img");
+            t.onload = function() {
+                var t2 = document.createElement("img");
+                t2.onload = function() {
+                    var t3 = document.createElement("img");
+                    t3.onload = function() { return; };
+                    t3.src = "http://www.google-analytics.com/__utm.gif?label=ct_gs_exp3&random=" + r;
+                };
+                t2.src = "http://www.google-analytics.com/__utm.gif?label=ct_gs_exp2&random=" + r;
+            };
+            t.src = "http://www.google-analytics.com/__utm.gif?label=ct_gs_exp1&random=" + r;
+</script>
+<noscript>
+<img src="http://www.google-analytics.com/__utm.gif?label=ct_gs_exp_ns" />
+</noscript>
+
+        <script language="JavaScript" type="text/JavaScript" src="http://www.googlestore.com/js/common.js"></script>
+	    <link href="http://www.googlestore.com/css/main.css" rel="stylesheet" type="text/css" />
+	    <link href="http://www.googlestore.com/css/home.css" rel="stylesheet" type="text/css" />
+	    <!--[if lt IE 7]>
+	        <link href="/css/ielow.css" rel="stylesheet" type="text/css" />
+        <![endif]-->	
+	    <link rel="stylesheet" href="http://www.googlestore.com/css/syat.css" type="text/css" media="screen" /> 
+
+        
+        
+        <script type="text/javascript">
+          function click(theevent){
+    try{
+        firstTracker._trackEvent('product_page', theevent);
+    }catch(err){ }
+  }
+        </script>
+	</head>
+    <body>
+     <div id="wrapper">
+   	        <div id="header" style="height:70px">
+   	            
+
+   	            
+   	            
+   	               	            <a href="http://www.googlestore.com/shop.axd/Home"><img src="http://www.googlestore.com/images/googlestore_logo.gif" alt="GoogleStore" /></a>
+   	             
+   	             <div style="width:100%;position:absolute; top:0; right:0px; width:90px; height:52px;">
+   	                <a href="http://www.googlestore.com/You+Tube/"><img style="border:0" src="http://www.googlestore.com/images/new_top_link.jpg" alt="Check Out the You Tube Items" /></a>
+   	             </div>
+
+   	            <ul>
+   	                <li><a href="http://www.googlestore.com/You+Tube/">You Tube Home</a></li>
+   	                <li><a href="../../Documentswww.google.ca/index.html">Google Search</a></li>
+   	                <li><a href="../../Documentswww.google.ca/about.html">About Google</a></li>
+   	            </ul>
+   	          
+   	        </div>
+   	    
+            <div id="left_content">
+            
+<!-- OutputCache Duration="60" VaryByCustom="LeftNavigation" -->
+
+    <div class="box-round">
+    <div class="top"><span><h2 class="side_head">Categories</h2></span></div>
+        <div class="center-content"> 
+            <ul>
+            </li><li class="nav off" style="position:relative;"><a class="main" style="background:url(/images/category_icons/accessories_off.gif) left no-repeat;" href="http://www.googlestore.com/googlesearch.aspx?category=accessories">Accessories</a></li><li class="nav off" style="position:relative;"><a class="main" style="background:url(/images/category_icons/fun_off.gif) left no-repeat;" href="http://www.googlestore.com/googlesearch.aspx?category=fun">Fun</a></li><li class="nav off" style="position:relative;"><a class="main" style="background:url(/images/category_icons/kids_off.gif) left no-repeat;" href="http://www.googlestore.com/googlesearch.aspx?category=kids">Kids</a></li><li class="nav off" style="position:relative;"><a class="main" style="background:url(/images/category_icons/office_off.gif) left no-repeat;" href="http://www.googlestore.com/googlesearch.aspx?category=office">Office</a></li><li class="nav off" style="position:relative;"><a class="main" style="background:url(/images/category_icons/wearables_off.gif) left no-repeat;" href="http://www.googlestore.com/googlesearch.aspx?category=wearables">Wearables</a></li><li class="nav off"><a class="main textpopup" onclick="recordOutboundLink(this, 'Outbound Links', 'Zazzle.com LeftNav');return false;" title="Click here to enter the Doodles on Demand experience. Note: You'll be leaving this site and will land on a page hosted by Zazzle.com." style="background:url(/images/category_icons/doodles_off.gif) left no-repeat;" href="http://www.zazzle.com/googledoodles">Doodles on Demand</a></li>
+            </ul>
+        </div> 
+    <div class="bottom"><span></span></div> 
+    </div> 
+    
+    
+    <div class="box-round" style="margin-top:10px;">
+    <div class="top"><span><h2 class="side_head">Eco Reference</h2></span></div>
+        <div class="center-content"> 
+            <ul class="eco_guide">
+                <li style="background:url(/images/greeninitiative/1.jpg) no-repeat left;">Sustainable</li>
+                <li style="background:url(/images/greeninitiative/2.jpg) no-repeat left;">Organic</li>
+                <li style="background:url(/images/greeninitiative/3.jpg) no-repeat left;">Recycled</li>
+                <li style="background:url(/images/greeninitiative/4.jpg) no-repeat left;">Non-Polluting</li>
+            </ul>
+        </div> 
+    <div class="bottom"><span></span></div> 
+    </div> 
+    
+
+            </div>
+            <div id="content">
+                
+    
+    <h1 class="heading_main">Google Store Privacy Notice</h1> 
+    <h2 class="heading_sub1">April 12th, 2007</h2>
+	<p>
+	    The <a href="https://checkout.google.com/files/privacy.html">Google Privacy Policy</a> describes how we treat personal information when you use Google's products and services, including information provided when you visit the Google Store. </p>
+    </p>	
+            </div>  
+            <div id="right_content">
+                
+<!-- OutputCache Duration="60" VaryByCustom="LeftNavigation" -->
+
+  
+    
+    <style type="text/css">
+        .signup-tb{
+            width:135px;
+            font-size:.9em;
+            margin-top:5px;
+            margin-bottom:5px;
+        }
+        
+        .signup-btn{
+            font-size:.9em;
+        }
+        
+        .lblMessage{
+            font-weight:bold;   
+         
+        }
+        
+        .formsuccess{
+            font-weight:bold;  
+            color:green; 
+        }        
+        
+        .formerror{
+            font-weight:bold;  
+            color:red;         }
+    </style>
+    
+    
+    <div class="box-round" style="margin-bottom:10px;">
+        <div class="top">
+            <span>
+                 <h2 class="side_head">Newsletter Signup</h2>
+            </span>
+        </div>
+       
+        <div class="center-content">
+            <span id="Template_ctlRightNav_ctlSignup_Label1" class="lblMessage">I want to receive promotional email from GatewayCDI.</span><br />
+            <form name="aspnetForm" method="post" action="http://www.googlestore.com/shop.axd/PrivacyPolicy#" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUENTM4MQ9kFgJmD2QWAmYPZBYCAgUPZBYCZg9kFgICAQ9kFgICAw8PFgIeCEltYWdlVXJsBRYvaW1hZ2VzL2J0bl9zaWdudXAuZ2lmZGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgEFKFRlbXBsYXRlJGN0bFJpZ2h0TmF2JGN0bFNpZ251cCRidG5TaWduVXA=" />
+
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWAwKig4HRDgKc3s3hCgKHlcOwBw==" />
+                <input name="Template$ctlRightNav$ctlSignup$EmailAddress" type="text" maxlength="50" id="Template_ctlRightNav_ctlSignup_EmailAddress" class="signup-tb" />
+                <input type="image" name="Template$ctlRightNav$ctlSignup$btnSignUp" id="Template_ctlRightNav_ctlSignup_btnSignUp" src="/images/btn_signup.gif" border="0" />
+            </form>
+        </div>
+        <div class="bottom"><span></span></div> 
+    </div>
+
+
+    <div class="box-round">
+    <div class="top">
+        <span>
+           <h2 class="side_head">Store Links</h2>                
+        </span>
+    </div> 
+        <div class="center-content">    
+            <ul class="store-links">
+                <li><a href="http://www.googlestore.com/shop.axd/Cart" class="shopping-cart">Shopping Cart (0)</a></li>
+                
+                <li><a href="http://www.googlestore.com/shop.axd/Contact">Customer Service</a></li>
+                <li><a href="http://www.googlestore.com/shop.axd/Contact#warranty">Warranty / Returns</a></li>
+                
+            </ul>
+            
+                        <ul>
+                
+                <li><a href="http://www.googlestore.com/googlesearch.aspx?topseller=yes">Top Sellers</a></li>
+                <li><a href="http://www.googlestore.com/googlesearch.aspx?isnew=yes">What's New</a></li>
+                <li><a href="http://www.googlestore.com/googlesearch.aspx?category=eco">Eco-Friendly Items</a></li>
+                <li><a href="http://www.googlestore.com/googlesearch.aspx?specials=yes">Specials</a></li>
+                <li><a href="http://www.googlestore.com/Mini/"><b>Google Mini</b></a></li>
+                
+            </ul>
+        </div> 
+    <div class="bottom"><span></span></div> 
+    </div> 
+
+    
+
+<div class="l_chat">
+  <a href="PrivacyPolicy" target="_blank" onclick="window.open(encodeURI('https://oggchat2.icoa.com/cp?font=Verdana&fontsize=10pt&bgcolor=FFFFFF&cid=c08f011a3331b60f01333b611ef20248&website=www.googlestore.com&text=_oggchat-img1-on.png&height=450&width=380&r='+document.referrer), 'OggChat', 'toolbar=0,scrollbars=1,location=0,status=0,menubar=0,resizable=1,width=380,height=450');return false;"><img src="http://oggchat2.icoa.com/cb?cid=c08f011a3331b60f01333b611ef20248&link=_oggchat-img1-on.png" border="0"></a>
+<!-- OggChat Monitor -->
+<script type="text/javascript">//<![CDATA[
+var page = {
+'host':'oggchat2.icoa.com',
+'cid':'c08f011a3331b60f01333b611ef20248',
+'act':'c08f011a3331b60f01333b611e690246',
+'font':'Verdana',
+'fs':'10pt',
+'p':'0'
+};
+function mon(){
+var base = (("https:" == document.location.protocol) ? "https://oggchat2.icoa.com" : "http://oggchat2.icoa.com");
+var url = base+"/js/monitor.js";
+var e = document.createElement('script');e.src = url;e.type ='text/javascript';document.getElementsByTagName('head')[0].appendChild(e);}if (window.addEventListener){window.addEventListener('load',mon, false);}else if(window.attachEvent){window.attachEvent('onload',mon);}
+//]]></script>
+<!-- End OggChat Monitor -->
+ </div>
+    
+    
+                
+            </div>   	        
+             
+            <div id="footer">
+<!-- OutputCache Duration="60" VaryByCustom="LeftNavigation" -->
+
+<ul id="navigation_footer_ul">
+    <li><a href="http://www.googlestore.com/Accessories/">Accessories</a></li><li><a href="http://www.googlestore.com/Fun/">Fun</a></li><li><a href="http://www.googlestore.com/Kids/">Kids</a></li><li><a href="http://www.googlestore.com/Office/">Office</a></li><li><a href="http://www.googlestore.com/Wearables/">Wearables</a></li><li><a class="textpopup" title="Click here to enter the Doodles on Demand experience. Note: You'll be leaving this site and will land on a page hosted by Zazzle.com." onclick="target='_blank'" href="http://www.zazzle.com/googledoodles">Doodles</a></li>
+    <li><a href="http://www.googlestore.com/shop.axd/Contact">Customer Service</a></li>
+    <li><a href="http://www.googlestore.com/shop.axd/Cart">Shopping Cart</a></li>
+</ul>
+<div id="legal">
+Copyright Google Inc. All Rights Reserved.<br />
+Use of this service constitutes your acceptance of the Google Store's <a href="PrivacyPolicy">privacy policy</a>. 
+</div>
+
+<script type="text/javascript" src="http://www.googlestore.com/js/jquery-latest.js"></script>
+<script type="text/javascript" src="http://www.googlestore.com/js/jquery.dimensions.js"></script>
+<script type="text/javascript" src="http://www.googlestore.com/js/jquery.tooltip.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $(".ecotags").tooltip({
+    	showURL: false });
+      	$(".textpopup").tooltip({showURL: false,effect: "bouncy" });  
+
+    $("#DoodleDrop").bind("change",function(){
+        var imgname = $('option:selected',this).attr("id");
+        var edpNo = '';
+        if(imgname!=""){
+            $("#ProductImage").attr("src","/images/DOODLES/"+imgname+"_A.jpg");
+        }
+        $("#ProductImageHref").attr("href","javascript:newWindow('/view_large.aspx?img=/images/DOODLES/"+imgname+"_.jpg+&edp_no="+edpNo+"',420,600)");
+    });
+    
+    $("#searchfilters select").bind("change",function(){
+        var url = $('option:selected',this).val();
+        if(url!=""){window.location = url;}
+               
+    });
+    
+  });
+  </script>
+  
+  <script src="https://www.google.com/jsapi" type="text/javascript"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/googleapis/0.0.4/googleapis.min.js" type="text/javascript"></script> 
+<script src="https://www.google.com/cse/intl/en-US/sayt.js" type="text/javascript"></script><script type="text/javascript"> 
+var searchText = document.getElementById('q');
+<!-- change below CX value to your search engine -->
+var cx = '016458501645884057912:dq_ixbwhuk8';
+<!-- change below apiary key value to your search engine -->
+var key = 'AIzaSyAl0tYGljRQwIcOS13gmbLkH0GssascyR4';
+google.load('search', '1');
+
+googleapis.load('shopping', 'v1');
+  sayt = saytInitialize(cx, key);
+
+
+google.setOnLoadCallback(function() {
+  google.search.CustomSearchControl.attachAutoCompletion(
+    cx, searchText, 'searchForm', sayt.saytSubmit );
+});
+</script> 
+
+  
+
+
+</div>
+	    </div>
+	    <script type="text/javascript">
+   var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); 
+   document.write("<sc" + "ript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'>" + "</sc" + "ript>"); 
+</script>
+
+
+<script type="text/javascript">
+  var firstTracker = _gat._getTracker("UA-30481-1");
+  firstTracker._initData();
+  
+  firstTracker._trackPageview();
+
+  var secondTracker = _gat._getTracker("UA-735212-16");
+  secondTracker._setLocalRemoteServerMode(); 
+  secondTracker._initData();
+  secondTracker._trackPageview();
+  
+</script>
+
+<div id="backgroundPopup"></div> 
+	
+	</body>
+</html>

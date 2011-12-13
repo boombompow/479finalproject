@@ -1,0 +1,750 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en"
+class="streamlined streamlined-3">
+<head>
+<script type="text/javascript">serverResponseTimeDelta=window.external&&window.external.pageT?window.external.pageT:-1;pageStartTime=new Date().getTime();</script>
+<title>Search preferences - Web Search Help</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content=" 
+We want your web search to be exactly the way you want it. Here&#39;s a quick review of the search options you can set (and, of course, change whenever you like) on the Google Preferences page. 
+Int" />
+<meta name="google-site-verification"
+content="5LMbwOlwGqgoi4xWy0PUG4fKEQVyA8ltQj8cFd5czYU" />
+<link rel="canonical" href="http://support.google.com/websearch/bin/answer.py?hl=en&answer=35892" />
+<link rel="shortcut icon" href="http://www.google.com/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="http://support.google.com/websearch/bin/resource/all.css?v=376_52" />
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
+<script type="text/javascript">
+var internal = 0;
+var hc_protocol = "http://";
+var hc_host = "support.google.com";
+var hc_url_root = "/websearch";
+var hc_page_info = "answer=35892";
+var track = function() {};
+var country = 'CA';
+var countryGroup = 'Americas';
+var global_error_general = 'Sorry, we weren\x27t able to submit your information. Please try again.';
+var search_form_id = 'search-form';
+var hc_urchin = "UA-18500-19";
+var global_hc_bookmark = new Array("add","remove","toggle");
+global_hc_bookmark.add = new Array();
+global_hc_bookmark.remove = new Array();
+global_hc_bookmark.toggle = new Array();
+global_hc_bookmark["add"].url = "";
+global_hc_bookmark["add"].token = "";
+global_hc_bookmark["remove"].url = "";
+global_hc_bookmark["remove"].token = "";
+global_hc_bookmark["toggle"].url = "";
+global_hc_bookmark["toggle"].token = "";
+var hiddenZippyLists = '{"country": {"answerId": "35892", "zippiesString": "These instructions are optimized for your current system\x27s configuration. To view these instructions for another configuration, select the configuration:&nbsp;", "defaultValue": "CA", "validItems": {"AF": "Afghanistan", "AL": "Albania", "DZ": "Algeria", "AS": "American Samoa", "AO": "Angola", "AI": "Anguilla", "AQ": "Antarctica", "AD": "Andorra", "AR": "Argentina", "AM": "Armenia", "AW": "Aruba", "AT": "Austria", "AU": "Australia", "AZ": "Azerbaijan", "BS": "Bahamas", "BH": "Bahrain", "BD": "Bangladesh", "BB": "Barbados", "AG": "Barbuda", "BY": "Belarus", "BZ": "Belize", "BE": "Belgium", "BN": "Benin", "BM": "Bermuda", "BT": "Bhutan", "BO": "Bolivia", "BW": "Botswana", "BA": "Bosnia and Herzegovina", "BR": "Brazil", "VG": "British Virgin Islands", "BN": "Brunei", "BN": "Brunei Darussalam", "BG": "Bulgaria", "BF": "Burkina Faso", "BI": "Burundi", "CM": "Cameroon", "KH": "Cambodia", "CA": "Canada", "CV": "Cape Verde Islands", "KY": "Cayman Islands", "CF": "Central African Republic", "TD": "Chad", "CL": "Chile", "CN": "China", "CX": "Christmas Island", "CC": "Cocos Islands", "CO": "Colombia", "CK": "Cook Islands", "KM": "Comoros", "CG": "Congo", "CR": "Costa Rica", "CI": "Cote d\x27Ivoire", "HR": "Croatia", "CU": "Cuba", "CY": "Cyprus", "CZ": "Czech Republic", "DK": "Denmark", "DJ": "Djibouti", "DM": "Dominica", "DO": "Dominican Republic", "EC": "Ecuador", "EG": "Egypt", "SV": "El Salvador", "GQ": "Equitorial Guinea", "ER": "Eritrea", "EE": "Estonia", "ET": "Ethiopia", "FK": "Falkland Islands", "FO": "Faroe Islands", "FJ": "Fiji", "FI": "Finland", "FR": "France", "GF": "French Guiana", "PF": "French Polynesia", "TF": "French Southern Territories", "GA": "Gabon", "GM": "Gambia", "GE": "Georgia", "DE": "Germany", "GH": "Ghana", "GI": "Gibraltar", "GR": "Greece", "GL": "Greenland", "GD": "Grenada", "CP": "Guadeloupe", "GU": "Guam", "GT": "Guatemala", "GF": "Guiana", "GN": "Guinea", "GW": "Guinea-Bissau", "GY": "Guyana", "HT": "Haiti", "HN": "Honduras", "HK": "Hong Kong", "HU": "Hungary", "IS": "Iceland", "IN": "India", "ID": "Indonesia", "IR": "Iran", "IQ": "Iraq", "IE": "Ireland", "IL": "Israel", "IT": "Italy", "JM": "Jamaica", "JP": "Japan", "JO": "Jordan", "KZ": "Kazakhstan", "KI": "Kiribati", "KE": "Kenya", "KW": "Kuwait", "KG": "Kyrgyzstan", "LA": "Laos", "LV": "Latvia", "LB": "Lebanon", "LS": "Lesotho", "LR": "Liberia", "LY": "Libyan Arab Jamahiriya", "LI": "Liechtenstein", "LT": "Lithuania", "LU": "Luxembourg", "MO": "Macau", "MK": "Macedonia", "MG": "Madagascar", "MY": "Malaysia", "MT": "Malta", "MW": "Malawi", "MV": "Maldives", "ML": "Mali", "MP": "Mariana Islands", "MH": "Marshall Islands", "MQ": "Martinique", "MR": "Mauritania", "MU": "Mauritius", "YT": "Mayotte Island", "MX": "Mexico", "MD": "Moldova", "FM": "Micronesia", "MC": "Monaco", "MN": "Mongolia", "MS": "Montserrat", "MA": "Morocco", "MZ": "Mozambique", "MM": "Myanmar", "NA": "Namibia", "NR": "Nauru", "NP": "Nepal", "NL": "Netherlands", "AN": "Netherlands Antilles", "KN": "Nevis", "NC": "New Caledonia", "NI": "Nicaragua", "NE": "Niger", "NG": "Nigeria", "NU": "Niue", "KR": "North Korea", "NO": "Norway", "NZ": "New Zealand", "OM": "Oman", "PW": "Palau", "PK": "Pakistan", "PS": "Palestine", "PA": "Panama", "PG": "Papua New Guinea", "PY": "Paraguay", "PE": "Peru", "PH": "Philippines", "PN": "Pitcairn Islands", "PO": "Poland", "PT": "Portugal", "PR": "Puerto Rico", "QA": "Qatar", "RE": "Reunion Island", "RO": "Romania", "RU": "Russia", "RW": "Rwanda", "WS": "Samoa", "ST": "Sao Tome and Principe", "SM": "San Marino", "SA": "Saudi Arabia", "SN": "Senegal", "CS": "Serbia and Montenegro", "SC": "Seychelles", "SL": "Sierra Leone", "SG": "Singapore", "SK": "Slovakia", "SI": "Slovenia", "ES": "Spain", "SO": "Somalia", "SB": "Solomon Islands", "ZA": "South Africa", "KP": "South Korea", "LK": "Sri Lanka", "SR": "Suriname", "SD": "Sudan", "SS": "South Sudan", "SH": "St. Helena", "KN": "St. Kitts and Nevis", "LC": "St. Lucia", "PM": "St. Pierreet Miquelon", "VC": "St. Vincent and the Grenadines", "SZ": "Swaziland", "SE": "Sweden", "CH": "Switzerland", "SY": "Syrian Arab Republic", "TW": "Taiwan", "TJ": "Tajikistan", "TZ": "Tanzania", "TH": "Thailand", "TB": "Tibet", "TL": "Timor", "TG": "Togo", "TK": "Tokelau", "TO": "Tonga", "TT": "Trinidad and Tobago", "TN": "Tunisia", "TR": "Turkey", "TM": "Turkmenistan", "TC": "Turks and Caicos Islands", "TV": "Tuvalu", "UK": "Ukraine", "UG": "Uganda", "UE": "United Arab Emirates", "GB": "United Kingdom", "US": "USA", "VI": "U.S. Virgin Islands", "UY": "Uruguay", "UZ": "Uzbekistan", "VU": "Vanuatu", "VA": "The Vatican", "VE": "Venezuela", "VN": "Vietnam", "EH": "Western Sahara", "YE": "Yemen", "CD": "Zaire", "ZM": "Zambia", "ZW": "Zimbabwe", "other": "Other"}}}';
+</script>
+<script src="http://support.google.com/websearch/bin/resource/js_variables.js?v=6&hl=en" type="text/javascript"></script>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+google.load('search', 1);
+function init() {
+google.search.CustomSearchControl.attachAutoCompletion(
+'015031098472999249912:lbo6zbw5njw',
+document.getElementById('query'),
+search_form_id);
+}
+google.setOnLoadCallback(init);
+</script>
+<script src="http://support.google.com/websearch/bin/resource/js_minified.js?v=124" type="text/javascript"></script>
+<script src="http://support.google.com/websearch/bin/resource/tooltips_static.js?v=3" type="text/javascript"></script>
+<script src="https://plusone.google.com/js/plusone.js">
+{lang: 'en', parsetags: 'explicit'}
+</script>
+</head>
+<body onload="
+setCookies_default('WebUserLocale',
+'en','formLoad'); registerSearchForm(search_form_id, 'query');makeRequest('/websearch/bin/stats?r='+serverResponseTimeDelta+'&l='+(new Date().getTime()-pageStartTime)); 
+"
+dir="ltr"
+class=" answer_page streamlined streamlined-3 streamlined-header-1 ltr lang_en show_modules show_leftnav other  other  new-ui ">
+<a href="../../../../Documentssupport.google.com/websearch/bin/answer.py_hl_en_p_settings_help_answer_35892_content" class="skiplink">Skip to content</a>
+<div class="wrapper" id="baseDiv">
+<div id=gbar><nobr><a class="gb1" href="https://mail.google.com/mail/">Gmail</a> <a class="gb1" href="https://www.google.com/calendar">Calendar</a> <a class="gb1" href="https://docs.google.com/">Documents</a> <a class="gb1" href="http://picasaweb.google.com/home?hl=en">Photos</a> <a class="gb1" href="https://sites.google.com/">Sites</a> <a class="gb1" href="../../../../Documentsgroups.google.com/grphp_hl_en">Groups</a> <a class="gb1" href="../../../webhp_hl_en">Web</a> <a class="gb1" style="text-decoration:none" href="../../../intl/en/options/index.html"><u>More</u> &raquo;</a></nobr></div><div id=guser width=100%><nobr><span id=gbn class=gbi></span><span id=gbf class=gbf></span><span id=gbe></span><a id="gb_70" href="https://www.google.com/accounts/ServiceLogin?passive=1209600&continue=http://support.google.com/websearch/bin/answer.py?hl%3Den%26p%3Dsettings_help%26answer%3D35892&followup=http://support.google.com/websearch/bin/answer.py?hl%3Den%26p%3Dsettings_help%26answer%3D35892&hl=en" class="gb4">Sign in</a></nobr></div><div class=gbh style=left:0></div><div class=gbh style=right:0></div>
+<style type="text/css">#gbar,#guser{font-size:13px;padding-right:8px;padding-top:4px !important}#gbar{padding-left:8px;height:22px}#guser{padding-bottom:7px !important;text-align:right}.gbh,.gbd{border-top:1px solid #c9d7f1;font-size:1px}.gbh{height:0;position:absolute;top:24px;width:100%}@media all{.gb1{height:22px;margin-right:.5em;vertical-align:top}#gbar{float:left}}a.gb1,a.gb4{text-decoration:underline !important}a.gb1,a.gb4{color:#00c !important}.gbi .gb4{color:#dd8e27 !important}.gbf .gb4{color:#900 !important}</style>
+<script type="text/javascript"></script>
+<div id="hc_error"></div>
+<div class="header-wrapper">
+<style type="text/css">
+@import url('//fonts.googleapis.com/css?family=Open+Sans');
+/* Hide unnecessary search results header */
+.header_unified_widecolumn {
+display: none;
+}
+/* Adjust padding in header bar to better align with menu */
+body.streamlined-header-1 .header-bar {
+padding: 10px 14px 9px 14px;
+}
+.left-col-module {
+padding-left: 0;
+}
+/* Reset section - undoes some of the weird stuff on the page */
+/* Remove header's background so the gradient shows through */
+body.streamlined-header-1 .header-bar {
+background-color: transparent;
+}
+/* Remove IE border and move the logo up. */
+.mgc img {
+border: none;
+margin-top: -3px;
+outline: none;
+}
+/* Removes a hard-coded 2px top margin */
+.websearch-header {
+margin-top: 0 !important;
+}
+/* Remove default margins */
+.mgc ul,
+.mgc li {
+margin: 0;
+padding: 0;
+}
+/* Header styles */
+.mgc-background {
+background: white;
+border-bottom: 1px solid #d5e4f9;
+-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+-moz-box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+-o-box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+min-height: 71px;
+}
+.mgc {
+overflow: hidden;
+padding-top: 16px;
+}
+.mgc h1 {
+float: left;
+margin: 0 0 0 33px;
+padding-right: 20px;
+}
+/* Hide "Web Search" header, show other text. */
+body.streamlined-header-1 .header-bar h1 a:link {
+display: none;
+}
+.header-bar > h1:after {
+color: #DD4B39;
+content: "Help";
+font: normal 20px Arial, sans-serif;
+margin-left: 20px;
+padding-top: 1px;
+}
+/* Primary menu */
+.websearch-header > ul {
+float: left;
+list-style: none;
+}
+.mgc li a {
+border: 1px solid white;
+color: #333;
+display: block;
+line-height: 36px;
+overflow: hidden;
+padding: 0 12px;
+position: relative;
+text-decoration: none;
+top: 0;
+}
+.mgc li a:visited {
+color: #333;
+}
+.websearch-header > ul > li {
+font-family: 'Open Sans', arial, sans-serif;
+font-size: 14px;
+float: left;
+margin: 1px 2px 0;
+padding: 0;
+}
+li.dropdown > a {
+background:
+url('//www.google.com/insidesearch/css/dropdownarrow.png')
+no-repeat right 10px;
+border: 1px solid white;
+-webkit-border-radius: 4px 4px 0 0;
+-moz-border-radius: 4px 4px 0 0;
+-o-border-radius: 4px 4px 0 0;
+border-radius: 4px 4px 0 0;
+padding-right: 20px;
+}
+li.dropdown:hover > a {
+border-color: #e5e5e5 #e5e5e5 white;
+z-index: 9999;
+}
+.websearch-header > ul > li > a:hover {
+text-decoration: underline;
+}
+.websearch-header > ul > li.selection > a:hover {
+text-decoration: none;
+}
+.streamlined-header-1 .selection a:link {
+color: #d14836;
+text-decoration: none;
+font-weight: bold;
+}
+li.selection > a:visited {
+color: #d14836;
+}
+/* Dropdown menus */
+.mgc ul li:hover ul {
+display: block;
+}
+.mgc ul li ul {
+background: white;
+background: rgba(255, 255, 255, .9);
+border: 1px solid #e5e5e5;
+-moz-border-radius: 0 4px 4px 4px;
+-o-border-radius: 0 4px 4px 4px;
+-webkit-border-radius: 0 4px 4px 4px;
+border-radius: 0 4px 4px 4px;
+-moz-box-shadow: 0 2px 2px rgba(0, 0, 0, .2);
+-o-box-shadow: 0 2px 2px rgba(0, 0, 0, .2);
+-webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, .2);
+box-shadow: 0 2px 2px rgba(0, 0, 0, .2);
+display: none;
+float: none;
+list-style: none;
+margin: -1px 0 0;
+padding: 10px 23px 0 11px;
+position: absolute;
+z-index: 9998;
+}
+.mgc ul li ul li {
+font-family: arial,sans-serif;
+font-size: 13px;
+float: none;
+}
+.mgc ul li ul li a {
+background: none;
+border: none;
+color: #333;
+line-height: 20px;
+margin: 0 0 10px;
+padding: 0;
+}
+.mgc ul li ul li a:hover {
+text-decoration: underline;
+}
+/* Need to override an a:link in all.css */
+.mgc-background .streamlined-header-1 a:link {
+color: #333;
+}
+</style>
+<div class="mgc-background">
+<div class="mgc">
+<h1>
+<a href="../../../insidesearch/">
+<img src="http://www.google.com/help/hc/images/websearch_logo_insidesearch.png" alt="Google Inside Search">
+</a>
+</h1>
+<div class="websearch-header" style="margin-top:-2px">
+<ul id="websearch-header">
+<li class="dropdown">
+<a href="http://www.google.com/insidesearch/index.html" onclick="track('Unified_Header','Home')">Home</a>
+<ul class="">
+<li class="">
+<a href="http://www.google.com/insidesearch/index.html#new" onclick="track('Unified_Header','New')">
+New stuff</a>
+</li>
+<li class="">
+<a href="http://www.google.com/insidesearch/index.html#timeline" onclick="track('Unified_Header','Timeline')">
+Evolution of Google Search</a>
+</li>
+</ul>
+</li>
+<li class="dropdown">
+<a href="http://www.google.com/insidesearch/features.html" onclick="track('Unified_Header','Features')">Features</a>
+<ul class="">
+<li class="">
+<a href="http://www.google.com/insidesearch/features.html#basic" onclick="track('Unified_Header','Basics')">
+The Basics</a>
+</li>
+<li class="">
+<a href="http://www.google.com/insidesearch/features.html#advanced" onclick="track('Unified_Header','Advanced')">
+Advanced Tricks</a>
+</li>
+<li class="">
+<a href="http://www.google.com/insidesearch/features.html#facts" onclick="track('Unified_Header','Facts')">
+Fast Facts</a>
+</li>
+<li class="">
+<a href="http://www.google.com/insidesearch/features.html#localsearch" onclick="track('Unified_Header','Local')">
+Local</a>
+</li>
+<li class="">
+<a href="http://www.google.com/insidesearch/features.html#research" onclick="track('Unified_Header','Research')">
+Research</a>
+</li>
+<li class="">
+<a href="http://www.google.com/insidesearch/features.html#mobile" onclick="track('Unified_Header','Mobile')">
+On Your Phone</a>
+</li>
+</ul>
+</li>
+<li class="">
+<a href="../../../insidesearch/stories.html" onclick="track('Unified_Header','SearchStories')">Search Stories</a>
+</li>
+<li class="dropdown">
+<a href="../../../insidesearch/fun.html" onclick="track('Unified_Header','Playground')">Playground</a>
+<ul class="">
+<li class="">
+<a href="http://www.google.com/insidesearch/doodles.html" onclick="track('Unified_Header','Doodle')">
+Doodle Gallery</a>
+</li>
+<li class="">
+<a href="../../../insidesearch/underthehood.html" onclick="track('Unified_Header','Hood')">
+Under the Hood</a>
+</li>
+</ul>
+</li>
+<li class="">
+<a href="../../../../Documentswebcache.googleusercontent.com/" onclick="track('Unified_Header','Blog')">Blog</a>
+</li>
+<li class="selection">
+<a href="../../../../Documentssupport.google.com/websearch" onclick="track('Unified_Header','Morehelp')">More Help</a>
+</li>
+<li class="last"></li>
+</ul>
+</div>
+<div class="header-highlight"></div>
+</div>
+<div class="header_unified_widecolumn">
+<div class="searchresultscount_unifiedheader">
+<span class="header_extra">
+</span>
+</div>
+</div>
+</div>
+<div class="header-bar ">
+<h1>
+<a href="../../../index.html" onclick="track('Header', 'HC Title')">
+Web Search
+</a>
+</h1>
+<div id="yarnball">
+<ul class="yarnball"><li class="yarnlet first"><a href="../../../../Documentssupport.google.com/websearch/" onclick="track('Yarnycrumbs', 'Help Home');" style="z-index: 9;"><span class="left-yarn"></span>Help home</a></li><li class="yarnlet "><a href="../../../../Documentssupport.google.com/websearch/bin/topic.py_topic_1678514" onclick="track('Yarnycrumbs', '1678514');" style="z-index: 8;">Search settings</a></li></ul>
+</div>
+<div class="optg-searchbox">
+<? # Set hidden input fields. # ?>
+<form name="search-form" id="search-form" title="Search Help" method="get" action="http://support.google.com/websearch/bin/search.py" onsubmit="track('Search Help',
+document.getElementById('query').value);return false;">
+<div class="searchbox-gradient"></div><div class="searchbox-background">
+<input autocomplete="off"
+class="search-box"
+type="text"
+name="query"
+id="query"
+maxlength="2048"
+placeholder="Search Web Search help"
+title="Search"
+x-webkit-speech
+spellcheck="false" /><button type="submit"
+name="btnG"
+class="search-button"
+alt="Search Help">
+<img src="http://www.google.com/help/hc/images/hc_magnifying_glass.png">
+</button>
+<input type="hidden" name="ctx" value="en:searchbox" />
+</form>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<div class="main-content-container"><table class="layout" border="0"><tr>
+<td class="left-col-siblings">
+<!--googleoff: snippet-->
+<h4 class="sibling-leftnav-title"><a href="../../../../Documentssupport.google.com/websearch/bin/topic.py_hl_en_topic_1678514_parent_1224171_ctx_topic" onclick="track('LeftNav Sibling', 'Parent');">Search settings</a></h4><ul class="leftnav-siblings"><li class="leftnav-sibling current">Search preferences</li><li class="leftnav-sibling"><a href="../../../../Documentssupport.google.com/websearch/bin/answer.py_hl_en_answer_425_topic_1678514_ctx_topic" onclick="track('LeftNav Sibling', '425');"><span>Open results in a new window</span></a></li></ul>
+<!--googleon: snippet-->
+</td>
+<td class="content new-ui">
+<div class="inner_content ">
+<div id="hcError" style="display:none"></div>
+<a name="content"></a>
+<div id="page-content">
+<div id="zippy-dropdown-container"
+class="zippy-dropdown-container-hide"></div>
+<div class="answer_heading">
+<h2 class="answer-title">
+Search preferences
+</h2>
+<div class="clear"></div>
+</div>
+<div class="article_content article-content-35892" id="article-content-div">
+<a name="top"></a>
+<p>We want your web search to be exactly the way you want it. Here's a quick review of the search options you can set (and, of course, change whenever you like) on the <a href="http://support.google.com/preferences">Google Preferences</a> page.</p>
+<ul>
+<li><a href="http://support.google.com/websearch/bin/answer.py?hl=en&p=settings_help&answer=35892#interfacelang">Interface language</a></li>
+<li><a href="http://support.google.com/websearch/bin/answer.py?hl=en&p=settings_help&answer=35892#searchlang">Search language</a></li>
+<li><a href="http://support.google.com/websearch/bin/answer.py?hl=en&p=settings_help&answer=35892#location">Location</a></li>
+<li><a href="http://support.google.com/websearch/bin/answer.py?hl=en&p=settings_help&answer=35892#safe">SafeSearch filtering</a></li>
+<li><a href="http://support.google.com/websearch/bin/answer.py?hl=en&p=settings_help&answer=35892#number">Number of results</a></li>
+<li><a href="http://support.google.com/websearch/bin/answer.py?hl=en&p=settings_help&answer=35892#window">Results window </a></li>
+<li><a href="http://support.google.com/websearch/bin/answer.py?hl=en&p=settings_help&answer=35892#predictions">Predictions </a></li>
+</ul>
+<p>Most of your Google preferences are saved in a small browser file on your computer, called a cookie, and only apply to the computer and browser you used to set those preferences. If storing cookies on your browser isn't enabled, you won't be able to save your preferences. <a href="../../../../Documentssupport.google.com/websearch/bin/answer.py_answer_35851">Learn how to enable cookies</a>.</p>
+<a name="interfacelang"></a>
+<h3 class="info">Interface language</h3>
+<p>You can customize the language of your Google homepage. Choose the language you'd like to use by using the drop-down menu in this section of the Preferences page. For example, if you choose Spanish in the drop-down menu, messages and buttons on Google.com will display in Spanish. Moreover, Google will automatically prefer webpages written in Spanish in your search results.</p>
+<p align="right"><a href="http://support.google.com/websearch/bin/answer.py?hl=en&p=settings_help&answer=35892#top">Back to top</a></p>
+<a name="searchlang"></a>
+<h3 class="info">Search language</h3>
+<p>Google automatically tries to find results written in your selected interface language when you search, but you can choose to have Google also prefer webpages written in any additional languages that you'd like. Just select the checkboxes for those languages in this section of the Preferences page. </p>
+<p>Finally, this isn't on the Preferences page, but while we're talking languages, did you know we can translate sites written in other languages into English, and vice versa? Check out <a href="../../../../Documentswww.translate.google.com/index.html" target="_blank">Google Translate</a>.</p>
+<p align="right"><a href="http://support.google.com/websearch/bin/answer.py?hl=en&p=settings_help&answer=35892#top">Back to top</a></p>
+<a name="location"></a>
+<h3 class="info">Location</h3>
+<p>In this section of the Preferences page, you can specify your location for us to use when customizing your results in Google Web Search and other products. For example, if you search for <nobr>[ <span class="code">restaurants</span> ]</nobr>, we can try to find one nearby, even if you don't include a location in your search.</p>
+<p>If you'd rather not set an explicit location, simply delete the location in this field and save your preferences. You may still see local results based on other factors such as your computer's IP address. <a href="../../../../Documentssupport.google.com/websearch/bin/answer.py_answer_179386" target="_blank">Learn more about location</a></p>
+<p align="right"><a href="http://support.google.com/websearch/bin/answer.py?hl=en&p=settings_help&answer=35892#top">Back to top</a></p>
+<a name="Google Instant"></a>
+<h3 class="info">Google Instant</h3>
+<p>As you start to type your search terms, Google Instant automatically shows results for a popular search that begins with those letters. If you don't see the results you want, just keep typing and the results will dynamically update. Connect to the information you need faster, even before you finish typing your search! <a href="answer.py_answer_186610">Learn more about Google Instant</a></p>
+<p>If you don't want to see results as you type, you can opt out of Google Instant by selecting <strong>Do not use Google Instant</strong> on the Preference page. When you opt out, we'll save that preference on a cookie, so you'll stayed opted out until the cookie is cleared. Note that the preference will only apply to that particular computer and Internet browser, and it is not tied to your Google Account.</p>
+<p align="right"><a href="http://support.google.com/websearch/bin/answer.py?hl=en&p=settings_help&answer=35892#top">Back to top</a></p>
+<a name="safe"></a>
+<h3 class="info">SafeSearch filtering</h3>
+<p>Many users prefer not to have adult content included in their search results (especially if kids use the same computer). Google's SafeSearch filters provide you with the ability to change your browser setting to prevent adult content from appearing in your search results. Google uses automated methods to identify objectionable content, and constantly works to improve those methods based on user feedback. For sexually explicit content, our filter mainly relies on algorithms that look at many factors, including keywords, links, and images. No filter is 100 percent accurate, but SafeSearch should help you avoid most of this type of material.</p>
+<p> You can choose from among three SafeSearch settings:</p>
+<ul>
+<li><strong> Strict filtering</strong> filters sexually explicit video and images from Google Search result pages, as well as results that might link to explicit content.</li>
+<li><strong> Moderate filtering</strong> excludes sexually explicit video and images from Google Search result pages, but does not filter results that might link to explicit content. This is the default SafeSearch setting.</li>
+<li> <strong>No filtering</strong>, as you've probably figured out, turns off SafeSearch filtering completely.</li>
+</ul>
+<p><a href="../../../../Documentssupport.google.com/websearch/bin/answer.py_answer_510">Learn more about SafeSearch</a>.</p>
+<p align="right"><a href="http://support.google.com/websearch/bin/answer.py?hl=en&p=settings_help&answer=35892#top">Back to top</a></p>
+<a name="number"></a>
+<h3 class="info">Number of results</h3>
+<p>Unless you change this preference, you'll see 10 search results per page. We set it this way because this produces the fastest response time. But if you want to see more results per page, you can increase the number to 20, 30, 50 or 100, if you have <a href="../../../../Documentssupport.google.com/websearch/bin/answer.py_answer_186610">Google Instant</a> disabled.</p>
+<p>(This setting doesn't affect results in Google Images. The number of results you see in Images is determined by the size of your screen.)</p>
+<p align="right"><a href="http://support.google.com/websearch/bin/answer.py?hl=en&p=settings_help&answer=35892#top">Back to top</a></p>
+<a name="window"></a>
+<h3 class="info">Results window</h3>
+<p>Clicking any search result usually loads that page in the same window or tab you used when you searched. If you'd prefer to have the results you click open in a separate window (or, for some browsers, tab), enable this option. (Hint: this option's great if you often open more than one search result.)</p>
+<p align="right"><a href="http://support.google.com/websearch/bin/answer.py?hl=en&p=settings_help&answer=35892#top">Back to top</a></p>
+<a name="predictions"></a>
+<h3 class="info">Predictions</h3>
+<p>As you type in the search box, you'll see a list of <a href="../../../../Documentssupport.google.com/websearch/bin/answer.py_answer_106230">predictions</a> appear that are similar to the query you're typing. These predictions are a mix of popular searches by users around the world and your <a href="../../accounts/bin/answer.py_answer_54068_hl_en">Web History</a>, if you have it enabled.</p>
+<p>If you see a "Google Instant" section, allow search results to appear dynamically as you type by selecting "Use Google Instant - predictions and results appear while typing." <a href="../../../../Documentssupport.google.com/websearch/bin/answer.py_answer_186610">Learn more about Google Instant</a>
+</p><p align="right"><a href="http://support.google.com/websearch/bin/answer.py?hl=en&p=settings_help&answer=35892#top">Back to top</a></p>
+<style type="text/css">
+ul.float li {
+float: left;
+margin-left: 1em;
+width: 200px;
+}
+ul.float li.clear {
+list-style: none;
+}
+h3.info {
+background-color: #e5ecf9;
+padding: .2em
+}
+</style>
+<script type="text/javascript">
+if(document.getElementById('kb_other') != null)
+showLayer('kb_other');
+if(document.getElementById('kb_other_') != null)
+showLayer('kb_other_');
+if(document.getElementById('z_other') != null)
+toggleZippy('z_other');
+if(document.getElementById('z_other_') != null)
+toggleZippy('z_other_');
+if(document.getElementById('kb_'))
+showLayer('kb_');
+if(document.getElementById('z_'))
+toggleZippy('z_');
+if(document.getElementById('kb_other'))
+showLayer('kb_other');
+if(document.getElementById('z_other'))
+toggleZippy('z_other');
+if(document.getElementById('kb_CA'))
+showLayer('kb_CA');
+if(document.getElementById('z_CA'))
+toggleZippy('z_CA');
+if(document.getElementById('kb_non_US'))
+showLayer('kb_non_US');
+if(document.getElementById('z_non_US'))
+toggleZippy('z_non_US');
+</script>
+</div>
+<div class="clear"></div>
+<a href="http://support.google.com/websearch/bin/answer.py?hl=en&p=settings_help&answer=35892#" name="helpful"></a>
+<div class="answer-features">
+<div class="plus-one-button">
+<div id="plusone"></div>
+<script type="text/javascript">
+gapi.plusone.render('plusone', {size: 'small', count: 'true',
+href: 'http:\x2F\x2Fsupport.google.com\x2Fwebsearch\x2Fbin\x2Fanswer.py?hl=en\x26answer=35892\x26ctx=plusone'});
+</script>
+</div>
+<a class="share-page"
+title="Share"
+href="javascript:toggleLayer('share-links');
+track('Page Actions', 'Share');"></a>
+<div id="share-links" style="display:none">
+<img src="http://www.google.com/help/hc/images/icon_close.gif" onclick="hideLayer('share-links')" class="icon-close" />
+<ul id="share-links">
+<li style="background-image:url(//www.google.com/help/hc/images/share_icon_googlemail.gif);">
+<a href="https://mail.google.com/mail/?ui=2&view=cm&fs=1&tf=1&su=Search+settings+-+Search+preferences&body=http%3A%2F%2Fsupport.google.com%2Fwebsearch%2Fbin%2Fanswer.py%3Fhl%3Den%26answer%3D35892%26ctx%3Dshare%0A%0AShared+with+Google+Share+Button" onclick="track('Page Actions',
+'Share - Gmail')" target="_blank">Gmail</a>
+</li>
+<li style="background-image:url(//www.google.com/images/icons/product/blogger-16.png);">
+<a href="http://www.blogger.com/blog_this.pyra?u=http%3A%2F%2Fsupport.google.com%2Fwebsearch%2Fbin%2Fanswer.py%3Fhl%3Den%26answer%3D35892%26ctx%3Dshare&n=Search+settings+-+Search+preferences" onclick="track('Page Actions',
+'Share - Blogger')" target="_blank">Blogger</a>
+</li>
+<li style="background-image:url(//www.google.com/help/hc/images/share_icon_buzz.gif);">
+<a href="http://www.google.com/buzz/post?url=http%3A%2F%2Fsupport.google.com%2Fwebsearch%2Fbin%2Fanswer.py%3Fhl%3Den%26answer%3D35892%26ctx%3Dshare" onclick="track('Page Actions',
+'Share - Buzz')" target="_blank">Buzz</a>
+</li>
+<li style="background-image:url(//www.google.com/images/icons/product/orkut-16.png);">
+<a href="http://promote.orkut.com/preview?nt=orkut.com&du=http%3A%2F%2Fsupport.google.com%2Fwebsearch%2Fbin%2Fanswer.py%3Fhl%3Den%26answer%3D35892%26ctx%3Dshare&tt=Search+settings+-+Search+preferences" onclick="track('Page Actions',
+'Share - Orkut')" target="_blank">Orkut</a>
+</li>
+<li style="background-image:url(//www.google.com/images/icons/product/reader-16.png);">
+<a href="../../../reader/link_url_http_3A_2F_2Fsupport.google.com_2Fwebsearch_2Fbin_2Fanswer.py_3Fhl_3Den_26answer_3D35892_26ctx_3Dshare_title_Search_settings_-_Search_preferences" onclick="track('Page Actions',
+'Share - Reader')" target="_blank">Google Reader</a>
+</li>
+<li style="background-image:url(//www.google.com/help/hc/images/share_icon_bookmarks.gif);">
+<a href="https://www.google.com/bookmarks/mark?op=edit&bkmk=http%3A%2F%2Fsupport.google.com%2Fwebsearch%2Fbin%2Fanswer.py%3Fhl%3Den%26answer%3D35892%26ctx%3Dshare&title=Search+settings+-+Search+preferences" onclick="track('Page Actions',
+'Share - Bookmarks')" target="_blank">Bookmarks</a>
+</li>
+<li><a href="http://www.google.com/support/chrome/bin/answer.py?hl=en&answer=174566" onclick="track('Page Actions',
+'Share - More for Chrome')" target="_blank">&raquo; More</a></li>
+</ul>
+</div>
+<a class="comment-on-page"
+title="Comment"
+id="sidewiki-open-ui-button"
+onclick="track('Page Actions', 'Comment')"></a>
+</div>
+<div class="additional_resources_wrapper">
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</td>
+<td class="right-column">
+<div class="clear"></div>
+<div class="p13n_box3 top-right"
+id="p13n_box"
+style="display:auto;">
+<a href="javascript:setCookies_default('p13n_box_55_product_feedback_survey', 1, '','30');
+hideLayer('p13n_box');
+track('P13n Box - product_feedback_survey', 'Hide');"
+class="hide_link">
+</a>
+<p>Help Google improve its products. <a href="request.py_contact_type_product_feedback" onclick="track('P13n Box - product_feedback_survey','clickstosurvey');">Tell us what you think!</a></p>
+<div id="p13n_box_content"></div>
+</div>
+<script type="text/javascript">
+var promoDisplayDict = {
+'type': "promo",
+'func': function(){
+document.getElementById("p13n_box").style.display = 'block';
+}
+};
+googlehelp.Feed.setP13nDisplayFunc(4,
+promoDisplayDict);
+</script>
+<div class="module">
+<a class="zippy zippy-track zippy-expand"onclick="setCookies_default('rightnav', '1', '', -1);"><h2>Related</h2></a>
+<ul class="no_bullets right-nav-cb">
+<li>
+<a href="../../../../Documentssupport.google.com/websearch/bin/answer.py_hl_en_answer_165228_ctx_cbo_cbid_345602962_cbrank_0" onclick="track('Recommended Articles Module', 'cbanswer 165228');">
+Google Social Search
+</a>
+<br />
+<span class="right-nav-cb-bc">
+<a href="../../../../Documentssupport.google.com/websearch/bin/topic.py_topic_1224171" onclick="track('Breadcrumbs', '1224171');">Customize your experience</a><span class="br-seperator"> &rsaquo; </span><a href="../../../../Documentssupport.google.com/websearch/bin/topic.py_topic_1678513" onclick="track('Breadcrumbs', '1678513');">Personalized results</a>
+</span>
+</li>
+<li>
+<a href="../../../../Documentssupport.google.com/websearch/bin/answer.py_hl_en_answer_134479_ctx_cb_src_cb_cbid_1lctljmsh5go3_cbrank_1" onclick="track('Recommended Articles Module', 'cb 134479');">
+Basic search help
+</a>
+<br />
+<span class="right-nav-cb-bc">
+<a href="../../../../Documentssupport.google.com/websearch/bin/topic.py_topic_1239016" onclick="track('Breadcrumbs', '1239016');">Learn about Web Search</a><span class="br-seperator"> &rsaquo; </span><a href="../../../../Documentssupport.google.com/websearch/bin/topic.py_topic_1221265" onclick="track('Breadcrumbs', '1221265');">Tips for searching</a>
+</span>
+</li>
+<li>
+<a href="../../../../Documentssupport.google.com/websearch/bin/answer.py_hl_en_answer_179386_ctx_cb_src_cb_cbid_ne4vxw8bojg1_cbrank_2" onclick="track('Recommended Articles Module', 'cb 179386');">
+Location
+</a>
+<br />
+<span class="right-nav-cb-bc">
+<a href="../../../../Documentssupport.google.com/websearch/bin/topic.py_topic_1224171" onclick="track('Breadcrumbs', '1224171');">Customize your experience</a><span class="br-seperator"> &rsaquo; </span><a href="../../../../Documentssupport.google.com/websearch/bin/topic.py_topic_1678513" onclick="track('Breadcrumbs', '1678513');">Personalized results</a>
+</span>
+</li>
+<li>
+<a href="../../../../Documentssupport.google.com/websearch/bin/answer.py_hl_en_answer_180720_ctx_cb_src_cb_cbid_19zuj9r4oy33d_cbrank_3" onclick="track('Recommended Articles Module', 'cb 180720');">
+Add a background image to your Google homepage
+</a>
+<br />
+<span class="right-nav-cb-bc">
+<a href="../../../../Documentssupport.google.com/websearch/bin/topic.py_topic_1239016" onclick="track('Breadcrumbs', '1239016');">Learn about Web Search</a><span class="br-seperator"> &rsaquo; </span><a href="../../../../Documentssupport.google.com/websearch/bin/topic.py_topic_1224171" onclick="track('Breadcrumbs', '1224171');">Customize your experience</a>
+</span>
+</li>
+<li>
+<a href="../../../../Documentssupport.google.com/websearch/bin/answer.py_hl_en_answer_136861_ctx_cb_src_cb_cbid_1dtm2ebrv9fcz_cbrank_4" onclick="track('Recommended Articles Module', 'cb 136861');">
+More search help
+</a>
+<br />
+<span class="right-nav-cb-bc">
+<a href="../../../../Documentssupport.google.com/websearch/bin/topic.py_topic_1239016" onclick="track('Breadcrumbs', '1239016');">Learn about Web Search</a><span class="br-seperator"> &rsaquo; </span><a href="../../../../Documentssupport.google.com/websearch/bin/topic.py_topic_1221265" onclick="track('Breadcrumbs', '1221265');">Tips for searching</a>
+</span>
+</li>
+</ul>
+</div>
+</td>
+</tr></table></div>
+<div class="footer-nav-streamlined">
+<p>
+<a href="../../../index.html" onclick="track('Footer', 'Product home')">Web Search</a>
+-
+<a href="../../../../Documentssupport.google.com/websearch/bin/request.py_contact_type_contact_policy" onclick="track('Footer', 'Contacting us')">Contacting Us</a>
+-
+<a href="../../_hl_en" onclick="track('Footer', 'Help with other products')">Help with other Google products</a>
+-
+<form method="post" id="changelang" name="changelang"
+action="javascript:
+setCookies_default('WebUserLocale',
+this.document.changelang.lang.value, 'dropdown');
+track('LanguageDropdown', this.document.changelang.lang.value);"
+class="lang_dropdown">
+<label for="lang">Change language:</label>
+<select name="lang" id="lang"
+onchange="document.getElementById('changelang').submit();">
+<option value="ar" >Ø§ÙØ¹Ø±Ø¨Ù`Ø©</option>
+<option value="bg" >ÐÑ`Ð»Ð³Ð°Ñ¬ÑýÐºÐ¸</option>
+<option value="cs" >ÄResky</option>
+<option value="da" >Dansk</option>
+<option value="de" >Deutsch</option>
+<option value="en" selected="selected" class="selected">English (US)&lrm;</option>
+<option value="es" >EspaÃ±ol</option>
+<option value="fr" >FranÃ§ais</option>
+<option value="it" >Italiano</option>
+<option value="hu" >Magyar</option>
+<option value="nl" >Nederlands</option>
+<option value="no" >Norsk</option>
+<option value="pl" >Polski</option>
+<option value="br" >PortuguÃªs (Brasil)&lrm;</option>
+<option value="ro" >RomÃ¢nÄ’</option>
+<option value="sk" >SlovenskÃ½</option>
+<option value="sl" >SlovenÅ¡Äýina</option>
+<option value="fi" >Suomi</option>
+<option value="sv" >Svenska</option>
+<option value="ru" >Ð Ñ’ÑýÑýÐºÐ¸Ð¹</option>
+<option value="th" >à¸ à¸²à¸©à¸²à¹à¸à¸¢</option>
+<option value="tl" >Tagalog</option>
+<option value="tr" >TÃ¼rkÃ§e</option>
+<option value="el" >Î"Î»Î»Î·Î½Î¹ÎºÎ¬</option>
+<option value="iw" >×¢××¨×"×ª</option>
+<option value="hi" >à¤¹à¤¿à¤¨à¥ýà¤¦à¥¬</option>
+<option value="cn" >ä¸­æ!ï¼Æç®¬ä½ï¼0&lrm;</option>
+<option value="b5" >ä¸­æ!ï¼Æç¹ýé«ï¼0&lrm;</option>
+<option value="jp" >æ¥æS¬èª~</option>
+<option value="kr" >í"Sêµ­ì´</option>
+</select>
+</form>
+</p>
+<div><p>
+<span class="footer-copyright">
+&copy;2011 Google
+</span>
+<span>
+-
+<a href="../../../intl/en/" onclick="track('Footer', 'GoogleHome');
+">Google home</a>
+</span>
+<span>
+-
+<a href="../../../intl/en/privacy.html" onclick="track('Footer', 'PrivacyPolicy');
+">Privacy Policy</a>
+</span>
+<span>
+-
+<a href="../../../accounts/TOS_hl_en_loc_CA" onclick="track('Footer', 'Terms');
+">Terms of Service</a>
+</span>
+<span>
+-
+<a href="../../../sitemap.html" onclick="track('Footer', 'Sitemap');
+">Site map</a>
+</span>
+</p></div>
+</div>
+</div>
+<script type="text/javascript">
+googlehelp.Links.initLinks(
+['', 'NO-GMAIL', 'NO-PLUS', browser, browserGroup,
+os, osGroup, country], internal);
+if (googlehelp.initEls) {
+googlehelp.initEls(['', 'NO-GMAIL', 'NO-PLUS', browser, browserGroup,
+os, osGroup, country, countryGroup],
+userSettings, userSettingsDropdownText);
+}
+if (convertLinksToButtons) {
+convertLinksToButtons();
+}
+</script>
+<script src="http://www.google.com/accounts/hosted/helpcenter/js/tooltips/TooltipLoader.js" type="text/javascript"> </script>
+<link href="http://www.google.com/accounts/hosted/helpcenter/css/tooltips/TooltipLoader.css" type="text/css" rel="stylesheet" />
+<script src="http://www.google.com/accounts/hosted/helpcenter/js/tooltips/XMLHttpRequest.js" type="text/javascript"></script>
+<div class="tooltipPopup" style="visibility:hidden;display:none;"
+id="loadingDiv"><strong>Loading...</strong><br/>
+<br/><br/><br/>
+<img src="http://www.google.com/accounts/hosted/helpcenter/images/tooltips/spin_32.gif" alt="" style="width:32px; height:32px; border-style:none;" /><br/><br/><br/>
+</div>
+<iframe scrolling="no" class="tooltipPopup" frameborder="0"
+id="tooltipIframe"></iframe>
+<script type="text/javascript"><!--
+tooltipOnMouseover = function(imgIconId, isFocus) {
+if (isFocus == 'true') {
+document.getElementById(imgIconId).src = "//www.google.com/accounts/hosted/helpcenter/images/tooltips/923093475-question_mark_over.gif";
+} else {
+document.getElementById(imgIconId).src = "//www.google.com/accounts/hosted/helpcenter/images/tooltips/923093475-question_mark.gif";
+}
+}
+var tooltipLoader = new TooltipLoader("/websearch/bin/shortanswer.py?answer=");
+//-->
+</script>
+<script src="http://www.google-analytics.com/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+var analytics_async = 0;
+</script>
+<script src="http://support.google.com/websearch/bin/resource/urchin_util.js?v=7" type="text/javascript"></script>
+<script type="text/javascript">
+var cookiePathArray = [];
+</script>
+<script type="text/javascript">
+setCookies_default("websearch_exp", "3", "", "60");
+</script>
+<script type="text/javascript">
+urchinTracker('\x2Fwebsearch\x2Fbin\x2Fanswer.py?hl=en\x26p=settings_help\x26answer=35892\x26experiment=3');
+</script>
+<script src="http://support.google.com/websearch/bin/resource/js_validate_static.js?v=18" type="text/javascript"></script>
+<script type="text/javascript">
+track('P13n Box - product_feedback_survey',
+'Impression');
+setCookies_default('p13n_box_impr_55_product_feedback_survey',
+'1',
+'',
+'30');
+</script>
+<script type="text/javascript">
+new googlehelp.Lightbox(
+'\x26laquo\x3B Previous',
+'Next \x26raquo\x3B');
+</script>
+<script src="http://www.google.com/sidewiki/static/sidebar_element/sidebar-element-compiled.js"></script>
+<script defer="defer">
+var sidebarElement = new google.elements.sidewiki.SidebarElement(
+window.location.href,false);
+sidebarElement.bindToElement("sidewiki-open-ui-button");
+</script>
+</body>
+</html>

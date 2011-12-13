@@ -1,0 +1,381 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en"
+class="streamlined streamlined-3">
+<head>
+<script type="text/javascript">serverResponseTimeDelta=window.external&&window.external.pageT?window.external.pageT:-1;pageStartTime=new Date().getTime();</script>
+<title>Google Translator Toolkit Help</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Official Google Translator Toolkit Help Center where you can find tips and tutorials on using Google Translator Toolkit and other answers to frequently asked questions." />
+<link rel="canonical" href="http://support.google.com/translate/toolkit/?hl=en" />
+<link rel="shortcut icon" href="http://www.google.com/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="http://support.google.com/translate/toolkit/bin/resource/all.css?v=376_" />
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
+<script type="text/javascript">
+var internal = 0;
+var hc_protocol = "http://";
+var hc_host = "support.google.com";
+var hc_url_root = "/translate/toolkit";
+var hc_page_info = "homepage";
+var track = function() {};
+var country = 'CA';
+var countryGroup = 'Americas';
+var rec_eng_type = "CONSUMER";
+var global_error_general = 'Sorry, we weren\x27t able to submit your information. Please try again.';
+var search_form_id = 'search-form';
+var hc_urchin = "UA-18500-68";
+var global_hc_bookmark = new Array("add","remove","toggle");
+global_hc_bookmark.add = new Array();
+global_hc_bookmark.remove = new Array();
+global_hc_bookmark.toggle = new Array();
+global_hc_bookmark["add"].url = "";
+global_hc_bookmark["add"].token = "";
+global_hc_bookmark["remove"].url = "";
+global_hc_bookmark["remove"].token = "";
+global_hc_bookmark["toggle"].url = "";
+global_hc_bookmark["toggle"].token = "";
+var hiddenZippyLists = '{"country": {"answerId": "", "zippiesString": "These instructions are optimized for your current system\x27s configuration. To view these instructions for another configuration, select the configuration:&nbsp;", "defaultValue": "CA", "validItems": {"AF": "Afghanistan", "AL": "Albania", "DZ": "Algeria", "AS": "American Samoa", "AO": "Angola", "AI": "Anguilla", "AQ": "Antarctica", "AD": "Andorra", "AR": "Argentina", "AM": "Armenia", "AW": "Aruba", "AT": "Austria", "AU": "Australia", "AZ": "Azerbaijan", "BS": "Bahamas", "BH": "Bahrain", "BD": "Bangladesh", "BB": "Barbados", "AG": "Barbuda", "BY": "Belarus", "BZ": "Belize", "BE": "Belgium", "BN": "Benin", "BM": "Bermuda", "BT": "Bhutan", "BO": "Bolivia", "BW": "Botswana", "BA": "Bosnia and Herzegovina", "BR": "Brazil", "VG": "British Virgin Islands", "BN": "Brunei", "BN": "Brunei Darussalam", "BG": "Bulgaria", "BF": "Burkina Faso", "BI": "Burundi", "CM": "Cameroon", "KH": "Cambodia", "CA": "Canada", "CV": "Cape Verde Islands", "KY": "Cayman Islands", "CF": "Central African Republic", "TD": "Chad", "CL": "Chile", "CN": "China", "CX": "Christmas Island", "CC": "Cocos Islands", "CO": "Colombia", "CK": "Cook Islands", "KM": "Comoros", "CG": "Congo", "CR": "Costa Rica", "CI": "Cote d\x27Ivoire", "HR": "Croatia", "CU": "Cuba", "CY": "Cyprus", "CZ": "Czech Republic", "DK": "Denmark", "DJ": "Djibouti", "DM": "Dominica", "DO": "Dominican Republic", "EC": "Ecuador", "EG": "Egypt", "SV": "El Salvador", "GQ": "Equitorial Guinea", "ER": "Eritrea", "EE": "Estonia", "ET": "Ethiopia", "FK": "Falkland Islands", "FO": "Faroe Islands", "FJ": "Fiji", "FI": "Finland", "FR": "France", "GF": "French Guiana", "PF": "French Polynesia", "TF": "French Southern Territories", "GA": "Gabon", "GM": "Gambia", "GE": "Georgia", "DE": "Germany", "GH": "Ghana", "GI": "Gibraltar", "GR": "Greece", "GL": "Greenland", "GD": "Grenada", "CP": "Guadeloupe", "GU": "Guam", "GT": "Guatemala", "GF": "Guiana", "GN": "Guinea", "GW": "Guinea-Bissau", "GY": "Guyana", "HT": "Haiti", "HN": "Honduras", "HK": "Hong Kong", "HU": "Hungary", "IS": "Iceland", "IN": "India", "ID": "Indonesia", "IR": "Iran", "IQ": "Iraq", "IE": "Ireland", "IL": "Israel", "IT": "Italy", "JM": "Jamaica", "JP": "Japan", "JO": "Jordan", "KZ": "Kazakhstan", "KI": "Kiribati", "KE": "Kenya", "KW": "Kuwait", "KG": "Kyrgyzstan", "LA": "Laos", "LV": "Latvia", "LB": "Lebanon", "LS": "Lesotho", "LR": "Liberia", "LY": "Libyan Arab Jamahiriya", "LI": "Liechtenstein", "LT": "Lithuania", "LU": "Luxembourg", "MO": "Macau", "MK": "Macedonia", "MG": "Madagascar", "MY": "Malaysia", "MT": "Malta", "MW": "Malawi", "MV": "Maldives", "ML": "Mali", "MP": "Mariana Islands", "MH": "Marshall Islands", "MQ": "Martinique", "MR": "Mauritania", "MU": "Mauritius", "YT": "Mayotte Island", "MX": "Mexico", "MD": "Moldova", "FM": "Micronesia", "MC": "Monaco", "MN": "Mongolia", "MS": "Montserrat", "MA": "Morocco", "MZ": "Mozambique", "MM": "Myanmar", "NA": "Namibia", "NR": "Nauru", "NP": "Nepal", "NL": "Netherlands", "AN": "Netherlands Antilles", "KN": "Nevis", "NC": "New Caledonia", "NI": "Nicaragua", "NE": "Niger", "NG": "Nigeria", "NU": "Niue", "KR": "North Korea", "NO": "Norway", "NZ": "New Zealand", "OM": "Oman", "PW": "Palau", "PK": "Pakistan", "PS": "Palestine", "PA": "Panama", "PG": "Papua New Guinea", "PY": "Paraguay", "PE": "Peru", "PH": "Philippines", "PN": "Pitcairn Islands", "PO": "Poland", "PT": "Portugal", "PR": "Puerto Rico", "QA": "Qatar", "RE": "Reunion Island", "RO": "Romania", "RU": "Russia", "RW": "Rwanda", "WS": "Samoa", "ST": "Sao Tome and Principe", "SM": "San Marino", "SA": "Saudi Arabia", "SN": "Senegal", "CS": "Serbia and Montenegro", "SC": "Seychelles", "SL": "Sierra Leone", "SG": "Singapore", "SK": "Slovakia", "SI": "Slovenia", "ES": "Spain", "SO": "Somalia", "SB": "Solomon Islands", "ZA": "South Africa", "KP": "South Korea", "LK": "Sri Lanka", "SR": "Suriname", "SD": "Sudan", "SS": "South Sudan", "SH": "St. Helena", "KN": "St. Kitts and Nevis", "LC": "St. Lucia", "PM": "St. Pierreet Miquelon", "VC": "St. Vincent and the Grenadines", "SZ": "Swaziland", "SE": "Sweden", "CH": "Switzerland", "SY": "Syrian Arab Republic", "TW": "Taiwan", "TJ": "Tajikistan", "TZ": "Tanzania", "TH": "Thailand", "TB": "Tibet", "TL": "Timor", "TG": "Togo", "TK": "Tokelau", "TO": "Tonga", "TT": "Trinidad and Tobago", "TN": "Tunisia", "TR": "Turkey", "TM": "Turkmenistan", "TC": "Turks and Caicos Islands", "TV": "Tuvalu", "UK": "Ukraine", "UG": "Uganda", "UE": "United Arab Emirates", "GB": "United Kingdom", "US": "USA", "VI": "U.S. Virgin Islands", "UY": "Uruguay", "UZ": "Uzbekistan", "VU": "Vanuatu", "VA": "The Vatican", "VE": "Venezuela", "VN": "Vietnam", "EH": "Western Sahara", "YE": "Yemen", "CD": "Zaire", "ZM": "Zambia", "ZW": "Zimbabwe", "other": "Other"}}}';
+</script>
+<script src="http://support.google.com/translate/toolkit/bin/resource/js_variables.js?v=6&hl=en" type="text/javascript"></script>
+<script type="text/javascript" src="http://www.google.com/receng/js/receng.js"></script>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+google.load('search', 1);
+function init() {
+google.search.CustomSearchControl.attachAutoCompletion(
+'000725665488941526426:t26yegxjqpo',
+document.getElementById('query'),
+search_form_id);
+}
+google.setOnLoadCallback(init);
+</script>
+<script src="http://support.google.com/translate/toolkit/bin/resource/js_minified.js?v=124" type="text/javascript"></script>
+<script src="https://plusone.google.com/js/plusone.js">
+{lang: 'en', parsetags: 'explicit'}
+</script>
+</head>
+<body onload="
+registerSearchForm(search_form_id, 'query');getRecommendations(rec_eng_type, gaia_name, hc_lang);makeRequest('/translate/toolkit/bin/stats?r='+serverResponseTimeDelta+'&l='+(new Date().getTime()-pageStartTime)); 
+"
+dir="ltr"
+class=" index_page streamlined streamlined-3 streamlined-header-1 ltr lang_en show_modules show_leftnav homepage_searchbox other  other  new-ui-index ">
+<a href="http://support.google.com/translate/toolkit/#content" class="skiplink">Skip to content</a>
+<div class="wrapper" id="baseDiv">
+<div id=gbar><nobr><a class="gb1" href="https://mail.google.com/mail/">Gmail</a> <a class="gb1" href="https://www.google.com/calendar">Calendar</a> <a class="gb1" href="https://docs.google.com/">Documents</a> <a class="gb1" href="http://picasaweb.google.com/home?hl=en">Photos</a> <a class="gb1" href="https://sites.google.com/">Sites</a> <a class="gb1" href="../../Documentsgroups.google.com/grphp_hl_en">Groups</a> <a class="gb1" href="../../Documentswww.google.ca/webhp_hl_en">Web</a> <a class="gb1" style="text-decoration:none" href="../../Documentswww.google.ca/intl/en/options/index.html"><u>More</u> &raquo;</a></nobr></div><div id=guser width=100%><nobr><span id=gbn class=gbi></span><span id=gbf class=gbf></span><span id=gbe></span><a id="gb_70" href="https://www.google.com/accounts/ServiceLogin?passive=1209600&continue=http://support.google.com/translate/toolkit/&followup=http://support.google.com/translate/toolkit/" class="gb4">Sign in</a></nobr></div><div class=gbh style=left:0></div><div class=gbh style=right:0></div>
+<style type="text/css">#gbar,#guser{font-size:13px;padding-right:8px;padding-top:4px !important}#gbar{padding-left:8px;height:22px}#guser{padding-bottom:7px !important;text-align:right}.gbh,.gbd{border-top:1px solid #c9d7f1;font-size:1px}.gbh{height:0;position:absolute;top:24px;width:100%}@media all{.gb1{height:22px;margin-right:.5em;vertical-align:top}#gbar{float:left}}a.gb1,a.gb4{text-decoration:underline !important}a.gb1,a.gb4{color:#00c !important}.gbi .gb4{color:#dd8e27 !important}.gbf .gb4{color:#900 !important}</style>
+<script type="text/javascript"></script>
+<div id="hc_error"></div>
+<div class="header-wrapper">
+<div class="header-logo ">
+<a class="logo-container" href="http://translate.google.com/toolkit">
+<img src="http://www.google.com/images/logos/google_logo_41.png" alt="Google" class="logo" /></a>
+<div class="searchbox">
+<? # Set hidden input fields. # ?>
+<form name="search-form" id="search-form" title="Search Help" method="get" action="http://support.google.com/translate/toolkit/bin/search.py" onsubmit="track('Search Help',
+document.getElementById('query').value);return false;">
+<input autocomplete="off"
+class="search-box"
+type="text"
+name="query"
+id="query"
+maxlength="2048"
+placeholder="Search Translate help"
+title="Search"
+x-webkit-speech
+spellcheck="false" /><button type="submit"
+name="btnG"
+class="search-button"
+alt="Search Help">
+<img src="http://www.google.com/help/hc/images/hc_magnifying_glass.png">
+</button>
+<input type="hidden" name="ctx" value="en:searchbox" />
+</form>
+</div>
+</div>
+<div class="header-bar ">
+<h1>
+<a href="http://translate.google.com/toolkit" onclick="track('Header', 'HC Title')">
+Translate
+</a>
+</h1>
+<div id="yarnball">
+<ul class="yarnball"></ul>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<div class="main-content-container"><table class="layout" border="0"><tr>
+<td class="left-col-module">
+<!--googleoff: snippet-->
+<div class="left-mod-container"><h4 class="left-mod-title">Get started</h4><p class="left-mod-subtitle"></p><ul class="left-hp-mod"><li class="left-mod-link"><a href="http://support.google.com/translate/toolkit/bin/topic.py?topic=22234" onclick="track('LeftNav - GSG', '0');"><span>Basic requirements</span></a></li><li class="left-mod-link"><a href="http://support.google.com/translate/toolkit/bin/topic.py?topic=22235" onclick="track('LeftNav - GSG', '1');"><span>Getting to know Google Translator Toolkit</span></a></li></ul></div>
+<!--googleon: snippet-->
+</td>
+<td class="content new-ui">
+<div class="inner_content ">
+<div id="hcError" style="display:none"></div>
+<a name="content"></a>
+<div id="page-content">
+<div id="zippy-dropdown-container"
+class="zippy-dropdown-container-hide"></div>
+<div class="clear"></div>
+<div class="content-area" id="content-area">
+<div id="topic-tree">
+<div class="clear"></div>
+<div class="homepage-header learn-more">
+<div>
+<h3 name="topic-1727612">How to</h3>
+<div class="topics-container">
+<ul class="indexpage-topic indexpage-topic-switch">
+<li id="node-0" class="cb">
+<a href="http://support.google.com/translate/toolkit/#" id="link-0" onclick="track('Streamlined Homepage', 'Popular Articles');">
+Popular articles
+</a>
+</li>
+<li class=" "
+id="node-22236"
+>
+<a href="http://support.google.com/translate/toolkit/bin/topic.py?hl=en&topic=22236&parent=1727612&ctx=topic" id="link-22236" title="Using Google Translator Toolkit" onclick="track('Streamlined Homepage', '22236');"><span class="answer_link">Using Google Translator Toolkit</span></a>
+</li>
+<li class=" "
+id="node-25464"
+>
+<a href="http://support.google.com/translate/toolkit/bin/topic.py?hl=en&topic=25464&parent=1727612&ctx=topic" id="link-25464" title="Translating AdWords" onclick="track('Streamlined Homepage', '25464');"><span class="answer_link">Translating AdWords</span></a>
+</li>
+</ul>
+<div class="children-container">
+<ol id="children-0" class="cb children">
+<li>
+<a href="http://support.google.com/translate/toolkit/bin/answer.py?hl=en&answer=147854&ctx=cb&src=cb&cbid=1qrfy6m8z5pje" onclick="track('Recommended Articles - Homepage', 'cb 147854');">
+Custom glossary format
+</a>
+</li>
+<li>
+<a href="http://support.google.com/translate/toolkit/bin/answer.py?hl=en&answer=150481&ctx=cb&src=cb&cbid=p7nqmy0if5z3" onclick="track('Recommended Articles - Homepage', 'cb 150481');">
+Transliteration
+</a>
+</li>
+<li>
+<a href="http://support.google.com/translate/toolkit/bin/answer.py?hl=en&answer=147844&ctx=cb&src=cb&cbid=-1580n994eaxul" onclick="track('Recommended Articles - Homepage', 'cb 147844');">
+Uploading a translation memory
+</a>
+</li>
+<li>
+<a href="http://support.google.com/translate/toolkit/bin/answer.py?hl=en&answer=147809&ctx=cb&src=cb&cbid=-1lhlf8xz7iwvv" onclick="track('Recommended Articles - Homepage', 'cb 147809');">
+Google Translator Toolkit basics
+</a>
+</li>
+<li>
+<a href="http://support.google.com/translate/toolkit/bin/answer.py?hl=en&answer=147837&ctx=cb&src=cb&cbid=-1n9zdw8vcle60" onclick="track('Recommended Articles - Homepage', 'cb 147837');">
+Languages
+</a>
+</li>
+<li>
+<a href="http://support.google.com/translate/toolkit/bin/answer.py?hl=en&answer=147842&ctx=cb&src=cb&cbid=-8w3ah6749r49" onclick="track('Recommended Articles - Homepage', 'cb 147842');">
+Uploading files to translate
+</a>
+</li>
+</ol>
+<ul id="children-22236" class="children">
+<li class=" "
+id="node-22238"
+>
+<a href="http://support.google.com/translate/toolkit/bin/topic.py?hl=en&topic=22238&parent=22236&ctx=topic" id="link-22238" title="Translating" onclick="track('Streamlined Homepage', '22238');"><span class="answer_link">Translating</span></a>
+</li>
+<li class=" "
+id="node-22237"
+>
+<a href="http://support.google.com/translate/toolkit/bin/topic.py?hl=en&topic=22237&parent=22236&ctx=topic" id="link-22237" title="Sharing, collaborating, and publishing" onclick="track('Streamlined Homepage', '22237');"><span class="answer_link">Sharing, collaborating, and publishing</span></a>
+</li>
+<li class=" "
+id="node-22239"
+>
+<a href="http://support.google.com/translate/toolkit/bin/topic.py?hl=en&topic=22239&parent=22236&ctx=topic" id="link-22239" title="Translation memories, glossaries, and placeholders" onclick="track('Streamlined Homepage', '22239');"><span class="answer_link">Translation memories, glossaries, and placeholders</span></a>
+</li>
+<li class=" "
+id="node-22240"
+>
+<a href="http://support.google.com/translate/toolkit/bin/topic.py?hl=en&topic=22240&parent=22236&ctx=topic" id="link-22240" title="Uploading and exporting" onclick="track('Streamlined Homepage', '22240');"><span class="answer_link">Uploading and exporting</span></a>
+</li>
+</ul>
+<ul id="children-25464" class="children">
+<li class=" "
+id="node-25465"
+>
+<a href="http://support.google.com/translate/toolkit/bin/topic.py?hl=en&topic=25465&parent=25464&ctx=topic" id="link-25465" title="Uploading and exporting" onclick="track('Streamlined Homepage', '25465');"><span class="answer_link">Uploading and exporting</span></a>
+</li>
+<li class=" "
+id="node-25478"
+>
+<a href="http://support.google.com/translate/toolkit/bin/topic.py?hl=en&topic=25478&parent=25464&ctx=topic" id="link-25478" title="Translating" onclick="track('Streamlined Homepage', '25478');"><span class="answer_link">Translating</span></a>
+</li>
+<li class=" "
+id="node-25487"
+>
+<a href="http://support.google.com/translate/toolkit/bin/topic.py?hl=en&topic=25487&parent=25464&ctx=topic" id="link-25487" title="Localizing" onclick="track('Streamlined Homepage', '25487');"><span class="answer_link">Localizing</span></a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+<div class="homepage-header buffer"></div>
+</div>
+<div class="clear"></div>
+</div>
+</td>
+<td class="right-column">
+<div class="clear"></div>
+<div class="p13n_box3 top-right"
+id="p13n_box"
+style="display:auto;">
+<a href="javascript:setCookies_default('p13n_box_241_OneGoogleSandbar', 1, '','30');
+hideLayer('p13n_box');
+track('P13n Box - OneGoogleSandbar', 'Hide');"
+class="hide_link">
+</a>
+<p>Looking to learn more about the new Google bar at the top of Translate? Click <a href="http://www.google.com/support/accounts/bin/answer.py?answer=1714464">here</a>.</p>
+<div id="p13n_box_content"></div>
+</div>
+<script type="text/javascript">
+var promoDisplayDict = {
+'type': "promo",
+'func': function(){
+document.getElementById("p13n_box").style.display = 'block';
+}
+};
+googlehelp.Feed.setP13nDisplayFunc(7,
+promoDisplayDict);
+</script>
+<div class="module">
+<a class="zippy zippy-expand zippy-collapse"><h2>Additional resources</h2></a>
+<ul class="combo-mod">
+<li>
+<a href="http://www.youtube.com/v/C7W2NJFdoIg&hl=en&fs=1&" onclick="track('Combo Module', 'video_tour');">Take a video tour</a>
+<p class="light-subtext external">www.youtube.com</p>
+</li>
+</ul>
+</div>
+</td>
+</tr></table></div>
+<div class="footer-nav-streamlined">
+<p>
+<a href="http://translate.google.com/toolkit" onclick="track('Footer', 'Product home')">Google Translator Toolkit</a>
+-
+<a href="http://support.google.com/translate/toolkit/bin/request.py?contact_type=contact_policy" onclick="track('Footer', 'Contacting us')">Contacting Us</a>
+-
+<a href="../../Documentswww.google.ca/support/_hl_en" onclick="track('Footer', 'Help with other products')">Help with other Google products</a>
+-
+<form method="post" id="changelang" name="changelang"
+action="javascript:
+setCookies_default('UserLocale',
+this.document.changelang.lang.value, 'dropdown');
+track('LanguageDropdown', this.document.changelang.lang.value);"
+class="lang_dropdown">
+<label for="lang">Change language:</label>
+<select name="lang" id="lang"
+onchange="document.getElementById('changelang').submit();">
+<option value="bg" >ÐÑ`Ð»Ð³Ð°Ñ¬ÑýÐºÐ¸</option>
+<option value="ca" >CatalÃ </option>
+<option value="cs" >ÄResky</option>
+<option value="sr" >Ð¡Ñ¬Ð¿ÑýÐºÐ¸</option>
+<option value="da" >Dansk</option>
+<option value="de" >Deutsch</option>
+<option value="en" selected="selected" class="selected">English (US)&lrm;</option>
+<option value="es-001" >EspaÃ±ol</option>
+<option value="fr" >FranÃ§ais</option>
+<option value="it" >Italiano</option>
+<option value="lv" >LatvieÅ¡u</option>
+<option value="lt" >LietuviÅ³</option>
+<option value="hu" >Magyar</option>
+<option value="nl" >Nederlands</option>
+<option value="no" >Norsk</option>
+<option value="pl" >Polski</option>
+<option value="pt" >PortuguÃªs (Portugal)&lrm;</option>
+<option value="br" >PortuguÃªs (Brasil)&lrm;</option>
+<option value="hr" >Hrvatski</option>
+<option value="ro" >RomÃ¢nÄ’</option>
+<option value="sk" >SlovenskÃ½</option>
+<option value="sl" >SlovenÅ¡Äýina</option>
+<option value="fi" >Suomi</option>
+<option value="sv" >Svenska</option>
+<option value="ru" >Ð Ñ’ÑýÑýÐºÐ¸Ð¹</option>
+<option value="th" >à¸ à¸²à¸©à¸²à¹à¸à¸¢</option>
+<option value="tl" >Tagalog</option>
+<option value="tr" >TÃ¼rkÃ§e</option>
+<option value="el" >Î"Î»Î»Î·Î½Î¹ÎºÎ¬</option>
+<option value="hi" >à¤¹à¤¿à¤¨à¥ýà¤¦à¥¬</option>
+<option value="vi" >Tiáº¿ng Viá»!t</option>
+<option value="cn" >ä¸­æ!ï¼Æç®¬ä½ï¼0&lrm;</option>
+<option value="b5" >ä¸­æ!ï¼Æç¹ýé«ï¼0&lrm;</option>
+<option value="jp" >æ¥æS¬èª~</option>
+<option value="kr" >í"Sêµ­ì´</option>
+</select>
+</form>
+</p>
+<div><p>
+<span class="footer-copyright">
+&copy;2011 Google
+</span>
+<span>
+-
+<a href="../../Documentswww.google.ca/intl/en/" onclick="track('Footer', 'GoogleHome');
+">Google Home</a>
+</span>
+<span>
+-
+<a href="../../Documentswww.google.ca/intl/en/privacy.html" onclick="track('Footer', 'PrivacyPolicy');
+">Privacy Policy</a>
+</span>
+<span>
+-
+<a href="http://translate.google.com/toolkit/TOS.html" onclick="track('Footer', 'Terms');
+">Terms of Service</a>
+</span>
+</p></div>
+</div>
+</div>
+<script type="text/javascript">
+googlehelp.Links.initLinks(
+['', 'NO-GMAIL', 'NO-PLUS', browser, browserGroup,
+os, osGroup, country], internal);
+if (googlehelp.initEls) {
+googlehelp.initEls(['', 'NO-GMAIL', 'NO-PLUS', browser, browserGroup,
+os, osGroup, country, countryGroup],
+userSettings, userSettingsDropdownText);
+}
+if (convertLinksToButtons) {
+convertLinksToButtons();
+}
+</script>
+<script src="http://www.google-analytics.com/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+var analytics_async = 0;
+</script>
+<script src="http://support.google.com/translate/toolkit/bin/resource/urchin_util.js?v=7" type="text/javascript"></script>
+<script type="text/javascript">
+var cookiePathArray = [];
+</script>
+<script type="text/javascript">
+urchinTracker('\x2Ftranslate\x2Ftoolkit\x2F?hl=en');
+</script>
+<script src="http://support.google.com/translate/toolkit/bin/resource/js_validate_static.js?v=18" type="text/javascript"></script>
+<script type="text/javascript">
+track('P13n Box - OneGoogleSandbar',
+'Impression');
+setCookies_default('p13n_box_impr_241_OneGoogleSandbar',
+'1',
+'',
+'30');
+</script>
+<script type="text/javascript">
+initPageTimer('http:\x2F\x2Fsupport.google.com\x2Ftranslate\x2Ftoolkit\x2Fapi\x2Fmetrics?hl=en',false);
+</script>
+<script type="text/javascript">
+new googlehelp.Lightbox(
+'\x26laquo\x3B Previous',
+'Next \x26raquo\x3B');
+</script>
+</body>
+</html>

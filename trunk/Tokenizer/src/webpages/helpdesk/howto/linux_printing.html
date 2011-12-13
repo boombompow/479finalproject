@@ -1,0 +1,341 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><!-- InstanceBegin template="/Templates/helpdesk_base_template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>AITS Helpdesk: HOWTO - Printing From a Linux User-Managed Machine</title>
+<!-- InstanceEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Description" content="AITS, Montreal, Canada">
+<meta name="keywords" content="AITS, Academic Information Technology Services, Concordia university, Canada, Montreal, ">
+<link href="http://www.encs.concordia.ca/Assets/stylesheets/encs.css" rel="stylesheet" type="text/css">
+<link href="http://www.encs.concordia.ca/helpdesk/helpdesk.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" >
+<center>
+  <table width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td height="21" align="center" bgcolor="#bdb76b"><table cellpadding="0" cellspacing="0" border="0">
+          <tr bordercolor="#999999">
+            <td width="114"><a href="http://www.encs.concordia.ca/index.htm" onmouseover="MM_swapImage('Image1','','/Assets/images/home2.gif',1)" onmouseout="MM_swapImgRestore()"><img src="http://www.encs.concordia.ca/Assets/images/home1.gif" alt="ENCS Home" name="Image1" width="114" height="21" border="0" id="Image1"></a></td>
+            <td width="114"><a href="http://www.encs.concordia.ca/Administration/administration.htm" onmouseover="MM_swapImage('Image9','','/Assets/images/Adminstration2.gif',1)" onmouseout="MM_swapImgRestore()"><img src="http://www.encs.concordia.ca/Assets/images/Adminstration1.gif" alt="Administration" name="Image9" width="114" height="21" border="0" id="Image9"></a></td>
+            <td width="114"><a href="http://www.encs.concordia.ca/Alumni" onmouseover="MM_swapImage('Image10','','/Assets/images/Alumni2.gif',1)" onmouseout="MM_swapImgRestore()"><img src="http://www.encs.concordia.ca/Assets/images/Alumni1.gif" alt="Alumni" name="Image10" width="114" height="21" border="0" id="Image10"></a></td>
+            <td width="114"><a href="http://www.encs.concordia.ca/Faculty/Departments.htm" onmouseover="MM_swapImage('Image12','','/Assets/images/Departments2.gif',1)" onmouseout="MM_swapImgRestore()"><img src="http://www.encs.concordia.ca/Assets/images/Departments1.gif" alt="Departments" name="Image12" width="114" height="21" border="0" id="Image12"></a></td>
+            <td width="114"><a href="http://www.encs.concordia.ca/Research/Research_Unit.htm" onmouseover="MM_swapImage('Image11','','/Assets/images/research2.gif',1)" onmouseout="MM_swapImgRestore()"><img src="http://www.encs.concordia.ca/Assets/images/research1.gif" alt="Research" name="Image11" width="114" height="21" border="0" id="Image11"></a></td>
+            <td width="114"><a href="http://www.encs.concordia.ca/News" onmouseover="MM_swapImage('Image13','','/Assets/images/news2.gif',1)" onmouseout="MM_swapImgRestore()"><img src="http://www.encs.concordia.ca/Assets/images/news1.gif" alt="News & Events" name="Image13" width="114" height="21" border="0" id="Image13"></a></td>
+            <td width="114"><a href="http://www.encs.concordia.ca/About_ENCS/Jobs.htm" onmouseover="MM_swapImage('Image2','','/Assets/images/jobs2.gif',1)" onmouseout="MM_swapImgRestore()"><img src="http://www.encs.concordia.ca/Assets/images/jobs1.gif" alt="Jobs" name="Image2" border="0" id="Image2"></a></td>
+          </tr>
+        </table></td>
+    </tr>
+  </table>
+  <table width="100%" border="0" cellpadding="0" cellspacing="0">
+    <TR>
+      <TD vAlign=top width="100%" bgColor=#bdb76b><DIV align=center>
+          <TABLE cellSpacing=0 cellPadding=0 width="100%" align=center border=0>
+            <TR>
+              <TD vAlign=top bgColor=#FFFFCC><TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+                  <TR>
+                    <TD bgColor=#666666 colSpan=4 height=1><img src="http://www.encs.concordia.ca/Assets/images/dot.gif" height="1"></TD>
+                  </TR>
+                  <TR>
+                    <TD vAlign=top width=240 bgColor=#FFFFCC ><TABLE cellSpacing=0 cellPadding=0 width=120 border=0>
+                        <TR>
+                          <TD vAlign=top width=200 bgColor=#FFFFCC><img src="http://www.encs.concordia.ca/Assets/images/ENCS-logo07.gif" border="0" usemap="#Map"> 
+                        </TR>
+                        <tr>
+                          <td height="50"><div align="center">
+                              <form method="post" action="http://www.encs.concordia.ca/cgi-bin/htsearch">
+                                <font size="1"><strong><font color="#666666">Search Helpdesk:</font></strong></font> <font size="1">
+                                <input size="12" name="words" value="" type="text">
+                                <input name="restrict" value="www.encs.concordia.ca/helpdesk/" type="hidden">
+                                <input value="Go" type="submit">
+                                </font> <br>
+                                <a href="http://www.encs.concordia.ca/helpdesk/search.html" style="font-size: xx-small">Advanced</a>
+                              </form>
+                            </div></td>
+                        </tr>
+                        <TR>
+                          <TD vAlign=top width=200 bgColor=#FFFFCC><UL type=circle >
+                              <BR>
+                              <LI><a href="http://www.encs.concordia.ca/aits">AITS Home</A></LI>
+                              <LI><a href="http://www.encs.concordia.ca/Faculty/directory/FA/index.html#AITS">AITS Staff Directory</a></LI>
+                              <LI><a href="http://www.encs.concordia.ca/encsit/public/top/archive">Announcement Archive</a></LI>
+                              <LI><a href="http://www.encs.concordia.ca/encsit/public/top/sitemap.html">Site Map</a></LI>
+                            </UL>
+                            <TABLE cellSpacing=0 cellPadding=0 width=240 align=center border=0>
+                              <TR>
+                                <TD width=100% height=1 bgcolor="#999999"></TD>
+                              </TR>
+                              <TR>
+                                <TD width=100% height=1 bgcolor="#999999"></TD>
+                              </TR>
+                              <TR>
+                                <TD noWrap width=100% bgColor=#AEB96F height=23><DIV align=center><FONT color="#000000" 
+                              size=2 face=Verdana,Arial><B>Quick links</B></FONT></DIV></TD>
+                              </TR>
+                              <TR>
+                                <TD height="1" bgcolor="#999999"></TD>
+                              </TR>
+                              <TR>
+                                <TD><!-- ##QUICKLINKS## START -->
+                                  <ul>
+                                    <br>
+                                    <li> <a href="https://fis.encs.concordia.ca/helpdesk-cgi/doorcode.cgi">Lab door codes</a> </li>
+                                    <li> <a href="https://fis.encs.concordia.ca/helpdesk-cgi/ch-own-pwd.cgi">Change password</a> </li>
+                                    <li> <a href="https://fis.encs.concordia.ca/helpdesk-cgi/quota.cgi">Quota Check </a></li>
+                                    <li> <a href="https://mail.encs.concordia.ca/">Webmail </a></li>
+                                    <li> <a href="https://fis.encs.concordia.ca/eas">Electronic Assignment Submission</a></li>
+                                    <li> <a href="https://fis.encs.concordia.ca/fexch/fexch-description.cgi">File Exchange</a> </li>
+                                    <li><a href="http://www.encs.concordia.ca/aits/public/desktop/USER_Managed_Desktop/Windows/HowTo/Install_Sophos_Antivirus/Install_Sophos_Antivirus.html">Sophos Anti-Virus</a></li>
+                                    <li><a href="http://www.encs.concordia.ca/helpdesk/access/lab_operation_hours.html">Lab Operation Hours</a></li>
+                                    <li><a href="http://www.encs.concordia.ca/aits/public/top/courseSupport.html">Course Support</a></li>
+                                    <li><a href="http://www.encs.concordia.ca/aits/software/">Available Softwares </a></li>
+                                    <br>
+                                  </ul>
+                                  <!-- ##QUICKLINKS## END -->
+                                </TD>
+                              </TR>
+                              <TR>
+                                <TD width=100% height=1 bgcolor="#999999"></TD>
+                              </TR>
+                              <TR>
+                                <TD noWrap width=100% bgColor=#AEB96F height=23><DIV align=center><FONT color="#000000" 
+                              size=1 face=Verdana,Arial><B>Contact the Helpdesk</B></FONT></DIV></TD>
+                              </TR>
+                              <TR>
+                                <TD width="100%" height="1" bgcolor="#999999"></TD>
+                              </TR>
+                              <TR>
+                                <TD width="100%"><table width="220" border="0" align="center">
+                                    <tr>
+                                      <td><div align="center"> <br>
+                                          <strong>Faculty</strong><br>
+										  
+										  Room: EV 7-182<br>
+                                          Phone: 5713<br>
+                                                                                   <a href="mailto:facultyhelp@encs.concordia.ca">facultyhelp@encs.concordia.ca</a><br>
+                                          <br>
+                                          <strong>Student</strong><br>
+										  
+										  Room: H - 960<br>
+                                          Phone: 4181<br>
+                                          <a href="mailto:helpdesk@encs.concordia.ca">helpdesk@encs.concordia.ca</a> </div></td>
+                                    </tr>
+                                  </table></TD>
+                              </TR>
+                            </TABLE></TD>
+                        </TR>
+                      </TABLE></TD>
+                    <TD vAlign=top width=1 bgColor=#999999 height="100%"><img src="http://www.encs.concordia.ca/Assets/images/dot.gif" width="1"></TD>
+                    <TD vAlign=top height="100%"><TABLE width="100%" height="100%" border=0 cellPadding=0 cellSpacing=0 bgcolor="#FFFFCC">
+                        <TR>
+                          <TD vAlign=top colspan=2><div align="center"><img src="http://www.encs.concordia.ca/encsit/public/top/Assets/images/AITS-header.jpg"></div>
+                            <a href="http://www.encs.concordia.ca/helpdesk" style="text-decoration: none">
+                            <div style="color: #aeb96f; text-align: center; font-size: 200%; font-weight: 700;">HELPDESK</div>
+                            </a> </TD>
+                        </TR>
+                        <TR>
+                          <td height="100%"></TD>
+                          <TD class=body  align="left" vAlign=top><TABLE cellSpacing=1 cellPadding=0 width="100%" border=0>
+                              <TR>
+                                <TD class=content vAlign=top><font size="2"> </font>
+                                  <div align="center"> </div>
+                                  <!-- add align=center change width from 100% to 90% -->
+                                  <TABLE cellSpacing=2 cellPadding=3 width="90%" align=center border=0>
+                                    <TR>
+                                      <TD class=body vAlign=top width=114></TD>
+                                      <TD class=body></TD>
+                                    </TR>
+                                    <TR>
+                                      <TD colspan="2" vAlign=top class=body><div align="justify"><!-- InstanceBeginEditable name="Insert content of the page here" --> 
+                                          <h1 align="center">Printing From a Linux User-Managed Machine</h1> 
+                                          <p><span style="color: red; font-weight: bold;font-size: 115%">IMPORTANT</span></p> 
+                                          <p style="padding: 5px; border-style: dashed; border-color: blue; border-width: 1px"> You must be logged in as root to setup the printer. Part of the setup process requires you to enter your ENCS username and password such that it can be sent to the print server whenever you print. This means that if multiple users share the computer all their print jobs will authenticate with your username and password, which means all printouts will be deducted from your <span style="font-weight: bold">print quota</span>. </p> 
+                                          <p align="left"> If multiple users share the system, then it is best to print using one of the following methods: </p> 
+                                          <h2 align="left"> Jump to ENCS servers</h2> 
+                                          <div align="left"> 
+                                            <ol> 
+                                              <li>Log into one of the <a href="http://www.encs.concordia.ca/helpdesk/access/encs_host_list.html" target="_blank">ENCS servers</a>.</li> 
+                                              <li>Print your <span style="font-weight: bold; font-style: italic;">Postscript (.ps)</span> file using the command below. For the purpose of this example the Postscript file to print is <code>foo.ps</code> and the printer name is <code>ballpoint</code>.
+                                                <blockquote> 
+                                                  <p><code>qpr -P ballpoint foo.ps</code></p> 
+                                                </blockquote> 
+                                              </li> 
+                                              <li>Check the print queue with: </li> 
+                                            </ol> 
+                                            <blockquote> 
+                                              <blockquote> 
+                                                <p><code>lpq -P ballpoint</code></p> 
+                                              </blockquote> 
+                                            </blockquote> 
+                                          </div> 
+                                          <h2 align="left">One shot printing from User-Managed Linux machine<br>
+</h2> 
+                                          <div align="left">
+                                            <ol><li>Plaintext password is required for samba server. To do so, add or edit the following lines to the file /etc/samba/smb.conf in the [global] section:<br>
+                                                <br>
+												<code>
+												
+client plaintext auth = yes <br>
+client lanman auth = yes <br>
+workgroup = csglobal </code></li><br>
+                                              <li>From a linux terminal use the command below. For the purpose of this example the file to print is <code>foo.ps</code>, the printer name is <code>ballpoint</code> and the ENCS username is <code>jsmith</code>:
+                                                <blockquote> 
+                                                  <code>cat foo.ps | smbclient '\\printhost-um.encs.concordia.ca\ballpoint' -U jsmith -c "print -"</code></p> 
+                                                  <p>It is important that the <code>'\\printhost-um.encs.concordia.ca\ballpoint'</code> is encased in single quotes (').</p>
+                                                </blockquote>
+                                              </li>
+                                              <li>When asked for your password enter your ENCS password and press <code>ENTER</code>.</li> 
+                                            </ol> 
+                                          </div> 
+                                          <h2 align="left">Permanently add a printer to a User-Manged Linux machine</h2> 
+                                          <div align="left"> 
+                                            <blockquote>To add a printer in the Linux user managed system, login as root, open the terminal and type: </blockquote> 
+                                            <blockquote> 
+                                              <blockquote><code>system-config-printer</code></blockquote> 
+                                            </blockquote> 
+                                          </div> 
+                                          <blockquote> 
+                                            <p align="left">A window pops up indicating all the existing printer configurations and status.</p> 
+                                            <p align="left"><img src="http://www.encs.concordia.ca/helpdesk/howto/images/file1.jpg" width="410" height="229"></p> 
+                                            <p align="left">Select <em>'New'</em> from the <em><strong>Printer Configuratio</strong></em>n toolbar. If you do not have any printers added yet the window will be empty, and a '<em>No Printers found</em>' message box will pop up and prompt to run the printer configuration tool automatically. Click <em><strong>OK</strong></em> and select <em><strong>New</strong></em> from the <em><strong>Printer Configuration</strong></em> tool bar.</p> 
+                                            <p align="left"><img src="http://www.encs.concordia.ca/helpdesk/howto/images/file2.jpg" width="510" height="317"> </p> 
+                                            <p align="left">The adding printer wizard will run, follow the instructions carefully to add a new printer.</p> 
+                                            <blockquote> 
+                                              <h2 align="left">Here is a brief example</h2> 
+                                              <div align="left"> 
+                                                <ol> 
+                                                  <li> To add the <em>'ballpoint'</em> printer, type the queue name <code>ballpoint</code> and short description '<em>ballpoint EV8.143</em>' and click <strong><em>forward</em></strong>.</li> 
+                                                </ol> 
+                                              </div> 
+                                              <blockquote> 
+                                                <p align="left"><img src="http://www.encs.concordia.ca/helpdesk/howto/images/file3.jpg" width="510" height="317"></p> 
+                                              </blockquote> 
+                                              <div align="left"> 
+                                                <ol start="2"> 
+                                                  <li>Select '<em>Networked Windows (SMB)'</em> as a queue type. <br> 
+                                                    <br> 
+                                                    <strong>NOTE</strong>: If '<em>Networked Windows (SMB)</em>' is not shown in queue type list you need to download the SMB client in order to choose this queue type. To do this, first exit the <em><strong>Printer Configuration</strong></em> by clicking on <em><strong>Cancel</strong></em> and download the SMB client using the YUM command from the command prompt:
+                                                    <blockquote><code>yum install samba-client</code></blockquote> 
+                                                  </li> 
+                                                </ol> 
+                                              </div> 
+                                              <blockquote> 
+                                                <p align="left">Then start the Printer Configuration again from step 1.</p> 
+                                                <p align="left"><img src="http://www.encs.concordia.ca/helpdesk/howto/images/file4.jpg" width="510" height="317"></p> 
+                                              </blockquote> 
+                                              <div align="left"> 
+                                                <ol start="3"> 
+                                                  <li>Select <em><strong>Specify</strong></em>.</li> 
+                                                  <li>In the <em><strong>Authentication</strong></em> dialog box, fill in the following information:</li> 
+                                                </ol> 
+                                              </div> 
+                                              <blockquote> 
+                                                <p align="left"><img src="http://www.encs.concordia.ca/helpdesk/howto/images/file5.jpg" width="242" height="212"></p> 
+                                              </blockquote> 
+                                            </blockquote> 
+                                          </blockquote> 
+                                          <div align="left"> 
+                                            <blockquote> 
+                                              <blockquote> 
+                                                <ul> 
+                                                  <ul> 
+                                                    <li> Workgroup: <code>csglobal</code></li> 
+                                                    <li>Server: <code>printhost-um.encs.concordia.ca</code></li> 
+                                                    <li>Share: <code>ballpoint</code> (depends on what printer you are adding), here is the <a target="_blank" href="http://users.encs.concordia.ca/~amin/cgi-bin/list_of_printers.cgi?action=Query&choices=name&field=%25">list</a> of ENCS printers.</li> 
+                                                    <li>User name: <code>your ENCS user name</code></li> 
+                                                    <li>Password: <code>your ENCS password</code></li> 
+                                                  </ul> 
+                                                </ul> 
+                                                <blockquote> 
+                                                  <p>Remember that because you're using your ENCS username and password, printouts from all users in Linux will be deducted from your print quota. If you don't want this type of setup then read the section labeled IMPORTANT at the top of this screen.</p> 
+                                                </blockquote> 
+                                              </blockquote> 
+                                            </blockquote> 
+                                          </div> 
+                                          <blockquote> 
+                                            <blockquote> 
+                                              <div align="left"> 
+                                                <ol start="5"> 
+                                                  <li>Click <em><strong>OK</strong></em> and then select <em><strong>Forward</strong></em>.</li> 
+                                                  <li>The wizard will prompt for a suitable printer manufacturer and model. Depends on the printer that you are adding, choose the appropriate model. For the printer manufacturer and model, please visit this <a target="_blank" href="http://users.encs.concordia.ca/%7Edtm/cgi-bin/printtools/list_of_printers.cgi">link</a></li> 
+                                                </ol> 
+                                              </div> 
+                                              <blockquote> 
+                                                <p align="left"><img src="http://www.encs.concordia.ca/helpdesk/howto/images/file6.jpg"></p> 
+                                                <p align="left"><img src="http://www.encs.concordia.ca/helpdesk/howto/images/file7.jpg" width="510" height="317"></p> 
+                                              </blockquote> 
+                                              <ol start="7"> 
+                                                <li> 
+                                                  <div align="left">The wizard now displays your final configuration. Click "finish" to exit the wizard.</div> 
+                                                </li> 
+                                              </ol> 
+                                              <blockquote> 
+                                                <p align="left"><img src="http://www.encs.concordia.ca/helpdesk/howto/images/file8.jpg" width="510" height="317"></p> 
+                                              </blockquote> 
+                                              <ol start="8"> 
+                                                <li>To test the new printer, a selection box will automatically pop up prompting to print a test page. </li> 
+                                              </ol> 
+                                              <blockquote> 
+                                                <p align="left"><img src="http://www.encs.concordia.ca/helpdesk/howto/images/file9.jpg" width="318" height="148"></p> 
+                                              </blockquote> 
+                                              <ol start="9"> 
+                                                <li>Choose <em><strong>Yes</strong></em>. Check if the test page is printed correctly.</li> 
+                                              </ol> 
+                                            </blockquote> 
+                                          </blockquote> 
+                                          <!-- InstanceEndEditable --> </div></TD>
+                                    </TR>
+                                  </TABLE>
+                                  <BR>
+                                </TD>
+                                <TD class=content vAlign=top>&nbsp;</TD>
+                              </TR>
+                            </TABLE></TD>
+                        </TR>
+                      </TABLE></TD>
+                  </TR>
+                </TABLE></TD>
+            </TR>
+          </TABLE>
+          <font color="#FFFFFF" size="1"><strong> If you have any comments about the website please</strong> </font><font size="1"><a href="http://www.encs.concordia.ca/helpdesk/helpdesk.html"><strong>Contact</strong></a></font><font color="#FFFFFF" size="1"> <strong>us</strong></font></DIV></TD>
+    </TR>
+  </TABLE>
+  <div align="right"> <br>
+    Copyright &copy; 2005 Faculty of Engineering &amp; Computer Science</div>
+  <!--- submenu --->
+</center>
+<map name="Map">
+  <area shape="rect" coords="5,15,235,63" href="../../index.html">
+  <area shape="rect" coords="43,67,235,115" href="../../../Documentswww.concordia.ca/">
+</map>
+</body>
+<!-- InstanceEnd --></html>

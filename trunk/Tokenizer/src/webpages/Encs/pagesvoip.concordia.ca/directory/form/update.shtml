@@ -1,123 +1,0 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><title>Voice Services at Concordia - Update</title><META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><link rel="stylesheet" type="text/css" href="http://voip.concordia.ca/includes/css/voip.css"><script src="http://voip.concordia.ca/scripts/dom.js" type="text/javascript" language="Javascript" charset="iso-8859-1"></script><style type="text/css" media="all">@import "/includes/css/sidemenu.css";</style><style type="text/css"><!-- div#sidemenu ul#navmenu li#index-menu  { 	display: list-item;}ul#navmenu li#index-menu li { 	display: list-item; }ul#navmenu li#index-menu li ul#directory {	display: list-item; }// body {	background-color: #000000;}body {	background-color: #000000;}--></style></head><body  onload="init()"><TABLE bgcolor="#2D4277" width="121%" border="0" cellspacing="0" cellpadding="0">
-  <TR> 
-    <TD width="310" valign="top" background="/images/piece2.gif"><img src="http://voip.concordia.ca/images/voice_serv_revsm.jpg" alt="voiceservices" width="310" height="46"></TD>
-    <TD width="35" background="/images/piece2.gif"><img src="http://voip.concordia.ca/images/spacer.gif" alt="spacer" width="35" height="8"></TD>
-    <TD width="90" background="/images/piece2.gif"><img src="http://voip.concordia.ca/images/spacer.gif" alt="spacer" width="90" height="9"></TD>
-    <TD width="80" background="/images/piece2.gif"><img src="http://voip.concordia.ca/images/spacer.gif" alt="spacer" width="80" height="8"></TD>
-    
-    <TD width="140" valign="top" background="/images/piece2.gif"><img src="http://voip.concordia.ca/images/concordia_new.gif" alt="spacer" width="140" height="46" border="0" usemap="#Map"></TD>
-    <TD width="100%" valign="top" background="/images/piece2.gif">&nbsp;</TD>
-  </TR>
-  <TR> 
-    <TD width="268" valign="top" bgcolor="#000000"><img src="http://voip.concordia.ca/images/level2photo2.gif" alt='""' width="268" height="29"></TD>
-    <TD align="right" valign="middle" bgcolor="#000000"><a class="white" href="http://voip.concordia.ca"><img src="http://voip.concordia.ca/images/spacer.gif" alt="spacer" width="5" height="1" border="0">Home</A></TD>
-    <TD align="center" valign="middle" bgcolor="#000000"><a class="white" href="http://voip.concordia.ca"><img src="http://voip.concordia.ca/images/spacer.gif" alt="spacer" width="5" height="1" border="0"> 
-      </A><a class="white" href="../../"><img src="http://voip.concordia.ca/images/spacer.gif" alt="spacer" width="20" height="1" border="0">News</A></TD>
-    <TD align="center" valign="middle" bgcolor="#000000"><a class="white" href="http://voip.concordia.ca/voicemail/messaging/faqs.shtml">FAQs</A></TD>
-    <TD align="center"valign="middle" bgcolor="#000000"><a class="white" href="http://voip.concordia.ca/voicemail/otherservices/configure.shtml">Configure My Phone</A></TD>
-    <TD colspan="2" bgcolor="#000000"></TD>
-  </TR>
-</TABLE>
-<map name="Map">
-  <area shape="rect" coords="6,4,133,41" href="../../../pageswww.concordia.ca/index.html" alt="concordia" target="blank">
-</map>
-<table border="0" cellspacing="0" cellpadding="0">	<tr>		<td width="155"  valign="top" bgcolor="#FFFFFF"><div id="sidemenu">
-<ul id="navmenu">
-  <li id="index-menu">&nbsp;
-    <ul>
-      <li><a href="http://voip.concordia.ca/directory/form/update.shtml#" onclick="showSearch('vm','index-menu'); return false;">Telephones
-&amp; Features</a>
-        <ul id="vm" class="sub">
-          <li><a href="http://voip.concordia.ca/voicemail/accessories/">Telephone
-System Features</a></li>
-          <li><a href="http://voip.concordia.ca/voicemail/otherservices/sets.shtml">Telephone
-Sets</a></li>
-          <li><a href="http://voip.concordia.ca/voicemail/otherservices/headsets.shtml">Telephone
-Accessories</a></li>
-          <li><a href="http://voip.concordia.ca/voicemail/otherservices/configure.shtml">Configure
-Phone from Portal</a></li>
-          <li><a href="http://voip.concordia.ca/help/whotocontact/index2.shtml">Service
-Requests</a></li>
-          <li><a href="http://voip.concordia.ca/voicemail/otherservices/equipment.shtml">To
-Purchase Equipment</a></li>
-        </ul>
-      </li>
-      <li><a href="http://voip.concordia.ca/directory/form/update.shtml#" onclick="showSearch('unify','index-menu'); return false;">Unity
-Connection</a>
-        <ul id="unify" class="sub">
-          <li><a href="http://voip.concordia.ca/voicemail/messaging/setup.shtml">Setup
-Voice Mailbox</a></li>
-          <li><a href="http://voip.concordia.ca/voicemail/messaging/accessing.shtml">Accessing
-Voice Mail</a></li>
-          <li><a href="http://voip.concordia.ca/help/refmaterials/index2.shtml">User
-Guides</a></li>
-          <li><a href="http://voip.concordia.ca/voicemail/messaging/sample.shtml">Sample
-Greetings</a></li>
-          <li><a href="http://voip.concordia.ca/voicemail/messaging/managing.shtml">Managing
-your Mailbox</a></li>
-          <li><a href="http://voip.concordia.ca/voicemail/messaging/faqs.shtml">FAQ's</a></li>
-        </ul>
-      </li>
-      <li><a href="http://voip.concordia.ca/directory/form/update.shtml#" onclick="showSearch('directory','index-menu'); return false;">Directory
-Services</a>
-        <ul id="directory" class="sub">
-          <li><a href="http://voip.concordia.ca/directory/directories/">Directories</a></li>
-          <li><a href="http://voip.concordia.ca/directory/operator/">Operators</a></li>
-          <li><a href="update.shtml">Directory
-Update Form </a></li>
-        </ul>
-      </li>
-      <li><a href="http://voip.concordia.ca/directory/form/update.shtml#" onclick="showSearch('howto','index-menu'); return false;">Dial
-Calls/Long Distance</a>
-        <ul id="howto" class="sub">
-          <li><a href="http://www.kropla.com/dialcode.htm" target="_blank">Area &amp; Country Codes</a></li>
-          <li><a href="http://voip.concordia.ca/how_to/dial_calls/">Dialing
-Calls</a></li>
-          <li><a href="http://wwp.greenwichmeantime.com/" target="_blank">International Time Zones</a></li>
-          <li><a href="http://voip.concordia.ca/how_to/access/">Long
-Distance Access</a></li>
-          <li><a href="http://voip.concordia.ca/how_to/rates/">Long
-Distance Rates</a></li>
-        </ul>
-      </li>
-      <li><a href="http://voip.concordia.ca/directory/form/update.shtml#" onclick="showSearch('conferencecalls','index-menu'); return false;">Conference
-Calls</a>
-        <ul id="conferencecalls" class="sub">
-          <li><a href="http://voip.concordia.ca/conference/conference_calls/">Conference
-Calls</a></li>
-          <li><a href="http://voip.concordia.ca/conference/equipment/">Rent
-Conference Call Equipment</a></li>
-        </ul>
-      </li>
-      <li><a href="http://voip.concordia.ca/directory/form/update.shtml#" onclick="showSearch('billing','index-menu'); return false;">Service
-Package &amp; Rates</a>
-        <ul id="billing" class="sub">
-          <li><a href="http://voip.concordia.ca/billing/billedservices/">Service
-Package</a></li>
-          <li><a href="http://voip.concordia.ca/billing/inquiries/">Billing
-Inquiries Form</a></li>
-          <li><a href="http://voip.concordia.ca/billing/longdistance/">Long
-Distance Rates</a></li>
-          <li><a href="http://voip.concordia.ca/billing/service_charge/">Service
-Charge Rates</a></li>
-        </ul>
-      </li>
-      <li><a href="http://voip.concordia.ca/billing/license/licensing.shtml">Licensing</a></li>
-      <li><a href="http://voip.concordia.ca/help/refmaterials/index2.shtml">User
-Guides &amp; Tutorials</a></li>
-      <li><a href="http://voip.concordia.ca/help/whotocontact/index2.shtml">Who to
-contact for help?</a></li>
-      <br>
-      <br>
-    </ul>
-  </li>
-</ul>
-</div>
-</td>		<td width="1" bgcolor="#999999"><img src="http://voip.concordia.ca/images/spacer.gif" width="1" height="1"></td>		<td valign="top" width="23" bgcolor="#FFFFFF"><img src="http://voip.concordia.ca/images/spacer.gif" width="23" height="8"></td>		<td width="1" valign="top" bgcolor="#ffffff"><img src="http://voip.concordia.ca/images/spacer.gif" width="1" height="1"></td>		<td width="100%" align="left" valign="top" bgcolor="#FFFFFF">			<P class="newstext">&nbsp;</P>			<table width="100%" border="0" cellspacing="0" cellpadding="0">				<tr>					<td width="2" height="22" bgcolor="#FFFFFF">&nbsp;</td>					<td class="contentheader">Directory Update Form for Faculty and Staff</td>				</tr>			</table>			<form action="http://voip.concordia.ca/processor/process.php" method="post" name="update">			<input type="hidden" name="formname" value="Update" />			<table width="600" border="0" align="left">				<tr>					<td colspan="3" class="blueText"><br>						Most directory updates received by Thursday, 5:00 pm will be updated and 						on-line the following Monday. Please note that a Concordia staff or faculty 						ID number is required to use this form.</td>					</tr>					<tr>						<td width="203">&nbsp;</td>						<td width="202">&nbsp;</td>						<td width="202">&nbsp;</td>					</tr>					<tr>						<td class="tableheading" width="203"><input type="radio" name="request" value="add entry"> Add</td>						<td class="tableheading" width="202"><input type="radio" name="request" value="delete entry"> Delete </td>						<td class="tableheading" width="202"><input type="radio" name="request" value="change entry"> Change </td>					</tr>					<tr>						<td colspan="3">&nbsp;</td>					</tr>					<tr>						<td colspan="3">							<select name="salutation" size="1">							<option value="">Salutation</option>							<option value="Dr.">Dr.</option>							<option value="Hon.">Hon.</option>							<option value="Me.">Me.</option>							<option value="Rev">Rev</option>							<option value="SJ">SJ</option>							<option value="Sr">Sr</option>							</select></td>					</tr>					<tr>						<td colspan="3">&nbsp;</td>					</tr>					<tr>						<td class="tableheading" width="203" valign="top">Last Name<br> <input type="text" name="last_name" size="30" maxlength="50" /></td>						<td class="tableheading"width="202" valign="top">First Name<br> <input type="text" name="first_name" size="30"maxlength="50" /></td>						<td class="tableheading"width="202" valign="top">Initial<br> <input type="text" name="initial" size="5" maxlength="5"></td>					</tr>					<tr valign="top">						<td class="tableheading"width="203">Title<br> <input type="text" name="title" size="30" maxlength="100" /><br></td>						<td class="tableheading"width="202">Department <br> <input type="text" name="department" size="30" maxlength="100" /><br></td>						<td class="tableheading"width="202">Employee ID (required)<br> <input type="text" name="employee_id" maxlength="10" /><br> <br></td>					</tr>					<tr>						<td class="tableheading"width="203">Telephone Number<br> <input type="text" name="telephone" size="10" maxlength="25" /><br></td>						<td class="tableheading"width="202">Campus Address <br> <input type="text" name="campus_address" size="30" maxlength="50" /></td>						<td width="202"></td>					</tr>					<tr> 						<td class="tableheading"width="203"><br>Email Address <br> <input type="text" name="email" size="30" maxlength="100" /></td>						<td class="tableheading"width="202">(i.e. Smith @ alcor) </td>						<td width="202">&nbsp;</td>					</tr>					<tr>						<td class="tableheading"width="203">Email Alias*<br> <input type="text" name="alias" size="30" maxlength="100" /></td>						<td class="tableheading"width="202">(i.e. John.Smith@concordia.ca) </td>						<td width="202">&nbsp;</td>					</tr>					<tr>						<td colspan="3">							<span class="blueText">* Fill out only if you want your alias email address published. 							Both the email address and the email alias must be filled out for this option</span>.</td>					</tr>					<tr>						<td colspan="3"><hr width="535" align="left"> <p><br> 					      <input type="submit" name="submit" value="Submit">						</p>						  <p>&nbsp;</p>						  <p>&nbsp;</p>						  <p>&nbsp; </p></td>					</tr>				</table>				<input type="hidden" name="req_list" value="request,last_name,first_name,title,department,employee_id,telephone,campus_address,email" />				</form>				<P class="newstext">&nbsp;</P>				<P class="newstext">&nbsp;</P></td>			<td class="col" width="1" valign="top" ></td>			<td width="27" valign="top" bgcolor="#2d4277"></td>			<td class="photocredit" width="120" valign="top" bgcolor="#2d4277"><img src="http://voip.concordia.ca/images/spacer.gif" width="120" height="8">				<table border="0" cellpadding="0" cellspacing="0">					<tr>						<td width="1" valign="top"></td>					</tr>				</table>				<BR> <img src="http://voip.concordia.ca/images/spacer.gif" width="26" height="8"><BR> <BR></td>    	<td width="158" valign="top" bgcolor="#000000"><img src="http://voip.concordia.ca/images/spacer.gif" width="50" height="1"></td>    </tr>    <tr>    	<td class="copyright" colspan="5"  valign="top" bgcolor="#E1E1E1"><img src="http://voip.concordia.ca/images/spacer.gif" width="10" height="8" alt="spacer">&copy; Copyright 
-<script type="text/javascript" language="JavaScript">
-<!--
-var curdate = new Date()
-var year = (curdate.getYear() + 1900);
-document.write(year);
-// -->
-</script>, <a class="copyrightlink" href="../../../pageswww.concordia.ca/index.html">Concordia University</A></td>    	<td class="col"valign="top">&nbsp;</td>    	<td valign="top" bgcolor="#22335E">&nbsp;</td>    	<td valign="top" bgcolor="#22335E">&nbsp;</td>    	<td valign="top" bgcolor="#000000">&nbsp;</td>    </tr></table></body></html>

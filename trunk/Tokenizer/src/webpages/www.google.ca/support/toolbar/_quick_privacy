@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      Google Toolbar Privacy Policy
+    </title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:r&subset=latin" rel="stylesheet">
+    <link href="http://www.google.com/toolbar/css/tbmain.css" rel="stylesheet">
+    <script src="http://www.google.com/js/gweb/analytics/autotrack.js">
+</script>
+    <script>
+  
+        new gweb.analytics.AutoTrack({profile: 'UA-18002-1'});
+      
+    </script>
+    <script src="http://www.google.com/js/gweb/core.js">
+</script>
+  </head>
+  <body>
+    <div class="doc privacy">
+      <div class="header">
+        <div class="content">
+          <a class="logo" href="http://www.google.com/toolbar/ie/index.html"><img alt="Google Toolbar" src="http://www.google.com/intl/en/images/logos/toolbar_logo.gif"></a>
+        </div>
+      </div>
+      <div class="content" id="main">
+        <h2>
+          Privacy Notice
+        </h2>
+        <p>
+          April 19, 2011
+        </p>
+        <p>
+          The <a href="../../intl/en/privacy.html">Google Privacy Policy</a>
+          describes how we treat personal information when you use Googleâ¬"s products and services,
+          including information provided when you use the Google Toolbar. In addition, the
+          following describes our privacy practices that are specific to the Google Toolbar. Google
+          will notify you if it materially changes these policies, at which time you will have the
+          opportunity to discontinue using the Google Toolbar.
+        </p>
+        <h3>
+          Information we collect
+        </h3>
+        <p>
+          You do not need to provide any personally identifying information in order to download
+          and use the Google Toolbar. Except for Toolbar features that are specifically designed to
+          work with a Google Account, all of the features can be used without sharing any
+          personally identifying information. However, it is possible for data that usually
+          contains no personally identifying information, such as search queries or page addresses,
+          to contain such information in certain cases.
+        </p>
+        <p>
+          The Google Toolbar has some basic features that work automatically any time you use the
+          Toolbar. Other features are optional, and only operate and transmit data if you choose to
+          enable them.
+        </p>
+        <h3>
+          Basic Toolbar features
+        </h3>
+        <ul>
+          <li>Any time you use the Google Toolbar to contact Google, such as by sending a search
+          query to Google, the Toolbar sends standard, limited <a href="http://www.google.com/intl/en/privacy_faq.html#serverlogs">information</a> including
+          your machineâ¬"s <a href="http://www.google.com/support/bin/answer.py?hl=en&answer=49209">IP address</a> and
+          one or more <a href="http://www.google.com/intl/en/privacy_faq.html#toc-cookies">cookies</a>. This data is
+          retained in Googleâ¬"s <a href="http://www.google.com/intl/en/privacy_faq.html#serverlogs">
+            server logs</a> and protected according to our general Privacy Policy.
+          </li>
+          <li>If you navigate to a URL that does not exist, the Toolbar may send the URL to Google
+          so we can help you find the URL you were looking for. If you disable the â¬SProvide
+          suggestions for incorrect or unavailable URLsâ¬ý option through the Toolbar Options window,
+          this information will not be sent to Google and suggestions will not be shown.
+          </li>
+          <li>When you type URLs or queries in the Toolbar search box, the letters you type are
+          sent to Google so that the Suggest feature can automatically recommend search terms or
+          URLs you may be looking for, and the Instant feature can automatically show results for
+          popular searches that begin with those letters. You may disable <a href="http://www.google.com/support/toolbar/bin/answer.py?hl=en&answer=31954">Suggest</a>
+          and <a href="http://www.google.com/support/toolbar/bin/answer.py?hl=en&answer=1247760">Instant</a>
+          though the Toolbar Options window; if you disable Suggest these letters will not be sent
+          to Google, suggestions will not be shown, and the Instant feature will automatically be
+          disabled. You may disable Instant while Suggest is enabled; however, the letters you type
+          in the Toolbar search box will still be sent to Google unless you also disable Suggest.
+          </li>
+          <li>Google Toolbar includes one or more unique application numbers that are not
+          associated with you or your Google Account. These numbers are sent to Google when you
+          install or uninstall Google Toolbar, when the Google Toolbar periodically contacts our
+          servers (for example, to request automatic updates to the software), and with Toolbar
+          <a href="http://www.google.com/support/toolbar/bin/answer.py?hl=en&answer=32820">usage
+          statistics</a> (if enabled).
+          </li>
+        </ul>
+        <h3>
+          Optional Toolbar features
+        </h3>
+        <ul>
+          <li>Google Toolbar gives you access to other Google services and features that store data
+          with Google in association with your <a href="http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=27439">Google
+          Account</a>. Your use of these other services through Google Toolbar is also governed by
+          those servicesâ¬" Privacy Policies.
+          </li>
+          <li>If you enable the <a href="http://www.google.com/support/toolbar/bin/answer.py?hl=en&answer=78212">Toolbar
+          synchronization feature</a>, an optional feature that stores your Toolbar and browser
+          setting information with Google (including <a href="http://www.google.com/support/toolbar/bin/answer.py?hl=en&answer=47972">AutoFill</a>
+          information, if you have enabled AutoFill), this information will be stored in
+          association with your Google Account.
+          </li>
+          <li>If you enable the optional <a href="http://www.google.com/support/toolbar/bin/answer.py?hl=en&answer=47972">AutoFill</a>
+          feature, which automatically completes web forms for you, the Toolbar will send Google
+          limited information about the structure of pages that have web forms and information such
+          as the arrangement of the form so that we can improve our <a href="http://www.google.com/support/toolbar/bin/answer.py?hl=en&answer=47972">AutoFill</a>
+          service for that page. While the information Toolbar sends may include the fact that you
+          typed in the form, the actual text that you type in the fields will not be sent to Google
+          unless you choose to save that data with your Account using the Toolbar Synchronization
+          feature.
+          </li>
+          <li>If you have enabled Googleâ¬"s <a href="http://www.google.com/support/toolbar/bin/answer.py?hl=en&answer=78184">Web
+          History</a> feature to record your web activity and are logged into Toolbar, the Toolbar
+          will send the URLs of pages you visit to be stored with your Google Account. You can
+          disable, pause, or remove items stored in your Web History at any time as described in
+          the<a href="http://www.google.com/support/accounts/bin/topic.py?topic=14148&hl=en">Help
+          Center</a>.
+          </li>
+          <li>Some older versions of Google Toolbar for Firefox include the SafeBrowsing feature.
+          If this feature is enabled, the Toolbar periodically contacts Googleâ¬"s servers to
+          download the most recent list of known phishing and malware sites. When you visit a site
+          that we think is a phishing or malware site, the Toolbar will send Google a hashed,
+          partial copy of the siteâ¬"s URL so that we can send more information about the risky URL.
+          Google cannot determine the real URL you are visiting solely from this information. In
+          addition, if you have chosen to share usage statistics with Google and you visit a site
+          that we think could be a phishing or malware site, certain other data will be shared with
+          Google, including the full URL that you visited, the â¬Srefererâ¬ý header sent to that page,
+          and the URL that matched the Google Safe Browsing malware list.
+          </li>
+          <li>Some features may also send data to Google at the time of use. For example,
+            <a href="http://www.google.com/support/toolbar/bin/answer.py?hl=en&answer=20871">Translate</a>
+            and <a href="http://www.google.com/support/toolbar/bin/answer.py?hl=en&answer=32703">Spell
+            check</a> work by sending the text you choose to be translated or spell-checked to
+            Google, and <a href="http://www.google.com/support/toolbar/bin/answer.py?hl=en&answer=18188">AutoLink</a>
+            works by sending Google page text (such as addresses or ISBN numbers) for which
+            AutoLink information is available. If you have enhanced features enabled (as described
+            below), using the Translate feature will also send the URL of the page to be translated
+            back to Google.
+          </li>
+          <li>The My Location feature allows Toolbar to determine your approximate location based
+          on your local network information, including details about nearby WiFi access points
+          and/or the nearest router connected to your computer, and share that location with
+          websites you choose. Websites that want to access your location must ask your permission,
+          which you can grant or deny.
+            <ul>
+              <li>If you enable the <a href="http://www.google.com/support/toolbar/bin/answer.py?hl=en&answer=166104">My
+              Location</a> feature by granting a website permission to access location, Toolbar
+              will periodically query Google for your current location. In order to determine your
+              location, Toolbar will send Google the hardware IDs (i.e., MAC addresses) and SSIDs
+              of WiFi access points visible to your machine, the hardware ID (i.e., MAC address) of
+              the nearest connected router, and the signal strengths of nearby access points. If
+              you disable the My Location feature, this information will cease to be sent.
+              </li>
+              <li>The URLs or other information about websites with which you share your location
+              are not sent to Google by the My Location feature. (Note: if you have also enabled
+              enhanced features, as described below, the URLs may be independently sent by those
+              features). You can always manage the list of websites that have access to your
+              location through Toolbarâ¬"s Options menu. Third party websites with whom you choose to
+              share your location information are not covered by Googleâ¬"s Privacy Policies.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="http://www.google.com/support/toolbar/bin/answer.py?hl=en&answer=31941">Send
+            to</a> and other features that let you transmit data from the Toolbar may log that data
+            transmission, as explained in the <a href="http://www.google.com/support/toolbar/?hl=en">Help Center</a>.
+          </li>
+          <li>
+            <a href="http://www.google.com/support/toolbar/bin/answer.py?hl=en&answer=31241">Third
+            party custom buttons</a> and gadgets you install may send information to third party
+            developers. These third parties are not covered by Googleâ¬"s Privacy Policies.
+          </li>
+        </ul>
+        <h3>
+          Enhanced Toolbar features
+        </h3>
+        <ul>
+          <li>Toolbarâ¬"s enhanced features, such as <a href="http://www.google.com/support/toolbar/bin/answer.py?hl=en&answer=79837">PageRank</a>,
+          <a href="http://www.google.com/support/toolbar/bin/topic.py?hl=en&topic=24314">Sidewiki</a>,
+          <a href="http://www.google.com/support/toolbar/bin/answer.py?hl=en&answer=1306575">Related</a>,
+          and the <a href="http://www.google.com/support/toolbar/bin/answer.py?hl=en&answer=1696765">+1
+          Button</a> operate by sending Google the URLs and other information about sites at the
+          time you visit them.
+          </li>
+          <li>When you use Sidewiki to write, edit, or rate an entry, the URL of the relevant page,
+          the type of action you performed and the text related to that action are sent to Google
+          and stored with your Google Account. Your Sidewiki entries are publicly viewable and
+          associated with your <a href="http://www.google.com/support/accounts/bin/topic.py?hl=en&topic=14962">Google
+          profile</a>.
+          </li>
+          <li>When you click on the +1 Button, the fact that you +1â¬"d something will be recorded by
+          Google and associated with your Google account, along with information about the page you
+          were viewing when you clicked the +1 Button (such as the pageâ¬"s URL, for example). To
+          read more about how Google treats information provided when you use the +1 Button, see
+          the <a href="../../intl/en/_/policy/_1button.html">Google +1 Privacy
+          Policy</a>.
+          </li>
+        </ul>
+        <h3>
+          Uses
+        </h3>
+        <ul>
+          <li>We process your requests in order to operate and improve the Google Toolbar and other
+          Google services. For example, by knowing which web page you are viewing, the PageRank
+          feature of Google Toolbar can show you Googleâ¬"s ranking of that web page. And the
+          Sidewiki feature can tell you if others have written Sidewiki entries on a given page.
+          Likewise, by processing the text on a web page, SpellCheck can offer spelling suggestions
+          and AutoLink can provide useful links to information.
+          </li>
+        </ul>
+        <h3>
+          Information security
+        </h3>
+        <ul>
+          <li>If you provide credit card information to use Toolbarâ¬"s AutoFill feature, that
+          information will be saved on your computer in encrypted form. It is not transmitted to
+          Google.
+          </li>
+          <li>Any information sent to Google will be maintained in accordance with the <a href="../../intl/en/privacy.html">Google Privacy Policy</a>. Googleâ¬"s Privacy
+          Policy does not cover information that you send to third party sites.
+          </li>
+        </ul>
+        <h3>
+          Your choices
+        </h3>
+        <ul>
+          <li>Any Toolbar feature that works by automatically sending Google URLs or other
+          information about sites when you visit them, or that associates data with your Google
+          Account, can be disabled or re-enabled as explained in the <a href="http://www.google.com/support/toolbar/?hl=en">Help Center</a> or simply not used.
+          </li>
+          <li>You may edit or delete a Sidewiki entry you have written at any time. If you delete a
+          Sidewiki entry, it will be removed from public view but backup copies may remain on
+          Googleâ¬"s servers for a limited time.
+          </li>
+          <li>You may view the list of items you have +1â¬"d on the +1 tab on your Google profile
+          (<a href="https://profiles.google.com">https://profiles.google.com</a>). You can remove
+          individual items from that list.
+          </li>
+          <li>If you do not wish for the Toolbar to send usage and configuration statistics as part
+          of its periodic requests, you can disable usage statistics following <a href="http://www.google.com/support/toolbar/bin/answer.py?hl=en&answer=32820">these
+          instructions</a>.
+          </li>
+          <li>Toolbar allows you to install third-party custom buttons and gadgets. You should
+          review a third-partyâ¬"s privacy policy before installing a custom button or gadget.
+          </li>
+        </ul>
+        <h3>
+          More information
+        </h3>
+        <p>
+          Google adheres to the US Safe Harbor privacy principles. For more information about the
+          Safe Harbor framework or our registration, see the <a href="http://www.export.gov/safeharbor/">Department of Commerceâ¬"s web site</a>.
+        </p>
+        <p>
+          Further information about the Google Toolbar is available in the <a href="http://www.google.com/support/toolbar/?hl=en">Help Center</a>.
+        </p>
+        <p>
+          For more information about our privacy practices, go to the <a href="http://www.google.com/intl/en/privacypolicy.html">full privacy policy</a>.
+        </p>
+        <p>
+          For questions concerning the product or your account, please check out <a href="../_hl_en">the Google Help page</a>.
+        </p>
+        <p class="meta">
+          updated 11/03/2011
+        </p>
+      </div>
+      <div class="footer">
+        <div class="content">
+          <p>
+            Â© Google Â· <a href="http://www.google.com/toolbar/privacy.html">Toolbar Privacy Policy</a> Â· <a href="http://www.google.com/support/toolbar/?hl=en">Help</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

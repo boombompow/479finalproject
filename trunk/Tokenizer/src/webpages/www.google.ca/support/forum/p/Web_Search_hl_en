@@ -1,0 +1,329 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<script>
+(function(){function a(){this.t={};this.tick=function(c){this.t[c]=(new Date).getTime()};this.tick("start")}var b=new a;window.jstiming={Timer:a,load:b};if(window.external&&window.external.pageT)window.jstiming.pt=window.external.pageT;})();
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Pragma" content="no-cache" />
+<title>Web Search Help</title>
+<link href="http://www.google.com/support/forum/resource/v22-FF-common-1590367878.css" rel="stylesheet" type="text/css">
+<script>window.jstiming.load.tick('cl');</script>
+<script>
+var hdf = {};
+hdf['CGI.base_name'] = 'CategoryListPage';
+hdf['CGI.HL'] = 'en';
+hdf['CGI.CD'] = 'US';
+hdf['CGI.RequestURI'] = '\x2Fsupport\x2Fforum\x2Fp\x2FWeb+Search?hl=en';
+hdf['CGI.PathPrefix'] = '\x2Fsupport\x2Fforum';
+hdf['CGI.Host'] = 'www.google.com';
+hdf['CGI.POST_TOKEN'] = '1D58FED5A12CEF4A34DFD08D008789B5';
+hdf['BASE.ProductName'] = 'Web Search';
+hdf['BASE.ProductPath'] = '/p/Web+Search/';
+hdf['RedirectionEnabled'] = 0;
+hdf['Target.Topic.TopicId'] = '';
+hdf['CseUrl'] = 'http://www.google.com/support/websearch';
+hdf['TraxQueue'] = '14';
+hdf['Param.WarnEmail.Enabled'] = true;
+hdf['Param.Csi.Enabled'] = true;
+</script>
+<script src="http://www.google.com/support/forum/resource/release-2510218487.js?hl=en"></script>
+<script>window.jstiming.load.tick('jl');</script>
+<script type="text/javascript">
+if (hdf['Param.Csi.Enabled'] && window.jstiming) {
+window.jstiming.load.tick('bca');
+}
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-4746404-4']);
+_gaq.push(['_setCookiePath', '\x2Fsupport\x2Fforum/']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script');
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+'http://www') + '.google-analytics.com/ga.js';
+ga.setAttribute('async', 'true');
+document.documentElement.firstChild.appendChild(ga);
+})();
+</script>
+</head>
+<body>
+<script>
+LOAD_FIRST();
+</script>
+<div id="wmfroot">
+<div class="whacflCSS"
+id="whacfl">
+<a href="http://www.google.com/support/forum/loginredirect?hl=en&continue=%2Fsupport%2Fforum%2Fp%2FWeb%2BSearch%3Fhl%3Den" class="whalkiCSS">Sign in</a>
+</div>
+<div class=wharootCSS>
+<form id="whasf" method="get" action="http://www.google.com/support/websearch/bin/search.py" onsubmit="CALL('cf.cseSearch.searcher')">
+<a href="Web_Search_hl_en">
+<img src="http://www.google.com/intl/en/images/logos/web_search_logo.gif" alt="Google - Web Search" height="40" class="whaclgoCSS"></a>
+<input type="hidden" name="hl"
+value="en">
+<input type="hidden" name="forum" value="1">
+<span class="wvafbsCSS">
+<input type="text" id="whasi"
+size="41"
+name="query"
+value="">
+<span>
+<button type="submit">Search Web Search Help</button>
+</span>
+</span>
+</form>
+<h1 class="whapbCSS">
+Help forum
+</h1>
+</div>
+<table class="wmfcCSS"
+cellpadding="0" cellspacing="0">
+<colgroup>
+<col width="170">
+<col>
+</colgroup>
+<tbody><tr>
+<td class="wmfnCSS">
+<ul class="wparootCSS"
+id="wparoot">
+<li class="wpabaruhCSS">
+<a href="http://www.google.com/support/websearch">Help articles</a>
+</li>
+<li class="wpabarhCSS">
+Help forum
+<img src="http://www.gstatic.com/support/forum/images/forum.png" class="wpforumCSS">
+</li>
+<li class="wpbuhiCSS">
+<a href="http://www.google.com/support/forum/p/Web+Search/ask?hl=en" id="wpapt">Post a question</a>
+<a href="http://www.google.com/support/forum/p/Web+Search/ask?hl=en"><img src="http://www.gstatic.com/support/forum/images/add_post.gif" class="wpaptCSS"></a>
+</li>
+</ul>
+</td>
+<td class="wmfmCSS"
+id="wmfm">
+<div class="wvarootCSS">
+<div class="wvavbCSS">
+<div class="wvrootCSS">
+<table class="wvtbCSS">
+<colgroup>
+<col>
+<col width="208">
+</colgroup>
+<tbody><tr>
+<td class="wvlpCSS"
+id="wvlp">
+<div class="wvalertCSS wvalert-2CSS"
+id="wvalert-">
+Welcome to the Google Web Search Community! Share your suggestions, ask questions, and connect with Google Search users from around the world. For more information on how to get the most out of Google Search, check out these resources:</p>  <a href="http://insidesearch.blogspot.com">Inside Search Blog</a></p> <a href="http://www.google.com/support/websearch/?hl=en">Web Search Help Center</a></p>  <strong>Help Google improve Web Search by taking this <a href="../../websearch/bin/request.py_contact_type_product_feedback">survey</a>.</strong>
+</div>
+<div class="wvanCSS">
+<a href="http://www.google.com/support/forum?hl=en">Help forum</a>
+&gt;
+Web Search
+</div>
+<h2 class="wvangCSS">Discussion categories</h2>
+<ul class="wcatCSS">
+<li>
+<div class="wcattCSS">
+<a href="http://www.google.com/support/forum/p/Web+Search/label?lid=55e7c850c3d9dd64&hl=en">How Do I...Using Google Search?</a>
+</div>
+<div>
+Setting Web Search preferences like SafeSearch, Google Suggest, and your local Google domain.
+</div>
+<div class="wcatdCSS">
+22168 discussions
+</div>
+</li>
+<li>
+<div class="wcattCSS">
+<a href="http://www.google.com/support/forum/p/Web+Search/label?lid=54fe34ede196c261&hl=en">Finding Stuff on Google</a>
+</div>
+<div>
+Tips, tricks, and techniques for finding exactly what you want using Google Web Search.
+</div>
+<div class="wcatdCSS">
+8900 discussions
+</div>
+</li>
+<li>
+<div class="wcattCSS">
+<a href="http://www.google.com/support/forum/p/Web+Search/label?lid=2c23fab44efbf480&hl=en">Unexpected Search Results</a>
+</div>
+<div>
+What to do if you encounter an unexpected, inappropriate, or incorrect search result.
+</div>
+<div class="wcatdCSS">
+18549 discussions
+</div>
+</li>
+<li>
+<div class="wcattCSS">
+<a href="http://www.google.com/support/forum/p/Web+Search/label?lid=1888d47c62bd5001&hl=en">Google Images</a>
+</div>
+<div>
+For giving feedback and troubleshooting issues related to Google Image Search.
+</div>
+<div class="wcatdCSS">
+1547 discussions
+</div>
+</li>
+<li>
+<div class="wcattCSS">
+<a href="http://www.google.com/support/forum/p/Web+Search/label?lid=06d5343b801f5886&hl=en">iGoogle Personal Homepage</a>
+</div>
+<div>
+Questions, answers, and ideas about your personalized iGoogle page.
+</div>
+<div class="wcatdCSS">
+8834 discussions
+</div>
+</li>
+<li>
+<div class="wcattCSS">
+<a href="http://www.google.com/support/forum/p/Web+Search/label?lid=70244d33345cdfa6&hl=en">Suggestions for Google Search</a>
+</div>
+<div>
+Help improve your Search experience.
+</div>
+<div class="wcatdCSS">
+3350 discussions
+</div>
+</li>
+<li>
+<div class="wcattCSS">
+<a href="http://www.google.com/support/forum/p/Web+Search/label?lid=44db83d9aaf6caef&hl=en">Google Doodles</a>
+</div>
+<div>
+Share your thoughts on the Google homepage logos.
+</div>
+<div class="wcatdCSS">
+1326 discussions
+</div>
+</li>
+</ul>
+<a href="http://www.google.com/support/forum/p/Web+Search/browse?hl=en" class="lCSS">Browse all discussions &raquo;</a>
+</td>
+<td class="wvrpCSS"
+id="wvrp">
+<div class="hcabCSS">
+<div class="hcabCSS-head">
+Popular discussions in Web Search
+</div>
+<div class="hcabCSS-body">
+<div class="hcabsCSS">
+<a href="http://www.google.com/support/forum/p/Web+Search/thread?tid=686d169c6321d9d1&hl=en" class="wltoCSS">How may I hide the blue &quot;Click here to start sharing on Google+&quot; bar now appearing &amp; annoyingly uninvited on home page?</a>
+</div>
+<div class="hcabfCSS">
+<span class="wavraCSS">
+Answered
+</span>
+(49 replies)
+</div>
+<div class="hcabsCSS">
+<a href="http://www.google.com/support/forum/p/Web+Search/thread?tid=59e40eb077fe03ce&hl=en" class="wltoCSS">Get rid of annoying Google+ blue bar on my home search page. I&#39;m not joining!</a>
+</div>
+<div class="hcabfCSS">
+<span class="wavraCSS">
+Answered
+</span>
+(131 replies)
+</div>
+<div class="hcabsCSS">
+<a href="http://www.google.com/support/forum/p/Web+Search/thread?tid=0755ea6795523b62&hl=en" class="wltoCSS">I use Safari on my iPad 2, and on 11/30/11 I cannot access my igoogle homepage.  The general search page appears instead</a>
+</div>
+<div class="hcabfCSS">
+<span class="wavraCSS">
+Answered
+</span>
+(131 replies)
+</div>
+<div class="hcabsCSS">
+<a href="http://www.google.com/support/forum/p/Web+Search/thread?tid=35303e963688df4d&hl=en" class="wltoCSS">Check out the verbatim search tool!</a>
+</div>
+<div class="hcabfCSS">
+<span class="wavraCSS">
+Answered
+</span>
+(27 replies)
+</div>
+<div class="hcabsCSS">
+<a href="http://www.google.com/support/forum/p/Web+Search/thread?tid=65b7f857ef195f50&hl=en" class="wltoCSS">The new Google advanced update makes things worse than before</a>
+</div>
+<div class="hcabfCSS">
+<span class="wavraCSS">
+Answered
+</span>
+(58 replies)
+</div>
+<div class="hcabsCSS">
+<a href="http://www.google.com/support/forum/p/Web+Search/thread?tid=5ca06e9b5b41432d&hl=en" class="wltoCSS">The new Google navigation drop down is horrendous! Why did Google change to such a horrible layout and how do I go back?</a>
+</div>
+<div class="hcabfCSS">
+<span class="wavraCSS">
+Answered
+</span>
+(61 replies)
+</div>
+<div class="hcabsCSS">
+<a href="http://www.google.com/support/forum/p/Web+Search/thread?tid=530ab1dff457cf7f&hl=en" class="wltoCSS">How to I remove your new very annoying blue bar advertising Google Share</a>
+</div>
+<div class="hcabfCSS">
+<span class="wavraCSS">
+Answered
+</span>
+(6 replies)
+</div>
+<div class="hcabsCSS">
+<a href="http://www.google.com/support/forum/p/Web+Search/thread?tid=7b544183afc92fc2&hl=en" class="wltoCSS">Delete, remove, disable Google Instant permanently?</a>
+</div>
+<div class="hcabfCSS">
+<span class="wavraCSS">
+Answered
+</span>
+(7 replies)
+</div>
+</div>
+</div>
+<img class="wvrbCSS" src="http://www.gstatic.com/support/forum/images/o.gif">
+</td>
+</tr></tbody>
+</table>
+</div>
+</div>
+</div>
+</td>
+</tr></tbody>
+</table>
+<div class="wmffCSS">
+<div class="wfarootCSS"
+id="wfaroot">
+<p>
+<a href="../../../index.html">Web Search</a>
+-
+<a href="../../../support_hl_en">Help with other Google products</a>
+-
+<a href="http://www.google.com/support/faqs/bin/static.py?page=guide.cs&guide=19559&hl=en">Getting Started guide</a>
+</p>
+<p>
+&copy; 2011 Google
+-
+<a href="../../../intl/en/privacy.html">Privacy Policy</a>
+-
+<a href="http://www.google.com/support/forum/tos?hl=en">Terms of Service</a>
+</p>
+</div>
+</div>
+</div>
+<noscript>
+<div style="color: #f00; font-size: 11px; position: absolute; top: 0">
+You may not get the full functionality of this product because JavaScript is either disabled or not supported by your browser.
+</div>
+</noscript>
+<div id="pop"
+class="popCSS"></div>
+</body>
+<script>
+CALL('cf.Program.loadBody');
+</script>
+</html>

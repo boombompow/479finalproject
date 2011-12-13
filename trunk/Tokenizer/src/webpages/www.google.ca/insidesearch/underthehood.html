@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      Under the Hood Â· Inside Google Search
+    </title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="http://www.google.com/insidesearch/css/default.css" rel="stylesheet">
+    <script src="http://www.google.com/js/gweb/analytics/autotrack.js">
+</script>
+    <script>
+  new gweb.analytics.AutoTrack({profile: 'UA-22442000-1'});
+    </script>
+  </head>
+  <body class=" hood">
+    <div class="doc">
+      <div class="header">
+        <div class="nav">
+          <span class="logo"><a href="../index.html"><img alt="Google" src="http://www.google.com/images/logos/google_logo_41.png"></a> <a class="link-insidesearch" href="http://www.google.com/insidesearch/index.html">Inside Search</a></span>
+          <ul>
+            <li>
+              <a class="dropdown" href="http://www.google.com/insidesearch/index.html">Home</a>
+              <ul>
+                <li>
+                  <a href="http://www.google.com/insidesearch/index.html#new">New stuff</a>
+                </li>
+                <li>
+                  <a href="http://www.google.com/insidesearch/index.html#timeline">Evolution of Google Search</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a class="dropdown" href="http://www.google.com/insidesearch/features.html">Features</a>
+              <ul>
+                <li>
+                  <a href="http://www.google.com/insidesearch/features.html#basics">The Basics</a>
+                </li>
+                <li>
+                  <a href="http://www.google.com/insidesearch/features.html#advanced">Advanced Tricks</a>
+                </li>
+                <li>
+                  <a href="http://www.google.com/insidesearch/features.html#facts">Fast Facts</a>
+                </li>
+                <li>
+                  <a href="http://www.google.com/insidesearch/features.html#localsearch">Local</a>
+                </li>
+                <li>
+                  <a href="http://www.google.com/insidesearch/features.html#research">Research</a>
+                </li>
+                <li>
+                  <a href="http://www.google.com/insidesearch/features.html#mobile">On Your Phone</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="stories.html">Search Stories</a>
+            </li>
+            <li>
+              <a class="dropdown" href="fun.html">Playground</a>
+              <ul>
+                <li>
+                  <a href="http://www.google.com/insidesearch/doodles.html">Doodle Gallery</a>
+                </li>
+                <li>
+                  <a href="underthehood.html">Under the Hood</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="http://insidesearch.blogspot.com">Blog</a>
+            </li>
+            <li>
+              <a href="http://www.google.com/support/websearch/?p=highlights&hl=en">More
+              Help</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="main">
+        <div class="section intro">
+          <div class="content">
+            <h1>
+              Welcome to Under The Hood
+            </h1>
+            <p>
+              Dive into search and learn more about what happens behind the scenes of Google
+              Search. Play with our Experiments Lab and get a better look at the technology behind
+              Google.
+            </p>
+          </div>
+        </div>
+        <div class="section info">
+          <div class="content">
+            <div class="section-intro short">
+              <img alt="" src="http://www.google.com/insidesearch/images/hood/icon-algorithm.png">
+              <h2>
+                Search Evaluation and Experiments
+              </h2>
+            </div>
+            <div class="cols-2">
+              <div class="col">
+                <p>
+                  Hereâ¬"s a <a href="http://insidesearch.blogspot.com/2011/08/another-look-under-hood-of-search.html">
+                  deeper look</a> inside search with a short video that showcases the work that
+                  goes into the improvements which are made to Google almost every day.
+                </p>
+                <p>
+                  Learn more by reading these blog posts on the methodology and process behind our
+                  search <a href="http://googleblog.blogspot.com/2008/07/introduction-to-google-ranking.html">ranking</a>,
+                  <a href="http://googleblog.blogspot.com/2008/05/introduction-to-google-search-quality.html"">
+                  evaluation</a> and <a href="http://googleblog.blogspot.com/2008/09/search-evaluation-at-google.html"">algorithmic
+                  changes</a>, or by watching this video from the <a href="http://insidesearch.blogspot.com/2011/08/inside-googles-search-office.html">Churchil
+                  Club event</a>.
+                </p>
+              </div>
+              <div class="col">
+                <div class="container">
+                  <object class="youtube" data="//www.youtube.com/v/J5RZOU6vK4Q?fs=1" type=
+                  "application/x-shockwave-flash">
+                    <param name="movie" value="//www.youtube.com/v/J5RZOU6vK4Q?fs=1">
+                    <param name="wmode" value="opaque">
+                    <param name="allowFullScreen" value="true">
+                  </object>
+                </div>
+              </div>
+            </div><br class="clr">
+          </div>
+        </div>
+        <div class="section extra" id="experiments">
+          <div class="content">
+            <div class="section-intro">
+              <img alt="" src="http://www.google.com/insidesearch/images/hood/icon-experiments.png">
+              <h2>
+                Enter the Experiments Lab
+              </h2>
+              <p>
+                Google tests the newest state-of-the-art technology right with you, the user. Every
+                time you search youâ¬"re involved in more than one lab.
+              </p>
+            </div>
+            <ul>
+              <li>
+                <strong>Auto complete experiments</strong><br>
+                We continue to experiment with different speeds for how quickly we update the
+                results while you type in Google Instant. We experimented also before launching
+                word complete.
+              </li>
+              <li>
+                <strong>Search Ranking experiments</strong><br>
+                We experimented before launching our recent algorithmic improvement to help people
+                find content from higher quality sites.
+              </li>
+              <li>
+                <strong>User Interface Experiments</strong><br>
+                Before we launch features globally, we turn on major features for a percentage of
+                our users. You might see one right now.
+              </li>
+              <li>
+                <strong>Experiments in 2010</strong><br>
+                Google is always doing experiments. During 2010 we realize over 6000 specific
+                Search Experiments.
+              </li>
+            </ul>
+            <p>
+              People often talk about â¬Sthe Google resultsâ¬ý but the truth is there is no single
+              â¬SGoogleâ¬ý â¬ at any given time there are 50-200 different versions of our core
+              algorithm out in the wild. Millions more when you realize your search results are
+              personalized to you and you alone. To get the most personalized experience, <a href="http://www.google.com/accounts">log in</a> to your Google account.
+            </p><br class="clr">
+          </div>
+        </div>
+        <div class="section extra" id="query">
+          <div class="content">
+            <div class="section-intro">
+              <img alt="" src="http://www.google.com/insidesearch/images/hood/icon-query.png">
+              <h2>
+                Life of a Query
+              </h2>
+              <p>
+                If youâ¬"re using Google Search you might sometimes wonder how it looks like â¬Sbehindâ¬ý
+                the white homepage. Google indexes billions and billions of web pages, our index is
+                well over 100 million gigabytes, but how can Google navigate through all this
+                information?
+              </p>
+            </div>
+            <ul>
+              <li>
+                <img alt="" src="http://www.google.com/insidesearch/images/hood/query-computing.png"><strong>1 Million Computing
+                Hours</strong><br>
+                We spent 1,000,000 computing hours to prepare the index.
+              </li>
+              <li>
+                <img alt="" src="http://www.google.com/insidesearch/images/hood/query-preview.png"><strong>Lightning Fast
+                Previews</strong><br>
+                Instant Preview loads in 1/10th of a second on average.
+              </li>
+              <li>
+                <img alt="" src="http://www.google.com/insidesearch/images/hood/query-searches.png"><strong>Over 1 Billion Searches
+                Daily</strong><br>
+                There are more than 1 billion searches each day on Google.
+              </li>
+              <li>
+                <img alt="" src="http://www.google.com/insidesearch/images/hood/query-uniquenew.png"><strong>Unique
+                Queries</strong><br>
+                20% of unique queries are new to us every day.
+              </li>
+              <li>
+                <img alt="" src="http://www.google.com/insidesearch/images/hood/query-unique.png"><strong>450 Billion Unique
+                Queries</strong><br>
+                Since 2003 Google has answered 450 Billion new unique queries â¬ searches we have
+                never seen before.
+              </li>
+              <li>
+                <img alt="" src="http://www.google.com/insidesearch/images/hood/query-distance.png"><strong>Over 1,500 Miles To Get
+                The Answer</strong><br>
+                Every query has to travel on average 1,500 miles to get the answer back to the
+                user.
+              </li>
+              <li>
+                <img alt="" src="http://www.google.com/insidesearch/images/hood/query-waiting.png"><strong>Waiting time</strong><br>
+                More than 1,000 man-years have gone into developing the Google search algorithm.
+              </li>
+              <li>
+                <img alt="" src="http://www.google.com/insidesearch/images/hood/query-scale.png"><strong>Scale</strong><br>
+                Over the past year, we increased our index size by billions of documents. Our
+                Caffeine index is more than 100 million gigabytes.
+              </li>
+            </ul>
+            <div class="clr"></div>
+          </div>
+        </div>
+        <div class="section extra" id="instant">
+          <div class="content">
+            <div class="section-intro">
+              <img alt="" src="http://www.google.com/insidesearch/images/hood/icon-speed.png">
+              <h2>
+                Everyone loves speed
+              </h2>
+              <p>
+                Google deals with more than 1 billion queries a day from all around the world
+                returning results on an average of 0.25 seconds.
+              </p>
+            </div><img alt="" src="http://www.google.com/insidesearch/images/hood/instant-banner.png">
+            <div class="cols-2">
+              <div class="col">
+                <h3>
+                  We know how frustrating it is to wait.
+                </h3>
+                <p>
+                  Thatâ¬"s why we want our search results to be instantaneous. Better yet, we want to
+                  help you type (or speak) a search instantly, and then pick a search result
+                  instantly with fantastic snippets and previews.
+                </p>
+                <h3>
+                  Our search engineers want to make search even faster.
+                </h3>
+                <p>
+                  In addition to smart coding on the back end weâ¬"ve developed distributed computing
+                  systems around that globe that ensure you get fast response times.
+                </p>
+                <p>
+                  With technologies like autocomplete and Google Instant, we help you find the
+                  search terms and results youâ¬"re looking for before youâ¬"re even finished typing.
+                </p>
+                <p>
+                  Today weâ¬"re continually crawling the web ensuring that you can find the latest
+                  news, blogs and status updates minutes or even seconds after theyâ¬"re posted. With
+                  Realtime Search weâ¬"re able to serve up breaking topics from a comprehensive set
+                  of sources just moments after events occur.
+                </p>
+              </div>
+              <div class="col">
+                <h3>
+                  Realtime search. Case Study 2011 Egyptian Revolution
+                </h3>
+                <p>
+                  On Jan. 28, 2011, three days after the start of the Egyptian protests, there were
+                  245k tweets containing the word â¬SEgyptâ¬ý. Google also indexed 10M new blog posts
+                  and 22,350 news results citing Egypt in the 48 hours after the protests began.
+                </p>
+                <div class="split">
+                  <img alt="" src="http://www.google.com/insidesearch/images/hood/instant-time.png">
+                  <div class="query">
+                    <p>
+                      â¬SEgyptâ¬ý
+                    </p>
+                  </div>
+                  <div class="stats">
+                    <p>
+                      <span>245k</span> Tweets
+                    </p>
+                    <p>
+                      <span>10m</span> New blog posts
+                    </p>
+                    <p>
+                      <span>22,350</span> New results
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="clr"></div>
+          </div>
+        </div>
+        <div class="section extra" id="mobile">
+          <div class="content">
+            <div class="cols-2">
+              <div class="col">
+                <div class="section-intro short">
+                  <img alt="" src="http://www.google.com/insidesearch/images/hood/icon-globe.png">
+                  <h2>
+                    Search for anything, anywhere
+                  </h2>
+                </div>
+                <p>
+                  At Google, we are seeing mobile search grow at an exponential rate, increasing
+                  five-fold worldwide in just the past two years â¬ a rate comparable to the early
+                  days of desktop Google Search.
+                </p>
+              </div>
+              <div class="col">
+                <div class="nexus">
+                  <ul>
+                    <li>
+                      <a href="http://www.google.com/mobile/navigation/"><img alt="" src="http://www.google.com/insidesearch/images/hood/mobile-navigation.png"> <span class="name">Navigation</span>
+                      <span class="description"><strong>Navigation</strong><br>
+                      Google Maps Navigation is an internet-connected GPS navigation system with
+                      voice guidance.</span></a>
+                    </li>
+                    <li>
+                      <a href="../mobile/_/index.html"><img alt="" src="http://www.google.com/images/icons/product/gplus-48.png"> <span class=
+                      "name">Google+</span> <span class="description"><strong>Google+</strong><br>
+                      Real-life sharing rethought for the web, wherever you are.</span></a>
+                    </li>
+                    <li>
+                      <a href="../mobile/voice-actions/index.html"><img alt="" src="http://www.google.com/insidesearch/images/hood/mobile-voiceactions.png"> <span class="name">Voice
+                      Actions</span> <span class="description"><strong>Voice Actions</strong><br>
+                      Control your Android phone just by speaking using Voice Actions.</span></a>
+                    </li>
+                    <li>
+                      <a href="../mobile/translate/index.html"><img alt="" src="http://www.google.com/insidesearch/images/hood/mobile-translate.png"> <span class="name">Google
+                      Translate</span> <span class="description"><strong>Google
+                      Translate</strong><br>
+                      Translate languages from around the world.</span></a>
+                    </li>
+                    <li>
+                      <a href="../mobile/earth/index.html"><img alt="" src="http://www.google.com/insidesearch/images/hood/mobile-earth.png"> <span class="name">Google Earth for
+                      mobile</span> <span class="description"><strong>Google Earth</strong><br>
+                      Explore the world from the palm of your hand.</span></a>
+                    </li>
+                    <li>
+                      <a href="../mobile/goggles/index.html"><img alt="" src="http://www.google.com/insidesearch/images/hood/mobile-goggles.png"> <span class="name">Google Goggles</span>
+                      <span class="description"><strong>Google Googles</strong><br>
+                      Use pictures to search the web.</span></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p>
+          Â© Google Â· <a href="../">Google Home</a> Â· <a href="../privacy/">Privacy</a> Â· <a href="../accounts/TOS">Terms of Service</a> Â· <a href="http://www.google.com/insidesearch/press.html">Press</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>                   

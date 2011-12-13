@@ -1,0 +1,1161 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en"
+class="streamlined streamlined-3">
+<head>
+<script type="text/javascript">serverResponseTimeDelta=window.external&&window.external.pageT?window.external.pageT:-1;pageStartTime=new Date().getTime();</script>
+<title>Contact Us - Web Search Help</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="google-site-verification"
+content="5LMbwOlwGqgoi4xWy0PUG4fKEQVyA8ltQj8cFd5czYU" />
+<link rel="shortcut icon" href="http://www.google.com/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="http://support.google.com/websearch/bin/resource/all.css?v=376_52" />
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
+<script type="text/javascript">
+var internal = 0;
+var hc_protocol = "http://";
+var hc_host = "support.google.com";
+var hc_url_root = "/websearch";
+var hc_page_info = "product_feedback request";
+var track = function() {};
+var country = 'CA';
+var countryGroup = 'Americas';
+var global_error_general = 'Sorry, we weren\x27t able to submit your information. Please try again.';
+var search_form_id = 'search-form';
+var hc_urchin = "UA-18500-19";
+var global_hc_bookmark = new Array("add","remove","toggle");
+global_hc_bookmark.add = new Array();
+global_hc_bookmark.remove = new Array();
+global_hc_bookmark.toggle = new Array();
+global_hc_bookmark["add"].url = "";
+global_hc_bookmark["add"].token = "";
+global_hc_bookmark["remove"].url = "";
+global_hc_bookmark["remove"].token = "";
+global_hc_bookmark["toggle"].url = "";
+global_hc_bookmark["toggle"].token = "";
+var hiddenZippyLists = '{"country": {"answerId": "", "zippiesString": "These instructions are optimized for your current system\x27s configuration. To view these instructions for another configuration, select the configuration:&nbsp;", "defaultValue": "CA", "validItems": {"AF": "Afghanistan", "AL": "Albania", "DZ": "Algeria", "AS": "American Samoa", "AO": "Angola", "AI": "Anguilla", "AQ": "Antarctica", "AD": "Andorra", "AR": "Argentina", "AM": "Armenia", "AW": "Aruba", "AT": "Austria", "AU": "Australia", "AZ": "Azerbaijan", "BS": "Bahamas", "BH": "Bahrain", "BD": "Bangladesh", "BB": "Barbados", "AG": "Barbuda", "BY": "Belarus", "BZ": "Belize", "BE": "Belgium", "BN": "Benin", "BM": "Bermuda", "BT": "Bhutan", "BO": "Bolivia", "BW": "Botswana", "BA": "Bosnia and Herzegovina", "BR": "Brazil", "VG": "British Virgin Islands", "BN": "Brunei", "BN": "Brunei Darussalam", "BG": "Bulgaria", "BF": "Burkina Faso", "BI": "Burundi", "CM": "Cameroon", "KH": "Cambodia", "CA": "Canada", "CV": "Cape Verde Islands", "KY": "Cayman Islands", "CF": "Central African Republic", "TD": "Chad", "CL": "Chile", "CN": "China", "CX": "Christmas Island", "CC": "Cocos Islands", "CO": "Colombia", "CK": "Cook Islands", "KM": "Comoros", "CG": "Congo", "CR": "Costa Rica", "CI": "Cote d\x27Ivoire", "HR": "Croatia", "CU": "Cuba", "CY": "Cyprus", "CZ": "Czech Republic", "DK": "Denmark", "DJ": "Djibouti", "DM": "Dominica", "DO": "Dominican Republic", "EC": "Ecuador", "EG": "Egypt", "SV": "El Salvador", "GQ": "Equitorial Guinea", "ER": "Eritrea", "EE": "Estonia", "ET": "Ethiopia", "FK": "Falkland Islands", "FO": "Faroe Islands", "FJ": "Fiji", "FI": "Finland", "FR": "France", "GF": "French Guiana", "PF": "French Polynesia", "TF": "French Southern Territories", "GA": "Gabon", "GM": "Gambia", "GE": "Georgia", "DE": "Germany", "GH": "Ghana", "GI": "Gibraltar", "GR": "Greece", "GL": "Greenland", "GD": "Grenada", "CP": "Guadeloupe", "GU": "Guam", "GT": "Guatemala", "GF": "Guiana", "GN": "Guinea", "GW": "Guinea-Bissau", "GY": "Guyana", "HT": "Haiti", "HN": "Honduras", "HK": "Hong Kong", "HU": "Hungary", "IS": "Iceland", "IN": "India", "ID": "Indonesia", "IR": "Iran", "IQ": "Iraq", "IE": "Ireland", "IL": "Israel", "IT": "Italy", "JM": "Jamaica", "JP": "Japan", "JO": "Jordan", "KZ": "Kazakhstan", "KI": "Kiribati", "KE": "Kenya", "KW": "Kuwait", "KG": "Kyrgyzstan", "LA": "Laos", "LV": "Latvia", "LB": "Lebanon", "LS": "Lesotho", "LR": "Liberia", "LY": "Libyan Arab Jamahiriya", "LI": "Liechtenstein", "LT": "Lithuania", "LU": "Luxembourg", "MO": "Macau", "MK": "Macedonia", "MG": "Madagascar", "MY": "Malaysia", "MT": "Malta", "MW": "Malawi", "MV": "Maldives", "ML": "Mali", "MP": "Mariana Islands", "MH": "Marshall Islands", "MQ": "Martinique", "MR": "Mauritania", "MU": "Mauritius", "YT": "Mayotte Island", "MX": "Mexico", "MD": "Moldova", "FM": "Micronesia", "MC": "Monaco", "MN": "Mongolia", "MS": "Montserrat", "MA": "Morocco", "MZ": "Mozambique", "MM": "Myanmar", "NA": "Namibia", "NR": "Nauru", "NP": "Nepal", "NL": "Netherlands", "AN": "Netherlands Antilles", "KN": "Nevis", "NC": "New Caledonia", "NI": "Nicaragua", "NE": "Niger", "NG": "Nigeria", "NU": "Niue", "KR": "North Korea", "NO": "Norway", "NZ": "New Zealand", "OM": "Oman", "PW": "Palau", "PK": "Pakistan", "PS": "Palestine", "PA": "Panama", "PG": "Papua New Guinea", "PY": "Paraguay", "PE": "Peru", "PH": "Philippines", "PN": "Pitcairn Islands", "PO": "Poland", "PT": "Portugal", "PR": "Puerto Rico", "QA": "Qatar", "RE": "Reunion Island", "RO": "Romania", "RU": "Russia", "RW": "Rwanda", "WS": "Samoa", "ST": "Sao Tome and Principe", "SM": "San Marino", "SA": "Saudi Arabia", "SN": "Senegal", "CS": "Serbia and Montenegro", "SC": "Seychelles", "SL": "Sierra Leone", "SG": "Singapore", "SK": "Slovakia", "SI": "Slovenia", "ES": "Spain", "SO": "Somalia", "SB": "Solomon Islands", "ZA": "South Africa", "KP": "South Korea", "LK": "Sri Lanka", "SR": "Suriname", "SD": "Sudan", "SS": "South Sudan", "SH": "St. Helena", "KN": "St. Kitts and Nevis", "LC": "St. Lucia", "PM": "St. Pierreet Miquelon", "VC": "St. Vincent and the Grenadines", "SZ": "Swaziland", "SE": "Sweden", "CH": "Switzerland", "SY": "Syrian Arab Republic", "TW": "Taiwan", "TJ": "Tajikistan", "TZ": "Tanzania", "TH": "Thailand", "TB": "Tibet", "TL": "Timor", "TG": "Togo", "TK": "Tokelau", "TO": "Tonga", "TT": "Trinidad and Tobago", "TN": "Tunisia", "TR": "Turkey", "TM": "Turkmenistan", "TC": "Turks and Caicos Islands", "TV": "Tuvalu", "UK": "Ukraine", "UG": "Uganda", "UE": "United Arab Emirates", "GB": "United Kingdom", "US": "USA", "VI": "U.S. Virgin Islands", "UY": "Uruguay", "UZ": "Uzbekistan", "VU": "Vanuatu", "VA": "The Vatican", "VE": "Venezuela", "VN": "Vietnam", "EH": "Western Sahara", "YE": "Yemen", "CD": "Zaire", "ZM": "Zambia", "ZW": "Zimbabwe", "other": "Other"}}}';
+</script>
+<script src="http://support.google.com/websearch/bin/resource/js_variables.js?v=6&hl=en" type="text/javascript"></script>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+google.load('search', 1);
+function init() {
+google.search.CustomSearchControl.attachAutoCompletion(
+'015031098472999249912:lbo6zbw5njw',
+document.getElementById('query'),
+search_form_id);
+}
+google.setOnLoadCallback(init);
+</script>
+<script src="http://support.google.com/websearch/bin/resource/js_minified.js?v=124" type="text/javascript"></script>
+<script src="http://support.google.com/websearch/bin/resource/tooltips_static.js?v=3" type="text/javascript"></script>
+<script src="https://plusone.google.com/js/plusone.js">
+{lang: 'en', parsetags: 'explicit'}
+</script>
+</head>
+<body onload="
+setCookies_default('WebUserLocale',
+'en','formLoad'); registerSearchForm(search_form_id, 'query');resetForms();makeRequest('/websearch/bin/stats?r='+serverResponseTimeDelta+'&l='+(new Date().getTime()-pageStartTime)); 
+"
+dir="ltr"
+class="product_feedback request_page streamlined streamlined-3 streamlined-header-1 ltr lang_en show_leftnav other  other  new-ui ">
+<a href="http://support.google.com/websearch/bin/request.py?hl=en&contact_type=product_feedback#content" class="skiplink">Skip to content</a>
+<div class="wrapper" id="baseDiv">
+<div id=gbar><nobr><a class="gb1" href="https://mail.google.com/mail/">Gmail</a> <a class="gb1" href="https://www.google.com/calendar">Calendar</a> <a class="gb1" href="https://docs.google.com/">Documents</a> <a class="gb1" href="http://picasaweb.google.com/home?hl=en">Photos</a> <a class="gb1" href="https://sites.google.com/">Sites</a> <a class="gb1" href="../../../../Documentsgroups.google.com/grphp_hl_en">Groups</a> <a class="gb1" href="../../../webhp_hl_en">Web</a> <a class="gb1" style="text-decoration:none" href="../../../intl/en/options/index.html"><u>More</u> &raquo;</a></nobr></div><div id=guser width=100%><nobr><span id=gbn class=gbi></span><span id=gbf class=gbf></span><span id=gbe></span><a id="gb_70" href="https://www.google.com/accounts/ServiceLogin?passive=1209600&continue=http://support.google.com/websearch/bin/request.py?hl%3Den%26contact_type%3Dproduct_feedback&followup=http://support.google.com/websearch/bin/request.py?hl%3Den%26contact_type%3Dproduct_feedback&hl=en" class="gb4">Sign in</a></nobr></div><div class=gbh style=left:0></div><div class=gbh style=right:0></div>
+<style type="text/css">#gbar,#guser{font-size:13px;padding-right:8px;padding-top:4px !important}#gbar{padding-left:8px;height:22px}#guser{padding-bottom:7px !important;text-align:right}.gbh,.gbd{border-top:1px solid #c9d7f1;font-size:1px}.gbh{height:0;position:absolute;top:24px;width:100%}@media all{.gb1{height:22px;margin-right:.5em;vertical-align:top}#gbar{float:left}}a.gb1,a.gb4{text-decoration:underline !important}a.gb1,a.gb4{color:#00c !important}.gbi .gb4{color:#dd8e27 !important}.gbf .gb4{color:#900 !important}</style>
+<script type="text/javascript"></script>
+<div id="hc_error"></div>
+<div class="header-wrapper">
+<style type="text/css">
+@import url('//fonts.googleapis.com/css?family=Open+Sans');
+/* Hide unnecessary search results header */
+.header_unified_widecolumn {
+display: none;
+}
+/* Adjust padding in header bar to better align with menu */
+body.streamlined-header-1 .header-bar {
+padding: 10px 14px 9px 14px;
+}
+.left-col-module {
+padding-left: 0;
+}
+/* Reset section - undoes some of the weird stuff on the page */
+/* Remove header's background so the gradient shows through */
+body.streamlined-header-1 .header-bar {
+background-color: transparent;
+}
+/* Remove IE border and move the logo up. */
+.mgc img {
+border: none;
+margin-top: -3px;
+outline: none;
+}
+/* Removes a hard-coded 2px top margin */
+.websearch-header {
+margin-top: 0 !important;
+}
+/* Remove default margins */
+.mgc ul,
+.mgc li {
+margin: 0;
+padding: 0;
+}
+/* Header styles */
+.mgc-background {
+background: white;
+border-bottom: 1px solid #d5e4f9;
+-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+-moz-box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+-o-box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+min-height: 71px;
+}
+.mgc {
+overflow: hidden;
+padding-top: 16px;
+}
+.mgc h1 {
+float: left;
+margin: 0 0 0 33px;
+padding-right: 20px;
+}
+/* Hide "Web Search" header, show other text. */
+body.streamlined-header-1 .header-bar h1 a:link {
+display: none;
+}
+.header-bar > h1:after {
+color: #DD4B39;
+content: "Help";
+font: normal 20px Arial, sans-serif;
+margin-left: 20px;
+padding-top: 1px;
+}
+/* Primary menu */
+.websearch-header > ul {
+float: left;
+list-style: none;
+}
+.mgc li a {
+border: 1px solid white;
+color: #333;
+display: block;
+line-height: 36px;
+overflow: hidden;
+padding: 0 12px;
+position: relative;
+text-decoration: none;
+top: 0;
+}
+.mgc li a:visited {
+color: #333;
+}
+.websearch-header > ul > li {
+font-family: 'Open Sans', arial, sans-serif;
+font-size: 14px;
+float: left;
+margin: 1px 2px 0;
+padding: 0;
+}
+li.dropdown > a {
+background:
+url('//www.google.com/insidesearch/css/dropdownarrow.png')
+no-repeat right 10px;
+border: 1px solid white;
+-webkit-border-radius: 4px 4px 0 0;
+-moz-border-radius: 4px 4px 0 0;
+-o-border-radius: 4px 4px 0 0;
+border-radius: 4px 4px 0 0;
+padding-right: 20px;
+}
+li.dropdown:hover > a {
+border-color: #e5e5e5 #e5e5e5 white;
+z-index: 9999;
+}
+.websearch-header > ul > li > a:hover {
+text-decoration: underline;
+}
+.websearch-header > ul > li.selection > a:hover {
+text-decoration: none;
+}
+.streamlined-header-1 .selection a:link {
+color: #d14836;
+text-decoration: none;
+font-weight: bold;
+}
+li.selection > a:visited {
+color: #d14836;
+}
+/* Dropdown menus */
+.mgc ul li:hover ul {
+display: block;
+}
+.mgc ul li ul {
+background: white;
+background: rgba(255, 255, 255, .9);
+border: 1px solid #e5e5e5;
+-moz-border-radius: 0 4px 4px 4px;
+-o-border-radius: 0 4px 4px 4px;
+-webkit-border-radius: 0 4px 4px 4px;
+border-radius: 0 4px 4px 4px;
+-moz-box-shadow: 0 2px 2px rgba(0, 0, 0, .2);
+-o-box-shadow: 0 2px 2px rgba(0, 0, 0, .2);
+-webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, .2);
+box-shadow: 0 2px 2px rgba(0, 0, 0, .2);
+display: none;
+float: none;
+list-style: none;
+margin: -1px 0 0;
+padding: 10px 23px 0 11px;
+position: absolute;
+z-index: 9998;
+}
+.mgc ul li ul li {
+font-family: arial,sans-serif;
+font-size: 13px;
+float: none;
+}
+.mgc ul li ul li a {
+background: none;
+border: none;
+color: #333;
+line-height: 20px;
+margin: 0 0 10px;
+padding: 0;
+}
+.mgc ul li ul li a:hover {
+text-decoration: underline;
+}
+/* Need to override an a:link in all.css */
+.mgc-background .streamlined-header-1 a:link {
+color: #333;
+}
+</style>
+<div class="mgc-background">
+<div class="mgc">
+<h1>
+<a href="../../../insidesearch/">
+<img src="http://www.google.com/help/hc/images/websearch_logo_insidesearch.png" alt="Google Inside Search">
+</a>
+</h1>
+<div class="websearch-header" style="margin-top:-2px">
+<ul id="websearch-header">
+<li class="dropdown">
+<a href="http://www.google.com/insidesearch/index.html" onclick="track('Unified_Header','Home')">Home</a>
+<ul class="">
+<li class="">
+<a href="http://www.google.com/insidesearch/index.html#new" onclick="track('Unified_Header','New')">
+New stuff</a>
+</li>
+<li class="">
+<a href="http://www.google.com/insidesearch/index.html#timeline" onclick="track('Unified_Header','Timeline')">
+Evolution of Google Search</a>
+</li>
+</ul>
+</li>
+<li class="dropdown">
+<a href="http://www.google.com/insidesearch/features.html" onclick="track('Unified_Header','Features')">Features</a>
+<ul class="">
+<li class="">
+<a href="http://www.google.com/insidesearch/features.html#basic" onclick="track('Unified_Header','Basics')">
+The Basics</a>
+</li>
+<li class="">
+<a href="http://www.google.com/insidesearch/features.html#advanced" onclick="track('Unified_Header','Advanced')">
+Advanced Tricks</a>
+</li>
+<li class="">
+<a href="http://www.google.com/insidesearch/features.html#facts" onclick="track('Unified_Header','Facts')">
+Fast Facts</a>
+</li>
+<li class="">
+<a href="http://www.google.com/insidesearch/features.html#localsearch" onclick="track('Unified_Header','Local')">
+Local</a>
+</li>
+<li class="">
+<a href="http://www.google.com/insidesearch/features.html#research" onclick="track('Unified_Header','Research')">
+Research</a>
+</li>
+<li class="">
+<a href="http://www.google.com/insidesearch/features.html#mobile" onclick="track('Unified_Header','Mobile')">
+On Your Phone</a>
+</li>
+</ul>
+</li>
+<li class="">
+<a href="../../../insidesearch/stories.html" onclick="track('Unified_Header','SearchStories')">Search Stories</a>
+</li>
+<li class="dropdown">
+<a href="../../../insidesearch/fun.html" onclick="track('Unified_Header','Playground')">Playground</a>
+<ul class="">
+<li class="">
+<a href="http://www.google.com/insidesearch/doodles.html" onclick="track('Unified_Header','Doodle')">
+Doodle Gallery</a>
+</li>
+<li class="">
+<a href="../../../insidesearch/underthehood.html" onclick="track('Unified_Header','Hood')">
+Under the Hood</a>
+</li>
+</ul>
+</li>
+<li class="">
+<a href="../../../../Documentswebcache.googleusercontent.com/" onclick="track('Unified_Header','Blog')">Blog</a>
+</li>
+<li class="selection">
+<a href="../../../../Documentssupport.google.com/websearch" onclick="track('Unified_Header','Morehelp')">More Help</a>
+</li>
+<li class="last"></li>
+</ul>
+</div>
+<div class="header-highlight"></div>
+</div>
+<div class="header_unified_widecolumn">
+<div class="searchresultscount_unifiedheader">
+<span class="header_extra">
+</span>
+</div>
+</div>
+</div>
+<div class="header-bar ">
+<h1>
+<a href="../../../index.html" onclick="track('Header', 'HC Title')">
+Web Search
+</a>
+</h1>
+<div id="yarnball">
+<ul class="yarnball"><li class="yarnlet first"><a href="../../../../Documentssupport.google.com/websearch/" onclick="track('Yarnycrumbs', 'Help Home');" style="z-index: 9;"><span class="left-yarn"></span>Help home</a></li><li class="yarnlet "><a href="../../../../Documentssupport.google.com/websearch/bin/request.py_contact_type_contact_policy" onclick="track('Yarnycrumbs', 'CPP');" style="z-index: 8;">Contacting support</a></li></ul>
+</div>
+<div class="optg-searchbox">
+<? # Set hidden input fields. # ?>
+<form name="search-form" id="search-form" title="Search Help" method="get" action="http://support.google.com/websearch/bin/search.py" onsubmit="track('Search Help',
+document.getElementById('query').value);return false;">
+<div class="searchbox-gradient"></div><div class="searchbox-background">
+<input autocomplete="off"
+class="search-box"
+type="text"
+name="query"
+id="query"
+maxlength="2048"
+placeholder="Search Web Search help"
+title="Search"
+x-webkit-speech
+spellcheck="false" /><button type="submit"
+name="btnG"
+class="search-button"
+alt="Search Help">
+<img src="http://www.google.com/help/hc/images/hc_magnifying_glass.png">
+</button>
+<input type="hidden" name="ctx" value="en:searchbox" />
+</form>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<div class="main-content-container"><table class="layout" border="0"><tr>
+<td class="left-col-siblings">
+<!--googleoff: snippet-->
+<h4 class="sibling-leftnav-title"><a href="../../../../Documentssupport.google.com/websearch" onclick="track('LeftNav Sibling', 'Parent');">Help home</a></h4>
+<!--googleon: snippet-->
+</td>
+<td class="content new-ui">
+<div class="inner_content ">
+<div id="hcError" style="display:none"></div>
+<a name="content"></a>
+<div id="page-content">
+<div id="zippy-dropdown-container"
+class="zippy-dropdown-container-hide"></div>
+<script id="form-validate-js" type="text/javascript">
+window.formValidation_product_feedback= function(form,target) {
+init(form,target);
+var temp1;
+var temp2;
+validate('radio',
+form.elements['extra.survey.overall_satisfaction'],
+'Please tell us how satisfied you are with the product.');
+validate("checkboxes",
+"extra.survey.which_tasks_area",
+"Please tell us which of the specified tasks you have tried to accomplish with the product.",
+"1",
+"100");
+validate("maxlength",
+form.elements['extra.survey.additional_search_feedback'],
+"",
+"");
+var validated = checkErrors(form,target);
+return validated;
+};
+</script>
+<form class="contact_form contact_form_product_feedback" name="request" id="request" method="post" action="http://services.google.com/helpcenter/forms/universal_survey" onsubmit="return formValidation_product_feedback(this,'error_msg_product_feedback');" enctype="multipart/form-data">
+<input id="contact_form_id" type="hidden"
+value="request" />
+<noscript>
+<div class="enable_javascript">
+To contact us through this form, please <a href="http://support.google.com/websearch/bin/answer.py?answer=23852">enable JavaScript</a> in your browser.
+</div>
+</noscript>
+<h2>Share WebSearch feedback</h2>
+<p>
+<strong>
+Thank you for offering your feedback on WebSearch.
+</strong><br/>Understanding your experiences and opinions helps Google make this product better for you and other users.
+</p>
+<div id="error_msg_product_feedback"></div>
+<p class="required"><em>
+* Required field
+</em></p>
+<input type="hidden"
+name="extra.Language"
+id="extra.Language"
+value="en"
+disabled="disabled" />
+<input type="hidden"
+name="extra.IIILanguage"
+id="extra.IIILanguage"
+value="en"
+disabled="disabled" />
+<input type="hidden"
+name="extra.AutoDetectedBrowser"
+id="extra.AutoDetectedBrowser"
+value="Other"
+disabled="disabled" />
+<input type="hidden"
+name="extra.AutoDetectedOS"
+id="extra.AutoDetectedOS"
+value="Other"
+disabled="disabled" />
+<input type="hidden"
+name="extra.survey.helpcenter_id"
+id="extra.survey.helpcenter_id"
+value="55"
+disabled="disabled" />
+<input type="hidden"
+name="extra.survey.sid"
+id="extra.survey.sid"
+value=""
+disabled="disabled" />
+<input type="hidden"
+name="extra.survey.u2u_sid"
+id="extra.survey.u2u_sid"
+value=""
+disabled="disabled" />
+<input type="hidden"
+name="extra.survey.request_time"
+id="extra.survey.request_time"
+value="1323787909"
+disabled="disabled" />
+<input type="hidden"
+name="extra.confirm_url"
+id="extra.confirm_url"
+value="http://support.google.com/websearch/bin/request.py"
+disabled="disabled" />
+<input type="hidden"
+name="validate_form"
+id="validate_form"
+value="yes"
+disabled="disabled" />
+<input type="hidden"
+name="extra.confirm"
+id="extra.confirm"
+value="product_feedback
+"
+disabled="disabled" />
+<input type="hidden"
+name="extra.survey.survey_referrer"
+id="extra.survey.survey_referrer"
+value="HC"
+disabled="disabled" />
+<input type="hidden"
+name="extra.survey.survey_id"
+id="extra.survey.survey_id"
+value="product_feedback_55
+"
+disabled="disabled" />
+<input type="hidden" name="email"
+value="noreply@google.com" />
+<input type="hidden"
+name="extra.IssueType"
+value="product_feedback" />
+<fieldset id="extra.survey.overall_satisfaction_area"
+class="field_overall_satisfaction rating ">
+<legend>Overall, how satisfied are you with WebSearch? *</legend>
+<table border="0"
+cellspacing="1"
+class="survey-scale">
+<tr class="survey-ratings_row">
+<th>Extremely dissatisfied</th>
+<th>Moderately dissatisfied</th>
+<th>Slightly dissatisfied</th>
+<th>Neither satisfied nor dissatisfied</th>
+<th>Slightly satisfied</th>
+<th>Moderately satisfied</th>
+<th>Extremely satisfied</th>
+</tr>
+<tr>
+<td><label><input type="radio"
+name="extra.survey.overall_satisfaction"
+id="extra.survey.overall_satisfaction_1"
+value="1" /></label></td>
+<td><label><input type="radio"
+name="extra.survey.overall_satisfaction"
+id="extra.survey.overall_satisfaction_2"
+value="2" /></label></td>
+<td><label><input type="radio"
+name="extra.survey.overall_satisfaction"
+id="extra.survey.overall_satisfaction_3"
+value="3" /></label></td>
+<td><label><input type="radio"
+name="extra.survey.overall_satisfaction"
+id="extra.survey.overall_satisfaction_4"
+value="4" /></label></td>
+<td><label><input type="radio"
+name="extra.survey.overall_satisfaction"
+id="extra.survey.overall_satisfaction_5"
+value="5" /></label></td>
+<td><label><input type="radio"
+name="extra.survey.overall_satisfaction"
+id="extra.survey.overall_satisfaction_6"
+value="6" /></label></td>
+<td><label><input type="radio"
+name="extra.survey.overall_satisfaction"
+id="extra.survey.overall_satisfaction_7"
+value="7" /></label></td>
+</tr>
+</table>
+</fieldset>
+<fieldset id="extra.survey.which_tasks_area"
+class="field_which_tasks checkbox ">
+<legend>Which of the following tasks have you tried to accomplish with WebSearch? *</legend>
+<div>
+<input type="checkbox"
+name="extra.survey.spelling_suggestions"
+id="extra.survey.spelling_suggestions"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.spelling_suggestions" style="display: inline;">Spelling suggestions</label>
+</div>
+<div>
+<input type="checkbox"
+name="extra.survey.search_term_suggestions"
+id="extra.survey.search_term_suggestions"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.search_term_suggestions" style="display: inline;">Search term suggestions</label>
+</div>
+<div>
+<input type="checkbox"
+name="extra.survey.filter_by_date"
+id="extra.survey.filter_by_date"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.filter_by_date" style="display: inline;">Filter by date</label>
+</div>
+<div>
+<input type="checkbox"
+name="extra.survey.your_search_history"
+id="extra.survey.your_search_history"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.your_search_history" style="display: inline;">Your search history</label>
+</div>
+<div>
+<input type="checkbox"
+name="extra.survey.translated_foreign_pages"
+id="extra.survey.translated_foreign_pages"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.translated_foreign_pages" style="display: inline;">Translated foreign pages</label>
+</div>
+<div>
+<input type="checkbox"
+name="extra.survey.google_instant"
+id="extra.survey.google_instant"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.google_instant" style="display: inline;">Google Instant</label>
+</div>
+<div>
+<input type="checkbox"
+name="extra.survey.onebox"
+id="extra.survey.onebox"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.onebox" style="display: inline;">Onebox (e.g. when you search for â¬SChicago weatherâ¬ý itâ¬"s the forecast that appears, or when you search for a stock symbol itâ¬"s the current quotes and financial chart)</label>
+</div>
+<div>
+<input type="checkbox"
+name="extra.survey.advanced_search"
+id="extra.survey.advanced_search"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.advanced_search" style="display: inline;">Advanced Search</label>
+</div>
+<div>
+<input type="checkbox"
+name="extra.survey.best_guess"
+id="extra.survey.best_guess"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.best_guess" style="display: inline;">Best Guess (e.g., if you search for â¬SGoogleâ¬"s CEOâ¬ý youâ¬"ll see a Best Guess of Larry Page)</label>
+</div>
+<div>
+<input type="checkbox"
+name="extra.survey.feeling_lucky"
+id="extra.survey.feeling_lucky"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.feeling_lucky" style="display: inline;">I'm Feeling Lucky</label>
+</div>
+<div>
+<input type="checkbox"
+name="extra.survey.number_range"
+id="extra.survey.number_range"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.number_range" style="display: inline;">Number range (e.g. Nikon 8000..9000)</label>
+</div>
+<div>
+<input type="checkbox"
+name="extra.survey.quotation_marks"
+id="extra.survey.quotation_marks"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.quotation_marks" style="display: inline;">Quotation marks, commas, or apostrophes</label>
+</div>
+<div>
+<input type="checkbox"
+name="extra.survey.search_operators"
+id="extra.survey.search_operators"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.search_operators" style="display: inline;">Search operators (e.g., allintitle:, filetype:, etc.)</label>
+</div>
+<div>
+<input type="checkbox"
+name="extra.survey.reading_label"
+id="extra.survey.reading_label"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.reading_label" style="display: inline;">Reading level</label>
+</div>
+<div>
+<input type="checkbox"
+name="extra.survey.plusone_button"
+id="extra.survey.plusone_button"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.plusone_button" style="display: inline;">+1 button</label>
+</div>
+<div>
+<input type="checkbox"
+name="extra.survey.other"
+id="extra.survey.other"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.other" style="display: inline;">Other (please specify)</label>
+<label class="extra_textbox">
+<textarea name="extra.survey.which_tasks_other_text"
+id="extra.survey.which_tasks_other_text"
+disabled="disabled"> </textarea></label>
+</div>
+<div>
+<input type="checkbox"
+name="extra.survey.none"
+id="extra.survey.none"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.none" style="display: inline;">None of the above</label>
+</div></fieldset>
+<label for="extra.survey.search_times_per_week"
+class="label_search_times_per_week">In a typical week, approximately how many times do you use Google Search?</label>
+<input type="text" name="extra.survey.search_times_per_week"
+id="extra.survey.search_times_per_week"
+size="25"
+value=""
+class="field_search_times_per_week"
+maxlength="512"
+disabled="disabled" />
+<label for="extra.survey.search_hours_per_week"
+class="label_search_hours_per_week">In a typical week, approximately how many total hours do you spend using Google Search?</label>
+<input type="text" name="extra.survey.search_hours_per_week"
+id="extra.survey.search_hours_per_week"
+size="25"
+value=""
+class="field_search_hours_per_week"
+maxlength="512"
+disabled="disabled" />
+<p><strong>Thinking of all the time you spend online as 100%, what percent of time would you say is spent on the following types of online activities? Your answers must total 100%. Enter â¬S0â¬ý if you spend no time on a certain type of activity.</strong></p>
+<label for="extra.survey.information_time"
+class="label_information_time">Percentage of time seeking information (e.g., maps, directions, banking, health, general look-ups):</label>
+<input type="text" name="extra.survey.information_time"
+id="extra.survey.information_time"
+size="25"
+value="%"
+class="field_information_time"
+maxlength="512"
+disabled="disabled" />
+<label for="extra.survey.email_time"
+class="label_email_time">Percentage of time spent on email (e.g., checking, sending, forwarding):</label>
+<input type="text" name="extra.survey.email_time"
+id="extra.survey.email_time"
+size="25"
+value="%"
+class="field_email_time"
+maxlength="512"
+disabled="disabled" />
+<label for="extra.survey.social_media_time"
+class="label_social_media_time">Percentage of time spent on social media (e.g., social networking, blogging, posting, Tweeting, photo-sharing):</label>
+<input type="text" name="extra.survey.social_media_time"
+id="extra.survey.social_media_time"
+size="25"
+value="%"
+class="field_social_media_time"
+maxlength="512"
+disabled="disabled" />
+<label for="extra.survey.entertainment_time"
+class="label_entertainment_time">Percentage of time spent on entertainment (e.g., videos, music, personal hobbies, games, fun):</label>
+<input type="text" name="extra.survey.entertainment_time"
+id="extra.survey.entertainment_time"
+size="25"
+value="%"
+class="field_entertainment_time"
+maxlength="512"
+disabled="disabled" />
+<label for="extra.survey.personal_productivity_time"
+class="label_personal_productivity_time">Percentage of time spent on personal productivity (e.g., research for a job or class, online banking):</label>
+<input type="text" name="extra.survey.personal_productivity_time"
+id="extra.survey.personal_productivity_time"
+size="25"
+value="%"
+class="field_personal_productivity_time"
+maxlength="512"
+disabled="disabled" />
+<label for="extra.survey.shopping_time"
+class="label_shopping_time">Percentage of time spent on shopping/coupons (e.g., product search, daily deals/discounts):</label>
+<input type="text" name="extra.survey.shopping_time"
+id="extra.survey.shopping_time"
+size="25"
+value="%"
+class="field_shopping_time"
+maxlength="512"
+disabled="disabled" />
+<p><strong>Indicate your usage of the following search engines:</strong></p>
+<fieldset id="extra.survey.bing_use_area"
+class="field_bing_use radio ">
+<legend>Bing:</legend>
+<div>
+<label ><input type="radio" 
+name="extra.survey.bing_use"
+id="extra.survey.bing_use_dont_use"
+value="dont_use"
+disabled="disabled"  />I don't use this
+</label>
+</div>
+<div>
+<label ><input type="radio" 
+name="extra.survey.bing_use"
+id="extra.survey.bing_use_first_choice"
+value="first_choice"
+disabled="disabled"  />Usually my first choice as a search engine
+</label>
+</div>
+<div>
+<label ><input type="radio" 
+name="extra.survey.bing_use"
+id="extra.survey.bing_use_not_first_choice"
+value="not_first_choice"
+disabled="disabled"  />I use this, but it's not usually my first choice
+</label>
+</div></fieldset>
+<fieldset id="extra.survey.yahoo_use_area"
+class="field_yahoo_use radio ">
+<legend>Yahoo Search:</legend>
+<div>
+<label ><input type="radio" 
+name="extra.survey.yahoo_use"
+id="extra.survey.yahoo_use_do_not_use"
+value="do_not_use"
+disabled="disabled"  />I don't use this
+</label>
+</div>
+<div>
+<label ><input type="radio" 
+name="extra.survey.yahoo_use"
+id="extra.survey.yahoo_use_1st_choice"
+value="1st_choice"
+disabled="disabled"  />Usually my first choice as a search engine
+</label>
+</div>
+<div>
+<label ><input type="radio" 
+name="extra.survey.yahoo_use"
+id="extra.survey.yahoo_use_non_first_choice"
+value="non_first_choice"
+disabled="disabled"  />I use this, but it's not usually my first choice
+</label>
+</div></fieldset>
+<fieldset id="extra.survey.google_use_area"
+class="field_google_use radio ">
+<legend>Google Search:</legend>
+<div>
+<label ><input type="radio" 
+name="extra.survey.google_use"
+id="extra.survey.google_use_no__use"
+value="no__use"
+disabled="disabled"  />I don't use this
+</label>
+</div>
+<div>
+<label ><input type="radio" 
+name="extra.survey.google_use"
+id="extra.survey.google_use_numberone__choice"
+value="numberone__choice"
+disabled="disabled"  />Usually my first choice as a search engine
+</label>
+</div>
+<div>
+<label ><input type="radio" 
+name="extra.survey.google_use"
+id="extra.survey.google_use_isnt_first_choice"
+value="isnt_first_choice"
+disabled="disabled"  />I use this, but it's not usually my first choice
+</label>
+</div></fieldset>
+<fieldset id="extra.survey.google_product_use_area"
+class="field_google_product_use checkbox ">
+<legend>Which of the following Google products do you use?</legend>
+<div>
+<input type="checkbox"
+name="extra.survey.books"
+id="extra.survey.books"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.books" style="display: inline;">Books</label>
+</div>
+<div>
+<input type="checkbox"
+name="extra.survey.gmail"
+id="extra.survey.gmail"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.gmail" style="display: inline;">Gmail</label>
+</div>
+<div>
+<input type="checkbox"
+name="extra.survey.googleplus"
+id="extra.survey.googleplus"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.googleplus" style="display: inline;">Google+</label>
+</div>
+<div>
+<input type="checkbox"
+name="extra.survey.calendar"
+id="extra.survey.calendar"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.calendar" style="display: inline;">Google Calendar</label>
+</div>
+<div>
+<input type="checkbox"
+name="extra.survey.docs"
+id="extra.survey.docs"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.docs" style="display: inline;">Google Docs</label>
+</div>
+<div>
+<input type="checkbox"
+name="extra.survey.images"
+id="extra.survey.images"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.images" style="display: inline;">Google Images</label>
+</div>
+<div>
+<input type="checkbox"
+name="extra.survey.news"
+id="extra.survey.news"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.news" style="display: inline;">Google News</label>
+</div>
+<div>
+<input type="checkbox"
+name="extra.survey.scholar"
+id="extra.survey.scholar"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.scholar" style="display: inline;">Google Scholar</label>
+</div>
+<div>
+<input type="checkbox"
+name="extra.survey.shopping"
+id="extra.survey.shopping"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.shopping" style="display: inline;">Google Shopping</label>
+</div>
+<div>
+<input type="checkbox"
+name="extra.survey.sites"
+id="extra.survey.sites"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.sites" style="display: inline;">Google Sites</label>
+</div>
+<div>
+<input type="checkbox"
+name="extra.survey.igoogle"
+id="extra.survey.igoogle"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.igoogle" style="display: inline;">iGoogle</label>
+</div>
+<div>
+<input type="checkbox"
+name="extra.survey.maps"
+id="extra.survey.maps"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.maps" style="display: inline;">Maps</label>
+</div>
+<div>
+<input type="checkbox"
+name="extra.survey.picasa"
+id="extra.survey.picasa"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.picasa" style="display: inline;">Picasa and Picasa Web Albums</label>
+</div>
+<div>
+<input type="checkbox"
+name="extra.survey.websearch"
+id="extra.survey.websearch"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.websearch" style="display: inline;">Web Search</label>
+</div>
+<div>
+<input type="checkbox"
+name="extra.survey.youtube"
+id="extra.survey.youtube"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.youtube" style="display: inline;">YouTube</label>
+</div>
+<div>
+<input type="checkbox"
+name="extra.survey.none_of_these"
+id="extra.survey.none_of_these"
+value="checked"
+disabled="disabled"  /><label for="extra.survey.none_of_these" style="display: inline;">None of the above</label>
+</div></fieldset>
+<label for="extra.survey.additional_search_feedback"
+class="label_additional_search_feedback">Please provide any additional feedback on your Google Search experience:</label>
+<textarea name="extra.survey.additional_search_feedback"
+id="extra.survey.additional_search_feedback"
+cols="35"
+rows="4"
+onkeypress="return testLimit(this, 500)"
+onkeyup="return incrementCounter(this, 'char_counter_additional_search_feedback', 500);"
+disabled="disabled"></textarea> <span class="char_counter">Characters remaining:
+<span id="char_counter_additional_search_feedback">500</span> / 500
+</span>
+<input id="submit_product_feedback"
+type="submit" name="Action.Send"
+class="submit" disabled="disabled"
+value="Submit" />
+</form>
+<script language="javascript" type="text/javascript">
+// Add contact_form_enabled css class to all forms on the page.
+var reqForm = document.getElementsByTagName('form');
+for(var j = 0; j < reqForm.length; j++) {
+reqForm[j].className += " contact_form_enabled";
+// Enable fields when javascript is enabled for all forms on page.
+for(var i = 0; i < reqForm[j].elements.length; i++) {
+if (reqForm[j].elements[i].className.indexOf('stay_disabled') < 1) {
+reqForm[j].elements[i].disabled = false;
+}
+}
+}
+</script>
+<script id="form-default-js" language="javascript" type="text/javascript">
+// Autoselect the option in OS dropdown with value "win64"
+// Note: This is done here because this can't be grabbed from
+// the user agent string
+if(window.navigator.platform == "Win64"
+&& document.getElementById("winvista64")) {
+document.getElementById("winvista64").selected = "selected";
+}
+/**
+* Grab all fields in a fieldset, delete them from the fieldset,
+* shuffle them up, and add them back onto the fieldset.
+*
+* @param {string} fieldSetId the id of the fieldset
+* @param {boolean} hasOtherField Is there an Other field at the bottom?
+*/
+function randomFields(fieldSetId, hasOtherField) {
+if(hasOtherField == null) {
+hasOtherField = false;
+}
+var fieldset = document.getElementById(fieldSetId);
+var allFields = fieldset.getElementsByTagName("div");
+var fields = [];
+var otherField = null;
+// Remove fields from fieldset
+if(hasOtherField) {
+lastField = allFields[allFields.length-1];
+otherField = lastField;
+lastField.parentNode.removeChild(lastField);
+}
+for (var i = allFields.length-1; i >= 0; i--) {
+var currField = allFields[i];
+fields.push(currField);
+currField.parentNode.removeChild(currField);
+}
+// Randomize the order of the fields
+shuffleArray(fields);
+// Attach the fields back onto the fieldset
+while(currField = fields.pop()) {
+fieldset.appendChild(currField);
+}
+if(hasOtherField) {
+fieldset.appendChild(otherField);
+}
+}
+/**
+* Change the order of all the elements in an array
+* to a random order
+*/
+function shuffleArray(arr) {
+for (var i = 0; i < arr.length; i++) {
+var elementsOrder = parseInt(Math.random() * arr.length);
+var obj = arr[elementsOrder];
+arr[elementsOrder] = arr[i];
+arr[i] = obj;
+}
+}
+</script>
+</div>
+<div class="clear"></div>
+</div>
+</td>
+<td class="right-nav-empty"></td>
+</tr></table></div>
+<script type="text/javascript">
+function setSurveyCookie(){
+setCookies_default("survey_55", 1, "", 30);
+}
+</script>
+<p class="survey_invite survey_invite_blue">
+<strong>Tell us how we're doing:</strong> Please <a href="../../../../Documentssupport.google.com/websearch/bin/request.py_contact_type_survey_v_1" id="surveyLink" target="_blank" onclick="setSurveyCookie();track('Survey Link', 'Click');">answer a few questions</a> about your experience to help us improve our Help Center.
+</p>
+<div class="footer-nav-streamlined">
+<p>
+<a href="../../../index.html" onclick="track('Footer', 'Product home')">Web Search</a>
+-
+<a href="../../../../Documentssupport.google.com/websearch/bin/request.py_contact_type_contact_policy" onclick="track('Footer', 'Contacting us')">Contacting Us</a>
+-
+<a href="../../_hl_en" onclick="track('Footer', 'Help with other products')">Help with other Google products</a>
+-
+<form method="post" id="changelang" name="changelang"
+action="javascript:
+setCookies_default('WebUserLocale',
+this.document.changelang.lang.value, 'dropdown');
+track('LanguageDropdown', this.document.changelang.lang.value);"
+class="lang_dropdown">
+<label for="lang">Change language:</label>
+<select name="lang" id="lang"
+onchange="document.getElementById('changelang').submit();">
+<option value="ar" >Ø§ÙØ¹Ø±Ø¨Ù`Ø©</option>
+<option value="bg" >ÐÑ`Ð»Ð³Ð°Ñ¬ÑýÐºÐ¸</option>
+<option value="cs" >ÄResky</option>
+<option value="da" >Dansk</option>
+<option value="de" >Deutsch</option>
+<option value="en" selected="selected" class="selected">English (US)&lrm;</option>
+<option value="es" >EspaÃ±ol</option>
+<option value="fr" >FranÃ§ais</option>
+<option value="it" >Italiano</option>
+<option value="hu" >Magyar</option>
+<option value="nl" >Nederlands</option>
+<option value="no" >Norsk</option>
+<option value="pl" >Polski</option>
+<option value="br" >PortuguÃªs (Brasil)&lrm;</option>
+<option value="ro" >RomÃ¢nÄ’</option>
+<option value="sk" >SlovenskÃ½</option>
+<option value="sl" >SlovenÅ¡Äýina</option>
+<option value="fi" >Suomi</option>
+<option value="sv" >Svenska</option>
+<option value="ru" >Ð Ñ’ÑýÑýÐºÐ¸Ð¹</option>
+<option value="th" >à¸ à¸²à¸©à¸²à¹à¸à¸¢</option>
+<option value="tl" >Tagalog</option>
+<option value="tr" >TÃ¼rkÃ§e</option>
+<option value="el" >Î"Î»Î»Î·Î½Î¹ÎºÎ¬</option>
+<option value="iw" >×¢××¨×"×ª</option>
+<option value="hi" >à¤¹à¤¿à¤¨à¥ýà¤¦à¥¬</option>
+<option value="cn" >ä¸­æ!ï¼Æç®¬ä½ï¼0&lrm;</option>
+<option value="b5" >ä¸­æ!ï¼Æç¹ýé«ï¼0&lrm;</option>
+<option value="jp" >æ¥æS¬èª~</option>
+<option value="kr" >í"Sêµ­ì´</option>
+</select>
+</form>
+</p>
+<div><p>
+<span class="footer-copyright">
+&copy;2011 Google
+</span>
+<span>
+- 
+<a href="../../../intl/en/" onclick="track('Footer', 'GoogleHome');
+">Google home</a>
+</span>
+<span>
+- 
+<a href="../../../intl/en/privacy.html" onclick="track('Footer', 'PrivacyPolicy');
+">Privacy Policy</a>
+</span>
+<span>
+- 
+<a href="../../../accounts/TOS_hl_en_loc_CA" onclick="track('Footer', 'Terms');
+">Terms of Service</a>
+</span>
+<span>
+- 
+<a href="../../../sitemap.html" onclick="track('Footer', 'Sitemap');
+">Site map</a>
+</span>
+</p></div>
+</div>
+</div>
+<script type="text/javascript">
+googlehelp.Links.initLinks(
+['', 'NO-GMAIL', 'NO-PLUS', browser, browserGroup,
+os, osGroup, country], internal);
+if (googlehelp.initEls) {
+googlehelp.initEls(['', 'NO-GMAIL', 'NO-PLUS', browser, browserGroup,
+os, osGroup, country, countryGroup],
+userSettings, userSettingsDropdownText);
+}
+if (convertLinksToButtons) {
+convertLinksToButtons();
+}
+</script>
+<script src="http://www.google.com/accounts/hosted/helpcenter/js/tooltips/TooltipLoader.js" type="text/javascript"> </script>
+<link href="http://www.google.com/accounts/hosted/helpcenter/css/tooltips/TooltipLoader.css" type="text/css" rel="stylesheet" />
+<script src="http://www.google.com/accounts/hosted/helpcenter/js/tooltips/XMLHttpRequest.js" type="text/javascript"></script>
+<div class="tooltipPopup" style="visibility:hidden;display:none;"
+id="loadingDiv"><strong>Loading...</strong><br/>
+<br/><br/><br/>
+<img src="http://www.google.com/accounts/hosted/helpcenter/images/tooltips/spin_32.gif" alt="" style="width:32px; height:32px; border-style:none;" /><br/><br/><br/>
+</div>
+<iframe scrolling="no" class="tooltipPopup" frameborder="0"
+id="tooltipIframe"></iframe>
+<script type="text/javascript"><!--
+tooltipOnMouseover = function(imgIconId, isFocus) {
+if (isFocus == 'true') {
+document.getElementById(imgIconId).src = "//www.google.com/accounts/hosted/helpcenter/images/tooltips/923093475-question_mark_over.gif";
+} else {
+document.getElementById(imgIconId).src = "//www.google.com/accounts/hosted/helpcenter/images/tooltips/923093475-question_mark.gif";
+}
+}
+var tooltipLoader = new TooltipLoader("/websearch/bin/shortanswer.py?answer=");
+//-->
+</script>
+<script src="http://www.google-analytics.com/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+var analytics_async = 0;
+</script>
+<script src="http://support.google.com/websearch/bin/resource/urchin_util.js?v=7" type="text/javascript"></script>
+<script type="text/javascript">
+var cookiePathArray = [];
+</script>
+<script type="text/javascript">
+setCookies_default("websearch_exp", "1", "", "60");
+</script>
+<script type="text/javascript">
+urchinTracker('\x2Fwebsearch\x2Fbin\x2Frequest.py?hl=en\x26contact_type=product_feedback\x26experiment=1');
+</script>
+<script src="http://support.google.com/websearch/bin/resource/js_validate_static.js?v=18" type="text/javascript"></script>
+<script type="text/javascript">
+track('P13n Box - product_feedback_survey',
+'Impression');
+track('Survey Link',
+'Impression exp=1');
+setCookies_default('p13n_box_impr_55_product_feedback_survey',
+'1',
+'',
+'30');
+</script>
+<script type="text/javascript">
+new googlehelp.Lightbox(
+'\x26laquo\x3B Previous',
+'Next \x26raquo\x3B');
+</script>
+</body>
+</html>

@@ -1,0 +1,404 @@
+<!doctype html><html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>related:http://www.encs.concordia.ca/ces/courses/ site:http://www.encs.concordia.ca/ - Google Search</title><style>#gbar,#guser{font-size:13px;padding-top:1px !important}#gbar{height:22px}#guser{padding-bottom:7px !important;text-align:right}.gbh,.gbd{border-top:1px solid #c9d7f1;font-size:1px}.gbh{height:0;position:absolute;top:24px;width:100%}@media all{.gb1{height:22px;margin-right:.5em;vertical-align:top}#gbar{float:left}}a.gb1,a.gb4{text-decoration:underline !important}a.gb1,a.gb4{color:#00c !important}</style><style>
+    body,td,div,.p,a{
+      font-family:arial,sans-serif
+    }
+    body {
+      margin:0
+    }
+    #gbar{
+      float:left;
+      height:22px;padding-left:2px;
+      font-size:13px
+    }
+    
+    .gssb_c table{
+      font-size:1em
+    }
+    .gsfi,.gsfs{
+      font-size:17px
+    }
+    
+      .j{
+        width:34em
+      }
+    
+    a:link,.w,.q:active,.q:visited,.tbotu{
+      color:#11c
+    }
+    a.fl,.flc a{
+      color:#4272db;text-decoration:none
+    }
+    
+    a.gl{
+      text-decoration:none
+    }
+    cite, cite a:link{
+      color:#0E774A;
+      font-style:normal
+    }
+    #foot {
+      padding:0 8px;
+    }
+    #foot a{
+      white-space:nowrap
+    }
+    h3{
+      font-size:16px;
+      font-weight:normal;
+      margin:0;
+      padding:0
+    }
+    #res h3{
+      display:inline
+    }
+    .hd{
+      height:1px;
+      position:absolute;
+      top:-1000em
+    }
+    li.g,body,html,table,.std{
+      font-size:13px
+    }
+    li.g{
+      margin-bottom:14px;
+      margin-top:0;
+      zoom:1;
+    }
+    ol li,ul li{
+      list-style:none
+    }
+    h1,ol,ul,li{
+      margin:0;padding:0
+    }
+    #mbEnd li{
+      margin:1em 0
+    }
+    #mbEnd h2{
+      color:#676767;
+      font-family:arial,sans-serif;
+      font-size:11px;
+      font-weight:normal
+    }
+    #center_col{
+      border-left:1px solid #d3e1f9;
+      padding:0 8px
+    }
+    
+      #fll a,#bfl a{
+        margin:0 10px
+      }
+    
+    .f{
+      color:#767676
+    }
+    .grn{
+      color:#393
+    }
+    .ds{
+      border-right:1px solid #e7e7e7;
+      position:relative;
+      height:32px;
+      
+      z-index:100
+    }
+    .e{
+      margin:2px 0px 0.75em
+    }
+    #leftnav a,.slk a{
+      text-decoration:none
+    }
+    #leftnav h2{
+      color: #767676;
+      font-weight: normal;
+      margin:0
+    }
+    #logo{
+      display:block;
+      height:49px;
+      margin-top:12px;
+      margin-left:12px;
+      overflow:hidden;
+      position:relative;
+      width:137px
+    }
+    #logo img{
+      
+      left:0;
+      position:absolute;
+      top:-41px
+    }
+    .lnsec{
+      font-size:13px;
+      border-top:1px solid #c9d7f1;
+      margin-top:5px;
+      padding-top:8px
+    }
+    .lsb,.micon,.csb,.star,.star div{
+      background:url(/images/nav_logo_hp2.png) no-repeat;
+      overflow:hidden
+    }
+    .lst{
+      background:#fff;
+      border:1px solid #ccc;
+      border-bottom:none;
+      color:#000;
+      font:18px arial,sans-serif;
+      
+      float:left;
+      height:26px;
+      margin:0;
+      padding:4px 0 0;
+      padding-left:6px;
+      padding-right:10px;
+      vertical-align:top;
+      width:100%;
+      
+      word-break:break-all
+    }
+    .lst:focus{
+      outline:none
+    }
+    .lst-td{
+      border-bottom:1px solid #999;
+      padding:0
+    }
+    .lst-b{
+      border:1px solid #CCC;
+      border-bottom:none;
+      padding-right:0;
+      height:29px;
+      padding-top:1px
+    }
+    .tia input{
+      border-right:none;
+      padding-right:0
+    }
+    .tia{
+      padding-right:0
+    }
+    .lsbb{
+      background:#eee;
+      border:1px solid #999;
+      border-top-color:#ccc;
+      border-left-color:#ccc;
+      height:30px
+    }
+    .lsb{
+      background-position:bottom;
+      border:none;
+      color:#000;
+      cursor:pointer;
+      font:15px arial,sans-serif;
+      height:30px;
+      margin:0;
+      vertical-align:top
+    }
+    .lsb:active{
+      background:#ccc
+    }
+    .micon {
+      float:left;
+      height:19px;
+      margin-top:2px;
+      margin-right: 6px;
+      width:19px;
+    }
+    #nav{
+      
+      border-collapse:collapse;
+      margin-top:17px;
+      text-align:left
+    }
+    #nav td{
+      text-align:center;
+    }
+    .nobr{
+      white-space:nowrap
+    }
+    #showmodes .micon{
+      background-position:-150px -114px;
+      height:17px;
+      margin-left:9px;
+      width:17px;
+    }
+    #subform_ctrl{
+      font-size:11px;
+      height:26px;
+      margin:5px 3px 0;
+      margin-left:17px
+    }
+    .ts{
+      border-collapse:collapse
+    }
+    #mn{
+      table-layout:fixed;width:996px
+    }
+    .mitem{
+      font-size:15px;
+      line-height:24px;
+      margin-bottom:2px;
+      padding-left:0
+    }
+    .msel{
+      font-weight:bold;
+      margin:-1px 0 0 0;
+      border:solid #fff;
+      border-width:1px 0
+    }
+    .r{
+      margin:0
+    }
+    #res{
+      padding:4px 8px 0
+    }
+    .s br{
+      display:none
+    }
+    .spon{
+      font-size:11px;
+      font-weight:normal;
+      color:#767676
+    }
+    .mitem,.lnsec{
+      padding-left:8px
+    }
+    #showmodes{
+      font-size:15px;
+      line-height:24px;
+    }
+    #swr{
+      margin-top:4px
+    }
+    #swr li{
+      line-height:1.2;
+      margin-bottom:4px
+    }
+    .csb{
+      display:block;
+      height:40px;
+    }
+    .images_table td{line-height:17px;padding-bottom:16px}
+    .images_table img{border:1px solid #ccc;padding:1px}
+    .taf{
+      padding:1px 0 0
+    }
+    .tam{
+      padding:14px 0 0
+    }
+    .tal{
+      padding:14px 0 1px
+    }
+    #tbd,#abd{
+      display:block;
+      min-height:1px;
+      padding-top:3px
+    }
+    #tbd li{
+      
+      display:inline
+    }
+    .tbfo,.tbt,.tbpd{
+      margin-bottom:8px
+    }
+    #tbd .tbt li{
+      display:block;
+      font-size:13px;
+      line-height:1.2;
+      padding-bottom:3px;
+      padding-left:8px;
+      text-indent:-8px
+    }
+    .tbos,.b{
+      font-weight:bold;
+    }
+    a:hover{
+      text-decoration:underline
+    }
+    #leftnav a:hover {
+      text-decoration:underline;
+    }
+    em{
+      font-weight:bold;
+      font-style:normal
+    }
+    
+    .gac_wd{
+      right:-2px !important;
+      
+      overflow:hidden
+    }
+    
+    .fmg{
+      display:inline-block;
+      margin-top:7px;
+      padding-right:8px;
+      text-align-left;
+      vertical-align:top;
+      width:90px;
+      zoom:1
+    }
+    .star{
+      
+          background-position:0 -120px;
+        
+      height:9px;
+      overflow-hidden;
+      width:50px
+    }
+    .star div{
+      
+          background-position:0 -110px
+        
+    }
+    
+    .pslires{
+      padding-top:6px;
+      overflow:hidden;
+      width:99.5%
+    }
+    .psliimg{
+      float:left;
+      height:90px;
+      text-align:top;
+      width:90px
+    }
+    .pslimain{
+      margin-left:100px;
+      margin-right:9em
+    }
+    .psliprice{
+      float:right;
+      width:7em
+    }
+    .psliprice b{
+      font-size:medium;
+      font-weight:bold;
+      white-space:nowrap
+    }
+    .psliimg img{
+      border:none
+    }
+    </style><script type="text/javascript">
+      window['hlprwt'] = function(t, ct) {
+        try {
+          if (t === window) {
+            t = window.event.srcElement;
+            while (t) {
+              if (t.href) {
+                break;
+              }
+              t = t.parentNode;
+            }
+          }
+          t.href = ct;
+          t.onmousedown = '';
+        } catch (e) {
+        }
+        return true;
+      }
+      window.google = { y: {} };
+      </script><script type="text/javascript"></script></head>
+    <body bgcolor="#ffffff" topmargin="3" marginheight="3" marginwidth="0"
+  ><div id=gbar><nobr><b class=gb1>Web</b> <a class="gb1" href="http://www.google.ca/search?q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&hl=en&um=1&ie=UTF-8&tbm=isch&source=og&sa=N&tab=wi">Images</a> <a class="gb1" href="http://www.google.ca/search?q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&hl=en&um=1&ie=UTF-8&tbo=u&tbm=vid&source=og&sa=N&tab=wv">Videos</a> <a class="gb1" href="http://maps.google.ca/maps?q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&hl=en&um=1&ie=UTF-8&sa=N&tab=wl">Maps</a> <a class="gb1" href="http://news.google.ca/nwshp?hl=en&tab=wn">News</a> <a class="gb1" href="http://translate.google.ca/?q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&hl=en&um=1&ie=UTF-8&sa=N&tab=wT">Translate</a> <a class="gb1" href="https://mail.google.com/mail/?tab=wm">Gmail</a> <a class="gb1" style="text-decoration:none" href="http://www.google.ca/intl/en/options/"><u>More</u> &raquo;</a></nobr></div><div id=guser width=100%><nobr><span id=gbn class=gbi></span><span id=gbf class=gbf></span><span id=gbe></span><a href="http://www.google.com/history/optout?hl=en" class="gb4">Web History</a> | <a href="http://www.google.ca/preferences?hl=en" class="gb4">Settings</a> | <a id="gb_70" href="https://accounts.google.com/ServiceLogin?hl=en&continue=http://www.google.ca/search%3Fq%3Drelated:http://www.encs.concordia.ca/ces/courses/%2Bsite:http://www.encs.concordia.ca/%26hl%3Den%26tbo%3D1%26ie%3DUTF-8%26tbs%3Dimg:1%26sa%3DX%26ei%3DsWTnTrurHIqfgweGxZTYCA%26ved%3D0CB0QpwUoAQ" class="gb4">Sign in</a></nobr></div><div class=gbh style=left:0></div><div class=gbh style=right:0></div><br clear="all"><table border="0" cellpadding="0" cellspacing="0" id="mn" style="position:relative"><tr><td rowspan="2" valign="top" width="157"><h1><a href="http://www.google.ca/webhp?hl=en" id="logo" title="Go to Google Home"><img src="http://www.google.ca/images/nav_logo_hp2.png" alt="" height="222" style="border:0" width="167"></a></h1></td><td valign="top" style="padding-left:9px" width="559"><form name="gs" id="tsf" method="GET" action="http://www.google.ca/search" style="display:block;margin:0;background:none"><table border="0" cellpadding="0" cellspacing="0" id="sbhost" style="border-bottom:1px solid #e7e7e7;margin-top:18px;position:relative"><tr><td class="lst-td" width="100%" valign="bottom" style=""><div style="position:relative;zoom:1"><input autocomplete="off" class="lst" type="text" name="q" maxlength="2048" title="Search" value="related:http://www.encs.concordia.ca/ces/courses/ site:http://www.encs.concordia.ca/"></div></td><td><div class="ds"><div class="lsbb"><input type="submit" name="btnG" class="lsb" value="Search"></div></div></td></tr></table><input type="hidden" name="hl" value="en"><input type="hidden" name="tbo" value="1"><input type="hidden" name="tbs" value="img:1"><input type="hidden" name="sa" value="X"><input type="hidden" name="ei" value="sWTnTrurHIqfgweGxZTYCA"><input type="hidden" name="ved" value="0CB0QpwUoAQ"></form></td><td style="padding-left:5px" width="259"></td></tr><tr><td width="100%"><div id="subform_ctrl"><div style="float:right"><a class="fl" href="http://www.google.ca/advanced_search?q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&hl=en&tbo=1&ie=UTF-8&tbs=img:1">Advanced Search</a></div><div>Results <b>1</b> - <b>10</b> of about <b>186</b> similar to <b>http://www.encs.concordia.ca/ces/courses/ site:http://www.encs.concordia.ca/</b>.</div></div></td><td></td></tr><tr><td valign="top" id="leftnav" style="padding:4px"><div id="modeselector" style="padding-bottom:4px"><ul><li class="mitem msel"><span class="micon" style="
+          background-position:-20px -132px
+        "></span>Everything</li></ul><a id="showmodes" class="q" href="http://www.google.ca/search?q=related%3Ahttp%3A//www.encs.concordia.ca/ces/courses/+site%3Ahttp%3A//www.encs.concordia.ca/&hl=en&tbo=1&tbs=img%3A1&prmdo=1&sa=X"><span class="micon"></span><span class="msm">More</span></a></div><div class="lnsec"><h2 class="hd">Search Options</h2><ul id="tbd" class="med"><li><ul class="tbt"><li class="tbos">the web</li><li class="tbou"><a href="http://www.google.ca/search?q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&hl=en&tbo=1&ie=UTF-8&tbs=img:1,ctr:countryCA&cr=countryCA&sa=X&ei=tGTnTr7cB5LegQfwkbTrCA&ved=0CBAQpwUoAQ" class="q">pages from Canada</a></li></ul></li><li><ul class="tbt"><li class="tbos">All results</li><li class="tbou"><a href="http://www.google.ca/search?q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&hl=en&tbo=1&ie=UTF-8&tbm=isch&sa=X&ei=tGTnTr7cB5LegQfwkbTrCA&ved=0CBEQpwUoAQ" class="q">Images</a></li><li class="tbou"><a href="http://www.google.ca/search?q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&hl=en&tbo=1&ie=UTF-8&tbm=vid&sa=X&ei=tGTnTr7cB5LegQfwkbTrCA&ved=0CBIQpwUoAg" class="q">Videos</a></li><li class="tbou"><a href="http://www.google.ca/search?q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&hl=en&tbo=1&ie=UTF-8&tbm=nws&sa=X&ei=tGTnTr7cB5LegQfwkbTrCA&ved=0CBMQpwUoAw" class="q">News</a></li><li class="tbou"><a href="http://www.google.ca/search?q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&hl=en&tbo=1&ie=UTF-8&tbm=blg&sa=X&ei=tGTnTr7cB5LegQfwkbTrCA&ved=0CBQQpwUoBA" class="q">Blogs</a></li><li class="tbou"><a href="http://www.google.ca/search?q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&hl=en&tbo=1&ie=UTF-8&tbm=bks&sa=X&ei=tGTnTr7cB5LegQfwkbTrCA&ved=0CBUQpwUoBQ" class="q">Books</a></li><li class="tbou"><a href="http://www.google.ca/search?q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&hl=en&tbo=1&ie=UTF-8&tbs=img:1&tbm=dsc&sa=X&ei=tGTnTr7cB5LegQfwkbTrCA&ved=0CBYQpwUoBg" class="q">Discussions</a></li><li class="tbou"><a href="http://www.google.ca/search?q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&hl=en&tbo=1&ie=UTF-8&tbm=plcs&sa=X&ei=tGTnTr7cB5LegQfwkbTrCA&ved=0CBcQpwUoBw" class="q">Places</a></li></ul></li><li><ul class="tbt"><li class="tbos">Any time</li><li class="tbou"><a href="http://www.google.ca/search?q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&hl=en&tbo=1&ie=UTF-8&tbs=img:1,qdr:h&sa=X&ei=tGTnTr7cB5LegQfwkbTrCA&ved=0CBgQpwUoAQ" class="q">Past hour</a></li><li class="tbou"><a href="http://www.google.ca/search?q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&hl=en&tbo=1&ie=UTF-8&tbs=img:1,qdr:d&sa=X&ei=tGTnTr7cB5LegQfwkbTrCA&ved=0CBkQpwUoAg" class="q">Past 24 hours</a></li><li class="tbou"><a href="http://www.google.ca/search?q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&hl=en&tbo=1&ie=UTF-8&tbs=img:1,qdr:w&sa=X&ei=tGTnTr7cB5LegQfwkbTrCA&ved=0CBoQpwUoAw" class="q">Past week</a></li><li class="tbou"><a href="http://www.google.ca/search?q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&hl=en&tbo=1&ie=UTF-8&tbs=img:1,qdr:m&sa=X&ei=tGTnTr7cB5LegQfwkbTrCA&ved=0CBsQpwUoBA" class="q">Past month</a></li><li class="tbou"><a href="http://www.google.ca/search?q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&hl=en&tbo=1&ie=UTF-8&tbs=img:1,qdr:y&sa=X&ei=tGTnTr7cB5LegQfwkbTrCA&ved=0CBwQpwUoBQ" class="q">Past year</a></li><li class="tbou"><a href="search_q_related_http___www.encs.concordia.ca_ces_courses__site_http___www.encs.concordia.ca__hl_en_tbo_1_ie_UTF-8_tbs_img_1_sa_X_ei_sWTnTrurHIqfgweGxZTYCA_ved_0CB0QpwUoAQ" class="q">Specific date range</a></li></ul></li><li><ul class="tbt"><li class="tbou"><a href="http://www.google.ca/search?q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&hl=en&tbo=1&ie=UTF-8&tbas=0&sa=X&ei=tGTnTr7cB5LegQfwkbTrCA&ved=0CB4QpwUoAA" class="q">All results</a></li><li class="tbos">Sites with images</li><li class="tbou"><a href="http://www.google.ca/search?q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&hl=en&tbo=1&ie=UTF-8&tbs=dfn:1&sa=X&ei=tGTnTr7cB5LegQfwkbTrCA&ved=0CB8QpwUoAg" class="q">Dictionary</a></li><li class="tbou"><a href="http://www.google.ca/search?q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&hl=en&tbo=1&ie=UTF-8&tbs=rl:1&sa=X&ei=tGTnTr7cB5LegQfwkbTrCA&ved=0CCAQpwUoAw" class="q">Reading level</a></li><li class="tbou"><a href="http://www.google.ca/search?q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&hl=en&tbo=1&ie=UTF-8&tbs=clir:1&sa=X&ei=tGTnTr7cB5LegQfwkbTrCA&ved=0CCEQpwUoBA" class="q">Translated foreign pages</a></li><li class="tbou"><a href="http://www.google.ca/search?q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&hl=en&tbo=1&ie=UTF-8&tbs=li:1&sa=X&ei=tGTnTr7cB5LegQfwkbTrCA&ved=0CCIQpwUoBQ" class="q">Verbatim</a></li></ul></li></ul><a href="http://www.google.ca/search?q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&hl=en&sa=X&tbo=1&ie=UTF-8&tbas=0&ei=tGTnTr7cB5LegQfwkbTrCA&ved=0CA8QuAs" class="q">Reset options</a></div></td><td valign="top"><div id="center_col"><div id="tbbc" style="background:#ebeff9;padding:8px;margin-bottom:4px"><a href="http://www.google.ca/search?q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&hl=en&sa=X&tbo=1&ie=UTF-8&ei=tGTnTr7cB5LegQfwkbTrCA&ved=0CCMQhQE" class="q">Web</a><span style="padding:4px">:</span><b>Sites with images</b></div><div id="res"><div id="ires"><ol><li class="g"><h3 class="r"><a href="http://myconcordia.ca/" onmousedown="return hlprwt(this, 'http://myconcordia.ca/')">MyConcordia - Your gateway to internal resources - Concordia <b>...</b></a></h3><div class="s">A gateway to internal systems at Concordia University in Montreal. Current <br>  students access class &amp; exam schedules, course registration, records, transcripts.<br><div><cite>myconcordia.ca/</cite><span class="flc"> - <a href="http://webcache.googleusercontent.com/search?hl=en&tbo=1&tbs=img%3A1&q=cache:vGjQ6JWI0pIJ:http://myconcordia.ca/+related%3Ahttp%3A//www.encs.concordia.ca/ces/courses/+site%3Ahttp%3A//www.encs.concordia.ca/&ct=clnk">Cached</a> - <a href="http://www.google.ca/search?hl=en&tbs=img%3A1&tbo=1&q=related:http://myconcordia.ca/+related%3Ahttp%3A//www.encs.concordia.ca/ces/courses/+site%3Ahttp%3A//www.encs.concordia.ca/&sa=X">Similar</a></span></div></div></li><li class="g"><h3 class="r"><a href="../Documentswww.etsmtl.ca/index.html" onmousedown="return hlprwt(this, 'http://www.etsmtl.ca/')">ÉTS : Accueil</a></h3><div class="s">L&#39;École de technologie supérieure (ÉTS), membre du réseau de l&#39;Université du <br>  Québec, est spécialisée en génie d&#39;application et en technologie, et a pour <b>...</b><br><div><cite>www.etsmtl.ca/</cite><span class="flc"> - <a href="http://webcache.googleusercontent.com/search?hl=en&tbo=1&tbs=img%3A1&q=cache:zMoU-EfrdssJ:http://www.etsmtl.ca/+related%3Ahttp%3A//www.encs.concordia.ca/ces/courses/+site%3Ahttp%3A//www.encs.concordia.ca/&ct=clnk">Cached</a> - <a href="http://www.google.ca/search?hl=en&tbs=img%3A1&tbo=1&q=related:http://www.etsmtl.ca/+related%3Ahttp%3A//www.encs.concordia.ca/ces/courses/+site%3Ahttp%3A//www.encs.concordia.ca/&sa=X">Similar</a></span></div></div></li><li class="g"><h3 class="r"><a href="../Documentswww.polymtl.ca/index.html" onmousedown="return hlprwt(this, 'http://www.polymtl.ca/')">École Polytechnique de Montréal</a></h3><div class="s">Reconnue comme leader national en formation et en recherche dans le domaine <br>  du génie, l&#39;École Polytechnique de Montréal est, avec 125 ans d&#39;histoire, <b>...</b><br><div><cite>www.polymtl.ca/</cite><span class="flc"> - <a href="http://webcache.googleusercontent.com/search?hl=en&tbo=1&tbs=img%3A1&q=cache:mMXqHA_ZdWAJ:http://www.polymtl.ca/+related%3Ahttp%3A//www.encs.concordia.ca/ces/courses/+site%3Ahttp%3A//www.encs.concordia.ca/&ct=clnk">Cached</a> - <a href="http://www.google.ca/search?hl=en&tbs=img%3A1&tbo=1&q=related:http://www.polymtl.ca/+related%3Ahttp%3A//www.encs.concordia.ca/ces/courses/+site%3Ahttp%3A//www.encs.concordia.ca/&sa=X">Similar</a></span></div></div></li><li class="g"><h3 class="r"><a href="../Documentswww.carleton.ca/index.html" onmousedown="return hlprwt(this, 'http://www.carleton.ca/')">Carleton University - Canada&#39;s Capital University</a></h3><div class="s">3 days ago <b>...</b> Canada&#39;s Capital University, Carleton University is a dynamic research and <br>  teaching institution dedicated to achieving the highest standards of <b>...</b><br><div><cite>www.carleton.ca/</cite><span class="flc"> - <a href="http://webcache.googleusercontent.com/search?hl=en&tbo=1&tbs=img%3A1&q=cache:NwnTdns0HXAJ:http://www.carleton.ca/+related%3Ahttp%3A//www.encs.concordia.ca/ces/courses/+site%3Ahttp%3A//www.encs.concordia.ca/&ct=clnk">Cached</a> - <a href="http://www.google.ca/search?hl=en&tbs=img%3A1&tbo=1&q=related:http://www.carleton.ca/+related%3Ahttp%3A//www.encs.concordia.ca/ces/courses/+site%3Ahttp%3A//www.encs.concordia.ca/&sa=X">Similar</a></span></div></div></li><li class="g"><h3 class="r"><a href="../Documentswww.mcgill.ca/index.html" onmousedown="return hlprwt(this, 'http://www.mcgill.ca/')">McGill University</a></h3><div class="s">McGill is an international university whose main language of instruction is <br>  English. Located in Montreal, Quebec, Canada, McGill comprises 21 faculties <br>  and <b>...</b><br><div><cite>www.mcgill.ca/</cite><span class="flc"> - <a href="http://webcache.googleusercontent.com/search?hl=en&tbo=1&tbs=img%3A1&q=cache:7Zz1OOAN8XYJ:http://www.mcgill.ca/+related%3Ahttp%3A//www.encs.concordia.ca/ces/courses/+site%3Ahttp%3A//www.encs.concordia.ca/&ct=clnk">Cached</a> - <a href="http://www.google.ca/search?hl=en&tbs=img%3A1&tbo=1&q=related:http://www.mcgill.ca/+related%3Ahttp%3A//www.encs.concordia.ca/ces/courses/+site%3Ahttp%3A//www.encs.concordia.ca/&sa=X">Similar</a></span></div></div></li><li class="g"><h3 class="r"><a href="../Documentswww.dal.ca/index.html" onmousedown="return hlprwt(this, 'http://www.dal.ca/')">Dalhousie University - Halifax, Nova Scotia, Canada - Dalhousie <b>...</b></a></h3><div class="s">Located in Halifax, Nova Scotia, Dalhousie is a leading, research-intensive <br>  university offering over 180 degree programs in 11 diverse faculties.<br><div><cite>www.dal.ca/</cite><span class="flc"> - <a href="http://webcache.googleusercontent.com/search?hl=en&tbo=1&tbs=img%3A1&q=cache:MRPOQZFEaSkJ:http://www.dal.ca/+related%3Ahttp%3A//www.encs.concordia.ca/ces/courses/+site%3Ahttp%3A//www.encs.concordia.ca/&ct=clnk">Cached</a> - <a href="http://www.google.ca/search?hl=en&tbs=img%3A1&tbo=1&q=related:http://www.dal.ca/+related%3Ahttp%3A//www.encs.concordia.ca/ces/courses/+site%3Ahttp%3A//www.encs.concordia.ca/&sa=X">Similar</a></span></div></div></li><li class="g"><h3 class="r"><a href="../Documentswww.engr.mun.ca/index.html" onmousedown="return hlprwt(this, 'http://www.engr.mun.ca/')">Faculty of Engineering and Applied Science | Welcome</a></h3><div class="s">Welcome. Welcome to the Faculty of Engineering and Applied Science at <br>  Memorial University. We pride ourselves on being a leader in engineering <br>  education, <b>...</b><br><div><cite>www.engr.mun.ca/</cite><span class="flc"> - <a href="http://webcache.googleusercontent.com/search?hl=en&tbo=1&tbs=img%3A1&q=cache:jZYtCHSBBc4J:http://www.engr.mun.ca/+related%3Ahttp%3A//www.encs.concordia.ca/ces/courses/+site%3Ahttp%3A//www.encs.concordia.ca/&ct=clnk">Cached</a> - <a href="http://www.google.ca/search?hl=en&tbs=img%3A1&tbo=1&q=related:http://www.engr.mun.ca/+related%3Ahttp%3A//www.encs.concordia.ca/ces/courses/+site%3Ahttp%3A//www.encs.concordia.ca/&sa=X">Similar</a></span></div></div></li><li class="g"><h3 class="r"><a href="../Documentswww.econcordia.com/index.html" onmousedown="return hlprwt(this, 'http://www.econcordia.com/')">eConcordia - Home</a></h3><div class="s">2 Dec 2011 <b>...</b> Welcome to eConcordia, where you&#39;ll find an e-learning experience that will <br>  provide you with high-quality education and flexibility at your <b>...</b><br><div><cite>www.econcordia.com/</cite><span class="flc"> - <a href="http://webcache.googleusercontent.com/search?hl=en&tbo=1&tbs=img%3A1&q=cache:hQcTinz2NG4J:http://www.econcordia.com/+related%3Ahttp%3A//www.encs.concordia.ca/ces/courses/+site%3Ahttp%3A//www.encs.concordia.ca/&ct=clnk">Cached</a> - <a href="http://www.google.ca/search?hl=en&tbs=img%3A1&tbo=1&q=related:http://www.econcordia.com/+related%3Ahttp%3A//www.encs.concordia.ca/ces/courses/+site%3Ahttp%3A//www.encs.concordia.ca/&sa=X">Similar</a></span></div></div></li><li class="g"><h3 class="r"><a href="http://www.ecaconcordia.ca/" onmousedown="return hlprwt(this, 'http://www.ecaconcordia.ca/')">Engineering and Computer Science Association | Just another <b>...</b></a></h3><div class="s">As you see, the letters E-C-A stand for the Engineering and Computer Science <br>  Students&#39; Association. We represent all undergraduate students registered in the <b>...</b><br><div><cite>www.ecaconcordia.ca/</cite><span class="flc"> - <a href="http://webcache.googleusercontent.com/search?hl=en&tbo=1&tbs=img%3A1&q=cache:lBBUaQMKROAJ:http://www.ecaconcordia.ca/+related%3Ahttp%3A//www.encs.concordia.ca/ces/courses/+site%3Ahttp%3A//www.encs.concordia.ca/&ct=clnk">Cached</a> - <a href="http://www.google.ca/search?hl=en&tbs=img%3A1&tbo=1&q=related:http://www.ecaconcordia.ca/+related%3Ahttp%3A//www.encs.concordia.ca/ces/courses/+site%3Ahttp%3A//www.encs.concordia.ca/&sa=X">Similar</a></span></div></div></li><li class="g"><h3 class="r"><a href="../Documentswww.ryerson.ca/index.html" onmousedown="return hlprwt(this, 'http://www.ryerson.ca/')">RYERSON UNIVERSITY - Toronto, Ontario, Canada</a></h3><div class="s">15 hours ago <b>...</b> Located in Toronto, Canada, Ryerson University offers more than 40 career-<br>  focused undergraduate and graduate programs, and personal and <b>...</b><br><div><cite>www.ryerson.ca/</cite><span class="flc"> - <a href="http://webcache.googleusercontent.com/search?hl=en&tbo=1&tbs=img%3A1&q=cache:oIAarJq3WuEJ:http://www.ryerson.ca/+related%3Ahttp%3A//www.encs.concordia.ca/ces/courses/+site%3Ahttp%3A//www.encs.concordia.ca/&ct=clnk">Cached</a> - <a href="http://www.google.ca/search?hl=en&tbs=img%3A1&tbo=1&q=related:http://www.ryerson.ca/+related%3Ahttp%3A//www.encs.concordia.ca/ces/courses/+site%3Ahttp%3A//www.encs.concordia.ca/&sa=X">Similar</a></span></div></div></li></ol></div></div></div><div id="foot"><table align="center" border="0" cellpadding="0" cellspacing="0" id="nav"><tr valign="top"><td class="b" align="left"><span class="csb ch" style="background-position:-26px 0;width:18px"></span><b></b></td><td><span class="csb ch" style="background-position:-44px 0;width:16px"></span><b>1</b></td><td><a href="http://www.google.ca/search?hl=en&tbo=1&ie=UTF-8&tbs=img:1&ei=tGTnTr7cB5LegQfwkbTrCA&q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&start=10&sa=N" class="fl"><span class="csb ch" style="background-position:-60px 0;width:16px"></span>2</a></td><td><a href="http://www.google.ca/search?hl=en&tbo=1&ie=UTF-8&tbs=img:1&ei=tGTnTr7cB5LegQfwkbTrCA&q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&start=20&sa=N" class="fl"><span class="csb ch" style="background-position:-60px 0;width:16px"></span>3</a></td><td><a href="http://www.google.ca/search?hl=en&tbo=1&ie=UTF-8&tbs=img:1&ei=tGTnTr7cB5LegQfwkbTrCA&q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&start=30&sa=N" class="fl"><span class="csb ch" style="background-position:-60px 0;width:16px"></span>4</a></td><td><a href="http://www.google.ca/search?hl=en&tbo=1&ie=UTF-8&tbs=img:1&ei=tGTnTr7cB5LegQfwkbTrCA&q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&start=40&sa=N" class="fl"><span class="csb ch" style="background-position:-60px 0;width:16px"></span>5</a></td><td><a href="http://www.google.ca/search?hl=en&tbo=1&ie=UTF-8&tbs=img:1&ei=tGTnTr7cB5LegQfwkbTrCA&q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&start=50&sa=N" class="fl"><span class="csb ch" style="background-position:-60px 0;width:16px"></span>6</a></td><td><a href="http://www.google.ca/search?hl=en&tbo=1&ie=UTF-8&tbs=img:1&ei=tGTnTr7cB5LegQfwkbTrCA&q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&start=60&sa=N" class="fl"><span class="csb ch" style="background-position:-60px 0;width:16px"></span>7</a></td><td><a href="http://www.google.ca/search?hl=en&tbo=1&ie=UTF-8&tbs=img:1&ei=tGTnTr7cB5LegQfwkbTrCA&q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&start=70&sa=N" class="fl"><span class="csb ch" style="background-position:-60px 0;width:16px"></span>8</a></td><td><a href="http://www.google.ca/search?hl=en&tbo=1&ie=UTF-8&tbs=img:1&ei=tGTnTr7cB5LegQfwkbTrCA&q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&start=80&sa=N" class="fl"><span class="csb ch" style="background-position:-60px 0;width:16px"></span>9</a></td><td><a href="http://www.google.ca/search?hl=en&tbo=1&ie=UTF-8&tbs=img:1&ei=tGTnTr7cB5LegQfwkbTrCA&q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&start=90&sa=N" class="fl"><span class="csb ch" style="background-position:-60px 0;width:16px"></span>10</a></td><td class="b" style="text-align:left"><a href="http://www.google.ca/search?hl=en&tbo=1&ie=UTF-8&tbs=img:1&ei=tGTnTr7cB5LegQfwkbTrCA&q=related:http://www.encs.concordia.ca/ces/courses/+site:http://www.encs.concordia.ca/&start=10&sa=N" style="text-align:left"><span class="csb ch" style="background-position:-76px 0;width:66px"></span><span style="display:block;margin-left:53px">Next</span></a></td></tr></table><div><div style="margin-top:22px"><form method="GET" action="http://www.google.ca/search"><table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-bottom:1px solid #e7e7e7;padding:8px 0 0;position:relative"><tr><td class="lst-td" width="100%" valign="bottom"><div style="position:relative;zoom:1"><input autocomplete="off" class="lst" type="text" name="q" maxlength="2048" value="related:http://www.encs.concordia.ca/ces/courses/ site:http://www.encs.concordia.ca/" title="Search"></div></td><td><div class="ds"><div class="lsbb"><input type="submit" name="btnG" class="lsb" value="Search"></div></div></td></tr></table><input type="hidden" name="hl" value="en"><input type="hidden" name="tbo" value="1"><input type="hidden" name="tbs" value="img:1"></form></div><p id="bfl" class="flc" style="margin:6px 0 0;text-align:center"><a href="http://www.google.ca/support/websearch/bin/answer.py?answer=134479&hl=en">Search Help</a></p></div><div id="fll" class="flc" style="margin:19px auto 19px auto;text-align:center"><a href="">Google&#160;Home</a> <a href="http://www.google.ca/intl/en/ads/">Advertising&#160;Programs</a> <a href="http://www.google.ca/services">Business Solutions</a> <a href="http://www.google.ca/intl/en/privacy.html">Privacy</a> <a href="http://www.google.ca/intl/en/about.html">About Google</a></div></div></td><td valign="top"></td></tr></table><script src="http://www.google.ca/extern_js/f/CgJlbhICY2EgACswWjgALCswDjgALCswCjgAmgICaGUsKzAYOAAsgAIEkAJc/bqYe1apFwH0.js"></script><script type="text/javascript">google.ac.c({"client":"serp","dh":true,"ds":"","host":"google.ca","jsonp":true,"msgs":{"lcky":"I\u0026#39;m Feeling Lucky","lml":"Learn more","psrc":"This search was removed from your \u003Ca href=\"/history\"\u003EWeb History\u003C/a\u003E","psrl":"Remove","srch":"Google Search"},"ovr":{"d":1,"hl":1,"o":1,"ps":1,"sw":1,"vc":-3},"pq":"related:http://www.encs.concordia.ca/ces/courses/ site:http://www.encs.concordia.ca/"})</script></body></html>

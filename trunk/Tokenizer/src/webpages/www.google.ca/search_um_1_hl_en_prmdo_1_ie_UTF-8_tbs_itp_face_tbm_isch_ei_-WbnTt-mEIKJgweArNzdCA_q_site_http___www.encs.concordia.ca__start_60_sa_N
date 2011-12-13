@@ -1,0 +1,420 @@
+<!doctype html><html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>site:http://www.encs.concordia.ca/ - Google Search</title><style>#gbar,#guser{font-size:13px;padding-top:1px !important}#gbar{height:22px}#guser{padding-bottom:7px !important;text-align:right}.gbh,.gbd{border-top:1px solid #c9d7f1;font-size:1px}.gbh{height:0;position:absolute;top:24px;width:100%}@media all{.gb1{height:22px;margin-right:.5em;vertical-align:top}#gbar{float:left}}a.gb1,a.gb4{text-decoration:underline !important}a.gb1,a.gb4{color:#00c !important}</style><style>
+    body,td,div,.p,a{
+      font-family:arial,sans-serif
+    }
+    body {
+      margin:0
+    }
+    #gbar{
+      float:left;
+      height:22px;padding-left:2px;
+      font-size:13px
+    }
+    
+    .gssb_c table{
+      font-size:1em
+    }
+    .gsfi,.gsfs{
+      font-size:17px
+    }
+    
+      .j{
+        width:34em
+      }
+    
+    a:link,.w,.q:active,.q:visited,.tbotu{
+      color:#11c
+    }
+    a.fl,.flc a{
+      color:#4272db;text-decoration:none
+    }
+    
+    a.gl{
+      text-decoration:none
+    }
+    cite, cite a:link{
+      color:#0E774A;
+      font-style:normal
+    }
+    #foot {
+      padding:0 8px;
+    }
+    #foot a{
+      white-space:nowrap
+    }
+    h3{
+      font-size:16px;
+      font-weight:normal;
+      margin:0;
+      padding:0
+    }
+    #res h3{
+      display:inline
+    }
+    .hd{
+      height:1px;
+      position:absolute;
+      top:-1000em
+    }
+    li.g,body,html,table,.std{
+      font-size:13px
+    }
+    li.g{
+      margin-bottom:14px;
+      margin-top:0;
+      zoom:1;
+    }
+    ol li,ul li{
+      list-style:none
+    }
+    h1,ol,ul,li{
+      margin:0;padding:0
+    }
+    #mbEnd li{
+      margin:1em 0
+    }
+    #mbEnd h2{
+      color:#676767;
+      font-family:arial,sans-serif;
+      font-size:11px;
+      font-weight:normal
+    }
+    #center_col{
+      border-left:1px solid #d3e1f9;
+      padding:0 8px
+    }
+    
+      #fll a,#bfl a{
+        margin:0 10px
+      }
+    
+    .f{
+      color:#767676
+    }
+    .grn{
+      color:#393
+    }
+    .ds{
+      border-right:1px solid #e7e7e7;
+      position:relative;
+      height:32px;
+      
+      z-index:100
+    }
+    .e{
+      margin:2px 0px 0.75em
+    }
+    #leftnav a,.slk a{
+      text-decoration:none
+    }
+    #leftnav h2{
+      color: #767676;
+      font-weight: normal;
+      margin:0
+    }
+    #logo{
+      display:block;
+      height:49px;
+      margin-top:12px;
+      margin-left:12px;
+      overflow:hidden;
+      position:relative;
+      width:137px
+    }
+    #logo img{
+      
+      left:0;
+      position:absolute;
+      top:-41px
+    }
+    .lnsec{
+      font-size:13px;
+      border-top:1px solid #c9d7f1;
+      margin-top:5px;
+      padding-top:8px
+    }
+    .lsb,.micon,.csb,.star,.star div{
+      background:url(/images/nav_logo_hp2.png) no-repeat;
+      overflow:hidden
+    }
+    .lst{
+      background:#fff;
+      border:1px solid #ccc;
+      border-bottom:none;
+      color:#000;
+      font:18px arial,sans-serif;
+      
+      float:left;
+      height:26px;
+      margin:0;
+      padding:4px 0 0;
+      padding-left:6px;
+      padding-right:10px;
+      vertical-align:top;
+      width:100%;
+      
+      word-break:break-all
+    }
+    .lst:focus{
+      outline:none
+    }
+    .lst-td{
+      border-bottom:1px solid #999;
+      padding:0
+    }
+    .lst-b{
+      border:1px solid #CCC;
+      border-bottom:none;
+      padding-right:0;
+      height:29px;
+      padding-top:1px
+    }
+    .tia input{
+      border-right:none;
+      padding-right:0
+    }
+    .tia{
+      padding-right:0
+    }
+    .lsbb{
+      background:#eee;
+      border:1px solid #999;
+      border-top-color:#ccc;
+      border-left-color:#ccc;
+      height:30px
+    }
+    .lsb{
+      background-position:bottom;
+      border:none;
+      color:#000;
+      cursor:pointer;
+      font:15px arial,sans-serif;
+      height:30px;
+      margin:0;
+      vertical-align:top
+    }
+    .lsb:active{
+      background:#ccc
+    }
+    .micon {
+      float:left;
+      height:19px;
+      margin-top:2px;
+      margin-right: 6px;
+      width:19px;
+    }
+    #nav{
+      
+      border-collapse:collapse;
+      margin-top:17px;
+      text-align:left
+    }
+    #nav td{
+      text-align:center;
+    }
+    .nobr{
+      white-space:nowrap
+    }
+    #showmodes .micon{
+      background-position:-150px -114px;
+      height:17px;
+      margin-left:9px;
+      width:17px;
+    }
+    #subform_ctrl{
+      font-size:11px;
+      height:26px;
+      margin:5px 3px 0;
+      margin-left:17px
+    }
+    .ts{
+      border-collapse:collapse
+    }
+    #mn{
+      table-layout:fixed;width:996px
+    }
+    .mitem{
+      font-size:15px;
+      line-height:24px;
+      margin-bottom:2px;
+      padding-left:0
+    }
+    .msel{
+      font-weight:bold;
+      margin:-1px 0 0 0;
+      border:solid #fff;
+      border-width:1px 0
+    }
+    .r{
+      margin:0
+    }
+    #res{
+      padding:4px 8px 0
+    }
+    .s br{
+      display:none
+    }
+    .spon{
+      font-size:11px;
+      font-weight:normal;
+      color:#767676
+    }
+    .mitem,.lnsec{
+      padding-left:8px
+    }
+    #showmodes{
+      font-size:15px;
+      line-height:24px;
+    }
+    #swr{
+      margin-top:4px
+    }
+    #swr li{
+      line-height:1.2;
+      margin-bottom:4px
+    }
+    .csb{
+      display:block;
+      height:40px;
+    }
+    .images_table td{line-height:17px;padding-bottom:16px}
+    .images_table img{border:1px solid #ccc;padding:1px}
+    .taf{
+      padding:1px 0 0
+    }
+    .tam{
+      padding:14px 0 0
+    }
+    .tal{
+      padding:14px 0 1px
+    }
+    #tbd,#abd{
+      display:block;
+      min-height:1px;
+      padding-top:3px
+    }
+    #tbd li{
+      
+      display:inline
+    }
+    .tbfo,.tbt,.tbpd{
+      margin-bottom:8px
+    }
+    #tbd .tbt li{
+      display:block;
+      font-size:13px;
+      line-height:1.2;
+      padding-bottom:3px;
+      padding-left:8px;
+      text-indent:-8px
+    }
+    .tbos,.b{
+      font-weight:bold;
+    }
+    a:hover{
+      text-decoration:underline
+    }
+    #leftnav a:hover {
+      text-decoration:underline;
+    }
+    em{
+      font-weight:bold;
+      font-style:normal
+    }
+    
+    .gac_wd{
+      right:-2px !important;
+      
+      overflow:hidden
+    }
+    
+    .fmg{
+      display:inline-block;
+      margin-top:7px;
+      padding-right:8px;
+      text-align-left;
+      vertical-align:top;
+      width:90px;
+      zoom:1
+    }
+    .star{
+      
+          background-position:0 -120px;
+        
+      height:9px;
+      overflow-hidden;
+      width:50px
+    }
+    .star div{
+      
+          background-position:0 -110px
+        
+    }
+    
+    .pslires{
+      padding-top:6px;
+      overflow:hidden;
+      width:99.5%
+    }
+    .psliimg{
+      float:left;
+      height:90px;
+      text-align:top;
+      width:90px
+    }
+    .pslimain{
+      margin-left:100px;
+      margin-right:9em
+    }
+    .psliprice{
+      float:right;
+      width:7em
+    }
+    .psliprice b{
+      font-size:medium;
+      font-weight:bold;
+      white-space:nowrap
+    }
+    .psliimg img{
+      border:none
+    }
+    </style><script type="text/javascript">
+      window['hlprwt'] = function(t, ct) {
+        try {
+          if (t === window) {
+            t = window.event.srcElement;
+            while (t) {
+              if (t.href) {
+                break;
+              }
+              t = t.parentNode;
+            }
+          }
+          t.href = ct;
+          t.onmousedown = '';
+        } catch (e) {
+        }
+        return true;
+      }
+      window.google = { y: {} };
+      </script><script type="text/javascript"></script></head>
+    <body bgcolor="#ffffff" topmargin="3" marginheight="3" marginwidth="0"
+  ><div id=gbar><nobr><a class="gb1" href="http://www.google.ca/search?um=1&hl=en&prmdo=1&q=site:http://www.encs.concordia.ca/&ie=UTF-8&sa=N&tab=iw">Web</a> <b class=gb1>Images</b> <a class="gb1" href="http://www.google.ca/search?um=1&hl=en&prmdo=1&q=site:http://www.encs.concordia.ca/&ie=UTF-8&tbo=u&tbm=vid&source=og&sa=N&tab=iv">Videos</a> <a class="gb1" href="http://maps.google.ca/maps?um=1&hl=en&prmdo=1&q=site:http://www.encs.concordia.ca/&ie=UTF-8&sa=N&tab=il">Maps</a> <a class="gb1" href="http://news.google.ca/nwshp?hl=en&tab=in">News</a> <a class="gb1" href="http://translate.google.ca/?um=1&hl=en&prmdo=1&q=site:http://www.encs.concordia.ca/&ie=UTF-8&sa=N&tab=iT">Translate</a> <a class="gb1" href="https://mail.google.com/mail/?tab=im">Gmail</a> <a class="gb1" style="text-decoration:none" href="intl/en/options/index.html"><u>More</u> &raquo;</a></nobr></div><div id=guser width=100%><nobr><span id=gbn class=gbi></span><span id=gbf class=gbf></span><span id=gbe></span><a href="http://www.google.com/history/optout?hl=en" class="gb4">Web History</a> | <a href="http://www.google.ca/preferences?hl=en" class="gb4">Settings</a> | <a id="gb_70" href="https://accounts.google.com/ServiceLogin?hl=en&continue=http://www.google.ca/search%3Fum%3D1%26hl%3Den%26prmdo%3D1%26ie%3DUTF-8%26tbs%3Ditp:face%26tbm%3Disch%26ei%3D-WbnTt-mEIKJgweArNzdCA%26q%3Dsite:http://www.encs.concordia.ca/%26start%3D60%26sa%3DN" class="gb4">Sign in</a></nobr></div><div class=gbh style=left:0></div><div class=gbh style=right:0></div><br clear="all"><table border="0" cellpadding="0" cellspacing="0" id="mn" style="position:relative"><tr><td rowspan="2" valign="top" width="157"><h1><a href="webhp_hl_en" id="logo" title="Go to Google Home"><img src="http://www.google.ca/images/nav_logo_hp2.png" alt="" height="222" style="border:0" width="167"></a></h1></td><td valign="top" style="padding-left:9px" width="559"><form name="gs" id="tsf" method="GET" action="http://www.google.ca/search" style="display:block;margin:0;background:none"><table border="0" cellpadding="0" cellspacing="0" id="sbhost" style="border-bottom:1px solid #e7e7e7;margin-top:18px;position:relative"><tr><td class="lst-td" width="100%" valign="bottom" style=""><div style="position:relative;zoom:1"><input autocomplete="off" class="lst" type="text" name="q" maxlength="2048" title="Search" value="site:http://www.encs.concordia.ca/"></div></td><td><div class="ds"><div class="lsbb"><input type="submit" name="btnG" class="lsb" value="Search"></div></div></td></tr></table><input type="hidden" name="um" value="1"><input type="hidden" name="hl" value="en"><input type="hidden" name="prmdo" value="1"><input type="hidden" name="tbs" value="itp:face"><input type="hidden" name="tbm" value="isch"><input type="hidden" name="ei" value="-WbnTt-mEIKJgweArNzdCA"><input type="hidden" name="sa" value="N"></form></td><td style="padding-left:5px" width="259"><a href="http://www.google.ca/preferences?q=site:http://www.encs.concordia.ca/&start=60&um=1&hl=en&prmdo=1&ie=UTF-8&tbs=itp:face&tbm=isch&sa=F" class="fl" style="
+      font-size:11px;margin-left:8px
+    ">Moderate SafeSearch is on</a></td></tr><tr><td width="100%"><div id="subform_ctrl"><div style="float:right"><a class="fl" href="http://www.google.ca/advanced_image_search?um=1&hl=en&prmdo=1&ie=UTF-8&q=site:http://www.encs.concordia.ca/&tbs=itp:face&tbm=isch">Advanced Search</a></div><div>Results <b>61</b> - <b>80</b> of about <b>103</b> for <b>site:http://www.encs.concordia.ca/</b>.</div></div></td><td></td></tr><tr><td valign="top" id="leftnav" style="padding:4px"><div id="modeselector" style="padding-bottom:4px"><ul><li class="mitem"><a href="http://www.google.ca/search?q=site:http://www.encs.concordia.ca/&um=1&hl=en&prmdo=1&ie=UTF-8&source=lnms&ei=DmfnTsukMMOtgwe7g9jjCA&sa=X&oi=mode_link&ct=mode&cd=1&ved=0CAYQ_AUoADg8" class="q"><span class="micon" style="
+          background-position:-0px -132px
+        "></span>Everything</a></li><li class="mitem msel" style="background-color:#36f;border-color:#36f;color:#fff;"><span class="micon" style="
+          background-position:-60px -132px
+        "></span>Images</li><li class="mitem"><a href="http://www.google.ca/search?q=site:http://www.encs.concordia.ca/&um=1&hl=en&prmdo=1&ie=UTF-8&tbm=vid&source=lnms&ei=DmfnTsukMMOtgwe7g9jjCA&sa=X&oi=mode_link&ct=mode&ved=0CAcQ_AU4PA" class="q"><span class="micon" style="
+          background-position:-80px -132px
+        "></span>Videos</a></li><li class="mitem"><a href="http://www.google.ca/search?q=site:http://www.encs.concordia.ca/&um=1&hl=en&prmdo=1&ie=UTF-8&tbm=nws&source=lnms&ei=DmfnTsukMMOtgwe7g9jjCA&sa=X&oi=mode_link&ct=mode&ved=0CAgQ_AU4PA" class="q"><span class="micon" style="
+          background-position:-120px -132px
+        "></span>News</a></li><li class="mitem"><a href="http://www.google.ca/search?q=site:http://www.encs.concordia.ca/&um=1&hl=en&prmdo=1&ie=UTF-8&tbm=bks&source=lnms&ei=DmfnTsukMMOtgwe7g9jjCA&sa=X&oi=mode_link&ct=mode&ved=0CAkQ_AU4PA" class="q"><span class="micon" style="
+          background-position:-40px -152px
+        "></span>Books</a></li><li class="mitem"><a href="http://www.google.ca/search?q=site:http://www.encs.concordia.ca/&um=1&hl=en&prmdo=1&ie=UTF-8&tbm=plcs&source=lnms&ei=DmfnTsukMMOtgwe7g9jjCA&sa=X&oi=mode_link&ct=mode&ved=0CAoQ_AU4PA" class="q"><span class="micon" style=""></span>Places</a></li><li class="mitem"><a href="http://www.google.ca/search?q=site:http://www.encs.concordia.ca/&um=1&hl=en&prmdo=1&ie=UTF-8&tbm=blg&source=lnms&ei=DmfnTsukMMOtgwe7g9jjCA&sa=X&oi=mode_link&ct=mode&ved=0CAsQ_AU4PA" class="q"><span class="micon" style="
+          background-position:-0px -152px
+        "></span>Blogs</a></li><li class="mitem"><a href="http://www.google.ca/search?q=site:http://www.encs.concordia.ca/&um=1&hl=en&prmdo=1&ie=UTF-8&tbm=dsc&source=lnms&ei=DmfnTsukMMOtgwe7g9jjCA&sa=X&oi=mode_link&ct=mode&ved=0CAwQ_AU4PA" class="q"><span class="micon" style="
+          background-position:-0px -172px
+        "></span>Discussions</a></li><li class="mitem"><a href="http://www.google.ca/search?q=site:http://www.encs.concordia.ca/&um=1&hl=en&prmdo=1&ie=UTF-8&tbm=pts&source=lnms&ei=DmfnTsukMMOtgwe7g9jjCA&sa=X&oi=mode_link&ct=mode&ved=0CA0Q_AU4PA" class="q"><span class="micon" style="
+          background-position:-120px -172px
+        "></span>Patents</a></li></ul><a id="showmodes" class="q" href="http://www.google.ca/search?um=1&hl=en&tbs=itp%3Aface&tbm=isch&q=site%3Ahttp%3A//www.encs.concordia.ca/&prmdo=0&sa=X"><span class="micon" style="background-position:-132px -114px;"></span><span class="msl">Fewer</span></a></div><div class="lnsec"><h2 class="hd">Search Options</h2><ul id="tbd" class="med"><li><ul class="tbt"><li class="tbou"><a href="http://www.google.ca/search?q=site:http://www.encs.concordia.ca/&um=1&hl=en&prmdo=1&ie=UTF-8&tbas=0&sa=X&ei=DmfnTsukMMOtgwe7g9jjCA&ved=0CBAQpwUoADg8" class="q">All results</a></li><li class="tbos">Images</li></ul></li><li><ul class="tbt"><li class="tbos">Any size</li><li class="tbou"><a href="http://www.google.ca/search?q=site:http://www.encs.concordia.ca/&um=1&hl=en&prmdo=1&ie=UTF-8&tbs=itp:face,isz:l&tbm=isch&sa=X&ei=DmfnTsukMMOtgwe7g9jjCA&ved=0CBEQpwUoATg8" class="q">Large</a></li><li class="tbou"><a href="http://www.google.ca/search?q=site:http://www.encs.concordia.ca/&um=1&hl=en&prmdo=1&ie=UTF-8&tbs=itp:face,isz:m&tbm=isch&sa=X&ei=DmfnTsukMMOtgwe7g9jjCA&ved=0CBIQpwUoAjg8" class="q">Medium</a></li><li class="tbou"><a href="http://www.google.ca/search?q=site:http://www.encs.concordia.ca/&um=1&hl=en&prmdo=1&ie=UTF-8&tbs=itp:face,isz:i&tbm=isch&sa=X&ei=DmfnTsukMMOtgwe7g9jjCA&ved=0CBMQpwUoAzg8" class="q">Icon</a></li></ul></li><li><ul class="tbt"><li class="tbou"><a href="http://www.google.ca/search?q=site:http://www.encs.concordia.ca/&um=1&hl=en&prmdo=1&ie=UTF-8&tbm=isch&tbas=0&sa=X&ei=DmfnTsukMMOtgwe7g9jjCA&ved=0CBQQpwUoADg8" class="q">Any type</a></li><li class="tbos">Face</li><li class="tbou"><a href="http://www.google.ca/search?q=site:http://www.encs.concordia.ca/&um=1&hl=en&prmdo=1&ie=UTF-8&tbs=itp:photo&tbm=isch&sa=X&ei=DmfnTsukMMOtgwe7g9jjCA&ved=0CBUQpwUoAjg8" class="q">Photo</a></li><li class="tbou"><a href="http://www.google.ca/search?q=site:http://www.encs.concordia.ca/&um=1&hl=en&prmdo=1&ie=UTF-8&tbs=itp:clipart&tbm=isch&sa=X&ei=DmfnTsukMMOtgwe7g9jjCA&ved=0CBYQpwUoAzg8" class="q">Clip art</a></li><li class="tbou"><a href="http://www.google.ca/search?q=site:http://www.encs.concordia.ca/&um=1&hl=en&prmdo=1&ie=UTF-8&tbs=itp:lineart&tbm=isch&sa=X&ei=DmfnTsukMMOtgwe7g9jjCA&ved=0CBcQpwUoBDg8" class="q">Line drawing</a></li></ul></li><li><ul class="tbt"><li class="tbos">Any color</li><li class="tbou"><a href="http://www.google.ca/search?q=site:http://www.encs.concordia.ca/&um=1&hl=en&prmdo=1&ie=UTF-8&tbs=itp:face,ic:color&tbm=isch&sa=X&ei=DmfnTsukMMOtgwe7g9jjCA&ved=0CBgQpwUoATg8" class="q">Full color</a></li><li class="tbou"><a href="http://www.google.ca/search?q=site:http://www.encs.concordia.ca/&um=1&hl=en&prmdo=1&ie=UTF-8&tbs=itp:face,ic:gray&tbm=isch&sa=X&ei=DmfnTsukMMOtgwe7g9jjCA&ved=0CBkQpwUoAjg8" class="q">Black and white</a></li></ul></li><li><ul class="tbt"><li class="tbos">Any time</li><li class="tbou"><a href="http://www.google.ca/search?q=site:http://www.encs.concordia.ca/&um=1&hl=en&prmdo=1&ie=UTF-8&tbs=itp:face,qdr:w&tbm=isch&sa=X&ei=DmfnTsukMMOtgwe7g9jjCA&ved=0CBoQpwUoATg8" class="q">Past week</a></li></ul></li></ul><a href="http://www.google.ca/search?q=site:http://www.encs.concordia.ca/&um=1&hl=en&sa=N&prmdo=1&ie=UTF-8&tbm=isch&tbas=0&ei=DmfnTsukMMOtgwe7g9jjCA&ved=0CA8QuAs4PA" class="q">Reset options</a></div></td><td valign="top" colspan="2"><div id="center_col"><div id="tbbc" style="background:#ebeff9;padding:8px;margin-bottom:4px"><a href="http://www.google.ca/search?q=site:http://www.encs.concordia.ca/&um=1&hl=en&sa=N&prmdo=1&ie=UTF-8&tbm=isch&ei=DmfnTsukMMOtgwe7g9jjCA&ved=0CBsQhQE4PA" class="q">Web</a><span style="padding:4px">:</span><a href="http://www.google.ca/search?q=site:http://www.encs.concordia.ca/&um=1&hl=en&prmdo=1&ie=UTF-8&tbm=isch&sa=X&ei=DmfnTsukMMOtgwe7g9jjCA&ved=0CBwQhQE4PA" class="q">Images</a><span style="padding:4px">:</span><b>Face</b></div><div id="res"><div id="ires"><table width="100%" class="images_table" style="table-layout:fixed"><tr><td style="width:25%;word-wrap:break-word"><a href="http://www.google.ca/imgres?imgurl=http://www.encs.concordia.ca/helpdesk/staff/images/sdesk84.jpg&imgrefurl=http://www.encs.concordia.ca/helpdesk/staff/aboutus.html&usg=__AKjFfeMm_G3zt5kDWBJg60Dm1ZA=&h=160&w=116&sz=5&hl=en&start=61&zoom=1&tbnid=QZtqdTGQFVkOJM:&tbnh=98&tbnw=71&ei=DmfnTsukMMOtgwe7g9jjCA&prev=/search%3Fq%3Dsite:http://www.encs.concordia.ca/%26start%3D60%26um%3D1%26hl%3Den%26sa%3DN%26prmdo%3D1%26ie%3DUTF-8%26tbs%3Ditp:face%26tbm%3Disch&um=1&itbs=1"><img height="98" width="71" src="http://t2.gstatic.com/images?q=tbn:ANd9GcRmOg2LvUrP_ZbvntA-4xvDbjqHz_ycTrlSUsh1zRAHuN5zVGT1I4VO"></a><br>sdesk84. Tung Que Nguyen<br>116 &times; 160 - 5k&nbsp;-&nbsp;jpg<br><cite title="encs.concordia.ca">encs.concordia.ca</cite></td><td style="width:25%;word-wrap:break-word"><a href="http://www.google.ca/imgres?imgurl=http://www.encs.concordia.ca/helpdesk/staff/images/sdesk112.jpg&imgrefurl=http://www.encs.concordia.ca/helpdesk/staff/aboutus.html&usg=__CHmCg5QcYEaYZqtO6TQCB_a6JaY=&h=160&w=115&sz=16&hl=en&start=62&zoom=1&tbnid=1hlXsdTjsc3lhM:&tbnh=98&tbnw=70&ei=DmfnTsukMMOtgwe7g9jjCA&prev=/search%3Fq%3Dsite:http://www.encs.concordia.ca/%26start%3D60%26um%3D1%26hl%3Den%26sa%3DN%26prmdo%3D1%26ie%3DUTF-8%26tbs%3Ditp:face%26tbm%3Disch&um=1&itbs=1"><img height="98" width="70" src="http://t3.gstatic.com/images?q=tbn:ANd9GcTRhgWOBBTg8iU9Y-u1cwmK33i_wzPewi1R_AoXL07_rTLUK9tqfGrTQg"></a><br>sdesk112. Aida Pourbiazar<br>115 &times; 160 - 16k&nbsp;-&nbsp;jpg<br><cite title="encs.concordia.ca">encs.concordia.ca</cite></td><td style="width:25%;word-wrap:break-word"><a href="http://www.google.ca/imgres?imgurl=http://www.encs.concordia.ca/helpdesk/staff/images/sdesk99.jpg&imgrefurl=http://www.encs.concordia.ca/helpdesk/staff/aboutus.html&usg=__DB2r3sGcUOiEMxuLkbmEwNaavHY=&h=160&w=115&sz=5&hl=en&start=63&zoom=1&tbnid=p3BHTKSYwZ6EOM:&tbnh=98&tbnw=70&ei=DmfnTsukMMOtgwe7g9jjCA&prev=/search%3Fq%3Dsite:http://www.encs.concordia.ca/%26start%3D60%26um%3D1%26hl%3Den%26sa%3DN%26prmdo%3D1%26ie%3DUTF-8%26tbs%3Ditp:face%26tbm%3Disch&um=1&itbs=1"><img height="98" width="70" src="http://t3.gstatic.com/images?q=tbn:ANd9GcQ7DlHQYUuTsvkqZaJRWJOSoOPyH6wPV06P5CUBpFaR5aLH-7N4RI6qLg"></a><br>sdesk99<br>115 &times; 160 - 5k&nbsp;-&nbsp;jpg<br><cite title="encs.concordia.ca">encs.concordia.ca</cite></td><td style="width:25%;word-wrap:break-word"><a href="http://www.google.ca/imgres?imgurl=http://www.encs.concordia.ca/helpdesk/staff/images/sdesk51.jpg&imgrefurl=http://www.encs.concordia.ca/helpdesk/staff/former_staff.html&usg=__nAed3xkrLRic_UCi7opCpVTEqkI=&h=160&w=114&sz=4&hl=en&start=64&zoom=1&tbnid=d2ApDUFhJf878M:&tbnh=98&tbnw=70&ei=DmfnTsukMMOtgwe7g9jjCA&prev=/search%3Fq%3Dsite:http://www.encs.concordia.ca/%26start%3D60%26um%3D1%26hl%3Den%26sa%3DN%26prmdo%3D1%26ie%3DUTF-8%26tbs%3Ditp:face%26tbm%3Disch&um=1&itbs=1"><img height="98" width="70" src="http://t1.gstatic.com/images?q=tbn:ANd9GcSE7tDgcha_seVDD-0-D71pG_5xsmbMFHbtd6PobEWU6i0XG54DZ-YnDA"></a><br>sdesk51. Quang Huy Nguyen<br>114 &times; 160 - 4k&nbsp;-&nbsp;jpg<br><cite title="encs.concordia.ca">encs.concordia.ca</cite></td><tr><td style="width:25%;word-wrap:break-word"><a href="http://www.google.ca/imgres?imgurl=http://www.encs.concordia.ca/images/staff-juras.jpg&imgrefurl=http://www.encs.concordia.ca/research/centres/consim/staff/&usg=___jA02i5_AjrfGGI3iOVGL8ppU1g=&h=126&w=142&sz=38&hl=en&start=65&zoom=1&tbnid=kescDJDJ_3vjVM:&tbnh=83&tbnw=94&ei=DmfnTsukMMOtgwe7g9jjCA&prev=/search%3Fq%3Dsite:http://www.encs.concordia.ca/%26start%3D60%26um%3D1%26hl%3Den%26sa%3DN%26prmdo%3D1%26ie%3DUTF-8%26tbs%3Ditp:face%26tbm%3Disch&um=1&itbs=1"><img height="83" width="94" src="http://t0.gstatic.com/images?q=tbn:ANd9GcQ_V3_3imZ38O7_PTfjBcU-mPptr3DnW01rk0AG2krEcGKHNZwkoPjQAw"></a><br>Technician. Tel.<br>142 &times; 126 - 38k&nbsp;-&nbsp;jpg<br><cite title="encs.concordia.ca">encs.concordia.ca</cite></td><td style="width:25%;word-wrap:break-word"><a href="http://www.google.ca/imgres?imgurl=http://www.encs.concordia.ca/images/staff-dylan.jpg&imgrefurl=http://www.encs.concordia.ca/research/centres/consim/staff/&usg=__bKi3gXlZB5JNUQRWuRdnUlE7iF0=&h=124&w=142&sz=36&hl=en&start=66&zoom=1&tbnid=HIWNlCOPOJmLBM:&tbnh=82&tbnw=94&ei=DmfnTsukMMOtgwe7g9jjCA&prev=/search%3Fq%3Dsite:http://www.encs.concordia.ca/%26start%3D60%26um%3D1%26hl%3Den%26sa%3DN%26prmdo%3D1%26ie%3DUTF-8%26tbs%3Ditp:face%26tbm%3Disch&um=1&itbs=1"><img height="82" width="94" src="http://t1.gstatic.com/images?q=tbn:ANd9GcSmX99ZISy--sS32U5FrH9iphFiEERDzX9pTWqawtn8G5ecj0-5YYqzIMk"></a><br>The technical operation of the<br>142 &times; 124 - 36k&nbsp;-&nbsp;jpg<br><cite title="encs.concordia.ca">encs.concordia.ca</cite></td><td style="width:25%;word-wrap:break-word"><a href="http://www.google.ca/imgres?imgurl=http://www.encs.concordia.ca/helpdesk/staff/images/claude.jpg&imgrefurl=http://www.encs.concordia.ca/helpdesk/staff/aboutus.html&usg=__fD2UpkpWDCKS8KAjBxn-t4rHAQg=&h=110&w=160&sz=4&hl=en&start=67&zoom=1&tbnid=bv_pQfOkicH82M:&tbnh=67&tbnw=98&ei=DmfnTsukMMOtgwe7g9jjCA&prev=/search%3Fq%3Dsite:http://www.encs.concordia.ca/%26start%3D60%26um%3D1%26hl%3Den%26sa%3DN%26prmdo%3D1%26ie%3DUTF-8%26tbs%3Ditp:face%26tbm%3Disch&um=1&itbs=1"><img height="67" width="98" src="http://t1.gstatic.com/images?q=tbn:ANd9GcS--ejMoCepgVnkqFzcGdXu9D5KXnH9u2NmcZtL3GL8DU1FMPx5oGY4jQ"></a><br>Claude-Marie Lafforgue<br>160 &times; 110 - 4k&nbsp;-&nbsp;jpg<br><cite title="encs.concordia.ca">encs.concordia.ca</cite></td><td style="width:25%;word-wrap:break-word"><a href="http://www.google.ca/imgres?imgurl=http://www.encs.concordia.ca/helpdesk/staff/images/sdesk72.jpg&imgrefurl=http://www.encs.concordia.ca/helpdesk/staff/aboutus.html&usg=__nDpAqbRsMNw_TELrqMFLXzEYPdk=&h=150&w=116&sz=5&hl=en&start=68&zoom=1&tbnid=o50F6KTK5sPlfM:&tbnh=96&tbnw=74&ei=DmfnTsukMMOtgwe7g9jjCA&prev=/search%3Fq%3Dsite:http://www.encs.concordia.ca/%26start%3D60%26um%3D1%26hl%3Den%26sa%3DN%26prmdo%3D1%26ie%3DUTF-8%26tbs%3Ditp:face%26tbm%3Disch&um=1&itbs=1"><img height="96" width="74" src="http://t1.gstatic.com/images?q=tbn:ANd9GcQnMUMW4aCS5cH74Tcxd--oqltd4UmCBH1Ew8ycjDJTNVIPbL_Zs77LzAY"></a><br>sdesk72<br>116 &times; 150 - 5k&nbsp;-&nbsp;jpg<br><cite title="encs.concordia.ca">encs.concordia.ca</cite></td><tr><td style="width:25%;word-wrap:break-word"><a href="http://www.google.ca/imgres?imgurl=http://www.encs.concordia.ca/helpdesk/staff/images/sdesk101.jpg&imgrefurl=http://www.encs.concordia.ca/helpdesk/staff/aboutus.html&usg=__2YMYlpw8rYeAzeqAssR_cZqPFg0=&h=144&w=119&sz=5&hl=en&start=69&zoom=1&tbnid=7aow0T6NCzvpzM:&tbnh=94&tbnw=78&ei=DmfnTsukMMOtgwe7g9jjCA&prev=/search%3Fq%3Dsite:http://www.encs.concordia.ca/%26start%3D60%26um%3D1%26hl%3Den%26sa%3DN%26prmdo%3D1%26ie%3DUTF-8%26tbs%3Ditp:face%26tbm%3Disch&um=1&itbs=1"><img height="94" width="78" src="http://t0.gstatic.com/images?q=tbn:ANd9GcQOi4k3jrzRLZO7AuajE-FIs4YlExG8zlBLuBN1xNKMEw7s092JJUmx4UU"></a><br>sdesk101. Anuj Machalla<br>119 &times; 144 - 5k&nbsp;-&nbsp;jpg<br><cite title="encs.concordia.ca">encs.concordia.ca</cite></td><td style="width:25%;word-wrap:break-word"><a href="http://www.google.ca/imgres?imgurl=http://www.encs.concordia.ca/helpdesk/staff/images/sdesk113.jpg&imgrefurl=http://www.encs.concordia.ca/helpdesk/staff/aboutus.html&usg=__jI1LgfGV6d7lVa-CnF6Cb_2O4QY=&h=147&w=116&sz=21&hl=en&start=70&zoom=1&tbnid=Eh9cFkCPdZ16GM:&tbnh=95&tbnw=75&ei=DmfnTsukMMOtgwe7g9jjCA&prev=/search%3Fq%3Dsite:http://www.encs.concordia.ca/%26start%3D60%26um%3D1%26hl%3Den%26sa%3DN%26prmdo%3D1%26ie%3DUTF-8%26tbs%3Ditp:face%26tbm%3Disch&um=1&itbs=1"><img height="95" width="75" src="http://t0.gstatic.com/images?q=tbn:ANd9GcQY6TYo-L-jQjrXoV3BuykUxF_NMTZL6wcEbCPrMdnqqqRngHnW5LXMzg"></a><br>sdesk113<br>116 &times; 147 - 21k&nbsp;-&nbsp;jpg<br><cite title="encs.concordia.ca">encs.concordia.ca</cite></td><td style="width:25%;word-wrap:break-word"><a href="http://www.google.ca/imgres?imgurl=http://users.encs.concordia.ca/~j_faddou/index_files/image001.jpg&imgrefurl=http://www.encs.concordia.ca/~j_faddou&usg=__rKnzEnWTWx5JfCujPIUrrdmgEVs=&h=150&w=113&sz=15&hl=en&start=71&zoom=1&tbnid=u6OwShQpzdbTFM:&tbnh=96&tbnw=72&ei=DmfnTsukMMOtgwe7g9jjCA&prev=/search%3Fq%3Dsite:http://www.encs.concordia.ca/%26start%3D60%26um%3D1%26hl%3Den%26sa%3DN%26prmdo%3D1%26ie%3DUTF-8%26tbs%3Ditp:face%26tbm%3Disch&um=1&itbs=1"><img height="96" width="72" src="http://t0.gstatic.com/images?q=tbn:ANd9GcTShNmVwZXHbChqsyXuEUMBfPa22kNO1dY1Ug7LkedqH2veWgC9jtlN32k"></a><br>PhD Student and Research<br>113 &times; 150 - 15k&nbsp;-&nbsp;jpg<br><cite title="encs.concordia.ca">encs.concordia.ca</cite></td><td style="width:25%;word-wrap:break-word"><a href="http://www.google.ca/imgres?imgurl=http://www.encs.concordia.ca/helpdesk/staff/images/sdesk79.jpg&imgrefurl=http://www.encs.concordia.ca/helpdesk/staff/former_staff.html&usg=__o9Tbc9-mSCQjhETeFPjfdqMoIEI=&h=130&w=112&sz=10&hl=en&start=72&zoom=1&tbnid=_kuwhT2R-F6KAM:&tbnh=91&tbnw=78&ei=DmfnTsukMMOtgwe7g9jjCA&prev=/search%3Fq%3Dsite:http://www.encs.concordia.ca/%26start%3D60%26um%3D1%26hl%3Den%26sa%3DN%26prmdo%3D1%26ie%3DUTF-8%26tbs%3Ditp:face%26tbm%3Disch&um=1&itbs=1"><img height="91" width="78" src="http://t0.gstatic.com/images?q=tbn:ANd9GcQ9QOTlMzfbJz5jdrMd8kGOERaT1szacN8xhLbOOintfpzcjDMaDW5WSw"></a><br>sdesk79. Claude Fachkha<br>112 &times; 130 - 10k&nbsp;-&nbsp;jpg<br><cite title="encs.concordia.ca">encs.concordia.ca</cite></td><tr><td style="width:25%;word-wrap:break-word"><a href="http://www.google.ca/imgres?imgurl=http://www.encs.concordia.ca/helpdesk/staff/images/sdesk56.jpg&imgrefurl=http://www.encs.concordia.ca/helpdesk/staff/former_staff.html&usg=__r_-7VRjz5iZ98ywas-U0tb9ZPuA=&h=120&w=121&sz=4&hl=en&start=73&zoom=1&tbnid=0W296q35N0_3MM:&tbnh=88&tbnw=89&ei=DmfnTsukMMOtgwe7g9jjCA&prev=/search%3Fq%3Dsite:http://www.encs.concordia.ca/%26start%3D60%26um%3D1%26hl%3Den%26sa%3DN%26prmdo%3D1%26ie%3DUTF-8%26tbs%3Ditp:face%26tbm%3Disch&um=1&itbs=1"><img height="88" width="89" src="http://t1.gstatic.com/images?q=tbn:ANd9GcQ0gWQSf2SPIFhZq69pSEuzejxBSQMCrG3L-MmtXHUBk4XEvVB6xaudxA"></a><br>sdesk56. Gaurav Nayak<br>121 &times; 120 - 4k&nbsp;-&nbsp;jpg<br><cite title="encs.concordia.ca">encs.concordia.ca</cite></td><td style="width:25%;word-wrap:break-word"><a href="http://www.google.ca/imgres?imgurl=http://www.encs.concordia.ca/helpdesk/staff/images/sdesk100.jpg&imgrefurl=http://www.encs.concordia.ca/helpdesk/staff/aboutus.html&usg=__Skq04s9k7-w0Czt7qsTdBlT_Xco=&h=128&w=112&sz=5&hl=en&start=74&zoom=1&tbnid=oRvSgl9T5hbL3M:&tbnh=91&tbnw=80&ei=DmfnTsukMMOtgwe7g9jjCA&prev=/search%3Fq%3Dsite:http://www.encs.concordia.ca/%26start%3D60%26um%3D1%26hl%3Den%26sa%3DN%26prmdo%3D1%26ie%3DUTF-8%26tbs%3Ditp:face%26tbm%3Disch&um=1&itbs=1"><img height="91" width="80" src="http://t2.gstatic.com/images?q=tbn:ANd9GcR7u15euJ4wK2nFPu1xOH3SGmsvLZft1geTr640djn70RnQH8bORm_7yw"></a><br>sdesk100. Mohammad Fahim Nizam<br>112 &times; 128 - 5k&nbsp;-&nbsp;jpg<br><cite title="encs.concordia.ca">encs.concordia.ca</cite></td><td style="width:25%;word-wrap:break-word"><a href="http://www.google.ca/imgres?imgurl=http://newsfeed.encs.concordia.ca/encs_test/TedStathopoulos(2).jpg&imgrefurl=http://www.encs.concordia.ca/news-and-events/entry.php%3Fa%3D2011/08/accolades-for-stathopoulos.php&usg=__axbtx26NyQd6Entsc5y2ujV39_k=&h=120&w=100&sz=4&hl=en&start=75&zoom=1&tbnid=M4z9WlqlXhHLYM:&tbnh=88&tbnw=73&ei=DmfnTsukMMOtgwe7g9jjCA&prev=/search%3Fq%3Dsite:http://www.encs.concordia.ca/%26start%3D60%26um%3D1%26hl%3Den%26sa%3DN%26prmdo%3D1%26ie%3DUTF-8%26tbs%3Ditp:face%26tbm%3Disch&um=1&itbs=1"><img height="88" width="73" src="http://t1.gstatic.com/images?q=tbn:ANd9GcRGSN4gXiN1QyC6i7qzN-0rXiH5xTQ2O-PTD-7IDEOUNRmLJqEyqDoMKQ"></a><br>TedStathopoulos(2).jpg<br>100 &times; 120 - 4k&nbsp;-&nbsp;jpg<br><cite title="encs.concordia.ca">encs.concordia.ca</cite></td><td style="width:25%;word-wrap:break-word"><a href="http://www.google.ca/imgres?imgurl=http://www.encs.concordia.ca/helpdesk/staff/images/sdesk20.jpg&imgrefurl=http://www.encs.concordia.ca/helpdesk/staff/former_staff.html&usg=__vE5JVVKbEsckknsRPxuLhpv_FqY=&h=128&w=92&sz=3&hl=en&start=76&zoom=1&tbnid=i_u7xQD3DXg8sM:&tbnh=91&tbnw=65&ei=DmfnTsukMMOtgwe7g9jjCA&prev=/search%3Fq%3Dsite:http://www.encs.concordia.ca/%26start%3D60%26um%3D1%26hl%3Den%26sa%3DN%26prmdo%3D1%26ie%3DUTF-8%26tbs%3Ditp:face%26tbm%3Disch&um=1&itbs=1"><img height="91" width="65" src="http://t3.gstatic.com/images?q=tbn:ANd9GcS1uGxhhZ9F8sE7p7pCbdl8wmB7c9FZv4PZfCJZRkc3q-XP2DwpxYpHCA"></a><br>sdesk20<br>92 &times; 128 - 3k&nbsp;-&nbsp;jpg<br><cite title="encs.concordia.ca">encs.concordia.ca</cite></td><tr><td style="width:25%;word-wrap:break-word"><a href="http://www.google.ca/imgres?imgurl=http://www.encs.concordia.ca/helpdesk/oldsite/staff/images/sdesk26.jpg&imgrefurl=http://www.encs.concordia.ca/helpdesk/oldsite/staff/aboutus.html&usg=__pWipj2b08CCXjV6KwtZcTjacxkU=&h=128&w=90&sz=6&hl=en&start=77&zoom=1&tbnid=Pyb2qAT7f62z2M:&tbnh=91&tbnw=64&ei=DmfnTsukMMOtgwe7g9jjCA&prev=/search%3Fq%3Dsite:http://www.encs.concordia.ca/%26start%3D60%26um%3D1%26hl%3Den%26sa%3DN%26prmdo%3D1%26ie%3DUTF-8%26tbs%3Ditp:face%26tbm%3Disch&um=1&itbs=1"><img height="91" width="64" src="http://t2.gstatic.com/images?q=tbn:ANd9GcT17307nJdJgagnpOhEFr2GNF-YLK8yL4qvRDisSVJcTRWGVXc8pkJZTI0"></a><br>sdesk26. Ramprasad Madhavan Computer Science Since Fall 2004<br>90 &times; 128 - 6k&nbsp;-&nbsp;jpg<br><cite title="encs.concordia.ca">encs.concordia.ca</cite></td><td style="width:25%;word-wrap:break-word"><a href="http://www.google.ca/imgres?imgurl=http://www.encs.concordia.ca/helpdesk/staff/images/sdesk17.jpg&imgrefurl=http://www.encs.concordia.ca/helpdesk/staff/former_staff.html&usg=__rmMnbrv-yoqKrdGZW_KW90QVnHk=&h=124&w=92&sz=11&hl=en&start=78&zoom=1&tbnid=LELXY57u-2GfrM:&tbnh=90&tbnw=67&ei=DmfnTsukMMOtgwe7g9jjCA&prev=/search%3Fq%3Dsite:http://www.encs.concordia.ca/%26start%3D60%26um%3D1%26hl%3Den%26sa%3DN%26prmdo%3D1%26ie%3DUTF-8%26tbs%3Ditp:face%26tbm%3Disch&um=1&itbs=1"><img height="90" width="67" src="http://t3.gstatic.com/images?q=tbn:ANd9GcQksQsU9uETY_Ifkoy9HEi83CU_UYESo-qlkn4TKSacQ8L6vOSFHSROZQ"></a><br>sdesk17. Arthur Ntozi<br>92 &times; 124 - 11k&nbsp;-&nbsp;jpg<br><cite title="encs.concordia.ca">encs.concordia.ca</cite></td><td style="width:25%;word-wrap:break-word"><a href="http://www.google.ca/imgres?imgurl=http://www.encs.concordia.ca/helpdesk/staff/images/sdesk06.jpg&imgrefurl=http://www.encs.concordia.ca/helpdesk/staff/former_staff.html&usg=__G_H-4dkcQJozMc6CVNXejL5dSeA=&h=123&w=92&sz=3&hl=en&start=79&zoom=1&tbnid=XXX4vA_q6SlCCM:&tbnh=89&tbnw=67&ei=DmfnTsukMMOtgwe7g9jjCA&prev=/search%3Fq%3Dsite:http://www.encs.concordia.ca/%26start%3D60%26um%3D1%26hl%3Den%26sa%3DN%26prmdo%3D1%26ie%3DUTF-8%26tbs%3Ditp:face%26tbm%3Disch&um=1&itbs=1"><img height="89" width="67" src="http://t0.gstatic.com/images?q=tbn:ANd9GcS-f3tYpKxWdSGmYLbGTpOQ1yx4WlMwp_0nfCo3ymq_17crMs5fIIeYg4g"></a><br>sdesk06. Jung Ko<br>92 &times; 123 - 3k&nbsp;-&nbsp;jpg<br><cite title="encs.concordia.ca">encs.concordia.ca</cite></td><td style="width:25%;word-wrap:break-word"><a href="http://www.google.ca/imgres?imgurl=http://www.encs.concordia.ca/helpdesk/staff/images/sdesk62.jpg&imgrefurl=http://www.encs.concordia.ca/helpdesk/staff/former_staff.html&usg=__wET8ikiSDLJUbi32r7z5l_dDSYk=&h=121&w=91&sz=3&hl=en&start=80&zoom=1&tbnid=LZgKLQgsP-0RdM:&tbnh=89&tbnw=67&ei=DmfnTsukMMOtgwe7g9jjCA&prev=/search%3Fq%3Dsite:http://www.encs.concordia.ca/%26start%3D60%26um%3D1%26hl%3Den%26sa%3DN%26prmdo%3D1%26ie%3DUTF-8%26tbs%3Ditp:face%26tbm%3Disch&um=1&itbs=1"><img height="89" width="67" src="http://t2.gstatic.com/images?q=tbn:ANd9GcRPJtDUbNa-MEx3WQpK1bcIuApIBuPEGEM4oGbCzMXXojvsTaPv2bWzdEI"></a><br>sdesk62. Sheikh Muhammad Saeed<br>91 &times; 121 - 3k&nbsp;-&nbsp;jpg<br><cite title="encs.concordia.ca">encs.concordia.ca</cite></td></table><ol></ol></div></div></div><div id="foot"><table align="center" border="0" cellpadding="0" cellspacing="0" id="nav"><tr valign="top"><td class="b" align="left"><a href="http://www.google.ca/search?um=1&hl=en&prmdo=1&ie=UTF-8&tbs=itp:face&tbm=isch&ei=DmfnTsukMMOtgwe7g9jjCA&q=site:http://www.encs.concordia.ca/&start=40&sa=N"><span class="csb ch" style="background-position:0 0;float:right;width:53px"></span><span style="display:block;margin-right:35px;clear:right">Previous</span></a></td><td><a href="http://www.google.ca/search?um=1&hl=en&prmdo=1&ie=UTF-8&tbs=itp:face&tbm=isch&ei=DmfnTsukMMOtgwe7g9jjCA&q=site:http://www.encs.concordia.ca/&start=0&sa=N" class="fl"><span class="csb ch" style="background-position:-74px 0;width:20px"></span>1</a></td><td><a href="http://www.google.ca/search?um=1&hl=en&prmdo=1&ie=UTF-8&tbs=itp:face&tbm=isch&ei=DmfnTsukMMOtgwe7g9jjCA&q=site:http://www.encs.concordia.ca/&start=20&sa=N" class="fl"><span class="csb ch" style="background-position:-74px 0;width:20px"></span>2</a></td><td><a href="http://www.google.ca/search?um=1&hl=en&prmdo=1&ie=UTF-8&tbs=itp:face&tbm=isch&ei=DmfnTsukMMOtgwe7g9jjCA&q=site:http://www.encs.concordia.ca/&start=40&sa=N" class="fl"><span class="csb ch" style="background-position:-74px 0;width:20px"></span>3</a></td><td><span class="csb ch" style="background-position:-53px 0;width:20px"></span><b>4</b></td><td><a href="http://www.google.ca/search?um=1&hl=en&prmdo=1&ie=UTF-8&tbs=itp:face&tbm=isch&ei=DmfnTsukMMOtgwe7g9jjCA&q=site:http://www.encs.concordia.ca/&start=80&sa=N" class="fl"><span class="csb ch" style="background-position:-74px 0;width:20px"></span>5</a></td><td><a href="http://www.google.ca/search?um=1&hl=en&prmdo=1&ie=UTF-8&tbs=itp:face&tbm=isch&ei=DmfnTsukMMOtgwe7g9jjCA&q=site:http://www.encs.concordia.ca/&start=100&sa=N" class="fl"><span class="csb ch" style="background-position:-74px 0;width:20px"></span>6</a></td><td class="b" style="text-align:left"><a href="http://www.google.ca/search?um=1&hl=en&prmdo=1&ie=UTF-8&tbs=itp:face&tbm=isch&ei=DmfnTsukMMOtgwe7g9jjCA&q=site:http://www.encs.concordia.ca/&start=80&sa=N" style="text-align:left"><span class="csb ch" style="background-position:-96px 0;width:71px"></span><span style="display:block;margin-left:53px">Next</span></a></td></tr></table><div><div style="margin-top:22px"><form method="GET" action="http://www.google.ca/search"><table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-bottom:1px solid #e7e7e7;padding:8px 0 0;position:relative"><tr><td class="lst-td" width="100%" valign="bottom"><div style="position:relative;zoom:1"><input autocomplete="off" class="lst" type="text" name="q" maxlength="2048" value="site:http://www.encs.concordia.ca/" title="Search"></div></td><td><div class="ds"><div class="lsbb"><input type="submit" name="btnG" class="lsb" value="Search"></div></div></td></tr></table><input type="hidden" name="um" value="1"><input type="hidden" name="hl" value="en"><input type="hidden" name="prmdo" value="1"><input type="hidden" name="tbs" value="itp:face"><input type="hidden" name="tbm" value="isch"></form></div><p id="bfl" class="flc" style="margin:6px 0 0;text-align:center"><a href="http://www.google.ca/imghp?hl=en">Google Images Home</a> <a href="http://images.google.com/support/?hl=en">Help</a></p></div><div id="fll" class="flc" style="margin:19px auto 19px auto;text-align:center"><a href="">Google&#160;Home</a> <a href="http://www.google.ca/intl/en/ads/">Advertising&#160;Programs</a> <a href="http://www.google.ca/services">Business Solutions</a> <a href="intl/en/privacy.html">Privacy</a> <a href="intl/en/about.html">About Google</a></div></div></td><td valign="top"></td></tr></table><script src="http://www.google.ca/extern_js/f/CgJlbhICY2EgACswWjgALCswDjgALCswCjgAmgICaGUsKzAYOAAsgAJQkAJc/bqYe1apFwH0.js"></script><script type="text/javascript">google.ac.c({"client":"img","dh":true,"ds":"i","host":"google.ca","jsonp":true,"msgs":{"lcky":"I\u0026#39;m Feeling Lucky","lml":"Learn more","psrc":"This search was removed from your \u003Ca href=\"/history\"\u003EWeb History\u003C/a\u003E","psrl":"Remove","srch":"Google Search"},"ovr":{"d":1,"hl":1,"o":1,"ps":1,"sw":1,"vc":-3},"pq":"site:http://www.encs.concordia.ca/"})</script></body></html>

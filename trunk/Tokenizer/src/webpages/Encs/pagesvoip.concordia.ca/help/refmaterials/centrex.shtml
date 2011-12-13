@@ -1,509 +1,0 @@
-
-
-
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-
-
-<HTML>
-
-
-<HEAD>
-
-<a name="topof"></a>
-<TITLE>Voip Reference Materials</TITLE>
-
-
-<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-
-
-
-<link rel="stylesheet" type="text/css" href="http://voip.concordia.ca/includes/css/voip.css">
-
-
-<script src="http://voip.concordia.ca/scripts/dom.js" type="text/javascript" language="Javascript" charset="iso-8859-1"></script>
-
-<script language="JavaScript">
-
-<!--
-
-function MM_jumpMenu(targ,selObj,restore){ //v3.0
-
-  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
-
-  if (restore) selObj.selectedIndex=0;
-
-}
-
-//-->
-
-</script>
-<style type="text/css" media="all">@import "/includes/css/sidemenu.css";</style>
-
-
-<style type="text/css">
-
-<!-- 
-
-div#sidemenu ul#navmenu li#index-menu  { 
-
-	display: list-item; 
-
-}
-
-ul#navmenu li#index-menu li { 
-
-	display: list-item; 
-
-}
-
-ul#navmenu li#index-menu li ul#tel-voice {
-
-	display: list-item; 
-
-}
-
-// -->
-
-</style>
-</HEAD>
-
-
-
-<BODY onLoad="init()">
-
-
-<TABLE bgcolor="#2D4277" width="100%" border="0" cellspacing="0" cellpadding="0">  <TR>     <TD width="310" valign="top" background="/images/piece2.gif"><img src="http://voip.concordia.ca/images/voice_serv_revsm.jpg" alt="voiceservices" width="310" height="46"></TD>    <TD width="35" background="/images/piece2.gif"><img src="http://voip.concordia.ca/images/spacer.gif" alt="spacer" width="35" height="8"></TD>    <TD width="90" background="/images/piece2.gif"><img src="http://voip.concordia.ca/images/spacer.gif" alt="spacer" width="90" height="9"></TD>    <TD width="80" background="/images/piece2.gif"><img src="http://voip.concordia.ca/images/spacer.gif" alt="spacer" width="80" height="8"></TD>        <TD width="140" valign="top" background="/images/piece2.gif"><img src="http://voip.concordia.ca/images/concordia_new.gif" alt="spacer" width="140" height="46" border="0" usemap="#Map"></TD>    <TD width="100%" valign="top" background="/images/piece2.gif">&nbsp;</TD>  </TR>  
-<TR>     <TD width="268" valign="top" bgcolor="#000000"><img src="http://voip.concordia.ca/images/level2photo2.gif" alt='""' width="268" height="29"></TD>    <TD align="right" valign="middle" bgcolor="#000000"><a class="white" href="../../index.html"><img src="http://voip.concordia.ca/images/spacer.gif" alt="spacer" width="5" height="1" border="0">Home</A></TD>    <TD align="center" valign="middle" bgcolor="#000000"><a class="white" href="../../index.html"><img src="http://voip.concordia.ca/images/spacer.gif" alt="spacer" width="5" height="1" border="0">       </A><a class="white" href="../../"><img src="http://voip.concordia.ca/images/spacer.gif" alt="spacer" width="20" height="1" border="0">News</A></TD>     <TD align="center" valign="middle" bgcolor="#000000"><a class="white" href="../../voicemail/messaging/faqs.shtml">FAQs</A></TD>         <TD colspan="2" bgcolor="#000000"></TD>  </TR></TABLE><map name="Map">  <area shape="rect" coords="6,4,133,41" href="../../../pageswww.concordia.ca/index.html" alt="concordia" target="blank"></map>
-
-
-<TABLE border="0" cellspacing="0" cellpadding="0">
-
-
-  <TR> 
-
-
-    <TD width="155"  valign="top" bgcolor="#FFFFFF"> 
-
-
-   <!-- Begin --><div id="sidemenu">	<ul id="navmenu">		<li id="index-menu">&nbsp;			<ul>				<li><a href="http://voip.concordia.ca/voicemail/telephone_sets/">Telephones &amp; Features</a>				<li><a href="http://voip.concordia.ca/voicemail/voiceoptions/">Unified Messaging</a></li>				</li>							<li><a href="http://voip.concordia.ca/help/refmaterials/centrex.shtml#" onclick="showSearch('directory','index-menu'); return false;">Directory Services</a>					<ul id="directory" class="sub">						<li><a href="http://voip.concordia.ca/directory/directories/">Directories</a></li>						<li><a href="http://voip.concordia.ca/directory/operator/">Operators</a></li>						<li><a href="../../directory/form/update.shtml">Directory Update Form </a></li>								</ul>				</li>				<li><a href="http://voip.concordia.ca/help/refmaterials/centrex.shtml#" onclick="showSearch('howto','index-menu'); return false;">Dial Calls/Long Distance</a>					<ul id="howto" class="sub">						<li><a href="http://www.kropla.com/dialcode.htm" target="_blank">Area &amp Country Codes</a></li>						<li><a href="http://voip.concordia.ca/how_to/dial_calls/">Dialing Calls</a></li> 						<li><a href="http://wwp.greenwichmeantime.com/" target="_blank">International Time Zones</a></li>						<li><a href="http://voip.concordia.ca/how_to/access/">Long Distance Access</a></li>						<li><a href="http://voip.concordia.ca/how_to/rates/">Long Distance Rates</a></li>					</ul>				</li>				<li><a href="http://voip.concordia.ca/help/refmaterials/centrex.shtml#" onclick="showSearch('conferencecalls','index-menu'); return false;">Conference Calls</a>					<ul id="conferencecalls" class="sub">						<li><a href="http://voip.concordia.ca/conference/conference_calls/">Conference Calls</a></li>						<li><a href="../../conference/equipment/">Rent Conference Call Equipment</a></li>																				</ul>				</li>				<li><a href="http://voip.concordia.ca/help/refmaterials/centrex.shtml#" onclick="showSearch('billing','index-menu'); return false;">Service Package & Rates</a>					<ul id="billing" class="sub">						<li><a href="http://voip.concordia.ca/billing/billedservices/">Service Package</a></li>						<li><a href="http://voip.concordia.ca/billing/inquiries/">Billing Inquiries Form</a></li>						<li><a href="http://voip.concordia.ca/billing/purchase/">Equipment Purchases </a></li>						<li><a href="http://voip.concordia.ca/billing/longdistance/">Long Distance Rates</a></li>						<li><a href="http://voip.concordia.ca/billing/service_charge/">Service Charge Rates</a></li>															</ul>								<li><a href="index2.shtml">User Guides & Tutorials</a></li>									<li><a href="http://voip.concordia.ca/voicemail/system/index.shtml">What system am I on?</a></li>								<li><a href="../whotocontact/index2.shtml">Who to contact for help?</a></li>								<br> <br>								</li>				</li>			</ul>		</li>	</ul></div><!-- end -->    </TD>
-
-
-    <TD width="1" bgcolor="#999999"><img src="http://voip.concordia.ca/images/spacer.gif" width="1" height="1"></TD>
-
-
-    <TD valign="top" width="23" bgcolor="#FFFFFF"><img src="http://voip.concordia.ca/images/spacer.gif" width="23" height="8"></TD>
-
-
-    <TD width="1" valign="top" bgcolor="#ffffff"><img src="http://voip.concordia.ca/images/spacer.gif" width="1" height="1"></TD>
-
-
-    <TD width="100%" align="left" valign="top" bgcolor="#FFFFFF"> <P class="newstext">&nbsp;</P>
-
-
-      <TABLE width="100%" border="0" cellspacing="0" cellpadding="0">
-
-
-        <TR> 
-
-
-          <TD width="35" height="22" bgcolor="#FFFFFF"><img src="http://voip.concordia.ca/images/spacer.gif" width="38" height="8"></TD>
-
-
-          <TD class="contentheader"> Centrex III Telephone Features for Single Line Telephone Sets</TD>
-        </TR>
-      </TABLE>
-      <div id="container"> 
-
-
-     
-
-             <form name="form1" action="centrex.shtml">
-
-              <br>
-
-              <select name="menu1" onChange="MM_jumpMenu('parent',this,0)" size="1">
-
-                <option value="#topof" selected>Quick Links</option>
-
-                <option value="#call">Call Forward</option>
-
-                <option value="#tocall">To Call Forward</option>
-
-                <option value="#verify">To Verify That...</option>
-
-                <option value="#dontanswer">Call Forward Don't Answer</option>
-
-                <option value="#busy">Call Forward Busy</option>
-
-                <option value="#callpark">Call Park</option>
-
-                <option value="#park">To Park Call</option>
-
-                <option value="#retrieve">To Retrieve Call</option>
-
-                <option value="#pickup">Call Pick-up</option>
-
-                <option value="#intercept">To Intercept Call</option>
-
-                <option value="#calltransfer">Call Transfer</option>
-
-                <option value="#totransfer">To Transfer a Call</option>
-
-                <option value="#callwaiting">Call Waiting</option>
-
-                <option value="#firstcaller">To Place First Call</option>
-
-                <option value="#consultation">Consultation</option>
-
-                <option value="#party">To Consult Third party</option>
-
-                <option value="#hold">Hold</option>
-
-                <option value="#toplace">To Place Caller on Hold</option>
-
-                <option value="#reestablish">To Re-establish Communication</option>
-
-                <option value="#ringagain">Ring Again</option>
-
-                <option value="#free">When the Line Becomes Free</option>
-
-                <option value="#tocancel">To Cancel Ring Again</option>
-
-                <option value="#threeway">Three Way</option>
-
-                <option value="#conference">To Place Three-Way</option>
-              </select>
-        </form>
-		<p class="blueText"><i>Reminder: When dialing an IP system phone, press 6 before entering 
-
-              the four4-digit extension.</i></p>
-	    <p><a name="call"></a><span class="h1">Call 
-	      
-	      Forward </span><br>
-	      This feature allows you to re-route your incoming calls to another 
-	      
-	      local or an external number, dependant upon the option selected 
-	      
-	      for you by your department coordinator.<br>
-                <br>
-                <span class="h1"><a name="tocall" id="tocall"></a>To Call 
-                  
-                  Forward a Call</span>:<br>
-  &#8226; Lift the receiver.<br>
-  &#8226; Wait for the dial tone.<br>
-  &#8226; Dial 555.<br>
-  &#8226; Wait for three(3) beeps, followed by dial tone.<br>
-  &#8226; Dial the destination number. <br>
-	      (For internal calls dial the last 4 digits; for external calls 
-	      
-	      dial 9 plus the 7-digit number).<br>
-  &#8226; Wait for 2 beeps, followed by a period of silence.<br>
-  &#8226; Hang up the receiver.<br>
-  <br>
-  <span class="h1"><a name="verify"></a>To Verify That The Call 
-    
-    Forward is Working</span><br>
-  &#8226; Lift the receiver.<br>
-  &#8226; Wait for dial tone.<br>
-  &#8226; Dial your own number. The call is routed to the new destination 
-	      
-	      number. Inform the person at that number that you are forwarding 
-	      
-	      your calls.<br>
-  &#8226; Hang up the receiver.<br>
-	      To Cancel The Call Forward<br>
-  &#8226; Lift the receiver.<br>
-  &#8226; Wait for dial tone.<br>
-  &#8226; Dial 556.<br>
-  &#8226; Wait for 2 beeps, followed by a period of silence.<br>
-  &#8226; Hang up the receiver.<br>
-  <strong><em>Note</em></strong>: There will be a short ring on your 
-	      
-	      telephone , each time a call is forwarded to an external number. 
-	      
-	      Outgoing calls may still be placed from your telephone when this 
-	      
-	      feature is programmed. If programmed, the ring again feature will 
-	      
-	      ring you back even though your other calls 
-	      
-	      are forwarded.<br>
-                  <br>
-                  <span class="h1"><a name="dontanswer"></a>Call Forward Don&#8217;t 
-                    
-                    Answer </span><br>
-	      This feature automatically routes calls not answered within 3 
-	      
-	      rings to a pre-determined local. <br>
-	      You will find these pre-determined locals marked on your telephone 
-	      
-	      if this feature has been programmed on your phone.<br>
-                <br>
-                <span class="h1"><a name="busy" id="busy"></a>Call Forward 
-                  
-                  Busy </span><br>
-	      This feature causes automatically routes calls to a pre-determined 
-	      
-	      local when your line is busy. You will find these pre-determined 
-	      
-	      locals marked on your telephone if this feature has been programmed 
-	      
-	      on your phone.<br>
-                <br>
-                <span class="h1"><a name="callpark"></a>Call Park</span> <br>
-	      This feature allows you to suspend any call temporarily from your 
-	      
-	      telephone and retrieve that call from another Centrex telephone 
-	      
-	      at Concordia. After parking the call, your set becomes free. <br>
-        </p>
-	    <p><span class="h1"><a name="park"></a>To Park A Call</span>:<br>
-  &#8226; Depress the link key once.<br>
-  &#8226; Wait for 3 beeps, followed by dial tone.<br>
-  &#8226; Dial 575.<br>
-  &#8226; Wait for 2 beeps, followed by a period of silence.<br>
-  &#8226; Hang up the receiver.<br>
-  <br>
-  <span class="h1"><a name="retrieve"></a>To Retrieve A Call</span>:<br>
-  &#8226; Lift the receiver.<br>
-  &#8226; Wait for dial tone.<br>
-  &#8226; Dial 576 plus the local number where the call was left.*<br>
-	      *Note: The local number must be dialed, even if the call is retrieved 
-	      
-	      from the same phone.<br>
-                <br>
-                <span class="h1"><a name="pickup"></a>Call Pick-Up</span> <br>
-	      This feature allows you to intercept a call ringing at another local 
-	      
-	      within your group.<br>
-                <br>
-                <span class="h1"> <a name="intercept"></a>To Intercept a Call 
-                  
-                  at Another Loca</span>l:<br>
-  &#8226; Lift the receiver.<br>
-  &#8226; Wait for the dial tone.<br>
-  &#8226; Dial 511.<br>
-  &#8226; Once a click is heard the call has been intercepted.<br>
-  <br>
-  <span class="h1"><a name="calltransfer"></a>Call Transfer </span><br>
-	      This feature allows you to transfer any incoming or outgoing call 
-	      
-	      to another local within Concordia.<br>
-                <br>
-                <span class="h1"><a name="totransfer"></a>To Transfer A Call</span>:<br>
-  &#8226; Depress the link key once. Your caller is now placed on 
-	      
-	      hold.<br>
-  &#8226; Wait for 3 beeps, followed by the dial tone.<br>
-  &#8226; Dial the number to which the call is to be directed and 
-	      
-	      announce that you are transferring the call.<br>
-  &#8226; Hang up the receiver. The transfer is complete.<br>
-	      [<a href="http://voip.concordia.ca/help/refmaterials/centrex.shtml#topof">top of page</a>]<br>
-	      Note: When the number desired is busy or there is no answer, depress 
-	      
-	      the link key twice. The busy tone or the ringing will be suppressed 
-	      
-	      and you will return tobe back with the initial call/caller.<br>
-                <br>
-                <span class="h1"><a name="callwaiting"></a>Call Waiting</span> <br>
-	      This feature advises you that a second caller is attempting to contact 
-	      
-	      you while you are on the line. While on the line with the first 
-	      
-	      call, a short beep tone will be heard indicating that a second call 
-	      
-	      is awaiting your acknowledgement.<br>
-                <br>
-                <a name="firstcaller"></a><span class="h1">To 
-                  
-                  Place the First Caller on Hold and Connect the Second Caller:</span><br>
-  &#8226; Depress the link key once. The first call is placed on hold 
-	      
-	      and the second caller is connected.<br>
-                <span class="h1"><br>
-                <a name="alternate"></a> To Alternate Between Call No. 1 And Call 
-                  
-                  No. 2</span><br>
-  &#8226; Depress the link key once each time you wish to alternate 
-	      
-	      from one call to the other.<br>
-                <br>
-                <span class="h1"><a name="terminate"></a>To Terminate The 
-                  
-                  First Call Before Responding To The Second</span><br>
-  &#8226; Hang up the receiver.<br>
-  &#8226; Wait for the ring.<br>
-  &#8226; Respond and your second caller is connected. <br>
-  <br>
-  <span class="h1"><a name="consultation"></a>Consultation Hold </span><br>
-	      This feature allows consultation with a third party (internal or 
-	      
-	      external), while the second party is temporarily placed on hold.<br>
-                <span class="h1"><br>
-                <a name="party"></a>To Consult a Third Party</span>:<br>
-  &#8226; Depress the link key once. Your caller is now placed on 
-	      
-	      hold.<br>
-  &#8226; Wait for 3 beeps, followed by the dial tone.<br>
-  &#8226; Dial the third party number required for consultation.<br>
-  &#8226; To return to the first caller, depress the link key twice. 
-	      
-	      You are now in contact with your first caller and the third party 
-	      
-	      is released.<br>
-	      Note: When the number desired is busy or there is no response for 
-	      
-	      a Consultation Hold, depress the link key twice. The busy tone or 
-	      
-	      the ringing will be suppressed and you will be put in contact with 
-	      
-	      the initial call/caller.<br>
-                <br>
-                <span class="h1"><a name="hold"></a>Hold</span> <br>
-	      This feature allows you to place a caller on hold.<br>
-  <br>
-  <span class="h1"><a name="toplace"></a>To Place a Caller on 
-    
-    Hold</span>:<br>
-  &#8226; Depress the link key once.<br>
-  &#8226; Wait for 3 beeps, followed by dial tone.<br>
-  &#8226; Dial 533. Your caller is now placed on hold.<br>
-  &#8226; Wait for 2 beeps, followed by a period of silence.<br>
-  &#8226; Hang up the receiver.<br>
-  <br>
-  <span class="h1"><a name="reestablish"></a>To Re-establish 
-    
-    Communication</span>:<br>
-  &#8226; Lift the receiver. Your party will still be connected.<br>
-  <strong>Note</strong>: A &quot;reminder ring&quot; will advise you 
-	      
-	      at intervals of <br>
-	      75 seconds that your party is still on hold.<br>
-  <br>
-  <span class="h1"><a name="ringagain"></a>Ring Again</span> <br>
-	      This feature allows a caller who encounters a busy internal , CENTREX 
-	      
-	      line to program a call-back from that local when it becomes available. <br>
-	      To Place a Call-Back Using Ring Again:<br>
-  &#8226; Depress the link key once when you hear the busy tone.<br>
-  &#8226; Wait for 3 beeps, followed by dial tone.<br>
-  &#8226; Dial 522.<br>
-  &#8226; Listen for 2 beeps, followed by silence.<br>
-  &#8226; Hang up.<br>
-  <br>
-  <span class="h1"><a name="free"></a>When The Line Becomes 
-    
-    Free</span>:<br>
-  &#8226; You will hear an 18 second s ringback cycle, consisting 
-	      
-	      of 1 long ring and 2 short rings, repeated.<br>
-  &#8226; Lift the receiver at any time during this cycle. The ringing 
-	      
-	      at the called local will then be activated.<br>
-	      Note: The feature will be cancelled if you do not respond to the 
-	      
-	      ringback within 18 seconds. <br>
-                <br>
-                <span class="h1"><a name="tocancel"></a>To Cancel The Ring 
-                  
-                  Again</span>:<br>
-  &#8226; Lift the receiver.<br>
-  &#8226; Wait for dial tone.<br>
-  &#8226; Dial 522.<br>
-  &#8226; Wait for 2 beeps, followed by silence.<br>
-  &#8226; Hang up.<br>
-  <br>
-  <span class="h1"><a name="threeway"></a>Three3-Way Conference 
-    
-    Call </span><br>
-	      This feature allows you to establish a conference call with two 
-	      
-	      other parties, either internal or external.<br>
-                <br>
-                <span class="h1"><a name="conference" id="conference"></a>To 
-                  
-                  Place a Three-3 Way Conference Call</span>:<br>
-  &#8226; Depress the link key once. The first call is now placed 
-	      
-	      on hold.<br>
-  &#8226; Wait for 3 beeps, followed by dial tone.<br>
-  &#8226; Dial the number of the second caller and advise them of 
-	      
-	      the conference call.<br>
-  &#8226; Depress the link key once. The second caller and first caller 
-	      
-	      will be connected and your three- way conference established.<br>
-                <strong>Note</strong>: When the number desired is busy or there 
-	      
-	      is no answer, depress the link key twice. The busy tone or the ringing 
-	      
-	      will be suppressed and you will return to  
-	      
-	      the initial call/caller.<br>
-        </p>
-	    <p>For conference calls with more than three participants, see Teleconference 
-	      
-	      Calls.</p>
-	    <p>[<a href="http://voip.concordia.ca/help/refmaterials/centrex.shtml#topof">top of page</a>]</p>
-      </div>
-
-
-        <P class="newstext">&nbsp;</P>
-		<P class="newstext">&nbsp;</P>
-		<P class="newstext">&nbsp;</P>
-		<P class="newstext">&nbsp;</P>
-        <P class="newstext">&nbsp;</P>    </TD>
-
-
-    <TD class="col"width="1" valign="top" ></TD>
-
-
-    <TD width="27" valign="top" bgcolor="#2d4277"></TD>
-
-
-    <TD class="photocredit" width="120" valign="top" bgcolor="#2d4277"><img src="http://voip.concordia.ca/images/spacer.gif" width="120" height="8">
-
-
-
-
-
-      <BR> <img src="http://voip.concordia.ca/images/spacer.gif" width="26" height="8"><BR> <BR>    </TD>
-
-
-    <TD width="158" valign="top" bgcolor="#000000"><img src="http://voip.concordia.ca/images/spacer.gif" width="50" height="1"></TD>
-  </TR>
-
-
-  <TR> 
-
-
-    <TD class="copyright" colspan="5"  valign="top" bgcolor="#E1E1E1"><img src="http://voip.concordia.ca/images/spacer.gif" width="10" height="8" alt="spacer">&copy; Copyright 
-<script type="text/javascript" language="JavaScript">
-<!--
-var curdate = new Date()
-var year = (curdate.getYear() + 1900);
-document.write(year);
-// -->
-</script>, <a class="copyrightlink" href="../../../pageswww.concordia.ca/index.html">Concordia University</A></TD>
-
-
-    <TD class="col"valign="top">&nbsp;</TD>
-
-
-    <TD valign="top" bgcolor="#22335E">&nbsp;</TD>
-
-
-    <TD valign="top" bgcolor="#22335E">&nbsp;</TD>
-
-
-    <TD valign="top" bgcolor="#000000">&nbsp;</TD>
-  </TR>
-</TABLE>
-
-
-</BODY>
-
-</HTML>
-
-

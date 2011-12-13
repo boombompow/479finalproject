@@ -1,0 +1,510 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<!-- Squelette sommaire.html -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Conférence des recteurs et des principaux des universités du Québec</title>
+    <link rel="stylesheet" type="text/css" href="http://www.crepuq.qc.ca/squelettes/css/styles.css" />
+	<link rel="stylesheet" type="text/css" href="http://www.crepuq.qc.ca/squelettes/css/emploi.css" />
+    <script src="http://www.crepuq.qc.ca/squelettes/css/javascript.js" type="text/javascript"></script>
+    <script src="http://www.crepuq.qc.ca/squelettes/css/jquery-1.1.2.pack.js" type="text/javascript"></script>
+
+    <!-- Scripts pour formulaire et menu vertical -->
+    
+    <!--[if gte IE 5]>
+		<style>
+			#p7swapmenu ul a {height: 1em;}
+		</style>
+	<![endif]-->
+    <!--[if IE 5]>
+	<style>
+		#p7swapmenu li {margin-top: -3px;}
+	</style>
+	<![endif]-->
+    <style type="text/css">  
+        #accueil ul#etudiant li ul#bibl li {
+            list-style-type: none;
+            padding-left: 15px;
+            background: url(fleche-noire.gif) no-repeat left 4px;
+            }
+
+    </style>    
+</head>
+<body onload="P7_initPM(1,0,1,0,0);P7_swapClass(0,'','open','closed','li')" id="accueil">
+ <!--===== CONTENEUR =====--> 
+<div id="conteneur">
+    <!--===== ENT�`TE =====--> 
+	<div id="entete">
+        <h1><span>Conférence des recteurs et des principaux des universités du Québec</span></h1>
+		<h2>What&rsquo;s New</h2>
+	</div>
+
+    <!--===== ENT�`TE // FIN =====--> 
+	<div id="cadre">
+        <!--===== NAVIGATION =====-->
+
+		<div id="colGauche">
+		    <!-- FORMULAIRE DE RECHERCHE // D�0BUT -->
+
+	<form action="http://www.crepuq.qc.ca/search.php3?lang=en" method="get">
+    <fieldset>
+  		<input class="spip_recherche" name="recherche" value="Search This Site" onfocus="clearText(this);" />
+  		<input type="image" class="bouton" name="recherche" src="squelettes/css/images/recherche-bouton.jpg" alt="recherche" />
+    </fieldset>
+	</form>
+    
+
+ <!-- FORMULAIRE DE RECHERCHE // FIN -->   
+    
+<!-- MENU VERTICAL // D�0BUT -->
+<div id="p7swapmenu">
+
+    <ul>
+    
+	<li id="p4" class="closed"><a href="_lang_en_" onclick="P7_swapClass(4,'p4','open','closed','li')">Activities by Sector</a>
+		<ul id="nav">
+			
+			<li>
+                        <a href="http://www.crepuq.qc.ca/spip.php?rubrique31&lang=en">Administration and Finance</a>
+                       
+                        </li>
+			
+			<li>
+                        <a href="http://www.crepuq.qc.ca/spip.php?rubrique37&lang=en">Legal Affairs and Archives</a>
+                       
+                        </li>
+			
+			<li>
+                        <a href="http://www.crepuq.qc.ca/spip.php?rubrique465&lang=en">Analyse des politiques publiques</a>
+                       
+                        </li>
+			
+			<li>
+                        <a class="menuparent" href="http://www.crepuq.qc.ca/spip.php?rubrique8&lang=en">Teaching and Research</a>
+                       
+              
+                <ul style="z-index: 1;">
+			        
+                    <li><a href="http://www.crepuq.qc.ca/spip.php?article760">Academic Affairs</a></li>
+			        
+                    <li><a href="http://www.crepuq.qc.ca/spip.php?article758">Admission and Student Files</a></li>
+			        
+                    <li><a href="http://www.crepuq.qc.ca/spip.php?article784">Current Program Evaluation Review</a></li>
+			        
+                    <li><a href="http://www.crepuq.qc.ca/spip.php?article768">Ethics in University Research</a></li>
+			        
+                    <li><a href="http://www.crepuq.qc.ca/spip.php?article782">Information and Communication Technologies (ICT)</a></li>
+			        
+                    <li><a href="http://www.crepuq.qc.ca/spip.php?article764">Libraries</a></li>
+			        
+                    <li><a href="http://www.crepuq.qc.ca/spip.php?article762">Medical Affairs</a></li>
+			        
+                    <li><a href="http://www.crepuq.qc.ca/spip.php?article770">Program Proposal Evaluation</a></li>
+			        
+                    <li><a href="http://www.crepuq.qc.ca/spip.php?article772">Research</a></li>
+			        
+                    <li><a href="http://www.crepuq.qc.ca/spip.php?article776">Student Services</a></li>
+			        
+                    <li><a href="http://www.crepuq.qc.ca/spip.php?article778">University Sports</a></li>
+			        
+		        </ul>
+                        </li>
+			
+			<li>
+                        <a href="http://www.crepuq.qc.ca/spip.php?rubrique38&lang=en">Information and Public Relations</a>
+                       
+                        </li>
+			
+			<li>
+                        <a href="http://www.crepuq.qc.ca/spip.php?rubrique369&lang=en">Institutional Research</a>
+                       
+                        </li>
+			
+			<li>
+                        <a href="http://www.crepuq.qc.ca/spip.php?rubrique56&lang=en">International Relations</a>
+                       
+                        </li>
+			
+			<li>
+                        <a href="http://www.crepuq.qc.ca/spip.php?rubrique224&lang=en">Human Resources, Health and Safety</a>
+                       
+                        </li>
+			
+		</ul>
+	</li>
+	
+    <li id="p3" class="open">
+            <a href="http://www.crepuq.qc.ca/rubrique.php3?id_rubrique=7&&lang=en">Publications</a>    </li>
+    
+    
+	<li id="p2" class="open"><a href="_lang_en_" onclick="P7_swapClass(2,'p2','open','closed','li')">Useful Links</a>
+		<ul>
+			
+			<li>
+            <a href="http://www.crepuq.qc.ca/spip.php?rubrique16&lang=en">Ministries and Agencies</a>                      
+            </li>
+			
+			<li>
+            <a href="http://www.crepuq.qc.ca/spip.php?rubrique11&lang=en">Research Guides</a>                      
+            </li>
+			
+			<li>
+            <a href="http://www.crepuq.qc.ca/spip.php?rubrique12&lang=en">Student Federations and Unions</a>                      
+            </li>
+			
+			<li>
+            <a href="http://www.crepuq.qc.ca/spip.php?rubrique13&lang=en">University Associations</a>                      
+            </li>
+			
+			<li>
+            <a href="http://www.crepuq.qc.ca/spip.php?rubrique14&lang=en">Research Agencies</a>                      
+            </li>
+			
+			<li>
+            <a href="http://www.crepuq.qc.ca/spip.php?rubrique15&lang=en">Business</a>                      
+            </li>
+			
+			<li>
+            <a href="http://www.crepuq.qc.ca/spip.php?rubrique17&lang=en">School and College Associations</a>                      
+            </li>
+			
+			<li>
+            <a href="http://www.crepuq.qc.ca/spip.php?rubrique18&lang=en">Professional Organizations</a>                      
+            </li>
+			
+		</ul>
+	</li>
+	     
+    </ul>
+    
+    
+    <li id="p509" class="open">
+            <a href="http://www.crepuq.qc.ca/spip.php?rubrique509">Postes offerts dans les établissements universitaires québécois</a>
+    </li>
+    
+    
+<div id="photo">&nbsp;</div>
+</div>
+<!-- MENU VERTICAL // FIN -->		</div>
+        <div id="menuhorizontal">
+        <ul id="p7PMnav">
+
+    <li><a id="p7PMroot1en" href="http://www.crepuq.qc.ca/?lang=en">Home</a>
+    </li>
+    
+    <li><a id="p7PMroot2en" href="_lang_en_" class="p7PMtrg">Qu&eacute;bec Universities</a> 
+    <ul id="niveau21">
+        <li>
+        	<a href="http://www.ubishops.ca/">- Bishop�"s University
+            </a>
+        </li>
+        <li>
+        	<a href="../Documentswww.concordia.ca/">- Concordia University</a></li>
+        <li>
+        	<a href="http://www.ulaval.ca/">- Universit&eacute; Laval</a></li>
+        <li>
+        	<a href="../Documentswww.mcgill.ca/index.html">- McGill University</a></li>
+
+        <li>
+        	<a href="http://www.umontreal.ca/">- Universit&eacute; de Montr&eacute;al</a></li>
+        <li>
+        	<a href="http://www.hec.ca/">&nbsp;&nbsp;- HEC Montr&eacute;al</a></li>
+        <li>
+        	<a href="../Documentswww.polymtl.ca/index.html">&nbsp;&nbsp;- &Eacute;cole Polytechnique</a></li>
+            
+        <li>
+        	<a href="http://www.usherbrooke.ca/">- Universit&eacute; de Sherbrooke</a></li>
+        
+        <li>
+        	<a href="http://www.uquebec.ca/">- Universit&eacute; du Qu&eacute;bec - Si&egrave;ge social</a>
+        	</li>
+        <li>
+        	<a href="http://www.uqam.ca/">&nbsp;&nbsp;- Universit&eacute; du Qu&eacute;bec &agrave; Montr&eacute;al</a>
+        </li>
+        <li>
+        	<a href="http://www.uqtr.ca/">&nbsp;&nbsp;- Universit&eacute; du Qu&eacute;bec &agrave; Trois-Rivières</a>
+        </li>
+        <li>
+        	<a href="http://www.uqac.ca/">&nbsp;&nbsp;- Universit&eacute; du Qu&eacute;bec &agrave; Chicoutimi</a>
+        </li>
+        <li>
+        	<a href="http://www.uqar.ca/">&nbsp;&nbsp;- Universit&eacute; du Qu&eacute;bec &agrave; Rimouski</a>
+        </li>
+        <li>
+        	<a href="http://www.uqo.ca/">&nbsp;&nbsp;- Universit&eacute; du Qu&eacute;bec en Outaouais</a>
+        </li>
+        <li>
+        	<a href="http://www.uqat.ca/">&nbsp;&nbsp;- Universit&eacute; du Qu&eacute;bec en Abitibi-T&eacute;miscamingue</a>
+        </li>
+        <li>
+        	<a href="http://www.inrs.ca/">&nbsp;&nbsp;- Institut national de la recherche scientifique</a>
+        </li>
+        <li>
+        	<a href="http://www.enap.ca/">&nbsp;&nbsp;- &Eacute;cole nationale d�"administration publique</a>
+        </li>
+        <li>
+        	<a href="../Documentswww.etsmtl.ca/index.html">&nbsp;&nbsp;- &Eacute;cole de technologie sup&eacute;rieure</a>
+        </li>
+        <!--li>
+        	<a href="http://www.teluq.uqam.ca/"
+        	>&nbsp;&nbsp;- T&eacute;l&eacute;-universit&eacute; (T&Eacute;LUQ)</a>
+        </li-->
+	</ul>
+    </li>
+    <li><a id="p7PMroot3en" href="_lang_en_" class="p7PMtrg">About CREPUQ</a>
+    <ul id="niveau22">
+    	<li>
+        	<a style="width: 150px;" href="http://www.crepuq.qc.ca/spip.php?article31&lang=en">
+            	Mandate
+            </a>
+        </li>
+        <li>
+        	<a style="width: 150px;" href="http://www.crepuq.qc.ca/spip.php?rubrique253&lang=en">
+            	Officers
+            </a>
+        </li>
+        <li>
+        	<a style="width: 150px;" href="http://www.crepuq.qc.ca/spip.php?rubrique244&lang=en">
+            	Staff
+            </a>
+        </li>
+        <li>
+        	<a style="width: 150px;" href="http://www.crepuq.qc.ca/Organigramme/Organigramme_personnel_CREPUQ.pdf">
+            	Staff Organisation Chart
+            </a>
+        </li>
+        <li>
+        	<a style="width: 150px;" href="http://www.crepuq.qc.ca/spip.php?rubrique255&lang=en">
+            	CREPUQ's Organisation Chart
+            </a>
+        </li>
+        <li>
+        	<a style="width: 150px;" href="http://www.crepuq.qc.ca/spip.php?article925&lang=en">
+            	R&egrave;glements de la CREPUQ
+            </a>
+        </li>
+        <li>
+        	<a style="width: 150px;" href="http://www.crepuq.qc.ca/spip.php?rubrique252&lang=en">
+            	Web Team
+            </a>
+        </li>
+		<li>
+        	<a href="http://www.crepuq.qc.ca/spip.php?article1151&lang=en">Contact Us
+            </a>
+        </li>
+    </ul>
+    </li>
+    <li><a id="p7PMroot5en" href="http://www.crepuq.qc.ca/spip.php?page=plan">Site Map</a></li>
+    <!--[if lte IE 6]>
+    <style>
+        #p7PMnav a{height:1em;}
+        #p7PMnav li{height:1em;}
+        #p7PMnav ul li{float:left;clear:both;width:100%}
+    </style>
+    <![endif]-->
+    <!--[if IE 6]>
+    <style>
+        #p7PMnav ul li{clear:none;}
+    </style>
+    <![endif]-->
+</ul>
+        
+                  
+        <span><a href="http://www.crepuq.qc.ca/?lang=fr">Fran&ccedil;ais</a></span>
+     
+        </div> 
+        <!--===== NAVIGATION // FIN =====-->
+
+        <!--===== COLONNE DROITE =====--> 
+		<div id="colDroite">
+			<div id="colDroite2" style="position:absolute; margin-left:220px; width:200px;">
+
+    
+
+    
+        <div style="margin-bottom:0; padding-bottom:6px; border-bottom: 1px solid #B1C1D0;" class=" crayon article-texte-1016 "><ul class="spip"><li class="spip"> <span class='spip_document_1475 spip_documents' >
+<a href="http://www.crepuq.qc.ca/EducQ" class="spip_out"><img src="http://www.crepuq.qc.ca/IMG/png/educq.png" width="132" height="50" alt="" /></a></span></li></ul></div><br />
+        <br />
+    
+
+    
+        <div style="margin-bottom:0; padding-bottom:6px; border-bottom: 1px solid #B1C1D0;" class=" crayon article-texte-1291 "><ul class="spip"><li class="spip"> <span class='spip_document_1515 spip_documents' >
+<a href="http://www.crepuq.qc.ca/spip.php?rubrique185" class="spip_in"><img src="http://www.crepuq.qc.ca/IMG/png/cote-r-en.png" width="132" height="50" alt="" /></a></span></li></ul></div><br />
+        <br />
+    
+
+    
+        <div style="margin-bottom:0; padding-bottom:2px; border-bottom: 1px solid #B1C1D0;" class=" crayon article-texte-707 "><ul class="spip"><li class="spip"> <span class='spip_document_1226 spip_documents' >
+<a href="http://equinox.uwo.ca/ViewEntryScreen.asp" class="spip_out"><img src="http://www.crepuq.qc.ca/IMG/gif/equinox_ban_139x63_2.gif" width="139" height="63" alt="" /></a></span>
+<br />Data delivery System</li></ul></div><br />
+        <br />
+    
+
+    
+        <div style="margin-bottom:8px; padding-bottom:2px; border-bottom: 1px solid #B1C1D0;" class=" crayon article-texte-866 "><ul class="spip"><li class="spip"> <a href="http://www.crepuq.qc.ca/spip.php?rubrique169" class="spip_in" hreflang="fr">Direct Library Loans</a></li><li class="spip"> <span class='spip_document_1015 spip_documents' >
+<a href="http://www.uquebec.ca/colombo/anglais.html" class="spip_out"><img src="http://www.crepuq.qc.ca/IMG/png/colombo-en.png" width="200" height="69" alt="" /></a></span></li></ul></div><br />
+        <br />
+    
+</div>
+
+
+    <h3>For Students</h3>
+    <div id="etudiant">
+        
+            <p id="ART704" class=" crayon article-texte-704 "><span class='spip_document_1172 spip_documents spip_documents_center' >
+<a href="http://www.crepuq.qc.ca/spip.php?rubrique49&lang=en" class="spip_out"><img src="http://www.crepuq.qc.ca/IMG/png/admission_et_dossier_etudiant-en.png" width="132" height="50" alt="" /></a></span></p>
+        
+            <p id="ART705" class=" crayon article-texte-705 "><span class='spip_document_291 spip_documents' >
+<a href="http://mobilite-cours.crepuq.qc.ca/en" class="spip_out"><img src="http://www.crepuq.qc.ca/IMG/gif/logo-transfert-credits.gif" width="112" height="56" alt="" /></a></span></p>
+        
+            <p id="ART867" class=" crayon article-texte-867 "><span class='spip_document_292 spip_documents' >
+<a href="http://echanges-etudiants.crepuq.qc.ca/Accueil.php3?id_article=202" class="spip_out"><img src="http://www.crepuq.qc.ca/IMG/gif/logo-student-exchange.gif" width="105" height="54" alt="" /></a></span></p>
+        
+            <p id="ART1011" class=" crayon article-texte-1011 "><span class='spip_document_1016 spip_documents spip_documents_center' >
+<a href="http://www.crepuq.qc.ca/spip.php?article983" class="spip_in"><img src="http://www.crepuq.qc.ca/IMG/png/programmes_de_matrise_et_doctorat.png" width="132" height="50" alt="" /></a></span></p>
+        
+            <p id="ART706" class=" crayon article-texte-706 "><span class='spip_document_1171 spip_documents' >
+<a href="http://www.universitesquebecoises.ca/show_section.php?L=en&Niveau1=109&Niveau2=&Niveau3=&Niveau4=&ContenuID=63" class="spip_out"><img src="http://www.crepuq.qc.ca/IMG/png/faq_internationnaux-en.png" width="132" height="50" alt="" /></a></span></p>
+        
+            <p id="ART1073" class=" crayon article-texte-1073 "><span class='spip_document_990 spip_documents' >
+<a href="http://www.universitesquebecoises.ca/langue_anglais.php?L=fr" class="spip_out"><img src="http://www.crepuq.qc.ca/IMG/gif/FR_IDENTITE_Universite_au_Quebec_CMYK_NOIR_.gif" width="152" height="55" alt="" /></a></span></p>
+        
+    </div>
+
+
+		</div>
+        <!--===== COLONNE DROITE // FIN =====-->
+        
+        <!--===== CONTENU PRINCIPAL =====-->        
+		<div id="contenu">
+
+                        <p id="englishVisitors">
+            
+                <a href="javascript:Ouvrir4('popup-article.php3?id_article=736')">To our English-speaking visitors</a>
+            
+            </p>
+            
+            <!-- Avis -->
+	    	            <!-- Avis // fin -->
+            
+            <!-- Emploi -->
+		        
+    	
+    
+            <!-- Emploi // fin -->
+            
+            <!-- Communiqués -->
+		        <dl class="breves" style="margin-top: 0;">
+        
+        <div class="clicArchives"><a href="http://www.crepuq.qc.ca/spip.php?page=archives&id_rubrique=1&lang=fr">Archives >></a></div> 
+            <dt>Press Releases</dt>
+             
+                <dd class="date">27 October 2011</dd>
+                <dd><a href="http://www.crepuq.qc.ca/spip.php?article1348&lang=en">English version available soon</a></dd> 
+             
+                <dd class="date">13 October 2011</dd>
+                <dd><a href="http://www.crepuq.qc.ca/spip.php?article1347&lang=en">Rendez-vous du Savoir: A resounding success across the board</a></dd> 
+             
+                <dd class="date">5 October 2011</dd>
+                <dd><a href="http://www.crepuq.qc.ca/spip.php?article1345&lang=en">Quebec Universities report a significant rise in registration for the third consecutive year</a></dd> 
+            
+            
+        
+    </dl>
+            <!-- Communiqués // fin -->
+            
+            <!-- Interventions de la CREPUQ -->
+		        <dl class="breves">
+		
+		<div class="clicArchives">
+        	<!--a href="interventions.php3?lang=en">Archives >></a-->
+        	<a href="http://www.crepuq.qc.ca/spip.php?page=archives&id_rubrique=378&lang=en">Archives >></a>
+        </div> 
+			<dt>Statements by CREPUQ</dt>
+		
+		 
+			<dd class="date">13 September 2011</dd>
+			<dd><a href="http://www.crepuq.qc.ca/spip.php?article1340&lang=en">La planification de l�"immigration au Québec pour la période 2012-2015</a></dd> 
+		 
+			<dd class="date">14 June 2011</dd>
+			<dd><a href="http://www.crepuq.qc.ca/spip.php?article1327&lang=en">Rencontre des partenaires sur l&#8217;adéquation entre la formation et les besoins de main-d&#8217;oeuvre</a></dd> 
+		 
+			<dd class="date">18 April 2011</dd>
+			<dd><a href="http://www.crepuq.qc.ca/spip.php?article1315&lang=en">�0lections fédérales 2011</a></dd> 
+		
+		
+        <!-- dd>&nbsp;&nbsp;Consult our archives...</dd-->
+		
+	</dl>
+            <!-- Interventions de la CREPUQ // fin -->
+
+            <!-- Faits saillants -->
+		    <!-- Faits saillants -->
+<dl class="breves" style="margin-top: 0;">
+    
+        <div class="clicArchives"><a href="http://www.crepuq.qc.ca/spip.php?page=archives&id_rubrique=455&lang=fr">Archives >></a></div> 
+        <dt class="crayon rubrique-titre-455 ">On the lookout</dt>
+
+        
+        <dd>&nbsp;&nbsp;Consult our archives...</dd>
+        
+            
+    
+</dl>
+<!-- Faits saillants // fin -->
+            <!-- Faits saillants // fin -->
+            
+            <!-- Evenements -->
+ 		    <!-- Evenements -->
+    <dl class="breves">
+    
+        <div class="clicArchives"><a href="http://www.crepuq.qc.ca/spip.php?page=archives&id_rubrique=2&lang=fr">Archives >></a></div>
+        <dt>Events</dt>
+        
+        <dd>&nbsp;&nbsp;Events will be announced in due time.</dd>
+        
+    
+    </dl>
+<!-- Evenements -->
+            <!-- Evenement // fin -->
+
+            <!-- Vient de paraitre -->
+ 		    <!-- Parutions -->
+	          
+    <dl class="breves">
+    <div class="clicArchives"><a href="http://www.crepuq.qc.ca/spip.php?page=archives&id_rubrique=4&lang=en">Archives >></a></div> 
+    <dt>Just Released </dt>
+     
+        <dd class="date">7 November 2011</dd>
+        <dd><a href="http://www.crepuq.qc.ca/spip.php?article1349&lang=en">Processus de Bologne. Conversion en ECTS et supplément au diplôme.  Rapport du Groupe de travail sur le processus de Bologne</a></dd> 
+    
+    
+    </dl>
+<!-- Parutions // -->
+            <!-- Vient de paraitre // fin -->
+
+            <!-- Infrastructure du savoir -->
+		    <!-- Infrastructure du savoir -->
+<dl class="breves" style="margin-top: 0;">
+    
+        <div class="clicArchives"><a href="http://www.crepuq.qc.ca/spip.php?page=archives&id_rubrique=453&lang=fr">Archives >></a></div> 
+        <dt class="crayon rubrique-titre-453 ">Knowledge Infrastructure Program</dt>
+
+        
+	        <dd>&nbsp;&nbsp;Consult our archives...</dd>
+        
+            
+    
+</dl>
+<!-- Faits saillants // fin -->
+            <!-- Infrastructure du savoir // fin -->
+            
+
+       </div>
+        <!--===== CONTENU PRINCIPAL // FIN =====--> 
+	</div>
+</div>
+<!-- Conteneur // FIN -->
+</body>
+</html>

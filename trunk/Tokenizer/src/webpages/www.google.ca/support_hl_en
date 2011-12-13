@@ -1,0 +1,766 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en"
+class="streamlined streamlined-3">
+<head>
+<script type="text/javascript">serverResponseTimeDelta=window.external&&window.external.pageT?window.external.pageT:-1;pageStartTime=new Date().getTime();</script>
+<title>Google Help</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Google Help Center where you can find tips and tutorials on using Google's products and answers to frequently asked questions." />
+<meta name="google-site-verification"
+content="5LMbwOlwGqgoi4xWy0PUG4fKEQVyA8ltQj8cFd5czYU" />
+<link rel="canonical" href="http://support.google.com/?hl=en" />
+<link rel="shortcut icon" href="http://www.google.com/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="http://support.google.com/bin/resource/all.css?v=376_2" />
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
+<script type="text/javascript">
+var internal = 0;
+var hc_protocol = "http://";
+var hc_host = "support.google.com";
+var hc_url_root = "";
+var hc_page_info = "homepage";
+var track = function() {};
+var country = 'CA';
+var countryGroup = 'Americas';
+var rec_eng_type = "CONSUMER";
+var global_error_general = 'Sorry, we weren\x27t able to submit your information. Please try again.';
+var search_form_id = 'search-form';
+var hc_urchin = "UA-18033-3";
+var global_hc_bookmark = new Array("add","remove","toggle");
+global_hc_bookmark.add = new Array();
+global_hc_bookmark.remove = new Array();
+global_hc_bookmark.toggle = new Array();
+global_hc_bookmark["add"].url = "";
+global_hc_bookmark["add"].token = "";
+global_hc_bookmark["remove"].url = "";
+global_hc_bookmark["remove"].token = "";
+global_hc_bookmark["toggle"].url = "";
+global_hc_bookmark["toggle"].token = "";
+var hiddenZippyLists = '{"country": {"answerId": "", "zippiesString": "These instructions are optimized for your current system\x27s configuration. To view these instructions for another configuration, select the configuration:&nbsp;", "defaultValue": "CA", "validItems": {"AF": "Afghanistan", "AL": "Albania", "DZ": "Algeria", "AS": "American Samoa", "AO": "Angola", "AI": "Anguilla", "AQ": "Antarctica", "AD": "Andorra", "AR": "Argentina", "AM": "Armenia", "AW": "Aruba", "AT": "Austria", "AU": "Australia", "AZ": "Azerbaijan", "BS": "Bahamas", "BH": "Bahrain", "BD": "Bangladesh", "BB": "Barbados", "AG": "Barbuda", "BY": "Belarus", "BZ": "Belize", "BE": "Belgium", "BN": "Benin", "BM": "Bermuda", "BT": "Bhutan", "BO": "Bolivia", "BW": "Botswana", "BA": "Bosnia and Herzegovina", "BR": "Brazil", "VG": "British Virgin Islands", "BN": "Brunei", "BN": "Brunei Darussalam", "BG": "Bulgaria", "BF": "Burkina Faso", "BI": "Burundi", "CM": "Cameroon", "KH": "Cambodia", "CA": "Canada", "CV": "Cape Verde Islands", "KY": "Cayman Islands", "CF": "Central African Republic", "TD": "Chad", "CL": "Chile", "CN": "China", "CX": "Christmas Island", "CC": "Cocos Islands", "CO": "Colombia", "CK": "Cook Islands", "KM": "Comoros", "CG": "Congo", "CR": "Costa Rica", "CI": "Cote d\x27Ivoire", "HR": "Croatia", "CU": "Cuba", "CY": "Cyprus", "CZ": "Czech Republic", "DK": "Denmark", "DJ": "Djibouti", "DM": "Dominica", "DO": "Dominican Republic", "EC": "Ecuador", "EG": "Egypt", "SV": "El Salvador", "GQ": "Equitorial Guinea", "ER": "Eritrea", "EE": "Estonia", "ET": "Ethiopia", "FK": "Falkland Islands", "FO": "Faroe Islands", "FJ": "Fiji", "FI": "Finland", "FR": "France", "GF": "French Guiana", "PF": "French Polynesia", "TF": "French Southern Territories", "GA": "Gabon", "GM": "Gambia", "GE": "Georgia", "DE": "Germany", "GH": "Ghana", "GI": "Gibraltar", "GR": "Greece", "GL": "Greenland", "GD": "Grenada", "CP": "Guadeloupe", "GU": "Guam", "GT": "Guatemala", "GF": "Guiana", "GN": "Guinea", "GW": "Guinea-Bissau", "GY": "Guyana", "HT": "Haiti", "HN": "Honduras", "HK": "Hong Kong", "HU": "Hungary", "IS": "Iceland", "IN": "India", "ID": "Indonesia", "IR": "Iran", "IQ": "Iraq", "IE": "Ireland", "IL": "Israel", "IT": "Italy", "JM": "Jamaica", "JP": "Japan", "JO": "Jordan", "KZ": "Kazakhstan", "KI": "Kiribati", "KE": "Kenya", "KW": "Kuwait", "KG": "Kyrgyzstan", "LA": "Laos", "LV": "Latvia", "LB": "Lebanon", "LS": "Lesotho", "LR": "Liberia", "LY": "Libyan Arab Jamahiriya", "LI": "Liechtenstein", "LT": "Lithuania", "LU": "Luxembourg", "MO": "Macau", "MK": "Macedonia", "MG": "Madagascar", "MY": "Malaysia", "MT": "Malta", "MW": "Malawi", "MV": "Maldives", "ML": "Mali", "MP": "Mariana Islands", "MH": "Marshall Islands", "MQ": "Martinique", "MR": "Mauritania", "MU": "Mauritius", "YT": "Mayotte Island", "MX": "Mexico", "MD": "Moldova", "FM": "Micronesia", "MC": "Monaco", "MN": "Mongolia", "MS": "Montserrat", "MA": "Morocco", "MZ": "Mozambique", "MM": "Myanmar", "NA": "Namibia", "NR": "Nauru", "NP": "Nepal", "NL": "Netherlands", "AN": "Netherlands Antilles", "KN": "Nevis", "NC": "New Caledonia", "NI": "Nicaragua", "NE": "Niger", "NG": "Nigeria", "NU": "Niue", "KR": "North Korea", "NO": "Norway", "NZ": "New Zealand", "OM": "Oman", "PW": "Palau", "PK": "Pakistan", "PS": "Palestine", "PA": "Panama", "PG": "Papua New Guinea", "PY": "Paraguay", "PE": "Peru", "PH": "Philippines", "PN": "Pitcairn Islands", "PO": "Poland", "PT": "Portugal", "PR": "Puerto Rico", "QA": "Qatar", "RE": "Reunion Island", "RO": "Romania", "RU": "Russia", "RW": "Rwanda", "WS": "Samoa", "ST": "Sao Tome and Principe", "SM": "San Marino", "SA": "Saudi Arabia", "SN": "Senegal", "CS": "Serbia and Montenegro", "SC": "Seychelles", "SL": "Sierra Leone", "SG": "Singapore", "SK": "Slovakia", "SI": "Slovenia", "ES": "Spain", "SO": "Somalia", "SB": "Solomon Islands", "ZA": "South Africa", "KP": "South Korea", "LK": "Sri Lanka", "SR": "Suriname", "SD": "Sudan", "SS": "South Sudan", "SH": "St. Helena", "KN": "St. Kitts and Nevis", "LC": "St. Lucia", "PM": "St. Pierreet Miquelon", "VC": "St. Vincent and the Grenadines", "SZ": "Swaziland", "SE": "Sweden", "CH": "Switzerland", "SY": "Syrian Arab Republic", "TW": "Taiwan", "TJ": "Tajikistan", "TZ": "Tanzania", "TH": "Thailand", "TB": "Tibet", "TL": "Timor", "TG": "Togo", "TK": "Tokelau", "TO": "Tonga", "TT": "Trinidad and Tobago", "TN": "Tunisia", "TR": "Turkey", "TM": "Turkmenistan", "TC": "Turks and Caicos Islands", "TV": "Tuvalu", "UK": "Ukraine", "UG": "Uganda", "UE": "United Arab Emirates", "GB": "United Kingdom", "US": "USA", "VI": "U.S. Virgin Islands", "UY": "Uruguay", "UZ": "Uzbekistan", "VU": "Vanuatu", "VA": "The Vatican", "VE": "Venezuela", "VN": "Vietnam", "EH": "Western Sahara", "YE": "Yemen", "CD": "Zaire", "ZM": "Zambia", "ZW": "Zimbabwe", "other": "Other"}}}';
+</script>
+<script src="http://support.google.com/bin/resource/js_variables.js?v=6&hl=en" type="text/javascript"></script>
+<script type="text/javascript" src="http://www.google.com/receng/js/receng.js"></script>
+<script src="http://support.google.com/bin/resource/js_minified.js?v=124" type="text/javascript"></script>
+<script src="https://plusone.google.com/js/plusone.js">
+{lang: 'en', parsetags: 'explicit'}
+</script>
+</head>
+<body onload="
+setCookies_default('UserLocale',
+'en','formLoad'); registerSearchForm(search_form_id, 'query');getRecommendations(rec_eng_type, gaia_name, hc_lang);makeRequest('/bin/stats?r='+serverResponseTimeDelta+'&l='+(new Date().getTime()-pageStartTime)); 
+"
+dir="ltr"
+class=" index_page streamlined streamlined-3 streamlined-header-1 ltr lang_en show_modules show_leftnav other  other  new-ui-index ">
+<a href="http://support.google.com/?hl=en#content" class="skiplink">Skip to content</a>
+<div class="wrapper" id="baseDiv">
+<div id=gbar><nobr><a class="gb1" href="https://mail.google.com/mail/">Gmail</a> <a class="gb1" href="https://www.google.com/calendar">Calendar</a> <a class="gb1" href="https://docs.google.com/">Documents</a> <a class="gb1" href="http://picasaweb.google.com/home?hl=en">Photos</a> <a class="gb1" href="https://sites.google.com/">Sites</a> <a class="gb1" href="../Documentsgroups.google.com/grphp_hl_en">Groups</a> <a class="gb1" href="webhp_hl_en">Web</a> <a class="gb1" style="text-decoration:none" href="intl/en/options/index.html"><u>More</u> &raquo;</a></nobr></div><div id=guser width=100%><nobr><span id=gbn class=gbi></span><span id=gbf class=gbf></span><span id=gbe></span><a id="gb_70" href="https://www.google.com/accounts/ServiceLogin?passive=1209600&continue=http://support.google.com/?hl%3Den&followup=http://support.google.com/?hl%3Den&hl=en" class="gb4">Sign in</a></nobr></div><div class=gbh style=left:0></div><div class=gbh style=right:0></div>
+<style type="text/css">#gbar,#guser{font-size:13px;padding-right:8px;padding-top:4px !important}#gbar{padding-left:8px;height:22px}#guser{padding-bottom:7px !important;text-align:right}.gbh,.gbd{border-top:1px solid #c9d7f1;font-size:1px}.gbh{height:0;position:absolute;top:24px;width:100%}@media all{.gb1{height:22px;margin-right:.5em;vertical-align:top}#gbar{float:left}}a.gb1,a.gb4{text-decoration:underline !important}a.gb1,a.gb4{color:#00c !important}.gbi .gb4{color:#dd8e27 !important}.gbf .gb4{color:#900 !important}</style>
+<script type="text/javascript"></script>
+<div id="hc_error"></div>
+<div class="header-wrapper">
+<div class="header-logo ">
+<a class="logo-container" href="">
+<img src="http://www.google.com/images/logos/google_logo_41.png" alt="Google" class="logo" /></a>
+<div class="searchbox">
+<? # Set hidden input fields. # ?>
+<form name="search-form" id="search-form" title="Search Help" method="get" action="http://support.google.com/bin/search.py" onsubmit="track('Search Help',
+document.getElementById('query').value);return false;">
+<input autocomplete="off"
+class="search-box"
+type="text"
+name="query"
+id="query"
+maxlength="2048"
+placeholder="Search Google help"
+title="Search"
+x-webkit-speech
+spellcheck="false" /><button type="submit"
+name="btnG"
+class="search-button"
+alt="Search Help">
+<img src="http://www.google.com/help/hc/images/hc_magnifying_glass.png">
+</button>
+<input type="hidden" name="ctx" value="en:searchbox" />
+</form>
+</div>
+</div>
+<div class="header-bar ">
+<h1>
+<a href="" onclick="track('Header', 'HC Title')">
+Google
+</a>
+</h1>
+<div id="yarnball">
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<div class="main-content-container"><table class="layout" border="0"><tr>
+<td class="left-col-module">
+<!--googleoff: snippet-->
+<div class="left-mod-container"><h4 class="left-mod-title">Help with your Google Account</h4><p class="left-mod-subtitle"></p><ul class="left-hp-mod"><li class="left-mod-link"><a href="http://support.google.com/bin/answer.py?answer=1723803" onclick="track('LeftNav - GSG', '0');"><span><span class="signin">Problems signing into your account</span></span></a></li><li class="left-mod-link"><a href="http://support.google.com/bin/answer.py?answer=1723755" onclick="track('LeftNav - GSG', '1');"><span><span class="password">Recovering your password</span></span></a></li><li class="left-mod-link"><a href="http://support.google.com/bin/answer.py?answer=1723757" onclick="track('LeftNav - GSG', '2');"><span><span class="verification">I didn't receive a verification email</span></span></a></li><li class="left-mod-link"><a href="http://support.google.com/bin/answer.py?answer=1723763" onclick="track('LeftNav - GSG', '3');"><span>Google Account Help</span></a></li></ul></div>
+<!--googleon: snippet-->
+</td>
+<td class="content new-ui">
+<div class="inner_content ">
+<div id="hcError" style="display:none"></div>
+<a name="content"></a>
+<div id="page-content">
+<div id="zippy-dropdown-container"
+class="zippy-dropdown-container-hide"></div>
+<h2 class="portal-title">
+Google Help Centers
+</h2>
+<p class="portal-intro">
+Visit our Help Centers to learn the ins-and-outs of Google products and solve any problems you encounter.
+</p>
+<div id="portal-wrapper" class="show-less">
+<div class="less-section">
+<ul class="portal">
+<li>
+<a href="http://support.google.com/accounts/?hl=en" style="background-image:url(//www.google.com/images/accounts-35.gif)" onclick="track('Help Centers', 'accounts');">
+Accounts Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/mail/?hl=en" style="background-image:url(//www.google.com/images/icons/product/googlemail-32.png)" onclick="track('Help Centers', 'gmail');">
+Gmail Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/websearch/?hl=en" style="background-image:url(//www.google.com/images/icons/product/search-32.gif)" onclick="track('Help Centers', 'websearch');">
+Web Search Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/toolbar/?hl=en" style="background-image:url(//www.google.com/images/icons/product/toolbar-32.png)" onclick="track('Help Centers', 'toolbar_ie');">
+Toolbar Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/customsearch/?hl=en" style="background-image:url(//www.google.com/images/icons/product/customsearch-32.png)" onclick="track('Help Centers', 'coop');">
+Custom Search Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/orkut/?hl=en" style="background-image:url(//www.google.com/images/icons/product/orkut-32.png)" onclick="track('Help Centers', 'orkut');">
+Orkut Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/chrome/?hl=en" style="background-image:url(//www.google.com/images/icons/product/chrome-32.png)" onclick="track('Help Centers', 'chrome');">
+Google Chrome Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/maps/?hl=en" style="background-image:url(//www.google.com/images/icons/product/maps-32.gif)" onclick="track('Help Centers', 'maps');">
+Maps Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/webmasters/?hl=en" style="background-image:url(//www.google.com/images/icons/product/webmaster_tools-32.png)" onclick="track('Help Centers', 'webmaster');">
+Webmaster Tools Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/checkout/?hl=en" style="background-image:url(//www.google.com/images/icons/product/checkout-32.png)" onclick="track('Help Centers', 'checkout');">
+Google Checkout Buyer Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/youtube/?hl=en" style="background-image:url(//www.google.com/images/icons/product/youtube-32.png)" onclick="track('Help Centers', 'youtube');">
+YouTube Help
+</a>
+</li>
+</ul>
+<a href="http://support.google.com/?hl=en#show-more" class="more-link" onclick="portalShowFullList(true)">
+Show more
+</a>
+</div>
+<div class="more-section">
+<div class="portal-section">
+<h2>Search</h2>
+<ul class="portal">
+<li>
+<a href="http://support.google.com/websearch/?hl=en" style="background-image:url(//www.google.com/images/icons/product/search-32.gif)" onclick="track('Help Centers', 'websearch');">
+Web Search Help
+</a>
+</li>
+<li>
+<a href="http://www.google.com/alerts/faq.html?hl=en" style="background-image:url(//www.google.com/images/icons/product/alerts-32.png)" onclick="track('Help Centers', 'alerts');">
+Alerts Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/blogsearch/?hl=en" style="background-image:url(//www.google.com/images/icons/product/blogs-32.gif)" onclick="track('Help Centers', 'blogsearch');">
+Blog Search Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/books/?hl=en" style="background-image:url(//www.google.com/images/icons/product/books-32.gif)" onclick="track('Help Centers', 'booksearch');">
+Books Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/checkout/?hl=en" style="background-image:url(//www.google.com/images/icons/product/checkout-32.png)" onclick="track('Help Centers', 'checkout');">
+Google Checkout Buyer Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/chrome/?hl=en" style="background-image:url(//www.google.com/images/icons/product/chrome-32.png)" onclick="track('Help Centers', 'chrome');">
+Google Chrome Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/chromeos/?hl=en" style="background-image:url(//www.google.com/images/icons/product/chrome-32.png)" onclick="track('Help Centers', '');">
+Chrome OS Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/desktop/?hl=en" style="background-image:url(//google.com/images/icons/product/desktop-32.png)" onclick="track('Help Centers', 'desktop');">
+Desktop for Windows Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/desktop/linux/?hl=en" style="background-image:url(//google.com/images/icons/product/desktop-32.png)" onclick="track('Help Centers', 'desktop_linux');">
+Desktop for Linux Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/desktop/mac/?hl=en" style="background-image:url(//google.com/images/icons/product/desktop-32.png)" onclick="track('Help Centers', 'desktop_mac');">
+Desktop for Mac Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/earth/?hl=en" style="background-image:url(//www.google.com/images/icons/product/earth-32.png)" onclick="track('Help Centers', 'earth');">
+Google Earth Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/finance" style="background-image:url(//www.google.com/images/icons/product/finance-32.gif)" onclick="track('Help Centers', 'finance');">
+Google Finance Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/health/?hl=en" style="background-image:url(//www.google.com/images/icons/product/health-32.png)" onclick="track('Help Centers', 'health');">
+Google Health Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/images/?hl=en" style="background-image:url(//www.google.com/images/icons/product/images-32.gif)" onclick="track('Help Centers', 'imagesearch');">
+Image Search Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/maps/?hl=en" style="background-image:url(//www.google.com/images/icons/product/maps-32.gif)" onclick="track('Help Centers', 'maps');">
+Maps Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/news/?hl=en" style="background-image:url(//www.google.com/images/icons/product/news-32.gif)" onclick="track('Help Centers', 'news');">
+Google News Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/news_pub/?hl=en" style="background-image:url(//www.google.com/images/icons/product/news-32.gif)" onclick="track('Help Centers', 'newspub');">
+Google News (publishers) Help
+</a>
+</li>
+<li>
+<a href="http://scholar.google.com/scholar/help.html" style="background-image:url(//www.google.com/images/icons/product/scholar-32.png)" onclick="track('Help Centers', 'scholar');">
+Google Scholar Help
+</a>
+</li>
+<li>
+<a href="http://www.google.cn/intl/zh-CN/shenghuo/about.html" style="background-image:url(//www.google.com/images/icons/feature/localbusiness-y32.png)" onclick="track('Help Centers', 'shenghuo');">
+Shenghuo Help*
+</a>
+</li>
+<li>
+<a href="http://support.google.com/toolbar/?hl=en" style="background-image:url(//www.google.com/images/icons/product/toolbar-32.png)" onclick="track('Help Centers', 'toolbar_ie');">
+Toolbar Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/video/?hl=en" style="background-image:url(//www.google.com/images/icons/product/video-32.gif)" onclick="track('Help Centers', 'video');">
+Google Video Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/youtube/?hl=en" style="background-image:url(//www.google.com/images/icons/product/youtube-32.png)" onclick="track('Help Centers', 'youtube');">
+YouTube Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/translate/toolkit/?hl=en" class="noicon" onclick="track('Help Centers', 'translate');">
+Google Translator Toolkit Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/translate/?hl=en" class="noicon" onclick="track('Help Centers', '');">
+Google Translate Help
+</a>
+</li>
+</ul>
+</div>
+<div class="portal-section">
+<h2>Explore and innovate</h2>
+<ul class="portal">
+<li>
+<a href="http://support.google.com/customsearch/?hl=en" style="background-image:url(//www.google.com/images/icons/product/customsearch-32.png)" onclick="track('Help Centers', 'coop');">
+Custom Search Help
+</a>
+</li>
+</ul>
+</div>
+<div class="portal-section">
+<h2>Communicate, show &amp; share</h2>
+<ul class="portal">
+<li>
+<a href="http://support.google.com/accounts/?hl=en" style="background-image:url(//www.google.com/images/accounts-35.gif)" onclick="track('Help Centers', 'accounts');">
+Accounts Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/blogger/?hl=en" style="background-image:url(//www.google.com/images/icons/product/blogger-32.png)" onclick="track('Help Centers', 'blogger');">
+Blogger Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/calendar/?hl=en" style="background-image:url(//www.google.com/images/icons/product/calendar-32.png)" onclick="track('Help Centers', 'calendar');">
+Google Calendar Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/chat/?hl=en" class="noicon" onclick="track('Help Centers', 'chat');">
+Google Chat Help
+</a>
+</li>
+<li>
+<a href="http://code.google.com/faq.html" class="noicon" onclick="track('Help Centers', '');">
+Google Code Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/docs/?hl=en" style="background-image:url(//www.google.com/images/icons/product/docs-32.png)" onclick="track('Help Centers', 'docs');">
+Google Docs Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/earthbuilder?hl=en" style="background-image:url(//www.google.com/images/icons/product/earthbuilder-32.png)" onclick="track('Help Centers', '');">
+Earth Builder Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/feedburner/" class="noicon" onclick="track('Help Centers', 'feedburner');">
+FeedBurner Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/friendconnect?hl=en" class="noicon" onclick="track('Help Centers', 'friend_connect');">
+Google Friend Connect Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/plus/?hl=en" style="background-image:url(//ssl.gstatic.com/s2/oz/images/pp/gplus-icon-29-a282dc543a26dc845e70123972e99c49a70ccc69.png)" onclick="track('Help Centers', this.href);">
+Google+ Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/reader/?hl=en" style="background-image:url(//www.google.com/images/icons/product/reader-32.png)" onclick="track('Help Centers', 'reader');">
+Google Reader Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/talk/?hl=en" style="background-image:url(//www.google.com/images/icons/product/talk-32.png)" onclick="track('Help Centers', 'talk');">
+Google Talk Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/mail/?hl=en" style="background-image:url(//www.google.com/images/icons/product/googlemail-32.png)" onclick="track('Help Centers', 'gmail');">
+Gmail Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/groups/?hl=en" style="background-image:url(//www.google.com/images/icons/product/discussions-32.gif)" onclick="track('Help Centers', 'groups');">
+Google Groups Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/mapmaker?hl=en" class="noicon" onclick="track('Help Centers', '');">
+Map Maker Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/orkut/?hl=en" style="background-image:url(//www.google.com/images/icons/product/orkut-32.png)" onclick="track('Help Centers', 'orkut');">
+Orkut Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/picasa/?hl=en" style="background-image:url(//www.google.com/images/icons/product/picasa-32.png)" onclick="track('Help Centers', 'picasa');">
+Picasa and Picasa Web Albums Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/picnik?hl=en" style="background-image:url(//www.google.com/help/hc/images/picnik_32x32.png)" onclick="track('Help Centers', 'picnik');">
+Picnik Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/appsecurity/" class="noicon" onclick="track('Help Centers', 'postini');">
+Postini Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/sites/?hl=en" style="background-image:url(//www.google.com/images/icons/product/sites-32.png)" onclick="track('Help Centers', 'sites');">
+Google Sites Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/sketchup/?hl=en" style="background-image:url(//www.google.com/images/icons/product/sketchup-32.gif)" onclick="track('Help Centers', 'sketchup');">
+SketchUp Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/webmasters/?hl=en" style="background-image:url(//www.google.com/images/icons/product/webmaster_tools-32.png)" onclick="track('Help Centers', 'webmaster');">
+Webmaster Tools Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/voice/?hl=en" style="background-image:url(//www.google.com/images/icons/product/voice-32.png)" onclick="track('Help Centers', 'voice');">
+Google Voice Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/wave/?hl=en" style="background-image:url(//www.google.com/images/icons/wave-35.png)" onclick="track('Help Centers', 'wave');">
+Google Wave Help
+</a>
+</li>
+</ul>
+</div>
+<div class="portal-section">
+<h2>Go mobile</h2>
+<ul class="portal">
+<li>
+<a href="http://support.google.com/androidmarket/?hl=en" style="background-image:url(//www.android.com/images/android-market-bag.gif)" onclick="track('Help Centers', '');">
+Android Market Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/support/mobile/?hl=en" style="background-image:url(//www.google.com/images/icons/feature/mobile_phone-32.gif)" onclick="track('Help Centers', 'mobile');">
+Google Mobile Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/artists/?hl=en" style="background-image:url(//www.google.com/images/icons/product/google_music-32.png)" onclick="track('Help Centers', 'musicpartners');">
+Music Partner Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/wallet/?hl=en" style="background-image:url(//www.google.com/images/icons/product/wallet-32.png)" onclick="track('Help Centers', '');">
+Wallet Help
+</a>
+</li>
+</ul>
+</div>
+<div class="portal-section">
+<h2>Make your computer work better</h2>
+<ul class="portal">
+<li>
+<a href="http://support.google.com/cloudprint/?hl=en" class="noicon" onclick="track('Help Centers', '');">
+Google Cloud Print Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/pinyin/?hl=cn" style="background-image:url(//www.google.com/images/icons/product/chinese_ime-32.png)" onclick="track('Help Centers', 'ime');">
+Google Pinyin Help*
+</a>
+</li>
+<li>
+<a href="http://webaccelerator.google.com/support.html" class="noicon" onclick="track('Help Centers', 'webaccelerator');">
+Web Accelerator Help
+</a>
+</li>
+</ul>
+</div>
+<div class="portal-section">
+<h2>Connect with customers</h2>
+<ul class="portal">
+<li>
+<a href="http://support.google.com/adsense/?hl=en" style="background-image:url(//www.google.com/images/icons/product/adsense-32.png)" onclick="track('Help Centers', 'adsense');">
+AdSense Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/adwords/?hl=en" style="background-image:url(//www.google.com/images/icons/product/adwords-32.png)" onclick="track('Help Centers', 'adwords');">
+AdWords Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/affiliatenetwork/?hl=en" style="background-image:url(//www.google.com/help/hc/images/portal_affiliatenetwork.gif)" onclick="track('Help Centers', 'affiliatenetwork');">
+Affiliate Network Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/googleanalytics/?hl=en" style="background-image:url(//www.google.com/images/icons/product/analytics-32.png)" onclick="track('Help Centers', 'analytics');">
+Analytics Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/a/?hl=en" style="background-image:url(//www.google.com/help/hc/images/portal_apps.gif)" onclick="track('Help Centers', 'apps');">
+Google Apps Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/catalogs/?hl=en" style="background-image:url(http://www.google.com/images/icons/catalogs-32.gif)" onclick="track('Help Centers', 'catalogs');">
+Google Catalogs Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/checkout/sell/?hl=en" style="background-image:url(//www.google.com/images/icons/product/checkout-32.png)" onclick="track('Help Centers', 'checkoutmer');">
+Google Checkout Merchant Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/chromeos/a/?hl=en" style="background-image:url(//www.google.com/images/icons/product/chrome-32.png)" onclick="track('Help Centers', '');">
+Chromebooks for Business Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/de/?hl=en" style="background-image:url(//www.google.com/images/icons/product/doubleclick-32.gif)" onclick="track('Help Centers', 'dclk_dartenterprise');">
+DoubleClick Enterprise Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/ds/?hl=en" style="background-image:url(//www.google.com/images/icons/product/doubleclick-32.gif)" onclick="track('Help Centers', 'dclk_dartsearch');">
+DoubleClick Search Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/dfa/?hl=en" style="background-image:url(//www.google.com/images/icons/product/doubleclick-32.gif)" onclick="track('Help Centers', 'dclk_dfa');">
+DoubleClick for Advertisers Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/dfp/?hl=en" style="background-image:url(//www.google.com/images/icons/product/doubleclick-32.gif)" onclick="track('Help Centers', 'dclk_dfp');">
+DART for Publishers Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/networkbuilder/?hl=en" style="background-image:url(//www.google.com/images/icons/product/doubleclick-32.gif)" onclick="track('Help Centers', 'dclk_dnb_networks');">
+DoubleClick Network Builder Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/richmedia/?hl=en" style="background-image:url(//www.google.com/images/icons/product/doubleclick-32.gif)" onclick="track('Help Centers', 'dclk_richmedia');">
+DoubleClick Rich Media Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/offers/?hl=en" style="background-image:url(//www.google.com/images/icons/product/offers-32.png)" onclick="track('Help Centers', '');">
+Google Offers Buyer Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/offersbusiness/?hl=en" style="background-image:url(//www.google.com/images/icons/product/offers-32.png)" onclick="track('Help Centers', 'offers');">
+Google Offers Business Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/places?hl=en" style="background-image:url(//www.google.com/images/icons/small_business-32.gif)" onclick="track('Help Centers', 'places');">
+Places Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/websiteoptimizer/?hl=en" style="background-image:url(//www.google.com/images/icons/product/website_optimizer-32.png)" onclick="track('Help Centers', 'websiteoptimizer');">
+Website Optimizer Help
+</a>
+</li>
+<li>
+<a href="http://support.google.com/merchants/?hl=en" class="noicon" onclick="track('Help Centers', 'merchants');">
+Google Merchant Center Help
+</a>
+</li>
+</ul>
+</div>
+<a href="http://support.google.com/?hl=en#show-less" onclick="portalShowFullList(false)">
+Show fewer
+</a>
+</div>
+</div>
+<script>
+function portalShowFullList(showFull) {
+document.getElementById('portal-wrapper').className =
+(showFull) ? 'show-more' : 'show-less';
+track('Portal', (showFull) ? 'View full list' : 'View short list');
+}
+portalShowFullList(window.location.hash == '#show-more');
+</script>
+</div>
+<div class="clear"></div>
+</div>
+</td>
+<td class="right-column">
+<div class="clear"></div>
+<div class="p13n_box3 top-right"
+id="p13n_box"
+style="display:auto;">
+<a href="javascript:setCookies_default('p13n_box_229_EnterpriseRedirect', 1, '','30');
+hideLayer('p13n_box');
+track('P13n Box - EnterpriseRedirect', 'Hide');"
+class="hide_link">
+</a>
+<p>If you're trying to log in to the Google Enterprise Customer and Partner Site, please visit: <a href="http://support.google.com/enterprise">http://support.google.com/enterprise</a></p>
+<div id="p13n_box_content"></div>
+</div>
+<script type="text/javascript">
+var promoDisplayDict = {
+'type': "promo",
+'func': function(){
+document.getElementById("p13n_box").style.display = 'block';
+}
+};
+googlehelp.Feed.setP13nDisplayFunc(4,
+promoDisplayDict);
+</script>
+<div class="module">
+<a class="zippy zippy-expand zippy-collapse"><h2>Additional resources</h2></a>
+<ul class="combo-mod">
+<li>
+<a href="http://www.google.com/support/forum?hl=en" onclick="track('Combo Module', 'u2u');">Google Help Forum</a>
+<p class="light-subtext discussion-icon">Discuss topics with Google Guides</p>
+</li>
+<li>
+<a href="http://support.google.com/mail/bin/answer.py?hl=en&answer=1079489&topic=1075351&parent=1075350" onclick="track('Combo Module', 'gmail_gsg');">Gmail getting started guide</a>
+<p class="light-subtext">Take a tour and learn how to access all your email accounts with Gmail</p>
+</li>
+<li>
+<a href="http://support.google.com/chrome/bin/static.py?hl=en&page=guide.cs&guide=23583" onclick="track('Combo Module', 'chrome_gsg');">New to Google Chrome</a>
+<p class="light-subtext">Learn about our fast and safe browser</p>
+</li>
+<li>
+<a href="http://support.google.com/maps/bin/answer.py?answer=144352&topic=1687350" onclick="track('Combo Module', 'maps_gsg');">Maps user guide</a>
+<p class="light-subtext">User-friendly mapping technology and local business information</p>
+</li>
+</ul>
+</div>
+</td>
+</tr></table></div>
+<div class="footer-nav-streamlined">
+<p>
+<a href="http://support.google.com/bin/static.py?page=portal_contact_options.cs&hl=en" onclick="track('Footer', 'Contacting us')">Contacting Us</a>
+<form method="post" id="changelang" name="changelang"
+action="javascript:
+setCookies_default('UserLocale',
+this.document.changelang.lang.value, 'dropdown');
+track('LanguageDropdown', this.document.changelang.lang.value);"
+class="lang_dropdown">
+<label for="lang">Change language:</label>
+<select name="lang" id="lang"
+onchange="document.getElementById('changelang').submit();">
+<option value="ar" >Ø§ÙØ¹Ø±Ø¨Ù`Ø©</option>
+<option value="bg" >ÐÑ`Ð»Ð³Ð°Ñ¬ÑýÐºÐ¸</option>
+<option value="id" >Bahasa Indonesia</option>
+<option value="ca" >CatalÃ </option>
+<option value="cs" >ÄResky</option>
+<option value="sr" >Ð¡Ñ¬Ð¿ÑýÐºÐ¸</option>
+<option value="da" >Dansk</option>
+<option value="de" >Deutsch</option>
+<option value="en" selected="selected" class="selected">English (US)&lrm;</option>
+<option value="en-GB" >English (GB)&lrm;</option>
+<option value="es" >EspaÃ±ol</option>
+<option value="et" >Eesti keel</option>
+<option value="fr" >FranÃ§ais</option>
+<option value="it" >Italiano</option>
+<option value="lv" >LatvieÅ¡u</option>
+<option value="lt" >LietuviÅ³</option>
+<option value="hu" >Magyar</option>
+<option value="nl" >Nederlands</option>
+<option value="no" >Norsk</option>
+<option value="pl" >Polski</option>
+<option value="br" >PortuguÃªs (Brasil)&lrm;</option>
+<option value="hr" >Hrvatski</option>
+<option value="is" >Ãýslenska</option>
+<option value="ro" >RomÃ¢nÄ’</option>
+<option value="sk" >SlovenskÃ½</option>
+<option value="sl" >SlovenÅ¡Äýina</option>
+<option value="fi" >Suomi</option>
+<option value="sv" >Svenska</option>
+<option value="ru" >Ð Ñ’ÑýÑýÐºÐ¸Ð¹</option>
+<option value="th" >à¸ à¸²à¸©à¸²à¹à¸à¸¢</option>
+<option value="tl" >Tagalog</option>
+<option value="tr" >TÃ¼rkÃ§e</option>
+<option value="uk" >Ð£ÐºÑ¬Ð°ÑÐ½ÑýÑRÐºÐ°</option>
+<option value="el" >Î"Î»Î»Î·Î½Î¹ÎºÎ¬</option>
+<option value="iw" >×¢××¨×"×ª</option>
+<option value="hi" >à¤¹à¤¿à¤¨à¥ýà¤¦à¥¬</option>
+<option value="ur" >Ø§Ø±Ø¯ÙÆ</option>
+<option value="vi" >Tiáº¿ng Viá»!t</option>
+<option value="cn" >ä¸­æ!ï¼Æç®¬ä½ï¼0&lrm;</option>
+<option value="b5" >ä¸­æ!ï¼Æç¹ýé«ï¼0&lrm;</option>
+<option value="jp" >æ¥æS¬èª~</option>
+<option value="kr" >í"Sêµ­ì´</option>
+</select>
+</form>
+</p>
+<div><p>
+<span class="footer-copyright">
+&copy;2011 Google
+</span>
+<span>
+-
+<a href="intl/en/" onclick="track('Footer', 'GoogleHome');
+">Google Home</a>
+</span>
+<span>
+-
+<a href="intl/en/privacy.html" onclick="track('Footer', 'PrivacyPolicy');
+">Privacy Policy</a>
+</span>
+<span>
+-
+<a href="accounts/TOS_hl_en_loc_CA" onclick="track('Footer', 'Terms');
+">Terms of Service</a>
+</span>
+</p></div>
+</div>
+</div>
+<script type="text/javascript">
+googlehelp.Links.initLinks(
+['', 'NO-GMAIL', 'NO-PLUS', browser, browserGroup,
+os, osGroup, country], internal);
+if (googlehelp.initEls) {
+googlehelp.initEls(['', 'NO-GMAIL', 'NO-PLUS', browser, browserGroup,
+os, osGroup, country, countryGroup],
+userSettings, userSettingsDropdownText);
+}
+if (convertLinksToButtons) {
+convertLinksToButtons();
+}
+</script>
+<script src="http://www.google-analytics.com/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+var analytics_async = 0;
+</script>
+<script src="http://support.google.com/bin/resource/urchin_util.js?v=7" type="text/javascript"></script>
+<script type="text/javascript">
+var cookiePathArray = [];
+</script>
+<script type="text/javascript">
+urchinTracker('\x2F?hl=en');
+</script>
+<script src="http://support.google.com/bin/resource/js_validate_static.js?v=18" type="text/javascript"></script>
+<script type="text/javascript">
+track('P13n Box - EnterpriseRedirect',
+'Impression');
+setCookies_default('p13n_box_impr_229_EnterpriseRedirect',
+'1',
+'',
+'30');
+</script>
+<script type="text/javascript">
+new googlehelp.Lightbox(
+'\x26laquo\x3B Previous',
+'Next \x26raquo\x3B');
+</script>
+</body>
+</html>
