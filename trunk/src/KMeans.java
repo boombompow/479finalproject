@@ -20,9 +20,10 @@
  * Project: http://java-ml.sourceforge.net/
  * 
  */
-
+/*with modifications for COMP479 final project
+ * @author Natalie Black
+ */
 import java.util.Random;
-import java.lang.Thread;
 
 import net.sf.javaml.clustering.Clusterer;
 import net.sf.javaml.core.Dataset;
@@ -162,8 +163,8 @@ public class KMeans implements Clusterer {
 
         this.centroids = new Instance[numberOfClusters];
         int instanceLength = this.longest;
+        System.out.println("Choosing seeds");
         for (int j = 0; j < numberOfClusters; j++) {
-        	System.out.println("cluster seed " + j);
             double[] randomInstance = new double[instanceLength];
             for (int i = 0; i < instanceLength; i++) {
                 randomInstance[i] = (float) (rg.nextDouble() * max.value(i));
@@ -180,11 +181,7 @@ public class KMeans implements Clusterer {
             System.out.println("iteration " + iterationCount);
             // Assign each object to the group that has the closest centroid.
             int[] assignment = new int[data.size()];
-        	System.out.println("find closest to ");
             for (int i = 0; i < data.size(); i++) {
-            	//System.out.println("closest to " + i);
-            	//DocThread iThread = new DocThread(data.instance(i));
-            	//iThread.run();
                 int tmpCluster = 0;
                 //double minDistance = dm.measure(centroids[0], data.instance(i));
                 double minDistance = distance(centroids[0], data.instance(i));
@@ -195,10 +192,7 @@ public class KMeans implements Clusterer {
                         tmpCluster = j;
                     }
                 }
-                /*synchronized (this) {
-                	System.out.println("synch " + i);
-                  assignment[i] = iThread.getAns();
-                }*/
+
                 assignment[i] = tmpCluster;
 
             }
@@ -208,7 +202,6 @@ public class KMeans implements Clusterer {
             // current cluster.
             double[][] sumPosition = new double[this.numberOfClusters][instanceLength];
             int[] countPosition = new int[this.numberOfClusters];
-        	System.out.println("on ");
             for (int i = 0; i < data.size(); i++) {
                 Instance in = data.instance(i);
                 for (int j = 0; j < instanceLength; j++) {
@@ -227,15 +220,14 @@ public class KMeans implements Clusterer {
                         tmp[j] = (float) sumPosition[i][j] / countPosition[i];
                     }
                     Instance newCentroid = new DenseInstance(tmp);
-                    if (dm.measure(newCentroid, centroids[i]) > 0.01) {
+                    if (dm.measure(newCentroid, centroids[i]) > 0.001) {
                         centroidsChanged = true;
                         centroids[i] = newCentroid;
                     }
                 } else {
                     double[] randomInstance = new double[instanceLength];
                     for (int j = 0; j < instanceLength; j++) {
-                        double dist = Math.abs(max.value(j) - min.value(j));
-                        randomInstance[j] = (float) (min.value(j) + rg.nextDouble() * dist);
+                        randomInstance[j] = (float) (rg.nextDouble() * max.value(j));
 
                     }
                     randomCentroids = true;
@@ -272,29 +264,4 @@ public class KMeans implements Clusterer {
          return Math.sqrt(sum);
     }
 
-    private class DocThread extends Thread {
-    	Instance data;
-    	int answer;
-    	
-    	public DocThread(Instance data) {
-    	  this.data = data;
-    	}
-    	public void run() {
-    		System.out.println("starting new thread");
-    	    int tmpCluster = 0;
-            //double minDistance = dm.measure(centroids[0], data.instance(i));
-            double minDistance = distance(centroids[0], data);
-            for (int j = 1; j < centroids.length; j++) {
-                double dist = distance(centroids[j], data);
-                if (dist < minDistance) {
-                    minDistance = dist;
-                    tmpCluster = j;
-                }
-            }
-            System.out.println("done running");
-        }
-    	public int getAns(){
-    		return answer;
-    	}
-    }
 }
