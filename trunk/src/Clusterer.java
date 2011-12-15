@@ -1,3 +1,7 @@
+/* COMP479 final project
+ * clustering class
+ * @author Natalie Black
+ */
 import net.sf.javaml.core.Dataset;
 import net.sf.javaml.core.Instance;
 import net.sf.javaml.core.DefaultDataset;
