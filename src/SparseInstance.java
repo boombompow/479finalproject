@@ -47,7 +47,7 @@ import java.util.Vector;
  * @author Thomas Abeel
  * 
  */
-public class MySparseInstance extends AbstractInstance implements Instance {
+public class SparseInstance extends AbstractInstance implements Instance {
 
     /**
      * Sets the number of attributes that this sparse instance has.
@@ -59,6 +59,7 @@ public class MySparseInstance extends AbstractInstance implements Instance {
     }
 
     private HashMap<Integer, Double> data = new HashMap<Integer, Double>();
+    public String docName;
 
     private double defaultValue;
 
@@ -70,7 +71,12 @@ public class MySparseInstance extends AbstractInstance implements Instance {
     public SparseInstance() {
         this(-1);
     }
-
+    
+    public SparseInstance(String doc) {
+        this(-1);
+        this.docName = doc;
+    }
+    
     /* defaultValue will be set to 0.0, classValue to null */
     public SparseInstance(int noAttributes) {
         this(noAttributes, 0.0, null);

@@ -16,6 +16,8 @@ import java.util.Set;
 import org.xml.sax.helpers.DefaultHandler;
 
 public class Index extends DefaultHandler {
+	
+	private static Clusterer clusterer = new Clusterer();
 
 	// path to directory
 	public static final String PATH = "C:\\Users\\NADA\\Documents\\Eman\\school\\Fall_2011\\COMP479\\Main Project\\web.txt";
@@ -166,6 +168,7 @@ public class Index extends DefaultHandler {
 					postings.put(file, 1);
 					dictionary.put(word, postings);
 				}
+				clusterer.addToDocVector(word, file);
 			}
 
 		}
@@ -226,6 +229,7 @@ public class Index extends DefaultHandler {
 				+ noDistinctWords);
 		System.out.println("The total number of words indexed is: "
 				+ totalNoOfWords);
+		clusterer.makeClusters();
 
 	}
 

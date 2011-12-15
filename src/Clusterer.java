@@ -1,9 +1,7 @@
-//import net.sf.javaml.clustering.*;
 import net.sf.javaml.core.Dataset;
-import net.sf.javaml.core.SparseInstance;
+import net.sf.javaml.core.Instance;
 import net.sf.javaml.core.DefaultDataset;
 import java.util.HashMap;
-import java.util.Map;
 
 public class Clusterer {
 
@@ -12,7 +10,7 @@ public class Clusterer {
 	HashMap<String, SparseInstance> docVectors = new HashMap<String, SparseInstance>();
 	
 	private void newDoc(String docID) {
-	    docVectors.put(docID, new SparseInstance());
+	    docVectors.put(docID, new SparseInstance(docID));
 	    SparseInstance vector = docVectors.get(docID);
 	    //initialize all dimensions/words to 0.0
 	    for(Integer index : dictionary.values()) {
@@ -24,6 +22,7 @@ public class Clusterer {
 	    if(!docVectors.containsKey(docID)) { //new document?
 	        newDoc(docID);
 	    }
+	    
 	    SparseInstance vector = docVectors.get(docID);
 	    
 	    if(dictionary.containsKey(word)) {
@@ -56,12 +55,17 @@ public class Clusterer {
 		
 		Dataset data = new DefaultDataset();
 		data.addAll(docVectors.values());
-		System.out.println("Begin clustering" + data.size() + " documents");
-		System.out.println("for " + dictionary.size() + " words");
-		System.out.println(biggest.toString());
-		//KMeans km = new KMeans(3, 5, dictionary.size(), biggest, new SparseInstance(dictionary.size(), 0.0));
-		KMeansOriginal km = new KMeansOriginal(15, 2);
+		System.out.println("Begin clustering " + data.size() + " documents for " + dictionary.size() + " words");
+		int numberOfClusters = (int) Math.floor(Math.sqrt(data.size()));
+		KMeans km = new KMeans(numberOfClusters, 100, dictionary.size(), biggest, new SparseInstance(dictionary.size(), 0.0));
 		Dataset[] clusters = km.cluster(data);
-		System.out.println("Length: " + clusters.length);
+		System.out.println(clusters.length + " clusters");
+		for(Dataset cluster : clusters) {
+			System.out.println("Cluster:\n");
+		    for(Instance vec : cluster) {
+		    	SparseInstance v = (SparseInstance) vec;
+				System.out.println(v.docName);		    	
+		    }
+		}
 	}
 }
