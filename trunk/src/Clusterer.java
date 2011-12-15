@@ -2,12 +2,15 @@ import net.sf.javaml.core.Dataset;
 import net.sf.javaml.core.Instance;
 import net.sf.javaml.core.DefaultDataset;
 import java.util.HashMap;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class Clusterer {
 
 	HashMap<String, Integer> dictionary = new HashMap<String, Integer>();
 	SparseInstance biggest = new SparseInstance();
 	HashMap<String, SparseInstance> docVectors = new HashMap<String, SparseInstance>();
+        String PATH = "/home/natalie/Desktop/";
 	
 	private void newDoc(String docID) {
 	    docVectors.put(docID, new SparseInstance(docID));
@@ -55,11 +58,18 @@ public class Clusterer {
 		
 		Dataset data = new DefaultDataset();
 		data.addAll(docVectors.values());
-		System.out.println("Begin clustering " + data.size() + " documents for " + dictionary.size() + " words");
+		System.out.println("\nBegin clustering " + data.size() + " documents for " + dictionary.size() + " words");
 		int numberOfClusters = (int) Math.floor(Math.sqrt(data.size()));
-		KMeans km = new KMeans(numberOfClusters, 100, dictionary.size(), biggest, new SparseInstance(dictionary.size(), 0.0));
+		KMeans km = new KMeans(numberOfClusters, 5, dictionary.size(), biggest, new SparseInstance(dictionary.size(), 0.0));
 		Dataset[] clusters = km.cluster(data);
 		System.out.println(clusters.length + " clusters");
+		for(Dataset cluster : clusters) {
+			log("Cluster:\n");
+		    for(Instance vec : cluster) {
+		    	SparseInstance v = (SparseInstance) vec;
+				log(v.docName);		    	
+		    }
+		}
 		for(Dataset cluster : clusters) {
 			System.out.println("Cluster:\n");
 		    for(Instance vec : cluster) {
@@ -68,4 +78,16 @@ public class Clusterer {
 		    }
 		}
 	}
+    private void log(String msg) {
+    	FileWriter logger;
+    	try {
+    	    logger = new FileWriter(PATH + "clusters", true);
+    	    logger.write(msg + "\n");
+                logger.close();
+    	}
+    	catch (IOException e) {
+    	    System.err.println("IO Exception");
+    	    e.printStackTrace();
+    	}
+        }
 }
